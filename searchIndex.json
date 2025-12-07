@@ -1,7 +1,7 @@
 [
 {
 		"title": "Garden Improvements",
-		"date":"Sun Dec 07 2025 22:14:34 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sun Dec 07 2025 22:16:09 GMT+0000 (Coordinated Universal Time)",
 		"url":"/garden-improvements/",
 		"content": "Things to do:\n\nSet my own favicon instead of the default",
 		"tags": [ "note"]
@@ -9,7 +9,7 @@
 
 {
 		"title": "My first page",
-		"date":"Sun Dec 07 2025 22:14:34 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sun Dec 07 2025 22:16:09 GMT+0000 (Coordinated Universal Time)",
 		"url":"/my-first-page/",
 		"content": "Wow, this is my first page. #pages",
 		"tags": ["pages", "note"]
@@ -17,7 +17,7 @@
 
 {
 		"title": "My second page",
-		"date":"Sun Dec 07 2025 22:14:34 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sun Dec 07 2025 22:16:09 GMT+0000 (Coordinated Universal Time)",
 		"url":"/my-second-page/",
 		"content": "Wow this is my second #pages",
 		"tags": ["pages", "note"]
@@ -25,9 +25,9 @@
 
 {
 		"title": "This is the beginning",
-		"date":"Sun Dec 07 2025 22:14:34 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sun Dec 07 2025 22:16:09 GMT+0000 (Coordinated Universal Time)",
 		"url":"/",
-		"content": "of my digital garden / blog thing.\nHi.\nHere are my best articles:\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/my-first-page/\">My first page</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/my-second-page/\">My second page</a>",
+		"content": "This is the beginning\nof my digital garden / blog thing.\nHi.\nHere are my best articles:\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/my-first-page/\">My first page</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/my-second-page/\">My second page</a>",
 		"tags": [ "note","gardenEntry"]
 }
 ]
