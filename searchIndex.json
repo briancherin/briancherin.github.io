@@ -1,1 +1,9 @@
-[]
+[
+{
+		"title": "This is the beginning",
+		"date":"Sun Dec 07 2025 21:48:56 GMT+0000 (Coordinated Universal Time)",
+		"url":"/",
+		"content": "of my digital garden / blog thing.\nHi.",
+		"tags": [ "note","gardenEntry"]
+}
+]
