@@ -4,7 +4,7 @@
 
 #podcast #entrepreneurship #digitalgarden
 
-2025-12-07
+Written on: 2025-12-07
 
 Well hello there. This is my first ever attempt at an actual blog post / garden entry. Yesterday was the first day I learned of the concept of a Digital Garden, from a short bit of [this video](https://www.youtube.com/watch?v=6fj-OJ6RcNQ) (Relevant part at about 26:45 but the whole video is worth watching), which directed me to [this article](https://maggieappleton.com/garden-history) for more context on Digital Gardens. 
 
