@@ -42,4 +42,13 @@ Some nice tidbits that stuck out
 
 
 
-That's what was top on mind. I noted a couple things while listening to the podcast (I was on a walk in The Park) and I checked all them off.
+That's what was top on mind. I noted a couple things while listening to the podcast (I was on a walk in The Park) and I covered them all above.
+
+>[!danger]- Epilogue
+One final note, on my experience writing this right now... I've had the idea of starting a more traditional blog here and there, but it always felt like a big scary task, so of course I never got to it. The concept of the Digital Garden really helped me get the initiative to do it -- mainly because of the emphasis that it's a living, growing thing. 
+>
+You don't have to view an article as a one-and-done entity. I could have just wrote the first third of this page and been happy with it for now and still had it be public on the web and maybe send it to some people. I also don't have to worry about this being perfect and polished and super cohesive and meaningful... It's more of a scrapbook journaling vibe than a perfected portfolio. 
+>
+>I also feel like I don't need to be self-conscious about what material is on here -- meaning, my "first post" can be this arbitrary podcast episode that I listened to. There are seeds I need to plant in the garden that should probably come first, like giving a brief summary of who I am, or expanding more on my ideas and purposes for this site. But I can plant those seeds another day. 
+>
+Another core concept of the Digital Garden is it not being a chronological list of posts like a traditional blog -- a post I write a year ago can be just as valuable and as open to being edited as any more recent post. Just the idea of having a hierarchy of categories and tags as a way to navigate a site, rather than a time-sorted list of posts, drew me in as well. Maybe these things aren't so different from traditional blogs, but the concept just gave me the push I needed (and surely some circumstances of general life right now, or the type of energy I've had in the last few days). 
