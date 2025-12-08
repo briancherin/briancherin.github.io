@@ -70,7 +70,7 @@ And finally, on December 6, 2025, the day before I started this Digital Garden a
 >[!NOTE]
 >Digital Garden -- related to my ideas for blog / personal website / answer to my wondering about use of social media to share projects and interests and [engage?] and such
 >
-[https://maggieappleton.com/garden-history](https://maggieappleton.com/garden-history)
-Found from this good video which has other great ideas too [https://youtu.be/6fj-OJ6RcNQ](https://youtu.be/6fj-OJ6RcNQ)
+>[https://maggieappleton.com/garden-history](https://maggieappleton.com/garden-history)
+>Found from this good video which has other great ideas too [https://youtu.be/6fj-OJ6RcNQ](https://youtu.be/6fj-OJ6RcNQ)
 
   
