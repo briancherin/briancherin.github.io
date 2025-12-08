@@ -29,6 +29,7 @@ I originally came across the term bootstrapping from a random video I stumbled u
 
 So anyway, this was an interesting listen. 
 
+## Highlights
 Some nice tidbits that stuck out
 - A good callout to not be too secretive about your app idea. Probably no one is going to steal it, and even if they do, they probably won't have the same passion as you do. And there can be a lot of benefit in sharing your idea with others and having conversations about it and seeing what people might be interested in, etc. 
 	- I really needed to hear this, because I have been working on an app idea for at least a year (progress and effort has been too slow for my liking) and pretty much across the board I've been not telling people about what I'm working on -- though, that's more because I was scared that one slightly negative comment (or someone pointing out my idea already exists) would cause me to lose motivation to continue working on it, and less about someone stealing my idea. Recently, though, I've started talking about the idea to some people (because honestly it was just taking too long for me to create an MVP that I had to backtrack on the secret-keeping, perhaps in part to see if it would motivate me to work on it more frequently (it kind of has worked)). But hearing this reinforced from the podcast will certainly encourage me to do this more.
