@@ -42,8 +42,6 @@ Some nice tidbits that stuck out
 	- Always an interesting topic, but right now it made me think of the concept of Digital Gardening, since in a way, I've approached it from an alleyway of being frustrated with traditional social media not giving me the kind of platform that I've felt myself craving for a while where I can have more meaningful engagement, both letting me put content/thoughts/writing out there (god forbid me putting this post in an Instagram caption or story) and receiving feedback/commentary in response to what I've put out there (yes, I'd like to participate in the other side of PUWTPD, too), and also just having a place where I can put my stuff and feeling more secure in it lasting there forever, and not having to worry about limitations like video length or worrying about "which account" to post something on. 
 	- More directly related to what they were talking about on the podcast, though, is that the Digital Gardening concept is related to evading the "algorithm" and infinite-scrolling feeds. Blogging and longer form content in itself is an antidote to this. Engaging more deeply with specific content rather than flitting from one short video to the next. (The [video](https://www.youtube.com/watch?v=6fj-OJ6RcNQ)  I mentioned earlier talks about this and other similar antidotes)
 
-
-
 That's what was top on mind. I noted a couple things while listening to the podcast (I was on a walk in The Park) and I covered them all above.
 
 >[!danger]- Epilogue
@@ -54,3 +52,12 @@ That's what was top on mind. I noted a couple things while listening to the podc
 >>I also feel like I don't need to be self-conscious about what material is on here -- meaning, my "first post" can be this arbitrary podcast episode that I listened to. There are seeds I need to plant in the garden that should probably come first, like giving a brief summary of who I am, or expanding more on my ideas and purposes for this site. But I can plant those seeds another day. 
 >>
 >>Another core concept of the Digital Garden is it not being a chronological list of posts like a traditional blog -- a post I write a year ago can be just as valuable and as open to being edited as any more recent post. Just the idea of having a hierarchy of categories and tags as a way to navigate a site, rather than a time-sorted list of posts, drew me in as well. Maybe these things aren't so different from traditional blogs, but the concept just gave me the push I needed (and surely some circumstances of general life right now, or the type of energy I've had in the last few days). 
+
+>[!danger]- Epilogue
+> One final note, on my experience writing this right now... I've had the idea of starting a more traditional blog here and there, but it always felt like a big scary task, so of course I never got to it. The concept of the Digital Garden really helped me get the initiative to do it — mainly because of the emphasis that it's a living, growing thing.
+>
+> You don't have to view an article as a one-and-done entity. I could have just written the first third of this page and been happy with it for now and still had it be public on the web and maybe send it to some people. I also don't have to worry about this being perfect and polished and super cohesive and meaningful... It's more of a scrapbook journaling vibe than a perfected portfolio.
+>
+> I also feel like I don't need to be self-conscious about what material is on here — meaning, my "first post" can be this arbitrary podcast episode that I listened to. There are seeds I need to plant in the garden that should probably come first, like giving a brief summary of who I am, or expanding more on my ideas and purposes for this site. But I can plant those seeds another day.
+>
+> Another core concept of the Digital Garden is it not being a chronological list of posts like a traditional blog — a post I write a year ago can be just as valuable and as open to being edited as any more recent post. Just the idea of having a hierarchy of categories and tags as a way to navigate a site, rather than a time-sorted list of posts, drew me in as well. Maybe these things aren't so different from traditional blogs, but the concept just gave me the push I needed (and surely some circumstances of general life right now, or the type of energy I've had in the last few days).
