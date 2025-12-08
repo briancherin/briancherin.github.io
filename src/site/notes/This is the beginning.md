@@ -12,16 +12,26 @@ Here are my best articles:
 [[My first page\|My first page]]
 [[My second page\|My second page]]
 
+<button id="random-note-button">🎲 Go to Random Note</button>
 
-<div id="random-note">Loading…</div>
 <script>
-(async () => {
+let notes = null;
+
+async function loadNotes() {
+  if (notes) return notes;
   const res = await fetch("/searchIndex.json");
-  const entries = await res.json();
-  const pages = entries.map(e => e.url);
-  const random = pages[Math.floor(Math.random() * pages.length)];
-  document.getElementById("random-note").innerHTML =
-    `<a href="${random}">🎲 Random Note</a>`;
-})();
+  const data = await res.json();
+  notes = data.map(e => e.url);
+  return notes;
+}
+
+async function goToRandomNote() {
+  const notes = await loadNotes();
+  const random = notes[Math.floor(Math.random() * notes.length)];
+  window.location.href = random;
+}
+
+document.getElementById("random-note-button")
+  .addEventListener("click", goToRandomNote);
 </script>
 
