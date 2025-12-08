@@ -9,7 +9,7 @@ I originally hosted it using a webhost called 000webhost (I don't think it exist
 https://briancherin.github.io/brianiscool/
 
 Scavenger hunt / things to watch out for:
-- Random color generator
+- Random color generator (not on the homepage!)
 - Farm animal game (weirdly fun but eventually not balanced)
 - Bee Haven game (warning that this is not particularly mobile-friendly but it'll still work)
 - Try not to fall into the Trap (the curse of 100 alert dialogs)
