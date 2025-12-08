@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/","title":"\"1 Second Everyday\" - Indie Hackers Podcast"}
 ---
 
 #podcast #entrepreneurship #digitalgarden
