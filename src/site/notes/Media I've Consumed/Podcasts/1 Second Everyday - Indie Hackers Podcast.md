@@ -2,22 +2,9 @@
 {"dg-publish":true,"permalink":"/media-i-ve-consumed/podcasts/1-second-everyday-indie-hackers-podcast/"}
 ---
 
-Podcast source: https://www.indiehackers.com/podcast/141-cesar-kuriyama-of-1-second-everyday
-
-Article through which I found this podcast: https://web.archive.org/web/20250327004843/https://www.swyx.io/puwtpd
-
-
-Some notes I took while listening to the podcast that I want to mention
-- [ ] 44 min comment about what tweet to change your life
-- [x] Inspire to watch chef
-- [ ] Book art of non conformity
-- [x] Backlink to the article that ljnked the podcast
-- [ ] Discussed better form of social media - fast food metaphor
-
-
-___________
 #podcast #entrepreneurship #digitalgarden
 
+2025-12-07
 
 Well hello there. This is my first ever attempt at an actual blog post / garden entry. Yesterday was the first day I learned of the concept of a Digital Garden, from a short bit of [this video](https://www.youtube.com/watch?v=6fj-OJ6RcNQ) (Relevant part at about 26:45 but the whole video is worth watching), which directed me to [this article](https://maggieappleton.com/garden-history) for more context on Digital Gardens. 
 
@@ -34,4 +21,25 @@ I have done something similar in the past with an outdated, possibly-no-longer-s
 
 What drew me to listen to the podcast was that the PUWTPD article mentioned that the app had been featured in the movie Chef ^[(a movie I've watched probably twice but only once really in my recent memory i.e. in the last five years -- great movie, and I'm feeling inspired to watch it again because of the discussion on this podcast)], which came about because the app's creator tweeted to Jon Favreau about something unrelated to the app, and then Jon Favreau found and liked the app via his profile. 
 
-The actual key word, though, that made me want to listen was "bootstrapping". I love this term. I have a lot of feelings about it. I'm not joking. And I am talking about it in its intended context in this podcast.  
+The actual key word, though, that made me want to listen was "bootstrapping". I love this term. It kind of makes me feel warm inside, in a nice way. I'm not joking. And I am talking about it in its intended context in this podcast.  
+
+Bootstrapping is when you develop an app/website/service/project, probably with the goal of making some income from it, without going the "traditional" route of raising money via investors of venture capitalists or similar. Instead, you kind of just go and make the thing and find ways to monetize it and organically grow it. I'm no expert here, and in fact, I think I'm likely to listen to more episodes of the Indie Hackers podcast in the future, because this is exactly up my alley. 
+
+I originally came across the term bootstrapping from a random video I stumbled upon (or maybe not so random) ^[(TODO: Find this video and link it)] of this guy giving a talk... It stuck with me, though I haven't exactly followed it -- not yet at least. I intend to. ^[Given what goes on in my mind and with projects that I pursue, I would be surprised if I'm not making a decisive effort (and hopefully succeeding) to generate passive income from a bootstrapped app/website ]
+
+So anyway, this was an interesting listen. 
+
+Some nice tidbits that stuck out
+- A good callout to not be too secretive about your app idea. Probably no one is going to steal it, and even if they do, they probably won't have the same passion as you do. And there can be a lot of benefit in sharing your idea with others and having conversations about it and seeing what people might be interested in, etc. 
+	- I really needed to hear this, because I have been working on an app idea for at least a year (progress and effort has been too slow for my liking) and pretty much across the board I've been not telling people about what I'm working on -- though, that's more because I was scared that one slightly negative comment (or someone pointing out my idea already exists) would cause me to lose motivation to continue working on it, and less about someone stealing my idea. Recently, though, I've started talking about the idea to some people (because honestly it was just taking too long for me to create an MVP that I had to backtrack on the secret-keeping, perhaps in part to see if it would motivate me to work on it more frequently (it kind of has worked)). But hearing this reinforced from the podcast will certainly encourage me to do this more.
+- There was an interesting comment around the 44 minute mark when they were talking about the tweet to Jon Favreau. The app founder said that there's probably some tweet that anyone could make right now which could change their whole life. You would just need to identify what that tweet would be.
+	- This kind of thought gives me chills. I find I want to believe it's true. It might take a billion alternate universe scenarios to find what that one tweet would be, but there probably is one out there. (Noting that it'd be easier to find a tweet that could destroy your life rather than generate tremendous positive change -- the latter case makes me shudder, rather than positive chills, with a sort of call-of-the-void^["The call of the void describes the sudden, unexplained desire to participate in dangerous or self-destructive behaviors" ([source](https://health.clevelandclinic.org/call-of-the-void) ) It's scary how easy it might be to ruin your own life.] type feeling.)
+	- This gives me similar vibes to thinking about the butterfly effect. You can track one small action in the past to where you are now. The tweet thing is kind of like a future projection of this. Maybe the tweet sets off a chain of events (like attracting the attention of a movie director on your app).
+- There was a mention of the book [The Art of Non-Conformity](https://www.goodreads.com/book/show/8978488-the-art-of-non-conformity) (don't remember the exact context in the podcast around it - something related to running your own business rather than working within a corporation I think). I checked and it was already on my to-read list. Seems like something I would like reading and would get something out of.
+- Towards the end of the podcast, there was a discussion about future forms of social media, and what a "better" version of it would be. A platform that doesn't want you to just scroll infinitely so that you see more ads, or get more data collected about you. (This was in the context of the 1 Second Everyday app possibly having a form of feed / social media integrated in it in the future (and making it the "better" form). This podcast is a few years old, so maybe this is already a thing in the app.)
+	- Always an interesting topic, but right now it made me think of the concept of Digital Gardening, since in a way, I've approached it from an alleyway of being frustrated with traditional social media not giving me the kind of platform that I've felt myself craving for a while where I can have more meaningful engagement, both letting me put content/thoughts/writing out there (god forbid me putting this post in an Instagram caption or story) and receiving feedback/commentary in response to what I've put out there (yes, I'd like to participate in the other side of PUWTPD, too), and also just having a place where I can put my stuff and feeling more secure in it lasting there forever, and not having to worry about limitations like video length or worrying about "which account" to post something on. 
+	- More directly related to what they were talking about on the podcast, though, is that the Digital Gardening concept is related to evading the "algorithm" and infinite-scrolling feeds. Blogging and longer form content in itself is an antidote to this. Engaging more deeply with specific content rather than flitting from one short video to the next. (The [video](https://www.youtube.com/watch?v=6fj-OJ6RcNQ)  I mentioned earlier talks about this and other similar antidotes)
+
+
+
+That's what was top on mind. I noted a couple things while listening to the podcast (I was on a walk in The Park) and I checked all them off.
