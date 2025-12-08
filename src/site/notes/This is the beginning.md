@@ -24,6 +24,9 @@ async function loadNotes() {
 async function goToRandomNote() {
   const notes = await loadNotes();
   const random = notes[Math.floor(Math.random() * notes.length)];
+  if (random == "/") {
+	  await goToRandomNote();
+  }
   window.location.href = random;
 }
 
