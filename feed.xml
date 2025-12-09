@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-09T23:22:01Z</updated>
+    <updated>2025-12-09T23:23:18Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -45,6 +45,30 @@ document.getElementById(&quot;random-note-button&quot;)
 
             </content>
             <link href="https://briancherin.github.io/" />
+        </entry>
+        <entry>
+            <title>
+                Specific Main App Pursuit I&#39;m Currently Working On
+                
+            </title>
+            <updated>2025-12-09T23:21:59.874Z</updated>
+            <id>https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/</id>
+            <content type="html">
+                
+            </content>
+            <link href="https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/" />
+        </entry>
+        <entry>
+            <title>
+                Restaurant AI VR Simulation
+                
+            </title>
+            <updated>2025-12-09T23:22:03.879Z</updated>
+            <id>https://briancherin.github.io/projects/software/restaurant-ai-vr-simulation/</id>
+            <content type="html">
+                
+            </content>
+            <link href="https://briancherin.github.io/projects/software/restaurant-ai-vr-simulation/" />
         </entry>
         <entry>
             <title>
@@ -273,7 +297,7 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
 &lt;p&gt;I kinda agree/vibe with this and kind of don&#39;t.&lt;/p&gt;
 &lt;p&gt;The idea of &amp;quot;falling downhill&amp;quot; feels extremely relevant to me. I have a lot of interests and hobbies and pursuits, and I love the feeling when working on one of them is an easy thing to do. I&#39;ve felt this way recently with writing (like, blog writing, i.e. Here) and piano (either practicing easy sheet music, or doing simple improvisation). Blogging/writing Here feels quite productive in the scheme of my pursuits, and I&#39;m kind of surprising myself at how easy it feels.&lt;/p&gt;
 &lt;p&gt;On the other hand, I have pursuits that I feel are high importance to me that aren&#39;t as easy and that do require more discipline. However I disagree with Mister Green here because I view myself as obligated to pursue these areas, even if I wouldn&#39;t go as far as saying I&#39;d feel like a &amp;quot;monster&amp;quot; to ignore them.&lt;/p&gt;
-&lt;p&gt;That being said, I do feel some resonance with the &amp;quot;monster&amp;quot; thing. My &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://briancherin.github.io/404&quot; target=&quot;&quot;&gt;Specific Main App Pursuit I&#39;m Currently Working On&lt;/a&gt; is not the easiest thing for me to work on&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; but I tell myself it&#39;s really important for me to work on because I feel like it can have a high impact on myself and potentially others if I (hopefully) publish it some day. I would kind of feel terrible (/monster) about myself, to myself, if I didn&#39;t give this a fair shot. However, it does feel uphill at times because of the energy required to work on it. But I do have the toolkit. So maybe it&#39;s just a circumstantial thing that makes this a hard project for me.&lt;/p&gt;
+&lt;p&gt;That being said, I do feel some resonance with the &amp;quot;monster&amp;quot; thing. My &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/&quot;&gt;Specific Main App Pursuit I&#39;m Currently Working On&lt;/a&gt; is not the easiest thing for me to work on&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; but I tell myself it&#39;s really important for me to work on because I feel like it can have a high impact on myself and potentially others if I (hopefully) publish it some day. I would kind of feel terrible (/monster) about myself, to myself, if I didn&#39;t give this a fair shot. However, it does feel uphill at times because of the energy required to work on it. But I do have the toolkit. So maybe it&#39;s just a circumstantial thing that makes this a hard project for me.&lt;/p&gt;
 &lt;p&gt;But still, I have other areas of pursuit that aren&#39;t &amp;quot;easy&amp;quot; to me but that I would love to get around to working on. Maybe this wording reveals something though -- &amp;quot;get around to&amp;quot;. Not necessarily working on them &lt;em&gt;right now&lt;/em&gt;, instantaneously. Mister Green implies that at any given moment, he falls downhill. But perhaps something that is uphill right now could be downhill in the future. So, I wait for the right time to work on this other pursuit, because in the future it may become easier. On the one hand, this can be a way to procrastinate (which is why the &amp;quot;monster&amp;quot; thing is important -- there are exceptions where I can enforce that discipline). But on the other hand, it respects my energy and removes possibly unnecessary friction in life (and in hobbies that are supposed to be for fun and relaxation and etc).&lt;/p&gt;
 &lt;p&gt;Still, though, I&#39;m a strong believer in &amp;quot;embrace discomfort&amp;quot;. Always doing the easiest thing doesn&#39;t feel like it aligns with this.&lt;/p&gt;
 &lt;p&gt;A couple other thoughts&lt;/p&gt;
@@ -285,7 +309,7 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
-&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;(though, that&#39;s partly because my coding energy gets sucked up by my day job -- counterargument to this is that I sometimes have other small coding ideas that are super fun and super easy, like my &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://briancherin.github.io/404&quot; target=&quot;&quot;&gt;Restaurant AI VR Simulation&lt;/a&gt; mini-project (though, I worked on this during a holiday from work)) &lt;a href=&quot;https://briancherin.github.io/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;(though, that&#39;s partly because my coding energy gets sucked up by my day job -- counterargument to this is that I sometimes have other small coding ideas that are super fun and super easy, like my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/restaurant-ai-vr-simulation/&quot;&gt;Restaurant AI VR Simulation&lt;/a&gt; mini-project (though, I worked on this during a holiday from work)) &lt;a href=&quot;https://briancherin.github.io/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -325,7 +349,7 @@ I&#39;m in a larger awkward period right now where I haven&#39;t done this in (I
 &lt;ul&gt;
 &lt;li&gt;A good callout to not be too secretive about your app idea. Probably no one is going to steal it, and even if they do, they probably won&#39;t have the same passion as you do. And there can be a lot of benefit in sharing your idea with others and having conversations about it and seeing what people might be interested in, etc.
 &lt;ul&gt;
-&lt;li&gt;I really needed to hear this, because I have been working on an app idea (&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://briancherin.github.io/404&quot; target=&quot;&quot;&gt;Specific Main App Pursuit I&#39;m Currently Working On&lt;/a&gt;) for at least a year (progress and effort have been too slow for my liking) and pretty much across the board I&#39;ve been not telling people about what I&#39;m working on -- though, that&#39;s more because I was scared that one slightly negative comment (or someone pointing out my idea already exists) would cause me to lose motivation to continue working on it, and less about someone stealing my idea.&lt;/li&gt;
+&lt;li&gt;I really needed to hear this, because I have been working on an app idea (&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/&quot;&gt;Specific Main App Pursuit I&#39;m Currently Working On&lt;/a&gt;) for at least a year (progress and effort have been too slow for my liking) and pretty much across the board I&#39;ve been not telling people about what I&#39;m working on -- though, that&#39;s more because I was scared that one slightly negative comment (or someone pointing out my idea already exists) would cause me to lose motivation to continue working on it, and less about someone stealing my idea.&lt;/li&gt;
 &lt;li&gt;Recently, though, I&#39;ve started talking about the idea to some people (because honestly it was just taking too long for me to create an MVP that I had to backtrack on the secret-keeping, perhaps in part to see if it would motivate me to work on it more frequently (it kind of has worked)). But hearing this reinforced from the podcast will certainly encourage me to do this more.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
