@@ -46,6 +46,12 @@ No issues with this one! It gives some extraneous suggestions about my clearly e
 ![dontspearphishme-example3.png](/img/user/Meta/On%20Blogging/Assets/Images/dontspearphishme-example3.png)
 
 
+## Areas for improvement
+- Add a command to run an audit for every file in the vault individually and get a summary of suggested fixes for each
+- Add a command to do a comprehensive audit across the whole vault, in case little bits of information in each file add up to a bigger picture (violating your privacy) which wouldn't be revealed within just one file. (This may be complicated since all the files won't fit in one GPT context window. There'd have to be some processing.)
+- Add a similar audit to the Github pipeline that actually gets triggered when I publish a note, so I don't have to remember to manually run the audit within Obsidian. If there is a critical warning, maybe fail the job, or maybe just alert me somehow.
+
+
 ## Concluding words
 
 I have a feeling I might think of other AI-related Obsidian plugins in the future.
