@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/this-is-the-beginning/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/this-is-the-beginning/","tags":["gardenEntry"],"created":"2025-12-07T16:43:50.597-05:00","updated":"2025-12-08T21:03:54.993-05:00"}
 ---
 
 # This is the beginning
@@ -34,3 +34,8 @@ document.getElementById("random-note-button")
   .addEventListener("click", goToRandomNote);
 </script>
 
+
+
+
+_____________
+[Send me a comment!](https://forms.gle/B5rkQCYMBTHrR6fDA)
