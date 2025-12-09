@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/","created":"2025-12-08T18:16:54.756-05:00","updated":"2025-12-08T20:26:11.549-05:00"}
+{"dg-publish":true,"permalink":"/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/","created":"2025-12-08T18:16:54.756-05:00","updated":"2025-12-09T18:28:11.160-05:00"}
 ---
 
-#digitalgarden #obsidian #cybersecurity #privacy #project #coding
+#digitalgarden #obsidian #cybersecurity #privacy #project #coding #miniproject
 
 Anytime I make a new public appearance (like making a new social media account, or this blog) I ask myself: am I revealing too much about myself to the Internet? I have some background in cybersecurity (meaning: a handful of classes at university), so I have some mental framework that lets me contemplate the consequences of having information about myself online.
 
