@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://briancherin.github.io/">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://briancherin.github.io">
     <title>Digital Garden</title>
-    <link href="https://briancherin.github.io//feed.xml" rel="self" >
-    <link href="https://briancherin.github.io/" >
-    <updated>2025-12-09T01:57:08Z</updated>
-    <id>https://briancherin.github.io/</id>
+    <link href="https://briancherin.github.io/feed.xml" rel="self" >
+    <link href="https://briancherin.github.io" >
+    <updated>2025-12-09T01:57:28Z</updated>
+    <id>https://briancherin.github.io</id>
         <entry>
             <title>
                 This is the beginning
                 
             </title>
-            <updated>2025-12-09T01:56:55Z</updated>
-            <id>https://briancherin.github.io//</id>
+            <updated>2025-12-09T01:57:17Z</updated>
+            <id>https://briancherin.github.io/</id>
             <content type="html">
                 &lt;h1 id=&quot;this-is-the-beginning&quot; tabindex=&quot;-1&quot;&gt;This is the beginning&lt;/h1&gt;
 &lt;p&gt;of my digital garden / blog thing.&lt;/p&gt;
@@ -42,15 +42,15 @@ document.getElementById(&quot;random-note-button&quot;)
 &lt;/script&gt;
 
             </content>
-            <link href="https://briancherin.github.io//" >
+            <link href="https://briancherin.github.io/" >
         </entry>
         <entry>
             <title>
                 Mini Projects
                 
             </title>
-            <updated>2025-12-09T01:56:55Z</updated>
-            <id>https://briancherin.github.io//projects/software/mini-projects/</id>
+            <updated>2025-12-09T01:57:17Z</updated>
+            <id>https://briancherin.github.io/projects/software/mini-projects/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -58,15 +58,15 @@ document.getElementById(&quot;random-note-button&quot;)
 &lt;/ul&gt;
 
             </content>
-            <link href="https://briancherin.github.io//projects/software/mini-projects/" >
+            <link href="https://briancherin.github.io/projects/software/mini-projects/" >
         </entry>
         <entry>
             <title>
                 brianiscool.tk
                 
             </title>
-            <updated>2025-12-09T01:56:55Z</updated>
-            <id>https://briancherin.github.io//projects/really-old-projects/brianiscool-tk/</id>
+            <updated>2025-12-09T01:57:17Z</updated>
+            <id>https://briancherin.github.io/projects/really-old-projects/brianiscool-tk/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This website was one of the first coding projects I worked on, back in high school. My version of a portfolio but a bit silly.&lt;/p&gt;
@@ -81,15 +81,15 @@ document.getElementById(&quot;random-note-button&quot;)
 &lt;/ul&gt;
 
             </content>
-            <link href="https://briancherin.github.io//projects/really-old-projects/brianiscool-tk/" >
+            <link href="https://briancherin.github.io/projects/really-old-projects/brianiscool-tk/" >
         </entry>
         <entry>
             <title>
                 Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)
                 
             </title>
-            <updated>2025-12-09T01:56:55Z</updated>
-            <id>https://briancherin.github.io//meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/</id>
+            <updated>2025-12-09T01:57:17Z</updated>
+            <id>https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#obsidian&quot;&gt;#obsidian&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cybersecurity&quot;&gt;#cybersecurity&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#privacy&quot;&gt;#privacy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Anytime I make a new public appearance (like making a new social media account, or this blog) I ask myself: am I revealing too much about myself to the Internet? I have some background in cybersecurity (meaning: a handful of classes at university), so I have some mental framework that lets me contemplate the consequences of having information about myself online.&lt;/p&gt;
@@ -130,15 +130,15 @@ document.getElementById(&quot;random-note-button&quot;)
 &lt;p&gt;I have a feeling I might think of other AI-related Obsidian plugins in the future.&lt;/p&gt;
 
             </content>
-            <link href="https://briancherin.github.io//meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/" >
+            <link href="https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/" >
         </entry>
         <entry>
             <title>
                 My Past Self Telling Me To Start a Blog
                 
             </title>
-            <updated>2025-12-09T01:56:55Z</updated>
-            <id>https://briancherin.github.io//meta/on-blogging/my-past-self-telling-me-to-start-a-blog/</id>
+            <updated>2025-12-09T01:57:17Z</updated>
+            <id>https://briancherin.github.io/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/</id>
             <content type="html">
                 &lt;p&gt;Digging in the archives of my Google Keep notes:&lt;/p&gt;
 &lt;p&gt;From May 5, 2018:&lt;/p&gt;
@@ -204,15 +204,15 @@ Found from this good video which has other great ideas too &lt;a href=&quot;http
 &lt;/blockquote&gt;
 
             </content>
-            <link href="https://briancherin.github.io//meta/on-blogging/my-past-self-telling-me-to-start-a-blog/" >
+            <link href="https://briancherin.github.io/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/" >
         </entry>
         <entry>
             <title>
                 Obsidian Setup
                 
             </title>
-            <updated>2025-12-09T01:56:55Z</updated>
-            <id>https://briancherin.github.io//meta/obsidian-setup/</id>
+            <updated>2025-12-09T01:57:17Z</updated>
+            <id>https://briancherin.github.io/meta/obsidian-setup/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#obsidian&quot;&gt;#obsidian&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Most of the setup for this blog is handled by the  &lt;a href=&quot;https://github.com/oleeskild/Obsidian-Digital-Garden&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Obsidian Digital Garden plugin&lt;/a&gt;.&lt;/p&gt;
@@ -220,15 +220,15 @@ Found from this good video which has other great ideas too &lt;a href=&quot;http
 &lt;p&gt;Following the &lt;a href=&quot;https://dg-docs.ole.dev/advanced/adding-custom-components&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;custom components&lt;/a&gt; guide for the DG plugin, I added the link to my feedback form using a footer component which I manually added in &lt;code&gt;src/site/_includes/components/user/notes/footer/feedback-form.njk&lt;/code&gt; (&lt;a href=&quot;https://github.com/briancherin/briancherin.github.io/blob/main/src/site/_includes/components/user/notes/footer/feedback-form.njk&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github link&lt;/a&gt;)&lt;/p&gt;
 
             </content>
-            <link href="https://briancherin.github.io//meta/obsidian-setup/" >
+            <link href="https://briancherin.github.io/meta/obsidian-setup/" >
         </entry>
         <entry>
             <title>
                 Garden Improvements
                 
             </title>
-            <updated>2025-12-09T01:56:55Z</updated>
-            <id>https://briancherin.github.io//meta/garden-improvements/</id>
+            <updated>2025-12-09T01:57:17Z</updated>
+            <id>https://briancherin.github.io/meta/garden-improvements/</id>
             <content type="html">
                 &lt;p&gt;Things to do:&lt;/p&gt;
 &lt;ul class=&quot;task-list&quot;&gt;
@@ -244,15 +244,15 @@ Found from this good video which has other great ideas too &lt;a href=&quot;http
 &lt;/ul&gt;
 
             </content>
-            <link href="https://briancherin.github.io//meta/garden-improvements/" >
+            <link href="https://briancherin.github.io/meta/garden-improvements/" >
         </entry>
         <entry>
             <title>
                 1 Second Everyday - Indie Hackers Podcast
                 
             </title>
-            <updated>2025-12-09T01:56:55Z</updated>
-            <id>https://briancherin.github.io//media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/</id>
+            <updated>2025-12-09T01:57:17Z</updated>
+            <id>https://briancherin.github.io/media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#podcast&quot;&gt;#podcast&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#entrepreneurship&quot;&gt;#entrepreneurship&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Written on: 2025-12-07&lt;/p&gt;
@@ -323,6 +323,6 @@ One final note, on my experience writing this right now (spent about 1hr 45 min 
 &lt;/section&gt;
 
             </content>
-            <link href="https://briancherin.github.io//media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/" >
+            <link href="https://briancherin.github.io/media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/" >
         </entry>
 </feed>
