@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-09T23:23:18Z</updated>
+    <updated>2025-12-09T23:24:56Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -51,10 +51,11 @@ document.getElementById(&quot;random-note-button&quot;)
                 Specific Main App Pursuit I&#39;m Currently Working On
                 
             </title>
-            <updated>2025-12-09T23:21:59.874Z</updated>
+            <updated>2025-12-09T23:24:30.133Z</updated>
             <id>https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/</id>
             <content type="html">
-                
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
+
             </content>
             <link href="https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/" />
         </entry>
@@ -63,10 +64,11 @@ document.getElementById(&quot;random-note-button&quot;)
                 Restaurant AI VR Simulation
                 
             </title>
-            <updated>2025-12-09T23:22:03.879Z</updated>
+            <updated>2025-12-09T23:24:27.222Z</updated>
             <id>https://briancherin.github.io/projects/software/restaurant-ai-vr-simulation/</id>
             <content type="html">
-                
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
+
             </content>
             <link href="https://briancherin.github.io/projects/software/restaurant-ai-vr-simulation/" />
         </entry>
