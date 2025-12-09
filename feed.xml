@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-09T23:28:30Z</updated>
+    <updated>2025-12-09T23:30:04Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -64,10 +64,10 @@ document.getElementById(&quot;random-note-button&quot;)
                 Restaurant AI VR Simulation
                 
             </title>
-            <updated>2025-12-09T23:24:27.222Z</updated>
+            <updated>2025-12-09T23:28:18.794Z</updated>
             <id>https://briancherin.github.io/projects/software/mini-projects/restaurant-ai-vr-simulation/</id>
             <content type="html">
-                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#miniproject&quot;&gt;#miniproject&lt;/a&gt;&lt;/p&gt;
 
             </content>
             <link href="https://briancherin.github.io/projects/software/mini-projects/restaurant-ai-vr-simulation/" />
@@ -77,11 +77,11 @@ document.getElementById(&quot;random-note-button&quot;)
                 Mini Projects
                 
             </title>
-            <updated>2025-12-09T23:27:34.196Z</updated>
+            <updated>2025-12-09T23:29:44.201Z</updated>
             <id>https://briancherin.github.io/projects/software/mini-projects/mini-projects/</id>
             <content type="html">
-                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#miniproject&quot;&gt;#miniproject&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;block-language-dataview&quot;&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/&quot;&gt;Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/mini-projects/restaurant-ai-vr-simulation/&quot;&gt;Restaurant AI VR Simulation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -117,10 +117,10 @@ document.getElementById(&quot;random-note-button&quot;)
                 Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)
                 
             </title>
-            <updated>2025-12-09T01:26:11.549Z</updated>
+            <updated>2025-12-09T23:28:11.160Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/</id>
             <content type="html">
-                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#obsidian&quot;&gt;#obsidian&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cybersecurity&quot;&gt;#cybersecurity&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#privacy&quot;&gt;#privacy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#obsidian&quot;&gt;#obsidian&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cybersecurity&quot;&gt;#cybersecurity&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#privacy&quot;&gt;#privacy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#miniproject&quot;&gt;#miniproject&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Anytime I make a new public appearance (like making a new social media account, or this blog) I ask myself: am I revealing too much about myself to the Internet? I have some background in cybersecurity (meaning: a handful of classes at university), so I have some mental framework that lets me contemplate the consequences of having information about myself online.&lt;/p&gt;
 &lt;p&gt;There&#39;s a little voice in my head saying not to publish an article with this title (&amp;quot;please don&#39;t spearphish me&amp;quot;) because it might act as reverse psychology and give someone the idea to do it just because I mentioned it. Please don&#39;t be that person.&lt;/p&gt;
 &lt;p&gt;Anyway, my point here is that I&#39;m building some level of a safeguard for myself. A tool that might help me catch myself before revealing too much.&lt;/p&gt;
