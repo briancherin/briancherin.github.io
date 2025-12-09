@@ -3,7 +3,7 @@
     <title>Digital Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" >
     <link href="https://briancherin.github.io" >
-    <updated>2025-12-09T02:04:18Z</updated>
+    <updated>2025-12-09T02:06:48Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -51,7 +51,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 Mini Projects
                 
             </title>
-            <updated>2025-12-09T02:04:08Z</updated>
+            <updated>2025-12-09T02:06:36Z</updated>
             <id>https://briancherin.github.io/projects/software/mini-projects/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
@@ -67,7 +67,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 brianiscool.tk
                 
             </title>
-            <updated>2025-12-09T02:04:08Z</updated>
+            <updated>2025-12-09T02:06:36Z</updated>
             <id>https://briancherin.github.io/projects/really-old-projects/brianiscool-tk/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
@@ -90,7 +90,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)
                 
             </title>
-            <updated>2025-12-09T02:04:08Z</updated>
+            <updated>2025-12-09T02:06:36Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#obsidian&quot;&gt;#obsidian&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cybersecurity&quot;&gt;#cybersecurity&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#privacy&quot;&gt;#privacy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt;&lt;/p&gt;
@@ -139,7 +139,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 My Past Self Telling Me To Start a Blog
                 
             </title>
-            <updated>2025-12-09T02:04:08Z</updated>
+            <updated>2025-12-09T02:06:36Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/</id>
             <content type="html">
                 &lt;p&gt;Digging in the archives of my Google Keep notes:&lt;/p&gt;
@@ -213,7 +213,7 @@ Found from this good video which has other great ideas too &lt;a href=&quot;http
                 Obsidian Setup
                 
             </title>
-            <updated>2025-12-09T02:04:08Z</updated>
+            <updated>2025-12-09T02:06:36Z</updated>
             <id>https://briancherin.github.io/meta/obsidian-setup/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#obsidian&quot;&gt;#obsidian&lt;/a&gt;&lt;/p&gt;
@@ -229,7 +229,7 @@ Found from this good video which has other great ideas too &lt;a href=&quot;http
                 Garden Improvements
                 
             </title>
-            <updated>2025-12-09T02:04:08Z</updated>
+            <updated>2025-12-09T02:06:26.324Z</updated>
             <id>https://briancherin.github.io/meta/garden-improvements/</id>
             <content type="html">
                 &lt;p&gt;Things to do:&lt;/p&gt;
@@ -243,6 +243,7 @@ Found from this good video which has other great ideas too &lt;a href=&quot;http
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_3&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_3&quot;&gt; make it so the date published and date last updated appears on pages&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_4&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_4&quot;&gt; make a list of my hobbies/interests (and then eventually link pages/folders from them)&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_5&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_5&quot;&gt; be able to see page view count (analytics)&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_6&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_6&quot;&gt; Fix /feed.xml so it can generate RSS feed. There&#39;s an issue with the html snippet on the homepage for the &#39;random note&#39; button&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
@@ -253,7 +254,7 @@ Found from this good video which has other great ideas too &lt;a href=&quot;http
                 1 Second Everyday - Indie Hackers Podcast
                 
             </title>
-            <updated>2025-12-09T02:04:08Z</updated>
+            <updated>2025-12-09T02:06:36Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#podcast&quot;&gt;#podcast&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#entrepreneurship&quot;&gt;#entrepreneurship&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt;&lt;/p&gt;
