@@ -3,14 +3,14 @@
     <title>Digital Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-09T02:21:34Z</updated>
+    <updated>2025-12-09T02:24:30Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
                 This is the beginning
                 
             </title>
-            <updated>2025-12-09T02:06:59.183Z</updated>
+            <updated>2025-12-09T02:15:47.876Z</updated>
             <id>https://briancherin.github.io/</id>
             <content type="html">
                 &lt;h1 id=&quot;this-is-the-beginning&quot; tabindex=&quot;-1&quot;&gt;This is the beginning&lt;/h1&gt;
@@ -51,7 +51,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 Mini Projects
                 
             </title>
-            <updated>2025-12-09T02:21:22Z</updated>
+            <updated>2025-12-08T23:56:04.938Z</updated>
             <id>https://briancherin.github.io/projects/software/mini-projects/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
@@ -67,7 +67,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 brianiscool.tk
                 
             </title>
-            <updated>2025-12-09T02:21:22Z</updated>
+            <updated>2025-12-09T00:02:55.577Z</updated>
             <id>https://briancherin.github.io/projects/really-old-projects/brianiscool-tk/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
@@ -90,7 +90,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)
                 
             </title>
-            <updated>2025-12-09T02:21:22Z</updated>
+            <updated>2025-12-09T01:26:11.549Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#obsidian&quot;&gt;#obsidian&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cybersecurity&quot;&gt;#cybersecurity&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#privacy&quot;&gt;#privacy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt;&lt;/p&gt;
@@ -139,7 +139,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 My Past Self Telling Me To Start a Blog
                 
             </title>
-            <updated>2025-12-09T02:21:22Z</updated>
+            <updated>2025-12-08T18:42:48.890Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/</id>
             <content type="html">
                 &lt;p&gt;Digging in the archives of my Google Keep notes:&lt;/p&gt;
@@ -213,13 +213,18 @@ Found from this good video which has other great ideas too &lt;a href=&quot;http
                 Obsidian Setup
                 
             </title>
-            <updated>2025-12-09T02:21:22Z</updated>
+            <updated>2025-12-09T02:23:37.876Z</updated>
             <id>https://briancherin.github.io/meta/obsidian-setup/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#obsidian&quot;&gt;#obsidian&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Most of the setup for this blog is handled by the  &lt;a href=&quot;https://github.com/oleeskild/Obsidian-Digital-Garden&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Obsidian Digital Garden plugin&lt;/a&gt;.&lt;/p&gt;
 &lt;h4 id=&quot;webpage-footer&quot; tabindex=&quot;-1&quot;&gt;Webpage footer&lt;/h4&gt;
 &lt;p&gt;Following the &lt;a href=&quot;https://dg-docs.ole.dev/advanced/adding-custom-components&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;custom components&lt;/a&gt; guide for the DG plugin, I added the link to my feedback form using a footer component which I manually added in &lt;code&gt;src/site/_includes/components/user/notes/footer/feedback-form.njk&lt;/code&gt; (&lt;a href=&quot;https://github.com/briancherin/briancherin.github.io/blob/main/src/site/_includes/components/user/notes/footer/feedback-form.njk&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github link&lt;/a&gt;)&lt;/p&gt;
+&lt;h4 id=&quot;feed-xml-fix&quot; tabindex=&quot;-1&quot;&gt;Feed.xml fix&lt;/h4&gt;
+&lt;p&gt;The Obsidian Digital Garden plugin automatically generates an RSS feed at the /feed.xml route at the root of the site. But when I navigated there, I saw this error:&lt;br /&gt;
+&lt;code&gt;error on line 48 at column 17: Opening and ending tag mismatch: link line 47 and entry&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/oleeskild/obsidian-digital-garden/issues/493&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://github.com/oleeskild/obsidian-digital-garden/issues/493&lt;/a&gt;&lt;br /&gt;
+I found this &lt;a href=&quot;https://briancherin.github.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Github issue&lt;/a&gt; that helped resolve this. The solution was to manually go into the site&#39;s Github repo and edit &lt;code&gt;src/site/feed.njk&lt;/code&gt; so that all of the &amp;lt;link&amp;gt; tags have a closing tag with five backslashes instead of four (yes this is a weird error/workaround).&lt;/p&gt;
 
             </content>
             <link href="https://briancherin.github.io/meta/obsidian-setup/" />
@@ -229,7 +234,7 @@ Found from this good video which has other great ideas too &lt;a href=&quot;http
                 Garden Improvements
                 
             </title>
-            <updated>2025-12-09T02:06:26.324Z</updated>
+            <updated>2025-12-09T02:23:55.873Z</updated>
             <id>https://briancherin.github.io/meta/garden-improvements/</id>
             <content type="html">
                 &lt;p&gt;Things to do:&lt;/p&gt;
@@ -243,7 +248,7 @@ Found from this good video which has other great ideas too &lt;a href=&quot;http
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_3&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_3&quot;&gt; make it so the date published and date last updated appears on pages&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_4&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_4&quot;&gt; make a list of my hobbies/interests (and then eventually link pages/folders from them)&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_5&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_5&quot;&gt; be able to see page view count (analytics)&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_6&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_6&quot;&gt; Fix /feed.xml so it can generate RSS feed. There&#39;s an issue with the html snippet on the homepage for the &#39;random note&#39; button&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_6&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_6&quot;&gt; (Done, 12/8/2025) Fix /feed.xml so it can generate RSS feed. There&#39;s an issue with the html snippet on the homepage for the &#39;random note&#39; button&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
@@ -254,7 +259,7 @@ Found from this good video which has other great ideas too &lt;a href=&quot;http
                 1 Second Everyday - Indie Hackers Podcast
                 
             </title>
-            <updated>2025-12-09T02:21:22Z</updated>
+            <updated>2025-12-08T22:53:38.104Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#podcast&quot;&gt;#podcast&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#entrepreneurship&quot;&gt;#entrepreneurship&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt;&lt;/p&gt;
