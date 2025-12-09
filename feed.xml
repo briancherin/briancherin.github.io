@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://briancherin.github.io/">
+    <title>Digital Garden</title>
+    <link href="https://briancherin.github.io//feed.xml" rel="self" >
+    <link href="https://briancherin.github.io/" >
+    <updated>2025-12-09T01:57:08Z</updated>
+    <id>https://briancherin.github.io/</id>
+        <entry>
+            <title>
+                This is the beginning
+                
+            </title>
+            <updated>2025-12-09T01:56:55Z</updated>
+            <id>https://briancherin.github.io//</id>
+            <content type="html">
+                &lt;h1 id=&quot;this-is-the-beginning&quot; tabindex=&quot;-1&quot;&gt;This is the beginning&lt;/h1&gt;
+&lt;p&gt;of my digital garden / blog thing.&lt;/p&gt;
+&lt;p&gt;Hi.&lt;/p&gt;
+&lt;p&gt;&lt;button id=&quot;random-note-button&quot;&gt;🎲 Go to Random Note&lt;/button&gt;&lt;/p&gt;
+&lt;script&gt;
+let notes = null;
+
+async function loadNotes() {
+  if (notes) return notes;
+  const res = await fetch(&quot;/searchIndex.json&quot;);
+  const data = await res.json();
+  notes = data.map(e =&gt; e.url);
+  return notes;
+}
+
+async function goToRandomNote() {
+  const notes = await loadNotes();
+  const random = notes[Math.floor(Math.random() * notes.length)];
+  if (random == &quot;/&quot;) {
+	  await goToRandomNote();
+  }
+  window.location.href = random;
+}
+
+document.getElementById(&quot;random-note-button&quot;)
+  .addEventListener(&quot;click&quot;, goToRandomNote);
+&lt;/script&gt;
+
+            </content>
+            <link href="https://briancherin.github.io//" >
+        </entry>
+        <entry>
+            <title>
+                Mini Projects
+                
+            </title>
+            <updated>2025-12-09T01:56:55Z</updated>
+            <id>https://briancherin.github.io//projects/software/mini-projects/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/&quot;&gt;Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://briancherin.github.io//projects/software/mini-projects/" >
+        </entry>
+        <entry>
+            <title>
+                brianiscool.tk
+                
+            </title>
+            <updated>2025-12-09T01:56:55Z</updated>
+            <id>https://briancherin.github.io//projects/really-old-projects/brianiscool-tk/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This website was one of the first coding projects I worked on, back in high school. My version of a portfolio but a bit silly.&lt;/p&gt;
+&lt;p&gt;I originally hosted it using a webhost called 000webhost (I don&#39;t think it exists anymore) and Freenom for a free domain name (probably free because it was for non-traditional domain endings, like &amp;quot;.tk&amp;quot; or &amp;quot;.cw&amp;quot;). Eventually I forgot to keep renewing the domain and probably the hosting broke at some point, but luckily I had the original source files saved locally (or maybe on Github actually) so I turned it into a Github Pages site which is mostly functional to what it was originally like.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://briancherin.github.io/brianiscool/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://briancherin.github.io/brianiscool/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Scavenger hunt / things to watch out for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Random color generator (not on the homepage!)&lt;/li&gt;
+&lt;li&gt;Farm animal game (weirdly fun but eventually not balanced)&lt;/li&gt;
+&lt;li&gt;Bee Haven game (warning that this is not particularly mobile-friendly but it&#39;ll still work)&lt;/li&gt;
+&lt;li&gt;Try not to fall into the Trap (the curse of 100 alert dialogs)&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://briancherin.github.io//projects/really-old-projects/brianiscool-tk/" >
+        </entry>
+        <entry>
+            <title>
+                Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)
+                
+            </title>
+            <updated>2025-12-09T01:56:55Z</updated>
+            <id>https://briancherin.github.io//meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#obsidian&quot;&gt;#obsidian&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cybersecurity&quot;&gt;#cybersecurity&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#privacy&quot;&gt;#privacy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Anytime I make a new public appearance (like making a new social media account, or this blog) I ask myself: am I revealing too much about myself to the Internet? I have some background in cybersecurity (meaning: a handful of classes at university), so I have some mental framework that lets me contemplate the consequences of having information about myself online.&lt;/p&gt;
+&lt;p&gt;There&#39;s a little voice in my head saying not to publish an article with this title (&amp;quot;please don&#39;t spearphish me&amp;quot;) because it might act as reverse psychology and give someone the idea to do it just because I mentioned it. Please don&#39;t be that person.&lt;/p&gt;
+&lt;p&gt;Anyway, my point here is that I&#39;m building some level of a safeguard for myself. A tool that might help me catch myself before revealing too much.&lt;/p&gt;
+&lt;p&gt;Is this a perfect solution? No.&lt;/p&gt;
+&lt;p&gt;Am I overthinking this? Maybe.&lt;/p&gt;
+&lt;p&gt;But just like my footnote in my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/&quot;&gt;1 Second Everyday - Indie Hackers Podcast&lt;/a&gt; post (&amp;quot;It&#39;s scary sometimes how easy it might be to ruin your own life&amp;quot;), I feel that exposing some little piece of information about yourself in public could cause some mess for you. At best? Someone being creepy and sending you weird messages. At worst? Someone identifying a routine that you have and stalking you in real life. Or just hacking you via a spearphishing email that contains a link or download you mindlessly click.&lt;/p&gt;
+&lt;p&gt;So what&#39;s my little solution for this? An Obsidian plugin that will audit the current note I&#39;ve written and tell me if I&#39;m revealing too much information in the post. (Obsidian is the text editor I use to write these blog posts, and I use the &lt;a href=&quot;https://github.com/oleeskild/Obsidian-Digital-Garden&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Obsidian Digital Garden plugin&lt;/a&gt; for help building+publishing to this site.)&lt;/p&gt;
+&lt;h2 id=&quot;how-it-works&quot; tabindex=&quot;-1&quot;&gt;How it works&lt;/h2&gt;
+&lt;p&gt;This is the workflow:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Install the plugin (see instructions on the Github repo, linked below) and set your OpenAI API key in the plugin settings. You can also modify the system prompt that tells the AI how to interpret your note and what the output should look like.&lt;/li&gt;
+&lt;li&gt;You write a note in Obsidian.&lt;/li&gt;
+&lt;li&gt;Open the command palette (ctrl/cmd + P) and run &amp;quot;Privacy Audit&amp;quot;.&lt;/li&gt;
+&lt;li&gt;The request will be processed by the OpenAI API and the result will be opened in a side panel.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;more-details&quot; tabindex=&quot;-1&quot;&gt;More details&lt;/h2&gt;
+&lt;p&gt;I used ChatGPT to help me code this up. It didn&#39;t take long to set it up locally and test it out in Obsidian.&lt;/p&gt;
+&lt;p&gt;The plugin uses the OpenAI API to ask GPT to review the note and make any suggestions.&lt;/p&gt;
+&lt;p&gt;I&#39;ve published the code to my Github &lt;a href=&quot;https://github.com/briancherin/obsidian-ai-privacy-audit&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;here&lt;/a&gt; and I&#39;ve made a &lt;a href=&quot;https://github.com/obsidianmd/obsidian-releases/pull/8887&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Pull Request&lt;/a&gt; on the Obsidian repo to get this added to the community plugin list so that anyone can access it. A fun little open-source contribution that I hope someone might find helpful! I&#39;m pretty new to the Obsidian and Digital Gardening scene, so I hope the universe will forgive me if something like this already exists (I swear, I don&#39;t mean to flood the plugin list with slop).&lt;/p&gt;
+&lt;h2 id=&quot;examples&quot; tabindex=&quot;-1&quot;&gt;Examples&lt;/h2&gt;
+&lt;p&gt;The command:&lt;br /&gt;
+&lt;img src=&quot;https://briancherin.github.io/img/user/Meta/On%20Blogging/Assets/Images/dontspearpishme-command-palette.png&quot; alt=&quot;dontspearpishme-command-palette.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The plugin catches my reveal of a routine:&lt;br /&gt;
+&lt;img src=&quot;https://briancherin.github.io/img/user/Meta/On%20Blogging/Assets/Images/dontspearphishme-example1.png&quot; alt=&quot;dontspearphishme-example1.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The plugin catches my reveal of corporate information:&lt;br /&gt;
+&lt;img src=&quot;https://briancherin.github.io/img/user/Meta/On%20Blogging/Assets/Images/dontspearphishme-example2.png&quot; alt=&quot;dontspearphishme-example2.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;No issues with this one! It gives some extraneous suggestions about my clearly engaging content:&lt;br /&gt;
+&lt;img src=&quot;https://briancherin.github.io/img/user/Meta/On%20Blogging/Assets/Images/dontspearphishme-example3.png&quot; alt=&quot;dontspearphishme-example3.png&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;areas-for-improvement&quot; tabindex=&quot;-1&quot;&gt;Areas for improvement&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add a command to run an audit for every file in the vault individually and get a summary of suggested fixes for each&lt;/li&gt;
+&lt;li&gt;Add a command to do a comprehensive audit across the whole vault, in case little bits of information in each file add up to a bigger picture (violating your privacy) which wouldn&#39;t be revealed within just one file. (This may be complicated since all the files won&#39;t fit in one GPT context window. There&#39;d have to be some processing.)&lt;/li&gt;
+&lt;li&gt;Add a similar audit to the Github pipeline that actually gets triggered when I publish a note, so I don&#39;t have to remember to manually run the audit within Obsidian. If there is a critical warning, maybe fail the job, or maybe just alert me somehow.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;concluding-words&quot; tabindex=&quot;-1&quot;&gt;Concluding words&lt;/h2&gt;
+&lt;p&gt;I have a feeling I might think of other AI-related Obsidian plugins in the future.&lt;/p&gt;
+
+            </content>
+            <link href="https://briancherin.github.io//meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/" >
+        </entry>
+        <entry>
+            <title>
+                My Past Self Telling Me To Start a Blog
+                
+            </title>
+            <updated>2025-12-09T01:56:55Z</updated>
+            <id>https://briancherin.github.io//meta/on-blogging/my-past-self-telling-me-to-start-a-blog/</id>
+            <content type="html">
+                &lt;p&gt;Digging in the archives of my Google Keep notes:&lt;/p&gt;
+&lt;p&gt;From May 5, 2018:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+Start a blog, because cool people have blogs. But don&#39;t do it for money or fame. Do it to write about things you like writing about, and if anyone reads it, that will be reward in itself.&lt;/p&gt;
+&lt;p&gt;Write about:&lt;/p&gt;
+&lt;p&gt;Unicycling&lt;/p&gt;
+&lt;p&gt;Complaints about society or myself&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;(My past self was a little bit performative about the concept of &amp;quot;being cool&amp;quot;, but it was mostly in a silly joking way and more about inspiring myself to do interesting things with my time.)&lt;/p&gt;
+&lt;p&gt;From June 8, 2018:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+When there&#39;s an interesting quote or passage or idea in a book you&#39;re reading, write about it (use those skills from all your English classes over the years) and maybe make a blog post about it! Who knows, maybe someone will be interested in your thoughts. But do pure thoughts. Okay, not &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#thoughtstream&quot;&gt;#thoughtstream&lt;/a&gt; thoughts, as this is approaching, (well this style would be fine for a blogpost, if not excellent for displaying my personality) but don&#39;t flourish the writing - make it true to yourself.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From June 3, 2018:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+&lt;strong&gt;Things I could write about on a blog&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;redacted&amp;gt;&lt;/li&gt;
+&lt;li&gt;&amp;lt;redacted&amp;gt; (eventually)&lt;/li&gt;
+&lt;li&gt;juggling, unicycling&lt;/li&gt;
+&lt;li&gt;programming&lt;/li&gt;
+&lt;li&gt;China/Japan&lt;/li&gt;
+&lt;li&gt;The physics of microwave doors&lt;/li&gt;
+&lt;li&gt;Hour of code&lt;/li&gt;
+&lt;li&gt;Book review&lt;/li&gt;
+&lt;li&gt;Product reviews! Once your blog starts growing, you can start places for free stuff (eg filament)&lt;/li&gt;
+&lt;li&gt;Electronics robot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;(No, I&#39;m not sure why physics of microwave doors is on this list.)&lt;/p&gt;
+&lt;p&gt;From June 6, 2020:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+&lt;strong&gt;Blog name&lt;/strong&gt;&lt;br /&gt;
+Life flow&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From January 2, 2021:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+&lt;strong&gt;Argument for having a blog&lt;/strong&gt;&lt;br /&gt;
+&amp;quot;Reach out to like-minded people.... Having a public blog... with small amount of content expressing your thoughts and ideas is helpful [for meeting people]&amp;quot; &lt;a href=&quot;https://www.scotthyoung.com/blog/2020/11/23/missing-foundation/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.scotthyoung.com/blog/2020/11/23/missing-foundation/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From December 11, 2024:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+Blog name: Brian, Master of None&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Above note expanded on October 23, 2025:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+Brian&#39;s Corner&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And finally, on December 6, 2025, the day before I started this Digital Garden and wrote &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/&quot;&gt;my first post&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+Digital Garden -- related to my ideas for blog / personal website / answer to my wondering about use of social media to share projects and interests and [engage?] and such&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://maggieappleton.com/garden-history&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://maggieappleton.com/garden-history&lt;/a&gt;&lt;br /&gt;
+Found from this good video which has other great ideas too &lt;a href=&quot;https://youtu.be/6fj-OJ6RcNQ&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://youtu.be/6fj-OJ6RcNQ&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+            </content>
+            <link href="https://briancherin.github.io//meta/on-blogging/my-past-self-telling-me-to-start-a-blog/" >
+        </entry>
+        <entry>
+            <title>
+                Obsidian Setup
+                
+            </title>
+            <updated>2025-12-09T01:56:55Z</updated>
+            <id>https://briancherin.github.io//meta/obsidian-setup/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#obsidian&quot;&gt;#obsidian&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Most of the setup for this blog is handled by the  &lt;a href=&quot;https://github.com/oleeskild/Obsidian-Digital-Garden&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Obsidian Digital Garden plugin&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;webpage-footer&quot; tabindex=&quot;-1&quot;&gt;Webpage footer&lt;/h4&gt;
+&lt;p&gt;Following the &lt;a href=&quot;https://dg-docs.ole.dev/advanced/adding-custom-components&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;custom components&lt;/a&gt; guide for the DG plugin, I added the link to my feedback form using a footer component which I manually added in &lt;code&gt;src/site/_includes/components/user/notes/footer/feedback-form.njk&lt;/code&gt; (&lt;a href=&quot;https://github.com/briancherin/briancherin.github.io/blob/main/src/site/_includes/components/user/notes/footer/feedback-form.njk&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github link&lt;/a&gt;)&lt;/p&gt;
+
+            </content>
+            <link href="https://briancherin.github.io//meta/obsidian-setup/" >
+        </entry>
+        <entry>
+            <title>
+                Garden Improvements
+                
+            </title>
+            <updated>2025-12-09T01:56:55Z</updated>
+            <id>https://briancherin.github.io//meta/garden-improvements/</id>
+            <content type="html">
+                &lt;p&gt;Things to do:&lt;/p&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; Set my own favicon instead of the default&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_1&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_1&quot;&gt; add a commenting system&lt;/label&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_2&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_2&quot;&gt; (Done, 12/8/2025) Or at least an (optionally-anonymous) feedback/contact form in the mean time&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_3&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_3&quot;&gt; make it so the date published and date last updated appears on pages&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_4&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_4&quot;&gt; make a list of my hobbies/interests (and then eventually link pages/folders from them)&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_5&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_5&quot;&gt; be able to see page view count (analytics)&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://briancherin.github.io//meta/garden-improvements/" >
+        </entry>
+        <entry>
+            <title>
+                1 Second Everyday - Indie Hackers Podcast
+                
+            </title>
+            <updated>2025-12-09T01:56:55Z</updated>
+            <id>https://briancherin.github.io//media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#podcast&quot;&gt;#podcast&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#entrepreneurship&quot;&gt;#entrepreneurship&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Written on: 2025-12-07&lt;/p&gt;
+&lt;p&gt;Well hello there. This is my first ever attempt at an actual blog post / garden entry. Yesterday was the first day I learned of the concept of a Digital Garden, from a short bit of &lt;a href=&quot;https://www.youtube.com/watch?v=6fj-OJ6RcNQ&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;this video&lt;/a&gt; (Relevant part at about 26:45 but the whole video is worth watching), which directed me to &lt;a href=&quot;https://maggieappleton.com/garden-history&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;this article&lt;/a&gt; for more context on Digital Gardens.&lt;/p&gt;
+&lt;p&gt;Then, today, I was exploring more examples of the concept and read a couple relevant articles, including &lt;a href=&quot;https://web.archive.org/web/20250327004843/https://www.swyx.io/puwtpd&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&amp;quot;Pick Up What They Put Down&lt;/a&gt;, which itself linked to the podcast that I&#39;m about to discuss. &lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h3 id=&quot;what-s-this-podcast&quot; tabindex=&quot;-1&quot;&gt;What&#39;s this podcast?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.indiehackers.com/podcast/141-cesar-kuriyama-of-1-second-everyday&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&amp;quot;Bootstrapping an App to Millions Through Sheer Persistence with Cesar Kuriyama of 1 Second Everyday&amp;quot;&lt;/a&gt;, published January 1, 2020.&lt;/p&gt;
+&lt;p&gt;It was a pretty good listen. It&#39;s about the founder of the app &amp;quot;1 Second Everyday&amp;quot;, which has you take a 1 second video of your life, or whatever you want, every day, and then, presumably whenever you&#39;d like to, export it into a continuous video of all those clips combined. I&#39;ve never used it before, but I&#39;ve definitely seen some other people&#39;s videos that they&#39;ve shared. They&#39;re fun.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!question]- Tangent on my use of PhotoChron (similar app)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I have done something similar in the past with an outdated, possibly-no-longer-supported Android app called &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.photochron&amp;amp;hl=en_US&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;PhotoChron&lt;/a&gt;, which prompted me to take a picture just of my face everyday, so I could generate a cool timelapse of what I looked like (and what I was wearing, and what my background was) over time. I started in 2017 and mostly had been consistent (it&#39;s 2025 at the time I&#39;m writing this) with taking daily pictures, with some lapses here and there.&lt;br /&gt;
+I&#39;m in a larger awkward period right now where I haven&#39;t done this in (I&#39;m ashamed to admit this to myself because I&#39;m kind of annoyed at losing the continuity) several months (or more) because I haven&#39;t redownloaded the app since getting a new phone (part of the problem is that it&#39;s no longer supported on the latest version of Android, so there&#39;d have to be some &amp;quot;hacking&amp;quot; around to get it to work -- honestly, I should just have been taking pictures in my normal photos app and putting them in an album or something, but then I lose the little oval in the middle of the screen that PhotoChron overlays over the viewfinder to show me where to put my face, and I lose the niceness of it saving the photos All Together in The Right Place and backing it up to the folder in Google Drive where I already have all the rest of the pictures.) -- All that being said, I&#39;ll get around to fixing this setup someday, because I think I do still value the result.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;What drew me to listen to the podcast was that the PUWTPD article mentioned that the app had been featured in the movie Chef &lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;, which came about because the app&#39;s creator tweeted to Jon Favreau about something unrelated to the app, and then Jon Favreau found and liked the app via his profile.&lt;/p&gt;
+&lt;p&gt;The actual key word, though, that made me want to listen was &amp;quot;bootstrapping&amp;quot;. I love this term. It kind of makes me feel warm inside, in a nice way. I&#39;m not joking. And I am talking about it in its intended context in this podcast.&lt;/p&gt;
+&lt;p&gt;Bootstrapping is when you develop an app/website/service/project, probably with the goal of making some income from it, without going the &amp;quot;traditional&amp;quot; route of raising money via investors of venture capitalists or similar. Instead, you kind of just go and make the thing and find ways to monetize it and organically grow it. I&#39;m not exactly an expert on this topic, but it&#39;s the kind of thing that I want to do in the future to make something out of a personal project. I&#39;d definitely like to listen to more episodes of the Indie Hackers podcast in the future.&lt;/p&gt;
+&lt;p&gt;I originally came across the term bootstrapping from a random video I stumbled upon (or maybe not so random) &lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn3&quot; id=&quot;fnref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt; of this guy giving a talk... It stuck with me, though I haven&#39;t exactly followed it -- not yet at least. I intend to. &lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn4&quot; id=&quot;fnref4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;So anyway, this was an interesting listen.&lt;/p&gt;
+&lt;h2 id=&quot;highlights&quot; tabindex=&quot;-1&quot;&gt;Highlights&lt;/h2&gt;
+&lt;p&gt;Some nice tidbits that stuck out&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A good callout to not be too secretive about your app idea. Probably no one is going to steal it, and even if they do, they probably won&#39;t have the same passion as you do. And there can be a lot of benefit in sharing your idea with others and having conversations about it and seeing what people might be interested in, etc.
+&lt;ul&gt;
+&lt;li&gt;I really needed to hear this, because I have been working on an app idea for at least a year (progress and effort have been too slow for my liking) and pretty much across the board I&#39;ve been not telling people about what I&#39;m working on -- though, that&#39;s more because I was scared that one slightly negative comment (or someone pointing out my idea already exists) would cause me to lose motivation to continue working on it, and less about someone stealing my idea.&lt;/li&gt;
+&lt;li&gt;Recently, though, I&#39;ve started talking about the idea to some people (because honestly it was just taking too long for me to create an MVP that I had to backtrack on the secret-keeping, perhaps in part to see if it would motivate me to work on it more frequently (it kind of has worked)). But hearing this reinforced from the podcast will certainly encourage me to do this more.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;There was an interesting comment around the 44 minute mark when they were talking about the tweet to Jon Favreau. The app founder said that there&#39;s probably some tweet that anyone could make right now which could change their whole life. You would just need to identify what that tweet would be.
+&lt;ul&gt;
+&lt;li&gt;This kind of thought gives me chills. I find I want to believe it&#39;s true. It might take a billion alternate universe scenarios to find what that one tweet would be, but there probably is one out there. (Caveat that it&#39;d be easier to find a tweet that could destroy your life rather than generate tremendous positive change -- the former case makes me shudder, rather than positive chills, with a sort of call-of-the-void&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn5&quot; id=&quot;fnref5&quot;&gt;[5]&lt;/a&gt;&lt;/sup&gt; type feeling.)&lt;/li&gt;
+&lt;li&gt;This gives me similar vibes to thinking about the butterfly effect. You can track one small action in the past to where you are now. The tweet thing is kind of like a future projection of this. Maybe the tweet sets off a chain of events (like attracting the attention of a movie director on your app).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;There was a mention of the book &lt;a href=&quot;https://www.goodreads.com/book/show/8978488-the-art-of-non-conformity&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Art of Non-Conformity&lt;/a&gt; (don&#39;t remember the exact context in the podcast around it - something related to running your own business rather than working within a corporation I think). I checked and it was already on my to-read list. Seems like something I would like reading and would get something out of.&lt;/li&gt;
+&lt;li&gt;Towards the end of the podcast, there was a discussion about future forms of social media, and what a &amp;quot;better&amp;quot; version of it would be. A platform that doesn&#39;t want you to just scroll infinitely so that you see more ads, or get more data collected about you. (This was in the context of the 1 Second Everyday app possibly having a form of feed / social media integrated in it in the future (and making it the &amp;quot;better&amp;quot; form). This podcast is a few years old, so maybe this is already a thing in the app.)
+&lt;ul&gt;
+&lt;li&gt;Always an interesting topic, but right now it made me think of the concept of Digital Gardening, since in a way, I&#39;ve approached it from an alleyway of being frustrated with traditional social media not giving me the kind of platform that I&#39;ve felt myself craving for a while where I can have more meaningful engagement, both letting me put content/thoughts/writing out there (god forbid me putting this post in an Instagram caption or story) and receiving feedback/commentary in response to what I&#39;ve put out there (yes, I&#39;d like to participate in the other side of PUWTPD, too), and also just having a place where I can put my stuff and feeling more secure in it lasting there forever, and not having to worry about limitations like video length or worrying about &amp;quot;which account&amp;quot; to post something on.&lt;/li&gt;
+&lt;li&gt;More directly related to what they were talking about on the podcast, though, is that the Digital Gardening concept is related to evading the &amp;quot;algorithm&amp;quot; and infinite-scrolling feeds. Blogging and longer form content in itself is an antidote to this. Engaging more deeply with specific content rather than flitting from one short video/image to the next. (The &lt;a href=&quot;https://www.youtube.com/watch?v=6fj-OJ6RcNQ&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;video&lt;/a&gt;  I mentioned earlier talks about this and other related antidotes)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Another video mentioned in the podcast that I&#39;d like to watch: &lt;a href=&quot;https://www.youtube.com/watch?v=MNuOmTQdFjA&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&amp;quot;Stefan Sagmeister: The power of time off&amp;quot;&lt;/a&gt; (TED talk)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s what was top on mind. I noted a couple things while listening to the podcast (I was on a walk in The Park) and I covered them all above.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!danger]- Epilogue&lt;br /&gt;
+One final note, on my experience writing this right now (spent about 1hr 45 min btw)... I&#39;ve had the idea of starting a more traditional blog here and there, but it always felt like a big scary task, so of course I never got to it. The concept of the Digital Garden helped me get the initiative to do it — mainly because of the emphasis that it&#39;s a living, growing thing.&lt;/p&gt;
+&lt;p&gt;You don&#39;t have to view an article as a one-and-done entity. I could have just written the first third of this page and been happy with it for now and still had it be public on the web and maybe send it to some people. I also don&#39;t have to worry about this being perfect and polished and super cohesive and meaningful... It&#39;s more of a scrapbook journaling vibe than a perfected portfolio.&lt;/p&gt;
+&lt;p&gt;I also feel like I don&#39;t need to be self-conscious about what material is on here — meaning, my &amp;quot;first post&amp;quot; can be this arbitrary podcast episode that I listened to. There are seeds I need to plant in the garden that maybe normally would come first, like giving a brief summary of who I am, or expanding more on my ideas and purposes for this site. But I can plant those seeds another day.&lt;/p&gt;
+&lt;p&gt;Another core concept of the Digital Garden is it not meant to be a chronological list of posts like a traditional blog — a post I write a year ago can be just as valuable and as open to being edited as any more recent post. Just the idea of having a hierarchy of categories and tags as a way to navigate a site, rather than a time-sorted list of posts, drew me in as well.&lt;/p&gt;
+&lt;p&gt;Maybe these things aren&#39;t so different from traditional blogs, but the concept just gave me the push I needed (and surely some circumstances of general life right now, or the type of energy I&#39;ve had in the last few days).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Ideally I shall make a separate post about my feelings and inspiration for the Digital Garden concept, but I wanted to mention a bit here since this is the first post and it kind of led me directly to this podcast. Also, I can mention that I am kind of following the advice from &amp;quot;Pick Up What They Put Down&amp;quot; in that I&#39;m responding to a podcast that I just listened to (and kind of also responding to that article in a way). &lt;a href=&quot;https://briancherin.github.io/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;(a movie I&#39;ve watched probably twice but only once really in my recent memory i.e. in the last five years -- great movie, and I&#39;m feeling inspired to watch it again because of the discussion on this podcast) &lt;a href=&quot;https://briancherin.github.io/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn3&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;(TODO: Find this video and link it) &lt;a href=&quot;https://briancherin.github.io/#fnref3&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn4&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Given what goes on in my mind and with projects that I pursue, I would be surprised if I&#39;m not making a decisive effort (and hopefully succeeding) to generate passive income from a bootstrapped app/website in the next x years (no i&#39;m not defining x for you)  &lt;a href=&quot;https://briancherin.github.io/#fnref4&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn5&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&amp;quot;The call of the void describes the sudden, unexplained desire to participate in dangerous or self-destructive behaviors&amp;quot; (&lt;a href=&quot;https://health.clevelandclinic.org/call-of-the-void&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;source&lt;/a&gt; ) It&#39;s scary sometimes how easy it might be to ruin your own life. &lt;a href=&quot;https://briancherin.github.io/#fnref5&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+            </content>
+            <link href="https://briancherin.github.io//media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/" >
+        </entry>
+</feed>
