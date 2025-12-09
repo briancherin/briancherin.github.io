@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/meta/obsidian-setup/"}
 ---
 
+#obsidian 
+
 Most of the setup for this blog is handled by the  [Obsidian Digital Garden plugin](https://github.com/oleeskild/Obsidian-Digital-Garden).
 
 #### Webpage footer
