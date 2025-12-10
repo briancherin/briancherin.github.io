@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/","created":"2025-12-08T12:55:44.347-05:00","updated":"2025-12-08T13:42:48.890-05:00"}
+{"dg-publish":true,"permalink":"/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/","created":"2025-12-08T12:55:44.347-05:00","updated":"2025-12-10T14:06:37.759-05:00"}
 ---
 
 Digging in the archives of my Google Keep notes:
@@ -26,6 +26,10 @@ From June 8, 2018:
 > [!NOTE] 
 >When there's an interesting quote or passage or idea in a book you're reading, write about it (use those skills from all your English classes over the years) and maybe make a blog post about it! Who knows, maybe someone will be interested in your thoughts. But do pure thoughts. Okay, not \#thoughtstream thoughts, as this is approaching, (well this style would be fine for a blogpost, if not excellent for displaying my personality) but don't flourish the writing - make it true to yourself.
 
+I'm guessing the above note was inspired by this line from [Never Eat Alone](https://www.goodreads.com/book/show/84699.Never_Eat_Alone) that I highlighted also on June 8, 2018:
+
+>[!Warning] Quote 
+>*Acting on an idea—whether it’s as small as writing a blog, or as big as creating a business—sends a shock wave out into the world that flows back even stronger, as others gain interest in your ideas and wish to add their own and new community all gathered around you, energized by your shared interest.*
 
 From June 3, 2018:
 
