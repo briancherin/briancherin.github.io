@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-10T03:17:13Z</updated>
+    <updated>2025-12-10T03:20:30Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -306,7 +306,7 @@ I found this &lt;a href=&quot;https://briancherin.github.io/&quot; target=&quot;
                 Garden Improvements
                 
             </title>
-            <updated>2025-12-10T03:09:40.344Z</updated>
+            <updated>2025-12-10T03:20:05.057Z</updated>
             <id>https://briancherin.github.io/meta/garden-improvements/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt;&lt;/p&gt;
@@ -324,6 +324,7 @@ I found this &lt;a href=&quot;https://briancherin.github.io/&quot; target=&quot;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_6&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_6&quot;&gt; (Done, 12/8/2025) Fix /feed.xml so it can generate RSS feed. There&#39;s an issue with the html snippet on the homepage for the &#39;random note&#39; button&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_7&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_7&quot;&gt; Post this site to Kagi Small Web&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_8&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_8&quot;&gt; Make a visualization to see frequency of posts over time&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_9&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_9&quot;&gt; May want to eventually setup Obsidian to host images/other_assets on S3 instead of on Github. The Digital Garden plugin mentioned that the site may slow down if the assets pile up since you can&#39;t store that much on Github. I found this Obsidian &lt;a href=&quot;https://github.com/biubiubiu35/image-paste-to-cloud&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;plugin&lt;/a&gt; which might be the solution for an auto-S3 upload of images.&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
