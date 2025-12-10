@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-10T15:15:11Z</updated>
+    <updated>2025-12-10T19:07:03Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -159,6 +159,26 @@ document.getElementById(&quot;random-note-button&quot;)
         </entry>
         <entry>
             <title>
+                Game Dev Inspiration
+                
+            </title>
+            <updated>2025-12-10T03:08:23.494Z</updated>
+            <id>https://briancherin.github.io/projects/software/game-development/game-dev-inspiration/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gamedev&quot;&gt;#gamedev&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=YtylfQq2JII&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&amp;quot;Make Tiny Games.&amp;quot; by Juniper Dev (youtube)&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Made me feel a brief moment of inspiration to code up small games - clones of existing ones with modifications, or just novel simple ones. Mostly made me think of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/game-development/old-projects/bee-haven/&quot;&gt;Bee Haven&lt;/a&gt;, which is sort of a subway surfer clone I made during high school. I&#39;ve recently been thinking of repolishing and republishing it to the Play Store.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/projects/software/game-development/game-dev-inspiration/" />
+        </entry>
+        <entry>
+            <title>
                 Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)
                 
             </title>
@@ -216,7 +236,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 My Past Self Telling Me To Start a Blog
                 
             </title>
-            <updated>2025-12-08T18:42:48.890Z</updated>
+            <updated>2025-12-10T19:06:37.759Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/</id>
             <content type="html">
                 &lt;p&gt;Digging in the archives of my Google Keep notes:&lt;/p&gt;
@@ -233,6 +253,11 @@ Start a blog, because cool people have blogs. But don&#39;t do it for money or f
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]&lt;br /&gt;
 When there&#39;s an interesting quote or passage or idea in a book you&#39;re reading, write about it (use those skills from all your English classes over the years) and maybe make a blog post about it! Who knows, maybe someone will be interested in your thoughts. But do pure thoughts. Okay, not &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#thoughtstream&quot;&gt;#thoughtstream&lt;/a&gt; thoughts, as this is approaching, (well this style would be fine for a blogpost, if not excellent for displaying my personality) but don&#39;t flourish the writing - make it true to yourself.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I&#39;m guessing the above note was inspired by this line from &lt;a href=&quot;https://www.goodreads.com/book/show/84699.Never_Eat_Alone&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Never Eat Alone&lt;/a&gt; that I highlighted also on June 8, 2018:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!Warning] Quote&lt;br /&gt;
+&lt;em&gt;Acting on an idea—whether it’s as small as writing a blog, or as big as creating a business—sends a shock wave out into the world that flows back even stronger, as others gain interest in your ideas and wish to add their own and new community all gathered around you, energized by your shared interest.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;From June 3, 2018:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -284,6 +309,21 @@ Found from this good video which has other great ideas too &lt;a href=&quot;http
 
             </content>
             <link href="https://briancherin.github.io/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/" />
+        </entry>
+        <entry>
+            <title>
+                Blogging Inspiration
+                
+            </title>
+            <updated>2025-12-10T18:58:25.087Z</updated>
+            <id>https://briancherin.github.io/meta/on-blogging/blogging-inspiration/</id>
+            <content type="html">
+                &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://strikingloo.github.io/wiki/essays&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://strikingloo.github.io/wiki/essays&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/meta/on-blogging/blogging-inspiration/" />
         </entry>
         <entry>
             <title>
