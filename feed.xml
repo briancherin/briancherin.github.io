@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-10T19:07:03Z</updated>
+    <updated>2025-12-10T19:07:28Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -136,26 +136,6 @@ document.getElementById(&quot;random-note-button&quot;)
 
             </content>
             <link href="https://briancherin.github.io/projects/software/game-development/old-projects/bee-haven/" />
-        </entry>
-        <entry>
-            <title>
-                Inspiration
-                
-            </title>
-            <updated>2025-12-10T03:08:23.494Z</updated>
-            <id>https://briancherin.github.io/projects/software/game-development/inspiration/</id>
-            <content type="html">
-                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gamedev&quot;&gt;#gamedev&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=YtylfQq2JII&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&amp;quot;Make Tiny Games.&amp;quot; by Juniper Dev (youtube)&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;Made me feel a brief moment of inspiration to code up small games - clones of existing ones with modifications, or just novel simple ones. Mostly made me think of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/game-development/old-projects/bee-haven/&quot;&gt;Bee Haven&lt;/a&gt;, which is sort of a subway surfer clone I made during high school. I&#39;ve recently been thinking of repolishing and republishing it to the Play Store.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-            </content>
-            <link href="https://briancherin.github.io/projects/software/game-development/inspiration/" />
         </entry>
         <entry>
             <title>
