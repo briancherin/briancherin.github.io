@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-10T01:13:53Z</updated>
+    <updated>2025-12-10T01:15:36Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -117,12 +117,14 @@ document.getElementById(&quot;random-note-button&quot;)
                 Bee Haven
                 
             </title>
-            <updated>2025-12-10T01:12:26.017Z</updated>
+            <updated>2025-12-10T01:15:03.831Z</updated>
             <id>https://briancherin.github.io/projects/software/game-development/old-projects/bee-haven/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gamedev&quot;&gt;#gamedev&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/bee%20haven%20title.png&quot; alt=&quot;bee haven title.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;A game I made during a high school summer program I attended. It&#39;s an infinite scroller. You control a bee&#39;s movement to the left and right as it moves forward toward the horizon, collecting flowers and avoiding birds.&lt;/p&gt;
 &lt;p&gt;The graphics were very simplistic (I vaguely wanted to make them better in the future but never went back to it).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/bee%20haven%20gameplay.png&quot; alt=&quot;bee haven gameplay.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I published it to the Google Play Store (under a pseudonym because I was very resistant to publishing things under my real name back then) but eventually it got taken down because I needed to update things to comply with Google&#39;s new developer rules (possibly could&#39;ve been something as easy as adding a privacy policy to my app, but I just never bothered to expend the energy to do this).&lt;/p&gt;
 &lt;p&gt;But also recently, I&#39;ve been wanting to show people a demo of the game. I recently tried to re-install it on my phone by using an old APK (app installation file for Android) that I downloaded from the Google Play Dev Console, but installation failed because the architecture of the app was too out of date. There is, however, a usable version of the game that can be accessed via &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/really-old-projects/brianiscool-tk/&quot;&gt;brianiscool.tk&lt;/a&gt;, so in theory I can show people from that, but I&#39;d prefer the app experience.&lt;/p&gt;
 &lt;p&gt;So...&lt;/p&gt;
