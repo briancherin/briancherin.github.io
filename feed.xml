@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-10T01:15:59Z</updated>
+    <updated>2025-12-10T01:28:24Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -142,12 +142,12 @@ document.getElementById(&quot;random-note-button&quot;)
                 Inspiration
                 
             </title>
-            <updated>2025-12-10T01:12:40.541Z</updated>
+            <updated>2025-12-10T01:28:02.202Z</updated>
             <id>https://briancherin.github.io/projects/software/game-development/inspiration/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gamedev&quot;&gt;#gamedev&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;[&amp;quot;Make Tiny Games.&amp;quot; by Juniper Dev (youtube)](&lt;a href=&quot;https://www.youtube.com/watch?v=YtylfQq2JII&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.youtube.com/watch?v=YtylfQq2JII&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=YtylfQq2JII&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&amp;quot;Make Tiny Games.&amp;quot; by Juniper Dev (youtube)&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;Made me feel inspired to code up small games. Mostly made me think of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/game-development/old-projects/bee-haven/&quot;&gt;Bee Haven&lt;/a&gt;, which is sort of a subway surfer clone I made during high school. I&#39;ve recently been thinking of repolishing and republishing it to the Play Store.&lt;/li&gt;
 &lt;/ul&gt;
