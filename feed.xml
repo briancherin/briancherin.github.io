@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-09T23:30:04Z</updated>
+    <updated>2025-12-10T01:13:29Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -61,6 +61,29 @@ document.getElementById(&quot;random-note-button&quot;)
         </entry>
         <entry>
             <title>
+                brianiscool.tk
+                
+            </title>
+            <updated>2025-12-09T00:02:55.577Z</updated>
+            <id>https://briancherin.github.io/projects/software/really-old-projects/brianiscool-tk/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This website was one of the first coding projects I worked on, back in high school. My version of a portfolio but a bit silly.&lt;/p&gt;
+&lt;p&gt;I originally hosted it using a webhost called 000webhost (I don&#39;t think it exists anymore) and Freenom for a free domain name (probably free because it was for non-traditional domain endings, like &amp;quot;.tk&amp;quot; or &amp;quot;.cw&amp;quot;). Eventually I forgot to keep renewing the domain and probably the hosting broke at some point, but luckily I had the original source files saved locally (or maybe on Github actually) so I turned it into a Github Pages site which is mostly functional to what it was originally like.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://briancherin.github.io/brianiscool/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://briancherin.github.io/brianiscool/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Scavenger hunt / things to watch out for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Random color generator (not on the homepage!)&lt;/li&gt;
+&lt;li&gt;Farm animal game (weirdly fun but eventually not balanced)&lt;/li&gt;
+&lt;li&gt;Bee Haven game (warning that this is not particularly mobile-friendly but it&#39;ll still work)&lt;/li&gt;
+&lt;li&gt;Try not to fall into the Trap (the curse of 100 alert dialogs)&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/projects/software/really-old-projects/brianiscool-tk/" />
+        </entry>
+        <entry>
+            <title>
                 Restaurant AI VR Simulation
                 
             </title>
@@ -82,12 +105,55 @@ document.getElementById(&quot;random-note-button&quot;)
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#miniproject&quot;&gt;#miniproject&lt;/a&gt;&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/&quot;&gt;Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/mini-projects/restaurant-ai-vr-simulation/&quot;&gt;Restaurant AI VR Simulation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/&quot;&gt;Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
             <link href="https://briancherin.github.io/projects/software/mini-projects/mini-projects/" />
+        </entry>
+        <entry>
+            <title>
+                Bee Haven
+                
+            </title>
+            <updated>2025-12-10T01:12:26.017Z</updated>
+            <id>https://briancherin.github.io/projects/software/game-development/old-projects/bee-haven/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gamedev&quot;&gt;#gamedev&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A game I made during a high school summer program I attended. It&#39;s an infinite scroller. You control a bee&#39;s movement to the left and right as it moves forward toward the horizon, collecting flowers and avoiding birds.&lt;/p&gt;
+&lt;p&gt;The graphics were very simplistic (I vaguely wanted to make them better in the future but never went back to it).&lt;/p&gt;
+&lt;p&gt;I published it to the Google Play Store (under a pseudonym because I was very resistant to publishing things under my real name back then) but eventually it got taken down because I needed to update things to comply with Google&#39;s new developer rules (possibly could&#39;ve been something as easy as adding a privacy policy to my app, but I just never bothered to expend the energy to do this).&lt;/p&gt;
+&lt;p&gt;But also recently, I&#39;ve been wanting to show people a demo of the game. I recently tried to re-install it on my phone by using an old APK (app installation file for Android) that I downloaded from the Google Play Dev Console, but installation failed because the architecture of the app was too out of date. There is, however, a usable version of the game that can be accessed via &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/really-old-projects/brianiscool-tk/&quot;&gt;brianiscool.tk&lt;/a&gt;, so in theory I can show people from that, but I&#39;d prefer the app experience.&lt;/p&gt;
+&lt;p&gt;So...&lt;/p&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; Run it locally and build it to Android, test it&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_1&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_1&quot;&gt; Try re-publishing it to the Play Store???&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_2&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_2&quot;&gt; Could also think about what improvements I could make (though tbh don&#39;t feel it&#39;s the place for me to invest my energy in anytime soon, especially with projects like &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/&quot;&gt;Specific Main App Pursuit I&#39;m Currently Working On&lt;/a&gt; on top of my mind)&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/projects/software/game-development/old-projects/bee-haven/" />
+        </entry>
+        <entry>
+            <title>
+                Inspiration
+                
+            </title>
+            <updated>2025-12-10T01:12:40.541Z</updated>
+            <id>https://briancherin.github.io/projects/software/game-development/inspiration/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gamedev&quot;&gt;#gamedev&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[&amp;quot;Make Tiny Games.&amp;quot; by Juniper Dev (youtube)](&lt;a href=&quot;https://www.youtube.com/watch?v=YtylfQq2JII&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.youtube.com/watch?v=YtylfQq2JII&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Made me feel inspired to code up small games. Mostly made me think of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/game-development/old-projects/bee-haven/&quot;&gt;Bee Haven&lt;/a&gt;, which is sort of a subway surfer clone I made during high school. I&#39;ve recently been thinking of repolishing and republishing it to the Play Store.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/projects/software/game-development/inspiration/" />
         </entry>
         <entry>
             <title>
