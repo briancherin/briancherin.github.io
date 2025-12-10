@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-10T01:28:24Z</updated>
+    <updated>2025-12-10T03:17:13Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -117,15 +117,15 @@ document.getElementById(&quot;random-note-button&quot;)
                 Bee Haven
                 
             </title>
-            <updated>2025-12-10T01:15:03.831Z</updated>
+            <updated>2025-12-10T03:07:38.910Z</updated>
             <id>https://briancherin.github.io/projects/software/game-development/old-projects/bee-haven/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gamedev&quot;&gt;#gamedev&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/bee%20haven%20title.png&quot; alt=&quot;bee haven title.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;A game I made during a high school summer program I attended. It&#39;s an infinite scroller. You control a bee&#39;s movement to the left and right as it moves forward toward the horizon, collecting flowers and avoiding birds.&lt;/p&gt;
+&lt;p&gt;A game I made during a high school summer program I attended in summer of 2018. It&#39;s an infinite scroller. You control a bee&#39;s movement to the left and right as it moves forward toward the horizon, collecting flowers and avoiding birds.&lt;/p&gt;
 &lt;p&gt;The graphics were very simplistic (I vaguely wanted to make them better in the future but never went back to it).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/bee%20haven%20gameplay.png&quot; alt=&quot;bee haven gameplay.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;I published it to the Google Play Store (under a pseudonym because I was very resistant to publishing things under my real name back then) but eventually it got taken down because I needed to update things to comply with Google&#39;s new developer rules (possibly could&#39;ve been something as easy as adding a privacy policy to my app, but I just never bothered to expend the energy to do this).&lt;/p&gt;
+&lt;p&gt;I published it to the Google Play Store (under a pseudonym because I was very resistant to publishing things under my real name back then) but eventually it got taken down because I needed to update things to comply with Google&#39;s new developer rules (possibly could&#39;ve been something as easy as adding a privacy policy to my app, but I just never bothered to expend the energy to do whatever it needed me to do).&lt;/p&gt;
 &lt;p&gt;But also recently, I&#39;ve been wanting to show people a demo of the game. I recently tried to re-install it on my phone by using an old APK (app installation file for Android) that I downloaded from the Google Play Dev Console, but installation failed because the architecture of the app was too out of date. There is, however, a usable version of the game that can be accessed via &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/really-old-projects/brianiscool-tk/&quot;&gt;brianiscool.tk&lt;/a&gt;, so in theory I can show people from that, but I&#39;d prefer the app experience.&lt;/p&gt;
 &lt;p&gt;So...&lt;/p&gt;
 &lt;ul class=&quot;task-list&quot;&gt;
@@ -142,14 +142,14 @@ document.getElementById(&quot;random-note-button&quot;)
                 Inspiration
                 
             </title>
-            <updated>2025-12-10T01:28:02.202Z</updated>
+            <updated>2025-12-10T03:08:23.494Z</updated>
             <id>https://briancherin.github.io/projects/software/game-development/inspiration/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gamedev&quot;&gt;#gamedev&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=YtylfQq2JII&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&amp;quot;Make Tiny Games.&amp;quot; by Juniper Dev (youtube)&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;Made me feel inspired to code up small games. Mostly made me think of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/game-development/old-projects/bee-haven/&quot;&gt;Bee Haven&lt;/a&gt;, which is sort of a subway surfer clone I made during high school. I&#39;ve recently been thinking of repolishing and republishing it to the Play Store.&lt;/li&gt;
+&lt;li&gt;Made me feel a brief moment of inspiration to code up small games - clones of existing ones with modifications, or just novel simple ones. Mostly made me think of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/game-development/old-projects/bee-haven/&quot;&gt;Bee Haven&lt;/a&gt;, which is sort of a subway surfer clone I made during high school. I&#39;ve recently been thinking of repolishing and republishing it to the Play Store.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -306,10 +306,11 @@ I found this &lt;a href=&quot;https://briancherin.github.io/&quot; target=&quot;
                 Garden Improvements
                 
             </title>
-            <updated>2025-12-09T03:59:03.973Z</updated>
+            <updated>2025-12-10T03:09:40.344Z</updated>
             <id>https://briancherin.github.io/meta/garden-improvements/</id>
             <content type="html">
-                &lt;p&gt;Things to do:&lt;/p&gt;
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Things to do:&lt;/p&gt;
 &lt;ul class=&quot;task-list&quot;&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; Set my own favicon instead of the default&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_1&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_1&quot;&gt; add a commenting system&lt;/label&gt;
@@ -317,7 +318,7 @@ I found this &lt;a href=&quot;https://briancherin.github.io/&quot; target=&quot;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_2&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_2&quot;&gt; (Done, 12/8/2025) Or at least an (optionally-anonymous) feedback/contact form in the mean time&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_3&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_3&quot;&gt; make it so the date published and date last updated appears on pages&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_3&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_3&quot;&gt; make it so the date published and date last updated appears on pages&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_4&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_4&quot;&gt; make a list of my hobbies/interests (and then eventually link pages/folders from them)&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_5&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_5&quot;&gt; be able to see page view count (analytics)&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_6&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_6&quot;&gt; (Done, 12/8/2025) Fix /feed.xml so it can generate RSS feed. There&#39;s an issue with the html snippet on the homepage for the &#39;random note&#39; button&lt;/label&gt;&lt;/li&gt;
@@ -333,7 +334,7 @@ I found this &lt;a href=&quot;https://briancherin.github.io/&quot; target=&quot;
                 Hank Green Tells Me To Fall Downhill
                 
             </title>
-            <updated>2025-12-09T23:21:28.137Z</updated>
+            <updated>2025-12-10T03:16:44.113Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/videos/hank-green-tells-me-to-fall-downhill/</id>
             <content type="html">
                 &lt;p&gt;Video title: &amp;quot;Don&#39;t Follow Your Dreams, Follow Your Tools&amp;quot;&lt;br /&gt;
@@ -343,16 +344,16 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
 &lt;p&gt;&amp;quot;When they&#39;re like, &#39;how do you decide what to do?&#39; -- &#39;I fall downhill,&#39; is what I say. I am not swimming upstream, very rarely. I might be swimming upstream in terms of the broader culture, but in terms of my skillset and my toolkit and my values, I am doing the easy thing at any given moment. Because I only have so much energy. And there are times when I&#39;m doing the hard thing. But it&#39;s only ever because I am obliged too, like I have to become of some obligation that I have that I would feel like a true monster to ignore.... The idea isn&#39;t a good idea if it&#39;s gonna require a tremendous amount of discipline from me. Because I know that I don&#39;t have that discipline.&amp;quot;&lt;/p&gt;
 &lt;h3 id=&quot;my-thoughts&quot; tabindex=&quot;-1&quot;&gt;My thoughts&lt;/h3&gt;
 &lt;p&gt;I kinda agree/vibe with this and kind of don&#39;t.&lt;/p&gt;
-&lt;p&gt;The idea of &amp;quot;falling downhill&amp;quot; feels extremely relevant to me. I have a lot of interests and hobbies and pursuits, and I love the feeling when working on one of them is an easy thing to do. I&#39;ve felt this way recently with writing (like, blog writing, i.e. Here) and piano (either practicing easy sheet music, or doing simple improvisation). Blogging/writing Here feels quite productive in the scheme of my pursuits, and I&#39;m kind of surprising myself at how easy it feels.&lt;/p&gt;
+&lt;p&gt;The idea of &amp;quot;falling downhill&amp;quot; feels extremely relevant to me. I have a lot of interests and hobbies and pursuits, and I love the feeling when working on one of them is an easy thing to do, not requiring much effort because I am really into it and can easily reach a flow state. I&#39;ve felt this way recently with writing (like, blog writing, i.e. Here) and piano (either practicing easy sheet music, or doing simple improvisation). Blogging/writing Here feels quite productive in the scheme of my pursuits, and I&#39;m kind of surprising myself at how easy it feels.&lt;/p&gt;
 &lt;p&gt;On the other hand, I have pursuits that I feel are high importance to me that aren&#39;t as easy and that do require more discipline. However I disagree with Mister Green here because I view myself as obligated to pursue these areas, even if I wouldn&#39;t go as far as saying I&#39;d feel like a &amp;quot;monster&amp;quot; to ignore them.&lt;/p&gt;
-&lt;p&gt;That being said, I do feel some resonance with the &amp;quot;monster&amp;quot; thing. My &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/&quot;&gt;Specific Main App Pursuit I&#39;m Currently Working On&lt;/a&gt; is not the easiest thing for me to work on&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; but I tell myself it&#39;s really important for me to work on because I feel like it can have a high impact on myself and potentially others if I (hopefully) publish it some day. I would kind of feel terrible (/monster) about myself, to myself, if I didn&#39;t give this a fair shot. However, it does feel uphill at times because of the energy required to work on it. But I do have the toolkit. So maybe it&#39;s just a circumstantial thing that makes this a hard project for me.&lt;/p&gt;
-&lt;p&gt;But still, I have other areas of pursuit that aren&#39;t &amp;quot;easy&amp;quot; to me but that I would love to get around to working on. Maybe this wording reveals something though -- &amp;quot;get around to&amp;quot;. Not necessarily working on them &lt;em&gt;right now&lt;/em&gt;, instantaneously. Mister Green implies that at any given moment, he falls downhill. But perhaps something that is uphill right now could be downhill in the future. So, I wait for the right time to work on this other pursuit, because in the future it may become easier. On the one hand, this can be a way to procrastinate (which is why the &amp;quot;monster&amp;quot; thing is important -- there are exceptions where I can enforce that discipline). But on the other hand, it respects my energy and removes possibly unnecessary friction in life (and in hobbies that are supposed to be for fun and relaxation and etc).&lt;/p&gt;
+&lt;p&gt;That being said, I do feel some resonance with the &amp;quot;monster&amp;quot; thing. My &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/&quot;&gt;Specific Main App Pursuit I&#39;m Currently Working On&lt;/a&gt; is not the easiest thing for me to work on&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; but I tell myself it&#39;s really important for me to work on because I feel like it can have a high impact on myself and potentially others if I (hopefully) publish it some day. I would kind of feel terrible (/monster) about myself, to myself, if I didn&#39;t give this a fair shot. However, it does feel uphill at times because of the energy required to work on it. But I do have the toolkit. So maybe it&#39;s just a circumstantial thing that makes this a hard project for me (where the circumstances are, code-fatigue from dayjob, and not making the right time/space/energy for this pursuit, and (perhaps often rightfully) spending energy on other aspects of life).&lt;/p&gt;
+&lt;p&gt;But still, I have other areas of pursuit that aren&#39;t &amp;quot;easy&amp;quot; to me but that I would love to get around to working on. Maybe this wording reveals something though -- &amp;quot;get around to&amp;quot;. Not necessarily working on them &lt;em&gt;right now&lt;/em&gt;, instantaneously. Mister Green implies that at any given moment, he falls downhill. But perhaps something that is uphill right now could later be downhill in the future. So, I wait for the right time to work on this other pursuit, because in the future it may become easier. On the one hand, this could be a rationalization that gives way to procrastination (which is why the &amp;quot;monster&amp;quot; thing is important -- there are exceptions where I can enforce that discipline). But on the other hand, this mindset respects my energy and removes possibly unnecessary strain in life (and in hobbies that are usually supposed to be for fun and/or relaxation and etc).&lt;/p&gt;
 &lt;p&gt;Still, though, I&#39;m a strong believer in &amp;quot;embrace discomfort&amp;quot;. Always doing the easiest thing doesn&#39;t feel like it aligns with this.&lt;/p&gt;
 &lt;p&gt;A couple other thoughts&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;I feel there&#39;s some relation to: &amp;quot;Do [x] if it aligns with your values&amp;quot; ===&amp;gt; &amp;quot;Do the easiest thing, unless doing the harder thing aligns with your values&amp;quot;. In choosing what to do with my time, I can do the easiest thing, but if there is a harder thing that is in alignment with my values / where I want to go in terms of fulfillment and self-actualization, then I should push myself to do that.&lt;/li&gt;
-&lt;li&gt;When I say &amp;quot;easiest thing&amp;quot;, well, the truly easiest thing for me is usually watching tv or a movie or videos. What I&#39;m really talking about here is Pursuits/hobbies.&lt;/li&gt;
-&lt;li&gt;I have a lot of hobbies/interests/pursuits, so I feel lucky in that even if any given moment, certain of those pursuits feel easier than others, I can focus on those easiest ones, and trust that in the future, the other ones may be the easier/downhill-facing ones.&lt;/li&gt;
+&lt;li&gt;When I say &amp;quot;easiest thing&amp;quot;, well, the truly easiest thing for me is usually watching tv or a movie or videos. What I&#39;m really talking about here is Pursuits/hobbies. Taken literally, those are not zero energy. But if I&#39;m in the headspace for working on a Pursuit, then there are some that are easier/lower-effort than others.&lt;/li&gt;
+&lt;li&gt;I have a lot of hobbies/interests/pursuits, so I feel lucky in that even if at any given moment, certain of those pursuits feel easier or harder than others, I can focus on those easiest ones, and trust that in the future, the other ones may be the easier/downhill-facing ones. Trusting that I will get to them eventually. I sometimes also view this idea of getting back to something in the future as an &amp;quot;envelope&amp;quot; that my past self has sealed an idea/motivation in, to be opened by my future self at some point. This also resonates with Barbara Sher&#39;s concept of &amp;quot;Cyclic scanners&amp;quot; which for a while I&#39;ve identified as being closely aligned to my pattern of cycling through interests -- whatever is in cycle right now may be what feels the &amp;quot;easiest&amp;quot; at the moment, and, per Sher&#39;s theory, once I&#39;ve satisfied myself in that area in the short term, something else may catch my attention and become the &amp;quot;easier&amp;quot; thing (but also maybe it&#39;s the harder thing that catches my interest and I decide to devote the discipline to focus on it for that period of time).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
