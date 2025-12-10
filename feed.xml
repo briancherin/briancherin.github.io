@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-10T03:20:30Z</updated>
+    <updated>2025-12-10T15:14:48Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -162,7 +162,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)
                 
             </title>
-            <updated>2025-12-09T23:28:11.160Z</updated>
+            <updated>2025-12-10T15:14:25.281Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#obsidian&quot;&gt;#obsidian&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cybersecurity&quot;&gt;#cybersecurity&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#privacy&quot;&gt;#privacy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#miniproject&quot;&gt;#miniproject&lt;/a&gt;&lt;/p&gt;
@@ -202,6 +202,11 @@ document.getElementById(&quot;random-note-button&quot;)
 &lt;/ul&gt;
 &lt;h2 id=&quot;concluding-words&quot; tabindex=&quot;-1&quot;&gt;Concluding words&lt;/h2&gt;
 &lt;p&gt;I have a feeling I might think of other AI-related Obsidian plugins in the future.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4 id=&quot;a-retrospect-from-two-days-later&quot; tabindex=&quot;-1&quot;&gt;A retrospect from two days later&lt;/h4&gt;
+&lt;p&gt;(2025-12-10) Retrospectively, what I mostly actually developed here was a GPT wrapper for a single-prompt analysis of the current note. The only thing making it a &amp;quot;security audit&amp;quot; plugin is the system prompt, which is modifiable in the plugin settings. So, anyone could actually change the system prompt for themselves and use it for something different. (This is a good/cool thing.)&lt;/p&gt;
+&lt;p&gt;Maybe I should instead have branded it as a generic GPT overlay. But I do also value the privacy focus because I feel like it&#39;s good to get people to think about it and give them a ready-made tool to do the privacy check up. So maybe I should make a separate plugin that has more emphasis on being a free-form AI tool.&lt;/p&gt;
+&lt;p&gt;But, without researching this at all, I&#39;d guess that something like that already exists. GPT has been a thing for a while, and I&#39;m sure that someone made a plugin to integrate a full chat into Obsidian. Fine, I&#39;ll check. Found this &lt;a href=&quot;https://www.reddit.com/r/ObsidianMD/comments/13cuq8w/best_plugin_for_chat_gpt_for_obsidian/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;reddit post&lt;/a&gt; with some suggested plugins for this. I&#39;m not discounting my own plugin, but maybe I don&#39;t need to expand it like I&#39;m saying. At the same time, what I&#39;m really suggesting here is a way for a user to set up any amount of custom commands which will execute one GPT system prompt on the active note. I could see this being a novel plugin idea.&lt;/p&gt;
 
             </content>
             <link href="https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/" />
