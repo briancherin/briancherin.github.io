@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-10T01:13:29Z</updated>
+    <updated>2025-12-10T01:13:53Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -154,29 +154,6 @@ document.getElementById(&quot;random-note-button&quot;)
 
             </content>
             <link href="https://briancherin.github.io/projects/software/game-development/inspiration/" />
-        </entry>
-        <entry>
-            <title>
-                brianiscool.tk
-                
-            </title>
-            <updated>2025-12-09T00:02:55.577Z</updated>
-            <id>https://briancherin.github.io/projects/really-old-projects/brianiscool-tk/</id>
-            <content type="html">
-                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This website was one of the first coding projects I worked on, back in high school. My version of a portfolio but a bit silly.&lt;/p&gt;
-&lt;p&gt;I originally hosted it using a webhost called 000webhost (I don&#39;t think it exists anymore) and Freenom for a free domain name (probably free because it was for non-traditional domain endings, like &amp;quot;.tk&amp;quot; or &amp;quot;.cw&amp;quot;). Eventually I forgot to keep renewing the domain and probably the hosting broke at some point, but luckily I had the original source files saved locally (or maybe on Github actually) so I turned it into a Github Pages site which is mostly functional to what it was originally like.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://briancherin.github.io/brianiscool/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://briancherin.github.io/brianiscool/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Scavenger hunt / things to watch out for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Random color generator (not on the homepage!)&lt;/li&gt;
-&lt;li&gt;Farm animal game (weirdly fun but eventually not balanced)&lt;/li&gt;
-&lt;li&gt;Bee Haven game (warning that this is not particularly mobile-friendly but it&#39;ll still work)&lt;/li&gt;
-&lt;li&gt;Try not to fall into the Trap (the curse of 100 alert dialogs)&lt;/li&gt;
-&lt;/ul&gt;
-
-            </content>
-            <link href="https://briancherin.github.io/projects/really-old-projects/brianiscool-tk/" />
         </entry>
         <entry>
             <title>
