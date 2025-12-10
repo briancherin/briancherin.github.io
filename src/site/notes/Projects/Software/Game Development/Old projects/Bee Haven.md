@@ -1,12 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/bee-haven/","created":"2025-12-09T20:04:18.301-05:00","updated":"2025-12-09T20:12:26.017-05:00"}
+{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/bee-haven/","created":"2025-12-09T20:04:18.301-05:00","updated":"2025-12-09T20:15:03.831-05:00"}
 ---
 
 #gamedev #project 
 
+![bee haven title.png](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/bee%20haven%20title.png)
+
 A game I made during a high school summer program I attended. It's an infinite scroller. You control a bee's movement to the left and right as it moves forward toward the horizon, collecting flowers and avoiding birds.
 
 The graphics were very simplistic (I vaguely wanted to make them better in the future but never went back to it).
+
+![bee haven gameplay.png](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/bee%20haven%20gameplay.png)
 
 I published it to the Google Play Store (under a pseudonym because I was very resistant to publishing things under my real name back then) but eventually it got taken down because I needed to update things to comply with Google's new developer rules (possibly could've been something as easy as adding a privacy policy to my app, but I just never bothered to expend the energy to do this).
 
