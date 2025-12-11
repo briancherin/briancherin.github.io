@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-10T19:07:28Z</updated>
+    <updated>2025-12-11T14:29:17Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -331,7 +331,7 @@ I found this &lt;a href=&quot;https://briancherin.github.io/&quot; target=&quot;
                 Garden Improvements
                 
             </title>
-            <updated>2025-12-10T03:20:05.057Z</updated>
+            <updated>2025-12-11T14:28:50.479Z</updated>
             <id>https://briancherin.github.io/meta/garden-improvements/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt;&lt;/p&gt;
@@ -345,7 +345,7 @@ I found this &lt;a href=&quot;https://briancherin.github.io/&quot; target=&quot;
 &lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_3&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_3&quot;&gt; make it so the date published and date last updated appears on pages&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_4&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_4&quot;&gt; make a list of my hobbies/interests (and then eventually link pages/folders from them)&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_5&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_5&quot;&gt; be able to see page view count (analytics)&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_5&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_5&quot;&gt; be able to see page view count (analytics) (possibly some good guidance &lt;a href=&quot;https://tjpalanca.com/2023/05/20/nerfing-google-analytics.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;here&lt;/a&gt;)&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_6&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_6&quot;&gt; (Done, 12/8/2025) Fix /feed.xml so it can generate RSS feed. There&#39;s an issue with the html snippet on the homepage for the &#39;random note&#39; button&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_7&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_7&quot;&gt; Post this site to Kagi Small Web&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_8&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_8&quot;&gt; Make a visualization to see frequency of posts over time&lt;/label&gt;&lt;/li&gt;
