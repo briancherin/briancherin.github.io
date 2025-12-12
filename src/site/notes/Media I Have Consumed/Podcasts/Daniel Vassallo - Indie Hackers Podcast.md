@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/podcasts/daniel-vassallo-indie-hackers-podcast/","created":"2025-12-11T19:33:27.328-05:00","updated":"2025-12-11T20:02:03.369-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/podcasts/daniel-vassallo-indie-hackers-podcast/","created":"2025-12-11T19:33:27.328-05:00","updated":"2025-12-11T23:10:34.477-05:00"}
 ---
 
 #podcast #entrepreneurship 
@@ -32,3 +32,4 @@ Some thoughts/highlights I noted about specific parts of the podcast discussion:
 	- I like this advice because it's in tune with how I operate. I generally already have different pursuits going on. At different scales too -- different coding projects (or ideas) as well as non-coding projects also (though usually not with a business focus).
 	- There's a tradeoff here of losing focus on any one thing. It really depends on the person's working style. I think I accel at working on different things at once, and I feel the nervousness that Mr. Vassallo described, of wondering if the One Thing you're focusing on will work out. I don't really ever take that risk, though. Doing so is just not how I operate. 
 	- I've tried sometimes to focus all my attention on one thing, and, at least for a recent time I did this, I would get stuck or lose motivation on the One Thing, procrastinate it and not make much progress, but still tell myself that this is the Only Thing I am allowing myself to work on, and nothing else, and so I don't make progress on anything. If instead I had allowed myself to switch between things more, I may have reduced the strain of needing to get the One Thing right (which paradoxically might raise motivation for it), and I can make progress on multiple things at once. Again, I seem to excel and feel most motivated and rewarded when I'm making incremental progress on a couple hobbies/projects at once.
+- Host mentioned in the morning he likes to read some random(?) blog posts - the value of being exposed to new ideas/concepts/things that may not be what you normally consume / learn about. I like [Kagi Small Web](http://kagi.com/smallweb) for this purpose. I recently added it to my RSS feed viewer app (I use Feedly on Android) - specifically, the RSS feed for "appreciated" posts.
