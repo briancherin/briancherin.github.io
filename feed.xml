@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-12T01:05:19Z</updated>
+    <updated>2025-12-12T02:14:54Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -156,6 +156,23 @@ document.getElementById(&quot;random-note-button&quot;)
 
             </content>
             <link href="https://briancherin.github.io/projects/software/game-development/game-dev-inspiration/" />
+        </entry>
+        <entry>
+            <title>
+                Reasons to Write (Here)
+                
+            </title>
+            <updated>2025-12-12T02:14:26.939Z</updated>
+            <id>https://briancherin.github.io/meta/on-blogging/reasons-to-write-here/</id>
+            <content type="html">
+                &lt;ul&gt;
+&lt;li&gt;Doing any writing makes me a better writer by developing the skill&lt;/li&gt;
+&lt;li&gt;Expressing my ideas and sharing them with people, which can lead to connection (with people), collaboration, insight&lt;/li&gt;
+&lt;li&gt;Writing things out provides a means of developing ideas, possibly leading towards insights and connections (between ideas)&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/meta/on-blogging/reasons-to-write-here/" />
         </entry>
         <entry>
             <title>
