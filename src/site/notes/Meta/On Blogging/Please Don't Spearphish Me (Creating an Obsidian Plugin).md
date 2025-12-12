@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/","created":"2025-12-08T18:16:54.756-05:00","updated":"2025-12-10T10:14:25.281-05:00"}
+{"dg-publish":true,"permalink":"/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/","created":"2025-12-08T18:16:54.756-05:00","updated":"2025-12-11T20:04:41.664-05:00"}
 ---
 
 #digitalgarden #obsidian #cybersecurity #privacy #project #coding #miniproject
@@ -64,3 +64,9 @@ ____
 Maybe I should instead have branded it as a generic GPT overlay. But I do also value the privacy focus because I feel like it's good to get people to think about it and give them a ready-made tool to do the privacy check up. So maybe I should make a separate plugin that has more emphasis on being a free-form AI tool.
 
 But, without researching this at all, I'd guess that something like that already exists. GPT has been a thing for a while, and I'm sure that someone made a plugin to integrate a full chat into Obsidian. Fine, I'll check. Found this [reddit post](https://www.reddit.com/r/ObsidianMD/comments/13cuq8w/best_plugin_for_chat_gpt_for_obsidian/) with some suggested plugins for this. I'm not discounting my own plugin, but maybe I don't need to expand it like I'm saying. At the same time, what I'm really suggesting here is a way for a user to set up any amount of custom commands which will execute one GPT system prompt on the active note. I could see this being a novel plugin idea.
+
+___
+2025-12-11
+Also, I realize that there is some irony/concern with passing the potentially sensitive note content to AI to scan for said potentially sensitive content. The tradeoff is, do I want to reveal my personal details to the Internet, or reveal them to an AI (read: the corporation running the AI)? 
+
+Also, my PR for the Obsidian plugin has kind of stalled, and I'm not feeling much motivation to push hard on it. Might be something I just let float around until I feel more strongly about it. It's a really teeny tiny mini project, not a big deal.
