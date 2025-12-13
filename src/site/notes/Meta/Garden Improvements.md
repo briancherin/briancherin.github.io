@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/meta/garden-improvements/","created":"2025-12-07T17:13:34.190-05:00","updated":"2025-12-11T09:28:50.479-05:00"}
+{"dg-publish":true,"permalink":"/meta/garden-improvements/","created":"2025-12-07T17:13:34.190-05:00","updated":"2025-12-13T15:20:12.060-05:00"}
 ---
 
 #digitalgarden 
 
 Things to do:
-- [ ] Set my own favicon instead of the default
+- [x] (Done 12/13/2025) Set my own favicon instead of the default
 - [ ] add a commenting system
 	- [x] (Done, 12/8/2025) Or at least an (optionally-anonymous) feedback/contact form in the mean time
 - [x] make it so the date published and date last updated appears on pages
