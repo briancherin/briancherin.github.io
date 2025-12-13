@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)</title>
+<title>Bugonia (2025)</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -79,7 +79,7 @@ CTRL + K
 <span class="foldername">Movies</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/movies/bugonia-2025/">Bugonia (2025) </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/movies/bugonia-2025/">Bugonia (2025) </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -143,7 +143,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/">Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin) </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/">Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin) </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -270,67 +270,28 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-12-13T23:59:27.479Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-12-13T23:59:27.479Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-12-13T23:59:27.479Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)</h1>
+<h1 data-note-icon="">Bugonia (2025)</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
 <div class="timestamps">
-<script>console.log("showCreated: " + true + ", created: " + 2025-12-08T18:16:54.756-05:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-12-08T18:16:54.756-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-12-11T20:04:41.664-05:00"></span></div></div></div>
+<script>console.log("showCreated: " + true + ", created: " + 2025-12-13T18:37:23.409-05:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-12-13T18:37:23.409-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-12-13T18:59:03.028-05:00"></span></div></div></div>
 </header>
-<p><a class="tag" onclick="toggleTagSearch(this)" data-content="#digitalgarden">#digitalgarden</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#obsidian">#obsidian</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#cybersecurity">#cybersecurity</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#privacy">#privacy</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#project">#project</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#coding">#coding</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#miniproject">#miniproject</a></p>
-<p>Anytime I make a new public appearance (like making a new social media account, or this blog) I ask myself: am I revealing too much about myself to the Internet? I have some background in cybersecurity (meaning: a handful of classes at university), so I have some mental framework that lets me contemplate the consequences of having information about myself online.</p>
-<p>There's a little voice in my head saying not to publish an article with this title (&quot;please don't spearphish me&quot;) because it might act as reverse psychology and give someone the idea to do it just because I mentioned it. Please don't be that person.</p>
-<p>Anyway, my point here is that I'm building some level of a safeguard for myself. A tool that might help me catch myself before revealing too much.</p>
-<p>Is this a perfect solution? No.</p>
-<p>Am I overthinking this? Maybe.</p>
-<p>But just like my footnote in my <a class="internal-link" target="" data-note-icon="" href="/media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/">1 Second Everyday - Indie Hackers Podcast</a> post (&quot;It's scary sometimes how easy it might be to ruin your own life&quot;), I feel that exposing some little piece of information about yourself in public could cause some mess for you. At best? Someone being creepy and sending you weird messages. At worst? Someone identifying a routine that you have and stalking you in real life. Or just hacking you via a spearphishing email that contains a link or download you mindlessly click.</p>
-<p>So what's my little solution for this? An Obsidian plugin that will audit the current note I've written and tell me if I'm revealing too much information in the post. (Obsidian is the text editor I use to write these blog posts, and I use the <a href="https://github.com/oleeskild/Obsidian-Digital-Garden" target="_blank" class="external-link">Obsidian Digital Garden plugin</a> for help building+publishing to this site.)</p>
-<h2 id="how-it-works" tabindex="-1">How it works</h2>
-<p>This is the workflow:</p>
-<ol>
-<li>Install the plugin (see instructions on the Github repo, linked below) and set your OpenAI API key in the plugin settings. You can also modify the system prompt that tells the AI how to interpret your note and what the output should look like.</li>
-<li>You write a note in Obsidian.</li>
-<li>Open the command palette (ctrl/cmd + P) and run &quot;Privacy Audit&quot;.</li>
-<li>The request will be processed by the OpenAI API and the result will be opened in a side panel.</li>
-</ol>
-<h2 id="more-details" tabindex="-1">More details</h2>
-<p>I used ChatGPT to help me code this up. It didn't take long to set it up locally and test it out in Obsidian.</p>
-<p>The plugin uses the OpenAI API to ask GPT to review the note and make any suggestions.</p>
-<p>I've published the code to my Github <a href="https://github.com/briancherin/obsidian-ai-privacy-audit" target="_blank" class="external-link">here</a> and I've made a <a href="https://github.com/obsidianmd/obsidian-releases/pull/8887" target="_blank" class="external-link">Pull Request</a> on the Obsidian repo to get this added to the community plugin list so that anyone can access it. A fun little open-source contribution that I hope someone might find helpful! I'm pretty new to the Obsidian and Digital Gardening scene, so I hope the universe will forgive me if something like this already exists (I swear, I don't mean to flood the plugin list with slop).</p>
-<h2 id="examples" tabindex="-1">Examples</h2>
-<p>The command:<br>
-<picture src="/img/user/Meta/On%20Blogging/Assets/Images/dontspearpishme-command-palette.png" alt="dontspearpishme-command-palette.png"><source media="(max-width:480px)" srcset="/img/optimized/JZ-jw-Mue1-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/JZ-jw-Mue1-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/JZ-jw-Mue1-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/JZ-jw-Mue1-700.jpeg"><img class="" src="/img/user/Meta/On%20Blogging/Assets/Images/dontspearpishme-command-palette.png" alt="dontspearpishme-command-palette.png" width=""></picture></p>
-<p>The plugin catches my reveal of a routine:<br>
-<picture src="/img/user/Meta/On%20Blogging/Assets/Images/dontspearphishme-example1.png" alt="dontspearphishme-example1.png"><source media="(max-width:480px)" srcset="/img/optimized/KRw93zILRH-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/KRw93zILRH-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/KRw93zILRH-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/KRw93zILRH-700.jpeg"><img class="" src="/img/user/Meta/On%20Blogging/Assets/Images/dontspearphishme-example1.png" alt="dontspearphishme-example1.png" width=""></picture></p>
-<p>The plugin catches my reveal of corporate information:<br>
-<picture src="/img/user/Meta/On%20Blogging/Assets/Images/dontspearphishme-example2.png" alt="dontspearphishme-example2.png"><source media="(max-width:480px)" srcset="/img/optimized/_daMXhJ74n-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/_daMXhJ74n-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/_daMXhJ74n-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/_daMXhJ74n-700.jpeg"><img class="" src="/img/user/Meta/On%20Blogging/Assets/Images/dontspearphishme-example2.png" alt="dontspearphishme-example2.png" width=""></picture></p>
-<p>No issues with this one! It gives some extraneous suggestions about my clearly engaging content:<br>
-<picture src="/img/user/Meta/On%20Blogging/Assets/Images/dontspearphishme-example3.png" alt="dontspearphishme-example3.png"><source media="(max-width:480px)" srcset="/img/optimized/Y-RvulGtiF-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/Y-RvulGtiF-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/Y-RvulGtiF-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/Y-RvulGtiF-700.jpeg"><img class="" src="/img/user/Meta/On%20Blogging/Assets/Images/dontspearphishme-example3.png" alt="dontspearphishme-example3.png" width=""></picture></p>
-<h2 id="areas-for-improvement" tabindex="-1">Areas for improvement</h2>
-<ul>
-<li>Add a command to run an audit for every file in the vault individually and get a summary of suggested fixes for each</li>
-<li>Add a command to do a comprehensive audit across the whole vault, in case little bits of information in each file add up to a bigger picture (violating your privacy) which wouldn't be revealed within just one file. (This may be complicated since all the files won't fit in one GPT context window. There'd have to be some processing.)</li>
-<li>Add a similar audit to the Github pipeline that actually gets triggered when I publish a note, so I don't have to remember to manually run the audit within Obsidian. If there is a critical warning, maybe fail the job, or maybe just alert me somehow.</li>
-</ul>
-<h2 id="concluding-words" tabindex="-1">Concluding words</h2>
-<p>I have a feeling I might think of other AI-related Obsidian plugins in the future.</p>
-<hr>
-<h4 id="a-retrospect-from-two-days-later" tabindex="-1">A retrospect from two days later</h4>
-<p>(2025-12-10) Retrospectively, what I mostly actually developed here was a GPT wrapper for a single-prompt analysis of the current note. The only thing making it a &quot;security audit&quot; plugin is the system prompt, which is modifiable in the plugin settings. So, anyone could actually change the system prompt for themselves and use it for something different. (This is a good/cool thing.)</p>
-<p>Maybe I should instead have branded it as a generic GPT overlay. But I do also value the privacy focus because I feel like it's good to get people to think about it and give them a ready-made tool to do the privacy check up. So maybe I should make a separate plugin that has more emphasis on being a free-form AI tool.</p>
-<p>But, without researching this at all, I'd guess that something like that already exists. GPT has been a thing for a while, and I'm sure that someone made a plugin to integrate a full chat into Obsidian. Fine, I'll check. Found this <a href="https://www.reddit.com/r/ObsidianMD/comments/13cuq8w/best_plugin_for_chat_gpt_for_obsidian/" target="_blank" class="external-link">reddit post</a> with some suggested plugins for this. I'm not discounting my own plugin, but maybe I don't need to expand it like I'm saying. At the same time, what I'm really suggesting here is a way for a user to set up any amount of custom commands which will execute one GPT system prompt on the active note. I could see this being a novel plugin idea.</p>
-<hr>
-<p>2025-12-11<br>
-Also, I realize that there is some irony/concern with passing the potentially sensitive note content to AI to scan for said potentially sensitive content. The tradeoff is, do I want to reveal my personal details to the Internet, or reveal them to an AI (read: the corporation running the AI)?</p>
-<p>Also, my PR for the Obsidian plugin has kind of stalled, and I'm not feeling much motivation to push hard on it. Might be something I just let float around until I feel more strongly about it. It's a really teeny tiny mini project, not a big deal.</p>
+<p><a href="https://www.imdb.com/title/tt12300742/" target="_blank" class="external-link">https://www.imdb.com/title/tt12300742/</a><br>
+<img src="/img/user/Media%20I%20Have%20Consumed/Movies/Assets/bugonia.jpg" alt="bugonia.jpg"></p>
+<div class="callout" data-callout="warning" data-callout-metadata=" "><div class="callout-title"><div class="callout-title-inner"> WARNING - SPOILERS AHEAD</div></div></div>
+<p>I have mixed feelings about this movie.</p>
+<p>First: acting was great. Everything I'm about to say is very much supported by the acting.</p>
+<p>Here was my experience with this movie.</p>
+<p>I heard about the movie a couple months ago, and vaguely knew it was about someone maybe being an alien. I re-read the synopsis before watching it, which gave me more of a feeling that the character probably wasn't an alien.</p>
+<p>While watching it, I went back and forth several times whether I believed she was an alien or not. For most of the movie, the most plausible scenario was that she was not an alien. However, I knew there was a chance that there would be a twist and she would actually be an alien. (How many times can I say the word alien?)</p>
+<p>That's kind of my problem with this. It feels like I was involved in a game between the director/writers and myself, where I was trying to puzzle this out, and the writers were tricking me until the very end. They won, honestly, and I was somewhat stricken at the end, or maybe actually self-satisfied due to my doubt.</p>
+<p>But again, it felt more like an interaction between my and the writers, with the actors as the vessels of that interaction. This... actually sounds very deep and probably is actually a reflection of the purpose of all art and such. However, I think I'm actually trying to comment here about my level of investment in the movie.</p>
+<p>My understanding of the characters obviously changed after the big &quot;reveal&quot;. Suddenly, the crazy conspiracy theorist had actually been right about things. And the person we were empathizing with for most of the movie actually turned out to... go ahead and destroy all of humanity. (I do wish that last part was expanded on more. Why did the aliens need to kill everyone? I also have a problem with this because she displayed some empathy toward sidekick cousin guy right after his death (I think...), so how could she not care at all about wiping out civilization? Perhaps she lost all faith in humanity due to the events of this movie.)</p>
+<p>I felt that this would've been a fine movie if the &quot;twist&quot; hadn't occurred. If it had just been about a CEO who was kidnapped and then managed to escape via her own wit. It would've been a great movie.</p>
+<p>The ending cheapened it a little to me. It went from action/heist/drama to sci-fi. It cheapened my earlier understanding. But I'm not necessarily saying this turned it into a <em>bad</em> film. Just different. More wacky than the whole rest of the movie seemed. I read some review of the movie that said it should have been weirder earlier on, and maybe that would've made this change less harsh.</p>
+<p>All that being said -- I am generally here for the experience and ride that the makers have charted for me. And it was a fun experience. And I know this is a remake of a film, so I feel like I can't be upset about the plot being the plot. I guess I can just be criticizing both versions, but I don't feel I can do that without having also seen the original. And unfortunately I don't think I liked the experience enough to watch the original. Even if I like the idea of having a deeper experience with the material. Gotta choose what to put my time into.</p>
+<p>Overall. Good film. Fun. Thrilling at times. The twist ending was fun, but the execution of it with respect to the rest of the movie didn't sit totally right with me. But maybe that was the point.</p>
 </main>
 <aside>
 <div class="sidebar">
@@ -363,36 +324,10 @@ Also, I realize that there is some irony/concern with passing the potentially se
 <span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i icon-name="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
 </div>
 </div>
-<div class="toc">
-<div class="toc-title-container">
-<div class="toc-title">
-On this page
-</div>
-</div>
-<div class="toc-container">
-<nav class="toc">
-<ol>
-<li><a href="#how-it-works">How it works</a>
-</li>
-<li><a href="#more-details">More details</a>
-</li>
-<li><a href="#examples">Examples</a>
-</li>
-<li><a href="#areas-for-improvement">Areas for improvement</a>
-</li>
-<li><a href="#concluding-words">Concluding words</a>
-<ol>
-<li><a href="#a-retrospect-from-two-days-later">A retrospect from two days later</a>
-</li>
-</ol>
-</li>
-</ol>
-</nav>
-</div>
-</div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/projects/software/mini-projects/mini-projects/" data-note-icon="" class="backlink">Mini Projects</a>
+<div class="backlink-list"><div class="backlink-card">
+<span class="no-backlinks-message">No other pages mentions this page</span>
 </div></div>
 </div>
 </div>
