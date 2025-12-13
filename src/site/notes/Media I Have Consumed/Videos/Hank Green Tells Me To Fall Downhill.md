@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/videos/hank-green-tells-me-to-fall-downhill/"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/videos/hank-green-tells-me-to-fall-downhill/","created":"2025-12-09T17:56:45.874-05:00","updated":"2025-12-09T22:16:44.113-05:00"}
 ---
 
 Video title: "Don't Follow Your Dreams, Follow Your Tools"

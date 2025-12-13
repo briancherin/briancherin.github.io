@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/the-chef-of-south-polar-2009/","created":"2025-12-08T22:59:43.266-05:00","updated":"2025-12-13T12:30:46.567-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/the-chef-of-south-polar-2009/","created":"2025-12-08T22:59:43.266-05:00","updated":"2025-12-09T15:05:57.897-05:00"}
 ---
 
 #movie #japanese
@@ -23,4 +23,3 @@ There were a lot of hilarious moments - these kind of stand out more as the esse
 It's not a particularly fast-paced movie and there's not much plot, so it's mostly about enjoying the vibes and seeing how food brings these people together and laughing along with the silly situations they find themselves in.
 
 Oh yeah and also, it being in Japanese, I appreciated it as a little motivator/challenge for my Japanese learning endeavors. It was nice to see myself catch some phrases and vocab words. I was particularly pleased when I was able to read "tanjoubi" (it was in hiragana in the movie. sorry, I don't have Japanese keyboard stuff setup on my laptop right now. I usually do that stuff on mobile.) on the cookies the chef was making and realize it was a birthday party seconds before they expanded on that visually. I'm mostly in a slump regarding Japanese learning recently (I completed 11/12 Genki Volume 1 sections and haven't gone back to it in months) and I'm not saying this movie is at all getting me out of it but it's a good reminder of the fun of language learning and the perks of learning more.
-
