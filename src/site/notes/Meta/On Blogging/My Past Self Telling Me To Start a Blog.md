@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/","created":"2025-12-08T12:55:44.347-05:00","updated":"2025-12-10T14:06:37.759-05:00"}
+{"dg-publish":true,"permalink":"/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/"}
 ---
 
 Digging in the archives of my Google Keep notes:

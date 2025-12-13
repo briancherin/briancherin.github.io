@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/","created":"2025-12-08T18:16:54.756-05:00","updated":"2025-12-11T20:04:41.664-05:00"}
+{"dg-publish":true,"permalink":"/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/"}
 ---
 
 #digitalgarden #obsidian #cybersecurity #privacy #project #coding #miniproject

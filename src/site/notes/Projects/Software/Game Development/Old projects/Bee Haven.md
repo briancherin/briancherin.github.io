@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/bee-haven/","created":"2025-12-09T20:04:18.301-05:00","updated":"2025-12-09T22:07:38.910-05:00"}
+{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/bee-haven/"}
 ---
 
 #gamedev #project 

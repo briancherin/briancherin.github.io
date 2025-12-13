@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/this-is-the-beginning/","tags":["gardenEntry"],"created":"2025-12-07T16:43:50.597-05:00","updated":"2025-12-08T21:15:47.876-05:00"}
+{"dg-publish":true,"permalink":"/this-is-the-beginning/","tags":["gardenEntry"]}
 ---
 
 # This is the beginning
@@ -35,6 +35,17 @@ document.getElementById("random-note-button")
 </script>
 
 
+| File                                                                                                                                       | Date |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
+| [[Meta/Garden Improvements\|Garden Improvements]]                                                                                       | \-   |
+| [[Meta/On Blogging/Blogging Inspiration\|Blogging Inspiration]]                                                                         | \-   |
+| [[Meta/On Blogging/Please Don't Spearphish Me (Creating an Obsidian Plugin)\|Please Don't Spearphish Me (Creating an Obsidian Plugin)]] | \-   |
+| [[Meta/On Blogging/My Past Self Telling Me To Start a Blog\|My Past Self Telling Me To Start a Blog]]                                   | \-   |
+| [[Meta/On Blogging/Reasons to Write (Here)\|Reasons to Write (Here)]]                                                                   | \-   |
+| [[Meta/Obsidian Setup\|Obsidian Setup]]                                                                                                 | \-   |
+| [[Projects/Software/Game Development/Game Dev Inspiration\|Game Dev Inspiration]]                                                       | \-   |
+
+{ .block-language-dataview}
 
 
 _____________

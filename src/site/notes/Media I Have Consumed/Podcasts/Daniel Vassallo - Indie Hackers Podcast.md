@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/podcasts/daniel-vassallo-indie-hackers-podcast/","created":"2025-12-11T19:33:27.328-05:00","updated":"2025-12-11T23:10:34.477-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/podcasts/daniel-vassallo-indie-hackers-podcast/"}
 ---
 
 #podcast #entrepreneurship 
