@@ -3,14 +3,14 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-13T18:10:33Z</updated>
+    <updated>2025-12-13T18:12:41Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
                 This is the beginning
                 
             </title>
-            <updated>2025-12-13T18:10:10.043Z</updated>
+            <updated>2025-12-13T18:12:19.751Z</updated>
             <id>https://briancherin.github.io/</id>
             <content type="html">
                 &lt;h1 id=&quot;this-is-the-beginning&quot; tabindex=&quot;-1&quot;&gt;This is the beginning&lt;/h1&gt;
@@ -41,14 +41,15 @@ document.getElementById(&quot;random-note-button&quot;)
   .addEventListener(&quot;click&quot;, goToRandomNote);
 &lt;/script&gt;
 &lt;h2&gt;Most recently published&lt;/h2&gt;
-- &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://briancherin.github.io/404&quot; target=&quot;&quot;&gt;My Past Self Telling Me To Start a Blog&lt;/a&gt;
-- &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://briancherin.github.io/404&quot; target=&quot;&quot;&gt;Blogging Inspiration&lt;/a&gt;
-- &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://briancherin.github.io/404&quot; target=&quot;&quot;&gt;Reasons to Write (Here)&lt;/a&gt;
-- &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://briancherin.github.io/404&quot; target=&quot;&quot;&gt;Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)&lt;/a&gt;
-- &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://briancherin.github.io/404&quot; target=&quot;&quot;&gt;Garden Improvements&lt;/a&gt;
-- &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://briancherin.github.io/404&quot; target=&quot;&quot;&gt;Obsidian Setup&lt;/a&gt;
-- &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://briancherin.github.io/404&quot; target=&quot;&quot;&gt;The Chef of South Polar (2009)&lt;/a&gt;
-&lt;p class=&quot;block-language-dataview&quot;&gt;&lt;/p&gt;
+&lt;ul class=&quot;block-language-dataview&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/&quot;&gt;My Past Self Telling Me To Start a Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/blogging-inspiration/&quot;&gt;Blogging Inspiration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/reasons-to-write-here/&quot;&gt;Reasons to Write (Here)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/&quot;&gt;Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/garden-improvements/&quot;&gt;Garden Improvements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/obsidian-setup/&quot;&gt;Obsidian Setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/movies/the-chef-of-south-polar-2009/&quot;&gt;The Chef of South Polar (2009)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;&lt;a href=&quot;https://forms.gle/B5rkQCYMBTHrR6fDA&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Send me a comment!&lt;/a&gt;&lt;/p&gt;
 
