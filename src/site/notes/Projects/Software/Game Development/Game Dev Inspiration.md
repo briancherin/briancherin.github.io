@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/software/game-development/game-dev-inspiration/"}
+{"dg-publish":true,"permalink":"/projects/software/game-development/game-dev-inspiration/","created":"2025-12-09T20:02:13.874-05:00","updated":"2025-12-09T22:08:23.494-05:00"}
 ---
 
 #gamedev
