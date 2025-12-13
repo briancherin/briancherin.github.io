@@ -15,3 +15,7 @@ The Obsidian Digital Garden plugin automatically generates an RSS feed at the /f
 `error on line 48 at column 17: Opening and ending tag mismatch: link line 47 and entry`
 https://github.com/oleeskild/obsidian-digital-garden/issues/493
 I found this [Github issue]() that helped resolve this. The solution was to manually go into the site's Github repo and edit `src/site/feed.njk` so that all of the \<link\> tags have a closing tag with five backslashes instead of four (yes this is a weird error/workaround).
+
+
+#### Setting custom domain name
+I added garden.briancher.in as my domain in Github Pages settings, but it got cleared any time I published a note from Obsidian. Thankfully I quickly found a note in the repo's readme which said I needed to add the domain also to .github/workflows/build.yml.
