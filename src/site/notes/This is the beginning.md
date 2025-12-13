@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/this-is-the-beginning/","tags":["gardenEntry"],"created":"2025-12-07T16:43:50.597-05:00","updated":"2025-12-13T13:10:10.043-05:00"}
+{"dg-publish":true,"permalink":"/this-is-the-beginning/","tags":["gardenEntry"],"created":"2025-12-07T16:43:50.597-05:00","updated":"2025-12-13T13:12:19.751-05:00"}
 ---
 
 # This is the beginning
@@ -35,6 +35,7 @@ document.getElementById("random-note-button")
 </script>
 
 <h2>Most recently published</h2>
+
 - [[Meta/On Blogging/My Past Self Telling Me To Start a Blog\|My Past Self Telling Me To Start a Blog]]
 - [[Meta/On Blogging/Blogging Inspiration\|Blogging Inspiration]]
 - [[Meta/On Blogging/Reasons to Write (Here)\|Reasons to Write (Here)]]
