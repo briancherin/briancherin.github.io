@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-15T23:30:20Z</updated>
+    <updated>2025-12-15T23:33:07Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -166,7 +166,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 What Is This
                 
             </title>
-            <updated>2025-12-15T23:28:10.623Z</updated>
+            <updated>2025-12-15T23:32:48.075Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/what-is-this/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt;&lt;/p&gt;
@@ -194,6 +194,8 @@ document.getElementById(&quot;random-note-button&quot;)
 &lt;/ul&gt;
 &lt;h3 id=&quot;what-do-i-hope-for-myself-to-get-out-of-this-site&quot; tabindex=&quot;-1&quot;&gt;What do I hope for myself to get out of this site?&lt;/h3&gt;
 &lt;p&gt;See &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/reasons-to-write-here/&quot;&gt;Reasons to Write (Here)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;how-did-i-make-this-site&quot; tabindex=&quot;-1&quot;&gt;How did I make this site?&lt;/h3&gt;
+&lt;p&gt;I use a text editor called Obsidian, which makes it easy to have a hierarchy of many interconnected notes. Also see &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/obsidian-setup/&quot;&gt;Obsidian Setup&lt;/a&gt;.&lt;/p&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
