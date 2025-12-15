@@ -3,19 +3,23 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-15T04:10:15Z</updated>
+    <updated>2025-12-15T23:29:57Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
                 This is the beginning
                 
             </title>
-            <updated>2025-12-13T18:21:48.481Z</updated>
+            <updated>2025-12-15T23:28:49.233Z</updated>
             <id>https://briancherin.github.io/</id>
             <content type="html">
                 &lt;h1 id=&quot;this-is-the-beginning&quot; tabindex=&quot;-1&quot;&gt;This is the beginning&lt;/h1&gt;
 &lt;p&gt;of my digital garden / blog thing.&lt;/p&gt;
 &lt;p&gt;Hi.&lt;/p&gt;
+&lt;p&gt;A starting point:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/what-is-this/&quot;&gt;What Is This&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;button id=&quot;random-note-button&quot;&gt;🎲 Go to Random Note&lt;/button&gt;&lt;/p&gt;
 &lt;script&gt;
 let notes = null;
@@ -156,6 +160,50 @@ document.getElementById(&quot;random-note-button&quot;)
 
             </content>
             <link href="https://briancherin.github.io/projects/software/game-development/game-dev-inspiration/" />
+        </entry>
+        <entry>
+            <title>
+                What Is This
+                
+            </title>
+            <updated>2025-12-15T23:28:10.623Z</updated>
+            <id>https://briancherin.github.io/meta/on-blogging/what-is-this/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is my &amp;quot;digital garden&amp;quot;. It&#39;s sort of a blog, sort of a personal wiki. It&#39;s a place for me to comment on media I&#39;ve consumed, share about my interests and personal projects, and document my viewpoints or anything else I want to share with the world.&lt;/p&gt;
+&lt;h3 id=&quot;what-inspired-this&quot; tabindex=&quot;-1&quot;&gt;What inspired this?&lt;/h3&gt;
+&lt;p&gt;I&#39;ve had the idea of writing in a blog format for a while -- see &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/&quot;&gt;My Past Self Telling Me To Start a Blog&lt;/a&gt;. Idea blossomed into reality after I watched a &lt;a href=&quot;https://www.youtube.com/watch?v=6fj-OJ6RcNQ&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;video&lt;/a&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; which introduced the idea of a digital garden. I then read more about the concept in &lt;a href=&quot;https://maggieappleton.com/garden-history&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;this article&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;What directly appealed to me about the concept of a &amp;quot;digital garden&amp;quot; is that it&#39;s not a blog with an underlying purpose like promoting a product or gaining ad revenue. Instead, it&#39;s just a way for someone to express themselves to the world.&lt;/p&gt;
+&lt;p&gt;Even though I&#39;ve read handfuls of personal blogs before, I never connected the dots that it&#39;s something that just anyone could do. It seemed like you have to have a really strong and cohesive message or goal to put out there if you&#39;re going to be one of those people who starts a blog.&lt;/p&gt;
+&lt;p&gt;But it&#39;s a garden, not a farm. You plant some seeds and tend to the plants as they grow. Anyone can do it. Things don&#39;t have to be super polished. You can write a full-flown article about a topic you&#39;re interested in, or just a couple bullet points about an idea you recently had.&lt;/p&gt;
+&lt;h3 id=&quot;what-makes-it-a-digital-garden-and-not-a-blog&quot; tabindex=&quot;-1&quot;&gt;What makes it a digital garden and not a blog?&lt;/h3&gt;
+&lt;p&gt;Maybe it&#39;s both?&lt;/p&gt;
+&lt;p&gt;But a digital garden has an emphasis on a few things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Posts don&#39;t have to be perfectly polished - they can be incomplete or in-progress at any given moment&lt;/li&gt;
+&lt;li&gt;Posts aren&#39;t viewed as untouchable pieces of work - they can be changed and updated over time&lt;/li&gt;
+&lt;li&gt;Posts aren&#39;t organized chronologically like in a typical blog. The preferred method of navigation is through categories or tags, or through backlinks from posts to posts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://maggieappleton.com/garden-history&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;This article&lt;/a&gt; goes into more detail about some of these points, and is worth a read if you&#39;re interested.&lt;/p&gt;
+&lt;h3 id=&quot;what-do-i-hope-for-a-reader-to-get-out-of-this-site&quot; tabindex=&quot;-1&quot;&gt;What do I hope for a reader to get out of this site?&lt;/h3&gt;
+&lt;p&gt;Perhaps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Be entertained&lt;/li&gt;
+&lt;li&gt;Discover new resources, ideas, interests, or concepts&lt;/li&gt;
+&lt;li&gt;Understand me better and have a glimpse into how my mind works&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;what-do-i-hope-for-myself-to-get-out-of-this-site&quot; tabindex=&quot;-1&quot;&gt;What do I hope for myself to get out of this site?&lt;/h3&gt;
+&lt;p&gt;See &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/reasons-to-write-here/&quot;&gt;Reasons to Write (Here)&lt;/a&gt;&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&amp;quot;The Brainrot Apocalypse (a DIY survival guide)&amp;quot; by Struthless. Relevant part at about 26:45 but the whole video is worth watching &lt;a href=&quot;https://briancherin.github.io/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/meta/on-blogging/what-is-this/" />
         </entry>
         <entry>
             <title>
@@ -331,7 +379,7 @@ Found from this good video which has other great ideas too &lt;a href=&quot;http
                 Obsidian Setup
                 
             </title>
-            <updated>2025-12-09T02:23:37.876Z</updated>
+            <updated>2025-12-13T17:10:40.794Z</updated>
             <id>https://briancherin.github.io/meta/obsidian-setup/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#obsidian&quot;&gt;#obsidian&lt;/a&gt;&lt;/p&gt;
