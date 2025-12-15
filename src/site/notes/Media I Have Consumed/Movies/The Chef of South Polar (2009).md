@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/the-chef-of-south-polar-2009/","created":"2025-12-08T22:59:43.266-05:00","updated":"2025-12-09T15:05:57.897-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/the-chef-of-south-polar-2009/","created":"2025-12-08T22:59:43.266-05:00","updated":"2025-12-15T18:29:51.163-05:00"}
 ---
 
 #movie #japanese
