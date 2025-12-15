@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/on-blogging/what-is-this/","title":"What is this?","created":"2025-12-15T17:52:15.535-05:00","updated":"2025-12-15T18:33:06.713-05:00"}
+{"dg-publish":true,"permalink":"/meta/on-blogging/what-is-this/","title":"What is this?","created":"2025-12-15T17:52:15.535-05:00","updated":"2025-12-15T18:33:20.183-05:00"}
 ---
 
 #digitalgarden 
@@ -37,4 +37,6 @@ Perhaps:
 See [[Meta/On Blogging/Reasons to Write (Here)\|Reasons to Write (Here)]]
 
 ### How did I make this site?
-I use a text editor called Obsidian, which makes it easy to have a hierarchy of many interconnected notes, and publish to Github Pages. Also see [[Meta/Obsidian Setup\|Obsidian Setup]].
+I use a text editor called Obsidian, which makes it easy to have a hierarchy of many interconnected notes, and publish to Github Pages. 
+
+Also see [[Meta/Obsidian Setup\|Obsidian Setup]].
