@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-13T23:59:50Z</updated>
+    <updated>2025-12-15T04:09:00Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -594,6 +594,25 @@ IMDB: &lt;a href=&quot;https://www.imdb.com/title/tt1345728/&quot; target=&quot;
 
             </content>
             <link href="https://briancherin.github.io/media-i-have-consumed/movies/bugonia-2025/" />
+        </entry>
+        <entry>
+            <title>
+                Writing
+                
+            </title>
+            <updated>2025-12-15T04:08:38.312Z</updated>
+            <id>https://briancherin.github.io/interests/creative/writing/writing/</id>
+            <content type="html">
+                &lt;p&gt;The kinds of writing I pursue or intend to pursue:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Public-facing blog, i.e. Here&lt;/li&gt;
+&lt;li&gt;Personal, private journaling&lt;/li&gt;
+&lt;li&gt;Creative storywriting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;why&quot; tabindex=&quot;-1&quot;&gt;Why&lt;/h3&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/interests/creative/writing/writing/" />
         </entry>
 </feed>
 
