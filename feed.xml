@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-16T16:06:27Z</updated>
+    <updated>2025-12-16T16:08:51Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -166,7 +166,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 What Is This
                 
             </title>
-            <updated>2025-12-16T16:05:59.952Z</updated>
+            <updated>2025-12-16T16:08:28.520Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/what-is-this/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt;&lt;/p&gt;
@@ -197,6 +197,9 @@ document.getElementById(&quot;random-note-button&quot;)
 &lt;h3 id=&quot;how-did-i-make-this-site&quot; tabindex=&quot;-1&quot;&gt;How did I make this site?&lt;/h3&gt;
 &lt;p&gt;I use a text editor called Obsidian, which makes it easy to have a hierarchy of many interconnected notes, and publish to Github Pages.&lt;/p&gt;
 &lt;p&gt;Also see &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/obsidian-setup/&quot;&gt;Obsidian Setup&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;who-in-the-world-do-i-think-is-going-to-read-this&quot; tabindex=&quot;-1&quot;&gt;Who in the world do I think is going to read this?&lt;/h3&gt;
+&lt;p&gt;Perhaps friends or family I share it with. But also over time, random people from the World Wide Web. At some point, I&#39;d like to add it to the &lt;a href=&quot;https://blog.kagi.com/small-web&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Kagi Small Web&lt;/a&gt; feed.&lt;/p&gt;
+&lt;p&gt;Even if my audience is extremely tiny, I still feel motivated to write here. It&#39;s a long-term project representing myself.&lt;/p&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
