@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/on-blogging/what-is-this/","title":"What is this?","created":"2025-12-15T17:52:15.535-05:00","updated":"2025-12-16T11:05:59.952-05:00"}
+{"dg-publish":true,"permalink":"/meta/on-blogging/what-is-this/","title":"What is this?","created":"2025-12-15T17:52:15.535-05:00","updated":"2025-12-16T11:08:28.520-05:00"}
 ---
 
 #digitalgarden 
@@ -40,3 +40,9 @@ See [[Meta/On Blogging/Reasons to Write (Here)\|Reasons to Write (Here)]]
 I use a text editor called Obsidian, which makes it easy to have a hierarchy of many interconnected notes, and publish to Github Pages. 
 
 Also see [[Meta/Obsidian Setup\|Obsidian Setup]].
+
+
+### Who in the world do I think is going to read this?
+Perhaps friends or family I share it with. But also over time, random people from the World Wide Web. At some point, I'd like to add it to the [Kagi Small Web](https://blog.kagi.com/small-web) feed.
+
+Even if my audience is extremely tiny, I still feel motivated to write here. It's a long-term project representing myself.
