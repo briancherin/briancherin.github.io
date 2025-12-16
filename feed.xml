@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-16T04:22:06Z</updated>
+    <updated>2025-12-16T16:06:27Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -166,7 +166,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 What Is This
                 
             </title>
-            <updated>2025-12-15T23:33:20.183Z</updated>
+            <updated>2025-12-16T16:05:59.952Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/what-is-this/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt;&lt;/p&gt;
@@ -175,7 +175,7 @@ document.getElementById(&quot;random-note-button&quot;)
 &lt;p&gt;I&#39;ve had the idea of writing in a blog format for a while -- see &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/&quot;&gt;My Past Self Telling Me To Start a Blog&lt;/a&gt;. Idea blossomed into reality after I watched a &lt;a href=&quot;https://www.youtube.com/watch?v=6fj-OJ6RcNQ&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;video&lt;/a&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; which introduced the idea of a digital garden. I then read more about the concept in &lt;a href=&quot;https://maggieappleton.com/garden-history&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;this article&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;What directly appealed to me about the concept of a &amp;quot;digital garden&amp;quot; is that it&#39;s not a blog with an underlying purpose like promoting a product or gaining ad revenue. Instead, it&#39;s just a way for someone to express themselves to the world.&lt;/p&gt;
 &lt;p&gt;Even though I&#39;ve read handfuls of personal blogs before, I never connected the dots that it&#39;s something that just anyone could do. It seemed like you have to have a really strong and cohesive message or goal to put out there if you&#39;re going to be one of those people who starts a blog.&lt;/p&gt;
-&lt;p&gt;But it&#39;s a garden, not a farm. You plant some seeds and tend to the plants as they grow. Anyone can do it. Things don&#39;t have to be super polished. You can write a full-flown article about a topic you&#39;re interested in, or just a couple bullet points about an idea you recently had.&lt;/p&gt;
+&lt;p&gt;But it&#39;s a garden, not a farm. You plant some seeds and tend to the plants as they grow. Anyone can do it. Things don&#39;t have to be super polished. You can write a full-blown article about a topic you&#39;re interested in, or just a couple bullet points about an idea you recently had.&lt;/p&gt;
 &lt;h3 id=&quot;what-makes-it-a-digital-garden-and-not-a-blog&quot; tabindex=&quot;-1&quot;&gt;What makes it a digital garden and not a blog?&lt;/h3&gt;
 &lt;p&gt;Maybe it&#39;s both?&lt;/p&gt;
 &lt;p&gt;But a digital garden has an emphasis on a few things:&lt;/p&gt;
