@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/on-blogging/what-is-this/","title":"What is this?","created":"2025-12-15T17:52:15.535-05:00","updated":"2025-12-15T18:33:20.183-05:00"}
+{"dg-publish":true,"permalink":"/meta/on-blogging/what-is-this/","title":"What is this?","created":"2025-12-15T17:52:15.535-05:00","updated":"2025-12-16T11:05:59.952-05:00"}
 ---
 
 #digitalgarden 
@@ -13,7 +13,7 @@ What directly appealed to me about the concept of a "digital garden" is that it'
 
 Even though I've read handfuls of personal blogs before, I never connected the dots that it's something that just anyone could do. It seemed like you have to have a really strong and cohesive message or goal to put out there if you're going to be one of those people who starts a blog. 
 
-But it's a garden, not a farm. You plant some seeds and tend to the plants as they grow. Anyone can do it. Things don't have to be super polished. You can write a full-flown article about a topic you're interested in, or just a couple bullet points about an idea you recently had. 
+But it's a garden, not a farm. You plant some seeds and tend to the plants as they grow. Anyone can do it. Things don't have to be super polished. You can write a full-blown article about a topic you're interested in, or just a couple bullet points about an idea you recently had. 
 
 
 ### What makes it a digital garden and not a blog?
