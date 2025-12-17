@@ -1,23 +1,23 @@
 ---
-{"dg-publish":true,"permalink":"/interests/food/on-cooking-veganism-and-whole-food-plant-based-diet/","created":"2025-12-17T13:54:53.493-05:00","updated":"2025-12-17T14:52:07.384-05:00"}
+{"dg-publish":true,"permalink":"/interests/food/on-cooking-veganism-and-whole-food-plant-based-diet/","created":"2025-12-17T13:54:53.493-05:00","updated":"2025-12-17T14:58:28.205-05:00"}
 ---
 
-I'm vegan. I approached veganism from a health-perspective first, which led to a gradual transition to eating more plant based foods. Then I learned about the ethical philosophies behind resisting animal exploitation and went fully strict on following veganism.
+I'm vegan. I approached this from a health-perspective first (WFPB), which led to a gradual transition to eating more plant based foods. Then I learned about the ethical philosophies behind resisting animal exploitation and went fully strict on following veganism.
 
-When I cook for myself, I prefer to follow the principles of a whole-food plant-based (WFPB) diet as much as possible.
+When I cook for myself, I prefer to follow the principles of a whole-food plant-based (WFPB) diet as much as possible. When I eat at a restaurant, I just follow veganism but not WFPB.
 ### What is WFPB
-I don't follow WFPB 100% strictly. But, these are the principles of the WFPB diet:
+I don't follow WFPB 100% strictly all the time. But, these are the core principles of the WFPB diet:
 - \*Minimize animal products
-- Minimize processed foods ^["processed" can mean a lot of things. Cutting a vegetable is processing it. In the context of the WFPB diet, "processed" is usually taken to mean "heavily" processed or having less "natural" additives]
+- Minimize processed foods ^["processed" can mean a lot of things. Cutting a vegetable is processing it. In the context of the WFPB diet, "processed" is usually taken to mean "heavily" processed or having many additives]
 - Minimize refined sugars
 - Minimize refined grains
-- Minimize refined oil
+- Minimize oils ^[this doesn't mean avoid all sources of fat. You get lots of good, healthy fats from peanut butter and avocados, for example. Refined oils are empty calories without nutritional value, and can cause buildup of health issues. I acknowledge that I am not backing these claims with direct sources right now, but a search for wfpb health benefits should bring up more info about this and the other points.]
 
-\* Technically, someone can follow a WFPB diet but not be fully vegan. Its principles say you should minimize animal products due to their health concerns. However, since I also am a strict vegan, I adhere to completely cutting out animal products. ^[I would say it's a good thing for the principles to have this laxness about not needing to go 100% vegan right away. It makes it less intimidating. It gave me the opportunity to slowly transition away from animal products, without feeling intense pressure to immediately give up all animal products. ]
+\* Technically, someone can follow a WFPB diet but not be fully vegan. The WFPB diet's principles say you should minimize animal products due to their health concerns. However, since I also am a strict vegan, I adhere to completely cutting out animal products. ^[I would say it's a good thing for the principles to have this laxness about not needing to go 100% vegan right away. It makes it less intimidating. It gave me the opportunity to slowly transition away from animal products, without feeling intense pressure to immediately give up all animal products, a drastic change that may have scared me away. I slowly realized that I didn't need animal products in my life, before making the full switch.]
 
-So what can you eat on a WFPB diet? The standard list is: fruits, vegetables, whole grains, beans, nuts, and seeds. More broadly, it's any foods derived from plants which are minimally processed. The list may sound small, but there's a lot of variation in ingredients and there is a large variety of dishes that you can enjoy. Many, if not most, if not all, cultures around the world have staple ingredients and dishes which are already vegan (if not WFPB) or easily modifiable to be so.
+So what *can* you eat on a WFPB diet? The standard list is: fruits, vegetables, whole grains, beans, nuts, and seeds. More broadly, it's any foods derived from plants which are minimally processed. The list may sound small, but there's a lot of variation in ingredients and there is a huge variety of dishes to be enjoyed. Many, if not most (if not all) cultures around the world have dishes which are already vegan (if not WFPB) or easily modifiable to be so.
 
-Getting back to my own cooking philosophy -- as mentioned, when I cook for myself, I prefer to adhere to WFPB as much as possible, but I do make small exceptions on rare occasions. When I eat at a restaurant, I don't think much about WFPB^[It's just less realistic to expect restaurant dishes to be oil and sugar free, unless the restaurant specializes in that] and primarily just focus on finding vegan options.
+Getting back to my own cooking philosophy -- as mentioned, when I cook for myself, I prefer to adhere to WFPB as much as possible, but I do make small exceptions on rare occasions. When I eat at a restaurant, I don't think much about WFPB^[It's just less realistic to expect restaurant dishes to be oil and sugar free, unless the restaurant specializes in that] and I primarily focus on finding vegan options.
 
 ### Experimentation + Cooking for others
 There's another big exception to WFPB that I make: when I want to follow a non-WFPB vegan recipe to create something more (or differently) tasty than a WFPB counterpart would be, either to experiment for my own understanding of the possibilities of food and cuisine, or to create positive experiences with vegan food for friends or family or others who may be trying food I prepare. If I am to have a "mission" related to cooking, it would be to help others to see that vegan foods can be delicious. 
