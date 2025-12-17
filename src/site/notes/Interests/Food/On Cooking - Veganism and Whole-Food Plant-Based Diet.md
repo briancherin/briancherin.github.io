@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/interests/food/on-cooking-veganism-and-whole-food-plant-based-diet/","created":"2025-12-17T13:54:53.493-05:00","updated":"2025-12-17T14:42:51.744-05:00"}
+{"dg-publish":true,"permalink":"/interests/food/on-cooking-veganism-and-whole-food-plant-based-diet/","created":"2025-12-17T13:54:53.493-05:00","updated":"2025-12-17T14:52:07.384-05:00"}
 ---
 
 I'm vegan. I approached veganism from a health-perspective first, which led to a gradual transition to eating more plant based foods. Then I learned about the ethical philosophies behind resisting animal exploitation and went fully strict on following veganism.
 
 When I cook for myself, I prefer to follow the principles of a whole-food plant-based (WFPB) diet as much as possible.
-
+### What is WFPB
 I don't follow WFPB 100% strictly. But, these are the principles of the WFPB diet:
 - \*Minimize animal products
 - Minimize processed foods ^["processed" can mean a lot of things. Cutting a vegetable is processing it. In the context of the WFPB diet, "processed" is usually taken to mean "heavily" processed or having less "natural" additives]
@@ -19,19 +19,34 @@ So what can you eat on a WFPB diet? The standard list is: fruits, vegetables, wh
 
 Getting back to my own cooking philosophy -- as mentioned, when I cook for myself, I prefer to adhere to WFPB as much as possible, but I do make small exceptions on rare occasions. When I eat at a restaurant, I don't think much about WFPB^[It's just less realistic to expect restaurant dishes to be oil and sugar free, unless the restaurant specializes in that] and primarily just focus on finding vegan options.
 
+### Experimentation + Cooking for others
 There's another big exception to WFPB that I make: when I want to follow a non-WFPB vegan recipe to create something more (or differently) tasty than a WFPB counterpart would be, either to experiment for my own understanding of the possibilities of food and cuisine, or to create positive experiences with vegan food for friends or family or others who may be trying food I prepare. If I am to have a "mission" related to cooking, it would be to help others to see that vegan foods can be delicious. 
 
 WFPB is very much about health and longevity for me. Veganism on its own is about doing what's right for the sake of fellow animals that can't speak for themselves - drawing attention to and making efforts to stop their unnecessary suffering and exploitation (when plant-based alternatives can provide 100% sufficient nutrition for humans)^[This is basically my "why am I vegan" summed up in a sentence, but I eventually will expand and write more on this.]. In other words: WFPB is for myself (my own selfish desire to increase the length and quality of my life), whereas veganism is to help other sentient^[I know what you're thinking. How can I claim that animals are sentient? This is too deep of a discussion for a footnote. But I'll just say: You wouldn't like if I kicked a dog. Why? Because it displays visual evidence of its suffering. Surely a pig or cow would display something similar. And yet we are okay with hurting and killing them? Something doesn't align here.] beings who are in need.
 
 What I'm trying to say with the above: I'm willing to violate my WFPB principles when I'm trying to cook delicious things for other people. I want people^[I'm tempted to say "the world" but realistically, my sphere of influence is the people that I interact with in my direct small community. Which is a great impact to make, in my opinion. Change starts small and local.] to have as positive a perception as possible of vegan foods, and making things "healthier", though I can deeply appreciate the tastes for myself (and honestly do hope others can too), sometimes or often does not lend to the tastiest, at least in a mainstream way^[because seriously, even with 100% WFPB, things can be incredibly tasty and I wouldn't want them in any other form], dishes. Why do I want people to have as positive as possible a perception^[(apapap)] of vegan food? Look, it's not like I think I'm going to convert people into veganism like this. But even just planting a seed in someone's head that maybe possible there could be a chance that I could survive with maybe even just this little percentage of a type of food that I eat, without an animal being involved, could be okay and enjoyable.
 
-I imagine an outrage when someone reads this and notices that I wish for more people to become vegan. Please don't be outraged. Let's work through a mutual understanding of our food systems and ways of eating and have a discussion of each our points. Is your mind open to some ideas that might be different from what you're used to? Maybe different than what you've believed for your entire life? Can you honestly evaluate these things and be open to change if what you hear is logical and reasonable? Maybe you're not ready right now, and that's okay. But if you really stop and genuinely think about these things, can you honestly and truly say that you *shouldn't* change something?
+### Talking about veganism
+Whether this is true or not, I imagine some discomfort, if not stronger emotion, when someone reads this and notices that I wish for more people to become vegan.
 
-This is not a full fleshed argument for veganism. Mainly I wanted to discuss my mindset around cooking. It's inevitably tied to the vegan discussion though.
+Well, I'm not going to deny that it's true that I want more people to become vegan.
 
+That's my stance. What's yours?
+
+Can we have an honest conversation about our food systems and ways of eating and move towards a mutual understanding about each of our perspectives?
+
+Can I challenge you? Are you open to being challenged?
+
+Is your mind open to some ideas that might be different from what you're used to? Maybe different than what you've believed for your entire life? Can you evaluate these things with honest integrity and be open to change if what you hear is logical and reasonable? Maybe you're not ready for change right now, and that's okay. But if you really stop and genuinely think about these things, can you honestly and truly say that you *shouldn't* change something? 
+
+I'm not saying the answer should be 100% for sure one way or the other for you. But I do request, when you have the capacity to, to question the norm, to fully and deeply engage with the issue and the discussion, and to have an open mind to the possibility of adjusting your course, if it makes sense to you to do so.
+
+This is not a fully fleshed argument for veganism. Mainly I wanted to discuss my mindset around cooking. It's inevitably tied to the vegan discussion though.
+
+### Resources about veganism and WFPB
 Since we're here, then, some resources:
 - https://www.youtube.com/watch?v=Z3u7hXpOm58 ("You Will Never Look at Your Life in the Same Way Again" by Earthling Ed) This is the video that convinced me to follow the ethical side of veganism (it's just a guy giving a talk, no gory imagery. This guy's channel has a lot of interesting table debates about veganism that definitely also swayed me and are entertaining to watch.)
-- This is the reddit post that make me start thinking about health for longevity purposes. https://www.reddit.com/r/longevity/comments/ci5vu1/i_am_a_22_yo_healthy_male_who_wants_to_live_until/ - There's one comment in there that references the whole food plant based diet, and I'm guessing that's what seeded my exposure to WFPB.
+- This is the reddit post that made me start thinking about health for longevity purposes. https://www.reddit.com/r/longevity/comments/ci5vu1/i_am_a_22_yo_healthy_male_who_wants_to_live_until/ - There's one comment in there that references the whole food plant based diet, and I'm guessing that's what seeded my exposure to WFPB.
 - Some other resources about WFPB diet
 	- https://nutritionstudies.org/whole-food-plant-based-diet-guide/ - Another guide on WFPB. This site also is a great resource for WFPB recipes.
 	- Summary of "How Not To Die", a book that talks about the benefits of the WFPB diet in preventing and reversing many of the most common dietary-related causes of death in humans. It also includes a detailed list of "green"/"yellow"/"red foods (green is healthy, yellow is foods to steer away from but okay in limited quantities, red is foods to generally always avoid) https://www.chewfo.com/diets/how-not-to-die-by-michael-greger-md-food-list-what-to-eat-and-foods-to-avoid/
