@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/garden-improvements/","created":"2025-12-07T17:13:34.190-05:00","updated":"2025-12-13T15:20:12.060-05:00"}
+{"dg-publish":true,"permalink":"/meta/garden-improvements/","created":"2025-12-07T17:13:34.190-05:00","updated":"2025-12-17T15:15:22.661-05:00"}
 ---
 
 #digitalgarden 
@@ -15,3 +15,4 @@ Things to do:
 - [ ] Post this site to Kagi Small Web
 - [ ] Make a visualization to see frequency of posts over time 
 - [ ] May want to eventually setup Obsidian to host images/other_assets on S3 instead of on Github. The Digital Garden plugin mentioned that the site may slow down if the assets pile up since you can't store that much on Github. I found this Obsidian [plugin](https://github.com/biubiubiu35/image-paste-to-cloud) which might be the solution for an auto-S3 upload of images.
+- [ ] Add on-hover preview to footnotes so you can preview content without jumping to bottom of page
