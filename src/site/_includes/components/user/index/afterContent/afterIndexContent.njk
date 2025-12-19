@@ -1,12 +1,11 @@
-<h2>Recently updated</h2>
+<h2>All posts</h2>
+<p>Sorted by most recently updated.</p>
 
 {# collect only items with an updated date, skip homepage #}
 {%- set published = [] -%}
 {%- for note in collections.note -%}
-<script>console.log("test6")</script>
   {%- if note.url != "/" and note.data.updated -%}
     {%- set published = (published.push(note), published) -%}
-    <script>console.log("test7" + "{{published}}")</script>
   {%- endif -%}
 {%- endfor -%}
 
@@ -15,7 +14,6 @@
 
 <ul>
 {%- for note in published  -%}
-<script>console.log("test8")</script>
   <li>
     <a href="{{ note.url }}">{{ note.data.title or note.fileSlug }}</a>
     <span style="opacity:0.7;">
@@ -25,22 +23,6 @@
 {%- endfor -%}
 </ul>
 
-
-
-<ul>
-
-{%- for note in collections.note -%}
-<script>console.log("test3")</script>
-<script>console.log("{{note.title}} - {{note.fileSlug}}")</script>
-
-  <li>
-    <a href="{{ note.url }}">{{ note.title or note.fileSlug }}</a>
-    <span style="opacity:0.7;">
-        — {{ note.data.updated | humanDate }}
-    </span>
-  </li>
-{%- endfor -%}
-</ul>
 
 
 
