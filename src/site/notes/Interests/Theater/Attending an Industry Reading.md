@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/interests/theater/attending-an-industry-reading/","created":"2025-12-19T15:59:59.796-05:00","updated":"2025-12-19T16:18:55.381-05:00"}
+{"dg-publish":true,"permalink":"/interests/theater/attending-an-industry-reading/","created":"2025-12-19T15:59:59.796-05:00","updated":"2025-12-19T16:20:50.144-05:00"}
 ---
 
 I found myself at a stage reading for a musical called "Glory Ride". It was called an "industry reading" (though I am not "Industry"). This was my first time attending a reading.
 
-I loved it. And I am eager to attend more.
+I loved the experience. And I am eager to attend more readings in the future.
 
 ### About the experience
 I was part of an audience of about thirty people. A handful of those were people involved in the production itself -- director, stage managers, and similar. The rest were people in the "industry" (whatever that means) and others like me.
