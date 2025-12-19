@@ -11,7 +11,7 @@
   <li>
     <a href="{{ note.url }}">{{ note.title or note.fileSlug }}</a>
     <span style="opacity:0.7;">
-        — {{ note.data.updated }}
+        — {{ note.data.updated | humanDate }}
     </span>
   </li>
 {%- endfor -%}
