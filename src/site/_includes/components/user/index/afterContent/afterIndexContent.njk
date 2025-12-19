@@ -1,15 +1,58 @@
 <h2>Recently updated</h2>
+
+
+{%- set published = collections.note
+  | rejectattr("url", "equalto", "/")
+  | sort(attribute="data.updated")
+  | reverse
+-%}
+
+
+
+
+
 <ul>
 
-<li>test</li>
-<script>console.log("test1")</script>
-{%- for note in collections.note -%}
-<script>console.log("test2")</script>
+{%- for note in published -%}
+<script>console.log("test4")</script>
 <script>console.log("{{note.title}} - {{note.fileSlug}}")</script>
 
   <li>
     <a href="{{ note.url }}">{{ note.title or note.fileSlug }}</a>
-    <small class="human-date" data-date="{{ note.data.updated }}"></small>
+    <span style="opacity:0.7;">
+        — {{ note.data.updated | date: "%b %-d, %Y" }}
+    </span>
   </li>
 {%- endfor -%}
 </ul>
+
+
+
+
+
+<ul>
+
+{%- for note in collections.note -%}
+<script>console.log("test3")</script>
+<script>console.log("{{note.title}} - {{note.fileSlug}}")</script>
+
+  <li>
+    <a href="{{ note.url }}">{{ note.title or note.fileSlug }}</a>
+    <span style="opacity:0.7;">
+        — {{ note.data.updated | date: "%b %-d, %Y" }}
+    </span>
+  </li>
+{%- endfor -%}
+</ul>
+
+
+
+
+<hr style="margin-top: 3rem; margin-bottom: 1rem; opacity: 0.5; border-top: 1px solid #ccc;">
+
+<p style="text-align: center; font-size: 0.9rem; color: #777;">
+  <a href="https://forms.gle/B5rkQCYMBTHrR6fDA" target="_blank" rel="noopener noreferrer"
+     style="text-decoration: underline;">
+    Send me a comment!
+  </a>
+</p>
