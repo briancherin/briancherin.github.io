@@ -1,12 +1,15 @@
 <h2>Recently updated</h2>
 
 {%- set published = collections.note
+  | rejectattr("url", "equalto", "/")
+  | sort(attribute="data.updated")
+  | reverse
 -%}
 
 <ul>
 
 {%- for note in published -%}
-<script>console.log("test4")</script>
+<script>console.log("test5")</script>
 <script>console.log("{{note.title}} - {{note.fileSlug}}")</script>
 
   <li>
