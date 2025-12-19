@@ -14,7 +14,7 @@
 {%- set published = published | sort(false, false, "data.updated") | reverse -%}
 
 <ul>
-{%- for note in published | slice(0, 20) -%}
+{%- for note in published  -%}
 <script>console.log("test8")</script>
   <li>
     <a href="{{ note.url }}">{{ note.data.title or note.fileSlug }}</a>
