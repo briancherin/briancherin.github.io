@@ -3,14 +3,14 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-19T21:52:03Z</updated>
+    <updated>2025-12-19T21:52:26Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
                 This is the beginning
                 
             </title>
-            <updated>2025-12-15T23:28:49.233Z</updated>
+            <updated>2025-12-19T21:51:57.041Z</updated>
             <id>https://briancherin.github.io/</id>
             <content type="html">
                 &lt;h1 id=&quot;this-is-the-beginning&quot; tabindex=&quot;-1&quot;&gt;This is the beginning&lt;/h1&gt;
@@ -44,8 +44,6 @@ async function goToRandomNote() {
 document.getElementById(&quot;random-note-button&quot;)
   .addEventListener(&quot;click&quot;, goToRandomNote);
 &lt;/script&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href=&quot;https://forms.gle/B5rkQCYMBTHrR6fDA&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Send me a comment!&lt;/a&gt;&lt;/p&gt;
 
             </content>
             <link href="https://briancherin.github.io/" />
