@@ -3,8 +3,10 @@
 {# collect only items with an updated date, skip homepage #}
 {%- set published = [] -%}
 {%- for note in collections.note -%}
+<script>console.log("test6")</script>
   {%- if note.url != "/" and note.data.updated -%}
     {%- set published = (published.push(note), published) -%}
+    <script>console.log("test7" + "{{published}}")</script>
   {%- endif -%}
 {%- endfor -%}
 
@@ -13,6 +15,7 @@
 
 <ul>
 {%- for note in published | slice(0, 20) -%}
+<script>console.log("test8")</script>
   <li>
     <a href="{{ note.url }}">{{ note.data.title or note.fileSlug }}</a>
     <span style="opacity:0.7;">
