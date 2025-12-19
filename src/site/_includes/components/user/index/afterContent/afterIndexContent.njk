@@ -1,7 +1,12 @@
 <h2>Recently updated</h2>
 <ul>
 
-{%- for note in collections.note | slice(0, 7) -%}
+<li>test</li>
+<script>console.log("test1")</script>
+{%- for note in collections.note -%}
+<script>console.log("test2")</script>
+<script>console.log("{{note.title}} - {{note.fileSlug}}")</script>
+
   <li>
     <a href="{{ note.url }}">{{ note.title or note.fileSlug }}</a>
     <small class="human-date" data-date="{{ note.data.updated }}"></small>
