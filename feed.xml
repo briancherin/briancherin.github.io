@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2025-12-22T03:09:57Z</updated>
+    <updated>2025-12-22T03:10:50Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -164,14 +164,14 @@ document.getElementById(&quot;random-note-button&quot;)
                 Personal 3D VR World Building
                 
             </title>
-            <updated>2025-12-22T03:09:32.419Z</updated>
+            <updated>2025-12-22T03:10:23.858Z</updated>
             <id>https://briancherin.github.io/projects/3-d-and-vr/personal-3-d-vr-world-building/</id>
             <content type="html">
                 &lt;p&gt;I&#39;ve had many ideas related to this topic. I can explain it in more depth in the future, but for right now I&#39;m just going to paste a tiny thought-stream question I asked ChatGPT and then the AI response. Just a little bit of ideating for something I know I want to spend more time on in the future.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;I want want 3d environment building to be an art form, a kind of journaling and exploration and expression, an interconnected world of 3d/vr environments, make scenes tying music to memories, bringing paintings to life, creating representations of my favorite scenes from fiction, crafting environments of all the bedrooms of my life, in a way that is extensible and not software-locked as much as possible moving forward into the future, in a way that allows me to access and explore these scenes in an interconnected and stable way, allowing me to do something like having a virtual hallway allowing access into different rooms which show these various scenes, or having a portal room to bring me to the scenes, my own personal 3d world, how should i do it and make it and organize it and store it
 &lt;/code&gt;&lt;/pre&gt;
 &lt;blockquote&gt;
-&lt;p&gt;[!WARNING] Chat GPT Response&lt;br /&gt;
+&lt;p&gt;[!WARNING]- Chat GPT Response&lt;br /&gt;
 You’re essentially building a long-lived personal &lt;strong&gt;spatial archive&lt;/strong&gt; rather than a single VR project: an interconnected set of 3D environments that function as journaling, memory, and artistic expression. The core goal is continuity over time—being able to add scenes indefinitely, explore them through symbolic navigation like hallways or portals, and return to them years later without being trapped in a dead piece of software. Treat the world as a personal mythos or memory palace, where meaning matters as much as visual fidelity.&lt;/p&gt;
 &lt;p&gt;To make this sustainable, separate the work into layers. First is the &lt;strong&gt;concept layer&lt;/strong&gt;: short written “scene cards” that capture what each environment represents, the memory or emotion behind it, associated music, and how it connects to other scenes. This lives in plain text or Markdown and is your true journal. Second is the &lt;strong&gt;asset layer&lt;/strong&gt;, stored in open, portable formats (glTF/GLB for models, PNG/JPG for textures, WAV/FLAC for audio). Each scene gets its own folder, like an album, so the assets can outlive any engine or tool.&lt;/p&gt;
 &lt;p&gt;The &lt;strong&gt;scene-building layer&lt;/strong&gt; uses replaceable software. Tools like Blender are ideal for creation, but their project files are working files, not the archive itself. Always export clean, engine-agnostic versions of scenes. For exploration, use a runtime engine (ideally something open like Godot) that loads scenes dynamically from a hub or portal space. This keeps scenes loosely coupled and makes it possible to change engines later without rebuilding everything.&lt;/p&gt;
