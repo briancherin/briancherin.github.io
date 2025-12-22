@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2025-12-22T12:46:52.860-05:00"}
+{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2025-12-22T14:02:54.838-05:00"}
 ---
 
 The below "new approach" isn't all there is to be said about my music consumption this year, but it's a major part of it.
@@ -183,6 +183,8 @@ It started with me adding "Red, Yellow & Blue" by Born Ruffians. I liked some of
 
 ### End 'o the year
 Bomb the Music Industry - this is the strongest artist in my mind for the last month or so. Otherwise, there's been a cycle of some theater stuff, and a little bit of Larry and His Flask and Streetlight Manifesto sprinkled in here and there. I kind of haven't been listening to that much music recently.
+
+Oh yeah, must also give an honorable mention to Ludo's album "You're Awful, I Love You" -- especially the song "Lake Pontchartrain" - great song. Not part of the above playlists but snuck into my radar somewhere along the way.
 
 ### The theater music I got into this year
 - The Outsiders
