@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2025-12-22T12:44:21.353-05:00"}
+{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2025-12-22T12:46:52.860-05:00"}
 ---
 
 The below "new approach" isn't all there is to be said about my music consumption this year, but it's a major part of it.
@@ -99,7 +99,7 @@ During that car ride, I also used ChatGPT to get a couple of these recs -- speci
 >____
 >Actually I'm going to preserve all of its recs, in case I want to access them from here in the future, so I'm now prompting it to give a concise list of all album recs it gave:
 >
->>- The Crane Wife, The Decemberists (2006) – Poetic, deeply thought-out lyrics inspired by folklore and literature, delivered with passionate vocals and dynamic, theatrical compositions.
+>- The Crane Wife, The Decemberists (2006) – Poetic, deeply thought-out lyrics inspired by folklore and literature, delivered with passionate vocals and dynamic, theatrical compositions.
 >
 >- The Sunset Tree, The Mountain Goats (2005) – John Darnielle writes intensely personal, story-driven lyrics with raw energy and emotion, often dealing with survival and resilience.
 >
