@@ -380,7 +380,7 @@ CTRL + K
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
-<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-12-22T16:44:46.192Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-12-22T16:44:46.192Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-12-22T16:44:46.192Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-12-22T17:27:32.353Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-12-22T17:27:32.353Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-12-22T17:27:32.353Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
 <h1 data-note-icon="">2025 Music Retrospective</h1>
@@ -388,7 +388,7 @@ CTRL + K
 <div class="header-tags">
 </div>
 <div class="timestamps">
-<script>console.log("showCreated: " + true + ", created: " + 2025-12-22T10:59:44.867-05:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-12-22T10:59:44.867-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-12-22T11:43:28.681-05:00"></span></div></div></div>
+<script>console.log("showCreated: " + true + ", created: " + 2025-12-22T10:59:44.867-05:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-12-22T10:59:44.867-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-12-22T12:27:03.777-05:00"></span></div></div></div>
 </header>
 <p>The below &quot;new approach&quot; isn't all there is to be said about my music consumption this year, but it's a major part of it.</p>
 <h3 id="a-new-approach-to-music-discovery" tabindex="-1">A new approach to music discovery</h3>
@@ -422,7 +422,8 @@ CTRL + K
 <p><picture src="/img/user/Interests/Music/Assets/Pasted%20image%2020251222113413.png" alt="Pasted image 20251222113413.png"><source media="(max-width:480px)" srcset="/img/optimized/uptpfRwhGZ-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/uptpfRwhGZ-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/uptpfRwhGZ-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/uptpfRwhGZ-700.jpeg"><img class="" src="/img/user/Interests/Music/Assets/Pasted%20image%2020251222113413.png" alt="Pasted image 20251222113413.png" width=""></picture><br>
-Standout albums:</p>
+Rabbit Enters Winter - Created Dec 21, 2024<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+<p>Standout albums:</p>
 <ul>
 <li>&quot;SELF-iSH&quot; by Will Wood and the Tapeworms
 <ul>
@@ -443,19 +444,146 @@ Standout albums:</p>
 <ul>
 <li>I discovered Ben Folds through a couple songs he did with Regina Spektor (who is one of my earliest music interests (started with the song Eet, and then when she did a SummerStage concert in NYC a couple years ago I got into a bunch of her other songs) and then decided to explore his other music, hence why this album got added here</li>
 <li>I ended up liking a bunch of the songs in this album. Looking at the songs, though, &quot;Zak and Sara&quot; is the only one that stands out in memory, and I can't remember what most of the others were like. I liked them, though, and would listen more (though I honestly haven't much).</li>
-<li></li>
 </ul>
 </li>
 </ul>
 <p><picture src="/img/user/Interests/Music/Assets/Pasted%20image%2020251222113520.png" alt="Pasted image 20251222113520.png"><source media="(max-width:480px)" srcset="/img/optimized/Hx26M-1ZWT-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/Hx26M-1ZWT-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/Hx26M-1ZWT-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/Hx26M-1ZWT-700.jpeg"><img class="" src="/img/user/Interests/Music/Assets/Pasted%20image%2020251222113520.png" alt="Pasted image 20251222113520.png" width=""></picture></p>
-<h3 id="the-theater-music" tabindex="-1">The theater music</h3>
+<source media="(max-width:1920px)" srcset="/img/optimized/Hx26M-1ZWT-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/Hx26M-1ZWT-700.jpeg"><img class="" src="/img/user/Interests/Music/Assets/Pasted%20image%2020251222113520.png" alt="Pasted image 20251222113520.png" width=""></picture><br>
+Somebody Called You (Thrumming) - Created Feb 27, 2025</p>
+<p>Every album in this one was standout.</p>
 <ul>
+<li>&quot;...And the Battle Begun&quot; by Rx Bandits
+<ul>
+<li>This likely has a spot in my favorite albums of all time. The musical sound is so unique to me, I don't know what else to compare it to. I can't name top tracks, partly because I love most (if not all) of them, and partly because I honestly always forget what song the titles go with.</li>
+<li>Surprisingly, I also find that I probably don't know most of the lyrics that well. I'm usually strongly lyric-minded. But even if the lyrics are not as memorable (or maybe just hard for me to follow because they are kind of fast paced), the sound of the music comes through extremely strong. There are totally still little snippets of the catchiest lyrics that I know, but these perhaps just aren't the type of songs that make me feel the <strong>need</strong> to memorize the lyrics (unlike Streetlight Manifest (my favorite band in the last few years), whose lyrics almost all become an instant need for being memorized)</li>
+</ul>
+</li>
+<li>&quot;Ten Stories&quot; by mewithoutYou
+<ul>
+<li>I need to listen to this more (and listen to their other albums). Another unique kind of sound for me, which I really liked. Often giving spoken-word vibes, leaning into aggressive-rage spoken word (not like heavy-metal rage vibes, but like, someone really passionately and strongly and intensely speaking their spoken words. I love it. <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></li>
+<li>Associate this with an airport waiting for plane, I was listening to a bunch of the songs while waiting.</li>
+</ul>
+</li>
+<li>&quot;By the Lamplight&quot; by Larry and His Flask
+<ul>
+<li>The caveat here is that Larry and His Flask was already waaaay on my radar, and I would have listened to them plenty whether they were in this playlist or not, but I do think that adding it to this playlist reinforced it and made absolute sure I would keep going back to it.</li>
+<li>Larry and His Flask was the artist of the year for me, absolutely. If 2024 was the year of Streetlight Manifesto (and it was), 2025 was the year of Larry and His Flask (but still, look at all my other favorites in this overall list, there were so many standouts this year that I feel a little weird pointing LAHF as the <a class="tag" onclick="toggleTagSearch(this)" data-content="#1">#1</a>, but it still feels right to say.)</li>
+<li>What do I like so much? The strong vocals (the lead singer has a really nice voice), love the lyrics and general themes, and the musicality and folky vibes are all great.</li>
+</ul>
+</li>
+<li>&quot;The Script&quot; by The Script
+<ul>
+<li>This feels like an &quot;education&quot; pick to me. Like, I was culturing myself with a classic. I don't know if The Script is supposed to be considered a classic. But it feels that way to me.</li>
+<li>I ended up liking a lot of the songs, so definitely a win. They didn't stay on my radar after this playlist's cycle though.</li>
+</ul>
+</li>
+</ul>
+<p>Must also mention that the LAHF album has a song called &quot;Muffled Thrums&quot;, which is not at all the reason I called the playlist &quot;Thrumming&quot;, but I am enamored with that fact that it worked out like that.</p>
+<p>I created this playlist during a car ride (and an image of that ride flashes into my mind when I think about the origins of the playlist title).</p>
+<p>During that car ride, I also used ChatGPT to get a couple of these recs -- specifically for Rx Bandits and mewithoutYou (for those specific albums I added) -- essentially seeding this playlist with those. Specifically I was asking ChatGPT for recs similar to Streetlight Manifesto. The pros and cons of AI for this can surely be debated, but clearly it paid off here.</p>
+<div class="callout is-collapsible is-collapsed" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> My AI prompting<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
+<div class="callout-content">
+<p>
+<code>Suggest me music artists and a suggested album from them that matches my interest. I usually like indie and rock, but am open to other things. I like streetlight manifesto because of the following descriptors. Strong lyrics that have meaning and make you think, that are sung with powerful and energetic vocals with a catchy beautiful melody and great instrumental along with it.</code></p>
+<p>...<br>
+<code>List some more that are slightly beyond my familiar zone but still fit the descriptors</code><br>
+...</p>
+<p><code>Which of all the above recs would be highest energy</code></p>
+<hr>
+<p>Actually I'm going to preserve all of its recs, in case I want to access them from here in the future, so I'm now prompting it to give a concise list of all album recs it gave:</p>
+<blockquote>
+<ul>
+<li>The Crane Wife, The Decemberists (2006) – Poetic, deeply thought-out lyrics inspired by folklore and literature, delivered with passionate vocals and dynamic, theatrical compositions.</li>
+</ul>
+</blockquote>
+<ul>
+<li>
+<p>The Sunset Tree, The Mountain Goats (2005) – John Darnielle writes intensely personal, story-driven lyrics with raw energy and emotion, often dealing with survival and resilience.</p>
+</li>
+<li>
+<p>The Monitor, Titus Andronicus (2010) – A chaotic yet anthemic rock opera drawing on historical themes with cathartic, passionate vocals and heavy instrumentation.</p>
+</li>
+<li>
+<p>Go Farther in Lightness, Gang of Youths (2017) – Philosophical, life-affirming lyrics with dramatic, soaring instrumentation and emotionally charged vocals.</p>
+</li>
+<li>
+<p>…And the Battle Begun, Rx Bandits (2006) – Complex musicianship, politically charged lyrics, and progressive rock influences built on ska-punk intensity.</p>
+</li>
+<li>
+<p>Somewhere at the Bottom of the River Between Vega and Altair, La Dispute (2008) – Emotionally devastating spoken-word-infused post-hardcore with poetic, introspective lyrics and dynamic instrumentation.</p>
+</li>
+<li>
+<p>The Greatest Generation, The Wonder Years (2013) – Introspective, storytelling-driven pop punk with deeply personal, self-reflective lyrics and huge, anthemic choruses.</p>
+</li>
+<li>
+<p>Drunken Lullabies, Flogging Molly (2002) – Irish folk-punk with raucous energy, meaningful social commentary, and beautiful, haunting melodies.</p>
+</li>
+<li>
+<p>Brother, Sister, mewithoutYou (2006) – Emotionally raw, poetic lyrics with spoken-word/post-hardcore delivery and intricate instrumentation blending indie rock and folk influences.</p>
+</li>
+<li>
+<p>Painted Shut, Hop Along (2015) – Frances Quinlan's raspy, impassioned vocals paired with deeply narrative and literary songwriting, backed by dynamic indie rock.</p>
+</li>
+<li>
+<p>Transgender Dysphoria Blues, Against Me! (2014) – Raw, anthemic punk rock with intensely personal and politically charged lyrics, delivered with fiery, commanding vocals.</p>
+</li>
+<li>
+<p>Lift Your Skinny Fists Like Antennas to Heaven, Godspeed You! Black Emperor (2000) – No vocals, but this is post-rock at its most cinematic—deeply emotional, thought-provoking, and epic in scope.</p>
+</li>
+<li>
+<p>Super Taranta!, Gogol Bordello (2007) – Gypsy punk with wild, energetic instrumentation, theatrical vocals, and rebellious, deeply political lyrics.</p>
+</li>
+<li>
+<p>Ants From Up There, Black Country, New Road (2022) – Avant-garde indie with orchestral elements, deeply emotional storytelling, and vocals that teeter between spoken and sung with intense vulnerability.</p>
+</li>
+<li>
+<p>Shake Shook Shaken, The Dø (2014) – Experimental indie-pop with hypnotic vocals and electronic-leaning but deeply human, poetic songwriting.</p>
+</li>
+<li>
+<p>The Alchemy Index (Vols I &amp; II – Fire &amp; Water), Thrice (2007) – A conceptual rock album with poetic, mythic lyrics, balancing heavy, intense rock (“Fire”) and atmospheric, haunting beauty (“Water”).</p>
+</li>
+<li>
+<p>Act III: Life and Death, The Dear Hunter (2009) – Progressive rock at its most cinematic, with lush orchestration and powerful melodies in a narrative-driven concept album.</p>
+</li>
+<li>
+<p>Lighght, Kishi Bashi (2014) – Playful and intricate chamber pop, blending violin-driven melodies with deeply emotional lyrics and stunning vocal harmonies.</p>
+</li>
+</ul>
+</div></div>
+<p><img src="/img/user/Interests/Music/Assets/Pasted%20image%2020251222122129.png" alt="Pasted image 20251222122129.png"><br>
+Bubbles Rising to the Surface - Created April 8th, 2025</p>
+<p>I think I like the title of the playlist more than the individual albums. HOWEVER, that's not to say I didn't like the music. Just not as memorable as other albums this year.</p>
+<p>Still worth mentioning:</p>
+<ul>
+<li>&quot;Absolution&quot; by Muse</li>
+<li>&quot;PIPER CoolSelection&quot; by PIPER</li>
+<li>&quot;Stick Season&quot; by Noah Kahan</li>
+<li>&quot;Fight With Tools&quot; by Flobots
+<ul>
+<li>Flobots is one of my favorite artists. I don't know this album that well so I threw it in here. It honestly didn't serve that well here, I don't recall listening to it much in this playlist. Slowly appreciating this album over time, though. (My top Flobots album is &quot;Circle in the Square&quot;. My entrypoint into Flobots was &quot;Me &amp; You (Happy 2gether)&quot;, which is their cover of the song by The Turtles. Love their cover of it so much - they rap/hip-hop-ified it.) I haven't found a hip hop group that I like as much as Flobots yet (I am very inexperienced in Hip Hop, so take that statement with a grain of salt.)</li>
+</ul>
+</li>
+</ul>
+<h3 id="the-theater-music-i-got-into" tabindex="-1">The theater music I got into</h3>
+<ul>
+<li>The Outsiders</li>
+<li>Octet (Dave Malloy, mostly the first track The Forest)</li>
 <li>Into The Woods</li>
 <li>Natasha, Pierre, and the Great Comet of 1812</li>
 <li>Ghost Quartet</li>
+<li>Bat Boy</li>
 </ul>
+<p>I mentioned earlier that getting into some of these led to my playlist approach fizzling towards the end of the year. I'd say that's mostly attributed to Into The Woods, Great Comet, and Ghost Quartet. Outsiders was earlier in the year (April) and Octet and Bat Boy were minor influences on that. (Note, Outsiders in the above list is the only show I actually went to this year. I went to other Broadway musicals as well, but their albums did not dominate much listening time.)</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>yes I know this is technically not 2025, but it basically is, and it's the first of this playlist approach, so I'm not going to exclude it <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Saying this makes me also think of my more recent listening interests, Bomb the Music Industry (becoming a big favorite!) and Apes of State (less favorite but similar intense-word vibes I'm talking about here and also similar to BTMI), which btw neither of which are part of these playlists) <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 </main>
 <aside>
 <div class="sidebar">
@@ -505,7 +633,7 @@ On this page
 </li>
 <li><a href="#the-playlists">The playlists</a>
 </li>
-<li><a href="#the-theater-music">The theater music</a>
+<li><a href="#the-theater-music-i-got-into">The theater music I got into</a>
 </li>
 </ol>
 </nav>
