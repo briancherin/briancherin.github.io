@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2025-12-22T12:27:03.777-05:00"}
+{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2025-12-22T12:44:21.353-05:00"}
 ---
 
 The below "new approach" isn't all there is to be said about my music consumption this year, but it's a major part of it.
@@ -150,8 +150,41 @@ Still worth mentioning:
 	- Flobots is one of my favorite artists. I don't know this album that well so I threw it in here. It honestly didn't serve that well here, I don't recall listening to it much in this playlist. Slowly appreciating this album over time, though. (My top Flobots album is "Circle in the Square". My entrypoint into Flobots was "Me & You (Happy 2gether)", which is their cover of the song by The Turtles. Love their cover of it so much - they rap/hip-hop-ified it.) I haven't found a hip hop group that I like as much as Flobots yet (I am very inexperienced in Hip Hop, so take that statement with a grain of salt.)
 
 
+![Pasted image 20251222122729.png](/img/user/Interests/Music/Assets/Pasted%20image%2020251222122729.png)
+Enthused Disruption - Created May 14, 2025
 
-### The theater music I got into
+I'm starting to realize that this whole "playlist approach" peaked with the first two playlists. Am I making a bigger deal about this than the impact it actually had??? Maybe.
+
+This one had "Mr. A-Z" by Jason Mraz, "MAD!" by Sparks (their latest album), "Everything Besides" by Larry and His Flask (adding it here definitely made me listen to it and appreciate it), and "This is How We Get Better" by The Narcissist Cookbook (very interesting album, liked it).
+
+
+![Pasted image 20251222123123.png](/img/user/Interests/Music/Assets/Pasted%20image%2020251222123123.png)
+Finding My Way Home - Created July 20, 2025
+
+I'll say this one had high impact as well. If only because it got me listening to Midlake.
+
+- "The Trials of Van Occupanther" by Midlake
+	- Love a lot of these songs. Especially "Van Occupanther" and "Roscoe", with honorable mention to "Head Home" and "It Covers the Hillsides". This album took measurable real estate in my mind. It belongs in the list of top albums for the year (if I were to make one). The songs are on the chiller side. Don't remember exactly how I found them. But I love them.
+- "Six Demon Bag" by Man Man
+	- Liked some of the songs, but honestly never got that into it. Would listen to more.
+- "All Eternals Deck" by The Mountain Goats
+	- I think it's inevitable that I listen to more Mountain Goats in the future.
+	- Liked a bunch of songs in this album. Not particularly standout, but I liked the vibe. Mostly chill too, slower songs.
+	- Standouts are "Damn These Vampires" and "Age of Kings"
+
+
+![Pasted image 20251222123534.png](/img/user/Interests/Music/Assets/Pasted%20image%2020251222123534.png)
+Fastly, Slowly, Breathe - Created October 2, 2025
+
+This one is the "fizzle".
+
+It started with me adding "Red, Yellow & Blue" by Born Ruffians. I liked some of the songs but still haven't listened to them much. Then in mid-November I added "The Ides" by Me Like Bees. I think I'm going to listen to Me Like Bees more moving forward, but I didn't really listen to them through this playlist, but instead in Spotify's shuffles after other songs I queued up, or through song radios for related music. Again, the "fizzle" is that I'm not really going to the playlist as my "default" currently, like I did earlier in the year. And then I added "The First Edition" by Kenny Rogers a couple days ago, but I'm not sure how much impact it'll have -- the song of interest was "Just Dropped In (To See What Condition My Condition Was In)", which is a funny song that showed up from my previously-hearted songs (I was playing my liked songs on shuffle).
+
+
+### End 'o the year
+Bomb the Music Industry - this is the strongest artist in my mind for the last month or so. Otherwise, there's been a cycle of some theater stuff, and a little bit of Larry and His Flask and Streetlight Manifesto sprinkled in here and there. I kind of haven't been listening to that much music recently.
+
+### The theater music I got into this year
 - The Outsiders
 - Octet (Dave Malloy, mostly the first track The Forest)
 - Into The Woods
@@ -160,3 +193,11 @@ Still worth mentioning:
 - Bat Boy
 
 I mentioned earlier that getting into some of these led to my playlist approach fizzling towards the end of the year. I'd say that's mostly attributed to Into The Woods, Great Comet, and Ghost Quartet. Outsiders was earlier in the year (April) and Octet and Bat Boy were minor influences on that. (Note, Outsiders in the above list is the only show I actually went to this year. I went to other Broadway musicals as well, but their albums did not dominate much listening time.)
+
+
+### In Conclusion
+It was a great year for discovering new music.
+
+There's definitely an *Ebb and Flow* to the cycles of consuming what I already like, exploring new music, and just not listening to that much stuff at all. Gotta respect that.
+
+And as I said earlier, there are ups and downs (meaning, ambiguous benefits) of this time-based playlist approach. But I'm glad I tried it.
