@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2025-12-22T11:43:28.681-05:00"}
+{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2025-12-22T12:27:03.777-05:00"}
 ---
 
 The below "new approach" isn't all there is to be said about my music consumption this year, but it's a major part of it.
@@ -48,6 +48,8 @@ But I don't think my value of discovering new music is going away anytime soon, 
 
 ### The playlists
 ![Pasted image 20251222113413.png](/img/user/Interests/Music/Assets/Pasted%20image%2020251222113413.png)
+Rabbit Enters Winter - Created Dec 21, 2024^[yes I know this is technically not 2025, but it basically is, and it's the first of this playlist approach, so I'm not going to exclude it]
+
 Standout albums:
 - "SELF-iSH" by Will Wood and the Tapeworms
 	- Some of these songs became obsessions. I love them but they are kind of dark in a goofy, twisted way. Later in the year, I was generally hesitant to listen back to these because I guess I wasn't feeling like a return into darkness, but they are great songs.
@@ -58,13 +60,103 @@ Standout albums:
 - "Rockin' the Suburbs" by Ben Folds
 	- I discovered Ben Folds through a couple songs he did with Regina Spektor (who is one of my earliest music interests (started with the song Eet, and then when she did a SummerStage concert in NYC a couple years ago I got into a bunch of her other songs) and then decided to explore his other music, hence why this album got added here
 	- I ended up liking a bunch of the songs in this album. Looking at the songs, though, "Zak and Sara" is the only one that stands out in memory, and I can't remember what most of the others were like. I liked them, though, and would listen more (though I honestly haven't much).
-	- 
+	
 
 ![Pasted image 20251222113520.png](/img/user/Interests/Music/Assets/Pasted%20image%2020251222113520.png)
+Somebody Called You (Thrumming) - Created Feb 27, 2025
+
+Every album in this one was standout.
+
+
+- "...And the Battle Begun" by Rx Bandits
+	- This likely has a spot in my favorite albums of all time. The musical sound is so unique to me, I don't know what else to compare it to. I can't name top tracks, partly because I love most (if not all) of them, and partly because I honestly always forget what song the titles go with. 
+	- Surprisingly, I also find that I probably don't know most of the lyrics that well. I'm usually strongly lyric-minded. But even if the lyrics are not as memorable (or maybe just hard for me to follow because they are kind of fast paced), the sound of the music comes through extremely strong. There are totally still little snippets of the catchiest lyrics that I know, but these perhaps just aren't the type of songs that make me feel the **need** to memorize the lyrics (unlike Streetlight Manifest (my favorite band in the last few years), whose lyrics almost all become an instant need for being memorized)
+- "Ten Stories" by mewithoutYou
+	- I need to listen to this more (and listen to their other albums). Another unique kind of sound for me, which I really liked. Often giving spoken-word vibes, leaning into aggressive-rage spoken word (not like heavy-metal rage vibes, but like, someone really passionately and strongly and intensely speaking their spoken words. I love it. ^[Saying this makes me also think of my more recent listening interests, Bomb the Music Industry (becoming a big favorite!) and Apes of State (less favorite but similar intense-word vibes I'm talking about here and also similar to BTMI), which btw neither of which are part of these playlists)]
+	- Associate this with an airport waiting for plane, I was listening to a bunch of the songs while waiting.
+- "By the Lamplight" by Larry and His Flask
+	- The caveat here is that Larry and His Flask was already waaaay on my radar, and I would have listened to them plenty whether they were in this playlist or not, but I do think that adding it to this playlist reinforced it and made absolute sure I would keep going back to it. 
+	- Larry and His Flask was the artist of the year for me, absolutely. If 2024 was the year of Streetlight Manifesto (and it was), 2025 was the year of Larry and His Flask (but still, look at all my other favorites in this overall list, there were so many standouts this year that I feel a little weird pointing LAHF as the #1, but it still feels right to say.)
+	- What do I like so much? The strong vocals (the lead singer has a really nice voice), love the lyrics and general themes, and the musicality and folky vibes are all great.
+- "The Script" by The Script
+	- This feels like an "education" pick to me. Like, I was culturing myself with a classic. I don't know if The Script is supposed to be considered a classic. But it feels that way to me. 
+	- I ended up liking a lot of the songs, so definitely a win. They didn't stay on my radar after this playlist's cycle though.
+
+Must also mention that the LAHF album has a song called "Muffled Thrums", which is not at all the reason I called the playlist "Thrumming", but I am enamored with that fact that it worked out like that. 
+
+I created this playlist during a car ride (and an image of that ride flashes into my mind when I think about the origins of the playlist title).
+
+During that car ride, I also used ChatGPT to get a couple of these recs -- specifically for Rx Bandits and mewithoutYou (for those specific albums I added) -- essentially seeding this playlist with those. Specifically I was asking ChatGPT for recs similar to Streetlight Manifesto. The pros and cons of AI for this can surely be debated, but clearly it paid off here.
+
+>[!INFO]- My AI prompting
+>`Suggest me music artists and a suggested album from them that matches my interest. I usually like indie and rock, but am open to other things. I like streetlight manifesto because of the following descriptors. Strong lyrics that have meaning and make you think, that are sung with powerful and energetic vocals with a catchy beautiful melody and great instrumental along with it.`
+>
+>...
+>`List some more that are slightly beyond my familiar zone but still fit the descriptors`
+>...
+>
+>`Which of all the above recs would be highest energy`
+>____
+>Actually I'm going to preserve all of its recs, in case I want to access them from here in the future, so I'm now prompting it to give a concise list of all album recs it gave:
+>
+>>- The Crane Wife, The Decemberists (2006) – Poetic, deeply thought-out lyrics inspired by folklore and literature, delivered with passionate vocals and dynamic, theatrical compositions.
+>
+>- The Sunset Tree, The Mountain Goats (2005) – John Darnielle writes intensely personal, story-driven lyrics with raw energy and emotion, often dealing with survival and resilience.
+>
+>- The Monitor, Titus Andronicus (2010) – A chaotic yet anthemic rock opera drawing on historical themes with cathartic, passionate vocals and heavy instrumentation.
+>
+>- Go Farther in Lightness, Gang of Youths (2017) – Philosophical, life-affirming lyrics with dramatic, soaring instrumentation and emotionally charged vocals.
+>
+>- …And the Battle Begun, Rx Bandits (2006) – Complex musicianship, politically charged lyrics, and progressive rock influences built on ska-punk intensity.
+>
+>- Somewhere at the Bottom of the River Between Vega and Altair, La Dispute (2008) – Emotionally devastating spoken-word-infused post-hardcore with poetic, introspective lyrics and dynamic instrumentation.
+>
+>- The Greatest Generation, The Wonder Years (2013) – Introspective, storytelling-driven pop punk with deeply personal, self-reflective lyrics and huge, anthemic choruses.
+>
+>- Drunken Lullabies, Flogging Molly (2002) – Irish folk-punk with raucous energy, meaningful social commentary, and beautiful, haunting melodies.
+>
+>- Brother, Sister, mewithoutYou (2006) – Emotionally raw, poetic lyrics with spoken-word/post-hardcore delivery and intricate instrumentation blending indie rock and folk influences.
+>
+>- Painted Shut, Hop Along (2015) – Frances Quinlan's raspy, impassioned vocals paired with deeply narrative and literary songwriting, backed by dynamic indie rock.
+>
+>- Transgender Dysphoria Blues, Against Me! (2014) – Raw, anthemic punk rock with intensely personal and politically charged lyrics, delivered with fiery, commanding vocals.
+>
+>- Lift Your Skinny Fists Like Antennas to Heaven, Godspeed You! Black Emperor (2000) – No vocals, but this is post-rock at its most cinematic—deeply emotional, thought-provoking, and epic in scope.
+>
+>- Super Taranta!, Gogol Bordello (2007) – Gypsy punk with wild, energetic instrumentation, theatrical vocals, and rebellious, deeply political lyrics.
+>
+>- Ants From Up There, Black Country, New Road (2022) – Avant-garde indie with orchestral elements, deeply emotional storytelling, and vocals that teeter between spoken and sung with intense vulnerability.
+>
+>- Shake Shook Shaken, The Dø (2014) – Experimental indie-pop with hypnotic vocals and electronic-leaning but deeply human, poetic songwriting.
+>
+>- The Alchemy Index (Vols I & II – Fire & Water), Thrice (2007) – A conceptual rock album with poetic, mythic lyrics, balancing heavy, intense rock (“Fire”) and atmospheric, haunting beauty (“Water”).
+>
+>- Act III: Life and Death, The Dear Hunter (2009) – Progressive rock at its most cinematic, with lush orchestration and powerful melodies in a narrative-driven concept album.
+>
+>- Lighght, Kishi Bashi (2014) – Playful and intricate chamber pop, blending violin-driven melodies with deeply emotional lyrics and stunning vocal harmonies.
+>
+
+
+![Pasted image 20251222122129.png](/img/user/Interests/Music/Assets/Pasted%20image%2020251222122129.png)
+Bubbles Rising to the Surface - Created April 8th, 2025
+
+I think I like the title of the playlist more than the individual albums. HOWEVER, that's not to say I didn't like the music. Just not as memorable as other albums this year.
+
+Still worth mentioning:
+- "Absolution" by Muse
+- "PIPER CoolSelection" by PIPER
+- "Stick Season" by Noah Kahan
+- "Fight With Tools" by Flobots
+	- Flobots is one of my favorite artists. I don't know this album that well so I threw it in here. It honestly didn't serve that well here, I don't recall listening to it much in this playlist. Slowly appreciating this album over time, though. (My top Flobots album is "Circle in the Square". My entrypoint into Flobots was "Me & You (Happy 2gether)", which is their cover of the song by The Turtles. Love their cover of it so much - they rap/hip-hop-ified it.) I haven't found a hip hop group that I like as much as Flobots yet (I am very inexperienced in Hip Hop, so take that statement with a grain of salt.)
 
 
 
-### The theater music
+### The theater music I got into
+- The Outsiders
+- Octet (Dave Malloy, mostly the first track The Forest)
 - Into The Woods
 - Natasha, Pierre, and the Great Comet of 1812
 - Ghost Quartet
+- Bat Boy
+
+I mentioned earlier that getting into some of these led to my playlist approach fizzling towards the end of the year. I'd say that's mostly attributed to Into The Woods, Great Comet, and Ghost Quartet. Outsiders was earlier in the year (April) and Octet and Bat Boy were minor influences on that. (Note, Outsiders in the above list is the only show I actually went to this year. I went to other Broadway musicals as well, but their albums did not dominate much listening time.)
