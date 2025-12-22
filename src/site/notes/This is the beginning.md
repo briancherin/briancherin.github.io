@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/this-is-the-beginning/","tags":["gardenEntry"],"created":"2025-12-07T16:43:50.597-05:00","updated":"2025-12-19T16:51:57.041-05:00"}
+{"dg-publish":true,"permalink":"/this-is-the-beginning/","tags":["gardenEntry"],"created":"2025-12-07T16:43:50.597-05:00","updated":"2025-12-22T14:05:40.312-05:00"}
 ---
 
 # This is the beginning
@@ -7,6 +7,8 @@
 of my digital garden / blog thing.
 
 Hi.
+
+I recommend looking at the hierarchy of topics and seeing what catches your interest, or use the Random Note button below, or pick from the list of recently updated posts.
 
 A starting point:
 - [[Meta/On Blogging/What Is This\|What Is This]]
