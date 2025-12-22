@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Specific Main App Pursuit I&#39;m Currently Working On</title>
+<title>2025 Music Retrospective</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -114,7 +114,7 @@ CTRL + K
 <span class="foldername">Music</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/interests/music/2025-music-retrospective/">2025 Music Retrospective </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/interests/music/2025-music-retrospective/">2025 Music Retrospective </a>
 </div>
 </div>
 </div>
@@ -346,7 +346,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/projects/software/specific-main-app-pursuit-i-m-currently-working-on/">Specific Main App Pursuit I&#39;m Currently Working On </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/projects/software/specific-main-app-pursuit-i-m-currently-working-on/">Specific Main App Pursuit I&#39;m Currently Working On </a>
 </div>
 </div>
 </div>
@@ -383,14 +383,43 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-12-22T16:33:12.925Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-12-22T16:33:12.925Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-12-22T16:33:12.925Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Specific Main App Pursuit I&#39;m Currently Working On</h1>
+<h1 data-note-icon="">2025 Music Retrospective</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
 <div class="timestamps">
-<script>console.log("showCreated: " + true + ", created: " + 2025-12-09T18:08:11.941-05:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-12-09T18:08:11.941-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-12-09T18:24:30.133-05:00"></span></div></div></div>
+<script>console.log("showCreated: " + true + ", created: " + 2025-12-22T10:59:44.867-05:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-12-22T10:59:44.867-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-12-22T11:32:44.806-05:00"></span></div></div></div>
 </header>
-<p><a class="tag" onclick="toggleTagSearch(this)" data-content="#project">#project</a></p>
+<p>The below &quot;new approach&quot; isn't all there is to be said about my music consumption this year, but it's a major part of it.</p>
+<h3 id="a-new-approach-to-music-discovery" tabindex="-1">A new approach to music discovery</h3>
+<p>Prior to this year, my approach to music discovery looked like this:</p>
+<ul>
+<li>Listen to songs I already like, and let Spotify auto-play (usually related/similar) songs after I finish listening to specific songs or albums</li>
+<li>Take album recommendations from friends or the internet and listen through those albums</li>
+<li>Occasionally find a song, artist, or album that I really liked, and then maybe obsessively listen to their stuff until I'm fully saturated on their content</li>
+<li>Decide it's time to branch back out and begin exploring again</li>
+</ul>
+<p>But something I noticed is that I would really like certain songs or albums only after listening to them multiple times, and sometimes those &quot;multiple times&quot; could be spread out over a long period of time. I usually add a song to my &quot;Liked songs&quot; in Spotify, but that doesn't mean I'll listen to it again anytime soon. If it took two listens for me to really like something, and there is a very long gap between my first listen and second listen, it feels like there is some level of &quot;wasted&quot; time or opportunity with regards to how quickly I can gain appreciation for a song I've heard once.</p>
+<p>This also incurs a concern that I might listen to a song once, and never listen to it again, but if I had listened to it again, there could be high reward in terms of appreciation.</p>
+<p>So for a big chunk of this year, I tried an approach that was aimed at getting me to more frequently listen back to albums that caught my interest.</p>
+<p>At the beginning of a &quot;cycle&quot;, I would use one of the music discovery methods (from auto-play, or recommendations) and then if an album caught my interest enough that it felt like it was worth listening to more, I created a new playlist and added the full album to the playlist. I then gave the playlist a name, pretty always a random phrase that popped into my head at that exact moment. I then AI-generated an image, based on the name I came up with and my current sentiment in that moment, and used it as the playlist cover image.</p>
+<p>Then for any other albums I liked within this time span, I added those to that current playlist as well, until the playlist hit around 3-5 albums total.</p>
+<p>The idea was then that in moments when I didn't have anything specific I wanted to listen to, I would turn to this playlist as my default just-play-something playlist. This way, I would continue to expose myself to these albums repeatedly, and perhaps develop an appreciation for them, to a degree that I wouldn't have if I had just let the albums float by and maybe chance upon them later.</p>
+<p>Usually after a month or two, I would feel like I had consumed the albums from that playlist enough, and I would start a new cycle for the next new album that interested me.</p>
+<p>Another note on why I did this at the album level rather than for individual songs: Part of my general music discovery process is that if I like one or a couple songs on an album, I usually end up liking a lot more of the other songs on the album, as I listen to it over time. This is part of the core theory of why I started this playlist approach, to create a structure of exposing myself to all the songs in an album over time.</p>
+<h3 id="how-did-this-go" tabindex="-1">How did this go?</h3>
+<p>It started strong and then fizzled towards the end of the year.</p>
+<p>I really liked the cadence at the beginning. It felt like I was developing more of an appreciation for the albums I was adding.</p>
+<p>There was a flaw from the start, though, or maybe not a flaw but just something for me to be aware of. I might add an album to one of the playlists and not end up liking the album beyond my early listen. But I think that's okay. The point of this is to see what I end up liking more after repeat listens. The ones I care about will stand out. But it does mean that there are just some &quot;dead&quot; albums in these playlists. Ones that I don't care much about but which are still there. I think that's okay. These playlists are meant to be &quot;discovery&quot; playlists.</p>
+<p>There's another ambiguity. During this process, there are several albums that became <strong>major favorites</strong>. However, I don't know if I can attribute that appreciation as being caused by this playlist approach, or if they inevitably would have become one of my &quot;obsessions&quot; after a first listen. I'll never know the answer to this, but what's important is that I found them and kept listening to them. That being said, I do think that the playlist approach had an impact here. at least to some extent. It kept the music on my radar, made it feel imminent, and brought me back to it as a sort of default, which perhaps I wouldn't have done as much otherwise. (Primarily I am thinking about albums from the band &quot;Larry and His Flask&quot; for this big win.)</p>
+<p>I do truly feel that I developed deep appreciation for several albums due to this process. The real value here was in giving me a place to keep albums that I wanted to pay more attention to. So I don't lose them when I at first become interested. I don't have to scramble and search and remember which albums I wanted to focus on. They were right there in my current-cycle playlist. This aid on its own did a lot for helping me to have the focus I needed to pay proper attention to the albums I felt interest in.</p>
+<p>Why did it fizzle toward the end of the year? I think partly it's because I became a bit more Broadway-focus in the last few months. Probably it started once I was exposed to Into The Woods, and suddenly I switched into theater-mode and I didn't need to track these in the playlist style. For some reason, theater just feels like a different part of my music journey and so I instinctively did not want to integrate show albums into my music discovery playlist process. And I think that's fine. The real effect here is that I was way more interested in the theater music than doing proper music discovery like I was doing for the rest of the year before then. And then once I mostly got past that Broadway phase, I made one more &quot;cycle&quot; playlist, but it was way more fragmented and I wasn't feeling the drive to add albums to it and listen back to it.</p>
+<h3 id="will-i-do-this-again-next-year" tabindex="-1">Will I do this again next year?</h3>
+<p>Maybe, maybe not. I'm interested in exploring other ways to manage music interest. I still believe in the principle that structured repeat exposure can lead to developing an appreciating for music that otherwise I wouldn't get. I'm not sure my above approach is the perfect one.</p>
+<p>Basically, I'll go with the flow. I seem to be on a break from the playlist approach now (at the end of the year), and I have a feeling that break will continue for a little bit.</p>
+<p>But I don't think my value of discovering new music is going away anytime soon, so I wouldn't be surprised if I seek out new ways to encourage and cultivate that, or continue this playlist approach.</p>
+<h3 id="the-playlists" tabindex="-1">The playlists</h3>
+<h3 id="the-theater-music" tabindex="-1">The theater music</h3>
 </main>
 <aside>
 <div class="sidebar">
@@ -423,12 +452,33 @@ CTRL + K
 <span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i icon-name="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
 </div>
 </div>
+<div class="toc">
+<div class="toc-title-container">
+<div class="toc-title">
+On this page
+</div>
+</div>
+<div class="toc-container">
+<nav class="toc">
+<ol>
+<li><a href="#a-new-approach-to-music-discovery">A new approach to music discovery</a>
+</li>
+<li><a href="#how-did-this-go">How did this go?</a>
+</li>
+<li><a href="#will-i-do-this-again-next-year">Will I do this again next year?</a>
+</li>
+<li><a href="#the-playlists">The playlists</a>
+</li>
+<li><a href="#the-theater-music">The theater music</a>
+</li>
+</ol>
+</nav>
+</div>
+</div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/" data-note-icon="" class="backlink">&quot;1 Second Everyday&quot; - Indie Hackers Podcast</a>
-</div><div class="backlink-card"><i icon-name="link"></i><a href="/media-i-have-consumed/podcasts/daniel-vassallo-indie-hackers-podcast/" data-note-icon="" class="backlink">Daniel Vassallo - Indie Hackers Podcast</a>
-</div><div class="backlink-card"><i icon-name="link"></i><a href="/media-i-have-consumed/videos/hank-green-tells-me-to-fall-downhill/" data-note-icon="" class="backlink">Hank Green Tells Me To Fall Downhill</a>
-</div><div class="backlink-card"><i icon-name="link"></i><a href="/projects/software/game-development/old-projects/bee-haven/" data-note-icon="" class="backlink">Bee Haven</a>
+<div class="backlink-list"><div class="backlink-card">
+<span class="no-backlinks-message">No other pages mentions this page</span>
 </div></div>
 </div>
 </div>
