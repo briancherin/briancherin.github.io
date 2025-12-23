@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/theater/attending-an-industry-reading/","created":"2025-12-19T15:59:59.796-05:00","updated":"2025-12-19T16:41:02.588-05:00"}
+{"dg-publish":true,"permalink":"/interests/theater/attending-an-industry-reading/","created":"2025-12-19T15:59:59.796-05:00","updated":"2025-12-22T23:46:01.204-05:00"}
 ---
 
 I found myself at a stage reading for a musical called "Glory Ride". It was called an "industry reading" (though I am not "Industry"). This was my first time attending a reading.
@@ -19,6 +19,7 @@ The performance consisted of the actors reading dialogue and singing songs, with
 ### What draws me to this
 - Being close to the magic, being behind the scenes, in a way. Nothing beats the ultra high resolution experience of sitting five feet away from such talented individuals.
 - Seeing something when it's still a little rough around the edges and subject to change over time. Enhances my experience, adds depth to it, makes me feel like I'm seeing part of the journey.
+- At least in this case, I had the opportunity to give feedback on the performance via a form, and I had a few comments about parts I found confusing. It's fun to watch a performance with a critical eye, and to be able to use my experience to inform the show's development. This feels very meaningful to me.
 - Gives me a feel for seeing how things work in the theater industry, what the progression from idea to polished show looks like.
 - Opportunity to meet interesting people, have conversations, learn new things. Maybe a chance to chat with actors or members of the production. Possibly even a chance to network in a way to help my far future self with his goal of maybe possible eventually getting involved with a community theater in a tech/crew role.
 
