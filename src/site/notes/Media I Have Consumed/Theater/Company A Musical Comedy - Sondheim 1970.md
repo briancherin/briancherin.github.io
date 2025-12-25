@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/","title":"Company: A Musical Comedy - Sondheim 1970","created":"2025-12-25T15:31:25.511-05:00","updated":"2025-12-25T16:23:54.005-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/","title":"Company: A Musical Comedy - Sondheim 1970","created":"2025-12-25T15:31:25.511-05:00","updated":"2025-12-25T16:50:33.256-05:00"}
 ---
 
 # Some facts
@@ -42,43 +42,17 @@ This proshot isn't of the original Broadway cast -- but I don't think there is a
 I saw many comments praising this recording, and particularly Raúl Esparza's performance. I see it. Raúl was fantastic. He *is* the character to me -- he embodies it that well. (But often any first exposure to a show would make me say that for any and all characters -- but I sense he plays it especially well. It feels natural, like he is really the character and not an actor playing a character. When the metaphorical curtain rises and the no-longer-character actors bow, I find myself saying, "oh, could it be possible that this person does not actually fully embody the elements of the character from this show?" and then I blink and remember that this person is just doing a job and they are just really good at that job) - what I'm saying is that he's a good actor. (But for all I know, Esparza does fully embody the character in his real life. Shrug.)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-- city of strangers - dialogue interspersed between choruses
-
-- not getting married - FAST lyrics
-
+## Unstructured thoughts
+- Thoughts on a couple songs
+	- Another Hundred People - I liked the effect of dialogue interspersed between choruses
+	- Getting Married Today - FAST lyrics
+- It's a non-linear show. I like it.
+- Some moments of really good storytelling -- praise to the book. Specifically noted this for the butterfly and baby-oil stories.
+- Natural comedy - doesn't feel like forced jokes. It's situational comedy, done well.
   
 
-- raul
-
-- instruments / actors 
-
-- non linear
-
-- simple staging 
-
-- storytelling - butterfly / babyoil
-
-- natural comedy
-  
-
-End with no company
-
-
-
-Quotes
-- "Whenever robert's over i get this feeling we're auditoning for him" --> "well you know my favoeite quote, the unexamined life is not worth living" --> " and mije is, the unlived life is not worth examining"
+## Lines from the book that stood out to me
+- "Whenever Robert's over I get this feeling we're auditioning for him" --> "well you know my favorite quote, the unexamined life is not worth living" --> " and mine is, the unlived life is not worth examining"
 - "You were always outside looking in the window when everyone else was inside dancing at the party"
 - "You're a terribly attractive man. The kind of man most women want but never seen to get"
 - Last song
