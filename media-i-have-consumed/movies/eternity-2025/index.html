@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Bee Haven</title>
+<title>Eternity (2025)</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -153,7 +153,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/movies/eternity-2025/">Eternity (2025) </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/movies/eternity-2025/">Eternity (2025) </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -321,7 +321,7 @@ CTRL + K
 <span class="foldername">Old projects</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/projects/software/game-development/old-projects/bee-haven/">Bee Haven </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/projects/software/game-development/old-projects/bee-haven/">Bee Haven </a>
 </div>
 </div>
 </div>
@@ -400,30 +400,88 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-12-26T04:41:06.021Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-12-26T04:41:06.021Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-12-26T04:41:06.021Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Bee Haven</h1>
+<h1 data-note-icon="">Eternity (2025)</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
 <div class="timestamps">
-<script>console.log("showCreated: " + true + ", created: " + 2025-12-09T20:04:18.301-05:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-12-09T20:04:18.301-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-12-09T22:07:38.910-05:00"></span></div></div></div>
+<script>console.log("showCreated: " + true + ", created: " + 2025-12-25T21:48:01.173-05:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-12-25T21:48:01.173-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-12-25T23:40:43.044-05:00"></span></div></div></div>
 </header>
-<p><a class="tag" onclick="toggleTagSearch(this)" data-content="#gamedev">#gamedev</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#project">#project</a></p>
-<p><picture src="/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/bee%20haven%20title.png" alt="bee haven title.png"><source media="(max-width:480px)" srcset="/img/optimized/MmLw4F2NS--500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/MmLw4F2NS--500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/MmLw4F2NS--700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/MmLw4F2NS--700.jpeg"><img class="" src="/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/bee%20haven%20title.png" alt="bee haven title.png" width=""></picture></p>
-<p>A game I made during a high school summer program I attended in summer of 2018. It's an infinite scroller. You control a bee's movement to the left and right as it moves forward toward the horizon, collecting flowers and avoiding birds.</p>
-<p>The graphics were very simplistic (I vaguely wanted to make them better in the future but never went back to it).</p>
-<p><picture src="/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/bee%20haven%20gameplay.png" alt="bee haven gameplay.png"><source media="(max-width:480px)" srcset="/img/optimized/UeUz0F97---500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/UeUz0F97---500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/UeUz0F97---700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/UeUz0F97---700.jpeg"><img class="" src="/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/bee%20haven%20gameplay.png" alt="bee haven gameplay.png" width=""></picture></p>
-<p>I published it to the Google Play Store (under a pseudonym because I was very resistant to publishing things under my real name back then) but eventually it got taken down because I needed to update things to comply with Google's new developer rules (possibly could've been something as easy as adding a privacy policy to my app, but I just never bothered to expend the energy to do whatever it needed me to do).</p>
-<p>But also recently, I've been wanting to show people a demo of the game. I recently tried to re-install it on my phone by using an old APK (app installation file for Android) that I downloaded from the Google Play Dev Console, but installation failed because the architecture of the app was too out of date. There is, however, a usable version of the game that can be accessed via <a class="internal-link" target="" data-note-icon="" href="/projects/software/really-old-projects/brianiscool-tk/">brianiscool.tk</a>, so in theory I can show people from that, but I'd prefer the app experience.</p>
-<p>So...</p>
-<ul class="task-list">
-<li class="task-list-item"><input type="checkbox" id="cbx_0" disabled="true"><label for="cbx_0"> Run it locally and build it to Android, test it</label></li>
-<li class="task-list-item"><input type="checkbox" id="cbx_1" disabled="true"><label for="cbx_1"> Try re-publishing it to the Play Store???</label></li>
-<li class="task-list-item"><input type="checkbox" id="cbx_2" disabled="true"><label for="cbx_2"> Could also think about what improvements I could make (though tbh don't feel it's the place for me to invest my energy in anytime soon, especially with projects like <a class="internal-link" target="" data-note-icon="" href="/projects/software/specific-main-app-pursuit-i-m-currently-working-on/">Specific Main App Pursuit I'm Currently Working On</a> on top of my mind)</label></li>
+<p><img src="/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Eternity%20poster.png" alt="Eternity poster.png"></p>
+<p>I feel conflicted about this movie. I'm giving it a 3/5 on Letterboxd. It almost want to give it a 2.5, given how I'm feeling after watching it. Sometimes I regret the rating I give something. I usually rate it right after watching it, but I might think more about the movie and my understanding and impression might change later. But I usually keep my rating as I set it. Sometimes I don't give something a rating at all. Rating is kind of silly. Anyway this is a tangent. But I don't think I'll regret giving this a lower rating than how I would normally rate a &quot;good&quot; movie.</p>
+<p>Also, for the first time in my life, I took some notes about my thoughts during the movie. (This is an effect of having a public space to talk about it, perhaps. I wouldn't otherwise compile thoughts like this.) I have to admit I was pausing the movie multiple times towards the end to write notes, which might have interrupted the flow of some scenes a little. I didn't want to forget my thoughts though. I'm not sure how better to do this.</p>
+<p>Also, I want to point out the funniness of watching this on the same day as watching <a class="internal-link" target="" data-note-icon="" href="/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/">Company</a>, which is also about marriage.</p>
+<p></p>
+<div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> SPOILER WARNING</div></div></div>
+<h1 id="spoilers-ahead-this-is-your-one-and-only-warning" tabindex="-1">SPOILERS AHEAD. THIS IS YOUR ONE AND ONLY WARNING.</h1>
+<div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> SPOILER WARNING</div></div></div>
+<p></p>
+<h2 id="brief-plot-summary" tabindex="-1">Brief Plot Summary</h2>
+<p>Three characters are dead. Joan and her first husband (Luke) who died at war, and her second husband (Larry) who had a family with her.</p>
+<p>How the afterlife works in this universe -- after you die, you end up in a purgatory waiting-room area where you have to make a decision on which &quot;Eternity&quot; you want to spend the rest of your infinite time in. The choice is binding. You're not &quot;allowed&quot; to change your mind. If you try to escape, you get sent to &quot;the void&quot;, which presumably is either nonexistence or infinite nothingness.</p>
+<p>Time is apparently linear between the purgatory and the real world. Luke has waited in purgatory for sixty or so years for Joan to die and then rejoin him and select an Eternity to live in forever.</p>
+<p>But once all three of them are dead, Joan &quot;has to&quot; make a decision about which husband to spend eternity with. It is quite a dilemma for her. The guys basically hate each other. In response, Joan decides to leave both of them and go to an Eternity with an old friend who is there for some reason. Then Larry realizes that she should actually be with Luke, because the happiest moment of her life was when she was with Luke, so he &quot;sacrifices&quot; himself and tells her to &quot;pick&quot; him. She happily goes along with it and enters the &quot;Mountain Eternity&quot; which apparently consists of just cold mountain sports every day (hiking, skiing, etc.). She <em>immediately</em> regrets her choice and decides to escape this Eternity. She manages to get back to purgatory, where she finds Larry, explains that she actually wants to be with him, and then she leads him to a different Eternity which contains the town they lived in when they were alive.</p>
+<h2 id="what-i-liked" tabindex="-1">What I liked</h2>
+<p>The core dilemma of the movie is deep and true. Deciding between two love interests is something many people have to deal with. Even though this is set in an afterlife scenario, you can apply a lot of the tension to a situation where someone's past lover shows up and you have to decide between staying with your current partner, or going with the desired past one. As I will expand on later, it's the world-building surrounding this core concept that I have issues with, not the concept itself.</p>
+<p>I love a good rebellion<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>. My favorite part of the movie is the attempt of Joan to escape the Eternity. We were told right away at the start that you're not allowed to change your mind. Maybe it's obvious that this would be subverted, but I liked seeing it executed. That being said, I do think her success was way too easy, given how the stakes were presented. But the scene where she was escaping the Eternity and going through the world of her memory was really cool, and definitely my favorite scene. I really liked the concept of the Hall of Memories itself a lot (see later section on link to my VR idea).</p>
+<p>The cast was solid - no complaints about the acting. (But this doesn't give me much consolation about my complaints with the writing. Something about good acting with bad writing is upsetting.)</p>
+<p>There were also plenty of funny moments that made me genuinely laugh. Especially moments between the ACs (afterlife coordinators) and each other or the other characters.</p>
+<p>Also, super random (but a delightful moment for me) - I'm pretty sure I spotted Ponderosa Pine trees in the mountain scene (when Joan is deciding to leave, practicing her knife stabbing...), which at least in 2025 are my favorite tree after learning about them (and smelling lots of them - they produce a butterscotchy scent) in my trip to Lake Tahoe this summer.</p>
+<h2 id="my-issues-with-the-plot" tabindex="-1">My issues with the plot</h2>
+<p>I like to think that I have a pretty logical and rational mind. So when I'm trying to follow a plot and things are not making logical sense, or characters are not making reasonable decisions based on what we know about them, it stands out to me. This was happening a lot for me during this movie.</p>
+<h4 id="the-overall-system-of-purgatory-eternities" tabindex="-1">The overall system of purgatory + Eternities</h4>
+<p>For the most part, I'm willing to set this section aside, because I am fine with accepting the established rules of a universe. It is how it is - sometimes that's just how it is.</p>
+<p>But also, if something just doesn't seem to be &quot;set up&quot; reasonably, it feels like a point of friction in a story, making me go &quot;huh?&quot; rather than getting absorbed in the plot.</p>
+<p>To start: Why is selecting an Eternity a binding decision? Clearly it's possible to move between them. We see Joan and Larry do it in the end. Sure, things can get chaotic in this industrialized afterlife/purgatory world, but surely they could figure out a way to manage that chaos rather than dooming souls to a &quot;void&quot;? Again, I get that there could be reasons in this universe that we weren't told about, but... because we weren't told these reasons, it leaves me going &quot;huh?&quot;.</p>
+<p>The whole &quot;select an Eternity&quot; concept sounds cool at the surface, but it's presented in a very gimmicky way. We see promotions for the different Eternities one can select - and most of them are ridiculous, like &quot;a world where there are no men&quot;, &quot;France but everyone speaks English with an accent&quot;, &quot;world where nudity is accepted&quot;. Who actually wants to define their place of infinite existence with such singular qualities as this? Why do the Eternities have to be defined like this?</p>
+<h4 id="the-artificial-choice" tabindex="-1">The artificial choice</h4>
+<p>I think this is what is bothering me most about the movie.</p>
+<p>I mentioned above the oddness of the binding nature of selecting an Eternity. The more I think about this, the more I have to ask - do we even care about this in the context of the plot?</p>
+<p>For the whole movie, I'm sitting there thinking that I know what the obvious solution is that they're going to end up doing. To my surprise, they did not choose this option - maybe for good reason (I'll come back to this), but maybe not.</p>
+<p>The obvious solution is for the three characters to choose the same Eternity - then the bindingness doesn't matter. Joan doesn't actually have to make the decision of who she wants to be &quot;in a relationship with&quot; in purgatory. They can pick a world where all three would be content and then figure out their business there. Whoever doesn't want to hang out with each other, just avoids each other. It's not like they choose their Eternity and then are forced to always be in each other's company. (I also want to shout at them, just become a three-person couple situation... but clearly that's not what this movie is about.) It also doesn't seem like there's anything about the Eternities which prevent you from meeting new people and establishing new relationships -- so why not just go somewhere where there's other people. Surely there are also other souls looking for new relationships.</p>
+<p>Maybe the reason they don't follow this path is because Larry wants &quot;beach world&quot; and Luke wants &quot;mountain world&quot;. But... surely there could possibly be a world with both a mountain and a beach? Why is this an either/or situation? This doesn't click to me.</p>
+<p>Now, even though I think that the smart option is what I described above, I do think it's fine that Joan ultimately made a final decision about who she wanted to end up with. She realized that she values the fifty year relationship she had with Larry, and that what she had with Luke was more immature and young and not based on as much. But we went through so many irrational twists and turns to get there.</p>
+<h4 id="why-does-joan-make-terrible-decisions" tabindex="-1">Why does Joan make terrible decisions</h4>
+<p>We are told that Joan is very smart. But she clearly is not thinking through her decisions well. And the stakes for these decisions are extreme, given that they determine her infinite, eternal existence.</p>
+<p>First, we see her &quot;decide&quot; to split away from both of the men. Even Luke points out the ridiculousness of this decision, saying &quot;so you're gonna hurt three people rather than one&quot;. Her response is that she &quot;was going to be crushed either way&quot; and &quot;maybe the beauty in life is that things end&quot;. These sound like really impulsive ways to rationalize this decision. Especially when we see how fast she changes her mind. I wish we could see more into her thought process. That would help make these decisions seem more reasonable.</p>
+<p>After Larry tells her she should go with Luke (instead of going with neither of them), she immediately goes along with that. (Isn't she still going to be &quot;crushed&quot;? What changed since five minutes ago? What about the beauty of things ending?)</p>
+<p>And she actually goes through with it, and ends up in the Eternity with Luke.</p>
+<p>At this point, I'm just upset that she didn't think through things more, or that we didn't get to see more of her thought process. We see her regret the Luke decision after one day of being there with him (it could have been more than one day, because the time scale was ambiguous, but it was soon after arriving).</p>
+<p>It doesn't feel like her regret is a surprising reaction at all. She decides to throw away her fifty year relationship with Larry, for unclear reasons. It's irrational. No one is surprised that she regrets her decision. Maybe the message here is that we can be blinded by attraction and make poor decisions? Or that time pressure can make us make poor decisions? Maybe - but I think more likely it's just bad writing.</p>
+<p>And then she decides to escape the Eternity, even though it's been well-established that there is infinite punishment that is strongly enforced if you get caught doing this. Well, it turns out that it's really easy to evade punishment for doing this. Frankly, it would have been more exciting if it had been more challenging to get away with it, but for her to still succeed. But based on what she was told, it should have been really hard to get away with it. I think at this point, it is reasonable for her to decide to escape (I do love her line - &quot;I have to try&quot;, when Luke reminds her of the danger). So I think I'm still salty that she made the irrational decision to go with Luke in the first place.</p>
+<p>I feel like I'm sounding like a reality tv / dating show fanboy, saying &quot;she should totally be with Guy X!!!&quot; but I still feel like there is some objectivity to the rational decision here, that she should have been able to come to earlier on.</p>
+<h4 id="oddities-about-certain-dialogue-and-events" tabindex="-1">Oddities about certain dialogue and events</h4>
+<p>Some odd lines I took note of (definitely not a comprehensive list)</p>
+<ul>
+<li>Around 1:01:00, there's a kid on the beach who approaches them. Larry says the kid is probably an old man (implying that he can be a little harsh with him), but the kid says he actually died when he was nine years old. But to me, even if he died when he was nine, he could have been in this Eternity for ten thousand years already. So the line doesn't make sense. If he had said he died when he was nine and had been in this Eternity for only a year, then it would make sense, but how can they assume that. It's established that no one ages in the afterlife.</li>
+<li>Around 1:20:00, Larry tells a story about how the happiest moment of his life was when he and Joan had recently learned that it's bad to drink alcohol while pregnant, and Joan takes a sip of wine while pregnant, and they share a special smile. Huh??? The happiest moment is that they are knowingly doing a harmful thing??? Luke smiles and nods as if it makes sense. (Again, good acting, bad writing.)</li>
 </ul>
+<h2 id="conclusion" tabindex="-1">Conclusion</h2>
+<p>The movie is trying to be a silly+goofy movie at the same time as having a deep core dilemma. And I think it fails at doing both. There are too many irrational aspects to the decision-making and rules of the universe. If the writers asked me if they should change things up, I would absolutely say yes, please do not release it like this. Alas, I am not in this situation, and this media will now exist, as it is, for... eternity.</p>
+<h2 id="further-reflection" tabindex="-1">Further Reflection</h2>
+<h4 id="what-eternity-would-i-choose" tabindex="-1">What eternity would I choose</h4>
+<p>Surprisingly, possibly the same one that Joan and Larry pick in the end.</p>
+<p>Just... the normal world.</p>
+<p>It's the normal world, that anyone and everyone can live in. But it's actually the afterlife, so no one can die. One of the biggest problems with our world is now gone. To dispel further discourse on my last statement... let's also say that this world has all of its other Problems also erased. Or, like, give us a chance to continue working on it.</p>
+<p>What I'm saying is the system of Eternities as presented gives everyone the opportunity to just continue living normally. But maybe I'm breaking the rules by thinking like this? I don't even know. It's a confusing system honestly.</p>
+<p>So basically, I'm saying I like life, and if I have to die, I want to continue living. Life is fine. I don't need to live in France where they speak English with accents. (??? seriously, the choices of worlds is so nonsensical -- I'm willing to accept that there is some campiness to this, but most of the movie is presented in a serious way, or at least that's how I felt.)</p>
+<h4 id="writing-about-a-movie-like-this" tabindex="-1">Writing about a movie like this</h4>
+<ul>
+<li>Why am I thinking so much about this one movie and getting so riled up? Well, it's kind of arbitrary - I can pick any movie I watch and think through an analysis - but this one really stood out. I don't intend to do a deep review like this for every single movie I watch. I've also been exposing myself to such good material lately (like Wheel of Time, Wicked book, <a class="internal-link" target="" data-note-icon="" href="/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/">Company</a> and Into the Woods, etc), so bad writing stands out. Also, I have higher expectations for A24 movies and movies that get popular (but perhaps on the latter, that should not be the expectation these days - popular does not mean high quality necessarily)</li>
+<li>Feels satisfying to have worked through my dissatisfactions about the movie</li>
+<li>Space to share my thoughts but also things are subjective and don't want to offend people who like the movie but also I feel a lot of what I said about logic and reasonableness is objective. I know this is a quite analytical take (stop overthinking it, Brian!) perhaps but this is just how my mind works.</li>
+</ul>
+<h4 id="hall-of-memories-vr-connection" tabindex="-1">Hall of memories - VR connection</h4>
+<p>One of my ideas for <a class="internal-link" target="" data-note-icon="" href="/projects/3-d-and-vr/personal-3-d-vr-world-building/">Personal 3D VR World Building</a> is to have a hall of memories where I can put 3D scenes representing memories of my life. Pretty much exactly what the concept in this movie was. (The movie didn't call it &quot;hall of memories&quot; -- it calls it the &quot;Archives&quot; - this is my term).</p>
+<p><img src="/img/user/Media%20I%20Have%20Consumed/Movies/Assets/eternity%20memory%20hall%201.png" alt="eternity memory hall 1.png"><br>
+<img src="/img/user/Media%20I%20Have%20Consumed/Movies/Assets/eternity%20memory%20hall%202.png" alt="eternity memory hall 2.png"></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>I have been trying to figure out where I heard this phrase - &quot;I love a good rebellion&quot; but have not for the life of me been able to identify it, or if I just made it up or heard it in a dream or something... <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 </main>
 <aside>
 <div class="sidebar">
@@ -456,9 +514,55 @@ CTRL + K
 <span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i icon-name="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
 </div>
 </div>
+<div class="toc">
+<div class="toc-title-container">
+<div class="toc-title">
+On this page
+</div>
+</div>
+<div class="toc-container">
+<nav class="toc">
+<ol>
+<li><a href="#spoilers-ahead-this-is-your-one-and-only-warning">SPOILERS AHEAD. THIS IS YOUR ONE AND ONLY WARNING.</a>
+<ol>
+<li><a href="#brief-plot-summary">Brief Plot Summary</a>
+</li>
+<li><a href="#what-i-liked">What I liked</a>
+</li>
+<li><a href="#my-issues-with-the-plot">My issues with the plot</a>
+<ol>
+<li><a href="#the-overall-system-of-purgatory-eternities">The overall system of purgatory + Eternities</a>
+</li>
+<li><a href="#the-artificial-choice">The artificial choice</a>
+</li>
+<li><a href="#why-does-joan-make-terrible-decisions">Why does Joan make terrible decisions</a>
+</li>
+<li><a href="#oddities-about-certain-dialogue-and-events">Oddities about certain dialogue and events</a>
+</li>
+</ol>
+</li>
+<li><a href="#conclusion">Conclusion</a>
+</li>
+<li><a href="#further-reflection">Further Reflection</a>
+<ol>
+<li><a href="#what-eternity-would-i-choose">What eternity would I choose</a>
+</li>
+<li><a href="#writing-about-a-movie-like-this">Writing about a movie like this</a>
+</li>
+<li><a href="#hall-of-memories-vr-connection">Hall of memories - VR connection</a>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</nav>
+</div>
+</div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/projects/software/game-development/game-dev-inspiration/" data-note-icon="" class="backlink">Game Dev Inspiration</a>
+<div class="backlink-list"><div class="backlink-card">
+<span class="no-backlinks-message">No other pages mentions this page</span>
 </div></div>
 </div>
 </div>
