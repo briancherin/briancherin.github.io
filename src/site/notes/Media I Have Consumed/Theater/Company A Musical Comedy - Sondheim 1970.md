@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/","title":"Company: A Musical Comedy - Sondheim 1970","created":"2025-12-25T15:31:25.511-05:00","updated":"2025-12-26T10:50:08.280-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/","title":"Company: A Musical Comedy - Sondheim 1970","created":"2025-12-25T15:31:25.511-05:00","updated":"2025-12-26T10:55:13.439-05:00"}
 ---
 
 # Some facts
@@ -7,7 +7,7 @@ Music and lyrics by Stephen Sondheim, book (script and dialogue) by George Furth
 
 Nominated for 14 Tony awards and won six.
 
-# Watching the 2006 proshot with Raúl Esparza
+# Watching the 2006 Raúl Esparza proshot
 Before I get into this... Start with some not really relevant, (semi)comic relief with some randomish statements about what has occurred prior to me starting to write here:
 >[!INFO]- Tangent
 >- Raúl Esparza was born in October 1970, making him just having turned 36 when the 2006 revival opened on Broadway in November of 2006. The show is about the character Robert turning 35. Almost a perfect lineup but it's close - anyway I was just doing the mental math when I saw his age and it struck me as kind of funny.
@@ -63,7 +63,9 @@ This proshot isn't of the original Broadway cast -- but I don't think there is a
 
 I saw many comments praising this recording, and particularly Raúl Esparza's performance. I see it. Raúl was fantastic. He *is* the character to me -- he embodies it that well.^[(But often any first exposure to a show would make me say that for any and all characters -- but I sense he plays it especially well. It feels natural, like he is really the character and not an actor playing a character. When the metaphorical curtain rises and the no-longer-character actors bow, I find myself saying, "oh, could it be possible that this person does not actually fully embody the elements of the character from this show?" and then I blink and remember that this person is just doing a job and they are just really good at that job) - what I'm saying is that he's a good actor. (But for all I know, Esparza does fully embody the character in his real life. Shrug. The mysteries of acting.)]
 
-Regarding the plot/story, I found the character of Bobby appealing and could relate in some ways to his uncertainty about relationships. This pushed me forward through the show, making me wonder what the resolution would be. I like that this is a whole musical about a somewhat subtle shift in a character's mental world. It goes to show how much you can dive into any small subject. 
+Regarding the plot/story, I found the character of Bobby appealing and could relate in some ways to his uncertainty about relationships. Actually, if I think about it, I can relate in major ways - at the time of watching this, I am single and have never been in a long-term relationship, and most of my friends in a specific friend group of mine *are* in long-term relationships. Though I don't think I'm in the same mental place that Bobby was in, the connection to myself kept me engaged with the show, making me wonder what the resolution would be. I'm curious to see if my interpretation and connection changes as I re-listen to the soundtrack, now and over the years.
+
+I like that this is a whole musical about a somewhat subtle shift in a character's mental world. It goes to show how much you can dive into any small subject. 
 
 ## Unstructured thoughts
 - Thoughts on a couple songs
