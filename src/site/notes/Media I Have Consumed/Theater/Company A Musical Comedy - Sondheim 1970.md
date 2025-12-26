@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/","title":"Company: A Musical Comedy - Sondheim 1970","created":"2025-12-25T15:31:25.511-05:00","updated":"2025-12-26T17:34:59.170-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/","title":"Company: A Musical Comedy - Sondheim 1970","created":"2025-12-25T15:31:25.511-05:00","updated":"2025-12-26T17:42:33.260-05:00"}
 ---
 
 # Some facts
@@ -56,6 +56,7 @@ While watching, I took note of some quotes that stood out to me. Several of them
 - "You were always outside looking in the window when everyone else was inside dancing at the party"
 - "How do you know so much about it when you've never been there? It's so much better living it than looking at it."
 
+The show also concludes with Robert not showing up to his surprise birthday party that his friends had planned for him (and accidentally let slip that the surprise was happening). I think this implies he is distancing himself from his friends a little bit rather than always relying on their *company*. This is an important step in his growth too. Maybe it will give him more space to explore a long-term relationship. There is also a hint earlier in the show that his friends are overly critical of some of the girls he brings into his life (in the song "Poor Baby") - so becoming less dependent on his friends may quiet those voices as well. 
 
 ## Overall thoughts
 I liked it. I get why it won Tonies^[(Tonys? Tony's? Tonys'? Tonies.)]. I feel like I still have a lot to process about it.
