@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/eternity-2025/","created":"2025-12-25T21:48:01.173-05:00","updated":"2025-12-25T23:40:43.044-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/eternity-2025/","created":"2025-12-25T21:48:01.173-05:00","updated":"2025-12-25T23:41:19.042-05:00"}
 ---
 
 ![Eternity poster.png](/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Eternity%20poster.png)
 
-I feel conflicted about this movie. I'm giving it a 3/5 on Letterboxd. It almost want to give it a 2.5, given how I'm feeling after watching it. Sometimes I regret the rating I give something. I usually rate it right after watching it, but I might think more about the movie and my understanding and impression might change later. But I usually keep my rating as I set it. Sometimes I don't give something a rating at all. Rating is kind of silly. Anyway this is a tangent. But I don't think I'll regret giving this a lower rating than how I would normally rate a "good" movie. 
+I feel conflicted about this movie. I'm giving it a 3/5 on Letterboxd. I almost want to give it a 2.5, given how I'm feeling after watching it. Sometimes I regret the rating I give something. I usually rate it right after watching it, but I might think more about the movie and my understanding and impression might change later. But I usually keep my rating as I set it. Sometimes I don't give something a rating at all. Rating is kind of silly. Anyway this is a tangent. But I don't think I'll regret giving this a lower rating than how I would normally rate a "good" movie. 
 
 Also, for the first time in my life, I took some notes about my thoughts during the movie. (This is an effect of having a public space to talk about it, perhaps. I wouldn't otherwise compile thoughts like this.) I have to admit I was pausing the movie multiple times towards the end to write notes, which might have interrupted the flow of some scenes a little. I didn't want to forget my thoughts though. I'm not sure how better to do this.
 
