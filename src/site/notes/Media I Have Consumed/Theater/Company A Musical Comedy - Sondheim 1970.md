@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/","title":"Company: A Musical Comedy - Sondheim 1970","created":"2025-12-25T15:31:25.511-05:00","updated":"2025-12-26T14:42:20.410-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/","title":"Company: A Musical Comedy - Sondheim 1970","created":"2025-12-25T15:31:25.511-05:00","updated":"2025-12-26T17:34:59.170-05:00"}
 ---
 
 # Some facts
@@ -51,6 +51,8 @@ At the same time, we are reminded about his lack of experience with marriage. He
 While watching, I took note of some quotes that stood out to me. Several of them have to do with this last aspect of not having experienced marriage firsthand. I think they stood out because they are like a slap in the face. Bobby seems to hesitate a lot about marriage, but the basis of his hesitation is due to lack of experience - you don't know until you try (the thing you "try" is presumably a long-term relationship, not marriage at first of course).
 - "Whenever Robert's over I get this feeling we're auditioning for him" --> (Bobby:) "well you know my favorite quote, the unexamined life is not worth living" --> "and mine is, the unlived life is not worth examining"
 - "You have to want to marry somebody. Not just some *body*"
+- "I'll take care of you" --> (Bobby:) "But who will I take care of?" --> "Well, did you hear yourself? Did you hear what you just said, kiddo?" --> "I didn't mean that" --> "Oh, I just heard a door open that's been stuck a long time"
+	- This gives chills. Feels like the moment when the switch flips in Robert's mind.
 - "You were always outside looking in the window when everyone else was inside dancing at the party"
 - "How do you know so much about it when you've never been there? It's so much better living it than looking at it."
 
