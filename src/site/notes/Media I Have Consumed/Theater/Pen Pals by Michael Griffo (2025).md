@@ -1,6 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/pen-pals-by-michael-griffo-2025/","created":"2025-12-26T21:05:49.937-05:00","updated":"2025-12-26T21:41:35.703-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/pen-pals-by-michael-griffo-2025/","created":"2025-12-26T21:05:49.937-05:00","updated":"2025-12-26T23:01:33.312-05:00"}
 ---
+
+#theater #friendship
 
 Someone I recently met invited me to see this Off Broadway play. I didn't feel particularly strong about the premise of the play, but I decided to go. I'm glad I did. It was a good play, well-written and full of emotion.
 

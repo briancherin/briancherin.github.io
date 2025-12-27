@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/","title":"Company: A Musical Comedy - Sondheim 1970","created":"2025-12-25T15:31:25.511-05:00","updated":"2025-12-26T17:42:33.260-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/","title":"Company: A Musical Comedy - Sondheim 1970","created":"2025-12-25T15:31:25.511-05:00","updated":"2025-12-26T23:01:37.273-05:00"}
 ---
 
+#theater
 # Some facts
 Music and lyrics by Stephen Sondheim, book (script and dialogue) by George Furth.
 
