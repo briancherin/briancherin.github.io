@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/pools-2025/","created":"2026-01-01T19:08:10.315-05:00","updated":"2026-01-01T19:40:26.097-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/pools-2025/","created":"2026-01-01T19:08:10.315-05:00","updated":"2026-01-02T20:00:02.984-05:00"}
 ---
 
-![Pasted image 20260101190935.png](/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Pasted%20image%2020260101190935.png)
+![pools poster.png](/img/user/Media%20I%20Have%20Consumed/Movies/Assets/pools%20poster.png)
 
 I really liked this.
 
@@ -30,3 +30,12 @@ There was also poetry to this movie which I feel I don't see in that many movies
 There were also some really good lines that stood out to me. And they clearly were meant to. Specifically, I'm talking about the present vs future stuff. In an early scene of the movie, Kennedy tells her to-be-friend dude (Blake) that the future is basically impossible to reach. You can say something will happen "tomorrow", but then when tomorrow comes, tomorrow is still tomorrow. You can never get to tomorrow, really. Then, later, the Air Conditioner guy has a line essentially about living in the moment ("It's always now") and not worry about the future. --Okay you know what, I'm kind of at a loss for how I was connecting these two parts. But perhaps one message of the movie is that sometimes you have to do what feels best in the moment rather than worrying about what your future is supposed to look like. (Obviously this message isn't always true.)
 
 Anyway these were some of these thoughts. I was surprised at the depth of the movie. I feel like I was taken on a journey and I often didn't know where it was going next. It felt fresh to me. Kind of makes me want to swim in a pool :)
+
+
+
+#### Paint a picture
+Don't take this as indicating that this movie has any more meaning to me than I've implied above -- but I've recently been wanting to make a painting of something, and saying the word "pools" so many times reminded me that I've taken pictures of my childhood home's pool area in the past, which would make a good subject for a painting. Especially since I've been wanting to paint something that is more of a landscape.
+
+This is my sketch so far. Hopefully I do paint it and hopefully I remember to update this.
+
+![pool painting sketch.png](/img/user/Media%20I%20Have%20Consumed/Movies/Assets/pool%20painting%20sketch.png)
