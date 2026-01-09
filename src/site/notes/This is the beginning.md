@@ -1,18 +1,21 @@
 ---
-{"dg-publish":true,"permalink":"/this-is-the-beginning/","tags":["gardenEntry"],"created":"2025-12-07T16:43:50.597-05:00","updated":"2025-12-22T14:05:40.312-05:00"}
+{"dg-publish":true,"permalink":"/this-is-the-beginning/","tags":["gardenEntry"],"created":"2025-12-07T16:43:50.597-05:00","updated":"2026-01-09T00:46:21.503-05:00"}
 ---
 
 # This is the beginning
 
-of my digital garden / blog thing.
+of my digital garden / blog thing. 
 
 Hi.
 
+This is a mix of a blog and personal wiki. It's a place for me to:
+- Comment on media I've consumed
+- Share about my interests and personal projects
+- Document viewpoints or aspects of my life that I want to share with the world
+
+For more explanation: [[Meta/On Blogging/What Is This\|What Is This]]
+
 I recommend looking at the hierarchy of topics and seeing what catches your interest, or use the Random Note button below, or pick from the list of recently updated posts.
-
-A starting point:
-- [[Meta/On Blogging/What Is This\|What Is This]]
-
 
 <button id="random-note-button">🎲 Go to Random Note</button>
 
