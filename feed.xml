@@ -3,24 +3,27 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2026-01-08T19:58:24Z</updated>
+    <updated>2026-01-09T05:46:43Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
                 This is the beginning
                 
             </title>
-            <updated>2025-12-22T19:05:40.312Z</updated>
+            <updated>2026-01-09T05:46:21.503Z</updated>
             <id>https://briancherin.github.io/</id>
             <content type="html">
                 &lt;h1 id=&quot;this-is-the-beginning&quot; tabindex=&quot;-1&quot;&gt;This is the beginning&lt;/h1&gt;
 &lt;p&gt;of my digital garden / blog thing.&lt;/p&gt;
 &lt;p&gt;Hi.&lt;/p&gt;
-&lt;p&gt;I recommend looking at the hierarchy of topics and seeing what catches your interest, or use the Random Note button below, or pick from the list of recently updated posts.&lt;/p&gt;
-&lt;p&gt;A starting point:&lt;/p&gt;
+&lt;p&gt;This is a mix of a blog and personal wiki. It&#39;s a place for me to:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/what-is-this/&quot;&gt;What Is This&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Comment on media I&#39;ve consumed&lt;/li&gt;
+&lt;li&gt;Share about my interests and personal projects&lt;/li&gt;
+&lt;li&gt;Document viewpoints or aspects of my life that I want to share with the world&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;For more explanation: &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/what-is-this/&quot;&gt;What Is This&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I recommend looking at the hierarchy of topics and seeing what catches your interest, or use the Random Note button below, or pick from the list of recently updated posts.&lt;/p&gt;
 &lt;p&gt;&lt;button id=&quot;random-note-button&quot;&gt;🎲 Go to Random Note&lt;/button&gt;&lt;/p&gt;
 &lt;script&gt;
 let notes = null;
