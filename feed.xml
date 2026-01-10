@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2026-01-10T19:31:25Z</updated>
+    <updated>2026-01-10T20:29:21Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -57,7 +57,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 Specific Main App Pursuit I&#39;m Currently Working On
                 
             </title>
-            <updated>2026-01-10T19:31:03.961Z</updated>
+            <updated>2026-01-10T20:28:57.577Z</updated>
             <id>https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
@@ -81,6 +81,15 @@ document.getElementById(&quot;random-note-button&quot;)
 &lt;p&gt;I could argue that coding more of it on my own would make me a better programmer, increase my experience, help me learn -- I generally agree with points like those, but in this case, I just want to have my app prototype.&lt;/p&gt;
 &lt;p&gt;I am a little bit wary, though. I&#39;ll have to see how AI usage impacts codebase maintainability. I am also more distanced from the specific implementation details, which could make it more challenging to debug things that come up. Yes, I could ask AI to debug as well, but there are some things that it couldn&#39;t handle, I&#39;m sure. I want to say that I&#39;d be confident in digging through and understanding the code in a debugging situation - and I would be. But would I really do a better job than AI? Well, given my experience of actually doing this for my job, I&#39;d say that yes, there are issues that I can solve that current AI tools can not. Especially when it comes to understanding interactions between different systems and overall architecture. For smaller, self-contained problems, AI is pretty good.&lt;/p&gt;
 &lt;p&gt;Using AI kind of feels like cheating. But this may just be the future of software development. I don&#39;t think I should feel like I&#39;m &amp;quot;cheating&amp;quot;. Instead, I&#39;m directing my skills in a different way. I&#39;m performing something closer to a product management and design role. I am defining the specifications of what features and user experience I want, and still thinking through the technical needs in order to implement them. I augment my overall implementation plan with AI input, and then have the AI implement it. But the product specifications aspect is essential. Without it, AI wouldn&#39;t have much direction - it might be able to create something like what I want, but it wouldn&#39;t be exactly how I want it. So I&#39;m still thinking through the engineering aspects of it -- the AI is just handling the tedious details of actually coding it.&lt;/p&gt;
+&lt;h3 id=&quot;not-telling-people-about-this-project&quot; tabindex=&quot;-1&quot;&gt;Not telling people about this project&lt;/h3&gt;
+&lt;p&gt;For a while, I wasn&#39;t telling people what my idea was. (&lt;em&gt;cough&lt;/em&gt;, at the time of writing this, I still haven&#39;t described what the actual project is on this blog. I&#39;ll get there eventually.)&lt;/p&gt;
+&lt;p&gt;The reason for this was NOT that I was scared someone would copy the idea.&lt;/p&gt;
+&lt;p&gt;The reason for not telling people was because I was protecting the fragility of the idea in my own mind. I was scared that I would lose motivation to work on it if someone gave a certain reaction. For example, they might point out that something like this already exists. Even if I still felt my version had value, this person&#39;s pointing this out might be enough to deflate my motivation. I was scared of other similar well-meaning but perceived-negatively comments as well. Even someone displaying not as much interest as I might hope them to, could be something that deflated my motivation.&lt;/p&gt;
+&lt;p&gt;I do believe there is merit in being cautious like this. However, I admit that I dragged that period on for too long. It certainly has to do with how long it took me to make good progress on the project in general. I was telling myself, once I hit a basic prototype, and am certain that there&#39;s no turning back from at least that point, I would tell people about it. But it just took so long to get there.&lt;/p&gt;
+&lt;p&gt;Looking back now, I was losing something by not talking about the idea. It would give me a better sense of whether it&#39;s a product people would actually use. I could shift certain priorities in terms of features based on what people find useful. Telling people could also actually &lt;em&gt;increase&lt;/em&gt; my motivation.&lt;/p&gt;
+&lt;p&gt;Now that I&#39;ve got an actual frontend, something I can show people wherever I am (since it&#39;s on my phone), which has the basics of what my MVP was supposed to be, I&#39;m starting to talk to more people in my life about it. I can mention that I&#39;ve been working on a side project, and then show them what it is.&lt;/p&gt;
+&lt;p&gt;Maybe it took me too long to get to this point, but it also kind of makes sense that now is the time -- I actually have something to show. I can still reap the benefits of having people give input on the idea. But the idea is less fragile now. My own internal resolve for this particular idea is strong enough that even if someone doesn&#39;t think it&#39;s useful, I&#39;m confident in giving it the chance that I think it deserves.&lt;/p&gt;
+&lt;p&gt;Maybe I shouldn&#39;t have that fragility in the first place. But given how many ideas for projects I have floating around in my head, I can sometimes be tempted to hop from project to project. It&#39;s fine if I decide an idea isn&#39;t worth pursuing - I can move onto a different idea. This project in particular felt like it deserved to be pushed through to the end. I just decided I wasn&#39;t taking chances. But sure, perhaps I should be less private in the future at the earlier stages of an idea.&lt;/p&gt;
 
             </content>
             <link href="https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/" />
