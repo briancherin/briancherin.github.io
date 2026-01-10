@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/software/specific-main-app-pursuit-i-m-currently-working-on/","created":"2025-12-09T18:08:11.941-05:00","updated":"2026-01-10T14:18:06.795-05:00"}
+{"dg-publish":true,"permalink":"/projects/software/specific-main-app-pursuit-i-m-currently-working-on/","created":"2025-12-09T18:08:11.941-05:00","updated":"2026-01-10T14:31:03.961-05:00"}
 ---
 
 #project 
@@ -23,3 +23,15 @@ So I opted to try a different solution, which was to wrap the API in an AWS Lamb
 So I started working on this approach. I developed the first major endpoint of the API. At that point, I had only been testing it locally. Once I was satisfied with the implementation, it was time to deploy it to Lambda in AWS. Unfortunately, I simply could not get it to work. It seemed like everything was set up correctly, but when I would make API requests to the Lambda function (via AWS API Gateway), the requests would fail. I spent a lot of time trying to debug this, but eventually I gave up. 
 
 I decided that I was better off switching to the EC2 approach, which is what I would do in the long term anyway. It didn't take too long to set it up, and I'm really glad I did. Development became so much more manageable after that. This was only a few months ago, at the time of writing this (Jan 2026). I've been shutting off the EC2 instance when I'm not actively working on it so that it doesn't incur unnecessary cost. At this point, however, I have an in-progress prototype frontend and I'm in a phase of actively working on this, so I'm just leaving the instance on.
+
+
+### Using AI Code Assistance
+At the moment, "code assistance" is more like, it's writing all the code for me, given my prompting.
+
+At the beginning of this project, I was intending to do more of the coding on my own and to rely less on AI. However, as mentioned, I've gotten to the point where using AI is what's helping me to stop procrastinating and to actually get results. After sitting on this project for over a year with not much progress, I'm kind of thrilled at how much I've accomplished while using AI. It speeds up development so much, and doesn't force me to expend the mental effort which, if I knew I needed to expend, would probably make me want to avoid the effort. 
+
+I could argue that coding more of it on my own would make me a better programmer, increase my experience, help me learn -- I generally agree with points like those, but in this case, I just want to have my app prototype. 
+
+I am a little bit wary, though. I'll have to see how AI usage impacts codebase maintainability. I am also more distanced from the specific implementation details, which could make it more challenging to debug things that come up. Yes, I could ask AI to debug as well, but there are some things that it couldn't handle, I'm sure. I want to say that I'd be confident in digging through and understanding the code in a debugging situation - and I would be. But would I really do a better job than AI? Well, given my experience of actually doing this for my job, I'd say that yes, there are issues that I can solve that current AI tools can not. Especially when it comes to understanding interactions between different systems and overall architecture. For smaller, self-contained problems, AI is pretty good.
+
+Using AI kind of feels like cheating. But this may just be the future of software development. I don't think I should feel like I'm "cheating". Instead, I'm directing my skills in a different way. I'm performing something closer to a product management and design role. I am defining the specifications of what features and user experience I want, and still thinking through the technical needs in order to implement them. I augment my overall implementation plan with AI input, and then have the AI implement it. But the product specifications aspect is essential. Without it, AI wouldn't have much direction - it might be able to create something like what I want, but it wouldn't be exactly how I want it. So I'm still thinking through the engineering aspects of it -- the AI is just handling the tedious details of actually coding it.
