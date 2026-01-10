@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2026-01-09T23:04:29Z</updated>
+    <updated>2026-01-10T19:09:06Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -57,10 +57,19 @@ document.getElementById(&quot;random-note-button&quot;)
                 Specific Main App Pursuit I&#39;m Currently Working On
                 
             </title>
-            <updated>2025-12-09T23:24:30.133Z</updated>
+            <updated>2026-01-10T19:08:42.589Z</updated>
             <id>https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;slowness&quot; tabindex=&quot;-1&quot;&gt;Slowness&lt;/h3&gt;
+&lt;p&gt;I started writing down ideas related to this project in July of 2024. It&#39;s taken me a really long time to make progress. There are several factors that have caused this.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;General life stuff - changing priorities, other pursuits capturing my interest (like piano and learning Japanese)&lt;/li&gt;
+&lt;li&gt;Coding/focusing at work makes it difficult to want to code outside of work&lt;/li&gt;
+&lt;li&gt;I got stuck on some infrastructure aspects that took me a while to figure out&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Specifically on that last point (stalled infrastructure), now that I&#39;ve gotten past those hurdles, development of my prototype (writing this as of January 2026) has been speeding along and I&#39;m making a lot of progress.&lt;/p&gt;
+&lt;p&gt;I&#39;ve also decided to use AI to help me code - at this point, if it gets me to work on this project, I want to leverage AI because I just want to have my prototype ready. I&#39;ve started using OpenAI&#39;s codex in my command line (previously I was just occasionally using ChatGPT and copy/pasting relevant code back and forth) and it&#39;s made things so much easier.&lt;/p&gt;
 
             </content>
             <link href="https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/" />
