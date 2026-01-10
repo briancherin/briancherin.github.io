@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2026-01-10T19:09:33Z</updated>
+    <updated>2026-01-10T19:18:33Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -57,7 +57,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 Specific Main App Pursuit I&#39;m Currently Working On
                 
             </title>
-            <updated>2026-01-10T19:08:42.589Z</updated>
+            <updated>2026-01-10T19:18:06.795Z</updated>
             <id>https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
@@ -70,6 +70,11 @@ document.getElementById(&quot;random-note-button&quot;)
 &lt;/ul&gt;
 &lt;p&gt;Specifically on that last point (stalled infrastructure), now that I&#39;ve gotten past those hurdles, development of my prototype (writing this as of January 2026) has been speeding along and I&#39;m making a lot of progress.&lt;/p&gt;
 &lt;p&gt;I&#39;ve also decided to use AI to help me code - at this point, if it gets me to work on this project, I want to leverage AI because I just want to have my prototype ready. I&#39;ve started using OpenAI&#39;s codex in my command line (previously I was just occasionally using ChatGPT and copy/pasting relevant code back and forth) and it&#39;s made things so much easier.&lt;/p&gt;
+&lt;h3 id=&quot;the-infrastructure-troubles&quot; tabindex=&quot;-1&quot;&gt;The infrastructure troubles&lt;/h3&gt;
+&lt;p&gt;I have a backend API and a frontend (mobile) for this project. I knew from the start that ideally the backend would be hosted on AWS EC2. However, I&#39;ve done this for a few projects in the past, and realized that since my AWS free tier is expired, having a new EC2 instance running would cost around $10 per month. I didn&#39;t want to have that running for the indeterminate amount of time I would spend developing this.&lt;/p&gt;
+&lt;p&gt;So I opted to try a different solution, which was to wrap the API in an AWS Lambda function and have the frontend make requests through that. Lambda is much cheaper because it only runs when the call is being executed - as opposed to EC2, which is essentially a sever that is always running, waiting for requests. The main drawback of the Lambda approach was that it takes longer for requests to be processed, since Lambda has to do a &amp;quot;cold start&amp;quot; - it takes extra time to warm up for accepting requests if it hasn&#39;t been triggered in a certain amount of time. I was willing to deal with this in the short term.&lt;/p&gt;
+&lt;p&gt;So I started working on this approach. I developed the first major endpoint of the API. At that point, I had only been testing it locally. Once I was satisfied with the implementation, it was time to deploy it to Lambda in AWS. Unfortunately, I simply could not get it to work. It seemed like everything was set up correctly, but when I would make API requests to the Lambda function (via AWS API Gateway), the requests would fail. I spent a lot of time trying to debug this, but eventually I gave up.&lt;/p&gt;
+&lt;p&gt;I decided that I was better off switching to the EC2 approach, which is what I would do in the long term anyway. It didn&#39;t take too long to set it up, and I&#39;m really glad I did. Development became so much more manageable after that. This was only a few months ago, at the time of writing this (Jan 2026). I&#39;ve been shutting off the EC2 instance when I&#39;m not actively working on it so that it doesn&#39;t incur unnecessary cost. At this point, however, I have an in-progress prototype frontend and I&#39;m in a phase of actively working on this, so I&#39;m just leaving the instance on.&lt;/p&gt;
 
             </content>
             <link href="https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/" />
