@@ -1,0 +1,7 @@
+{% set folderPath = userComputed.noteFolderPath %}
+{% if folderPath %}
+  <div class="note-folder-path align-icon">
+    <i icon-name="folder"></i>
+    <span class="note-folder-trail"><i>{{ folderPath }}</i></span>
+  </div>
+{% endif %}

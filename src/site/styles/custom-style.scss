@@ -10,4 +10,31 @@ body {
     //  h1 {
     //   color: black;
     //  }
+
+    .note-folder-path {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        margin-top: 8px;
+        font-size: 0.85em;
+        color: var(--text-muted);
+    }
+
+    .note-folder-path i {
+        font-size: 0.95em;
+    }
+
+    // Note header ordering: show timestamps above tags
+    .header-meta {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-meta .timestamps {
+        order: 1;
+    }
+
+    .header-meta .header-tags {
+        order: 2;
+    }
 }
