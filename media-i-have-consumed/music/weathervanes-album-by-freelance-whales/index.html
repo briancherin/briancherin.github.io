@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)</title>
+<title>Weathervanes (Album) by Freelance Whales</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -235,7 +235,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/music/weathervanes-album-by-freelance-whales/">Weathervanes (Album) by Freelance Whales </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/music/weathervanes-album-by-freelance-whales/">Weathervanes (Album) by Freelance Whales </a>
 </div>
 </div>
 </div>
@@ -316,7 +316,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/">Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin) </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/">Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin) </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -473,71 +473,48 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2026-01-21T23:06:37.824Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2026-01-21T23:06:37.824Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2026-01-21T23:06:37.824Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)</h1>
+<h1 data-note-icon="">Weathervanes (Album) by Freelance Whales</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
 <div class="timestamps">
-<script>console.log("showCreated: " + true + ", created: " + 2025-12-08T18:16:54.756-05:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-12-08T18:16:54.756-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-12-11T20:04:41.664-05:00"></span></div></div></div>
+<script>console.log("showCreated: " + true + ", created: " + 2026-01-21T17:34:38.370-05:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2026-01-21T17:34:38.370-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2026-01-21T17:58:08.242-05:00"></span></div></div></div>
 </header>
 <div class="note-folder-path align-icon">
 <i icon-name="folder"></i>
-<span class="note-folder-trail"><i>Meta &gt; On Blogging</i></span>
+<span class="note-folder-trail"><i>Media I Have Consumed &gt; Music</i></span>
 </div>
-<p><a class="tag" onclick="toggleTagSearch(this)" data-content="#digitalgarden">#digitalgarden</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#obsidian">#obsidian</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#cybersecurity">#cybersecurity</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#privacy">#privacy</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#project">#project</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#coding">#coding</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#miniproject">#miniproject</a></p>
-<p>Anytime I make a new public appearance (like making a new social media account, or this blog) I ask myself: am I revealing too much about myself to the Internet? I have some background in cybersecurity (meaning: a handful of classes at university), so I have some mental framework that lets me contemplate the consequences of having information about myself online.</p>
-<p>There's a little voice in my head saying not to publish an article with this title (&quot;please don't spearphish me&quot;) because it might act as reverse psychology and give someone the idea to do it just because I mentioned it. Please don't be that person.</p>
-<p>Anyway, my point here is that I'm building some level of a safeguard for myself. A tool that might help me catch myself before revealing too much.</p>
-<p>Is this a perfect solution? No.</p>
-<p>Am I overthinking this? Maybe.</p>
-<p>But just like my footnote in my <a class="internal-link" target="" data-note-icon="" href="/media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/">1 Second Everyday - Indie Hackers Podcast</a> post (&quot;It's scary sometimes how easy it might be to ruin your own life&quot;), I feel that exposing some little piece of information about yourself in public could cause some mess for you. At best? Someone being creepy and sending you weird messages. At worst? Someone identifying a routine that you have and stalking you in real life. Or just hacking you via a spearphishing email that contains a link or download you mindlessly click.</p>
-<p>So what's my little solution for this? An Obsidian plugin that will audit the current note I've written and tell me if I'm revealing too much information in the post. (Obsidian is the text editor I use to write these blog posts, and I use the <a href="https://github.com/oleeskild/Obsidian-Digital-Garden" target="_blank" class="external-link">Obsidian Digital Garden plugin</a> for help building+publishing to this site.)</p>
-<h2 id="how-it-works" tabindex="-1">How it works</h2>
-<p>This is the workflow:</p>
-<ol>
-<li>Install the plugin (see instructions on the Github repo, linked below) and set your OpenAI API key in the plugin settings. You can also modify the system prompt that tells the AI how to interpret your note and what the output should look like.</li>
-<li>You write a note in Obsidian.</li>
-<li>Open the command palette (ctrl/cmd + P) and run &quot;Privacy Audit&quot;.</li>
-<li>The request will be processed by the OpenAI API and the result will be opened in a side panel.</li>
-</ol>
-<h2 id="more-details" tabindex="-1">More details</h2>
-<p>I used ChatGPT to help me code this up. It didn't take long to set it up locally and test it out in Obsidian.</p>
-<p>The plugin uses the OpenAI API to ask GPT to review the note and make any suggestions.</p>
-<p>I've published the code to my Github <a href="https://github.com/briancherin/obsidian-ai-privacy-audit" target="_blank" class="external-link">here</a> and I've made a <a href="https://github.com/obsidianmd/obsidian-releases/pull/8887" target="_blank" class="external-link">Pull Request</a> on the Obsidian repo to get this added to the community plugin list so that anyone can access it. A fun little open-source contribution that I hope someone might find helpful! I'm pretty new to the Obsidian and Digital Gardening scene, so I hope the universe will forgive me if something like this already exists (I swear, I don't mean to flood the plugin list with slop).</p>
-<h2 id="examples" tabindex="-1">Examples</h2>
-<p>The command:<br>
-<picture src="/img/user/Meta/On%20Blogging/Assets/Images/dontspearpishme-command-palette.png" alt="dontspearpishme-command-palette.png"><source media="(max-width:480px)" srcset="/img/optimized/JZ-jw-Mue1-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/JZ-jw-Mue1-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/JZ-jw-Mue1-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/JZ-jw-Mue1-700.jpeg"><img class="" src="/img/user/Meta/On%20Blogging/Assets/Images/dontspearpishme-command-palette.png" alt="dontspearpishme-command-palette.png" width=""></picture></p>
-<p>The plugin catches my reveal of a routine:<br>
-<picture src="/img/user/Meta/On%20Blogging/Assets/Images/dontspearphishme-example1.png" alt="dontspearphishme-example1.png"><source media="(max-width:480px)" srcset="/img/optimized/KRw93zILRH-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/KRw93zILRH-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/KRw93zILRH-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/KRw93zILRH-700.jpeg"><img class="" src="/img/user/Meta/On%20Blogging/Assets/Images/dontspearphishme-example1.png" alt="dontspearphishme-example1.png" width=""></picture></p>
-<p>The plugin catches my reveal of corporate information:<br>
-<picture src="/img/user/Meta/On%20Blogging/Assets/Images/dontspearphishme-example2.png" alt="dontspearphishme-example2.png"><source media="(max-width:480px)" srcset="/img/optimized/_daMXhJ74n-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/_daMXhJ74n-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/_daMXhJ74n-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/_daMXhJ74n-700.jpeg"><img class="" src="/img/user/Meta/On%20Blogging/Assets/Images/dontspearphishme-example2.png" alt="dontspearphishme-example2.png" width=""></picture></p>
-<p>No issues with this one! It gives some extraneous suggestions about my clearly engaging content:<br>
-<picture src="/img/user/Meta/On%20Blogging/Assets/Images/dontspearphishme-example3.png" alt="dontspearphishme-example3.png"><source media="(max-width:480px)" srcset="/img/optimized/Y-RvulGtiF-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/Y-RvulGtiF-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/Y-RvulGtiF-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/Y-RvulGtiF-700.jpeg"><img class="" src="/img/user/Meta/On%20Blogging/Assets/Images/dontspearphishme-example3.png" alt="dontspearphishme-example3.png" width=""></picture></p>
-<h2 id="areas-for-improvement" tabindex="-1">Areas for improvement</h2>
+<p><picture src="/img/user/Media%20I%20Have%20Consumed/Music/Assets/Pasted%20image%2020260121174318.png" alt="Pasted image 20260121174318.png"><source media="(max-width:480px)" srcset="/img/optimized/CmpLgR79MC-316.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/CmpLgR79MC-316.jpeg">
+<img class="" src="/img/user/Media%20I%20Have%20Consumed/Music/Assets/Pasted%20image%2020260121174318.png" alt="Pasted image 20260121174318.png" width=""></picture></p>
+<p>One of my favorite albums ever. After I started being more intentional about discovering new music, this was one of the first albums that clicked with me as a whole. I like basically every song on the album. The songs are emotional, gentle, &quot;vibey&quot;. Combination of lovely lyrics and chill musicality.</p>
+<p>Listening to it now, it gives me a nostalgia for the time period when I first started listening to it - in 2022 (so I have strongest associations of it with the feeling of junior year of college and the summer I spent in NYC after it). I think I can remember the exact moment when I listened to the album for the first time -- I was in the room of my university apartment, either working on a jigsaw puzzle that was on my floor<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> or folding laundry.</p>
+<p>If I recall correctly, the way I found the album was actually through an Instagram reel (unless it was Tiktok? But I don't remember using Tiktok back then) that had a clip from the first song, and it captured my interest so I looked up the album and listened to it.</p>
+<p>Top songs:</p>
 <ul>
-<li>Add a command to run an audit for every file in the vault individually and get a summary of suggested fixes for each</li>
-<li>Add a command to do a comprehensive audit across the whole vault, in case little bits of information in each file add up to a bigger picture (violating your privacy) which wouldn't be revealed within just one file. (This may be complicated since all the files won't fit in one GPT context window. There'd have to be some processing.)</li>
-<li>Add a similar audit to the Github pipeline that actually gets triggered when I publish a note, so I don't have to remember to manually run the audit within Obsidian. If there is a critical warning, maybe fail the job, or maybe just alert me somehow.</li>
+<li>Generator First Floor</li>
+<li>Location</li>
+<li>Broken Horse</li>
+<li>Ghosting</li>
+<li>Generator Second Floor</li>
+<li>The Great Estates</li>
 </ul>
-<h2 id="concluding-words" tabindex="-1">Concluding words</h2>
-<p>I have a feeling I might think of other AI-related Obsidian plugins in the future.</p>
-<hr>
-<h4 id="a-retrospect-from-two-days-later" tabindex="-1">A retrospect from two days later</h4>
-<p>(2025-12-10) Retrospectively, what I mostly actually developed here was a GPT wrapper for a single-prompt analysis of the current note. The only thing making it a &quot;security audit&quot; plugin is the system prompt, which is modifiable in the plugin settings. So, anyone could actually change the system prompt for themselves and use it for something different. (This is a good/cool thing.)</p>
-<p>Maybe I should instead have branded it as a generic GPT overlay. But I do also value the privacy focus because I feel like it's good to get people to think about it and give them a ready-made tool to do the privacy check up. So maybe I should make a separate plugin that has more emphasis on being a free-form AI tool.</p>
-<p>But, without researching this at all, I'd guess that something like that already exists. GPT has been a thing for a while, and I'm sure that someone made a plugin to integrate a full chat into Obsidian. Fine, I'll check. Found this <a href="https://www.reddit.com/r/ObsidianMD/comments/13cuq8w/best_plugin_for_chat_gpt_for_obsidian/" target="_blank" class="external-link">reddit post</a> with some suggested plugins for this. I'm not discounting my own plugin, but maybe I don't need to expand it like I'm saying. At the same time, what I'm really suggesting here is a way for a user to set up any amount of custom commands which will execute one GPT system prompt on the active note. I could see this being a novel plugin idea.</p>
-<hr>
-<p>2025-12-11<br>
-Also, I realize that there is some irony/concern with passing the potentially sensitive note content to AI to scan for said potentially sensitive content. The tradeoff is, do I want to reveal my personal details to the Internet, or reveal them to an AI (read: the corporation running the AI)?</p>
-<p>Also, my PR for the Obsidian plugin has kind of stalled, and I'm not feeling much motivation to push hard on it. Might be something I just let float around until I feel more strongly about it. It's a really teeny tiny mini project, not a big deal.</p>
+<p>Honorable mention to (all of the others):</p>
+<ul>
+<li>Hannah</li>
+<li>Starring</li>
+<li>Kilojoules</li>
+<li>We Could be Friends</li>
+</ul>
+<p>There's a couple other tracks which are purely instrument so I'm not listing them, but they are vibe-y too.</p>
+<p>The band does have another album called Diluvia but I've only listened to it a couple times and I didn't like it as much. Unfortunately, the band has not made new music since 2014. Sadly one of the band's members, Chuck Criss (brother of Darren Criss), died in 2022.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>(it would've been the 1000 piece puzzle of my face that my friends gifted me as a birthday gift...) <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 </main>
 <aside>
 <div class="sidebar">
@@ -570,37 +547,10 @@ Also, I realize that there is some irony/concern with passing the potentially se
 <span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i icon-name="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
 </div>
 </div>
-<div class="toc">
-<div class="toc-title-container">
-<div class="toc-title">
-On this page
-</div>
-</div>
-<div class="toc-container">
-<nav class="toc">
-<ol>
-<li><a href="#how-it-works">How it works</a>
-</li>
-<li><a href="#more-details">More details</a>
-</li>
-<li><a href="#examples">Examples</a>
-</li>
-<li><a href="#areas-for-improvement">Areas for improvement</a>
-</li>
-<li><a href="#concluding-words">Concluding words</a>
-<ol>
-<li><a href="#a-retrospect-from-two-days-later">A retrospect from two days later</a>
-</li>
-</ol>
-</li>
-</ol>
-</nav>
-</div>
-</div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/meta/on-blogging/reasons-to-write-here/" data-note-icon="" class="backlink">Reasons to Write (Here)</a>
-</div><div class="backlink-card"><i icon-name="link"></i><a href="/projects/software/mini-projects/mini-projects/" data-note-icon="" class="backlink">Mini Projects</a>
+<div class="backlink-list"><div class="backlink-card">
+<span class="no-backlinks-message">No other pages mentions this page</span>
 </div></div>
 </div>
 </div>
