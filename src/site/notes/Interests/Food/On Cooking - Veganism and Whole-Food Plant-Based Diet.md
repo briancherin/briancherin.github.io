@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/food/on-cooking-veganism-and-whole-food-plant-based-diet/","created":"2025-12-17T13:54:53.493-05:00","updated":"2026-01-21T11:07:46.658-05:00"}
+{"dg-publish":true,"permalink":"/interests/food/on-cooking-veganism-and-whole-food-plant-based-diet/","created":"2025-12-17T13:54:53.493-05:00","updated":"2026-01-21T11:21:22.479-05:00"}
 ---
 
 I'm vegan. I approached this from a health-perspective first (WFPB), which led to a gradual transition to eating more plant based foods. Then I learned about the ethical philosophies behind resisting animal exploitation and went fully strict on following veganism.
@@ -32,7 +32,7 @@ What I'm trying to say with the above: I'm willing to violate my WFPB principles
 
 Why do I want people to have as positive as possible a perception^[(apapap)] of vegan food? It's not like I think I'm going to directly convert people toward veganism like this. But even planting a seed in someone's head that maybe possible there could be a chance that they could survive with maybe even just this little percentage of a type of food that they eat, without an animal being involved, could be okay and enjoyable.
 
-### Talking about veganism & Challenging yourself
+### Talking about veganism & Challenging yourself^[This section is (maybe obviously) aimed at people not already vegan.]
 Whether this is true or not, I imagine some discomfort, if not stronger emotion, when someone reads this and notices that I wish for more people to become vegan.
 
 Well, I'm not going to deny that it's true that I want more people to become vegan.
@@ -57,3 +57,4 @@ Since we're here, then, some resources:
 	- https://nutritionstudies.org/whole-food-plant-based-diet-guide/ - Another guide on WFPB. This site also is a great resource for WFPB recipes.
 	- Summary of "How Not To Die", a book that talks about the benefits of the WFPB diet in preventing and reversing many of the most common dietary-related causes of death in humans. It also includes a detailed list of "green"/"yellow"/"red foods (green is healthy, yellow is foods to steer away from but okay in limited quantities, red is foods to generally always avoid) https://www.chewfo.com/diets/how-not-to-die-by-michael-greger-md-food-list-what-to-eat-and-foods-to-avoid/
 	- https://plantbasedcookingshow.com/ A cooking blog/youtube channel that strictly follows WFPB for recipes. So many great recipes that use dried dates as a refined sugar replacement in dessert recipes.
+
