@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/food/on-cooking-veganism-and-whole-food-plant-based-diet/","created":"2025-12-17T13:54:53.493-05:00","updated":"2026-01-21T11:21:22.479-05:00"}
+{"dg-publish":true,"permalink":"/interests/food/on-cooking-veganism-and-whole-food-plant-based-diet/","created":"2025-12-17T13:54:53.493-05:00","updated":"2026-01-21T18:00:33.512-05:00"}
 ---
 
 I'm vegan. I approached this from a health-perspective first (WFPB), which led to a gradual transition to eating more plant based foods. Then I learned about the ethical philosophies behind resisting animal exploitation and went fully strict on following veganism.
@@ -21,7 +21,7 @@ Getting back to my own cooking philosophy -- as mentioned, when I cook for mysel
 
 ### Why WFPB
 
-{ TODO: Expand on health/longevity benefits/reasons}
+{ TODO: Expand on health/longevity benefits/reasons }
 
 ### Experimentation + Cooking for others
 There's another big exception to WFPB that I make: when I want to follow a vegan but non-WFPB recipe to create something more tasty (or just tasty in a different way) than a WFPB counterpart would be, either to experiment for my own understanding of the possibilities of food and cuisine, or to create positive experiences with vegan food for friends or family or others who may be tasting the food I prepare. If I am to have a "mission" related to cooking, it would be to help others to see that vegan foods can be delicious. 
