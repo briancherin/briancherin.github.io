@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/music/weathervanes-album-by-freelance-whales/","created":"2026-01-21T17:34:38.370-05:00","updated":"2026-01-21T17:45:43.539-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/music/weathervanes-album-by-freelance-whales/","created":"2026-01-21T17:34:38.370-05:00","updated":"2026-01-21T17:58:08.242-05:00"}
 ---
 
 ![Pasted image 20260121174318.png](/img/user/Media%20I%20Have%20Consumed/Music/Assets/Pasted%20image%2020260121174318.png)
@@ -25,3 +25,5 @@ Honorable mention to (all of the others):
 - We Could be Friends
 
 There's a couple other tracks which are purely instrument so I'm not listing them, but they are vibe-y too.
+
+The band does have another album called Diluvia but I've only listened to it a couple times and I didn't like it as much. Unfortunately, the band has not made new music since 2014. Sadly one of the band's members, Chuck Criss (brother of Darren Criss), died in 2022.
