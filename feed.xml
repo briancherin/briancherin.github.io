@@ -3,7 +3,7 @@
     <title>Brian&#39;s Garden</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2026-01-21T15:25:06Z</updated>
+    <updated>2026-01-21T15:54:38Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -220,14 +220,14 @@ You’re essentially building a long-lived personal &lt;strong&gt;spatial archiv
                 Random Snippets
                 
             </title>
-            <updated>2026-01-08T19:57:59.572Z</updated>
+            <updated>2026-01-21T15:45:54.228Z</updated>
             <id>https://briancherin.github.io/misc/random-snippets/</id>
             <content type="html">
                 &lt;p&gt;Blog that talks about associations between their travel memories and specific music/albums/artists. I could see myself doing something similar with music associations. &lt;a href=&quot;https://mfranchi.net/posts/springs-best-25/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://mfranchi.net/posts/springs-best-25/&lt;/a&gt; (12/14/2025)&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;&amp;quot;This is why I’m not afraid to take my own case to trial because even if I fail or even if I fight and lose, —at least I fought for you.&amp;quot; &lt;a href=&quot;https://thewrittenaddiction.com/2025/12/15/all-for-more-or-less-35/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://thewrittenaddiction.com/2025/12/15/all-for-more-or-less-35/&lt;/a&gt; -- Seems like a poetry-based blog. Slogan of the site is &amp;quot;Where I go to leave pieces of me&amp;quot;. I like that. (12/16/2025)&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;a href=&quot;https://briancherin.github.io/%5Bhttps://www.reddit.com/r/slatestarcodex/s/McERR2iApm%5D(https://www.reddit.com/r/slatestarcodex/s/McERR2iApm)&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Reddit post&lt;/a&gt; I found via Google search query &amp;quot;writing a proustian memoir site:reddit.com&amp;quot;. (Entitled &amp;quot;Scraping training data for your mind&amp;quot;). Described a writer (Karl Ove Knausgaard’) who was read Proust&#39;s &lt;em&gt;In Search of Lost Time&lt;/em&gt;, supposedly very quickly (the post seems to imply in one sitting, but given it&#39;s 4000 pages in total, I am dubious), and then was inspired by it and it influenced his writing style. I liked some other aspects of the post as well. (I read In Search of Lost Time a few years ago. It took me 1.5 years to get through (it didn&#39;t really need to have taken that long, but the combination of a) challenging material, b) boring at times, c) my reading habit was not very strong (possibly because I was focusing strongly on just getting through this - see (a) and (b))).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://briancherin.github.io/%5Bhttps://www.reddit.com/r/slatestarcodex/s/McERR2iApm%5D(https://www.reddit.com/r/slatestarcodex/s/McERR2iApm)&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Reddit post&lt;/a&gt; I found via Google search query &amp;quot;writing a proustian memoir site:reddit.com&amp;quot;. (Entitled &amp;quot;Scraping training data for your mind&amp;quot;). Described a writer (Karl Ove Knausgaard’) who was read Proust&#39;s &lt;em&gt;In Search of Lost Time&lt;/em&gt;, supposedly very quickly (the post seems to imply in one sitting, but given it&#39;s 4000 pages in total, I am dubious), and then was inspired by it and it influenced his writing style. I liked some other aspects of the post as well. (I read &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/books/in-search-of-lost-time-by-marcel-proust/&quot;&gt;In Search of Lost Time&lt;/a&gt; a few years ago. It took me 1.5 years to get through (it didn&#39;t really need to have taken that long, but the combination of a) challenging material, b) boring at times, c) my reading habit was not very strong (possibly because I was focusing strongly on just getting through this - see (a) and (b))).&lt;/p&gt;
 
             </content>
             <link href="https://briancherin.github.io/misc/random-snippets/" />
@@ -482,25 +482,25 @@ I found this &lt;a href=&quot;https://briancherin.github.io/&quot; target=&quot;
                 Garden Improvements
                 
             </title>
-            <updated>2025-12-17T20:15:22.661Z</updated>
+            <updated>2026-01-21T15:54:08.044Z</updated>
             <id>https://briancherin.github.io/meta/garden-improvements/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Things to do:&lt;/p&gt;
 &lt;ul class=&quot;task-list&quot;&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; (Done 12/13/2025) Set my own favicon instead of the default&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_1&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_1&quot;&gt; add a commenting system&lt;/label&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_1&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_1&quot;&gt; add a commenting system&lt;/label&gt;
 &lt;ul class=&quot;task-list&quot;&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_2&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_2&quot;&gt; (Done, 12/8/2025) Or at least an (optionally-anonymous) feedback/contact form in the mean time&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_3&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_3&quot;&gt; make it so the date published and date last updated appears on pages&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_4&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_4&quot;&gt; make a list of my hobbies/interests (and then eventually link pages/folders from them)&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_5&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_5&quot;&gt; be able to see page view count (analytics) (possibly some good guidance &lt;a href=&quot;https://tjpalanca.com/2023/05/20/nerfing-google-analytics.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;here&lt;/a&gt;)&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_5&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_5&quot;&gt; be able to see page view count (analytics) (possibly some good guidance &lt;a href=&quot;https://tjpalanca.com/2023/05/20/nerfing-google-analytics.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;here&lt;/a&gt;) (Done, 1/21/2026, and followed some of the privacy suggestions from the link, specifically the four privacy settings it described about disabling ad-based tracking, though I didn&#39;t implement the consent dialogue it described.)&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_6&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_6&quot;&gt; (Done, 12/8/2025) Fix /feed.xml so it can generate RSS feed. There&#39;s an issue with the html snippet on the homepage for the &#39;random note&#39; button&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_7&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_7&quot;&gt; Post this site to Kagi Small Web&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_8&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_8&quot;&gt; Make a visualization to see frequency of posts over time&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_9&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_9&quot;&gt; May want to eventually setup Obsidian to host images/other_assets on S3 instead of on Github. The Digital Garden plugin mentioned that the site may slow down if the assets pile up since you can&#39;t store that much on Github. I found this Obsidian &lt;a href=&quot;https://github.com/biubiubiu35/image-paste-to-cloud&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;plugin&lt;/a&gt; which might be the solution for an auto-S3 upload of images.&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_9&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_9&quot;&gt; May want to eventually setup Obsidian to host images/other_assets on S3 instead of on Github. The Digital Garden plugin mentioned that the site may slow down if the assets pile up since you can&#39;t store that much on Github. I found this Obsidian &lt;a href=&quot;https://github.com/biubiubiu35/image-paste-to-cloud&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;plugin&lt;/a&gt; which might be the solution for an auto-S3 upload of images. ChatGPT is also suggesting Cloudfront R2 may be a better image hosting option to reduce retrieval costs (but still minimal storage costs) but also have a backup to S3 for peace of mind. Makes plugin setup a bit more complicated though.&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_10&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_10&quot;&gt; Add on-hover preview to footnotes so you can preview content without jumping to bottom of page&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -581,6 +581,22 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
 
             </content>
             <link href="https://briancherin.github.io/media-i-have-consumed/theater/pen-pals-by-michael-griffo-2025/" />
+        </entry>
+        <entry>
+            <title>
+                Natasha, Pierre, and the Great Comet of 1812
+                
+            </title>
+            <updated>2026-01-21T15:51:31.952Z</updated>
+            <id>https://briancherin.github.io/media-i-have-consumed/theater/natasha-pierre-and-the-great-comet-of-1812/</id>
+            <content type="html">
+                &lt;p&gt;This musical, created by Dave Malloy and put on in 2012, is based on a 70-page slice of Leo Tolstoy&#39;s novel &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/books/war-and-peace-by-leo-tolstoy/&quot;&gt;War and Peace&lt;/a&gt; I found out about this musical after seeing one of Dave Malloy&#39;s latest works (a musical called Octet) and then exploring what other things he had created.&lt;/p&gt;
+&lt;p&gt;After watching a recording of the show and listening through the soundtrack, I decided I was invested in the content enough to read War and Peace. Prior to this, War and Peace had the connotation of &lt;em&gt;super long boring book&lt;/em&gt; and I didn&#39;t know much else about it. Perhaps watching the musical showed me that it could be interesting. Plus, &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/books/in-search-of-lost-time-by-marcel-proust/&quot;&gt;In Search of Lost Time&lt;/a&gt; had shown me that I have the ability to read a long and supposedly-boring book (even though it took me a stupidly long time...) so I decided to jump into it.&lt;/p&gt;
+&lt;p&gt;At the time of writing this (January 2026), I am midway through the book, and have just barely started reading the section of War and Peace that Great Comet is based on. Already, however, I have felt the satisfaction that I hoped reading the book would give. It&#39;s adding context to the characters of the show, explaining deeper who they are, and what their habits and motivations are, and showing events that lead up to some of the pivotal moments of the musical.&lt;/p&gt;
+&lt;p&gt;Also, though Great Comet mostly wraps up the arc of the portion of the story that it tells, there is clearly much more to be said about the characters and what happens in their lives. At the end of Great Comet, I was definitely thinking, &lt;em&gt;huh? that&#39;s how we end this? what happens with them next?&lt;/em&gt;, so I&#39;m excited to actually see the proper resolutions of the full story arcs in the book.&lt;/p&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/media-i-have-consumed/theater/natasha-pierre-and-the-great-comet-of-1812/" />
         </entry>
         <entry>
             <title>
@@ -1126,6 +1142,19 @@ IMDB: &lt;a href=&quot;https://www.imdb.com/title/tt1345728/&quot; target=&quot;
         </entry>
         <entry>
             <title>
+                War and Peace by Leo Tolstoy
+                
+            </title>
+            <updated>2026-01-21T15:51:23.499Z</updated>
+            <id>https://briancherin.github.io/media-i-have-consumed/books/war-and-peace-by-leo-tolstoy/</id>
+            <content type="html">
+                &lt;p&gt;See &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/theater/natasha-pierre-and-the-great-comet-of-1812/&quot;&gt;Natasha, Pierre, and the Great Comet of 1812&lt;/a&gt;. Perhaps will expand this note later for more book-specific thoughts. But my reading of this book can not be separated from the linked musical.&lt;/p&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/media-i-have-consumed/books/war-and-peace-by-leo-tolstoy/" />
+        </entry>
+        <entry>
+            <title>
                 Mini Book Reviews
                 
             </title>
@@ -1142,6 +1171,18 @@ IMDB: &lt;a href=&quot;https://www.imdb.com/title/tt1345728/&quot; target=&quot;
 
             </content>
             <link href="https://briancherin.github.io/media-i-have-consumed/books/mini-book-reviews/" />
+        </entry>
+        <entry>
+            <title>
+                In Search of Lost Time by Marcel Proust
+                
+            </title>
+            <updated>2026-01-21T15:50:50.088Z</updated>
+            <id>https://briancherin.github.io/media-i-have-consumed/books/in-search-of-lost-time-by-marcel-proust/</id>
+            <content type="html">
+                
+            </content>
+            <link href="https://briancherin.github.io/media-i-have-consumed/books/in-search-of-lost-time-by-marcel-proust/" />
         </entry>
         <entry>
             <title>
