@@ -7772,6 +7772,7 @@ code[class*="language-"] ::selection {
   padding-right: 0.5em;
   bottom: -2px;
   border-right: 1px solid var(--scrollbar-thumb-bg);
+  text-indent: 0;
 }
 
 .code-line-number .HyperMD-codeblock.cm-line.cm-active:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end)::after {
@@ -7905,7 +7906,7 @@ code[class*="language-"] ::selection {
   white-space: pre-wrap;
 }
 
-.markdown-source-view.mod-cm6 .HyperMD-list-line.cm-line {
+.markdown-source-view.mod-cm6 .HyperMD-list-line.cm-line:not(.HyperMD-codeblock) {
   font-family: var(--font-family-list);
 }
 
@@ -10111,9 +10112,7 @@ body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-conte
   height: auto;
 }
 
-.vertical-tab-content .setting-item {
-  padding: 8px 0;
-}
+ 
 
 .is-phone .setting-item-heading {
   margin-top: 0px;
@@ -23135,7 +23134,13 @@ body.transparent-tab-style.theme-dark .workspace-split.mod-root .workspace-tab-h
 .is-mobile .horizontal-main-container {
   background-color: var(--background-secondary);
 }
+ 
 
+.is-phone .workspace-tabs .view-header
+{
+    margin: var(--safe-area-inset-top) auto 0;
+}
+ 
 .is-mobile.theme-light .mobile-toolbar {
   background-color: var(--background-primary-alt);
 }
@@ -24010,5 +24015,3 @@ body.enable-alternative-checkboxes li[data-task=U] > p > input:checked {
 
 
 
-
- 
