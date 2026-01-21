@@ -37,4 +37,40 @@ body {
     .header-meta .header-tags {
         order: 2;
     }
+
+    #footnote-tooltip {
+        position: fixed;
+        z-index: var(--layer-tooltip, 70);
+        display: none;
+        max-width: min(420px, calc(100vw - 24px));
+        max-height: min(320px, calc(100vh - 24px));
+        padding: 12px 14px;
+        background: var(--background-primary);
+        border: 1px solid var(--background-modifier-border);
+        border-radius: 8px;
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+        overflow: auto;
+        opacity: 0;
+        transition: opacity 120ms ease;
+    }
+
+    #footnote-tooltip.is-visible {
+        opacity: 1;
+    }
+
+    #footnote-tooltip.is-pinned {
+        border-color: var(--interactive-accent);
+    }
+
+    #footnote-tooltip .footnote-tooltip-content > :first-child {
+        margin-top: 0;
+    }
+
+    #footnote-tooltip .footnote-tooltip-content > :last-child {
+        margin-bottom: 0;
+    }
+
+    .footnote-ref a {
+        text-decoration: none;
+    }
 }

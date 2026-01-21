@@ -1,0 +1,173 @@
+<script>
+  (() => {
+    const refs = document.querySelectorAll(".footnote-ref a");
+    if (!refs.length) {
+      return;
+    }
+
+    const tooltip = document.createElement("div");
+    tooltip.id = "footnote-tooltip";
+    tooltip.innerHTML = '<div class="footnote-tooltip-content" role="tooltip"></div>';
+    document.body.appendChild(tooltip);
+
+    const content = tooltip.querySelector(".footnote-tooltip-content");
+    let hideTimer;
+    let pinned = false;
+    let activeRef = null;
+
+    const getFootnoteHtml = (ref) => {
+      const href = ref.getAttribute("href");
+      if (!href || !href.startsWith("#")) {
+        return null;
+      }
+
+      const target = document.getElementById(href.slice(1));
+      if (!target) {
+        return null;
+      }
+
+      const clone = target.cloneNode(true);
+      const backref = clone.querySelector(".footnote-backref");
+      if (backref) {
+        backref.remove();
+      }
+
+      return clone.innerHTML;
+    };
+
+    const positionTooltip = (ref) => {
+      const rect = ref.getBoundingClientRect();
+
+      tooltip.style.display = "block";
+      tooltip.style.visibility = "hidden";
+      tooltip.classList.remove("is-visible");
+
+      const width = tooltip.offsetWidth;
+      const height = tooltip.offsetHeight;
+      const viewportWidth = document.documentElement.clientWidth;
+
+      let left = rect.left + rect.width / 2 - width / 2;
+      let top = rect.top - height - 10;
+
+      if (top < 10) {
+        top = rect.bottom + 10;
+      }
+
+      const minLeft = 10;
+      const maxLeft = viewportWidth - width - 10;
+      left = Math.min(Math.max(left, minLeft), maxLeft);
+
+      tooltip.style.left = `${left}px`;
+      tooltip.style.top = `${top}px`;
+      tooltip.style.visibility = "visible";
+
+      requestAnimationFrame(() => {
+        tooltip.classList.add("is-visible");
+      });
+    };
+
+    const showTooltip = (ref) => {
+      const html = getFootnoteHtml(ref);
+      if (!html) {
+        return;
+      }
+
+      content.innerHTML = html;
+      activeRef = ref;
+      positionTooltip(ref);
+    };
+
+    const hideTooltip = () => {
+      if (pinned) {
+        return;
+      }
+
+      tooltip.classList.remove("is-visible");
+      clearTimeout(hideTimer);
+      hideTimer = setTimeout(() => {
+        tooltip.style.display = "none";
+        content.innerHTML = "";
+        activeRef = null;
+      }, 150);
+    };
+
+    const setPinned = (value) => {
+      pinned = value;
+      tooltip.classList.toggle("is-pinned", pinned);
+      if (!pinned) {
+        hideTooltip();
+      }
+    };
+
+    tooltip.addEventListener("mouseenter", () => {
+      clearTimeout(hideTimer);
+    });
+
+    tooltip.addEventListener("mouseleave", () => {
+      if (!pinned) {
+        hideTooltip();
+      }
+    });
+
+    document.addEventListener("click", (event) => {
+      if (!pinned) {
+        return;
+      }
+
+      if (tooltip.contains(event.target)) {
+        return;
+      }
+
+      if (activeRef && activeRef.contains(event.target)) {
+        return;
+      }
+
+      setPinned(false);
+    });
+
+    const onEnter = (event) => {
+      clearTimeout(hideTimer);
+      if (!pinned) {
+        showTooltip(event.currentTarget);
+      }
+    };
+
+    const onLeave = () => {
+      hideTooltip();
+    };
+
+    refs.forEach((link) => {
+      link.addEventListener("mouseenter", onEnter);
+      link.addEventListener("mouseleave", onLeave);
+      link.addEventListener("focus", onEnter);
+      link.addEventListener("blur", onLeave);
+      link.addEventListener("click", (event) => {
+        if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+          return;
+        }
+
+        event.preventDefault();
+
+        if (pinned && activeRef === link) {
+          setPinned(false);
+          return;
+        }
+
+        showTooltip(link);
+        setPinned(true);
+      });
+    });
+
+    window.addEventListener("scroll", () => {
+      if (pinned && activeRef) {
+        positionTooltip(activeRef);
+      }
+    });
+
+    window.addEventListener("resize", () => {
+      if (pinned && activeRef) {
+        positionTooltip(activeRef);
+      }
+    });
+  })();
+</script>
