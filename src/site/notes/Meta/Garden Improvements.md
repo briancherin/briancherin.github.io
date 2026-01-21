@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/garden-improvements/","created":"2025-12-07T17:13:34.190-05:00","updated":"2026-01-21T10:54:08.044-05:00"}
+{"dg-publish":true,"permalink":"/meta/garden-improvements/","created":"2025-12-07T17:13:34.190-05:00","updated":"2026-01-21T18:33:15.880-05:00"}
 ---
 
 #digitalgarden 
@@ -15,4 +15,4 @@ Things to do:
 - [ ] Post this site to Kagi Small Web
 - [ ] Make a visualization to see frequency of posts over time 
 - [ ] May want to eventually setup Obsidian to host images/other_assets on S3 instead of on Github. The Digital Garden plugin mentioned that the site may slow down if the assets pile up since you can't store that much on Github. I found this Obsidian [plugin](https://github.com/biubiubiu35/image-paste-to-cloud) which might be the solution for an auto-S3 upload of images. ChatGPT is also suggesting Cloudfront R2 may be a better image hosting option to reduce retrieval costs (but still minimal storage costs) but also have a backup to S3 for peace of mind. Makes plugin setup a bit more complicated though.
-- [ ] Add on-hover preview to footnotes so you can preview content without jumping to bottom of page
+- [x] Add on-hover preview to footnotes so you can preview content without jumping to bottom of page
