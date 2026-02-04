@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/creative/misc/diy-dyes/","created":"2026-02-03T20:59:37.157-05:00","updated":"2026-02-03T21:05:35.359-05:00"}
+{"dg-publish":true,"permalink":"/interests/creative/misc/diy-dyes/","created":"2026-02-03T20:59:37.157-05:00","updated":"2026-02-03T21:06:14.493-05:00"}
 ---
 
 I visited the Met Cloisters museum a couple days ago, and (perhaps surprisingly) one of the most engaging exhibits to me was about how dyes were made in medieval times. See exhibit image:
@@ -10,7 +10,9 @@ This got me thinking that it would be cool to try making natural dyes on my own.
 
 I'm going to paste an initial exploration from ChatGPT with some basic ideas:
 
->[!INFO]- AI Response
+>[!INFO]- AI Chat
+>"How would i make my own dyes out of natural materials i can find in nyc? For art/paint/something? I'm complete noob"
+>
 >> ### Natural dyes you can make in NYC (beginner-friendly)
 > 
 > **Scope:** simple pigment extraction for paper, ink washes, and sketchbook art. No textile chemistry required.
