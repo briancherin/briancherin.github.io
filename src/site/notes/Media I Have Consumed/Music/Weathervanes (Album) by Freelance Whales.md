@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/music/weathervanes-album-by-freelance-whales/","created":"2026-01-21T17:34:38.370-05:00","updated":"2026-02-03T21:23:12.248-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/music/weathervanes-album-by-freelance-whales/","created":"2026-01-21T17:34:38.370-05:00","updated":"2026-02-03T21:26:28.904-05:00"}
 ---
 
 ![Pasted image 20260121174318.png](/img/user/Media%20I%20Have%20Consumed/Music/Assets/Pasted%20image%2020260121174318.png)
@@ -33,6 +33,7 @@ ____
 I have another nice memory with this album. I had a listening session of this album (not the full album but many of my top songs) with a close friend during senior year of college. We sat in my room, dark except the glow of my LED strip set to green (even though the album cover is more brownish, I associated the album with a deep green for some reason), and listened, discussing a little but mostly absorbing the music. I haven't really done a dedicated session like this with any other albums.
 
 ___
+#### Potential For 3D
 The album also evokes an idea I have related to [[Projects/3D and VR/Personal 3D VR World Building\|Personal 3D VR World Building]] -- I would like to someday work on creating 3D environments relating to memories, scenes, media, that are meaningful to me. The Weathervanes cover and many of the songs (lyrically) evoke spatial relations (the album is partially meant to represent moving through different areas of a house), not to mention vivid imagery and scenery. This, in addition to it being one of my favorite albums makes it a prime subject for the 3D scene building. The songs would be playing in the background, of course, as the visitor explored the environment.
 
 More specific ideas for this:
