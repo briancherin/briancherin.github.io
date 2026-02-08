@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>This is the beginning</title>
+<title>Inspiration</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -167,7 +167,7 @@ CTRL + K
 <span class="foldername">Reading</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/interests/reading/inspiration/">Inspiration </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/interests/reading/inspiration/">Inspiration </a>
 </div>
 </div>
 </div>
@@ -486,7 +486,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/">This is the beginning </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/">This is the beginning </a>
 </div>
 </div>
 </div>
@@ -515,254 +515,25 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2026-02-08T01:57:20.408Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2026-02-08T01:57:20.408Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2026-02-08T01:57:20.408Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1></h1>
+<h1 data-note-icon="">Inspiration</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
-</div>
+<div class="timestamps">
+<script>console.log("showCreated: " + true + ", created: " + 2026-02-07T20:52:40.605-05:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2026-02-07T20:52:40.605-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2026-02-07T20:57:00.482-05:00"></span></div></div></div>
 </header>
-<h1 id="this-is-the-beginning" tabindex="-1">This is the beginning</h1>
-<p>of my digital garden / blog thing.</p>
-<p>Hi.</p>
-<p>This is a mix of a blog and personal wiki. It's a place for me to:</p>
-<ul>
-<li>Comment on media I've consumed</li>
-<li>Share about my interests and personal projects</li>
-<li>Document viewpoints or aspects of my life that I want to share with the world</li>
-</ul>
-<p>For more explanation: <a class="internal-link" target="" data-note-icon="" href="/meta/on-blogging/what-is-this/">What Is This</a></p>
-<p>I recommend looking at the hierarchy of topics and seeing what catches your interest, or use the Random Note button below, or pick from the list of recently updated posts.</p>
-<p><button id="random-note-button">🎲 Go to Random Note</button></p>
-<script>let notes=null;async function loadNotes(){if(notes)return notes;const o=await fetch("/searchIndex.json"),t=await o.json();return notes=t.map((o=>o.url)),notes}async function goToRandomNote(){const o=await loadNotes(),t=o[Math.floor(Math.random()*o.length)];"/"==t&&await goToRandomNote(),window.location.href=t}document.getElementById("random-note-button").addEventListener("click",goToRandomNote)</script>
-<h2>All posts</h2>
-<p>Sorted by most recently updated.</p>
-<ul><li>
-<a href="/interests/reading/inspiration/">Inspiration</a>
-<span style="opacity:.7">
-— Feb 8, 2026
-</span>
-</li><li>
-<a href="/interests/music/ways-to-engage-more-deeply-with-music/">Ways to Engage More Deeply With Music</a>
-<span style="opacity:.7">
-— Feb 4, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/music/weathervanes-album-by-freelance-whales/">Weathervanes (Album) by Freelance Whales</a>
-<span style="opacity:.7">
-— Feb 4, 2026
-</span>
-</li><li>
-<a href="/interests/creative/misc/diy-dyes/">DIY Dyes</a>
-<span style="opacity:.7">
-— Feb 4, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/books/the-realm-of-the-elderlings-series/">The Realm of the Elderlings (series)</a>
-<span style="opacity:.7">
-— Jan 25, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/books/audiobooks/">Audiobooks</a>
-<span style="opacity:.7">
-— Jan 25, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/books/the-wheel-of-time-series/">The Wheel of Time (series)</a>
-<span style="opacity:.7">
-— Jan 25, 2026
-</span>
-</li><li>
-<a href="/meta/garden-improvements/">Garden Improvements</a>
-<span style="opacity:.7">
-— Jan 21, 2026
-</span>
-</li><li>
-<a href="/interests/food/on-cooking-veganism-and-whole-food-plant-based-diet/">On Cooking - Veganism and Whole-Food Plant-Based Diet</a>
-<span style="opacity:.7">
-— Jan 21, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/music/streetlight-manifesto/">Streetlight Manifesto</a>
-<span style="opacity:.7">
-— Jan 21, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/theater/natasha-pierre-and-the-great-comet-of-1812/">Natasha, Pierre, and the Great Comet of 1812</a>
-<span style="opacity:.7">
-— Jan 21, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/books/war-and-peace-by-leo-tolstoy/">War and Peace by Leo Tolstoy</a>
-<span style="opacity:.7">
-— Jan 21, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/books/in-search-of-lost-time-by-marcel-proust/">In Search of Lost Time by Marcel Proust</a>
-<span style="opacity:.7">
-— Jan 21, 2026
-</span>
-</li><li>
-<a href="/misc/random-snippets/">Random Snippets</a>
-<span style="opacity:.7">
-— Jan 21, 2026
-</span>
-</li><li>
-<a href="/projects/software/specific-main-app-pursuit-i-m-currently-working-on/">Specific Main App Pursuit I&#39;m Currently Working On</a>
-<span style="opacity:.7">
-— Jan 10, 2026
-</span>
-</li><li>
-<a href="/interests/creative/writing/creative-writing/">Creative Writing</a>
-<span style="opacity:.7">
-— Jan 9, 2026
-</span>
-</li><li>
-<a href="/interests/creative/writing/writing/">Writing</a>
-<span style="opacity:.7">
-— Jan 9, 2026
-</span>
-</li><li>
-<a href="/interests/dreams/dreams/">Dreams</a>
-<span style="opacity:.7">
-— Jan 9, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/books/mini-book-reviews/">Mini Book Reviews</a>
-<span style="opacity:.7">
-— Jan 9, 2026
-</span>
-</li><li>
-<a href="/interests/music/the-tragedy-of-small-numbers/">The Tragedy of Small Numbers</a>
-<span style="opacity:.7">
-— Jan 3, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/movies/pools-2025/">Pools (2025)</a>
-<span style="opacity:.7">
-— Jan 3, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/">Company: A Musical Comedy - Sondheim 1970</a>
-<span style="opacity:.7">
-— Dec 27, 2025
-</span>
-</li><li>
-<a href="/media-i-have-consumed/theater/pen-pals-by-michael-griffo-2025/">Pen Pals by Michael Griffo (2025)</a>
-<span style="opacity:.7">
-— Dec 27, 2025
-</span>
-</li><li>
-<a href="/media-i-have-consumed/movies/eternity-2025/">Eternity (2025)</a>
-<span style="opacity:.7">
-— Dec 26, 2025
-</span>
-</li><li>
-<a href="/meta/on-blogging/reasons-to-write-here/">Reasons to Write (Here)</a>
-<span style="opacity:.7">
-— Dec 26, 2025
-</span>
-</li><li>
-<a href="/interests/music/2025-music-retrospective/">2025 Music Retrospective</a>
-<span style="opacity:.7">
-— Dec 24, 2025
-</span>
-</li><li>
-<a href="/interests/theater/attending-an-industry-reading/">Attending an Industry Reading</a>
-<span style="opacity:.7">
-— Dec 23, 2025
-</span>
-</li><li>
-<a href="/projects/3-d-and-vr/personal-3-d-vr-world-building/">Personal 3D/VR World Building</a>
-<span style="opacity:.7">
-— Dec 22, 2025
-</span>
-</li><li>
-<a href="/meta/on-blogging/what-is-this/">What is this?</a>
-<span style="opacity:.7">
-— Dec 16, 2025
-</span>
-</li><li>
-<a href="/media-i-have-consumed/poetry/all-nearness-pauses-while-a-star-can-grow-e-e-cummings/">All nearness pauses while a star can grow (E.E. Cummings)</a>
-<span style="opacity:.7">
-— Dec 16, 2025
-</span>
-</li><li>
-<a href="/media-i-have-consumed/movies/the-chef-of-south-polar-2009/">The Chef of South Polar (2009)</a>
-<span style="opacity:.7">
-— Dec 15, 2025
-</span>
-</li><li>
-<a href="/media-i-have-consumed/movies/bugonia-2025/">Bugonia (2025)</a>
-<span style="opacity:.7">
-— Dec 13, 2025
-</span>
-</li><li>
-<a href="/meta/obsidian-setup/">Obsidian Setup</a>
-<span style="opacity:.7">
-— Dec 13, 2025
-</span>
-</li><li>
-<a href="/media-i-have-consumed/podcasts/daniel-vassallo-indie-hackers-podcast/">Daniel Vassallo - Indie Hackers Podcast</a>
-<span style="opacity:.7">
-— Dec 12, 2025
-</span>
-</li><li>
-<a href="/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/">Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)</a>
-<span style="opacity:.7">
-— Dec 12, 2025
-</span>
-</li><li>
-<a href="/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/">My Past Self Telling Me To Start a Blog</a>
-<span style="opacity:.7">
-— Dec 10, 2025
-</span>
-</li><li>
-<a href="/meta/on-blogging/blogging-inspiration/">Blogging Inspiration</a>
-<span style="opacity:.7">
-— Dec 10, 2025
-</span>
-</li><li>
-<a href="/media-i-have-consumed/misc/hank-green-tells-me-to-fall-downhill/">Hank Green Tells Me To Fall Downhill</a>
-<span style="opacity:.7">
-— Dec 10, 2025
-</span>
-</li><li>
-<a href="/projects/software/game-development/game-dev-inspiration/">Game Dev Inspiration</a>
-<span style="opacity:.7">
-— Dec 10, 2025
-</span>
-</li><li>
-<a href="/projects/software/game-development/old-projects/bee-haven/">Bee Haven</a>
-<span style="opacity:.7">
-— Dec 10, 2025
-</span>
-</li><li>
-<a href="/projects/software/mini-projects/mini-projects/">Mini Projects</a>
-<span style="opacity:.7">
-— Dec 9, 2025
-</span>
-</li><li>
-<a href="/projects/software/mini-projects/restaurant-ai-vr-simulation/">Restaurant AI VR Simulation</a>
-<span style="opacity:.7">
-— Dec 9, 2025
-</span>
-</li><li>
-<a href="/media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/">&quot;1 Second Everyday&quot; - Indie Hackers Podcast</a>
-<span style="opacity:.7">
-— Dec 9, 2025
-</span>
-</li><li>
-<a href="/projects/software/really-old-projects/brianiscool-tk/">brianiscool.tk</a>
-<span style="opacity:.7">
-— Dec 9, 2025
-</span>
-</li></ul>
-<hr style="margin-top:3rem;margin-bottom:1rem;opacity:.5;border-top:1px solid #ccc">
-<p style="text-align:center;font-size:.9rem;color:#777">
-<a href="https://forms.gle/B5rkQCYMBTHrR6fDA" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">
-Send me a comment!
-</a>
-</p>
+<div class="note-folder-path align-icon">
+<i icon-name="folder"></i>
+<span class="note-folder-trail"><i>Interests &gt; Reading</i></span>
+</div>
+<p>In the movie &quot;A Tree Grows in Brooklyn&quot; (1945)<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> - the main character young girl walks into a library and selects a book called &quot;Anatomy of Melancholy&quot;. The librarian questions why she would want to read the book, and she replies, &quot;I've read all the authors beginning with 'A', and all the 'B's down to Burton. It's next.&quot; &quot;You mean you're trying to read your way straight through the library?&quot; &quot;Please, I want to read clear through the alphabet. I want to know everything in the world.&quot;</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>A film on the <a href="https://en.wikipedia.org/wiki/National_Film_Registry" target="_blank" class="external-link">National Film Registry</a>. I didn't source it by looking at the list but from a <a href="https://www.reddit.com/r/classicfilms/comments/12qp8qu/comment/jgri2u7/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button" target="_blank" class="external-link">reddit comment</a> recommending it <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 </main>
 <aside>
 <div class="sidebar">
@@ -795,21 +566,6 @@ Send me a comment!
 <span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i icon-name="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
 </div>
 </div>
-<div class="toc">
-<div class="toc-title-container">
-<div class="toc-title">
-On this page
-</div>
-</div>
-<div class="toc-container">
-<nav class="toc">
-<ol>
-<li><a href="#this-is-the-beginning">This is the beginning</a>
-</li>
-</ol>
-</nav>
-</div>
-</div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
 <div class="backlink-list"><div class="backlink-card">
@@ -827,6 +583,20 @@ On this page
 <iframe style="display:none;height:0;width:0" id="link-preview-iframe" src="">
 </iframe>
 <script>var opacityTimeout,contentTimeout,transitionDurationMs=100,iframe=document.getElementById("link-preview-iframe"),tooltipWrapper=document.getElementById("tooltip-wrapper"),tooltipContent=document.getElementById("tooltip-content"),linkHistories={};function hideTooltip(){opacityTimeout=setTimeout((function(){tooltipWrapper.style.opacity=0,contentTimeout=setTimeout((function(){tooltipContent.innerHTML="",tooltipWrapper.style.display="none"}),transitionDurationMs+1)}),transitionDurationMs)}function showTooltip(t){var e=t.target,o=e.getClientRects()[e.getClientRects().length-1],i=window.pageYOffset||document.documentElement.scrollTop,n=t.target.getAttribute("href");if(-1===n.indexOf("http")||-1!==n.indexOf(window.location.host)){let t=n.split("#")[0];linkHistories[t]?(tooltipContent.innerHTML=linkHistories[t],tooltipWrapper.style.display="block",setTimeout((function(){if(tooltipWrapper.style.opacity=1,-1!=n.indexOf("#")){let t=n.split("#")[1];const e=tooltipWrapper.querySelector(`[id='${t}']`);e.classList.add("referred"),e.scrollIntoView({behavior:"smooth"},!0)}else tooltipWrapper.scroll(0,0)}),1)):(iframe.src=t,iframe.onload=function(){tooltipContentHtml="",tooltipContentHtml+='<div style="font-weight: bold; unicode-bidi: plaintext;">'+iframe.contentWindow.document.querySelector("h1").innerHTML+"</div>",tooltipContentHtml+=iframe.contentWindow.document.querySelector(".content").innerHTML,tooltipContent.innerHTML=tooltipContentHtml,linkHistories[t]=tooltipContentHtml,tooltipWrapper.style.display="block",tooltipWrapper.scrollTop=0,setTimeout((function(){if(tooltipWrapper.style.opacity=1,-1!=n.indexOf("#")){let t=n.split("#")[1];const e=tooltipWrapper.querySelector(`[id='${t}']`);e.classList.add("referred"),console.log(e),e.scrollIntoView({behavior:"smooth"},!0)}else tooltipWrapper.scroll(0,0)}),1)}),tooltipWrapper.style.left=o.left-tooltipWrapper.offsetWidth/2+o.width/2+"px",window.innerHeight-o.top<tooltipWrapper.offsetHeight?tooltipWrapper.style.top=o.top+i-tooltipWrapper.offsetHeight-10+"px":window.innerHeight-o.top>tooltipWrapper.offsetHeight&&(tooltipWrapper.style.top=o.top+i+35+"px"),o.left+o.width/2<tooltipWrapper.offsetWidth/2?tooltipWrapper.style.left="10px":document.body.clientWidth-o.left-o.width/2<tooltipWrapper.offsetWidth/2&&(tooltipWrapper.style.left=document.body.clientWidth-tooltipWrapper.offsetWidth-20+"px")}}function setupListeners(t){t.addEventListener("mouseleave",(function(t){hideTooltip()})),tooltipWrapper.addEventListener("mouseleave",(function(t){hideTooltip()})),t.addEventListener("mouseenter",(function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout),showTooltip(t)})),tooltipWrapper.addEventListener("mouseenter",(function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout)}))}window.addEventListener("load",(function(t){document.querySelectorAll(".internal-link").forEach(setupListeners),document.querySelectorAll(".backlink-card a").forEach(setupListeners)}))</script>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<hr style="margin-top:3rem;margin-bottom:1rem;opacity:.5;border-top:1px solid #ccc">
+<p style="text-align:center;font-size:.9rem;color:#777">
+<a href="https://forms.gle/B5rkQCYMBTHrR6fDA" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">
+Send me a comment!
+</a>
+<span aria-hidden="true"> | </span>
+<a href="https://garden.briancher.in/feed.xml" style="text-decoration:underline">
+RSS Feed
+</a>
+</p>
+<script>(()=>{const e=document.querySelectorAll(".footnote-ref a");if(!e.length)return;const t=document.createElement("div");t.id="footnote-tooltip",t.innerHTML='<div class="footnote-tooltip-content" role="tooltip"></div>',document.body.appendChild(t);const n=t.querySelector(".footnote-tooltip-content");let o,i=!1,s=null;const l=e=>{const n=e.getBoundingClientRect();t.style.display="block",t.style.visibility="hidden",t.classList.remove("is-visible");const o=t.offsetWidth,i=t.offsetHeight,s=document.documentElement.clientWidth;let l=n.left+n.width/2-o/2,r=n.top-i-10;r<10&&(r=n.bottom+10);const c=s-o-10;l=Math.min(Math.max(l,10),c),t.style.left=`${l}px`,t.style.top=`${r}px`,t.style.visibility="visible",requestAnimationFrame((()=>{t.classList.add("is-visible")}))},r=e=>{const t=(e=>{const t=e.getAttribute("href");if(!t||!t.startsWith("#"))return null;const n=document.getElementById(t.slice(1));if(!n)return null;const o=n.cloneNode(!0),i=o.querySelector(".footnote-backref");return i&&i.remove(),o.innerHTML})(e);t&&(n.innerHTML=t,s=e,l(e))},c=()=>{i||(t.classList.remove("is-visible"),clearTimeout(o),o=setTimeout((()=>{t.style.display="none",n.innerHTML="",s=null}),150))},d=e=>{i=e,t.classList.toggle("is-pinned",i),i||c()};t.addEventListener("mouseenter",(()=>{clearTimeout(o)})),t.addEventListener("mouseleave",(()=>{i||c()})),document.addEventListener("click",(e=>{i&&(t.contains(e.target)||s&&s.contains(e.target)||d(!1))}));const a=e=>{clearTimeout(o),i||r(e.currentTarget)},u=()=>{c()};e.forEach((e=>{e.addEventListener("mouseenter",a),e.addEventListener("mouseleave",u),e.addEventListener("focus",a),e.addEventListener("blur",u),e.addEventListener("click",(t=>{t.metaKey||t.ctrlKey||t.shiftKey||t.altKey||(t.preventDefault(),i&&s===e?d(!1):(r(e),d(!0)))}))})),window.addEventListener("scroll",(()=>{i&&s&&l(s)})),window.addEventListener("resize",(()=>{i&&s&&l(s)}))})()</script>
 <script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
 </body>
 </html>
