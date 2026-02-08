@@ -1,0 +1,14 @@
+---
+{"dg-publish":true,"permalink":"/meta/on-blogging/on-privacy/","created":"2026-02-08T11:51:14.377-05:00","updated":"2026-02-08T12:04:35.286-05:00"}
+---
+
+As can be hinted in [[Meta/On Blogging/Please Don't Spearphish Me (Creating an Obsidian Plugin)\|Please Don't Spearphish Me]], I a conscientious of the dilemma of having a blog like this versus possible privacy and safety concerns. I have always been careful about what I post online, and suddenly I am encouraging myself to post more personal thoughts, opinions, and details -- obviously I'm avoiding posting information that would lead to someone being able to harm me, but it's scary to think about what could slip through which someone malicious could leverage. What's there to be scared of? Stalker, hacker, threats. I don't think anyone has a reason to target me in particular, but it's the Internet. You never know.
+
+____
+
+### Notes
+#### 1
+From Youtuber benoftheweek's podcast "DRAMA MAMA" in an [episode](https://www.youtube.com/watch?v=xWXeU_lSLuY) called "Omegle shut down", talking about how Gen-Z posts online more anonymously and less of personal content (I'm slightly censoring quote to make family friendly): 
+
+>*"They'll have a thousand videos, but never a video of themselves. Which, like, I think is very valid, they're onto something. We don't need to be sharing personal things/details, probably, on the Internet. The logical side of my brain is like, no, do not share anything about yourself online. Digital footprint, all that. But the heart and soul of me is like, damn, if we don't do that, if we're not putting a piece of ourselves on the Internet, what is the Internet then. It's gonna be another form of TV where these hyper-curated, polished influencers are just pumping out junk food content for us to see that doesn't make us think or want us to chime in or inspire us to create anything of our own."*
+- This youtuber makes goofy videos (which I love the sense of humor of) but I've also recently enjoyed some of the more serious takes on his podcast. I didn't really expect this video in particular to touch on this but was pleasantly surprised it did. It aligns with the core of what inspired this blog in the first place (See mention of Struthless video in [[Meta/On Blogging/What Is This#What inspired this?\|What Is This#What inspired this?]]). Also obviously I started this "On Privacy" page because I wanted to add this note about the considerations to have when debating privacy vs community. Part of my starting to write on this site is because I also feel this importance of wanting to put something of myself out there for others to appreciate, learn from, be inspired, engage with, maybe form a sense of a micro-community around someday, and hopefully have interaction back my way which could inspire or influence me.
