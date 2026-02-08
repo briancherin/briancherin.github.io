@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>The Tragedy of Small Numbers</title>
+<title>A Tree Grows in Brooklyn (1945)</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -150,7 +150,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/interests/music/the-tragedy-of-small-numbers/">The Tragedy of Small Numbers </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/interests/music/the-tragedy-of-small-numbers/">The Tragedy of Small Numbers </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -248,7 +248,7 @@ CTRL + K
 <span class="foldername">Movies</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/movies/a-tree-grows-in-brooklyn-1945/">A Tree Grows in Brooklyn (1945) </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/movies/a-tree-grows-in-brooklyn-1945/">A Tree Grows in Brooklyn (1945) </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -519,35 +519,69 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2026-02-08T04:46:19.957Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2026-02-08T04:46:19.957Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2026-02-08T04:46:19.957Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">The Tragedy of Small Numbers</h1>
+<h1 data-note-icon="">A Tree Grows in Brooklyn (1945)</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
 <div class="timestamps">
-<script>console.log("showCreated: " + true + ", created: " + 2026-01-02T20:00:17.884-05:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2026-01-02T20:00:17.884-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2026-01-02T20:15:19.251-05:00"></span></div></div></div>
+<script>console.log("showCreated: " + true + ", created: " + 2026-02-07T23:16:12.368-05:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2026-02-07T23:16:12.368-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2026-02-07T23:45:43.854-05:00"></span></div></div></div>
 </header>
 <div class="note-folder-path align-icon">
 <i icon-name="folder"></i>
-<span class="note-folder-trail"><i>Interests &gt; Music</i></span>
+<span class="note-folder-trail"><i>Media I Have Consumed &gt; Movies</i></span>
 </div>
-<p>Sometimes I chance upon music on Spotify that catches my attention. And I'll click into the artist's profile to see how many monthly listeners they have. If it's a big(?) number, I feel happy, and I feel like I've tapped into something special. If it's a small number (&lt; 10,000), I feel a bit of a knockback. I start to question whether the content is really worth listening to or spending more time with.</p>
-<p>I don't really like to admit this. It unsettles me a little bit. My appreciation for the material should be based on the material, not based on how many other people are enjoying it.</p>
-<p>Why is this happening? I can think of possible reasons:</p>
+<p><img src="/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Pasted%20image%2020260207231649.png" alt="Pasted image 20260207231649.png"></p>
+<h4 id="summary" tabindex="-1">Summary</h4>
+<p>This was a lovely movie. 5/5 stars.</p>
+<p>I was thinking of selecting a movie to watch from the <a href="https://en.wikipedia.org/wiki/National_Film_Registry" target="_blank" class="external-link">National Film Registry</a>. I first was on a tangent, searching google for people's opinions about the movies listed on the registry. This led me to a <a href="https://www.reddit.com/r/classicfilms/comments/12qp8qu/comment/jgri2u7/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button" target="_blank" class="external-link">reddit comment</a> which recommended this movie which is on the registry.</p>
+<p>I read this part only of the reddit commend and no further, and immediately shut my laptop and decided to watch this movie:</p>
+<blockquote>
+<p><em>&quot;The other notable one is A Tree Grows in Brooklyn. If you summarized the plot to me beforehand, I would have thought it would be terribly dull [...]&quot;</em></p>
+</blockquote>
+<p>Only now after having finished watching the movie have I read the rest of the comment:</p>
+<blockquote>
+<p><em>&quot;... and not at all the sort of movie I would like. It turned out to be one of the most emotionally moving movies I've ever seen, and is now one of my all-time favourites. It's why I think it's so important to keep an open mind about things, because you never know what you'll like and will change your life.</em></p>
+</blockquote>
+<p>I'm not going to make a claim about it being my favorite or anything like that, but I did feel emotionally moved by it. It was touching. It showed the life of a family. Nothing too extreme or dramatic. Almost like a slice of life, but not in a boring or uneventful way. Showing the emotional ups and downs of life. Those emotions are the biggest things to those people living them. It was a relaxing movie but I was engaged with it the whole time, never bored. Always wondering what's going to happen next, how they will movie forward, how the characters will change and grow. Maybe these are obvious and kind of generic things to say about a story, but it's those core elements that make something so engaging, I think. The simplest story can be powerful with good writing (and good acting/directing).</p>
+<div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
+<div class="callout-content">
+<p>
+</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
+<div class="callout-content">
+<p>
+</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
+<div class="callout-content">
+<p>
+</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
+<div class="callout-content">
+<p>
+</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+<h3 id="title" tabindex="-1">Title</h3>
+<p>I think that by writing here, this will actually help me process this aspect.</p>
+<p>The title is &quot;A Tree Grows in Brooklyn&quot;. It's obvious which tree the title refers to. There's a tree that the family can see out their window, but one day the city worker cuts it down (or at least trims it substantially). The girl expresses melancholy at this to her father. Her father, always turning things to a positive light, tells her that the stump is still there and that it will grow back. That no one planted the tree in that cement - that it grew there on its own, despite the cement, and pushed through, and became what it became (something worthy and beautiful).</p>
+<p>He says:</p>
+<p>&quot;Now wait a minute. They didn't kill it. They couldn't kill that tree. Well, sure, baby, don't tell me that tree's gonna lie down and die that easy. Look at that tree. See where it's coming from? Right up out of the cement. Didn't nobody plant it. It didn't ask the cement could it grow. It just couldn't help growing so much it pushed that old cement right out of the way. And when you're busting with something like that, can't anybody help it. Like that little old bird up there. Listen to her. He didn't ask anybody could he sing. And he certainly didn't take any lessons. He's so full of singing, it's his cut to bust out someplace. Why, they could cut that old tree right down to the ground, and a root would push up someplace else in the cement. You wait till spring, Prima Donna<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>, and you'll see.&quot;</p>
+<p>This dialogue obviously corresponds to the title, and generally to the situations in the story. I interpret it as the family struggling to make their way through life, and whatever obstacles they must push through, they will be able to make it through, simply because that's their name (perhaps the nature of all people). To make your way in the world even despite struggle. Even if they face a large obstacle (like the tree getting cut down -- or the father's death) there will be another chance for growth and improvement (seen at the end of the movie).</p>
+<h3 id="notes" tabindex="-1">Notes</h3>
+<p>Some random moments I wanted to note down:</p>
 <ul>
-<li>I want to listen to music that other people know so I can relate to them. A small-number artist doesn't contribute to that.</li>
-<li>The small numbers make me think maybe something is wrong with this music. If other people don't like it, then maybe there's a reason why I also shouldn't. It isn't good enough to be more popular.</li>
-<li>Small numbers might indicate that this is a really small band or some random inexperienced person who's making this music. I want professional music (???).</li>
+<li>Scene where the father plays the piano. Made me want to play, get better, sing.</li>
+<li>Teacher encouraging the girl to write. Told her to write what you know, and then add to it (with imagination).</li>
 </ul>
-<p>I feel grimy saying these things. It doesn't feel like I should be allowing myself to have those thoughts. And yet I feel like I may need some external input to help me see past them.</p>
-<p>Well, let me at least try to convince myself.</p>
-<p>Reasons to ignore the above instincts and give these small-number artists a chance:</p>
-<ul>
-<li>I can form my own opinion. Can even feel like I'm taking the role of a music critic - it's up to me to judge the merit of the content.</li>
-<li>Even if not many people have consumed this content, it could still speak deeply to me. It's another human (hopefully) who is voicing something, expressing something. A small band could send me a message I need to hear, just as a big band could too (and the big band might not have the right message for me).</li>
-<li>If I were in person at some bar or venue where a small band was performing something, I would probably be excited to hear the small indie voice. Why not feel the same on the digital platform?</li>
-</ul>
-<p>So, sure -- perhaps I will consider the above reasons as I move forward.</p>
-<p>Ultimately, though, I think this is what it comes down to: I have limited time to consume things like music, so I want to optimize my time and expose myself to as much high quality content as possible.</p>
+<h3 id="black-and-white" tabindex="-1">Black and white</h3>
+<p>Twas an uncolored film. I've only watched a few such in my life. I usually feel some resistance to doing so. Usually it pays off though. Certainly did in this case. Lack of color does not lessen its merit. At most, I had a few thoughts related to how the lighting and saturation play the larger role (than color, I guess), for example, we know it's daytime because things are generally brighter or higher saturation, rather than e.g. a blue sky.</p>
+<p>The &quot;old-timeiness&quot; came through more in the manner of speech. They speak in the old American way. Is it just a movie thing? I'm not sure.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>The girl's name is actually Francie. Prima Donna is his nickname for her. Prima donna apparently is the phrase for the lead female singer in an opera. It's a playful way of the father telling his daughter she's a star. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 </main>
 <aside>
 <div class="sidebar">
@@ -578,6 +612,27 @@ CTRL + K
 <div x-effect="window.graph = renderLocalGraph(graphData, depth, fullScreen)" id="link-graph"></div>
 <div x-show="showFullGraph" id="full-graph" class="show" style="display:none">
 <span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i icon-name="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
+</div>
+</div>
+<div class="toc">
+<div class="toc-title-container">
+<div class="toc-title">
+On this page
+</div>
+</div>
+<div class="toc-container">
+<nav class="toc">
+<ol>
+<li><a href="#summary">Summary</a>
+</li>
+<li><a href="#title">Title</a>
+</li>
+<li><a href="#notes">Notes</a>
+</li>
+<li><a href="#black-and-white">Black and white</a>
+</li>
+</ol>
+</nav>
 </div>
 </div>
 <div class="backlinks">
