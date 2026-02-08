@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/a-tree-grows-in-brooklyn-1945/","created":"2026-02-07T23:16:12.368-05:00","updated":"2026-02-07T23:45:43.854-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/a-tree-grows-in-brooklyn-1945/","created":"2026-02-07T23:16:12.368-05:00","updated":"2026-02-07T23:46:11.164-05:00"}
 ---
 
 ![Pasted image 20260207231649.png](/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Pasted%20image%2020260207231649.png)
@@ -46,4 +46,4 @@ Some random moments I wanted to note down:
 ### Black and white
 Twas an uncolored film. I've only watched a few such in my life. I usually feel some resistance to doing so. Usually it pays off though. Certainly did in this case. Lack of color does not lessen its merit. At most, I had a few thoughts related to how the lighting and saturation play the larger role (than color, I guess), for example, we know it's daytime because things are generally brighter or higher saturation, rather than e.g. a blue sky. 
 
-The "old-timeiness" came through more in the manner of speech. They speak in the old American way. Is it just a movie thing? I'm not sure.  
+The "old-timeiness" came through more in the manner of speech. They speak in the old American way. Is it just a movie thing? I'm not sure. I 
