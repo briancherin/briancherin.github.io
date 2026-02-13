@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-wheel-of-time-series/","created":"2026-01-25T14:48:37.595-05:00","updated":"2026-01-25T14:59:59.396-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-wheel-of-time-series/","created":"2026-01-25T14:48:37.595-05:00","updated":"2026-02-13T10:42:29.246-05:00"}
 ---
 
 by Robert Jordan, and last three books by Brandon Sanderson after Robert Jordan's death.
@@ -16,3 +16,5 @@ That's changed a little bit in recent months, though. Maybe it's just because I'
 
 ### On The Writing
 The writing is really good. Character development is really good. The way Robert Jordan weaves together plots over long spans of time is really amazing. It feels great when plotlines resolve and things come together finally. These books give so many moments like that. 
+
+Part of this is due to the pacing. It's almost frustratingly entrancing. The story covers a really interesting scene or arc, and then that chapter ends in a cliffhanger (not necessarily a super dramatic cliffhanger, but it makes you want to continue staying with those characters and seeing what they do next) and then moves on to a different scene or set of characters. And you are feeling, "nooo! I want to stay with these other characters and see what happens next". But then really quickly you become invested again in the next scene because it's resolving that cliffhanger feeling from an earlier chapter. And it continues like this moment to moment until things resolve or converge.
