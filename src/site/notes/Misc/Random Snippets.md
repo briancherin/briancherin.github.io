@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/misc/random-snippets/","created":"2025-12-16T11:21:59.955-05:00","updated":"2026-03-01T22:45:00.877-05:00"}
+{"dg-publish":true,"permalink":"/misc/random-snippets/","created":"2025-12-16T11:21:59.955-05:00","updated":"2026-03-01T22:45:36.370-05:00"}
 ---
 
 ##### 6
@@ -8,6 +8,8 @@ https://www.scotthyoung.com/blog/2026/02/17/relaxation-paradox/
 - Good sleep has 2-3x the impact of recovery experiences. 
 - Exercise also important 
 - Small efforts to recover energy can compound
+
+(Big fan of this blog. I got hooked years ago by the articles about lifelong learning.)
 
 ___
 #### 5
