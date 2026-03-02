@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/misc/random-snippets/","created":"2025-12-16T11:21:59.955-05:00","updated":"2026-03-01T22:50:21.789-05:00"}
+{"dg-publish":true,"permalink":"/misc/random-snippets/","created":"2025-12-16T11:21:59.955-05:00","updated":"2026-03-01T22:50:55.196-05:00"}
 ---
 
 ##### 6
@@ -27,6 +27,8 @@ ___
 
 #### 4
 Liked this blog post about someone going vegetarian: [https://maxwrenna.com/slowly-meat/](https://maxwrenna.com/slowly-meat/)
+
+(1/11/2026)
 ___
 #### 3
 [Reddit post]([https://www.reddit.com/r/slatestarcodex/s/McERR2iApm](https://www.reddit.com/r/slatestarcodex/s/McERR2iApm)) I found via Google search query "writing a proustian memoir site:reddit.com". (Entitled "Scraping training data for your mind"). Described a writer (Karl Ove Knausgaard’) who was read Proust's *In Search of Lost Time*, supposedly very quickly (the post seems to imply in one sitting, but given it's 4000 pages in total, I am dubious), and then was inspired by it and it influenced his writing style. I liked some other aspects of the post as well. (I read [[Media I Have Consumed/Books/Fiction/In Search of Lost Time by Marcel Proust\|In Search of Lost Time]] a few years ago. It took me 1.5 years to get through (it didn't really need to have taken that long, but the combination of a) challenging material, b) boring at times, c) my reading habit was not very strong (possibly because I was focusing strongly on just getting through this - see (a) and (b))).
@@ -36,6 +38,7 @@ Additional notes:
 -  take input from expert sources rather than ppl slightly better than you. (Makes me think of LDing) and also make sure it adapts to you and your strengths
 -  also refers to "learning in public" as a way to attract other ppl who will help supply you with expert examples as well
 
+(12/27/2025)
 
 ___
 
