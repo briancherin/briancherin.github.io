@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Company: A Musical Comedy - Sondheim 1970</title>
+<title>The Good Place</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -346,7 +346,7 @@ CTRL + K
 <span class="foldername">Theater</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/">Company: A Musical Comedy - Sondheim 1970 </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/">Company: A Musical Comedy - Sondheim 1970 </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -367,7 +367,7 @@ CTRL + K
 <span class="foldername">TV</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/tv/the-good-place/">The Good Place </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/tv/the-good-place/">The Good Place </a>
 </div>
 </div>
 </div>
@@ -562,47 +562,18 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2026-03-04T02:16:08.243Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2026-03-04T02:16:08.243Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2026-03-04T02:16:08.243Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Company: A Musical Comedy - Sondheim 1970</h1>
+<h1 data-note-icon="">The Good Place</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
 <div class="timestamps">
-<script>console.log("showCreated: " + true + ", created: " + 2025-12-25T15:31:25.511-05:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-12-25T15:31:25.511-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-12-26T23:01:37.273-05:00"></span></div></div></div>
+<script>console.log("showCreated: " + true + ", created: " + 2026-03-03T21:00:35.658-05:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2026-03-03T21:00:35.658-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2026-03-03T21:15:47.671-05:00"></span></div></div></div>
 </header>
 <div class="note-folder-path align-icon">
 <i icon-name="folder"></i>
-<span class="note-folder-trail"><i>Media I Have Consumed &gt; Theater</i></span>
+<span class="note-folder-trail"><i>Media I Have Consumed &gt; TV</i></span>
 </div>
-<p><a class="tag" onclick="toggleTagSearch(this)" data-content="#theater">#theater</a></p>
-<h1 id="some-facts" tabindex="-1">Some facts</h1>
-<p>Music and lyrics by Stephen Sondheim, book (script and dialogue) by George Furth.</p>
-<p>Nominated for 14 Tony awards and won six.</p>
-<h1 id="watching-the-2006-raul-esparza-proshot" tabindex="-1">Watching the 2006 Raúl Esparza proshot</h1>
-<p>Before I get into this... Start with some not really relevant, (semi)comic relief with some randomish statements about what has occurred prior to me starting to write here:</p>
-<div class="callout is-collapsible is-collapsed" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Tangent</div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
-<div class="callout-content">
-<p>
-</p><ul>
-<li>Raúl Esparza was born in October 1970, making him just having turned 36 when the 2006 revival opened on Broadway in November of 2006. The show is about the character Robert turning 35. Almost a perfect lineup but it's close - anyway I was just doing the mental math when I saw his age and it struck me as kind of funny.</li>
-<li>Multiple layers to this one
-<ul>
-<li>The main actor's name is Raúl (as established)</li>
-<li>When searching out which video of this show to watch, I think some things said Raul without the accent over the u.</li>
-<li>So in my head, his name was Raul, rhyming with Paul (I'm jumping ahead of myself with the way I phrased that). Same as the main character of Endymion books (in the Hyperion series), whose name is Raul (with no accent).</li>
-<li>I realized that Company Raul was actually Raúl, pronounced Ra-Ewl</li>
-<li>Then I got concerned that the Endymion character was actually also Ra-Ewl. But then I sought out a clip from the audiobook and confirmed Rawl -- Not to mention, the explicit line in the book says &quot;My name is Raul Endymion. My first name rhymes with Paul.&quot;. Relief.</li>
-</ul>
-</li>
-</ul>
-<p></p></div></div>
-<p>Anyway.</p>
-<h2 id="what-led-up-to-this" tabindex="-1">What led up to this</h2>
-<p>Well, a couple months ago I watched/listened to Into the Woods (the first Sondheim musical I've seen) for the first time and developed a strong appreciation for it. I've been interested in exposing myself to more of Sondheim's works.</p>
-<p>My intention was to next watch a proshot of Sweeney Todd, but I haven't gotten around to it yet. It also seems that media about death and murder isn't strongly calling to me right now (I almost wish I delay it until next Halloween, but it being December right now, that is very far away, and I don't think I can hold myself back until then).</p>
-<p>Yesterday, I was in a place where people sing theater songs, and two songs from Company were played. So I took that as a cue for this to be my next exploration. And so my lazy Christmas day activity, admittedly in a slightly sleep-deprived state as a result of having gone to bed at an abnormally late hour last night, was to watch the Company 2006 proshot.</p>
-<p>I came in with no context, except for having heard two of the songs karaoke-style, and I didn't catch most of the lyrics during that. (But I heard enough that my interest in the musical quality was piqued -- specifically, the songs were &quot;Another Hundred People&quot; and &quot;Getting Married Today&quot; (or at least snippets of them).</p>
-<p>I'm writing this (initially at least) right after watching it, so these are somewhat raw thoughts. I'm sure my thoughts will evolve over time, assuming I re-listen to the soundtrack and contemplate the material further.</p>
-<h2 id="what-is-this-show-about" tabindex="-1">What is this show about</h2>
+<p>Completed watching on March 3, 2026.</p>
 <div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
 <div class="callout-content">
 <p>
@@ -620,57 +591,46 @@ CTRL + K
 </div></div>
 </div></div>
 </div></div>
-<p>It's about a man named Robert/Bobby who is single but has a bunch of married friends. The musical is about marriage. From start to end of the musical, we see an internal transformation of Bobby's attitude about marriage. It's kind of subtle.</p>
-<p>At the beginning, he says he wants to get married eventually, but his conviction doesn't seem strong. He doesn't seem to have a deep-rooted feeling of why he wants to get married. It seems like it's something he knows he <em>should</em> do - perhaps a result of being surrounded by his married friends and spending a lot of time in their <em>company</em>. When asked why he wants to get married, his reasons usually sound shallow, and he often focuses on the negative aspects of getting tied down and always having someone around.</p>
-<p>Throughout the musical, we see a series of scenes where he spends time with his married friends, has interactions with girls he is dating, and has conversations and trains of thought relating to (sometimes directly, sometimes indirectly) relationships.</p>
-<p>It's only in the last song of the show that we see the direct change in Bobby. It's like a switch has been flipped. He again voices why he wants to get married, and this time we feel the <em>conviction</em> in his words. There is more depth in his interpretation of marriage and what it can lead to.</p>
-<p>At the same time, we are reminded about his lack of experience with marriage. He has always been an observer, and has thought much about marriage, but he himself has never experienced it. The last song is both about his changing interpretation about marriage, and a hint of his realization that it is time for him to gain direct experience.</p>
-<p>While watching, I took note of some quotes that stood out to me. Several of them have to do with this last aspect of not having experienced marriage firsthand. I think they stood out because they are like a slap in the face. Bobby seems to hesitate a lot about marriage, but the basis of his hesitation is due to lack of experience - you don't know until you try (the thing you &quot;try&quot; is presumably a long-term relationship, not marriage at first of course).</p>
-<ul>
-<li>&quot;Whenever Robert's over I get this feeling we're auditioning for him&quot; --&gt; (Bobby:) &quot;well you know my favorite quote, the unexamined life is not worth living&quot; --&gt; &quot;and mine is, the unlived life is not worth examining&quot;</li>
-<li>&quot;You have to want to marry somebody. Not just some <em>body</em>&quot;</li>
-<li>&quot;I'll take care of you&quot; --&gt; (Bobby:) &quot;But who will I take care of?&quot; --&gt; &quot;Well, did you hear yourself? Did you hear what you just said, kiddo?&quot; --&gt; &quot;I didn't mean that&quot; --&gt; &quot;Oh, I just heard a door open that's been stuck a long time&quot;
-<ul>
-<li>This gives chills. Feels like the moment when the switch flips in Robert's mind.</li>
-</ul>
-</li>
-<li>&quot;You were always outside looking in the window when everyone else was inside dancing at the party&quot;</li>
-<li>&quot;How do you know so much about it when you've never been there? It's so much better living it than looking at it.&quot;</li>
-</ul>
-<p>The show also concludes with Robert not showing up to his surprise birthday party that his friends had planned for him (and accidentally let slip that the surprise was happening). I think this implies he is distancing himself from his friends a little bit rather than always relying on their <em>company</em>. This is an important step in his growth too. Maybe it will give him more space to explore a long-term relationship. There is also a hint earlier in the show that his friends are overly critical of some of the girls he brings into his life (in the song &quot;Poor Baby&quot;) - so becoming less dependent on his friends may quiet those voices as well.</p>
-<h2 id="overall-thoughts" tabindex="-1">Overall thoughts</h2>
-<p>I liked it. I get why it won Tonies<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>. I feel like I still have a lot to process about it.</p>
-<p>Unsurprisingly (given what I know about Into the Woods), Sondheim's lyrics are a strong and captivating force. Intricate, rich, sometimes dense (in a good way). I want, need, to listen to the soundtrack again to fully absorb and appreciate it. I feel like I'm at an interesting spot right now, especially to be writing about it, because I've only listened through once -- usually my understanding of the songs and overall material changes once I've listened multiple times, and connect things together. But I can already sense the richness of the lyrics, music, and how they tie together with the book, and know that the experience will be enriched by repeat exposure.</p>
-<p>This proshot isn't of the original Broadway cast -- but I don't think there is any recording of that. I was skeptical about this recording at first because it's staged with the actors also playing instruments. But it's actually kind of a cool setup, and the actors are great actors. It's also a very simple set compared to the original, based on what I briefly read, and I haven't looked at what the original looked like, but I think this version came through well. It was elegant. The story came to life even on the simple stage.</p>
-<p>I saw many comments praising this recording, and particularly Raúl Esparza's performance. I see it. Raúl was fantastic. He <em>is</em> the character to me -- he embodies it that well.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></p>
-<p>Regarding the plot/story, I found the character of Bobby appealing and could relate in some ways to his uncertainty about relationships. Actually, if I think about it, I can relate in major ways - at the time of watching this, I am single and have never been in a long-term relationship, and most of my friends in a specific friend group of mine <em>are</em> in long-term relationships. Though I don't think I'm in the same mental place that Bobby was in, the connection to myself kept me engaged with the show, making me wonder what the resolution would be. I'm curious to see if my interpretation and connection changes as I re-listen to the soundtrack, now and over the years.</p>
-<p>I like that this is a whole musical about a somewhat subtle shift in a character's mental world. It goes to show how much you can dive into any small subject.</p>
-<h2 id="unstructured-thoughts" tabindex="-1">Unstructured thoughts</h2>
-<ul>
-<li>Thoughts on a couple songs
-<ul>
-<li>Another Hundred People - I liked the effect of dialogue interspersed between choruses</li>
-<li>Getting Married Today - FAST lyrics</li>
-</ul>
-</li>
-<li>It's a non-linear show. I like it.</li>
-<li>Some moments of really good storytelling -- praise to the book. Specifically noted this for the butterfly and baby-oil stories.</li>
-<li>Natural comedy - doesn't feel like forced jokes. It's situational comedy, done well.</li>
-</ul>
-<h2 id="more-lines-that-stood-out-to-me" tabindex="-1">More lines that stood out to me</h2>
-<ul>
-<li>&quot;You're a terribly attractive man. The kind of man most women want but never seen to get&quot;</li>
-<li>&quot;Someone force me to care&quot;</li>
-</ul>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>(Tonys? Tony's? Tonys'? Tonies.) <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>(But often any first exposure to a show would make me say that for any and all characters -- but I sense he plays it especially well. It feels natural, like he is really the character and not an actor playing a character. When the metaphorical curtain rises and the no-longer-character actors bow, I find myself saying, &quot;oh, could it be possible that this person does not actually fully embody the elements of the character from this show?&quot; and then I blink and remember that this person is just doing a job and they are just really good at that job) - what I'm saying is that he's a good actor. (But for all I know, Esparza does fully embody the character in his real life. Shrug. The mysteries of acting.) <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
+<div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
+<div class="callout-content">
+<p>
+</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
+<div class="callout-content">
+<p>
+</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
+<div class="callout-content">
+<p>
+</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
+<div class="callout-content">
+<p>
+</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+<div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
+<div class="callout-content">
+<p>
+</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
+<div class="callout-content">
+<p>
+</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
+<div class="callout-content">
+<p>
+</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
+<div class="callout-content">
+<p>
+</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+<h1 id="warning-spoilers-ahead" tabindex="-1">WARNING: SPOILERS AHEAD.</h1>
+<p>ok that's the final warning.</p>
+<h3 id="the-ending" tabindex="-1">The ending</h3>
+<p>I just finished. The last episode kind of got me. Like I have mixed feelings about seasons 3 and 4, but I think the finale hit it home. I think mainly my problem with seasons 3 and 4 were that there was too much filler (and sometimes characters not being written well, but that's besides the point right now).</p>
+<p>But the last episode got me <em>thinking</em> again, and it made me feel more like how i felt in seasons 1 and 2. I think also what I'm saying is that I found most of seasons 3 and 4 kind of dumb and non-meaningful. With moments throughout that were better. But still a bit of a tarnish on it. But again, finale brought it home for me.</p>
+<p>The finale -- finally everything that was being worked towards, from the first episode of the first season, was actually achieved. The whole reveal of { ending up in the afterlife and then realizing that everyone is just bored zombies } followed by a very fast resolution (deciding to invent a door of true immaterialization) was suuuuper rushed, which bugged me a little. Actually, I think the big thing here -- the thing that I feel is actuallying causing the <em>change</em> in me that a piece of media like this can enact -- is that I at first scoffed at the solution. I was dismayed that they were giving an exit strategy for the eternally good afterlife heaven good place. And felt like they were making essentially the anti-longevity argument that people don't want to live longer lifespans (note I'm avoiding saying &quot;forever&quot; because that's the point we're about to get to) because they'll get bored and lose meaning and meaning only happens because you know it's ending soon. Okay well, they kind of did make that point, but I skimmed away from that perspective of it because it's really talking about something else. When I might contemplate longevity on earth during human life, and what we may someday achieve with {x - hundreds?} of years of medical advancements and such, I would be talking about maybe humans living a couple hundred years at most (who knows though -- maybe it would be much longer. but kind of besides the point and I haven't seriously ever considered that). But good place is literally portraying an afterlife-lifespan of infinity... They are vague about exact amount of time passing (jeremy beremy or whatever) but it could be the equivalent of hundreds or thousands or more years. The point is that each person gets to decide. So what I'm getting to is: my experience of watching the finale was one of at first scoffing at the idea that anyone would/should take the exit strategy, but then gradually coming to accept that there indeed can come a point where a person may feel that they are <em>complete</em> and it would be completely valid and reasonable to take the exit. It's terribly difficult to comprehend, as a measly human like myself, but if I imagine spending thousands of years doing anything and everything with everyone anywhere anyhow, then it seems reasonable that the human soul may eventually feel done. This, to me, is good writing -- good, rational writing. Even if it's not something I've experienced, it makes sense. Maybe even impacts me. I mean, what's the impact here? I'm not sure. Maybe have to think about it more. Probably relating to ideas about longevity (despite the caveat I mentioned before). Anyway, main point is that I felt the ending was well-done. Somehow, from the shows I've been watching lately, it feels like that's a lot to ask sometimes. But they did it here. In my humblest opinion.</p>
 </main>
 <aside>
 <div class="sidebar">
@@ -712,19 +672,9 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#some-facts">Some facts</a>
-</li>
-<li><a href="#watching-the-2006-raul-esparza-proshot">Watching the 2006 Raúl Esparza proshot</a>
+<li><a href="#warning-spoilers-ahead">WARNING: SPOILERS AHEAD.</a>
 <ol>
-<li><a href="#what-led-up-to-this">What led up to this</a>
-</li>
-<li><a href="#what-is-this-show-about">What is this show about</a>
-</li>
-<li><a href="#overall-thoughts">Overall thoughts</a>
-</li>
-<li><a href="#unstructured-thoughts">Unstructured thoughts</a>
-</li>
-<li><a href="#more-lines-that-stood-out-to-me">More lines that stood out to me</a>
+<li><a href="#the-ending">The ending</a>
 </li>
 </ol>
 </li>
@@ -734,8 +684,8 @@ On this page
 </div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/media-i-have-consumed/movies/eternity-2025/" data-note-icon="" class="backlink">Eternity (2025)</a>
-</div><div class="backlink-card"><i icon-name="link"></i><a href="/media-i-have-consumed/theater/pen-pals-by-michael-griffo-2025/" data-note-icon="" class="backlink">Pen Pals by Michael Griffo (2025)</a>
+<div class="backlink-list"><div class="backlink-card">
+<span class="no-backlinks-message">No other pages mentions this page</span>
 </div></div>
 </div>
 </div>
