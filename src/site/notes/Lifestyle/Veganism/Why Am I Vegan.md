@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/veganism/why-am-i-vegan/","created":"2026-03-05T09:09:45.351-05:00","updated":"2026-03-05T09:16:47.824-05:00"}
+{"dg-publish":true,"permalink":"/lifestyle/veganism/why-am-i-vegan/","created":"2026-03-05T09:09:45.351-05:00","updated":"2026-03-05T09:22:49.052-05:00"}
 ---
 
 "What made you go vegan?"
@@ -23,3 +23,7 @@ The person usually nods and then moves on with the conversation.
 I suppose I can't expect a full-on debate about veganism (or about the health aspect) to spring out of basic small-talk. It could be nice/fun/meaningful every once in a while though. It's partially my fault for how I answer it too.
 
 Anyway, I can at least go deeper here.
+
+For now:
+- [[Interests/Food/On Cooking - Veganism and Whole-Food Plant-Based Diet\|On Cooking - Veganism and Whole-Food Plant-Based Diet]]
+
