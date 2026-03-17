@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/interests/creative/writing/creative-writing/","created":"2025-12-14T23:02:33.570-05:00","updated":"2026-01-09T17:36:25.435-05:00"}
+{"dg-publish":true,"permalink":"/interests/creative/writing/creative-writing/","created":"2025-12-14T23:02:33.570-05:00","updated":"2026-03-17T18:42:15.814-04:00"}
 ---
+
 
 I've always been a big reader of fiction. It feels natural that I would want to write stories as well. And I do want to. 
 

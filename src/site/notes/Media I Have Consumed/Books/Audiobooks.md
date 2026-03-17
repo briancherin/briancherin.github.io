@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/audiobooks/","created":"2026-01-25T15:00:37.431-05:00","updated":"2026-01-25T15:05:17.931-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/audiobooks/","created":"2026-01-25T15:00:37.431-05:00","updated":"2026-03-17T18:44:04.405-04:00"}
 ---
 
 These are the book series I have consumed in audiobook form:
@@ -7,3 +7,5 @@ These are the book series I have consumed in audiobook form:
 - The Gentlemen Bastards series (first book is "Lies of Locke Lamora") (by Scott Lynch)
 - [[Media I Have Consumed/Books/Fiction/The Realm of the Elderlings (series)\|The Realm of the Elderlings (series)]] (the Farseer Triology x 3, plus the Liveship Traders trilogy+chronicles) by Robin Hobb
 - [[Media I Have Consumed/Books/Fiction/The Wheel of Time (series)\|The Wheel of Time (series)]] by Robert Jordan / Brandon Sanderson
+
+Some explanation of my usage of audiobooks in [[Media I Have Consumed/Books/Fiction/The Wheel of Time (series)#On Audiobooking\|The Wheel of Time (series)#On Audiobooking]].

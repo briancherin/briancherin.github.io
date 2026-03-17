@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/","created":"2026-02-11T23:32:43.471-05:00","updated":"2026-02-11T23:53:41.429-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/","created":"2026-02-11T23:32:43.471-05:00","updated":"2026-02-15T00:12:53.895-05:00"}
 ---
 
 Poses hosting cocktail parties (or similar) as an approach for strengthening existing connections AND forming new relationships.
@@ -25,3 +25,26 @@ Tip: Lead a quick icebreaker early on in the party, something quick like name, "
 Regarding loose connections -- mentions that hosting a party is a way to strengthen many connections at once rather than having an hour-long coffee chat with each person. I agree with this -- there is a time for one on one coffee chats, but sometimes it's just nice to catch up more casually with someone rather than having the one on one pressure of a coffee chat, and having people at a shared gathering can be a nice way to do this.
 
 Explicitly notes that it doesn't actually have to be a "cocktail"-centric party. Basically is a placeholder for "mixer", "get-together", "happy hour". I'd just call it a "small gathering".
+
+#### Notes
+
+Suggests setting an end time for the event. Sets an expectation for how long guests will expect to stay, maybe makes guests more likely to show up on time and say yes to coming, especially if it's on a weekday.
+
+Quote from a "Party People in Action" module: "I find last-minute cancellations and no-shows frustrating, even disheartening. But it’s bound to happen, and I remind myself not to take it personally."
+
+
+"But since we were only passing acquaintances, I would never have had the confidence to ask Mallory to hang out one-on-one." --> anecdote highlights the importance of having a core of people you know well as the base invitees to your party, which makes it more comfortable to invite looser connections.
+
+Suggests a good number of people to have over is 15. "With fewer people—like seven or eight—you’re more likely to get trapped in a single group conversation or have an uncomfortable silence in the room." <--- I have thought about this and it does happen. With 7 or so people, a circle of conversation forms. It's ok, even great, but I also like the idea of cultivating a space where smaller group conversations can flourish, and when there's a larger number of people like 10-15, those are more likely to manifest.
+
+Tip: If you are worried about a small number of people showing up to your party, have a board game on hand that would be fun to play.
+
+Tip: As a way to invite more new people, ask your core group (people you already know well) to each bring a friend (if they want to). Suggests offering a template they can send to their friend: "I'd like to ask a favor: Will you help me out and bring a friend or colleague to my party? You can send them this message: 'My friend Nick is hosting a cocktail party on Wednesday the 8th at 7 p.m. It will be fun! May I share your info with him to send you the information?'". Also suggests making it clear that you *want* them to bring someone, rather than just saying they can.
+
+Encourages having a diverse guest list -- more interesting for everyone.
+
+Random quotes
+
+- “When I meet someone new, I ask myself: do I want to continue the conversation or see them again? If the answer is yes, then they would make a great guest for one of my parties.”
+- "Be mindful of keeping a genuine interest in your guest list. You’re not trying to use and abuse your old and new friends in a self-serving manner. This is what gives networking a bad name."
+- "“There’s a serendipity to these parties,” Tyler told me. “I like seeing others make connections more than myself.”"
