@@ -1,3 +1,188 @@
+<section class="homepage-category-browser" aria-labelledby="browse-categories-heading">
+  <div class="homepage-category-browser-header">
+    <h2 id="browse-categories-heading">Posts by category</h2>
+    <div class="homepage-category-browser-actions">
+      <button type="button" id="expand-all-categories">Expand all</button>
+      <button type="button" id="collapse-all-categories">Collapse all</button>
+    </div>
+  </div>
+  <div id="homepage-category-tree"></div>
+</section>
+
+<script>
+(function () {
+  const root = document.getElementById("homepage-category-tree");
+  if (!root) return;
+
+  const rawTree = {{ filetree | jsonify | safe }};
+  const openFolderPaths = new Set(new URLSearchParams(window.location.search).getAll("open"));
+
+  const countNotes = (node) => {
+    if (!node || typeof node !== "object") return 0;
+    if (node.isNote) return node.hide ? 0 : 1;
+
+    return Object.entries(node)
+      .filter(([key]) => key !== "isFolder")
+      .reduce((sum, [, child]) => sum + countNotes(child), 0);
+  };
+
+  const getNodeChildren = (node) =>
+    Object.entries(node).filter(([key]) => key !== "isFolder");
+
+  const normalizePathSet = () => {
+    const normalized = new Set();
+    openFolderPaths.forEach((path) => {
+      if (!path) return;
+      const segments = path.split("/").filter(Boolean);
+      for (let i = 1; i <= segments.length; i += 1) {
+        normalized.add(segments.slice(0, i).join("/"));
+      }
+    });
+    openFolderPaths.clear();
+    normalized.forEach((path) => openFolderPaths.add(path));
+  };
+
+  const writeOpenStateToUrl = () => {
+    const params = new URLSearchParams(window.location.search);
+    params.delete("open");
+
+    Array.from(openFolderPaths)
+      .sort()
+      .forEach((path) => params.append("open", path));
+
+    const next = params.toString();
+    const target = next
+      ? `${window.location.pathname}?${next}${window.location.hash}`
+      : `${window.location.pathname}${window.location.hash}`;
+    window.history.replaceState(null, "", target);
+  };
+
+  const renderTree = () => {
+    normalizePathSet();
+    root.innerHTML = "";
+    const fragment = document.createDocumentFragment();
+
+    const renderNodes = (treeNode, container, pathPrefix) => {
+      const children = getNodeChildren(treeNode);
+      children.forEach(([name, child]) => {
+        if (!child || typeof child !== "object") return;
+
+        if (child.isFolder) {
+          const folderPath = pathPrefix ? `${pathPrefix}/${name}` : name;
+          const isOpen = openFolderPaths.has(folderPath);
+          const noteCount = countNotes(child);
+
+          if (noteCount === 0) return;
+
+          const folderWrap = document.createElement("div");
+          folderWrap.className = "hcb-node hcb-folder-node";
+          folderWrap.dataset.path = folderPath;
+
+          const folderButton = document.createElement("button");
+          folderButton.type = "button";
+          folderButton.className = "hcb-folder-button";
+          folderButton.setAttribute("aria-expanded", isOpen ? "true" : "false");
+
+          const caret = document.createElement("span");
+          caret.className = "hcb-caret";
+          caret.textContent = isOpen ? "v" : ">";
+
+          const title = document.createElement("span");
+          title.className = "hcb-folder-title";
+          title.textContent = name;
+
+          const count = document.createElement("span");
+          count.className = "hcb-folder-count";
+          count.textContent = `(${noteCount})`;
+
+          folderButton.append(caret, title, count);
+
+          const childWrap = document.createElement("div");
+          childWrap.className = "hcb-children";
+          if (!isOpen) {
+            childWrap.classList.add("hcb-children-hidden");
+          }
+
+          renderNodes(child, childWrap, folderPath);
+          folderWrap.append(folderButton, childWrap);
+          container.appendChild(folderWrap);
+          return;
+        }
+
+        if (!child.isNote || child.hide) return;
+        if (!pathPrefix) return;
+
+        const leaf = document.createElement("a");
+        leaf.className = "hcb-node hcb-leaf-chip";
+        leaf.href = child.permalink || "/";
+        leaf.textContent = child.name || name.replace(/\.md$/i, "");
+        leaf.setAttribute("data-leaf", "true");
+        container.appendChild(leaf);
+      });
+    };
+
+    renderNodes(rawTree, fragment, "");
+    root.appendChild(fragment);
+  };
+
+  root.addEventListener("click", (event) => {
+    const button = event.target.closest(".hcb-folder-button");
+    if (!button) return;
+    event.preventDefault();
+
+    const folderNode = button.closest(".hcb-folder-node");
+    if (!folderNode) return;
+
+    const path = folderNode.dataset.path;
+    const children = Array.from(folderNode.children).find((child) =>
+      child.classList && child.classList.contains("hcb-children")
+    );
+    if (!path || !children) return;
+
+    const isOpen = openFolderPaths.has(path);
+    if (isOpen) {
+      openFolderPaths.delete(path);
+      children.classList.add("hcb-children-hidden");
+      button.setAttribute("aria-expanded", "false");
+      const caret = button.querySelector(".hcb-caret");
+      if (caret) caret.textContent = ">";
+    } else {
+      openFolderPaths.add(path);
+      children.classList.remove("hcb-children-hidden");
+      button.setAttribute("aria-expanded", "true");
+      const caret = button.querySelector(".hcb-caret");
+      if (caret) caret.textContent = "v";
+    }
+
+    writeOpenStateToUrl();
+  });
+
+  document.getElementById("expand-all-categories")?.addEventListener("click", () => {
+    const addAllFolderPaths = (node, parentPath) => {
+      getNodeChildren(node).forEach(([name, child]) => {
+        if (!child || !child.isFolder) return;
+        const path = parentPath ? `${parentPath}/${name}` : name;
+        if (countNotes(child) > 0) {
+          openFolderPaths.add(path);
+          addAllFolderPaths(child, path);
+        }
+      });
+    };
+    addAllFolderPaths(rawTree, "");
+    writeOpenStateToUrl();
+    renderTree();
+  });
+
+  document.getElementById("collapse-all-categories")?.addEventListener("click", () => {
+    openFolderPaths.clear();
+    writeOpenStateToUrl();
+    renderTree();
+  });
+
+  renderTree();
+})();
+</script>
+
 <h2>All posts</h2>
 <p>Sorted by most recently updated.</p>
 
@@ -17,14 +202,8 @@
   <li>
     <a href="{{ note.url }}">{{ note.data.title or note.fileSlug }}</a>
     <span style="opacity:0.7;">
-      — {{ note.data.updated | humanDate }}
+      - {{ note.data.updated | humanDate }}
     </span>
   </li>
 {%- endfor -%}
 </ul>
-
-
-
-
-
-
