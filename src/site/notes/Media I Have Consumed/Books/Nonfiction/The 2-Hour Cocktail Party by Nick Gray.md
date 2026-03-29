@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/","created":"2026-02-11T23:32:43.471-05:00","updated":"2026-02-15T00:12:53.895-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/","created":"2026-02-11T23:32:43.471-05:00","updated":"2026-03-29T11:42:31.591-04:00"}
 ---
 
 Poses hosting cocktail parties (or similar) as an approach for strengthening existing connections AND forming new relationships.
@@ -48,3 +48,7 @@ Random quotes
 - “When I meet someone new, I ask myself: do I want to continue the conversation or see them again? If the answer is yes, then they would make a great guest for one of my parties.”
 - "Be mindful of keeping a genuine interest in your guest list. You’re not trying to use and abuse your old and new friends in a self-serving manner. This is what gives networking a bad name."
 - "“There’s a serendipity to these parties,” Tyler told me. “I like seeing others make connections more than myself.”"
+
+#### Random thoughts
+- Saw this in my Google Keep I saved in March 2023 - a good reason to host parties: 
+	> "*you can turn those friends into a group of friends! Invite them all over at once for a party or group activity. Introduce them to each other. Watch who gets along reasonably well, and then repeat this every week/month/whatever. You’ll have a friend group in no time*." (source: [reddit](https://www.reddit.com/r/socialskills/comments/yctzjr/comment/itomqzx/?utm_source=share&utm_medium=web2x&context=3))
