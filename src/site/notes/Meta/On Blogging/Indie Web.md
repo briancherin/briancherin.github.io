@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/on-blogging/indie-web/","created":"2026-03-29T12:26:36.169-04:00","updated":"2026-03-29T12:58:28.961-04:00"}
+{"dg-publish":true,"permalink":"/meta/on-blogging/indie-web/","created":"2026-03-29T12:26:36.169-04:00","updated":"2026-03-29T13:10:03.043-04:00"}
 ---
 
 #### Notes on "The Web Revival Breakdown"
@@ -20,4 +20,7 @@ Reading on: 3/29/2026
 - "Decentralization of communication means little to no profit incentive. No one paid to sell you on a trend."
 - Talks about joining a "web ring", where you join a ring and link to the next site in the chain. Not sure if I would want to do something like this - but it seems like a cool way to have random people find your site and to help visitors to your site find other sites. (This could be an answer to my point in [[Meta/Garden Improvements\|Garden Improvements]] about an alternative to adding this blog to Kagi Small Web since Kagi requires a blog to be 3 years old)
 - Just as a touchpoint on my thoughts as of March 2026: I am really appreciating these ideas especially with the ownership aspect in mind. I have felt urges in the past to post deeper stuff to social media, but it never quite felt right. I think one reason is because of the lack of true ownership. With a site like this, I am in charge of my data. This partly is a worry about losing my data. But also it's a feeling of not wanting some corporation to be the place where my data lives -- it's kind of weird. Like, (and yes weird example I'm summoning), imagine someone is building a time capsule (like physical one) and the place they choose (/ feel the need) to hide it in is a fast food restaurant storage closet. Why let your treasured possessions be controlled by an external entity, when you could find an independent location that you are completely in charge of?
-- 
+- Links this article, I'd like to read it: https://kyledrake.com/writings/ai
+- "Everything you see on the internet is man made, and every man has an agenda. Even you and I. So Everything we interact with should be thought about critically."
+- Search engine for indie web (not sure where it indexes from) https://wiby.me/. Similar but for non-commercial sites in general: https://marginalia-search.com/
+- "The concept of the web revival is a free speech oriented space, dedicated to the open and free dissemination of information and resources to all people, regardless of class, location, social standing, age, race, gender, and everything else. This may seem like the obvious desire of the web, something we can all aspire to, right?"
