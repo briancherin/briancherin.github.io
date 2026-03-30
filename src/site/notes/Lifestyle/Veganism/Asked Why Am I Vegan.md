@@ -23,5 +23,5 @@ Maybe this is just the nature of it being a charged topic. Or maybe I can rephra
 Anyway, I can at least go deeper on this site.
 
 I've been intending to expand more on the ethical arguments, in my own words^[Obviously, anyone can find information online about the ethical arguments for veganism. But I believe there is value in me sharing my own understanding of it.]. For now:
-- [[Interests/Food/On Cooking - Veganism and Whole-Food Plant-Based Diet\|On Cooking - Veganism and Whole-Food Plant-Based Diet]]
+- [[Lifestyle/Cooking/On Cooking - Veganism and Whole-Food Plant-Based Diet\|On Cooking - Veganism and Whole-Food Plant-Based Diet]]
 
