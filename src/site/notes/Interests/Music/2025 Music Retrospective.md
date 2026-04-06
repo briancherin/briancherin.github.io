@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2025-12-24T16:45:59.035-05:00"}
+{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2026-04-05T22:23:33.031-04:00"}
 ---
 
 The below "new approach" isn't all there is to be said about my music consumption this year, but it's a major part of it.
 ### A new approach to music discovery
-Prior to this year, my approach to music discovery looked like this:
+Prior to this year, my approach to [[Interests/Music/Discovering new music\|music discovery]] looked like this:
 - Listen to songs I already like, and let Spotify auto-play (usually related/similar) songs after I finish listening to specific songs or albums
 - Take album recommendations from friends or the internet and listen through those albums
 - Occasionally find a song, artist, or album that I really liked, and then maybe obsessively listen to their stuff until I'm fully saturated on their content
