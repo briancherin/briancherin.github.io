@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2026-04-11T19:31:17.391-04:00"}
+{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2026-04-11T19:31:54.541-04:00"}
 ---
 
 The below "new approach" isn't all there is to be said about my music consumption this year, but it's a major part of it.
@@ -190,8 +190,8 @@ Oh yeah, must also give an honorable mention to Ludo's album "You're Awful, I Lo
 - The Outsiders
 - Octet (Dave Malloy, mostly the first track The Forest)
 - Into The Woods
-- Natasha, Pierre, and the Great Comet of 1812
-- [[Ghost Quartet\|Ghost Quartet]]
+- [[Media I Have Consumed/Theater/Natasha, Pierre, and the Great Comet of 1812\|Natasha, Pierre, and the Great Comet of 1812]]
+- [[Media I Have Consumed/Theater/Ghost Quartet - Dave Malloy (2014)\|Ghost Quartet]]
 - Bat Boy
 
 I mentioned earlier that getting into some of these led to my playlist approach fizzling towards the end of the year. I'd say that's mostly attributed to Into The Woods, Great Comet, and Ghost Quartet. Outsiders was earlier in the year (April) and Octet and Bat Boy were minor influences on that. (Note, Outsiders in the above list is the only show I actually went to this year. I went to other Broadway musicals as well, but their albums did not dominate much listening time.)
