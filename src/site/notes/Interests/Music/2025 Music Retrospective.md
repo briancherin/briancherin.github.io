@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2026-04-11T19:31:54.541-04:00"}
+{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2026-04-11T19:33:35.885-04:00"}
 ---
 
 The below "new approach" isn't all there is to be said about my music consumption this year, but it's a major part of it.
@@ -189,7 +189,7 @@ Oh yeah, must also give an honorable mention to Ludo's album "You're Awful, I Lo
 ### The theater music I got into this year
 - The Outsiders
 - Octet (Dave Malloy, mostly the first track The Forest)
-- Into The Woods
+- [[Media I Have Consumed/Theater/Into the Woods - Sondheim (1986)\|Into the Woods]]
 - [[Media I Have Consumed/Theater/Natasha, Pierre, and the Great Comet of 1812\|Natasha, Pierre, and the Great Comet of 1812]]
 - [[Media I Have Consumed/Theater/Ghost Quartet - Dave Malloy (2014)\|Ghost Quartet]]
 - Bat Boy
