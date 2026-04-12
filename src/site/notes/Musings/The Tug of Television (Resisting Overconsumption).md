@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/musings/the-tug-of-television-resisting-overconsumption/","created":"2026-04-11T20:39:44.994-04:00","updated":"2026-04-11T21:37:41.836-04:00"}
+{"dg-publish":true,"permalink":"/musings/the-tug-of-television-resisting-overconsumption/","created":"2026-04-11T20:39:44.994-04:00","updated":"2026-04-11T21:42:36.547-04:00"}
 ---
 
 One episode of a great series ends, and you want to watch the next. This tug... It's what causes bingeing (not so good). But also it's an effect of the joy of storytelling and a good production.
@@ -42,5 +42,5 @@ One suggestion I heard a while ago, which I occasionally follow but pretty rarel
 End of the episode. Feel the urge to start the next episode -- but just sit with it for a few minutes. Force yourself to sit still for a couple minutes. Maybe five. Just process what you've consumed. Think about what else is going on in your life. Almost meditative. Think about what else you could move on to doing (e.g. a creative pursuit, as would often be the case for me in terms of what else I could choose to do in my free time). Sit with that thought for a little bit. 
 
 I've only done this a few times, but usually it leads to me thinking more about what creative pursuit I might fall into, and then I end up feeling more interested in that than with watching the next episode. (In fact, I have written this post directly after feeling this 'tug' and resisting it. Perhaps it's blurry if this is following this "strategy" versus just deciding to do something else... But maybe the point is just to give yourself just a little space to see if you are open to doing something else right now.)
-
+ 
 
