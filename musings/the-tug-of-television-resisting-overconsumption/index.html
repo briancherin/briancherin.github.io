@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>The Realm of the Elderlings (series)</title>
+<title>The Tug of Television (Resisting Overconsumption)</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -291,7 +291,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/books/fiction/the-realm-of-the-elderlings-series/">The Realm of the Elderlings (series) </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/books/fiction/the-realm-of-the-elderlings-series/">The Realm of the Elderlings (series) </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -571,7 +571,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/musings/the-tug-of-television-resisting-overconsumption/">The Tug of Television (Resisting Overconsumption) </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/musings/the-tug-of-television-resisting-overconsumption/">The Tug of Television (Resisting Overconsumption) </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -709,18 +709,50 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2026-04-12T01:38:45.348Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2026-04-12T01:38:45.348Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2026-04-12T01:38:45.348Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">The Realm of the Elderlings (series)</h1>
+<h1 data-note-icon="">The Tug of Television (Resisting Overconsumption)</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
 <div class="timestamps">
-<script>console.log("showCreated: " + true + ", created: " + 2026-01-25T15:04:29.180-05:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2026-01-25T15:04:29.180-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2026-01-25T15:08:53.435-05:00"></span></div></div></div>
+<script>console.log("showCreated: " + true + ", created: " + 2026-04-11T20:39:44.994-04:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2026-04-11T20:39:44.994-04:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2026-04-11T21:37:41.836-04:00"></span></div></div></div>
 </header>
 <div class="note-folder-path align-icon">
 <i icon-name="folder"></i>
-<span class="note-folder-trail"><i>Media I Have Consumed &gt; Books &gt; Fiction</i></span>
+<span class="note-folder-trail"><i>Musings</i></span>
 </div>
-<p>Listened to as <a class="internal-link" target="" data-note-icon="" href="/media-i-have-consumed/books/audiobooks/">audiobook</a>s. So good!</p>
+<p>One episode of a great series ends, and you want to watch the next. This tug... It's what causes bingeing (not so good). But also it's an effect of the joy of storytelling and a good production.</p>
+<p>Over the years, I've grappled with the relative merits of various forms of media. I used to feel that watching television was a vice, and that reading was a much more productive thing to be doing, in all cases. However, my understanding has matured past that shallow. At the core, regardless of the form of media, it's about storytelling, and art, and maybe putting a message out there. Sure, there can be cheaper, more shallow, less meaningful material, which I might argue is less worth one's time than more meaningful content -- but this can apply to books just as much as to television.<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+<p>I've watched some pretty great tv shows that I would be sad to not have watched. Often what draws me in is seeing the experiences of characters and watching them change and grow. (This is true of books as well.)</p>
+<p>So, this tug.</p>
+<p>The tug is separate from the inherent merit of enjoying a show. I can enjoy the show and appreciate that it's here for me to consume, while also wanting to have a better relationship regarding my consumption habits. Sometimes the tug does not need to be resisted, but sometimes it should/could be.</p>
+<p>And I suppose, since I've already started talking about books vs tv, anything I'm saying here about &quot;the tug&quot; can also apply to reading. You can get lost in a good book for hours, and spend more time than you initially intended reading it, and maybe even consume time you know you would/could spend doing other things that a part of you knows has higher merit. (The fact that I view this more of a problem for television probably shows that I still feel this bias towards reading feeling more &quot;productive&quot;. Though, perhaps there is some merit to focusing on television, because, at least to me, it takes way less effort to continue watching tv, and more focused effort to continue reading.)</p>
+<p>So why resist the tug?</p>
+<p>Well, for me, part of it is because I know I don't spend as much time on creative pursuits lately as I want to be. And spending hours in front of the tv, somewhat mindlessly consuming it<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>, seems like a good target to cut down on in order to make more time for creative endeavors (or whatever other endeavor I may judge in the moment as having more worth than watching tv).</p>
+<p>A key concept here is advice I have been hearing recently: <em>Create more than you consume</em>. This advice is actually strongly related to the forces that set in motion my starting to write in this blog format (See <a class="internal-link" target="" data-note-icon="" href="/meta/on-blogging/what-is-this/#what-inspired-this">What Is This#What inspired this?</a> -- specifically, this advice was definitely in a video on the Struthless channel (but also I've heard it one or two other places, I think.)) I should probably have a separate note about this piece of advice. It's kind of requires clarification... How do we measure creating vs consuming? If I watch an hour of television, does that mean I should produce something that would take an hour for someone else to consume? Or does it mean that I should spend an hour working on something creative? I assume the latter, because the former would be kind of silly. Anyway, this is kind of a tangent, but despite some ambiguity, the advice has rung true as good advice, and I feel it's helped orient me in a way to feel more fulfilled, by enhancing my understanding of the balance of enjoying media versus working on creative pursuits. I do really sometimes strongly feel this imbalance -- that I've consumed a lot but not created much -- and when I create more, I feel like this balance gets restored, and I feel more fulfilled. I don't know if it works like this for everyone, but I've found that it definitely works like this for me.</p>
+<p>Okay, so, it feels like I've been going on several tangents, but it kind of all comes together.</p>
+<p>I started by saying that there are merits to watching tv. The &quot;tug&quot; makes me want to keep watching, episode after episode, because I'm enjoying it a lot. Why resist this? Because, even though I am enjoying it, <strong>perhaps I have had enough for the day</strong>, and I can move on and make some time for other things, like creative pursuits.</p>
+<p>The &quot;perhaps I have had enough for the day&quot; is a point I haven't touched on yet. Why do I even watch tv? Part of it is for the sake of the storytelling and the material itself, and because it's fun and enjoyable to consume. But also it serves the role of helping me to relax and decompress, probably after a day of working my 9-5 job (or after a busy weekend day). But I don't need to watch <em>hours</em> of tv to accomplish that decompressing. 40 minutes (maybe even 20 minutes) might be enough. (I'm not here to say how long exactly is &quot;enough&quot;, but my point is that there <em>is</em> a quantity that would be sufficient.)</p>
+<p>The &quot;tug&quot; is the force which is built into media like this which may cause the consumer to go past the quantity that would be sufficient for the day, and to continue consuming.</p>
+<p><strong>So, it is the duty of the mindful consumer (or at least I feel it is my own duty for the sake of my own habits, fulfillment, and actualization) to pay attention to what the sufficient quantity of consumption is, and to resist the forces that may draw me further than that quantity and into the territory of unnecessary, and potentially harmful (in the form of the opportunity cost of what could instead be done with that time) overconsumption.</strong></p>
+<p>Whew. I didn't expect this &quot;note&quot; to have a thesis statement, but there it is.<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></p>
+<p>One caveat: <strong>It's valid if the answer is no, you will not resist. Sometimes you just need a little more consumption. Even if you've already reached the sufficient amount, it's also okay to give in to the urge. It's not always the right time to exert that willpower.</strong> But I hope that I resist often enough so that I don't view the overconsumption as a problem which is limiting what I want to achieve with my free time.</p>
+<h3 id="strategies-to-resist" tabindex="-1">Strategies to resist</h3>
+<h4 id="phase-shift" tabindex="-1">Phase shift</h4>
+<p>One suggestion I heard a while ago, which I occasionally follow but pretty rarely, specifically to resist the cliffhanger effect making you want to immediately start the next episode, is to actually end your viewing session in the <em>middle</em> of the episode you're watching. And next time, start from the middle of the episode and continue until the middle of the next episode. With this approach, you get the satisfaction of seeing what happens after the end-of-episode cliffhanger. And it may be easier to pull yourself away from the episode in the middle, when the action may be slower and there may be a natural place for a break. (Of course, this doesn't work if the content is so absorbing that stopping at any place in the episode would feel like stopping at a cliffhanger / exciting moment.)</p>
+<h4 id="sit-in-the-void" tabindex="-1">Sit in the void</h4>
+<p>End of the episode. Feel the urge to start the next episode -- but just sit with it for a few minutes. Force yourself to sit still for a couple minutes. Maybe five. Just process what you've consumed. Think about what else is going on in your life. Almost meditative. Think about what else you could move on to doing (e.g. a creative pursuit, as would often be the case for me in terms of what else I could choose to do in my free time). Sit with that thought for a little bit.</p>
+<p>I've only done this a few times, but usually it leads to me thinking more about what creative pursuit I might fall into, and then I end up feeling more interested in that than with watching the next episode. (In fact, I have written this post directly after feeling this 'tug' and resisting it. Perhaps it's blurry if this is following this &quot;strategy&quot; versus just deciding to do something else... But maybe the point is just to give yourself just a little space to see if you are open to doing something else right now.)</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>(I acknowledge that less &quot;meaningful&quot; stuff can also be enjoyable. Indeed, &quot;meaningful&quot; (to an extent) is a subjective quality. What is meaningful to me may not be meaningful to someone else, and vice versa. So I do not mean to criticize anyone who consumes what I do not feel is meaningful to me. I suppose this is kind of part of the point I'm getting to.) <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>(and maybe I just say &quot;mindlessly&quot; because it takes less concentrated effort. But really it's not so mindless. It's not like I multitask while watching, other than eating food/snacks. My focus is on the material still.) <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>(I rebel against everything I was taught in school and place my thesis statement only at the end of my essay, forcing the reader to work through my rambling thoughts. But hey, isn't it fun to see someone's thought process harden into a nice conclusion? It's more organic. (Which admittedly may not be the purpose of the &quot;essay&quot; structure I was taught in school. I admit there are reasons for rules. Obviously, a personal blog is not the place where this structure is expected.)) <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 </main>
 <aside>
 <div class="sidebar">
@@ -753,9 +785,31 @@ CTRL + K
 <span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i icon-name="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
 </div>
 </div>
+<div class="toc">
+<div class="toc-title-container">
+<div class="toc-title">
+On this page
+</div>
+</div>
+<div class="toc-container">
+<nav class="toc">
+<ol>
+<li><a href="#strategies-to-resist">Strategies to resist</a>
+<ol>
+<li><a href="#phase-shift">Phase shift</a>
+</li>
+<li><a href="#sit-in-the-void">Sit in the void</a>
+</li>
+</ol>
+</li>
+</ol>
+</nav>
+</div>
+</div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/media-i-have-consumed/books/audiobooks/" data-note-icon="" class="backlink">Audiobooks</a>
+<div class="backlink-list"><div class="backlink-card">
+<span class="no-backlinks-message">No other pages mentions this page</span>
 </div></div>
 </div>
 </div>
