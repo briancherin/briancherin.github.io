@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2026-04-13T22:03:29.068-04:00"}
+{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2026-04-13T22:04:40.945-04:00"}
 ---
 
 The below "new approach" isn't all there is to be said about my music consumption this year, but it's a major part of it.
@@ -82,7 +82,7 @@ Every album in this one was standout.
 	- This feels like an "education" pick to me. Like, I was culturing myself with a classic. I don't know if The Script is supposed to be considered a classic. But it feels that way to me. 
 	- I ended up liking a lot of the songs, so definitely a win. They didn't stay on my radar after this playlist's cycle though.
 
-Must also mention that the LAHF album has a song called "Muffled Thrums", which is not at all the reason I called the playlist "Thrumming", but I am enamored with that fact that it worked out like that. 
+Must also mention that the LAHF album has a song called "Muffled Thrums", which (I'm 99% certain) is not at all the reason I called the playlist "Thrumming", but I am enamored with that fact that there coincidentally was a song with the work "thrum" in it.
 
 I created this playlist during a car ride (and an image of that ride flashes into my mind when I think about the origins of the playlist title).
 
