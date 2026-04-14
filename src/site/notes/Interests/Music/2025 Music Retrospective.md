@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2026-04-13T22:00:12.297-04:00"}
+{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2026-04-13T22:03:29.068-04:00"}
 ---
 
 The below "new approach" isn't all there is to be said about my music consumption this year, but it's a major part of it.
@@ -76,7 +76,7 @@ Every album in this one was standout.
 	- Associate this with an airport waiting for plane, I was listening to a bunch of the songs while waiting.
 - "By the Lamplight" by Larry and His Flask
 	- The caveat here is that Larry and His Flask was already waaaay on my radar, and I would have listened to them plenty whether they were in this playlist or not, but I do think that adding it to this playlist reinforced it and made absolute sure I would keep going back to it. 
-	- Larry and His Flask was the artist of the year for me, absolutely. If 2024 was the year of [[Media I Have Consumed/Music/Streetlight Manifesto\|Streetlight Manifesto]] (and it was), 2025 was the year of Larry and His Flask (but still, look at all my other favorites in this overall list, there were so many standouts this year that I feel a little weird pointing LAHF as the #1, but it still feels right to say.)
+	- Larry and His Flask was the artist of the year for me, absolutely. If 2024 was the year of [[Media I Have Consumed/Music/Streetlight Manifesto\|Streetlight Manifesto]] (and it was), 2025 was the year of Larry and His Flask (but still, look at all my other favorites in this overall list, there were so many standouts this year that I feel a little weird pointing LAHF as the \#1, but it still feels right to say.)
 	- What do I like so much? The strong vocals (the lead singer has a really nice voice), love the lyrics and general themes, and the musicality and folky vibes are all great.
 - "The Script" by The Script
 	- This feels like an "education" pick to me. Like, I was culturing myself with a classic. I don't know if The Script is supposed to be considered a classic. But it feels that way to me. 
