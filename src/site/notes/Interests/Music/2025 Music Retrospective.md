@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2026-04-13T21:57:29.663-04:00"}
+{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2026-04-13T21:59:29.045-04:00"}
 ---
 
 The below "new approach" isn't all there is to be said about my music consumption this year, but it's a major part of it.
@@ -70,13 +70,13 @@ Every album in this one was standout.
 
 - "...And the Battle Begun" by Rx Bandits
 	- This likely has a spot in my favorite albums of all time. The musical sound is so unique to me, I don't know what else to compare it to. I can't name top tracks, partly because I love most (if not all) of them, and partly because I honestly always forget what song the titles go with. 
-	- Surprisingly, I also find that I probably don't know most of the lyrics that well. I'm usually strongly lyric-minded. But even if the lyrics are not as memorable (or maybe just hard for me to follow because they are kind of fast paced), the sound of the music comes through extremely strong. There are totally still little snippets of the catchiest lyrics that I know, but these perhaps just aren't the type of songs that make me feel the **need** to memorize the lyrics (unlike Streetlight Manifest (my favorite band in the last few years), whose lyrics almost all become an instant need for being memorized)
+	- Surprisingly, I also find that I probably don't know most of the lyrics that well. I'm usually strongly lyric-minded. But even if the lyrics are not as memorable (or maybe just hard for me to follow because they are kind of fast paced), the sound of the music comes through extremely strong. There are totally still little snippets of the catchiest lyrics that I know, but these perhaps just aren't the type of songs that make me feel the **need** to memorize the lyrics (unlike [[Media I Have Consumed/Music/Streetlight Manifesto\|Streetlight Manifesto]] (my favorite band in the last few years), whose lyrics almost all become an instant need for being memorized)
 - "Ten Stories" by mewithoutYou
 	- I need to listen to this more (and listen to their other albums). Another unique kind of sound for me, which I really liked. Often giving spoken-word vibes, leaning into aggressive-rage spoken word (not like heavy-metal rage vibes, but like, someone really passionately and strongly and intensely speaking their spoken words. I love it. ^[Saying this makes me also think of my more recent listening interests, Bomb the Music Industry (becoming a big favorite!) and Apes of State (less favorite but similar intense-word vibes I'm talking about here and also similar to BTMI), which btw neither of which are part of these playlists)]
 	- Associate this with an airport waiting for plane, I was listening to a bunch of the songs while waiting.
 - "By the Lamplight" by Larry and His Flask
 	- The caveat here is that Larry and His Flask was already waaaay on my radar, and I would have listened to them plenty whether they were in this playlist or not, but I do think that adding it to this playlist reinforced it and made absolute sure I would keep going back to it. 
-	- Larry and His Flask was the artist of the year for me, absolutely. If 2024 was the year of Streetlight Manifesto (and it was), 2025 was the year of Larry and His Flask (but still, look at all my other favorites in this overall list, there were so many standouts this year that I feel a little weird pointing LAHF as the #1, but it still feels right to say.)
+	- Larry and His Flask was the artist of the year for me, absolutely. If 2024 was the year of [[Media I Have Consumed/Music/Streetlight Manifesto\|Streetlight Manifesto]] (and it was), 2025 was the year of Larry and His Flask (but still, look at all my other favorites in this overall list, there were so many standouts this year that I feel a little weird pointing LAHF as the #1, but it still feels right to say.)
 	- What do I like so much? The strong vocals (the lead singer has a really nice voice), love the lyrics and general themes, and the musicality and folky vibes are all great.
 - "The Script" by The Script
 	- This feels like an "education" pick to me. Like, I was culturing myself with a classic. I don't know if The Script is supposed to be considered a classic. But it feels that way to me. 
@@ -86,7 +86,7 @@ Must also mention that the LAHF album has a song called "Muffled Thrums", which 
 
 I created this playlist during a car ride (and an image of that ride flashes into my mind when I think about the origins of the playlist title).
 
-During that car ride, I also used ChatGPT to get a couple of these recs -- specifically for Rx Bandits and mewithoutYou (for those specific albums I added) -- essentially seeding this playlist with those. Specifically I was asking ChatGPT for recs similar to Streetlight Manifesto. The pros and cons of AI for this can surely be debated, but clearly it paid off here.
+During that car ride, I also used ChatGPT to get a couple of these recs -- specifically for Rx Bandits and mewithoutYou (for those specific albums I added) -- essentially seeding this playlist with those. Specifically I was asking ChatGPT for recs similar to [[Media I Have Consumed/Music/Streetlight Manifesto\|Streetlight Manifesto]]. The pros and cons of AI for this can surely be debated, but clearly it paid off here.
 
 >[!INFO]- My AI prompting
 >`Suggest me music artists and a suggested album from them that matches my interest. I usually like indie and rock, but am open to other things. I like streetlight manifesto because of the following descriptors. Strong lyrics that have meaning and make you think, that are sung with powerful and energetic vocals with a catchy beautiful melody and great instrumental along with it.`
