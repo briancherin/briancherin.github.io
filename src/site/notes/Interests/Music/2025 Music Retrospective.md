@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2026-04-11T19:33:35.885-04:00"}
+{"dg-publish":true,"permalink":"/interests/music/2025-music-retrospective/","created":"2025-12-22T10:59:44.867-05:00","updated":"2026-04-13T21:57:29.663-04:00"}
 ---
 
 The below "new approach" isn't all there is to be said about my music consumption this year, but it's a major part of it.
@@ -56,7 +56,7 @@ Standout albums:
 - "Reality vs. the Optimist" by Kiss Kiss
 	- I wish I listened to this one more, I liked it but Will Wood kind of dominated my focus of this playlist. Want to go back to this more in the future. Does have a similar vibe to the Will Wood songs.
 - "Riding a Black Unicorn..." by Aurelio Voltaire
-	- I surprised myself with appreciating these. If I recall correctly, I got drawn in by "When the Circus Came to Town" (given my circus/juggling interests), but many of the other songs kept me in. Some of them are also quite dark and graphic. And I just plainly do not like "The Dirtiest Song That Ain't". But "Riding a black unicorn" (the song), "The Mechanical Girl", and a couple of the others are high re-listenability to me. They are a bit silly and theatrical though. Not really my usual vibe, and it's not the most sophisticated feeling. I'm interested in exploring more Aurelio Voltaire (he's known for spooky Halloween music) but I made an initial attempt at some point and didn't catch onto the one or two other albums I checked out.
+	- I surprised myself with appreciating these. If I recall correctly, I got drawn in by "When the Circus Came to Town" (given my circus/juggling interests), but many of the other songs kept me in. Some of them are also quite dark and graphic. And I just plainly do not like "The Dirtiest Song That Ain't". But "Riding a black unicorn" (the song), "The Mechanical Girl", and a couple of the others are high re-listenability to me. They are a bit silly and theatrical. I'm interested in exploring more Aurelio Voltaire (he's known for spooky Halloween music) but I made an initial attempt at some point and didn't catch onto the one or two other albums I checked out.
 - "Rockin' the Suburbs" by Ben Folds
 	- I discovered Ben Folds through a couple songs he did with Regina Spektor (who is one of my earliest music interests (started with the song Eet, and then when she did a SummerStage concert in NYC a couple years ago I got into a bunch of her other songs) and then decided to explore his other music, hence why this album got added here
 	- I ended up liking a bunch of the songs in this album. Looking at the songs, though, "Zak and Sara" is the only one that stands out in memory, and I can't remember what most of the others were like. I liked them, though, and would listen more (though I honestly haven't much).
