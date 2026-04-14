@@ -91,6 +91,21 @@ function getAnchorAttributes(filePath, linkTitle) {
   }
 }
 
+function normalizeInternalPath(href) {
+  if (!href) return null;
+  const [pathOnly] = href.split("#");
+  if (!pathOnly || !pathOnly.startsWith("/")) return null;
+  const withoutQuery = pathOnly.split("?")[0];
+  if (!withoutQuery) return null;
+  if (withoutQuery === "/") return "/";
+  return withoutQuery.endsWith("/") ? withoutQuery.slice(0, -1) : withoutQuery;
+}
+
+function getBacklinkAnchorId(targetPath) {
+  if (!targetPath) return "";
+  return `backlink-to-${slugify(targetPath)}`;
+}
+
 const tagRegex = /(^|\s|\>)(#[^\s!@#$%^&*()=+\.,\[{\]};:'"?><]+)(?!([^<]*>))/g;
 
 module.exports = function (eleventyConfig) {
@@ -274,6 +289,10 @@ module.exports = function (eleventyConfig) {
     return date && date.toISOString();
   });
 
+  eleventyConfig.addFilter("backlinkAnchorId", function (urlPath) {
+    return getBacklinkAnchorId(normalizeInternalPath(urlPath));
+  });
+
   eleventyConfig.addFilter("link", function (str) {
     return (
       str &&
@@ -336,6 +355,26 @@ module.exports = function (eleventyConfig) {
       dataViewJsLink.innerHTML = innerHTML;
     }
 
+    return str && parsed.innerHTML;
+  });
+
+  eleventyConfig.addTransform("backlink-anchors", function (str, outputPath) {
+    if (!outputPath || !outputPath.endsWith(".html")) {
+      return str;
+    }
+    const parsed = parse(str);
+    const seenTargets = new Set();
+    for (const link of parsed.querySelectorAll(".cm-s-obsidian a[href]")) {
+      const href = link.getAttribute("href");
+      const normalizedPath = normalizeInternalPath(href);
+      if (!normalizedPath) continue;
+      const key = normalizedPath.toLowerCase();
+      if (seenTargets.has(key)) continue;
+      if (!link.getAttribute("id")) {
+        link.setAttribute("id", getBacklinkAnchorId(normalizedPath));
+      }
+      seenTargets.add(key);
+    }
     return str && parsed.innerHTML;
   });
 
