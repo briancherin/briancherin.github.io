@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/misc/the-egg-andy-weir/","created":"2026-04-16T09:03:37.816-04:00","updated":"2026-04-16T09:19:12.927-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/misc/the-egg-andy-weir/","created":"2026-04-16T09:03:37.816-04:00","updated":"2026-04-16T09:24:01.372-04:00"}
 ---
 
 Short story / concept.
@@ -13,7 +13,7 @@ Short story / concept.
 
 The Kurzgesagt video is I think what really got me into it. 
 
-### **Spoiler for this ahead. Just watch the video!**
+### **Spoiler for this ahead. Just watch the video first!**
 
 I love the concept of it. I feel it presents a compelling argument for empathy, and doing no harm to your fellow humans. Obviously it's a fictional "argument"... but it's fun to imagine. It's a reminder that we are all the same, in a way. When you see someone struggling (or someone in a great position), that could have been you (in another lifetime). You could have sprung up as them instead of as You. The experience they are going through in life is not that unlike the experience, the sensations, that you've undergone. 
 
