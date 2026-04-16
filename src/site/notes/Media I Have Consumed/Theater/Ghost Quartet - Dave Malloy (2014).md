@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/ghost-quartet-dave-malloy-2014/","created":"2026-04-11T19:13:29.797-04:00","updated":"2026-04-11T19:23:42.703-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/ghost-quartet-dave-malloy-2014/","created":"2026-04-11T19:13:29.797-04:00","updated":"2026-04-16T09:04:01.897-04:00"}
 ---
 
 One of my favorites! It's a great show. VERY nontraditional. An official recording is available for free on youtube, so it's pretty accessible for anyone to watch.
@@ -11,3 +11,14 @@ With Octet, I listened to the song "The Forest" (and no other song) many times b
 
 ____
 (intending to go more in depth... a lot to analyze with this one.)
+
+___
+
+#### Random quotes
+##### 1
+"She believes in the oversoul
+That all living things in the universe
+Are part of the same consciousness." 
+~The Photograph
+
+Reminds me of [[Media I Have Consumed/Misc/The Egg (Andy Weir)\|The Egg (Andy Weir)]] (short story). 

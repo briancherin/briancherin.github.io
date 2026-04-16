@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/cooking/on-cooking-veganism-and-whole-food-plant-based-diet/","created":"2025-12-17T13:54:53.493-05:00","updated":"2026-04-13T20:47:42.855-04:00"}
+{"dg-publish":true,"permalink":"/lifestyle/cooking/on-cooking-veganism-and-whole-food-plant-based-diet/","created":"2025-12-17T13:54:53.493-05:00","updated":"2026-04-13T20:48:27.956-04:00"}
 ---
 
 I'm vegan. I approached this from a health-perspective first (WFPB), which led to a gradual transition to eating more plant based foods. Then I learned about the ethical philosophies behind resisting animal exploitation and went fully strict on following veganism.
@@ -43,7 +43,7 @@ Can we have an honest conversation about our food systems and ways of eating and
 
 Can I challenge you? Are you open to being challenged?
 
-Is your mind open to some ideas that might be different than what you're used to? Maybe different than what you've believed for your entire life? Can you evaluate these things with honest integrity and be open to making a change if what you hear is logical and reasonable? Maybe you're not ready for change right now, and that's okay. But if you really stop and genuinely think about the arguments for veganism, can you honestly and truly say that you *shouldn't* change something? 
+Is your mind open to some ideas that might be different than what you're used to? Maybe different than what you've believed for your entire life? Can you evaluate these things with honest integrity and be open to making a change if what you hear is logical and reasonable? Maybe you're not ready for change right now, and that's okay. But if you really stop and genuinely think about the arguments for veganism, can you honestly and truly say that you *shouldn't* change something?
 
 I'm not saying the answer should be 100% for sure one way or the other for you. But I do request, when you have the capacity to, to learn about the reasons for veganism, to question the norm, to fully and deeply engage with the issue and the discussion, and to have an open mind to the possibility of adjusting your course, if it makes sense to you to do so.
 
