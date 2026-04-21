@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Company: A Musical Comedy - Sondheim 1970</title>
+<title>GPT Meal Planner</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -444,7 +444,7 @@ CTRL + K
 <span class="foldername">Theater</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/">Company: A Musical Comedy - Sondheim 1970 </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/">Company: A Musical Comedy - Sondheim 1970 </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -645,7 +645,7 @@ CTRL + K
 <span class="foldername">Mini Projects</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/projects/software/mini-projects/gpt-meal-planner/">GPT Meal Planner </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/projects/software/mini-projects/gpt-meal-planner/">GPT Meal Planner </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -709,115 +709,265 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2026-04-21T04:32:01.374Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2026-04-21T04:32:01.374Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2026-04-21T04:32:01.374Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Company: A Musical Comedy - Sondheim 1970</h1>
+<h1 data-note-icon="">GPT Meal Planner</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
 <div class="timestamps">
-<script>console.log("showCreated: " + true + ", created: " + 2025-12-25T15:31:25.511-05:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-12-25T15:31:25.511-05:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-12-26T23:01:37.273-05:00"></span></div></div></div>
+<script>console.log("showCreated: " + true + ", created: " + 2026-04-21T00:11:56.442-04:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2026-04-21T00:11:56.442-04:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2026-04-21T00:31:33.593-04:00"></span></div></div></div>
 </header>
 <div class="note-folder-path align-icon">
 <i icon-name="folder"></i>
-<span class="note-folder-trail"><i>Media I Have Consumed &gt; Theater</i></span>
+<span class="note-folder-trail"><i>Projects &gt; Software &gt; Mini Projects</i></span>
 </div>
-<p><a class="tag" onclick="toggleTagSearch(this)" data-content="#theater">#theater</a></p>
-<h1 id="some-facts" tabindex="-1">Some facts</h1>
-<p>Music and lyrics by Stephen Sondheim, book (script and dialogue) by George Furth.</p>
-<p>Nominated for 14 Tony awards and won six.</p>
-<h1 id="watching-the-2006-raul-esparza-proshot" tabindex="-1">Watching the 2006 Raúl Esparza proshot</h1>
-<p>Before I get into this... Start with some not really relevant, (semi)comic relief with some randomish statements about what has occurred prior to me starting to write here:</p>
-<div class="callout is-collapsible is-collapsed" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Tangent</div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
+<p>The idea: An AI-driven Discord bot that would prompt me once on the weekend to ask me what kind of recipes I wanted to make during the week, and then prompt me each weekday morning if I wanted to work on preparing one of the recipes that day. Since I work from home, the goal was for the AI to break up a recipe into small chunks that I could slowly prep during breaks from work (since I work from home).</p>
+<p>I implemented pretty much the above, but I didn't end up using it like I thought I would. Perhaps it wasn't feeling as useful as I thought it would be, perhaps it just wasn't the right solution for me, or perhaps I was too lazy to interact with it how I thought I might've.</p>
+<p>I decommissioned it because I stopped using it / wanting to use it.</p>
+<p>There were also some flaws. The breakdown of a recipe into chunks didn't always make sense. I made this in mid-2024. Probably GPT was up to v3. I bet if I used today's models, the chunking would be better. Could eventually explore this or revisit the idea.</p>
+<p>I also found myself using it mainly to generate recipes, rather than really using it for the time-based prep chunking. I obviously could have just used the ChatGPT UI to accomplish the same thing, which would save me AWS costs from having to keep the bot server running (and OpenAI API costs, but at my usage it would be miniscule). That being said, I did like having essentially one Discord thread acting as a log of what I was cooking. Though, I also felt friction because I would have a recipe generated in Discord but wouldn't have it copied over to OneNote where I kept other recipes saved.</p>
+<p>Here's an example interaction with the bot.</p>
+<div class="callout is-collapsible is-collapsed" data-callout="note"><div class="callout-title"><div class="callout-title-inner"> Example conversation with the bot</div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
 <p>
-</p><ul>
-<li>Raúl Esparza was born in October 1970, making him just having turned 36 when the 2006 revival opened on Broadway in November of 2006. The show is about the character Robert turning 35. Almost a perfect lineup but it's close - anyway I was just doing the mental math when I saw his age and it struck me as kind of funny.</li>
-<li>Multiple layers to this one
-<ul>
-<li>The main actor's name is Raúl (as established)</li>
-<li>When searching out which video of this show to watch, I think some things said Raul without the accent over the u.</li>
-<li>So in my head, his name was Raul, rhyming with Paul (I'm jumping ahead of myself with the way I phrased that). Same as the main character of Endymion books (in the Hyperion series), whose name is Raul (with no accent).</li>
-<li>I realized that Company Raul was actually Raúl, pronounced Ra-Ewl</li>
-<li>Then I got concerned that the Endymion character was actually also Ra-Ewl. But then I sought out a clip from the audiobook and confirmed Rawl -- Not to mention, the explicit line in the book says &quot;My name is Raul Endymion. My first name rhymes with Paul.&quot;. Relief.</li>
-</ul>
-</li>
-</ul>
-<p></p></div></div>
-<p>Anyway.</p>
-<h2 id="what-led-up-to-this" tabindex="-1">What led up to this</h2>
-<p>Well, a couple months ago I watched/listened to Into the Woods (the first Sondheim musical I've seen) for the first time and developed a strong appreciation for it. I've been interested in exposing myself to more of Sondheim's works.</p>
-<p>My intention was to next watch a proshot of Sweeney Todd, but I haven't gotten around to it yet. It also seems that media about death and murder isn't strongly calling to me right now (I almost wish I delay it until next Halloween, but it being December right now, that is very far away, and I don't think I can hold myself back until then).</p>
-<p>Yesterday, I was in a place where people sing theater songs, and two songs from Company were played. So I took that as a cue for this to be my next exploration. And so my lazy Christmas day activity, admittedly in a slightly sleep-deprived state as a result of having gone to bed at an abnormally late hour last night, was to watch the Company 2006 proshot.</p>
-<p>I came in with no context, except for having heard two of the songs karaoke-style, and I didn't catch most of the lyrics during that. (But I heard enough that my interest in the musical quality was piqued -- specifically, the songs were &quot;Another Hundred People&quot; and &quot;Getting Married Today&quot; (or at least snippets of them).</p>
-<p>I'm writing this (initially at least) right after watching it, so these are somewhat raw thoughts. I'm sure my thoughts will evolve over time, assuming I re-listen to the soundtrack and contemplate the material further.</p>
-<h2 id="what-is-this-show-about" tabindex="-1">What is this show about</h2>
-<div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
-<div class="callout-content">
-<p>
-</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
-<div class="callout-content">
-<p>
-</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
-<div class="callout-content">
-<p>
-</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
-<div class="callout-content">
-<p>
-</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div></div>
+</p><p><strong>GPT Meal Planner — 3/10/2024 10:00 AM</strong><br>
+Hi there! I'd love to help you plan your meals for the week. Could you tell me two dishes you're thinking about cooking?</p>
+<p><strong>{{me}} — 3/10/2024 10:09 AM</strong><br>
+Vegan Sweet potato brownies. I dont want to specify a recipe. Give me more vegan meal ideas</p>
+<p><strong>GPT Meal Planner — 3/10/2024 10:09 AM</strong><br>
+Vegan Sweet Potato Brownies sound delicious and healthy! I'll provide you with a recipe for that shortly. To give you another vegan meal idea, how about trying a Chickpea Spinach Curry? It's flavorful and quite satisfying. Would you like to include that in your meal plan, or is there another type of cuisine you're craving?</p>
+<p><strong>{{me}} — 3/10/2024 10:09 AM</strong><br>
+No list 10 ideas</p>
+<p><strong>GPT Meal Planner — 3/10/2024 10:09 AM</strong><br>
+Absolutely, here are ten vegan meal ideas you might enjoy:<br>
+Quinoa and Black Bean Chili<br>
+Lentil Sloppy Joes<br>
+Stuffed Bell Peppers with Rice and Vegetables<br>
+Vegan Pad Thai with Tofu<br>
+Butternut Squash Soup<br>
+Cauliflower Tacos with Avocado Lime Crema<br>
+Mushroom Stroganoff<br>
+Thai Green Curry with Vegetables<br>
+Roasted Vegetable Quinoa Bowl<br>
+Eggplant and Chickpea Stew</p>
+<p>Do any of these dishes pique your interest for your second meal choice this week?</p>
+<p><strong>{{me}} — 3/10/2024 10:10 AM</strong><br>
+More ideas, specific dishes from diverse cuisines</p>
+<p><strong>GPT Meal Planner — 3/10/2024 10:10 AM</strong><br>
+Certainly! Let's explore a variety of cuisines with these vegan dishes:<br>
+Ethiopian Red Lentil Stew (Misir Wot)<br>
+Italian Eggplant Parmesan (made with vegan cheese)<br>
+Indian Vegetable Biryani<br>
+Mexican Vegan Ceviche with Hearts of Palm<br>
+Korean Bibimbap with Tofu and Gochujang Sauce<br>
+Moroccan Chickpea and Apricot Tagine<br>
+Lebanese Mujadara (Lentils and Rice with Caramelized Onions)<br>
+Greek Vegan Moussaka<br>
+Japanese Vegan Ramen with Shiitake Mushrooms<br>
+Cuban Black Beans and Rice (Moros y Cristianos)</p>
+<p>These are just a few examples of the amazing variety you can experience with vegan cuisine around the world. Feel free to let me know which one you'd like to try, and I can provide you with a recipe!</p>
+<p><strong>{{me}} — 3/10/2024 10:11 AM</strong><br>
+Let's do num 7</p>
+<p><strong>GPT Meal Planner — 3/10/2024 10:11 AM</strong><br>
+Great choice! Lebanese Mujadara is a wonderful dish that combines comforting lentils and rice with the sweetness of caramelized onions. I can come up with a tasty vegan recipe for you. Once I provide the recipe, let me know if everything looks good or if you'd like any modifications!</p>
+<p><strong>{{me}} — 3/10/2024 10:11 AM</strong><br>
+Ok</p>
+<p><strong>GPT Meal Planner — 3/10/2024 10:11 AM</strong><br>
+Here is your Vegan Sweet Potato Brownies recipe:</p>
+<p>Ingredients:<br>
+2 medium sweet potatoes (about 2 cups when mashed)<br>
+1/2 cup smooth almond butter<br>
+1/4 cup maple syrup<br>
+1/2 cup unsweetened cocoa powder<br>
+1/2 cup oat flour<br>
+1 tsp vanilla extract<br>
+1 tsp baking powder<br>
+1/2 tsp sea salt<br>
+1/2 cup vegan chocolate chips</p>
+<p>Instructions:<br>
+Preheat your oven to 350°F (175°C) and line an 8x8 inch baking pan with parchment paper.<br>
+Steam or boil the sweet potatoes until soft, let them cool, and then mash them until smooth.<br>
+In a large bowl, mix the mashed sweet potato with the almond butter and maple syrup until well combined. Stir in the vanilla extract.<br>
+Sift in the cocoa powder, oat flour, baking powder, and salt, and mix until well combined.<br>
+Fold in the vegan chocolate chips.<br>
+Pour the mixture into the prepared pan and spread it out evenly.<br>
+Bake for 25-30 minutes or until a toothpick inserted in the center comes out mostly clean.<br>
+Allow the brownies to cool completely in the pan before cutting into squares.</p>
+<p>Would you like to make any adjustments to this recipe or does it look perfect for you?</p>
+<p><strong>{{me}} — 3/10/2024 10:12 AM</strong><br>
+Use this instead</p>
+<p>Ingredients<br>
+• 2 8- ounce packages Straight From The Root Organic Sweet Potatoes<br>
+• 1 cup smooth almond butter<br>
+• 1/4 cup maple syrup<br>
+• 1/2 cup cocoa powder<br>
+• 1/4 cup aquafaba if needed<br>
+• 1 cup chocolate chips or chocolate chunks</p>
+<p>Instructions<br>
+• Preheat oven to 350 degrees. Spray an 8x8 pan with non-stick spray and set aside.<br>
+• Puree sweet potatoes in a high speed blender. Add almond butter, maple syrup, and cocoa powder and process until smooth. Add aquafaba to blender if needed until batter is smooth.<br>
+• Mix in chocolate chips by hand and pour into prepared pan. Bake for 40 minutes or until done.<br>
+• Allow brownies to cool before slicing. Refrigerate any leftovers.</p>
+<p><strong>GPT Meal Planner — 3/10/2024 10:13 AM</strong><br>
+Your Vegan Sweet Potato Brownies recipe has been updated with the one you've provided. It sounds absolutely scrumptious! I'll hold on to this recipe for you. Now, let me provide you with a recipe for the Lebanese Mujadara.</p>
+<p><strong>{{me}} — 3/10/2024 10:13 AM</strong><br>
+Actually adjust the sweet potato recipe with these notes</p>
+<p>Cook sweet potato in microwave. I used ~3/4 of a large one (at the rest lolllll). Blend dates and some plant milk. Then add sweet potato, a bunch of almond butter, and some cocoa powder. added more almond milk to assist blending. Blend. Spread on tray/whatever (I did pretty thin because just one sweet potato doesn’t make much batter). Then baked 350 degrees for ~30 min.</p>
+<p><strong>GPT Meal Planner — 3/10/2024 10:13 AM</strong><br>
+I've updated the recipe for your Vegan Sweet Potato Brownies with the specific notes you've provided. It's great to see how you've tailored the recipe to suit your tastes and preferences! Now that we have your personalized brownie recipe, shall we proceed with the Lebanese Mujadara recipe?</p>
+<p><strong>{{me}} — 3/10/2024 10:13 AM</strong><br>
+Yes</p>
+<p><strong>GPT Meal Planner — 3/10/2024 10:13 AM</strong><br>
+Here is a simple recipe for Lebanese Mujadara:</p>
+<p>Ingredients:<br>
+1 cup brown or green lentils<br>
+1 cup long-grain white rice<br>
+3 large onions, thinly sliced<br>
+1/4 cup olive oil<br>
+1 tsp cumin<br>
+1 tsp cinnamon<br>
+Salt and pepper to taste</p>
+<p>Instructions:<br>
+Rinse the lentils and place them in a large saucepan with enough water to cover by several inches. Bring to a boil, then reduce heat and simmer until lentils are tender, about 20 minutes.<br>
+In a separate saucepan, cook the rice according to package instructions.<br>
+While the lentils and rice are cooking, heat the olive oil in a large frying pan over medium heat. Add the onions and cook, stirring frequently, until they are caramelized and deeply browned, about 30 minutes.<br>
+Once the lentils are cooked, drain any excess water. Combine the cooked lentils and rice in a large bowl, and stir in the cumin, cinnamon, salt, and pepper.<br>
+Serve the lentils and rice topped with the caramelized onions.</p>
+<p>Let me know if this recipe works for you or if you'd like to change anything!</p>
+<p><strong>{{me}} — 3/10/2024 10:14 AM</strong><br>
+Brown rice today. Let's fully use instant pot if possible</p>
+<p><strong>GPT Meal Planner — 3/10/2024 10:14 AM</strong><br>
+I've adapted the Lebanese Mujadara recipe to be prepared with brown rice and fully utilize the Instant Pot for convenience. Not only does it simplify the process, but it also provides a deliciously satisfying vegan meal. Let me know if you're happy with this Instant Pot version or if you have any additional tweaks in mind!</p>
+<p><strong>{{me}} — 3/10/2024 10:14 AM</strong><br>
+Show recipe</p>
+<p><strong>GPT Meal Planner — 3/10/2024 10:14 AM</strong><br>
+Here's the Instant Pot recipe for Lebanese Mujadara with brown rice that we've tailored for you:</p>
+<p>Ingredients:<br>
+1 cup brown or green lentils, rinsed<br>
+1 cup brown rice<br>
+3 large onions, thinly sliced<br>
+1/4 cup olive oil<br>
+1 tsp cumin<br>
+1 tsp cinnamon<br>
+Salt and pepper to taste<br>
+4 cups of water or vegetable broth</p>
+<p>Instructions for the Instant Pot:<br>
+Set the Instant Pot to 'Sauté' mode and heat the olive oil. Add the onions and cook until they are caramelized, stirring occasionally (this may take about 15-20 minutes for a deep caramelization).<br>
+Once the onions are caramelized, remove about half to use for garnish later.<br>
+To the remaining onions in the Instant Pot, add the lentils, brown rice, cumin, cinnamon, salt, pepper, and water or vegetable broth.<br>
+Secure the lid on the Instant Pot and set to 'Manual' or 'Pressure Cook' on High for 22 minutes.<br>
+After the cooking time is complete, allow the pressure to release naturally for 10 minutes, then do a quick release for any remaining pressure.<br>
+Fluff the lentil and rice mixture with a fork, then serve hot, topped with the reserved caramelized onions.</p>
+<p>Does this recipe look good to you, or would you like to make any changes before you start cooking?</p>
+<p><strong>{{me}} — 3/10/2024 10:15 AM</strong><br>
+Would it come out better to cook the rice and lentils separately</p>
+<p><strong>GPT Meal Planner — 3/10/2024 10:15 AM</strong><br>
+Cooking the rice and lentils separately can indeed provide optimal texture control for both, ensuring that neither one becomes overcooked. Using the Instant Pot, you can first cook the lentils to desired tenderness and then cook the brown rice. However, cooking them together as described in the initial recipe can be more convenient and still yield delicious results. It really depends on your preference. Would you like the recipe adjusted for separate cooking, or would you like to proceed with the combined cooking method?</p>
+<p><strong>{{me}} — 3/10/2024 10:16 AM</strong><br>
+Let's do them separate, rice in instant pot, and lentils on stove. Also include a step to make veg broth from buillion paste</p>
+<p><strong>GPT Meal Planner — 3/10/2024 10:17 AM</strong><br>
+I have updated the Lebanese Mujadara recipe to cook the brown rice in the Instant Pot and the lentils on the stove separately to ensure both are cooked perfectly. Additionally, I've included instructions on how to make vegetable broth from bouillon paste. Please review the updated recipe and let me know if you're ready to get cooking or if there's anything you'd like to change!</p>
+<p><strong>{{me}} — 3/10/2024 10:17 AM</strong><br>
+Show recipe</p>
+<p><strong>GPT Meal Planner — 3/10/2024 10:17 AM</strong><br>
+Here's the updated recipe for Lebanese Mujadara, with separated cooking instructions for the rice and lentils, and including making fresh vegetable broth from bouillon paste:</p>
+<p>Ingredients:<br>
+1 cup brown or green lentils, rinsed<br>
+1 cup brown rice<br>
+3 large onions, thinly sliced<br>
+1/4 cup olive oil<br>
+1 tsp cumin<br>
+1 tsp cinnamon<br>
+Salt and pepper to taste<br>
+Vegetable bouillon paste (enough for 4 cups of broth)<br>
+4 cups of water (for broth)</p>
+<p>Instructions:<br>
+Prepare the vegetable broth by dissolving the required amount of vegetable bouillon paste in 4 cups of hot water. Stir until the bouillon is fully dissolved and set the broth aside.<br>
+In a pot on the stove, combine the lentils and half of the prepared vegetable broth. Bring to a boil, then reduce the heat, cover, and simmer until the lentils are tender, about 20-25 minutes. Drain any excess liquid, and set the cooked lentils aside.<br>
+While the lentils are simmering, set the Instant Pot to 'Sauté' mode and heat the olive oil. Add the onions and cook, stirring occasionally, until caramelized, about 15-20 minutes. Once caramelized, remove about half the onions for garnish and set them aside.<br>
+Add the brown rice to the remaining onions in the Instant Pot, along with the rest of the vegetable broth. Secure the lid, set to 'Manual' or 'Pressure Cook' on High for 22 minutes.<br>
+After the cooking is complete, allow the pressure to release naturally for 10 minutes before doing a quick pressure release.<br>
+Fluff the cooked rice with a fork, then in a large bowl (or in the Instant Pot), gently combine the cooked rice with the cooked lentils. Stir in the cumin, cinnamon, salt, and pepper.<br>
+Serve hot, topped with the set-aside caramelized onions.</p>
+<p>This recipe should provide a delicious meal with perfectly cooked lentils and rice. If everything looks good to you, you're all set to start cooking, or if you have any other preferences, just let me know!</p>
+<p><strong>{{me}} — 3/10/2024 10:18 AM</strong><br>
+Looks good</p>
+<p><strong>GPT Meal Planner — 3/10/2024 10:19 AM</strong><br>
+Fantastic! I'm glad the recipe looks good to you. You now have two wonderful vegan recipes to enjoy: the Vegan Sweet Potato Brownies and Lebanese Mujadara. Enjoy your cooking, and if you have any more questions or need further assistance in the future, don't hesitate to ask. Happy eating!</p>
+<p><strong>GPT Meal Planner — 3/11/2024 8:45 AM</strong><br>
+Hello! Are you looking to do some cooking today? I remember over the weekend you looked at recipes for 'Vegan Sweet Potato Brownies' and 'Lebanese Mujadara'. Would you like to make one of those today, or is there something else you'd like to whip up? Just let me know what you're in the mood for!</p>
+<p><strong>{{me}} — 3/11/2024 10:21 AM</strong><br>
+Lets do mujadara</p>
+<p><strong>GPT Meal Planner — 3/11/2024 10:21 AM</strong><br>
+Great choice! The Mujadara is a delicious dish. Would you like to follow one of the lentil and rice recipes you selected over the weekend, or would you prefer a new one? Here's the recipe you provided for Lebanese Mujadara:</p>
+<p>Ingredients:<br>
+1 cup brown or green lentils, rinsed<br>
+1 cup brown rice<br>
+3 large onions, thinly sliced<br>
+1/4 cup olive oil<br>
+1 tsp cumin<br>
+1 tsp cinnamon<br>
+Salt and pepper to taste<br>
+4 cups of water or vegetable broth</p>
+<p>Instructions for the Instant Pot:<br>
+Set the Instant Pot to 'Sauté' mode and heat the olive oil. Add the onions and cook until they are caramelized, stirring occasionally (this may take about 15-20 minutes for a deep caramelization).<br>
+Once the onions are caramelized, remove about half to use for garnish later.<br>
+To the remaining onions in the Instant Pot, add the lentils, brown rice, cumin, cinnamon, salt, pepper, and water or vegetable broth.<br>
+Secure the lid on the Instant Pot and set to 'Manual' or 'Pressure Cook' on High for 22 minutes.<br>
+After the cooking time is complete, allow the pressure to release naturally for 10 minutes, then do a quick release for any remaining pressure.<br>
+Fluff the lentil and rice mixture with a fork, then serve hot, topped with the reserved caramelized onions.</p>
+<p>Would you like to proceed with this recipe, or modify it in any way?</p>
+<p><strong>{{me}} — 3/11/2024 10:22 AM</strong><br>
+Looks good</p>
+<p><strong>GPT Meal Planner — 3/11/2024 10:22 AM</strong><br>
+Great, you're all set to make Mujadara! Could you let me know by what time today you'd like to finish cooking? This way, I can help you break down the recipe into manageable chunks.</p>
+<p><strong>{{me}} — 3/11/2024 10:23 AM</strong><br>
+5pm. Please make 5 chunks. Earlier chunks should focus on doing as much food prep as possible first before doing any cooking</p>
+<p><strong>GPT Meal Planner — 3/11/2024 10:23 AM</strong><br>
+We'll plan to finish cooking by 5:00 PM, so here are the 5 chunks of work we'll do, with time for breaks in between:</p>
+<p>At 10:45 AM, you'll gather and prepare all the ingredients.<br>
+At 11:30 AM, get those onions sliced so they're ready to caramelise.<br>
+By 12:30 PM, start caramelising the onions in the Instant Pot.<br>
+At 2:45 PM, finish up with the onions and add the rest of the ingredients to the Instant Pot.<br>
+Finally, at 3:30 PM, set the Instant Pot to cook everything. This will give us a buffer for the natural pressure release and any final touches before your meal is ready right on time!</p>
+<p>Remember, you can take a breather between these chunks, and we'll have your delicious Mujadara ready for dinner. Enjoy your cooking!</p>
+<p><strong>{{me}} — 3/11/2024 10:25 AM</strong><br>
+Actually i need to cook the lentils separate from the rice. Rice in instant pot and lentils in separate pot. Update chunks to reflect this as separate steps</p>
+<p><strong>GPT Meal Planner — 3/11/2024 10:27 AM</strong><br>
+Okay, I've updated the cooking plan to cook the lentils and rice separately, which should suit your needs better! Here are your updated chunks:</p>
+<p>At 10:45 AM, prepare all the ingredients. Soak the lentils to reduce cooking time.<br>
+At 11:30 AM, slice the onions and measure out the brown rice.<br>
+By 12:30 PM, start cooking the lentils on the stove; you'll want them to be nice and tender.<br>
+At 1:15 PM, begin caramelizing the onions in the Instant Pot.<br>
+At 2:00 PM, remove half the onions for garnish and start cooking the brown rice in the Instant Pot with spices, ensuring the lentils are simmering away too.<br>
+Finally, at 3:30 PM, check both the lentils and rice. Finish up and get ready to serve your Mujadara by 5:00 PM, perfectly for dinner.</p>
+<p>Have a pleasant cooking session!</p>
+<p><strong>{{me}} — 3/11/2024 10:31 AM</strong><br>
+What sides go well with this dish</p>
+<p><strong>GPT Meal Planner — 3/11/2024 10:31 AM</strong><br>
+Mujadara is a flavorful dish that pairs well with a variety of sides. Here are some suggestions that complement its taste and texture:</p>
+<p>A fresh salad: A simple green salad or a tomato, cucumber, and herb salad with a lemony vinaigrette can add a refreshing contrast.<br>
+Yogurt or a yogurt-based sauce: A cooling side of plain or seasoned yogurt, such as a cucumber mint yogurt, balances the warm spices of mujadara.<br>
+Pickled vegetables: Pickles or a pickle relish can add a tangy kick that cuts through the richness of the dish.<br>
+Roasted vegetables: Roasted carrots, cauliflower, or Brussels sprouts can provide a delightful caramelized edge.<br>
+Flatbread or pita: This is great for scooping up the lentils and rice, providing a satisfying textural component.</p>
+<p>Feel free to choose any of these to serve alongside your mujadara for a complete and satisfying meal!</p>
+<p><strong>GPT Meal Planner — 3/11/2024 10:45 AM</strong><br>
+Hello! It's time to get started on your meal prep. Please gather all your ingredients and begin by rinsing 1 cup of lentils. After that, start soaking the lentils in water to reduce their cooking time. Once you've done this, you'll be all set for the next step when you're ready. Happy cooking!</p>
+<p><strong>GPT Meal Planner — 3/11/2024 11:30 AM</strong><br>
+Hello there! It's time to thinly slice the 3 large onions and measure out the brown rice. This is a great task to fit into a short break and will set you up nicely for the next steps. Let me know if you need any assistance or guidance!</p>
+<p><strong>GPT Meal Planner — 3/11/2024 12:30 PM</strong><br>
+It's time to start cooking the lentils. Please put them in a pot and cover them with water. Bring the water to a boil, then lower the heat to let the lentils simmer. They should become tender in about 20 minutes, so you'll want to check on them around that time.</p>
+<p><strong>GPT Meal Planner — 3/11/2024 1:15 PM</strong><br>
+It's time to heat the olive oil in the 'Sauté' mode of your Instant Pot. Once hot, start caramelizing the onions by stirring them occasionally until they are deeply golden and soft.</p>
+<p><strong>GPT Meal Planner — 3/11/2024 2:00 PM</strong><br>
+It's time to proceed with the next step in your Lebanese Mujadara recipe. Please remove about half of the caramelized onions for garnish later. Then, add the brown rice, cumin, cinnamon, salt, pepper, and 2 cups of the vegetable broth or water into the Instant Pot with the remaining onions. After adding these ingredients, secure the lid of the Instant Pot and set it to 'Manual' or 'Pressure Cook' on High for 22 minutes. Let me know if you need further assistance!</p>
+<p><strong>{{me}} — 3/11/2024 3:08 PM</strong><br>
+Image</p>
+<p><strong>GPT Meal Planner — 3/11/2024 3:08 PM</strong><br>
+If you need any help or have any questions about the recipe, feel free to ask. Enjoy your cooking break!</p>
+<p><strong>GPT Meal Planner — 3/11/2024 3:30 PM</strong><br>
+It's time to check on both the lentils and the rice. The lentils should be tender by now, and the Instant Pot will soon finish cooking the rice. Once the pot indicates it's done, allow it to release pressure naturally for about 10 minutes. Then, you can release any remaining pressure and fluff the rice with a fork. You may choose to mix the lentils and rice together or serve them separately, but don't forget to top your dish with the delicious caramelized onions you set aside earlier.</p>
 </div></div>
-</div></div>
-</div></div>
-</div></div>
-<p>It's about a man named Robert/Bobby who is single but has a bunch of married friends. The musical is about marriage. From start to end of the musical, we see an internal transformation of Bobby's attitude about marriage. It's kind of subtle.</p>
-<p>At the beginning, he says he wants to get married eventually, but his conviction doesn't seem strong. He doesn't seem to have a deep-rooted feeling of why he wants to get married. It seems like it's something he knows he <em>should</em> do - perhaps a result of being surrounded by his married friends and spending a lot of time in their <em>company</em>. When asked why he wants to get married, his reasons usually sound shallow, and he often focuses on the negative aspects of getting tied down and always having someone around.</p>
-<p>Throughout the musical, we see a series of scenes where he spends time with his married friends, has interactions with girls he is dating, and has conversations and trains of thought relating to (sometimes directly, sometimes indirectly) relationships.</p>
-<p>It's only in the last song of the show that we see the direct change in Bobby. It's like a switch has been flipped. He again voices why he wants to get married, and this time we feel the <em>conviction</em> in his words. There is more depth in his interpretation of marriage and what it can lead to.</p>
-<p>At the same time, we are reminded about his lack of experience with marriage. He has always been an observer, and has thought much about marriage, but he himself has never experienced it. The last song is both about his changing interpretation about marriage, and a hint of his realization that it is time for him to gain direct experience.</p>
-<p>While watching, I took note of some quotes that stood out to me. Several of them have to do with this last aspect of not having experienced marriage firsthand. I think they stood out because they are like a slap in the face. Bobby seems to hesitate a lot about marriage, but the basis of his hesitation is due to lack of experience - you don't know until you try (the thing you &quot;try&quot; is presumably a long-term relationship, not marriage at first of course).</p>
-<ul>
-<li>&quot;Whenever Robert's over I get this feeling we're auditioning for him&quot; --&gt; (Bobby:) &quot;well you know my favorite quote, the unexamined life is not worth living&quot; --&gt; &quot;and mine is, the unlived life is not worth examining&quot;</li>
-<li>&quot;You have to want to marry somebody. Not just some <em>body</em>&quot;</li>
-<li>&quot;I'll take care of you&quot; --&gt; (Bobby:) &quot;But who will I take care of?&quot; --&gt; &quot;Well, did you hear yourself? Did you hear what you just said, kiddo?&quot; --&gt; &quot;I didn't mean that&quot; --&gt; &quot;Oh, I just heard a door open that's been stuck a long time&quot;
-<ul>
-<li>This gives chills. Feels like the moment when the switch flips in Robert's mind.</li>
-</ul>
-</li>
-<li>&quot;You were always outside looking in the window when everyone else was inside dancing at the party&quot;</li>
-<li>&quot;How do you know so much about it when you've never been there? It's so much better living it than looking at it.&quot;</li>
-</ul>
-<p>The show also concludes with Robert not showing up to his surprise birthday party that his friends had planned for him (and accidentally let slip that the surprise was happening). I think this implies he is distancing himself from his friends a little bit rather than always relying on their <em>company</em>. This is an important step in his growth too. Maybe it will give him more space to explore a long-term relationship. There is also a hint earlier in the show that his friends are overly critical of some of the girls he brings into his life (in the song &quot;Poor Baby&quot;) - so becoming less dependent on his friends may quiet those voices as well.</p>
-<h2 id="overall-thoughts" tabindex="-1">Overall thoughts</h2>
-<p>I liked it. I get why it won Tonies<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>. I feel like I still have a lot to process about it.</p>
-<p>Unsurprisingly (given what I know about Into the Woods), Sondheim's lyrics are a strong and captivating force. Intricate, rich, sometimes dense (in a good way). I want, need, to listen to the soundtrack again to fully absorb and appreciate it. I feel like I'm at an interesting spot right now, especially to be writing about it, because I've only listened through once -- usually my understanding of the songs and overall material changes once I've listened multiple times, and connect things together. But I can already sense the richness of the lyrics, music, and how they tie together with the book, and know that the experience will be enriched by repeat exposure.</p>
-<p>This proshot isn't of the original Broadway cast -- but I don't think there is any recording of that. I was skeptical about this recording at first because it's staged with the actors also playing instruments. But it's actually kind of a cool setup, and the actors are great actors. It's also a very simple set compared to the original, based on what I briefly read, and I haven't looked at what the original looked like, but I think this version came through well. It was elegant. The story came to life even on the simple stage.</p>
-<p>I saw many comments praising this recording, and particularly Raúl Esparza's performance. I see it. Raúl was fantastic. He <em>is</em> the character to me -- he embodies it that well.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></p>
-<p>Regarding the plot/story, I found the character of Bobby appealing and could relate in some ways to his uncertainty about relationships. Actually, if I think about it, I can relate in major ways - at the time of watching this, I am single and have never been in a long-term relationship, and most of my friends in a specific friend group of mine <em>are</em> in long-term relationships. Though I don't think I'm in the same mental place that Bobby was in, the connection to myself kept me engaged with the show, making me wonder what the resolution would be. I'm curious to see if my interpretation and connection changes as I re-listen to the soundtrack, now and over the years.</p>
-<p>I like that this is a whole musical about a somewhat subtle shift in a character's mental world. It goes to show how much you can dive into any small subject.</p>
-<h2 id="unstructured-thoughts" tabindex="-1">Unstructured thoughts</h2>
-<ul>
-<li>Thoughts on a couple songs
-<ul>
-<li>Another Hundred People - I liked the effect of dialogue interspersed between choruses</li>
-<li>Getting Married Today - FAST lyrics</li>
-</ul>
-</li>
-<li>It's a non-linear show. I like it.</li>
-<li>Some moments of really good storytelling -- praise to the book. Specifically noted this for the butterfly and baby-oil stories.</li>
-<li>Natural comedy - doesn't feel like forced jokes. It's situational comedy, done well.</li>
-</ul>
-<h2 id="more-lines-that-stood-out-to-me" tabindex="-1">More lines that stood out to me</h2>
-<ul>
-<li>&quot;You're a terribly attractive man. The kind of man most women want but never seen to get&quot;</li>
-<li>&quot;Someone force me to care&quot;</li>
-</ul>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>(Tonys? Tony's? Tonys'? Tonies.) <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>(But often any first exposure to a show would make me say that for any and all characters -- but I sense he plays it especially well. It feels natural, like he is really the character and not an actor playing a character. When the metaphorical curtain rises and the no-longer-character actors bow, I find myself saying, &quot;oh, could it be possible that this person does not actually fully embody the elements of the character from this show?&quot; and then I blink and remember that this person is just doing a job and they are just really good at that job) - what I'm saying is that he's a good actor. (But for all I know, Esparza does fully embody the character in his real life. Shrug. The mysteries of acting.) <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
 </main>
 <aside>
 <div class="sidebar">
@@ -850,39 +1000,10 @@ CTRL + K
 <span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i icon-name="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
 </div>
 </div>
-<div class="toc">
-<div class="toc-title-container">
-<div class="toc-title">
-On this page
-</div>
-</div>
-<div class="toc-container">
-<nav class="toc">
-<ol>
-<li><a href="#some-facts">Some facts</a>
-</li>
-<li><a href="#watching-the-2006-raul-esparza-proshot">Watching the 2006 Raúl Esparza proshot</a>
-<ol>
-<li><a href="#what-led-up-to-this">What led up to this</a>
-</li>
-<li><a href="#what-is-this-show-about">What is this show about</a>
-</li>
-<li><a href="#overall-thoughts">Overall thoughts</a>
-</li>
-<li><a href="#unstructured-thoughts">Unstructured thoughts</a>
-</li>
-<li><a href="#more-lines-that-stood-out-to-me">More lines that stood out to me</a>
-</li>
-</ol>
-</li>
-</ol>
-</nav>
-</div>
-</div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/media-i-have-consumed/movies/eternity-2025/#backlink-to-media-i-have-consumed-theater-company-a-musical-comedy-sondheim-1970" data-note-icon="" class="backlink">Eternity (2025)</a>
-</div><div class="backlink-card"><i icon-name="link"></i><a href="/media-i-have-consumed/theater/pen-pals-by-michael-griffo-2025/#backlink-to-media-i-have-consumed-theater-company-a-musical-comedy-sondheim-1970" data-note-icon="" class="backlink">Pen Pals by Michael Griffo (2025)</a>
+<div class="backlink-list"><div class="backlink-card">
+<span class="no-backlinks-message">No other pages mentions this page</span>
 </div></div>
 </div>
 </div>
