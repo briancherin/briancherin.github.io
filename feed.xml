@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2026-04-21T22:46:39Z</updated>
+    <updated>2026-04-21T23:00:50Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -2432,6 +2432,281 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
 
             </content>
             <link href="https://briancherin.github.io/lifestyle/cooking/on-cooking-veganism-and-whole-food-plant-based-diet/" />
+        </entry>
+        <entry>
+            <title>
+                AI-Assisted Meal Planning
+                
+            </title>
+            <updated>2026-04-21T23:00:30.165Z</updated>
+            <id>https://briancherin.github.io/lifestyle/cooking/ai-assisted-meal-planning/</id>
+            <content type="html">
+                &lt;p&gt;It&#39;s April of 2026 and I feel like my cooking habits have not changed much in the past few years. I feel that meal planning/prepping is an underdeveloped area in my life right now. I often find myself scrambling to make last-minute meals because I don&#39;t have anything prepped. I have common staple meals that I rely on and often do make large batches of them which last for several days -- but I go in cycles of feeling like I&#39;m doing a good job with this, and then drift off into bad habits of not having things prepared.&lt;/p&gt;
+&lt;p&gt;The last time I was really thinking hard about it, I worked on a project that I thought might help me to do better -- &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/mini-projects/gpt-meal-planner/&quot;&gt;GPT Meal Planner&lt;/a&gt;. It didn&#39;t get me very far (more my fault than the tech&#39;s fault).&lt;/p&gt;
+&lt;p&gt;This has again been nagging at me a little bit lately. It feels like I should be doing better. I feel that I often don&#39;t devote enough time to work on this area.&lt;/p&gt;
+&lt;p&gt;I vaguely know and understand how to make improvement in this area: Take some time to think through what meals I want to be eating for the week; take some time on the weekend (or whenever) to do some basic prep of ingredients so that I have bases to work with for weeknight assembly into meals. I sometimes do these things, but I don&#39;t have a consistent plan or proven routine that I know I can follow to make sure I&#39;m doing these things.&lt;/p&gt;
+&lt;p&gt;And I&#39;m not even proposing a plan/routine here necessarily. Though, it could be adapted into one.&lt;/p&gt;
+&lt;p&gt;The first step right now for me? Offloading some of the thinking into AI. Literally I mean getting help from ChatGPT. AI is pretty good at general purpose, common-sense activities/planning.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Here&#39;s an example of what I&#39;m saying. In fact this is just my real input I am trying this with right now.&lt;/p&gt;
+&lt;p&gt;First I roughly listed what significant food items were already in my fridge and pantry. Then I prompted to help me with a meal prep plan for the week which would incorporate what I already had, with additional items I should grab from the store.&lt;/p&gt;
+&lt;p&gt;My prompt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!INFO]- Prompt&lt;br /&gt;
+What&#39;s in the fridge:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;half a cup of mexican black beans&lt;/li&gt;
+&lt;li&gt;a cup of roasted sweet plantains&lt;/li&gt;
+&lt;li&gt;unprocessed bushel of brussels sprouts&lt;/li&gt;
+&lt;li&gt;half an onion&lt;/li&gt;
+&lt;li&gt;a couple tomatoes, some leftover chopped tomatoes&lt;/li&gt;
+&lt;li&gt;quarter block of tofu (opened), several more packs of tofu&lt;/li&gt;
+&lt;li&gt;romaine lettuce&lt;/li&gt;
+&lt;li&gt;tofu shirataki spagetti&lt;/li&gt;
+&lt;li&gt;half can chickpeas&lt;/li&gt;
+&lt;li&gt;Freezer:
+&lt;ul&gt;
+&lt;li&gt;half pack of cajun mock chicken&lt;/li&gt;
+&lt;li&gt;half pack of whole foods vegan meatballs&lt;/li&gt;
+&lt;li&gt;a frozen potato (previously was steamed)&lt;/li&gt;
+&lt;li&gt;frozen roasted potato wedges&lt;/li&gt;
+&lt;li&gt;frozen tempeh sloppy joe&lt;/li&gt;
+&lt;li&gt;frozen pho broth&lt;/li&gt;
+&lt;li&gt;assortment of frozen veg&lt;br /&gt;
+-&amp;gt;pantry:&lt;/li&gt;
+&lt;li&gt;quinoa&lt;/li&gt;
+&lt;li&gt;brown rice ramen&lt;/li&gt;
+&lt;li&gt;soba noodles&lt;/li&gt;
+&lt;li&gt;dried tofu skin&lt;/li&gt;
+&lt;li&gt;brown rice&lt;/li&gt;
+&lt;li&gt;taco shells&lt;/li&gt;
+&lt;li&gt;canned beans&lt;/li&gt;
+&lt;li&gt;pasta&lt;/li&gt;
+&lt;li&gt;bhel puri kit&lt;br /&gt;
+Above is just my scan of my pantry/fridge/freezer -- doesnt mean i have to use all those things. particularly the frozen stuff, can staythere for a while, but also happy to use them. more important is to use the perishable stuff that&#39;s in the fridge. Mostly looking for help planning lunches/dinners. Definitely can grocery shop for additional ingredients. Would be great to do some bulk prepping / reusing of prepped ingredients to reduce proessing/prep time overall (rather than making individual recipes with all diff ingred). I am looking for vegan meals, which are mostly whole-food plant-based, but I am open to introducing some non-wfpb (but still vegan) ingredients to add variety and make for more enjoyable+delicious meals. Also can take some wfpb dessert suggestions for the week (but less emphasis on this than lunch/dinner). I often scramble for last minute meals so I am hoping to get better at meal prepping and having more variety in my meals because they &amp;gt;are often the same easy stuff I know how to do.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Answer:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!INFO]- Answer&lt;/p&gt;
+&lt;h1 id=&quot;monday-prep-core-of-the-week&quot; tabindex=&quot;-1&quot;&gt;Monday Prep (core of the week)&lt;/h1&gt;
+&lt;h2 id=&quot;1-grain&quot; tabindex=&quot;-1&quot;&gt;1. Grain&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Cook &lt;strong&gt;1.5 cups dry quinoa&lt;/strong&gt; (or brown rice)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;2-roasted-veg-sheet-pan&quot; tabindex=&quot;-1&quot;&gt;2. Roasted Veg (sheet pan)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Brussels sprouts&lt;/li&gt;
+&lt;li&gt;½ onion&lt;/li&gt;
+&lt;li&gt;Some tomatoes (if very ripe)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Season:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Oil, salt, pepper&lt;/li&gt;
+&lt;li&gt;Optional: garlic powder, smoked paprika, chili flakes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;3-tofu-protein-base&quot; tabindex=&quot;-1&quot;&gt;3. Tofu (protein base)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Use opened tofu + 1–2 extra packs&lt;/li&gt;
+&lt;li&gt;Cube or slice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Season:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Soy sauce, oil, garlic powder, pepper&lt;/li&gt;
+&lt;li&gt;Optional: smoked paprika / curry powder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bake until firm&lt;/p&gt;
+&lt;h2 id=&quot;4-fresh-prep&quot; tabindex=&quot;-1&quot;&gt;4. Fresh prep&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Chop romaine&lt;/li&gt;
+&lt;li&gt;Dice tomatoes&lt;/li&gt;
+&lt;li&gt;Portion plantains&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;5-sauces-pick-1-2&quot; tabindex=&quot;-1&quot;&gt;5. Sauces (pick 1–2)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Tahini Lemon&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tahini, lemon, water, salt, garlic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Peanut Lime&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Peanut butter, lime, soy sauce, water, ginger/garlic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&quot;grocery-add-ons-high-impact&quot; tabindex=&quot;-1&quot;&gt;Grocery Add-ons (high impact)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Garlic&lt;/li&gt;
+&lt;li&gt;Lemon or lime&lt;/li&gt;
+&lt;li&gt;Scallions&lt;/li&gt;
+&lt;li&gt;Cucumber&lt;/li&gt;
+&lt;li&gt;Carrots&lt;/li&gt;
+&lt;li&gt;Mushrooms&lt;/li&gt;
+&lt;li&gt;Cilantro&lt;/li&gt;
+&lt;li&gt;Avocado&lt;/li&gt;
+&lt;li&gt;Tahini or peanut butter&lt;/li&gt;
+&lt;li&gt;Soy sauce (if low)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Optional:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hummus&lt;/li&gt;
+&lt;li&gt;Salsa&lt;/li&gt;
+&lt;li&gt;Coconut milk&lt;/li&gt;
+&lt;li&gt;Ginger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&quot;meals&quot; tabindex=&quot;-1&quot;&gt;Meals&lt;/h1&gt;
+&lt;h2 id=&quot;monday-dinner&quot; tabindex=&quot;-1&quot;&gt;Monday Dinner&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Taco Bowl&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quinoa&lt;/li&gt;
+&lt;li&gt;Black beans&lt;/li&gt;
+&lt;li&gt;Roasted veg&lt;/li&gt;
+&lt;li&gt;Romaine&lt;/li&gt;
+&lt;li&gt;Tomatoes&lt;/li&gt;
+&lt;li&gt;Plantains&lt;/li&gt;
+&lt;li&gt;Tahini or salsa&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;tuesday-lunch&quot; tabindex=&quot;-1&quot;&gt;Tuesday Lunch&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Big Salad Bowl&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Romaine&lt;/li&gt;
+&lt;li&gt;Tofu&lt;/li&gt;
+&lt;li&gt;Chickpeas&lt;/li&gt;
+&lt;li&gt;Tomatoes&lt;/li&gt;
+&lt;li&gt;Roasted veg&lt;/li&gt;
+&lt;li&gt;Quinoa&lt;/li&gt;
+&lt;li&gt;Tahini dressing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;tuesday-dinner&quot; tabindex=&quot;-1&quot;&gt;Tuesday Dinner&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Peanut Tofu Soba&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Soba noodles&lt;/li&gt;
+&lt;li&gt;Tofu&lt;/li&gt;
+&lt;li&gt;Roasted veg&lt;/li&gt;
+&lt;li&gt;Mushrooms/carrots (if bought)&lt;/li&gt;
+&lt;li&gt;Peanut sauce&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;wednesday-lunch&quot; tabindex=&quot;-1&quot;&gt;Wednesday Lunch&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Tacos&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Taco shells&lt;/li&gt;
+&lt;li&gt;Beans or tofu&lt;/li&gt;
+&lt;li&gt;Romaine&lt;/li&gt;
+&lt;li&gt;Tomatoes&lt;/li&gt;
+&lt;li&gt;Onion&lt;/li&gt;
+&lt;li&gt;Plantains (side or inside)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;wednesday-dinner&quot; tabindex=&quot;-1&quot;&gt;Wednesday Dinner&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Pho-ish Soup&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Frozen pho broth&lt;/li&gt;
+&lt;li&gt;Brown rice ramen&lt;/li&gt;
+&lt;li&gt;Tofu / tofu skin&lt;/li&gt;
+&lt;li&gt;Frozen veg&lt;/li&gt;
+&lt;li&gt;Mushrooms (optional)&lt;/li&gt;
+&lt;li&gt;Lime, scallions, cilantro (if bought)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;thursday-lunch&quot; tabindex=&quot;-1&quot;&gt;Thursday Lunch&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Shirataki Bowl&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tofu shirataki spaghetti&lt;/li&gt;
+&lt;li&gt;Tomatoes + onion (quick sauté)&lt;/li&gt;
+&lt;li&gt;Chickpeas or tofu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;thursday-dinner&quot; tabindex=&quot;-1&quot;&gt;Thursday Dinner&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Cajun Bowl&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quinoa/rice&lt;/li&gt;
+&lt;li&gt;Cajun mock chicken&lt;/li&gt;
+&lt;li&gt;Veg&lt;/li&gt;
+&lt;li&gt;Romaine&lt;/li&gt;
+&lt;li&gt;Avocado or lime&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;friday-lunch&quot; tabindex=&quot;-1&quot;&gt;Friday Lunch&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Leftover Bowl&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Remaining grain&lt;/li&gt;
+&lt;li&gt;Tofu&lt;/li&gt;
+&lt;li&gt;Beans&lt;/li&gt;
+&lt;li&gt;Roasted veg&lt;/li&gt;
+&lt;li&gt;Romaine&lt;/li&gt;
+&lt;li&gt;Sauce&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;friday-dinner&quot; tabindex=&quot;-1&quot;&gt;Friday Dinner&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Chickpea Tomato Pasta&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pasta&lt;/li&gt;
+&lt;li&gt;Tomatoes&lt;/li&gt;
+&lt;li&gt;Garlic&lt;/li&gt;
+&lt;li&gt;Chickpeas&lt;/li&gt;
+&lt;li&gt;Optional: chili flakes, nutritional yeast&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;saturday-dinner&quot; tabindex=&quot;-1&quot;&gt;Saturday Dinner&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Vegan Meatballs&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;With roasted potatoes OR pasta&lt;/li&gt;
+&lt;li&gt;Side salad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;sunday-dinner&quot; tabindex=&quot;-1&quot;&gt;Sunday Dinner&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Tempeh Sloppy Joe&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Over rice/potato OR in taco shells&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&quot;fallback-quick-meals&quot; tabindex=&quot;-1&quot;&gt;Fallback Quick Meals&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Ramen + pho broth + frozen veg + tofu&lt;/li&gt;
+&lt;li&gt;Taco shells + beans + romaine + tomato&lt;/li&gt;
+&lt;li&gt;Quinoa + tofu + veg + sauce&lt;/li&gt;
+&lt;li&gt;Soba + peanut sauce + tofu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&quot;midweek-reset-thu-fri&quot; tabindex=&quot;-1&quot;&gt;Midweek Reset (Thu/Fri)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Cook more grain if needed&lt;/li&gt;
+&lt;li&gt;Refresh greens&lt;/li&gt;
+&lt;li&gt;Make another sauce&lt;/li&gt;
+&lt;li&gt;Pull 1 freezer meal into rotation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&quot;wfpb-desserts&quot; tabindex=&quot;-1&quot;&gt;WFPB Desserts&lt;/h1&gt;
+&lt;h2 id=&quot;stuffed-dates&quot; tabindex=&quot;-1&quot;&gt;Stuffed Dates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Dates + peanut butter or tahini&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;banana-oat-cookies&quot; tabindex=&quot;-1&quot;&gt;Banana Oat Cookies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Banana + oats + cinnamon (+ raisins optional)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;warm-apples&quot; tabindex=&quot;-1&quot;&gt;Warm Apples&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Apples + cinnamon&lt;/li&gt;
+&lt;li&gt;Optional: peanut butter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;chia-pudding-if-available&quot; tabindex=&quot;-1&quot;&gt;Chia Pudding (if available)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Chia + plant milk + fruit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&quot;core-strategy&quot; tabindex=&quot;-1&quot;&gt;Core Strategy&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Reuse: &lt;strong&gt;grain + roasted veg + tofu + sauce&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Mix formats: bowls, tacos, noodles, soup&lt;/li&gt;
+&lt;li&gt;Add 1–2 new flavors (peanut / tahini) to avoid repetition&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Do I expect to follow this exactly? No, definitely not. Also this week I&#39;m failing because I am already behind on listening to what it told me to prep. But I like what it&#39;s telling me. I like the ideas that it&#39;s giving, and the habits I could develop from this. Some of it is obvious. Yes, I know that to prep, I should roast vegetables and tofu. But it&#39;s helping to fill in some gaps - certain ingredients to buy that I normally wouldn&#39;t think to unless a specific recipe called for (cilantro, green onions). It just feels helpful to have some instructions given to me.&lt;/p&gt;
+&lt;p&gt;Obviously I have to give this a try. But it&#39;s something. The real work has to come from me, of course. But AI can give some scaffolding to support me while learning how to do better.&lt;/p&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/lifestyle/cooking/ai-assisted-meal-planning/" />
         </entry>
         <entry>
             <title>
