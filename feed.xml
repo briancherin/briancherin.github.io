@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2026-04-21T23:00:50Z</updated>
+    <updated>2026-04-27T13:54:13Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -948,11 +948,11 @@ Reading on: 3/29/2026&lt;/p&gt;
                 Obsidian Setup
                 
             </title>
-            <updated>2025-12-13T17:10:40.794Z</updated>
+            <updated>2026-04-27T13:53:45.464Z</updated>
             <id>https://briancherin.github.io/meta/obsidian-setup/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#obsidian&quot;&gt;#obsidian&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Most of the setup for this blog is handled by the  &lt;a href=&quot;https://github.com/oleeskild/Obsidian-Digital-Garden&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Obsidian Digital Garden plugin&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Most of the setup for this blog is handled by the  &lt;a href=&quot;https://github.com/oleeskild/Obsidian-Digital-Garden&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Obsidian Digital Garden plugin&lt;/a&gt; (specifically I used &lt;a href=&quot;https://github.com/foxblock/digitalgarden_gh-pages&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;this&lt;/a&gt; fork of it which made it easy to publish via Github Pages.&lt;/p&gt;
 &lt;p&gt;My current theme from the Obsidian Digital Garden theme library is &amp;quot;Blue Topaz&amp;quot;.&lt;/p&gt;
 &lt;h4 id=&quot;webpage-footer&quot; tabindex=&quot;-1&quot;&gt;Webpage footer&lt;/h4&gt;
 &lt;p&gt;Following the &lt;a href=&quot;https://dg-docs.ole.dev/advanced/adding-custom-components&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;custom components&lt;/a&gt; guide for the DG plugin, I added the link to my feedback form using a footer component which I manually added in &lt;code&gt;src/site/_includes/components/user/notes/footer/feedback-form.njk&lt;/code&gt; (&lt;a href=&quot;https://github.com/briancherin/briancherin.github.io/blob/main/src/site/_includes/components/user/notes/footer/feedback-form.njk&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;github link&lt;/a&gt;)&lt;/p&gt;
