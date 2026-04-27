@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/meta/obsidian-setup/","created":"2025-12-08T19:14:35.836-05:00","updated":"2026-04-27T09:53:45.464-04:00"}
+{"dg-publish":true,"permalink":"/meta/obsidian-setup/","created":"2025-12-08T19:14:35.836-05:00","updated":"2026-04-27T17:07:51.559-04:00"}
 ---
 
 #obsidian 
 
-Most of the setup for this blog is handled by the  [Obsidian Digital Garden plugin](https://github.com/oleeskild/Obsidian-Digital-Garden) (specifically I used [this](https://github.com/foxblock/digitalgarden_gh-pages) fork of it which made it easy to publish via Github Pages.
+Most of the setup for this blog is handled by the  [Obsidian Digital Garden plugin](https://github.com/oleeskild/Obsidian-Digital-Garden) (specifically I used [this](https://github.com/foxblock/digitalgarden_gh-pages) fork of it which made it easy to publish via Github Pages).
 
 My current theme from the Obsidian Digital Garden theme library is "Blue Topaz".
 
