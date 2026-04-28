@@ -300,30 +300,47 @@ function buildItemFromGit(range, file, mode, maxLines) {
 
 function buildFromGit(days, mode, maxLines) {
   const sinceIso = new Date(Date.now() - days * 24 * 60 * 60 * 1000).toISOString();
+  console.log(`[newsletter] now=${new Date().toISOString()} days=${days} since=${sinceIso}`);
+
   let base = runGit(["rev-list", "-1", `--before=${sinceIso}`, "HEAD"], true);
+  console.log(`[newsletter] base_before_since=${base || "(none)"}`);
   if (!base) {
     base = runGit(["rev-list", "--max-parents=0", "HEAD"], true)
       .split(/\r?\n/)
       .filter(Boolean)[0];
+    console.log(`[newsletter] fallback_root_base=${base || "(none)"}`);
   }
   if (!base) {
+    console.log("[newsletter] no commits found in repository history.");
     return { windowStart: `${days} days ago`, windowEnd: "now", items: [] };
   }
 
   const range = `${base}..HEAD`;
+  console.log(`[newsletter] range=${range}`);
   const windowStart = runGit(["show", "-s", "--format=%cI", base], true) || `${days} days ago`;
   const windowEnd = runGit(["show", "-s", "--format=%cI", "HEAD"], true) || "now";
+  console.log(`[newsletter] window_start=${windowStart} window_end=${windowEnd}`);
 
   const files = runGit(["diff", "--name-only", "--diff-filter=AM", range], true)
     .split(/\r?\n/)
     .filter(Boolean)
     .filter((p) => p.startsWith(NOTES_PREFIX) && p.endsWith(".md"));
+  console.log(`[newsletter] changed_note_files=${files.length}`);
+  if (files.length > 0) {
+    for (const file of files.slice(0, 20)) {
+      console.log(`[newsletter] note_file=${file}`);
+    }
+    if (files.length > 20) {
+      console.log(`[newsletter] note_file_more=${files.length - 20}`);
+    }
+  }
 
   const items = [];
   for (const file of files) {
     const item = buildItemFromGit(range, file, mode, maxLines);
     if (item) items.push(item);
   }
+  console.log(`[newsletter] items_with_diff=${items.length}`);
 
   return { windowStart, windowEnd, items };
 }
