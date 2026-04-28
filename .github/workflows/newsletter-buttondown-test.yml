@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -24,10 +26,31 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Debug recent note commits
+        shell: bash
+        run: |
+          echo "UTC now: $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          echo "Recent note commits (last 7 days):"
+          git log --since="7 days ago" --name-only --pretty=format:"%H %cI" -- src/site/notes | sed '/^$/d' | head -n 120
+
       - name: Build weekly newsletter HTML
         run: node scripts/build-newsletter-diff.js --days=7 --mode=rendered
 
+      - name: Read newsletter metadata
+        id: newsletter_meta
+        shell: bash
+        run: |
+          cat dist/newsletter-meta.json
+          ITEMS_COUNT=$(node -e "const fs=require('fs'); const m=JSON.parse(fs.readFileSync('dist/newsletter-meta.json','utf8')); process.stdout.write(String(m.itemsCount ?? 0));")
+          echo "items_count=$ITEMS_COUNT" >> "$GITHUB_OUTPUT"
+          echo "Detected items_count=$ITEMS_COUNT"
+
       - name: Send Buttondown draft preview
+        if: steps.newsletter_meta.outputs.items_count != '0'
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
         run: node scripts/send-buttondown-test.js --recipient="${{ inputs.recipient_email }}"
+
+      - name: Skip send (no updates)
+        if: steps.newsletter_meta.outputs.items_count == '0'
+        run: echo "No note updates in window. Email not sent."
