@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>What&#39;s Up</title>
+<title>Why do vegans want imitation meat?</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -266,7 +266,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/lifestyle/veganism/why-do-vegans-want-imitation-meat/">Why do vegans want imitation meat? </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/lifestyle/veganism/why-do-vegans-want-imitation-meat/">Why do vegans want imitation meat? </a>
 </div>
 </div>
 </div>
@@ -570,7 +570,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/misc/whats-up/">What&#39;s Up </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/misc/whats-up/">What&#39;s Up </a>
 </div>
 </div>
 </div>
@@ -721,26 +721,42 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2026-04-28T03:04:09.986Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2026-04-28T03:04:09.986Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2026-04-28T03:04:09.986Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">What&#39;s Up</h1>
+<h1 data-note-icon="">Why do vegans want imitation meat?</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
 <div class="timestamps">
-<script>console.log("showCreated: " + true + ", created: " + 2026-04-09T19:59:21.983-04:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2026-04-09T19:59:21.983-04:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2026-04-27T21:35:27.359-04:00"></span></div></div></div>
+<script>console.log("showCreated: " + true + ", created: " + 2026-04-27T21:50:38.573-04:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2026-04-27T21:50:38.573-04:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2026-04-27T23:03:44.943-04:00"></span></div></div></div>
 </header>
 <div class="note-folder-path align-icon">
 <i icon-name="folder"></i>
-<span class="note-folder-trail"><i>Misc</i></span>
+<span class="note-folder-trail"><i>Lifestyle &gt; Veganism</i></span>
 </div>
-<p>What's up. What's going on. What am I doing, reading, interesting stuff to share that I don't feel like making a separate page for. Kind of a duplicate of <a class="internal-link" target data-note-icon href="/misc/random-snippets/" id="backlink-to-misc-random-snippets">Random Snippets</a>, not sure which will prevail. Also I don't expect myself to keep this super regularly updated or at all comprehensive of my activity - but it's a place to put stuff that I find noteworthy.</p>
-<h3 id="april-2026" tabindex="-1">April 2026</h3>
-<ul>
-<li>Listened to part of an episode of the podcast called &quot;Sceptic's Guide to the Universe&quot; (episode <a class="tag" onclick="toggleTagSearch(this)" data-content="#1079">#1079</a>). I've been following this podcast for a while but never listened to an episode. I like it. More of a conversation about different topics, with an intellectual/academic tone. e.g. this episode jumped from discussing a) hygiene during medieval times, b) a logical fallacy called &quot;fundamental attribution error&quot;, c) agricultural science related to photosynthesis. (And that was just barely half of the episode.) Long episodes. I have a feeling I'll be listening to this podcast more often.</li>
-<li>Another podcast I've been listening to (on walks) is &quot;The Bowery Boys&quot;, which covers interesting tidbits of NYC history. Listened to 1) about the construction of an underwater railway across the Hudson River, 2) about the 'scandal' surrounding Robert Ray Hamilton (grandson of Alexander Hamilton), 3) about the Great Fire of 1835 which destroyed hundreds of buildings, 4) about the Ellis Island processing center and hospital. All very interesting listens.</li>
-<li>Saw <a class="internal-link" target data-note-icon href="/media-i-have-consumed/theater/mini-theater-reviews/#the-lost-boys-2026" id="backlink-to-media-i-have-consumed-theater-mini-theater-reviews">The Lost Boys</a> (musical) on Broadway</li>
-<li>Listened to the new Foo Fighters album (&quot;Your Favorite Toy&quot;) and I liked it after listening through once. I just read some threads on reddit of people's reactions, and it seems people are underwhelmed at it. I think I can see why, but I still enjoyed the listen and would listen to the songs again. For what it's worth, my exposure to Foo Fighters is pretty much only the album &quot;Wasting Light&quot; and even looking at the track list from that, the only songs that are close to my heart are &quot;These Days&quot; (probably my most-listened-to song of theirs) and &quot;Arlandria&quot;. I indeed should explore their stuff more. Anyway, the new album felt similar to what I knew their sound to be from Wasting Light, in a good way, so it makes sense that I liked it.</li>
-<li>I obtained a free book called &quot;The Marquis de Sade: the complete Justine / Philosophy in the bedroom / and other writings&quot;. I selected it because it seemed it could be an interesting philosophy book to have on my bookshelf of physical books that I barely (but sometimes!) look at (because I'm an e-book guy through and through). I just now read the Forward to the book, and this Sade guy seems to be pretty interesting. Apparently a masterful writer who was ostracized (maybe?) and jailed (for some reason) and wrote a lot, almost with the intention of seeing how far he could push the limits of ideas that go against all societal norms. I'm almost scared to see what that means, but I'm also intrigued. I get a kick out of people going against the grain (but I get the feeling this may go waaaay farther than what is probably my own wholesome version of &quot;going against the grain&quot;, so I'm definitely not trying to make any claims about his work before I have any idea what it contains). Not sure if or when I will read more of this, but it will be on my shelf, with mysteries to be discovered.</li>
-</ul>
+<p>(I've been vegan since ~2020.)</p>
+<p>This question comes up sometimes. Vegans don't want to eat animal products, so why do they want to eat something that looks/tastes like animal products?</p>
+<p>There could be several ways to answer this. Let me try to answer it in a slightly abstract way that is a breakdown of my instinctual thoughts.</p>
+<p>What really is the experience of eating a particular food item? I'd say there's two main parts:</p>
+<ol>
+<li>The intangibles -- the culture around the food item, the people you usually share it with, your own experiences and associations with the food item, and facts of the food item related to how it was made and where it came from, and its impact on your health.</li>
+<li>The direct tangible experience -- the flavor/taste of the food, its appearance, its texture, its smell. Everything related to your sensory experience of the food while (or before) you eat it.</li>
+</ol>
+<p>Allow me to briefly imagine a hypothetical vegan person and a part of their journey. Imagine they spent much of their life enjoying a particular non-vegan, animal-based product. Most vegan substitutes or recipes could fit as an example here -- we could talk about direct meat (e.g. ground beef, replaced with imitation ground beef e.g. from the Impossible or Beyond brands) or a more complex recipe (like a lasagna made with vegan cheese instead of dairy cheese).</p>
+<p>Suddenly (or gradually) this person<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> becomes vegan, and they give up this food item. If we're talking about &quot;vegan&quot; in the strict sense of the term (as it is generally understood), then it means the person likely became vegan due to ethical concerns related to animal agriculture and the treatment of animals, and came to a decision to not put their money towards people/corporations that promote and directly cause suffering and death to animals when it is not necessary to do so to maintain a fully healthy human diet. The person likely came to the realization that the brief pleasure they experience upon consuming animal products does not justify the amount of suffering that the animal experienced throughout its lifetime, the pain of its death, and the shortening of the animal's normal lifespan, in order for the person to have that food experience.</p>
+<p>The person likely feels that they made the right decision to move away from animal products.</p>
+<p>Yet, when thinking about the experience of food, the reasons for going vegan only touch one part of the list of food-related experiences we described above (the intangibles of where the food came from what had to happen for it to get to your plate).</p>
+<p>There is so much more to the experience of these food items that they used to enjoy before they decided to go vegan and give them up. Appreciation (and cravings!) for the flavors and textures of that food don't just disappear. The person may miss eating the food, even though they rationally understand why they've given it up and feel good about continuing to do so.</p>
+<p><strong>Vegan substitutes, including mock/imitation meats, can provide the familiar flavors and textures which the person enjoyed, without carrying the background of harm and suffering toward animals which are the reasons the person stopped eating the animal-sourced items.</strong></p>
+<p>Are the imitations always perfect, or even great (or even good)? Well, sometimes the imitations can be pretty good, and dare I say indistinguishable from the animal counterpart<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>. And sometimes the imitations are not great, or even straight up bad-tasting or just a poor imitation of what they're claiming to imitate. To an extent, the merit of an imitation is up to personal taste, and also I feel a more productive outlook of poor imitations would be to consider the evolving nature of food science and recipe exploration (the imitations will get better and better) rather than taking it to mean that imitations are inherently bad-tasting.</p>
+<p>Additionally, regarding the intangible experiences of the culture around the food item and the people you share it with -- it can be challenging for a vegan to find themselves suddenly displaced from these cultural and social associations. Suddenly they may no longer feel comfortable partaking in the food-based gatherings their friends or family hold. A vegan substitute can help get them a little closer to the experience they are fond of partaking in.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>Note: I'm kind of describing this &quot;hypothetical vegan person&quot; in terms of an archetype that I feel is likely pretty common; but it may not reflect the experience/journey of every vegan person. Also worth noting, in this case I'm mainly talking about someone who for a substantial part of their life has <em>not</em> been vegan, and then becomes vegan, such that they have memories of non-vegan products to reflect on and perhaps &quot;miss&quot; the experience of. Though, this topic also applies to vegans-since-birth (or for most of their life), who I'm sure also can appreciate the variety of textures/flavors that imitation meat products may offer. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>one case in point that gets pretty close could be mock chicken nuggets.... Animal nuggets are so heavily processed that, well, heavily processed mock meat doesn't get too far off. Note that I'm not making commentary on here on healthiness of either group of items. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 </main>
 <aside>
 <div class="sidebar">
@@ -771,21 +787,6 @@ CTRL + K
 <div x-effect="window.graph = renderLocalGraph(graphData, depth, fullScreen)" id="link-graph"></div>
 <div x-show="showFullGraph" id="full-graph" class="show" style="display:none">
 <span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i icon-name="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
-</div>
-</div>
-<div class="toc">
-<div class="toc-title-container">
-<div class="toc-title">
-On this page
-</div>
-</div>
-<div class="toc-container">
-<nav class="toc">
-<ol>
-<li><a href="#april-2026">April 2026</a>
-</li>
-</ol>
-</nav>
 </div>
 </div>
 <div class="backlinks">
