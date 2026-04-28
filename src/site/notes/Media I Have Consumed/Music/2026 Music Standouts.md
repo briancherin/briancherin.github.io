@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/music/2026-music-standouts/","created":"2026-04-28T17:39:21.332-04:00","updated":"2026-04-28T17:51:08.092-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/music/2026-music-standouts/","created":"2026-04-28T17:39:21.332-04:00","updated":"2026-04-28T17:51:19.924-04:00"}
 ---
 
 This should be like [[Interests/Music/2025 Music Retrospective\|2025 Music Retrospective]] but more as the year goes on rather than one burst at the end (though I may reflect at the end).
@@ -15,4 +15,4 @@ Mostly taking this from my playlist called "Stepping Forward Briskly"
 - "Waitsgiving" (album) by Fishboy
 - "Fantasy Memorial" (album) by Dinosaur Feathers
 - "Bangs" and "Dropped" (both albums) by Brick+Mortar
-	- Not as deeply familiar with this one, but I like the sound and lyrics. No standout songs on mind, but there are definitely some that I've been hearing over and over again and have grown to appreciate.
+	- Haven't (yet?) gotten as deeply familiar with this one, but I like the sound and lyrics. No standout songs on mind, but there are definitely some that I've been hearing over and over again and have grown to appreciate.
