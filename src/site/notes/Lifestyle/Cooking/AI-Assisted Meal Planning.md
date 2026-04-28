@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/cooking/ai-assisted-meal-planning/","created":"2026-04-21T00:01:24.988-04:00","updated":"2026-04-28T09:07:02.518-04:00"}
+{"dg-publish":true,"permalink":"/lifestyle/cooking/ai-assisted-meal-planning/","created":"2026-04-21T00:01:24.988-04:00","updated":"2026-04-28T14:19:58.334-04:00"}
 ---
 
 It's April of 2026 and I feel like my cooking habits have not changed much in the past few years. I feel that meal planning/prepping is an underdeveloped area in my life right now. I often find myself scrambling to make last-minute meals because I don't have anything prepped. I have common staple meals that I rely on and often do make large batches of them which last for several days -- but I go in cycles of feeling like I'm doing a good job with this, and then drift off into bad habits of not having things prepared.
@@ -256,7 +256,7 @@ Do I expect to follow this exactly? No, definitely not. Also this week I'm faili
 
 Obviously I have to give this a try. But it's something. The real work has to come from me, of course. But AI can give some scaffolding to support me while learning how to do better.
 
-##### Commentary after a week or so of this
+##### Commentary after a week or kind of following the generated plan
 - Started off kind of slow, since I generated the plan on a Monday (?) morning, so I was already bogged down with work before I could really start the prep. Ideally the base prep (or at least parts of it) would happen on the weekend (probably Sunday or I guess whenever I have time) so I have the base to work with.
 - Despite the slow start, once I had done the first wave of prep, it was actually feeling pretty good. e.g. had marinated + roasted tofu, had roasted a platter of vegetables, and had bought nice toppings that I usually wouldn't think to buy, like cilantro and green onions. It was also nice to have a dressing/sauce prepared (e.g. tahini+lime+spices) which I could add on top of bowls, because I usually either have no particular ready-made sauce like that to use.
 - By mid-week, though, I had used up a bunch of the bases that I already had, and used up most of the prepped stuff I had made, and I felt a little lost (or rather, not lost, but back to my default way of figuring things out and day-by-day figuring out meals). I did another followup prompt to Chatgpt with an updated list of what food I had available, and I'm not sure why, but the response fell short. Possibly, this is because I still had small bits of stuff I had prepped and it was focusing on how I could use it up. But I think I wanted it to focus on a slightly longer-term vision of creating a new bulk meal from scratch (e.g. some bean recipe) that would serve as some prep for going ahead even into the next week perhaps, or as something to freeze part of so that I have a reserve meal for some future week. I still believe AI can be a useful tool for this (even though it didn't hit home at this mid-week moment) but it would definitely need some more fine tuning to get out of it what I'm really looking for. 
