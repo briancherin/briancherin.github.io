@@ -1,6 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/veganism/why-do-vegans-want-imitation-meat/","title":"Why do vegans want imitation meat?","created":"2026-04-27T21:50:38.573-04:00","updated":"2026-04-27T23:03:44.943-04:00"}
+{"dg-publish":true,"permalink":"/lifestyle/veganism/why-do-vegans-want-imitation-meat/","title":"Why do vegans want imitation meat?","created":"2026-04-27T21:50:38.573-04:00","updated":"2026-04-27T23:04:29.788-04:00"}
 ---
+
+#veganism 
 
 (I've been vegan since ~2020.)
 

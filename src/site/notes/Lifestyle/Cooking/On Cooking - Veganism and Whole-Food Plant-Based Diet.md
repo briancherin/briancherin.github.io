@@ -1,6 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/cooking/on-cooking-veganism-and-whole-food-plant-based-diet/","created":"2025-12-17T13:54:53.493-05:00","updated":"2026-04-13T20:48:27.956-04:00"}
+{"dg-publish":true,"permalink":"/lifestyle/cooking/on-cooking-veganism-and-whole-food-plant-based-diet/","created":"2025-12-17T13:54:53.493-05:00","updated":"2026-04-27T23:05:02.968-04:00"}
 ---
+
+#veganism 
 
 I'm vegan. I approached this from a health-perspective first (WFPB), which led to a gradual transition to eating more plant based foods. Then I learned about the ethical philosophies behind resisting animal exploitation and went fully strict on following veganism.
 
@@ -47,7 +49,7 @@ Is your mind open to some ideas that might be different than what you're used to
 
 I'm not saying the answer should be 100% for sure one way or the other for you. But I do request, when you have the capacity to, to learn about the reasons for veganism, to question the norm, to fully and deeply engage with the issue and the discussion, and to have an open mind to the possibility of adjusting your course, if it makes sense to you to do so.
 
-This is not a fully-fleshed argument for veganism. Mainly I wanted to discuss my mindset around cooking. It's inevitably tied to the vegan discussion though.
+This is not a fully-fleshed argument for veganism (see other posts tagged with #veganism for more discussion). Mainly I wanted to discuss my mindset around cooking. It's inevitably tied to the vegan discussion though.
 
 ### Resources about veganism and WFPB
 Since we're here, then, some resources:
