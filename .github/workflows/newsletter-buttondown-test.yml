@@ -1,0 +1,33 @@
+name: Newsletter Test (Buttondown)
+
+on:
+  workflow_dispatch:
+    inputs:
+      recipient_email:
+        description: "Email to receive the test newsletter"
+        required: true
+        type: string
+
+jobs:
+  send-test:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build weekly newsletter HTML
+        run: node scripts/build-newsletter-diff.js --days=7 --mode=rendered
+
+      - name: Send Buttondown draft preview
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: node scripts/send-buttondown-test.js --recipient="${{ inputs.recipient_email }}"
