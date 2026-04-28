@@ -9,6 +9,7 @@ const REPO_ROOT = process.cwd();
 const OUTPUT_DIR = path.join(REPO_ROOT, "dist");
 const OUTPUT_FILE = path.join(OUTPUT_DIR, "newsletter-weekly-email.html");
 const OUTPUT_COMPAT_FILE = path.join(OUTPUT_DIR, "newsletter-weekly-preview.html");
+const OUTPUT_META_FILE = path.join(OUTPUT_DIR, "newsletter-meta.json");
 const NOTES_PREFIX = "src/site/notes/";
 const DEFAULT_DAYS = 7;
 const DEFAULT_MAX_LINES = 120;
@@ -473,13 +474,24 @@ function main() {
     ? buildFromJson(inputPath, mode, maxLines)
     : buildFromGit(days, mode, maxLines);
   const html = renderHtml(model, days, mode, maxLines, includeDebug);
+  const meta = {
+    generatedAt: new Date().toISOString(),
+    days,
+    mode,
+    windowStart: model.windowStart,
+    windowEnd: model.windowEnd,
+    itemsCount: model.items.length,
+    outputHtml: path.relative(REPO_ROOT, OUTPUT_FILE),
+  };
 
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   fs.writeFileSync(OUTPUT_FILE, html, "utf8");
   fs.writeFileSync(OUTPUT_COMPAT_FILE, html, "utf8");
+  fs.writeFileSync(OUTPUT_META_FILE, JSON.stringify(meta, null, 2), "utf8");
 
   console.log(`Created ${OUTPUT_FILE}`);
   console.log(`Created ${OUTPUT_COMPAT_FILE}`);
+  console.log(`Created ${OUTPUT_META_FILE}`);
   console.log(`Changed notes in last ${days} days: ${model.items.length}`);
   console.log(`Mode: ${mode}`);
 }
