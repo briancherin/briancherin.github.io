@@ -14,6 +14,7 @@ const NOTES_PREFIX = "src/site/notes/";
 const DEFAULT_DAYS = 7;
 const DEFAULT_MAX_LINES = 120;
 const DEFAULT_MODE = "rendered";
+const DEFAULT_SITE_BASE_URL = "";
 const ALLOWED_MODES = new Set(["rendered", "markdown"]);
 
 const md = new MarkdownIt({
@@ -35,6 +36,25 @@ function hasFlag(name) {
 function toPositiveInt(value, fallback) {
   const n = Number(value);
   return Number.isFinite(n) && n > 0 ? n : fallback;
+}
+
+function normalizeSiteBaseUrl(raw) {
+  if (!raw) return "";
+  let base = String(raw).trim();
+  if (!base) return "";
+  if (!/^https?:\/\//i.test(base)) {
+    base = `https://${base}`;
+  }
+  return base.replace(/\/+$/, "");
+}
+
+function toAbsoluteUrl(urlPath, siteBaseUrl) {
+  const raw = String(urlPath || "").trim();
+  if (!raw) return "";
+  if (/^https?:\/\//i.test(raw)) return raw;
+  if (!siteBaseUrl) return raw;
+  if (raw.startsWith("/")) return `${siteBaseUrl}${raw}`;
+  return `${siteBaseUrl}/${raw}`;
 }
 
 function htmlEscape(s) {
@@ -386,12 +406,13 @@ function buildFromJson(inputPath, mode, maxLines) {
   };
 }
 
-function renderHtml(model, days, mode, maxLines, includeDebug) {
+function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
   const cards = model.items.length
     ? model.items
         .map((item) => {
-          const link = item.meta.permalink
-            ? `<p class="linkrow"><a href="${htmlEscape(item.meta.permalink)}">Read full note</a></p>`
+          const permalink = toAbsoluteUrl(item.meta.permalink, siteBaseUrl);
+          const link = permalink
+            ? `<p class="linkrow"><a href="${htmlEscape(permalink)}">Read full note</a></p>`
             : "";
           const debug = includeDebug
             ? (() => {
@@ -469,15 +490,19 @@ function main() {
   const inputPath = getArg("input");
   const mode = getMode();
   const includeDebug = hasFlag("include-debug");
+  const siteBaseUrl = normalizeSiteBaseUrl(
+    getArg("site-base-url") || process.env.SITE_BASE_URL || DEFAULT_SITE_BASE_URL
+  );
 
   const model = inputPath
     ? buildFromJson(inputPath, mode, maxLines)
     : buildFromGit(days, mode, maxLines);
-  const html = renderHtml(model, days, mode, maxLines, includeDebug);
+  const html = renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl);
   const meta = {
     generatedAt: new Date().toISOString(),
     days,
     mode,
+    siteBaseUrl,
     windowStart: model.windowStart,
     windowEnd: model.windowEnd,
     itemsCount: model.items.length,
