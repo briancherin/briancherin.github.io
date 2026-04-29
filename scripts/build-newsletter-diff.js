@@ -16,6 +16,7 @@ const DEFAULT_MAX_LINES = 120;
 const DEFAULT_MODE = "rendered";
 const DEFAULT_SITE_BASE_URL = "";
 const DEFAULT_TIME_ZONE = "America/New_York";
+const MAX_CHARS_PER_SEGMENT = 420;
 const ALLOWED_MODES = new Set(["rendered", "markdown"]);
 
 const md = new MarkdownIt({
@@ -289,6 +290,17 @@ function renderLineText(text) {
   return md.render(String(text).trim());
 }
 
+function truncateText(text, maxChars = MAX_CHARS_PER_SEGMENT) {
+  const raw = String(text || "").trim();
+  if (raw.length <= maxChars) {
+    return { text: raw, truncated: false };
+  }
+  const sliced = raw.slice(0, maxChars);
+  const cutAt = sliced.lastIndexOf(" ");
+  const safe = (cutAt > Math.floor(maxChars * 0.6) ? sliced.slice(0, cutAt) : sliced).trim();
+  return { text: `${safe}...`, truncated: true };
+}
+
 function formatDate(iso) {
   if (!iso) return "";
   const d = new Date(iso);
@@ -366,10 +378,12 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "") {
               : segment.kind === "removed"
                 ? "padding:8px 10px;border-top:1px solid #e5e7eb;background:#fef2f2;"
                 : "padding:8px 10px;border-top:1px solid #e5e7eb;background:#ffffff;";
+          const truncated = truncateText(segment.text);
           return `<div class="${klass}">
             <div style="${segmentStyle}">
               ${label ? `<div class="seg-label" style="font-size:12px;font-weight:700;line-height:1;margin-bottom:4px;color:#4b5563;">${label}</div>` : ""}
-              <div class="seg-body" style="font-size:14px;line-height:1.6;color:#1f2937;">${renderLineText(segment.text)}</div>
+              <div class="seg-body" style="font-size:14px;line-height:1.6;color:#1f2937;">${renderLineText(truncated.text)}</div>
+              ${truncated.truncated ? '<div style="font-size:12px;color:#6b7280;margin-top:4px;">(truncated)</div>' : ""}
             </div>
           </div>`;
         })
