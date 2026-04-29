@@ -319,8 +319,7 @@ function renderExcerptBlocksHtml(blocks) {
       const segments = buildSegments(block.lines);
       const rows = segments
         .map((segment) => {
-          const label =
-            segment.kind === "added" ? "Added" : segment.kind === "removed" ? "Removed" : "Nearby text";
+          const label = segment.kind === "added" ? "+" : segment.kind === "removed" ? "-" : "•";
           const klass =
             segment.kind === "added"
               ? "seg seg-added"
@@ -329,19 +328,19 @@ function renderExcerptBlocksHtml(blocks) {
                 : "seg seg-context";
           const segmentStyle =
             segment.kind === "added"
-              ? "padding:10px 12px;border-top:1px solid #e5e7eb;background:#ecfdf3;"
+              ? "padding:8px 10px;border-top:1px solid #e5e7eb;background:#ecfdf3;"
               : segment.kind === "removed"
-                ? "padding:10px 12px;border-top:1px solid #e5e7eb;background:#fef2f2;"
-                : "padding:10px 12px;border-top:1px solid #e5e7eb;background:#ffffff;";
+                ? "padding:8px 10px;border-top:1px solid #e5e7eb;background:#fef2f2;"
+                : "padding:8px 10px;border-top:1px solid #e5e7eb;background:#ffffff;";
           return `<div class="${klass}">
             <div style="${segmentStyle}">
-              <div class="seg-label" style="font-size:12px;font-weight:700;letter-spacing:0.02em;margin-bottom:5px;color:#4b5563;text-transform:uppercase;">${label}</div>
+              <div class="seg-label" style="font-size:12px;font-weight:700;line-height:1;margin-bottom:4px;color:#4b5563;">${label}</div>
               <div class="seg-body" style="font-size:14px;line-height:1.6;color:#1f2937;">${renderLineText(segment.text)}</div>
             </div>
           </div>`;
         })
         .join("\n");
-      return `<div class="excerpt-block" style="border:1px solid #e5e7eb;background:#fbfdff;border-radius:8px;margin:10px 0;overflow:hidden;">${rows}</div>`;
+      return `<div class="excerpt-block" style="border:1px solid #e5e7eb;background:#fbfdff;border-radius:6px;margin:8px 0;overflow:hidden;">${rows}</div>`;
     })
     .join("\n");
 }
@@ -472,7 +471,7 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
         .map((item) => {
           const permalink = toAbsoluteUrl(item.meta.permalink, siteBaseUrl);
           const link = permalink
-            ? `<p class="linkrow" style="margin-top:12px;"><a href="${htmlEscape(permalink)}" style="color:#0f5fba;text-decoration:none;font-weight:600;">Read full note</a></p>`
+            ? `<p class="linkrow" style="margin-top:8px;margin-bottom:0;"><a href="${htmlEscape(permalink)}" style="color:#0f5fba;text-decoration:none;font-weight:600;">Read full note</a></p>`
             : "";
           const statusLabel = item.changeType === "new" ? "New note" : "Updated note";
           const changedDate = formatDate(item.changedAt);
@@ -493,9 +492,9 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
             : "";
 
           return `
-<section class="card" style="border-top:1px solid #e5e7eb;padding-top:18px;margin-top:18px;">
-  <h2 style="margin:0 0 8px 0;font-size:22px;line-height:1.3;color:#111827;">${htmlEscape(item.meta.title)}</h2>
-  <p class="meta" style="margin:0 0 10px 0;color:#6b7280;font-size:13px;"><span class="badge" style="display:inline-block;padding:3px 8px;border-radius:999px;background:#e8f0fe;color:#1e40af;font-weight:600;font-size:12px;">${statusLabel}</span>${changedDate ? ` <span class="meta-date" style="color:#6b7280;">· ${changedDate}</span>` : ""}</p>
+<section class="card" style="border-top:1px solid #e5e7eb;padding-top:14px;margin-top:14px;">
+  <h2 style="margin:0 0 6px 0;font-size:20px;line-height:1.3;color:#111827;">${htmlEscape(item.meta.title)}</h2>
+  <p class="meta" style="margin:0 0 8px 0;color:#6b7280;font-size:13px;"><span class="badge" style="display:inline-block;padding:2px 7px;border-radius:999px;background:#e8f0fe;color:#1e40af;font-weight:600;font-size:12px;">${statusLabel}</span>${changedDate ? ` <span class="meta-date" style="color:#6b7280;">· ${changedDate}</span>` : ""}</p>
   ${renderExcerptBlocksHtml(item.excerptBlocks)}
   ${link}
   ${debug}
@@ -511,11 +510,11 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Brian's Corner - Latest Notes</title>
   <style>
-    body { margin: 0; padding: 24px; background: #f2f3f5; color: #1f2937; font-family: Georgia, serif; }
-    .container { max-width: 760px; margin: 0 auto; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 24px; }
-    h1 { margin: 0 0 8px 0; font-size: 30px; }
-    .sub { margin: 0 0 22px 0; color: #4b5563; font-size: 14px; }
-    .card { border-top: 1px solid #e5e7eb; padding-top: 18px; margin-top: 18px; }
+    body { margin: 0; padding: 0; background: #f2f3f5; color: #1f2937; font-family: Georgia, serif; }
+    .container { max-width: 760px; margin: 0 auto; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px; }
+    h1 { margin: 0 0 6px 0; font-size: 26px; }
+    .sub { margin: 0 0 14px 0; color: #4b5563; font-size: 13px; }
+    .card { border-top: 1px solid #e5e7eb; padding-top: 14px; margin-top: 14px; }
     h2 { margin: 0 0 8px 0; font-size: 22px; }
     .meta { margin: 0 0 10px 0; color: #6b7280; font-size: 13px; }
     .badge { display: inline-block; padding: 3px 8px; border-radius: 999px; background: #e8f0fe; color: #1e40af; font-weight: 600; font-size: 12px; }
@@ -540,10 +539,10 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
   </style>
 </head>
 <body>
-  <div style="margin:0;padding:24px;background:#f2f3f5;color:#1f2937;font-family:Georgia,serif;">
-  <div class="container" style="max-width:760px;margin:0 auto;background:#ffffff;border:1px solid #e5e7eb;border-radius:10px;padding:24px;">
-    <h1 style="margin:0 0 8px 0;font-size:30px;line-height:1.2;color:#111827;">Brian's Corner - Latest Notes</h1>
-    <p class="sub" style="margin:0 0 22px 0;color:#4b5563;font-size:14px;">Window: ${htmlEscape(model.windowStart)} to ${htmlEscape(model.windowEnd)} | Notes changed: ${model.items.length} | Mode: ${htmlEscape(mode)}${includeDebug ? " | Debug on" : ""}</p>
+  <div style="margin:0;padding:8px;background:#f2f3f5;color:#1f2937;font-family:Georgia,serif;">
+  <div class="container" style="max-width:760px;margin:0 auto;background:#ffffff;border:1px solid #e5e7eb;border-radius:8px;padding:16px;">
+    <h1 style="margin:0 0 6px 0;font-size:26px;line-height:1.2;color:#111827;">Brian's Corner - Latest Notes</h1>
+    <p class="sub" style="margin:0 0 14px 0;color:#4b5563;font-size:13px;">Window: ${htmlEscape(model.windowStart)} to ${htmlEscape(model.windowEnd)} | Notes changed: ${model.items.length} | Mode: ${htmlEscape(mode)}${includeDebug ? " | Debug on" : ""}</p>
     ${cards}
   </div>
   </div>
