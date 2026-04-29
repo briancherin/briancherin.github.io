@@ -378,12 +378,14 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "") {
               : segment.kind === "removed"
                 ? "padding:8px 10px;border-top:1px solid #e5e7eb;background:#fef2f2;"
                 : "padding:8px 10px;border-top:1px solid #e5e7eb;background:#ffffff;";
-          const truncated = truncateText(segment.text);
+          const shouldTruncate = segment.kind !== "context";
+          const truncated = shouldTruncate
+            ? truncateText(segment.text)
+            : { text: String(segment.text || "").trim(), truncated: false };
           return `<div class="${klass}">
             <div style="${segmentStyle}">
               ${label ? `<div class="seg-label" style="font-size:12px;font-weight:700;line-height:1;margin-bottom:4px;color:#4b5563;">${label}</div>` : ""}
               <div class="seg-body" style="font-size:14px;line-height:1.6;color:#1f2937;">${renderLineText(truncated.text)}</div>
-              ${truncated.truncated ? '<div style="font-size:12px;color:#6b7280;margin-top:4px;">(truncated)</div>' : ""}
             </div>
           </div>`;
         })
