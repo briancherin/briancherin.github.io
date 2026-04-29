@@ -44,7 +44,7 @@ jobs:
         run: |
           cat dist/newsletter-meta.json
           ITEMS_COUNT=$(node -e "const fs=require('fs'); const m=JSON.parse(fs.readFileSync('dist/newsletter-meta.json','utf8')); process.stdout.write(String(m.itemsCount ?? 0));")
-          SUBJECT=$(node -e "const fs=require('fs'); const m=JSON.parse(fs.readFileSync('dist/newsletter-meta.json','utf8')); const fmt=(d)=>{const x=new Date(d); if(Number.isNaN(x.getTime())) return d||''; return x.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});}; const s=`Brian's Corner - Latest Notes (${fmt(m.windowStart)} - ${fmt(m.windowEnd)})`; process.stdout.write(s);")
+          SUBJECT=$(node -e "const fs=require('fs'); const m=JSON.parse(fs.readFileSync('dist/newsletter-meta.json','utf8')); const fmt=(d)=>{const x=new Date(d); if(Number.isNaN(x.getTime())) return d||''; return x.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});}; const s='Brian\\'s Corner - Latest Notes (' + fmt(m.windowStart) + ' - ' + fmt(m.windowEnd) + ')'; process.stdout.write(s);")
           echo "items_count=$ITEMS_COUNT" >> "$GITHUB_OUTPUT"
           echo "subject=$SUBJECT" >> "$GITHUB_OUTPUT"
           echo "Detected items_count=$ITEMS_COUNT"
