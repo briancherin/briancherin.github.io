@@ -15,6 +15,7 @@ const DEFAULT_DAYS = 7;
 const DEFAULT_MAX_LINES = 120;
 const DEFAULT_MODE = "rendered";
 const DEFAULT_SITE_BASE_URL = "";
+const DEFAULT_TIME_ZONE = "America/New_York";
 const ALLOWED_MODES = new Set(["rendered", "markdown"]);
 
 const md = new MarkdownIt({
@@ -239,6 +240,15 @@ function buildExcerptBlocksFromPatch(patch, maxBlocks = 2, maxLinesPerBlock = 14
 
   const pushCurrent = () => {
     if (!current || current.lines.length === 0) return;
+    const hasMeaningfulChange = current.lines.some(
+      (line) =>
+        (line.kind === "added" || line.kind === "removed") &&
+        !isMetadataLine(line.text)
+    );
+    if (!hasMeaningfulChange) {
+      current = null;
+      return;
+    }
     const filtered = current.lines.filter((line) => !isMetadataLine(line.text));
     if (filtered.length > 0) {
       blocks.push({ lines: filtered.slice(0, maxLinesPerBlock) });
@@ -283,7 +293,12 @@ function formatDate(iso) {
   if (!iso) return "";
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return "";
-  return d.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
+  return d.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    timeZone: getTimeZone(),
+  });
 }
 
 function formatDateTimeShort(iso) {
@@ -296,7 +311,13 @@ function formatDateTimeShort(iso) {
     day: "numeric",
     hour: "numeric",
     minute: "2-digit",
+    timeZone: getTimeZone(),
   });
+}
+
+function getTimeZone() {
+  const tz = (getArg("time-zone") || process.env.NEWSLETTER_TIME_ZONE || DEFAULT_TIME_ZONE).trim();
+  return tz || DEFAULT_TIME_ZONE;
 }
 
 function buildSegments(lines) {
@@ -529,7 +550,7 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
 <!-- buttondown-editor-mode: fancy -->
 <div style="color:#1f2937;">
   <div style="font-size:13px;color:#6b7280;line-height:1.4;margin:0 0 10px 0;">
-    Window: ${htmlEscape(formatDateTimeShort(model.windowStart))} to ${htmlEscape(formatDateTimeShort(model.windowEnd))} | Notes changed: ${model.items.length}
+    Window: ${htmlEscape(formatDate(model.windowStart))} to ${htmlEscape(formatDate(model.windowEnd))} | Notes changed: ${model.items.length}
   </div>
   ${cards}
 </div>`;

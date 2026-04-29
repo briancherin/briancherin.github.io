@@ -36,6 +36,7 @@ jobs:
       - name: Build weekly newsletter HTML
         env:
           SITE_BASE_URL: https://garden.briancher.in
+          NEWSLETTER_TIME_ZONE: America/New_York
         run: node scripts/build-newsletter-diff.js --days=7 --mode=rendered
 
       - name: Read newsletter metadata
