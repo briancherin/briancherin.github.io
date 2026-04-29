@@ -398,7 +398,7 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "") {
     ? ` &nbsp; <a href="${htmlEscape(fullNoteUrl)}" style="color:#0f5fba;text-decoration:none;font-weight:600;">Read full note</a>`
     : "";
   const omissionBar =
-    `<div style="text-align:center;color:#6b7280;font-size:12px;margin:6px 0 8px 0;">&mdash; omitted unchanged content &mdash;${omissionLink}</div>`;
+    `<div style="text-align:center;color:#6b7280;font-size:12px;font-style:italic;margin:-1px 0;padding:6px 0;background:#ffffff;">&mdash; omitted unchanged content${omissionLink} &mdash;</div>`;
   return renderedBlocks.replace(/<\/div>\n<div class="excerpt-block"/g, `</div>\n${omissionBar}\n<div class="excerpt-block"`);
 }
 
