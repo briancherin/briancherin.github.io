@@ -286,6 +286,19 @@ function formatDate(iso) {
   return d.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
 }
 
+function formatDateTimeShort(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return iso;
+  return d.toLocaleString("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+  });
+}
+
 function buildSegments(lines) {
   const segments = [];
   let current = null;
@@ -309,7 +322,7 @@ function buildSegments(lines) {
   return segments;
 }
 
-function renderExcerptBlocksHtml(blocks) {
+function renderExcerptBlocksHtml(blocks, fullNoteUrl = "") {
   if (!blocks || blocks.length === 0) {
     return '<p class="muted">No meaningful content snippet found for this update.</p>';
   }
@@ -319,7 +332,7 @@ function renderExcerptBlocksHtml(blocks) {
       const segments = buildSegments(block.lines);
       const rows = segments
         .map((segment) => {
-          const label = segment.kind === "added" ? "+" : segment.kind === "removed" ? "-" : "•";
+          const label = segment.kind === "added" ? "+" : segment.kind === "removed" ? "-" : "";
           const klass =
             segment.kind === "added"
               ? "seg seg-added"
@@ -334,7 +347,7 @@ function renderExcerptBlocksHtml(blocks) {
                 : "padding:8px 10px;border-top:1px solid #e5e7eb;background:#ffffff;";
           return `<div class="${klass}">
             <div style="${segmentStyle}">
-              <div class="seg-label" style="font-size:12px;font-weight:700;line-height:1;margin-bottom:4px;color:#4b5563;">${label}</div>
+              ${label ? `<div class="seg-label" style="font-size:12px;font-weight:700;line-height:1;margin-bottom:4px;color:#4b5563;">${label}</div>` : ""}
               <div class="seg-body" style="font-size:14px;line-height:1.6;color:#1f2937;">${renderLineText(segment.text)}</div>
             </div>
           </div>`;
@@ -346,8 +359,11 @@ function renderExcerptBlocksHtml(blocks) {
 
   if (blocks.length <= 1) return renderedBlocks;
 
+  const omissionLink = fullNoteUrl
+    ? ` &nbsp; <a href="${htmlEscape(fullNoteUrl)}" style="color:#0f5fba;text-decoration:none;font-weight:600;">Read full note</a>`
+    : "";
   const omissionBar =
-    '<div style="text-align:center;color:#6b7280;font-size:12px;margin:6px 0 8px 0;">&mdash; omitted content &mdash;</div>';
+    `<div style="text-align:center;color:#6b7280;font-size:12px;margin:6px 0 8px 0;">&mdash; omitted unchanged content &mdash;${omissionLink}</div>`;
   return renderedBlocks.replace(/<\/div>\n<div class="excerpt-block"/g, `</div>\n${omissionBar}\n<div class="excerpt-block"`);
 }
 
@@ -501,7 +517,7 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
 <section class="card" style="border-top:1px solid #e5e7eb;padding-top:14px;margin-top:14px;">
   <div style="margin:0 0 6px 0;font-size:20px;line-height:1.3;color:#111827;font-weight:700;">${htmlEscape(item.meta.title)}</div>
   <div class="meta" style="margin:0 0 8px 0;color:#6b7280;font-size:13px;line-height:1.3;"><span class="badge" style="display:inline-block;padding:2px 7px;border-radius:999px;background:#e8f0fe;color:#1e40af;font-weight:600;font-size:12px;">${statusLabel}</span>${changedDate ? ` <span class="meta-date" style="color:#6b7280;">· ${changedDate}</span>` : ""}</div>
-  ${renderExcerptBlocksHtml(item.excerptBlocks)}
+  ${renderExcerptBlocksHtml(item.excerptBlocks, permalink)}
   ${link}
   ${debug}
 </section>`;
@@ -513,7 +529,7 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
 <!-- buttondown-editor-mode: fancy -->
 <div style="color:#1f2937;">
   <div style="font-size:13px;color:#6b7280;line-height:1.4;margin:0 0 10px 0;">
-    Window: ${htmlEscape(model.windowStart)} to ${htmlEscape(model.windowEnd)} | Notes changed: ${model.items.length}
+    Window: ${htmlEscape(formatDateTimeShort(model.windowStart))} to ${htmlEscape(formatDateTimeShort(model.windowEnd))} | Notes changed: ${model.items.length}
   </div>
   ${cards}
 </div>`;
