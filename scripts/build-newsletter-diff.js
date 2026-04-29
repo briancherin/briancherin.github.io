@@ -301,6 +301,17 @@ function truncateText(text, maxChars = MAX_CHARS_PER_SEGMENT) {
   return { text: `${safe}...`, truncated: true };
 }
 
+function truncateFromStart(text, maxChars = MAX_CHARS_PER_SEGMENT) {
+  const raw = String(text || "").trim();
+  if (raw.length <= maxChars) {
+    return { text: raw, truncated: false };
+  }
+  const tail = raw.slice(raw.length - maxChars);
+  const firstSpace = tail.indexOf(" ");
+  const safe = (firstSpace > 0 && firstSpace < Math.floor(maxChars * 0.4) ? tail.slice(firstSpace + 1) : tail).trim();
+  return { text: `...${safe}`, truncated: true };
+}
+
 function formatDate(iso) {
   if (!iso) return "";
   const d = new Date(iso);
@@ -360,8 +371,7 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "") {
     return '<p class="muted">No meaningful content snippet found for this update.</p>';
   }
 
-  const renderedBlocks = blocks
-    .map((block) => {
+  const renderOneBlock = (block, style = "") => {
       const segments = buildSegments(block.lines);
       const rows = segments
         .map((segment) => {
@@ -378,10 +388,10 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "") {
               : segment.kind === "removed"
                 ? "padding:8px 10px;border-top:1px solid #e5e7eb;background:#fef2f2;"
                 : "padding:8px 10px;border-top:1px solid #e5e7eb;background:#ffffff;";
-          const shouldTruncate = segment.kind !== "context";
-          const truncated = shouldTruncate
-            ? truncateText(segment.text)
-            : { text: String(segment.text || "").trim(), truncated: false };
+          const truncated =
+            segment.kind === "context"
+              ? truncateFromStart(segment.text)
+              : truncateText(segment.text);
           return `<div class="${klass}">
             <div style="${segmentStyle}">
               ${label ? `<div class="seg-label" style="font-size:12px;font-weight:700;line-height:1;margin-bottom:4px;color:#4b5563;">${label}</div>` : ""}
@@ -390,18 +400,34 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "") {
           </div>`;
         })
         .join("\n");
-      return `<div class="excerpt-block" style="border:1px solid #e5e7eb;background:#fbfdff;border-radius:6px;margin:8px 0;overflow:hidden;">${rows}</div>`;
-    })
-    .join("\n");
+      return `<div class="excerpt-block" style="border:1px solid #e5e7eb;background:#fbfdff;border-radius:6px;margin:8px 0;overflow:hidden;${style}">${rows}</div>`;
+  };
 
-  if (blocks.length <= 1) return renderedBlocks;
+  if (blocks.length <= 1) {
+    return renderOneBlock(blocks[0]);
+  }
 
   const omissionLink = fullNoteUrl
     ? ` &nbsp; <a href="${htmlEscape(fullNoteUrl)}" style="color:#0f5fba;text-decoration:none;font-weight:600;">Read full note</a>`
     : "";
   const omissionBar =
-    `<div style="text-align:center;color:#6b7280;font-size:12px;font-style:italic;margin:-1px 0;padding:6px 0;background:#ffffff;">&mdash; omitted unchanged content${omissionLink} &mdash;</div>`;
-  return renderedBlocks.replace(/<\/div>\n<div class="excerpt-block"/g, `</div>\n${omissionBar}\n<div class="excerpt-block"`);
+    `<div style="text-align:center;color:#6b7280;font-size:12px;font-style:italic;margin:0;padding:6px 0;background:#fbfdff;">&mdash; omitted unchanged content${omissionLink} &mdash;</div>`;
+
+  const out = [];
+  for (let i = 0; i < blocks.length; i += 1) {
+    const isBeforeGap = i < blocks.length - 1;
+    const isAfterGap = i > 0;
+    let style = "";
+    if (isBeforeGap) {
+      style += "margin-bottom:0;border-bottom:0;border-bottom-left-radius:0;border-bottom-right-radius:0;";
+    }
+    if (isAfterGap) {
+      style += "margin-top:0;border-top:0;border-top-left-radius:0;border-top-right-radius:0;";
+    }
+    out.push(renderOneBlock(blocks[i], style));
+    if (isBeforeGap) out.push(omissionBar);
+  }
+  return out.join("\n");
 }
 
 function buildItemFromGit(range, file, mode, maxLines) {
