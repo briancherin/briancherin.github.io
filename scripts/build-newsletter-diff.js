@@ -276,7 +276,7 @@ function buildExcerptBlocksFromPatch(patch, maxBlocks = 2, maxLinesPerBlock = 14
 
 function renderLineText(text) {
   if (!text || !String(text).trim()) return "";
-  return md.renderInline(String(text).trim());
+  return md.render(String(text).trim());
 }
 
 function formatDate(iso) {
@@ -314,7 +314,7 @@ function renderExcerptBlocksHtml(blocks) {
     return '<p class="muted">No meaningful content snippet found for this update.</p>';
   }
 
-  return blocks
+  const renderedBlocks = blocks
     .map((block) => {
       const segments = buildSegments(block.lines);
       const rows = segments
@@ -343,6 +343,12 @@ function renderExcerptBlocksHtml(blocks) {
       return `<div class="excerpt-block" style="border:1px solid #e5e7eb;background:#fbfdff;border-radius:6px;margin:8px 0;overflow:hidden;">${rows}</div>`;
     })
     .join("\n");
+
+  if (blocks.length <= 1) return renderedBlocks;
+
+  const omissionBar =
+    '<div style="text-align:center;color:#6b7280;font-size:12px;margin:6px 0 8px 0;">&mdash; omitted content &mdash;</div>';
+  return renderedBlocks.replace(/<\/div>\n<div class="excerpt-block"/g, `</div>\n${omissionBar}\n<div class="excerpt-block"`);
 }
 
 function buildItemFromGit(range, file, mode, maxLines) {
@@ -493,61 +499,24 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
 
           return `
 <section class="card" style="border-top:1px solid #e5e7eb;padding-top:14px;margin-top:14px;">
-  <h2 style="margin:0 0 6px 0;font-size:20px;line-height:1.3;color:#111827;">${htmlEscape(item.meta.title)}</h2>
-  <p class="meta" style="margin:0 0 8px 0;color:#6b7280;font-size:13px;"><span class="badge" style="display:inline-block;padding:2px 7px;border-radius:999px;background:#e8f0fe;color:#1e40af;font-weight:600;font-size:12px;">${statusLabel}</span>${changedDate ? ` <span class="meta-date" style="color:#6b7280;">· ${changedDate}</span>` : ""}</p>
+  <div style="margin:0 0 6px 0;font-size:20px;line-height:1.3;color:#111827;font-weight:700;">${htmlEscape(item.meta.title)}</div>
+  <div class="meta" style="margin:0 0 8px 0;color:#6b7280;font-size:13px;line-height:1.3;"><span class="badge" style="display:inline-block;padding:2px 7px;border-radius:999px;background:#e8f0fe;color:#1e40af;font-weight:600;font-size:12px;">${statusLabel}</span>${changedDate ? ` <span class="meta-date" style="color:#6b7280;">· ${changedDate}</span>` : ""}</div>
   ${renderExcerptBlocksHtml(item.excerptBlocks)}
   ${link}
   ${debug}
 </section>`;
         })
         .join("\n")
-    : `<p>No note updates found in the last ${days} days.</p>`;
+    : `<div style="font-size:14px;color:#6b7280;">No note updates found in the last ${days} days.</div>`;
 
-  return `<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Brian's Corner - Latest Notes</title>
-  <style>
-    body { margin: 0; padding: 0; background: #f2f3f5; color: #1f2937; font-family: Georgia, serif; }
-    .container { max-width: 760px; margin: 0 auto; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px; }
-    h1 { margin: 0 0 6px 0; font-size: 26px; }
-    .sub { margin: 0 0 14px 0; color: #4b5563; font-size: 13px; }
-    .card { border-top: 1px solid #e5e7eb; padding-top: 14px; margin-top: 14px; }
-    h2 { margin: 0 0 8px 0; font-size: 22px; }
-    .meta { margin: 0 0 10px 0; color: #6b7280; font-size: 13px; }
-    .badge { display: inline-block; padding: 3px 8px; border-radius: 999px; background: #e8f0fe; color: #1e40af; font-weight: 600; font-size: 12px; }
-    .meta-date { color: #6b7280; }
-    .linkrow { margin-top: 12px; }
-    .linkrow a { color: #0f5fba; text-decoration: none; font-weight: 600; }
-    .excerpt-block { border: 1px solid #e5e7eb; background: #fbfdff; border-radius: 8px; margin: 10px 0; }
-    .seg { padding: 10px 12px; border-top: 1px solid #e5e7eb; }
-    .seg:first-child { border-top: 0; }
-    .seg-label { font-size: 12px; font-weight: 700; letter-spacing: 0.02em; margin-bottom: 5px; color: #4b5563; text-transform: uppercase; }
-    .seg-body { font-size: 14px; line-height: 1.6; color: #1f2937; }
-    .seg-body p { margin: 0; }
-    .seg-added { background: #ecfdf3; }
-    .seg-removed { background: #fef2f2; }
-    .seg-context { background: #ffffff; }
-    .muted { color: #6b7280; font-size: 13px; }
-    details { margin-top: 12px; }
-    pre { background: #0f172a; color: #e5e7eb; padding: 10px; border-radius: 6px; overflow-x: auto; font-size: 12px; line-height: 1.45; }
-    .plus { color: #86efac; display: block; }
-    .minus { color: #fca5a5; display: block; }
-    .ctx { color: #cbd5e1; display: block; }
-  </style>
-</head>
-<body>
-  <div style="margin:0;padding:8px;background:#f2f3f5;color:#1f2937;font-family:Georgia,serif;">
-  <div class="container" style="max-width:760px;margin:0 auto;background:#ffffff;border:1px solid #e5e7eb;border-radius:8px;padding:16px;">
-    <h1 style="margin:0 0 6px 0;font-size:26px;line-height:1.2;color:#111827;">Brian's Corner - Latest Notes</h1>
-    <p class="sub" style="margin:0 0 14px 0;color:#4b5563;font-size:13px;">Window: ${htmlEscape(model.windowStart)} to ${htmlEscape(model.windowEnd)} | Notes changed: ${model.items.length} | Mode: ${htmlEscape(mode)}${includeDebug ? " | Debug on" : ""}</p>
-    ${cards}
+  return `
+<!-- buttondown-editor-mode: fancy -->
+<div style="color:#1f2937;">
+  <div style="font-size:13px;color:#6b7280;line-height:1.4;margin:0 0 10px 0;">
+    Window: ${htmlEscape(model.windowStart)} to ${htmlEscape(model.windowEnd)} | Notes changed: ${model.items.length}
   </div>
-  </div>
-</body>
-</html>`;
+  ${cards}
+</div>`;
 }
 
 function main() {
