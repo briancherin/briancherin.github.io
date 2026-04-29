@@ -371,10 +371,10 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "") {
     return '<p class="muted">No meaningful content snippet found for this update.</p>';
   }
 
-  const renderOneBlock = (block, style = "") => {
+  const renderOneBlock = (block, style = "", suppressFirstSegmentTopBorder = false) => {
       const segments = buildSegments(block.lines);
       const rows = segments
-        .map((segment) => {
+        .map((segment, segIdx) => {
           const label = segment.kind === "added" ? "+" : segment.kind === "removed" ? "-" : "";
           const klass =
             segment.kind === "added"
@@ -388,12 +388,16 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "") {
               : segment.kind === "removed"
                 ? "padding:8px 10px;border-top:1px solid #e5e7eb;background:#fef2f2;"
                 : "padding:8px 10px;border-top:1px solid #e5e7eb;background:#ffffff;";
+          const segmentStyleFinal =
+            suppressFirstSegmentTopBorder && segIdx === 0
+              ? segmentStyle.replace("border-top:1px solid #e5e7eb;", "border-top:0;")
+              : segmentStyle;
           const truncated =
             segment.kind === "context"
               ? truncateFromStart(segment.text)
               : truncateText(segment.text);
           return `<div class="${klass}">
-            <div style="${segmentStyle}">
+            <div style="${segmentStyleFinal}">
               ${label ? `<div class="seg-label" style="font-size:12px;font-weight:700;line-height:1;margin-bottom:4px;color:#4b5563;">${label}</div>` : ""}
               <div class="seg-body" style="font-size:14px;line-height:1.6;color:#1f2937;">${renderLineText(truncated.text)}</div>
             </div>
@@ -424,7 +428,7 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "") {
     if (isAfterGap) {
       style += "margin-top:0;border-top:0;border-top-left-radius:0;border-top-right-radius:0;";
     }
-    out.push(renderOneBlock(blocks[i], style));
+    out.push(renderOneBlock(blocks[i], style, isAfterGap));
     if (isBeforeGap) out.push(omissionBar);
   }
   return out.join("\n");
