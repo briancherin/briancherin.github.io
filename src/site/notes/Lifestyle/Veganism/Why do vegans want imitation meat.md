@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/veganism/why-do-vegans-want-imitation-meat/","title":"Why do vegans want imitation meat?","created":"2026-04-27T21:50:38.573-04:00","updated":"2026-04-27T23:04:29.788-04:00"}
+{"dg-publish":true,"permalink":"/lifestyle/veganism/why-do-vegans-want-imitation-meat/","title":"Why do vegans want imitation meat?","created":"2026-04-27T21:50:38.573-04:00","updated":"2026-04-29T10:01:03.828-04:00"}
 ---
 
 #veganism 
@@ -26,6 +26,8 @@ There is so much more to the experience of these food items that they used to en
 
 **Vegan substitutes, including mock/imitation meats, can provide the familiar flavors and textures which the person enjoyed, without carrying the background of harm and suffering toward animals which are the reasons the person stopped eating the animal-sourced items.** 
 
-Are the imitations always perfect, or even great (or even good)? Well, sometimes the imitations can be pretty good, and dare I say indistinguishable from the animal counterpart^[one case in point that gets pretty close could be mock chicken nuggets.... Animal nuggets are so heavily processed that, well, heavily processed mock meat doesn't get too far off.  Note that I'm not making commentary on here on healthiness of either group of items.]. And sometimes the imitations are not great, or even straight up bad-tasting or just a poor imitation of what they're claiming to imitate. To an extent, the merit of an imitation is up to personal taste, and also I feel a more productive outlook of poor imitations would be to consider the evolving nature of food science and recipe exploration (the imitations will get better and better) rather than taking it to mean that imitations are inherently bad-tasting.
+Are the imitations always perfect, or even great (or even good)? Well, sometimes the imitations can be pretty good, and dare I say indistinguishable from the animal counterpart^[one case in point that gets pretty close could be mock chicken nuggets.... Animal nuggets are so heavily processed that, well, heavily processed mock meat doesn't get too far off.  Note that I'm not making commentary on here on healthiness of either group of items.]. And sometimes the imitations are not great, or even straight up bad-tasting or just a poor imitation of what they're claiming to imitate. But the point is that the mimics get us closer to the food item we are missing, even if it's not perfect.
+
+To an extent, the merit of an imitation is up to personal taste, and also I feel a more productive outlook of poor imitations would be to consider the evolving nature of food science and recipe exploration (the imitations will get better and better) rather than taking it to mean that imitations are inherently bad-tasting.
 
 Additionally, regarding the intangible experiences of the culture around the food item and the people you share it with -- it can be challenging for a vegan to find themselves suddenly displaced from these cultural and social associations. Suddenly they may no longer feel comfortable partaking in the food-based gatherings their friends or family hold. A vegan substitute can help get them a little closer to the experience they are fond of partaking in.
