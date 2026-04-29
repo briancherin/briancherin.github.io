@@ -30,10 +30,11 @@ function buildSubject() {
 function readHtmlBody(filePath) {
   const raw = fs.readFileSync(filePath, "utf8");
   const bodyMatch = raw.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
+  const prefix = "<!-- buttondown-editor-mode: fancy -->\n";
   if (bodyMatch && bodyMatch[1]) {
-    return bodyMatch[1].trim();
+    return prefix + bodyMatch[1].trim();
   }
-  return raw;
+  return prefix + raw;
 }
 
 function makeClient(apiKey) {
