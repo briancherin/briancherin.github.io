@@ -154,6 +154,8 @@ function parseNoteMeta(filePath, rawContent = "") {
   return {
     title: parsed.data.title || path.basename(filePath, ".md"),
     permalink: parsed.data.permalink || "",
+    created: parsed.data.created || "",
+    updated: parsed.data.updated || "",
   };
 }
 
@@ -272,25 +274,66 @@ function buildExcerptBlocksFromPatch(patch, maxBlocks = 2, maxLinesPerBlock = 14
   return blocks.slice(0, maxBlocks);
 }
 
+function renderLineText(text) {
+  if (!text || !String(text).trim()) return "";
+  return md.renderInline(String(text).trim());
+}
+
+function formatDate(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return "";
+  return d.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
+}
+
+function buildSegments(lines) {
+  const segments = [];
+  let current = null;
+
+  const flush = () => {
+    if (!current) return;
+    current.text = current.lines.map((line) => line.text).join("\n").trim();
+    if (current.text) segments.push(current);
+    current = null;
+  };
+
+  for (const line of lines) {
+    if (!current || current.kind !== line.kind) {
+      flush();
+      current = { kind: line.kind, lines: [line], text: "" };
+    } else {
+      current.lines.push(line);
+    }
+  }
+  flush();
+  return segments;
+}
+
 function renderExcerptBlocksHtml(blocks) {
   if (!blocks || blocks.length === 0) {
     return '<p class="muted">No meaningful content snippet found for this update.</p>';
   }
 
   return blocks
-    .map((block, idx) => {
-      const rows = block.lines
-        .map((line) => {
+    .map((block) => {
+      const segments = buildSegments(block.lines);
+      const rows = segments
+        .map((segment) => {
+          const label =
+            segment.kind === "added" ? "Added" : segment.kind === "removed" ? "Removed" : "Nearby text";
           const klass =
-            line.kind === "added" ? "ln-added" : line.kind === "removed" ? "ln-removed" : "ln-context";
-          const prefix = line.kind === "added" ? "+" : line.kind === "removed" ? "-" : " ";
-          const body = line.text.trim()
-            ? md.renderInline(line.text)
-            : "&nbsp;";
-          return `<div class="ln ${klass}"><span class="pf">${prefix}</span><span class="tx">${body}</span></div>`;
+            segment.kind === "added"
+              ? "seg seg-added"
+              : segment.kind === "removed"
+                ? "seg seg-removed"
+                : "seg seg-context";
+          return `<div class="${klass}">
+            <div class="seg-label">${label}</div>
+            <div class="seg-body">${renderLineText(segment.text)}</div>
+          </div>`;
         })
         .join("\n");
-      return `<div class="excerpt-block"><div class="excerpt-head">Context ${idx + 1}</div>${rows}</div>`;
+      return `<div class="excerpt-block">${rows}</div>`;
     })
     .join("\n");
 }
@@ -310,12 +353,17 @@ function buildItemFromGit(range, file, mode, maxLines) {
   const diff = parseDiffPatch(debugPatch, maxLines);
   const excerptBlocks = buildExcerptBlocksFromPatch(sourcePatch);
   if (diff.hunks === 0 && diff.added === 0 && diff.removed === 0) return null;
+  const isNew = !oldRaw || !oldRaw.trim();
+  const updatedDate = parseNoteMeta(file, newRaw).updated;
+  const createdDate = parseNoteMeta(file, newRaw).created;
 
   return {
     file,
     meta: parseNoteMeta(file, newRaw),
     diff,
     excerptBlocks,
+    changeType: isNew ? "new" : "updated",
+    changedAt: updatedDate || createdDate || "",
   };
 }
 
@@ -393,9 +441,13 @@ function buildFromJson(inputPath, mode, maxLines) {
       meta: {
         title: item.title || path.basename(item.file || "unknown.md", ".md"),
         permalink: item.permalink || "",
+        created: item.created || "",
+        updated: item.updated || "",
       },
       diff,
       excerptBlocks: buildExcerptBlocksFromPatch(sourcePatch),
+      changeType: item.changeType || "updated",
+      changedAt: item.updated || item.created || "",
     };
   });
 
@@ -414,6 +466,8 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
           const link = permalink
             ? `<p class="linkrow"><a href="${htmlEscape(permalink)}">Read full note</a></p>`
             : "";
+          const statusLabel = item.changeType === "new" ? "New note" : "Updated note";
+          const changedDate = formatDate(item.changedAt);
           const debug = includeDebug
             ? (() => {
                 const lines = item.diff.lines
@@ -433,7 +487,7 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
           return `
 <section class="card">
   <h2>${htmlEscape(item.meta.title)}</h2>
-  <p class="meta">Updated excerpt from ${htmlEscape(item.file)} | +${item.diff.added} / -${item.diff.removed}</p>
+  <p class="meta"><span class="badge">${statusLabel}</span>${changedDate ? ` <span class="meta-date">· ${changedDate}</span>` : ""}</p>
   ${renderExcerptBlocksHtml(item.excerptBlocks)}
   ${link}
   ${debug}
@@ -447,7 +501,7 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Weekly Garden Updates</title>
+  <title>Brian's Corner - Latest Notes</title>
   <style>
     body { margin: 0; padding: 24px; background: #f2f3f5; color: #1f2937; font-family: Georgia, serif; }
     .container { max-width: 760px; margin: 0 auto; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 24px; }
@@ -456,16 +510,19 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
     .card { border-top: 1px solid #e5e7eb; padding-top: 18px; margin-top: 18px; }
     h2 { margin: 0 0 8px 0; font-size: 22px; }
     .meta { margin: 0 0 10px 0; color: #6b7280; font-size: 13px; }
+    .badge { display: inline-block; padding: 3px 8px; border-radius: 999px; background: #e8f0fe; color: #1e40af; font-weight: 600; font-size: 12px; }
+    .meta-date { color: #6b7280; }
     .linkrow { margin-top: 12px; }
     .linkrow a { color: #0f5fba; text-decoration: none; font-weight: 600; }
     .excerpt-block { border: 1px solid #e5e7eb; background: #fbfdff; border-radius: 8px; margin: 10px 0; }
-    .excerpt-head { padding: 8px 10px; border-bottom: 1px solid #e5e7eb; font-size: 12px; color: #6b7280; background: #f9fafb; }
-    .ln { display: flex; gap: 8px; padding: 6px 10px; font-size: 14px; line-height: 1.5; }
-    .pf { width: 10px; color: #6b7280; font-family: Consolas, monospace; }
-    .tx { flex: 1; word-break: break-word; }
-    .ln-context { background: #ffffff; }
-    .ln-added { background: #ecfdf3; }
-    .ln-removed { background: #fef2f2; color: #7f1d1d; }
+    .seg { padding: 10px 12px; border-top: 1px solid #e5e7eb; }
+    .seg:first-child { border-top: 0; }
+    .seg-label { font-size: 12px; font-weight: 700; letter-spacing: 0.02em; margin-bottom: 5px; color: #4b5563; text-transform: uppercase; }
+    .seg-body { font-size: 14px; line-height: 1.6; color: #1f2937; }
+    .seg-body p { margin: 0; }
+    .seg-added { background: #ecfdf3; }
+    .seg-removed { background: #fef2f2; }
+    .seg-context { background: #ffffff; }
     .muted { color: #6b7280; font-size: 13px; }
     details { margin-top: 12px; }
     pre { background: #0f172a; color: #e5e7eb; padding: 10px; border-radius: 6px; overflow-x: auto; font-size: 12px; line-height: 1.45; }
@@ -476,7 +533,7 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
 </head>
 <body>
   <div class="container">
-    <h1>Weekly Garden Updates</h1>
+    <h1>Brian's Corner - Latest Notes</h1>
     <p class="sub">Window: ${htmlEscape(model.windowStart)} to ${htmlEscape(model.windowEnd)} | Notes changed: ${model.items.length} | Mode: ${htmlEscape(mode)}${includeDebug ? " | Debug on" : ""}</p>
     ${cards}
   </div>
