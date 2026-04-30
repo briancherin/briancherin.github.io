@@ -1,4 +1,4 @@
-name: Newsletter Update
+name: Newsletter Update (SEND TO SUBSCRIBERS)
 
 on:
   workflow_dispatch:
