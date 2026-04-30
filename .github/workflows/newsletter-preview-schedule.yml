@@ -1,6 +1,8 @@
 name: Newsletter Preview (To myself only)
 
 on:
+  workflow_dispatch:
+    inputs: { }
   schedule:
     - cron: "0 14 * * 2" # Tuesday 10:00 AM ET (EDT; shifts with DST)
 
