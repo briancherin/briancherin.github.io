@@ -65,12 +65,22 @@ async function sendDraft(client, emailId, recipient) {
   });
 }
 
+async function createAndQueueListSend(client, subject, bodyHtml) {
+  const response = await client.post("/emails", {
+    subject,
+    body: bodyHtml,
+    status: "about_to_send",
+  });
+  const emailId = response.data?.id;
+  if (!emailId) {
+    throw new Error("Buttondown list-send creation succeeded but no email id returned.");
+  }
+  return emailId;
+}
+
 async function main() {
   const apiKey = requireEnv("BUTTONDOWN_API_KEY");
-  const recipient = getArg("recipient") || process.env.BUTTONDOWN_TEST_RECIPIENT;
-  if (!recipient) {
-    throw new Error("Provide test recipient via --recipient=you@example.com or BUTTONDOWN_TEST_RECIPIENT.");
-  }
+  const sendMode = (getArg("mode") || process.env.BUTTONDOWN_SEND_MODE || "list").toLowerCase();
 
   if (!fs.existsSync(DEFAULT_HTML_PATH)) {
     throw new Error(`Newsletter HTML not found: ${DEFAULT_HTML_PATH}`);
@@ -80,11 +90,20 @@ async function main() {
   const subject = buildSubject();
   const client = makeClient(apiKey);
 
-  const draftId = await createDraft(client, subject, bodyHtml);
-  console.log(`Created draft email: ${draftId}`);
+  if (sendMode === "draft") {
+    const recipient = getArg("recipient") || process.env.BUTTONDOWN_TEST_RECIPIENT;
+    if (!recipient) {
+      throw new Error("Draft mode requires --recipient=you@example.com or BUTTONDOWN_TEST_RECIPIENT.");
+    }
+    const draftId = await createDraft(client, subject, bodyHtml);
+    console.log(`Created draft email: ${draftId}`);
+    await sendDraft(client, draftId, recipient);
+    console.log(`Sent draft preview to: ${recipient}`);
+    return;
+  }
 
-  await sendDraft(client, draftId, recipient);
-  console.log(`Sent draft preview to: ${recipient}`);
+  const campaignId = await createAndQueueListSend(client, subject, bodyHtml);
+  console.log(`Queued list send email: ${campaignId}`);
 }
 
 main().catch((error) => {

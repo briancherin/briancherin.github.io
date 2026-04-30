@@ -1,0 +1,60 @@
+name: Newsletter Debug (Buttondown Draft)
+
+on:
+  workflow_dispatch:
+    inputs:
+      recipient_email:
+        description: "Email to receive the draft preview"
+        required: true
+        type: string
+
+jobs:
+  send-debug:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build weekly newsletter HTML
+        env:
+          SITE_BASE_URL: https://garden.briancher.in
+          NEWSLETTER_TIME_ZONE: America/New_York
+        run: node scripts/build-newsletter-diff.js --days=7 --mode=rendered
+
+      - name: Read newsletter metadata
+        id: newsletter_meta
+        shell: bash
+        env:
+          NEWSLETTER_TIME_ZONE: America/New_York
+        run: |
+          cat dist/newsletter-meta.json
+          ITEMS_COUNT=$(node -e "const fs=require('fs'); const m=JSON.parse(fs.readFileSync('dist/newsletter-meta.json','utf8')); process.stdout.write(String(m.itemsCount ?? 0));")
+          SUBJECT=$(node -e "const fs=require('fs'); const m=JSON.parse(fs.readFileSync('dist/newsletter-meta.json','utf8')); const tz=process.env.NEWSLETTER_TIME_ZONE||'America/New_York'; const fmt=(d)=>{const x=new Date(d); if(Number.isNaN(x.getTime())) return d||''; return x.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:tz});}; const s='Brian\\'s Corner - Latest Notes [Preview] (' + fmt(m.windowStart) + ' - ' + fmt(m.windowEnd) + ')'; process.stdout.write(s);")
+          echo "items_count=$ITEMS_COUNT" >> "$GITHUB_OUTPUT"
+          echo "subject=$SUBJECT" >> "$GITHUB_OUTPUT"
+          echo "Detected items_count=$ITEMS_COUNT"
+          echo "Computed subject=$SUBJECT"
+
+      - name: Send Buttondown draft preview
+        if: steps.newsletter_meta.outputs.items_count != '0'
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          BUTTONDOWN_SUBJECT: ${{ steps.newsletter_meta.outputs.subject }}
+          BUTTONDOWN_SEND_MODE: draft
+        run: node scripts/send-buttondown-newsletter.js --recipient="${{ inputs.recipient_email }}"
+
+      - name: Skip send (no updates)
+        if: steps.newsletter_meta.outputs.items_count == '0'
+        run: echo "No note updates in window. Email not sent."
+

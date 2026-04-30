@@ -1,12 +1,8 @@
-name: Newsletter Test (Buttondown)
+name: Newsletter Update
 
 on:
   workflow_dispatch:
-    inputs:
-      recipient_email:
-        description: "Email to receive the test newsletter"
-        required: true
-        type: string
+    inputs: {}
 
 jobs:
   send-test:
@@ -53,13 +49,15 @@ jobs:
           echo "Detected items_count=$ITEMS_COUNT"
           echo "Computed subject=$SUBJECT"
 
-      - name: Send Buttondown draft preview
+      - name: Send Buttondown to subscriber list
         if: steps.newsletter_meta.outputs.items_count != '0'
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
           BUTTONDOWN_SUBJECT: ${{ steps.newsletter_meta.outputs.subject }}
-        run: node scripts/send-buttondown-test.js --recipient="${{ inputs.recipient_email }}"
+          BUTTONDOWN_SEND_MODE: list
+        run: node scripts/send-buttondown-newsletter.js
 
       - name: Skip send (no updates)
         if: steps.newsletter_meta.outputs.items_count == '0'
         run: echo "No note updates in window. Email not sent."
+
