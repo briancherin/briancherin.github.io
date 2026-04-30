@@ -596,7 +596,7 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
 <!-- buttondown-editor-mode: fancy -->
 <div style="color:#1f2937;">
   <div style="font-size:13px;color:#6b7280;line-height:1.4;margin:0 0 10px 0;">
-    Window: ${htmlEscape(formatDate(model.windowStart))} to ${htmlEscape(formatDate(model.windowEnd))} | Notes changed: ${model.items.length}
+    Updates from ${htmlEscape(formatDate(model.windowStart))} to ${htmlEscape(formatDate(model.windowEnd))} | Notes changed: ${model.items.length}
   </div>
   ${cards}
 </div>`;
