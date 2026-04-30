@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2026-04-29T14:02:14Z</updated>
+    <updated>2026-04-30T02:45:34Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -640,6 +640,21 @@ With the snap of a finger:&lt;/p&gt;
 
             </content>
             <link href="https://briancherin.github.io/misc/random-snippets/" />
+        </entry>
+        <entry>
+            <title>
+                Subscribe For Email Updates
+                
+            </title>
+            <updated>2026-04-30T02:45:05.218Z</updated>
+            <id>https://briancherin.github.io/meta/subscribe-for-email-updates/</id>
+            <content type="html">
+                &lt;p&gt;Want to get weekly updates on new or updated notes on my digital garden? Enter your email below.&lt;/p&gt;
+&lt;p&gt;(WORK IN PROGRESS - THIS MAY NOT WORK YET)&lt;/p&gt;
+&lt;iframe scrolling=&quot;no&quot; style=&quot;width:100%;height:220px;border:1px #ccc solid&quot; src=&quot;https://buttondown.com/brianc?as_embed=true&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/meta/subscribe-for-email-updates/" />
         </entry>
         <entry>
             <title>
