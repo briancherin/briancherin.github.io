@@ -70,6 +70,10 @@ async function createAndQueueListSend(client, subject, bodyHtml) {
     subject,
     body: bodyHtml,
     status: "about_to_send",
+  }, {
+    headers: {
+      "X-Buttondown-Live-Dangerously": "true",
+    },
   });
   const emailId = response.data?.id;
   if (!emailId) {
