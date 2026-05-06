@@ -1,14 +1,23 @@
 ---
-{"dg-publish":true,"permalink":"/musings/my-most-amazing-aspirational-unrealistic-impossible-self/","tags":["review"],"created":"2026-03-17T18:24:15.637-04:00","updated":"2026-04-05T21:44:29.732-04:00"}
+{"dg-publish":true,"permalink":"/musings/my-most-amazing-aspirational-unrealistic-impossible-self/","tags":["review"],"created":"2026-03-17T18:24:15.637-04:00","updated":"2026-05-05T22:54:40.041-04:00"}
 ---
 
-After watching a [video ](https://www.youtube.com/watch?v=THAupOYwJTs) ^["21 Years Living Off-Grid on a Remote Island in a Self-Built Cabin & Homestead" on "Exploring Alternatives" channel)]of a guy living 21 years off-grid and building a bunch of structures, dance studio, sustaining a life (with outside purchases too. And a weird amount of technology and power tools), I am in a state of wondering what my own life would be like if I was at 100% max following my instinctual pursuits without inhibitions or limitations by things like willpower, money, and energy. No, I'm not saying I want to live off-grid (though, I find it really cool how he built everything/mostly on his own).
+After watching a [video ](https://www.youtube.com/watch?v=THAupOYwJTs) ^["21 Years Living Off-Grid on a Remote Island in a Self-Built Cab in & Homestead" on "Exploring Alternatives" channel)]of a guy living 21 years off-grid and building a bunch of structures, dance studio, sustaining a life (with outside purchases too. And a weird amount of technology and power tools), I am in a state of wondering what my own life would be like if I was at 100% max following my instinctual pursuits without inhibitions or limitations by things like willpower, money, and energy. No, I'm not saying I want to live off-grid (though, I find it really cool how he built everything/mostly on his own).
 
 What does this most amazing, aspirational, unrealistic, impossible version of myself look like? What does he do with his time? What has he accomplished and what does he hope to accomplish?
 
 If I should accomplish a fraction of this list in my lifetime, I should be satisfied.
 
 This list should grow with time (both as I populate the list with what has already been in my mind, as well as with what will spring up over time).
+
+___
+#### Ok, but...
+Well, ... it's now been some time since I started this note, and I'm kind of dubious about building up this list. It feels like a list of goals kind of -- which is fine, but supposedly the point is to be "impossible", which aren't really good goals. But I feel like I am feeling limited by trying to write these as goals. Even though the purpose is not that. Huh? Also, my "impossible", "unrealistic" self may not be interested in pursuing the same things that my actual self is... Does the list then just become "do anything and everything to max capacity?". My impossible self also can go beyond the max of what my actual self may desire -- so what's the bound here? At the very start of the list, I was using the phrase "to the extent defined by the standard of satisfaction set by myself" but that's kind of defining a limited infinity -- the truly impossible self would have no bound. So if I insist on setting a bound, then is this not just a list of goals that my actual self can achieve?
+
+Frankly, I should probably just indeed convert this to a list of pursuit-related goals.
+___
+
+#### ... but anyway here's the start of the drafted list, at least
 
 (In the early stages, this list will look puny... I look to my future self to make it look less puny.)
 
