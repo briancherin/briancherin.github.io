@@ -16,7 +16,7 @@ const DEFAULT_MAX_LINES = 120;
 const DEFAULT_MODE = "rendered";
 const DEFAULT_SITE_BASE_URL = "";
 const DEFAULT_TIME_ZONE = "America/New_York";
-const MAX_CHARS_PER_SEGMENT = 420;
+const MAX_CHARS_PER_SEGMENT = 1000;
 const ALLOWED_MODES = new Set(["rendered", "markdown"]);
 
 const md = new MarkdownIt({
