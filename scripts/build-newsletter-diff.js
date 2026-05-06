@@ -366,6 +366,38 @@ function buildSegments(lines) {
   return segments;
 }
 
+function truncateContextByPosition(text, segIdx, segments) {
+  const prevChangeIdx = (() => {
+    for (let i = segIdx - 1; i >= 0; i -= 1) {
+      if (segments[i].kind !== "context") return i;
+    }
+    return -1;
+  })();
+  const nextChangeIdx = (() => {
+    for (let i = segIdx + 1; i < segments.length; i += 1) {
+      if (segments[i].kind !== "context") return i;
+    }
+    return -1;
+  })();
+
+  // Context before a change: keep tail nearest the change.
+  if (prevChangeIdx === -1 && nextChangeIdx !== -1) {
+    return truncateFromStart(text);
+  }
+  // Context after a change: keep beginning nearest the change.
+  if (prevChangeIdx !== -1 && nextChangeIdx === -1) {
+    return truncateText(text);
+  }
+  // Context between changes: bias to whichever change is closer.
+  if (prevChangeIdx !== -1 && nextChangeIdx !== -1) {
+    const distPrev = segIdx - prevChangeIdx;
+    const distNext = nextChangeIdx - segIdx;
+    return distPrev <= distNext ? truncateText(text) : truncateFromStart(text);
+  }
+  // No surrounding changes (unlikely); leave as-is.
+  return { text: String(text || "").trim(), truncated: false };
+}
+
 function normalizeForComparison(text) {
   return String(text || "")
     .replace(/\s+/g, " ")
@@ -437,7 +469,13 @@ function simplifySegments(segments) {
     }
     out.push(seg);
   }
-  return out;
+  // Keep leading context, but drop trailing context after the last change.
+  let lastChange = -1;
+  for (let i = 0; i < out.length; i += 1) {
+    if (out[i].kind !== "context") lastChange = i;
+  }
+  if (lastChange === -1) return out;
+  return out.filter((seg, idx) => !(seg.kind === "context" && idx > lastChange));
 }
 
 function renderExcerptBlocksHtml(blocks, fullNoteUrl = "") {
@@ -468,7 +506,7 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "") {
               : segmentStyle;
           const truncated =
             segment.kind === "context"
-              ? truncateFromStart(segment.text)
+              ? truncateContextByPosition(segment.text, segIdx, segments)
               : truncateText(segment.text);
           return `<div class="${klass}">
             <div style="${segmentStyleFinal}">
