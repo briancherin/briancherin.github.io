@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/the-devil-wears-prada-2006/","created":"2026-04-21T18:44:10.034-04:00","updated":"2026-04-21T18:46:08.278-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/the-devil-wears-prada-2006/","created":"2026-04-21T18:44:10.034-04:00","updated":"2026-05-05T23:40:07.664-04:00"}
 ---
 
 Watched in preparation for seeing the sequel. (The choice of seeing the sequel not entirely being in my own hands.)
@@ -29,3 +29,8 @@ Ending thoughts
 - that moment of just walking away (quitting). Kind of cliche/silly but also kind of powerful. Like it just makes so much sense for her to do that once she realizes the job doesn't align with her she is / wants to be
 - at the start, the job was kind of random, one of two places that would hire her and not even for what she really wanted. But she gets pulled into the world and actually is good at the job. It's takes a bit to snap out of it and pull herself away from it. 
 - devil is this infamous dragon figure but andrea penetrates that image - sees the softer side, becomes a confidante, and devil says she sees herself in her. There's something appealing and fun about seeing this undermining of a harsh image. 
+
+
+
+### DWP 2 (sequel)
+It had some touching moments but I was often bored and not feeling into the plot. Perhaps it felt like much more of a plot-driven movie rather than character-driven compared to the original. I was feeling pleased by the end, though, so that's something.
