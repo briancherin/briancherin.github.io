@@ -409,10 +409,10 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "") {
                 : "seg seg-context";
           const segmentStyle =
             segment.kind === "added"
-              ? "padding:8px 10px;border-top:1px solid #e5e7eb;background:#ecfdf3;"
+              ? "padding:0;border-top:1px solid #e5e7eb;background:#ecfdf3;"
               : segment.kind === "removed"
-                ? "padding:8px 10px;border-top:1px solid #e5e7eb;background:#fef2f2;"
-                : "padding:8px 10px;border-top:1px solid #e5e7eb;background:#ffffff;";
+                ? "padding:0;border-top:1px solid #e5e7eb;background:#fef2f2;"
+                : "padding:0;border-top:1px solid #e5e7eb;background:#ffffff;";
           const segmentStyleFinal =
             suppressFirstSegmentTopBorder && segIdx === 0
               ? segmentStyle.replace("border-top:1px solid #e5e7eb;", "border-top:0;")
@@ -423,7 +423,7 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "") {
               : truncateText(segment.text);
           return `<div class="${klass}">
             <div style="${segmentStyleFinal}">
-              ${label ? `<div class="seg-label" style="font-size:12px;font-weight:700;line-height:1;margin-bottom:4px;color:#4b5563;">${label}</div>` : ""}
+              ${label ? `<div class="seg-label" style="font-size:12px;font-weight:700;line-height:1;margin:0 0 4px 0;color:#4b5563;">${label}</div>` : ""}
               <div class="seg-body" style="font-size:14px;line-height:1.6;color:#1f2937;">${renderLineText(truncated.text)}</div>
             </div>
           </div>`;
