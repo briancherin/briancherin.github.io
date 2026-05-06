@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Hypnosis</title>
+<title>Mars trilogy (Kim Stanley Robinson)</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -172,7 +172,7 @@ CTRL + K
 <span class="foldername">Misc</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/interests/misc/hypnosis/">Hypnosis </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/interests/misc/hypnosis/">Hypnosis </a>
 </div>
 </div>
 </div>
@@ -299,7 +299,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/books/fiction/mars-trilogy-kim-stanley-robinson/">Mars trilogy (Kim Stanley Robinson) </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/books/fiction/mars-trilogy-kim-stanley-robinson/">Mars trilogy (Kim Stanley Robinson) </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -737,17 +737,50 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2026-05-06T04:07:27.681Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2026-05-06T04:07:27.681Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2026-05-06T04:07:27.681Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Hypnosis</h1>
+<h1 data-note-icon="">Mars trilogy (Kim Stanley Robinson)</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
 <div class="timestamps">
-<script>console.log("showCreated: " + true + ", created: " + 2026-04-05T21:08:24.053-04:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2026-04-05T21:08:24.053-04:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2026-04-05T22:00:27.696-04:00"></span></div></div></div>
+<script>console.log("showCreated: " + true + ", created: " + 2026-05-05T23:40:34.188-04:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2026-05-05T23:40:34.188-04:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2026-05-06T00:06:43.659-04:00"></span></div></div></div>
 </header>
 <div class="note-folder-path align-icon">
 <i icon-name="folder"></i>
-<span class="note-folder-trail"><i>Interests &gt; Misc</i></span>
+<span class="note-folder-trail"><i>Media I Have Consumed &gt; Books &gt; Fiction</i></span>
 </div>
+<h3 id="overview" tabindex="-1">Overview</h3>
+<p>KSR is one of my favorite authors. Mainly because of this (Mars trilogy) and The Years of Rice And Salt.</p>
+<p>The Mars trilogy books: Red Mars; Green Mars; Blue Mars.</p>
+<p>The topic is humans colonizing and terraforming Mars.</p>
+<p>Very character-driven. You get started with a cast of characters and continue with them through the books and see how the world changes around them and how they change in relation to themselves and to the others.</p>
+<p>There is plenty of social commentary, exploration of technology and ideas.</p>
+<p>Has strong environmentalist themes -- makes you wonder, to what degree should we preserve the natural state of a world?</p>
+<p>Another major topic is on longevity (lifespan extension). (See below: <a class="internal-link" target data-note-icon href="/media-i-have-consumed/books/fiction/mars-trilogy-kim-stanley-robinson/#roots-of-longevity-interest" id="backlink-to-media-i-have-consumed-books-fiction-mars-trilogy-kim-stanley-robinson">Roots of longevity interest</a>)</p>
+<h3 id="personal-experience" tabindex="-1">Personal experience</h3>
+<p>Read these during my college years. I recall the feeling of being real happy to get to know the characters. A cozy, comfortable feeling.</p>
+<p>I identified most with the characters Nirgal and Art.</p>
+<ul>
+<li>Nirgal -- my image of him in my mind is a person who runs around with many social groups and has many friends and is a devoted friend and is very curious about the world. I think about him sometimes when I think about a model for charisma and having positive social energy. Also he loves running and did trail running.</li>
+<li>Art -- for some reason the most distinct scene of him in mind is him helping out with organizing a convention. I think this (or maybe just other scenes/interactions) left in me the impression of him being kind of a neutral party who floats between many people and hears different perspectives and also is generally eager and ready to be helpful.</li>
+</ul>
+<h3 id="roots-of-longevity-interest" tabindex="-1">Roots of longevity interest</h3>
+<p>I read Red Mars from about<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> June through October of 2019<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>.</p>
+<p>And I have this Google Keep note which I made on July 22, 2019:</p>
+<pre><code>something to keep watch on
+longevity / anti-aging efforts/research
+</code></pre>
+<p>So I'm pretty sure I made that note based on some of the content of Red Mars.</p>
+<p>Furthermore, as I described in <a class="internal-link" target data-note-icon href="/lifestyle/cooking/on-cooking-veganism-and-whole-food-plant-based-diet/" id="backlink-to-lifestyle-cooking-on-cooking-veganism-and-whole-food-plant-based-diet">On Cooking - Veganism and Whole-Food Plant-Based Diet</a>, <a href="https://www.reddit.com/r/longevity/comments/ci5vu1/i_am_a_22_yo_healthy_male_who_wants_to_live_until/" target="_blank" class="external-link">this reddit post</a> is what directly inspired me to start adopting a WFPB diet. Amazingly, I just checked my Chrome history (&quot;History Trends Unlimited&quot; extension) and I see that I accessed that page on August 3, 2020. My point here is that I recall at some point coming across my Google Keep note above (a while after making it -- i.e. a year) and then being inspired to look into what the current state of longevity research was. I think this then led me to the reddit post. (After looking a bit more into my Chrome history, I see I was already reading posts on the reddit longevity subreddit since around April 2020, but I think it probably wasn't until that August that I started thinking about the dietary aspect of it.) (Ok upon further inspection, I was already on the plantbaseddiet subreddit in April 2020, so maybe I had already seen the above linked reddit post earlier than August. But anyway, I'd still say it's linked to the interest in longevity and thus the Mars inspiration.)</p>
+<p>Anyway, I'm kind of trying to say that the Mars trilogy probably had a pretty strong impact on me thinking about longevity stuff and thus turning to WFPB diet and soon after, veganism itself (really not sure if I would have gone strictly vegan if I hadn't first gotten pretty close via the health-minded approach of WFPB).</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>dates are based on Google Play Book's auto-generated highlights file i.e. the dates of the first and last highlights/notes I made <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Yes this sounds like a long time. I guess I was busy being a college student. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 </main>
 <aside>
 <div class="sidebar">
@@ -780,9 +813,28 @@ CTRL + K
 <span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i icon-name="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
 </div>
 </div>
+<div class="toc">
+<div class="toc-title-container">
+<div class="toc-title">
+On this page
+</div>
+</div>
+<div class="toc-container">
+<nav class="toc">
+<ol>
+<li><a href="#overview">Overview</a>
+</li>
+<li><a href="#personal-experience">Personal experience</a>
+</li>
+<li><a href="#roots-of-longevity-interest">Roots of longevity interest</a>
+</li>
+</ol>
+</nav>
+</div>
+</div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/musings/my-most-amazing-aspirational-unrealistic-impossible-self/#backlink-to-interests-misc-hypnosis" data-note-icon="" class="backlink">My Most Amazing, Aspirational, Unrealistic, Impossible Self</a>
+<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/media-i-have-consumed/movies/the-chef-of-south-polar-2009/#backlink-to-media-i-have-consumed-books-fiction-mars-trilogy-kim-stanley-robinson" data-note-icon="" class="backlink">The Chef of South Polar (2009)</a>
 </div></div>
 </div>
 </div>
