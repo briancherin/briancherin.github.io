@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/musings/my-most-amazing-aspirational-unrealistic-impossible-self/","tags":["review"],"created":"2026-03-17T18:24:15.637-04:00","updated":"2026-05-05T22:54:40.041-04:00"}
+{"dg-publish":true,"permalink":"/musings/my-most-amazing-aspirational-unrealistic-impossible-self/","tags":["review"],"created":"2026-03-17T18:24:15.637-04:00","updated":"2026-05-05T23:08:18.149-04:00"}
 ---
 
-After watching a [video ](https://www.youtube.com/watch?v=THAupOYwJTs) ^["21 Years Living Off-Grid on a Remote Island in a Self-Built Cab in & Homestead" on "Exploring Alternatives" channel)]of a guy living 21 years off-grid and building a bunch of structures, dance studio, sustaining a life (with outside purchases too. And a weird amount of technology and power tools), I am in a state of wondering what my own life would be like if I was at 100% max following my instinctual pursuits without inhibitions or limitations by things like willpower, money, and energy. No, I'm not saying I want to live off-grid (though, I find it really cool how he built everything/mostly on his own).
+After watching a [video ](https://www.youtube.com/watch?v=THAupOYwJTs) ^["21 Years Living Off-Grid on a Remote Island in a Self-Built Cabin & Homestead" on "Exploring Alternatives" channel)]of a guy living 21 years off-grid and building a bunch of structures, dance studio, sustaining a life (with outside purchases too. And a weird amount of technology and power tools), I am in a state of wondering what my own life would be like if I was at 100% max following my instinctual pursuits without inhibitions or limitations by things like willpower, money, and energy. No, I'm not saying I want to live off-grid (though, I find it really cool how he built everything/mostly on his own).
 
 What does this most amazing, aspirational, unrealistic, impossible version of myself look like? What does he do with his time? What has he accomplished and what does he hope to accomplish?
 
