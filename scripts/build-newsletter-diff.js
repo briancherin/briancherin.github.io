@@ -366,13 +366,38 @@ function buildSegments(lines) {
   return segments;
 }
 
+function normalizeForComparison(text) {
+  return String(text || "")
+    .replace(/\s+/g, " ")
+    .replace(/[^\w\s]/g, "")
+    .trim()
+    .toLowerCase();
+}
+
+function simplifySegments(segments) {
+  const out = [];
+  for (let i = 0; i < segments.length; i += 1) {
+    const seg = segments[i];
+    const next = segments[i + 1];
+    if (seg.kind === "removed" && next && next.kind === "added") {
+      const removedNorm = normalizeForComparison(seg.text);
+      const addedNorm = normalizeForComparison(next.text);
+      if (removedNorm && addedNorm && (addedNorm.includes(removedNorm) || removedNorm.includes(addedNorm))) {
+        continue;
+      }
+    }
+    out.push(seg);
+  }
+  return out;
+}
+
 function renderExcerptBlocksHtml(blocks, fullNoteUrl = "") {
   if (!blocks || blocks.length === 0) {
     return '<p class="muted">No meaningful content snippet found for this update.</p>';
   }
 
   const renderOneBlock = (block, style = "", suppressFirstSegmentTopBorder = false) => {
-      const segments = buildSegments(block.lines);
+      const segments = simplifySegments(buildSegments(block.lines));
       const rows = segments
         .map((segment, segIdx) => {
           const label = segment.kind === "added" ? "+" : segment.kind === "removed" ? "-" : "";
