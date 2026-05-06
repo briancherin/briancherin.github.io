@@ -374,15 +374,64 @@ function normalizeForComparison(text) {
     .toLowerCase();
 }
 
+function commonPrefixRatio(a, b) {
+  const x = String(a || "");
+  const y = String(b || "");
+  if (!x || !y) return 0;
+  const minLen = Math.min(x.length, y.length);
+  let i = 0;
+  while (i < minLen && x[i] === y[i]) i += 1;
+  return i / minLen;
+}
+
+function shouldSuppressRemovedAgainstAdded(removedText, addedText) {
+  const removedNorm = normalizeForComparison(removedText);
+  const addedNorm = normalizeForComparison(addedText);
+  if (!removedNorm || !addedNorm) return false;
+
+  // Exact normalized match: pure replace noise.
+  if (removedNorm === addedNorm) return true;
+
+  // Case 1: one is a clear expansion of the other.
+  if (addedNorm.includes(removedNorm) || removedNorm.includes(addedNorm)) return true;
+
+  // Case 2: nearly identical starts (tiny edit + continuation).
+  const prefix = commonPrefixRatio(removedNorm, addedNorm);
+  if (prefix >= 0.92) return true;
+
+  // Case 3: long paragraphs with extremely similar starts.
+  if (removedNorm.length > 140 && addedNorm.length > 140 && prefix >= 0.85) return true;
+
+  // Case 4: exact same opening chunk (git split noise around long lines).
+  const HEAD = 120;
+  if (removedNorm.length > HEAD && addedNorm.length > HEAD) {
+    if (removedNorm.slice(0, HEAD) === addedNorm.slice(0, HEAD)) return true;
+  }
+
+  return false;
+}
+
 function simplifySegments(segments) {
   const out = [];
   for (let i = 0; i < segments.length; i += 1) {
     const seg = segments[i];
-    const next = segments[i + 1];
-    if (seg.kind === "removed" && next && next.kind === "added") {
-      const removedNorm = normalizeForComparison(seg.text);
-      const addedNorm = normalizeForComparison(next.text);
-      if (removedNorm && addedNorm && (addedNorm.includes(removedNorm) || removedNorm.includes(addedNorm))) {
+    if (seg.kind === "removed") {
+      // Structured pass: look ahead through nearby context to find the paired added segment.
+      // Stop when we hit another removed block, which usually indicates a new change region.
+      let candidateAdded = null;
+      for (let j = i + 1; j < segments.length; j += 1) {
+        const probe = segments[j];
+        if (probe.kind === "added") {
+          candidateAdded = probe;
+          break;
+        }
+        if (probe.kind === "removed") {
+          break;
+        }
+        // keep scanning across context segments
+      }
+
+      if (candidateAdded && shouldSuppressRemovedAgainstAdded(seg.text, candidateAdded.text)) {
         continue;
       }
     }
