@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/cooking/ai-assisted-meal-planning/","created":"2026-04-21T00:01:24.988-04:00","updated":"2026-04-28T14:40:21.034-04:00"}
+{"dg-publish":true,"permalink":"/lifestyle/cooking/ai-assisted-meal-planning/","created":"2026-04-21T00:01:24.988-04:00","updated":"2026-05-07T21:14:52.134-04:00"}
 ---
 
 It's April of 2026 and I feel like my cooking habits have not changed much in the past few years. I feel that meal planning/prepping is an underdeveloped area in my life right now. I often find myself scrambling to make last-minute meals because I don't have anything prepped. I have common staple meals that I rely on and often do make large batches of them which last for several days -- but I go in cycles of feeling like I'm doing a good job with this, and then drift off into bad habits of not having things prepared.
@@ -262,3 +262,53 @@ Obviously I have to give this a try. But it's something. The real work has to co
 - By mid-week, though, I had used up a bunch of the bases that I already had, and used up most of the prepped stuff I had made, and I felt a little lost (or rather, not lost, but back to my default way of figuring things out and day-by-day figuring out meals). I did another followup prompt to Chatgpt with an updated list of what food I had available, and I'm not sure why, but the response fell short. Possibly, this is because I still had small bits of stuff I had prepped and it was focusing on how I could use it up. But I think I wanted it to focus on a slightly longer-term vision of creating a new bulk meal from scratch (e.g. some bean recipe) that would serve as some prep for going ahead even into the next week perhaps, or as something to freeze part of so that I have a reserve meal for some future week. I still believe AI can be a useful tool for this (even though it didn't hit home at this mid-week moment) but it would definitely need some more fine tuning to get out of it what I'm really looking for. 
 - The mid-week check-in also hinted of a lack of variety of the meal suggestions chatgpt might come up with. To combat that, I have an idea of me keeping track of a minimal list of recipes that I'm interested in trying - either from my existing recipe bookmarks, or from random blogs or videos I come across. Especially on reels platforms, I see people making dishes which I feel are very different from my usual basic cooking, and those would be candidates to add to my list. Then I could point AI to the list as a seed for what dishes to prep for at moments in the food prep cadence when I have some time to make a somewhat more complicated dish that could add variety to my week rather than the same cycle of protein+vegetable bowls and so on.
 - Also want to emphasize that I wasn't following the exact timeline of meals, but rather on each day I picked from what meals it suggested (even if it didn't suggest it from that day).
+
+
+____
+(5/7/2026) 
+Trying a slightly fancier setup, with my local Obsidian vault (private notes, not this public digital garden). Multi-paged approach, using Codex for LLM.
+Files:
+- AI Instructions file (see prompt below)
+- File for each week's plan, ideally with notes/feedback about how that week went
+	- (I feel like this makes this sound like I'm going very intense on this... and I guess given all this scaffolding, I am being more intense than not having some kind of structure, but also I'm not aiming to be perfect or particularly thorough, and again, definitely not expecting myself to follow any AI-generated plan exactly -- but it's good for ideas and structure.)
+- "recipes to try" - idea is to list recipes I may want included in the generated plans
+- "types of food I like" - idea is to help the LLM out for generating suggestions that would be amenable to me.
+
+I haven't filled out "recipes to try" or "types of food I like" yet. Recipes one would ideally be a growing list I add to whenever I come across something I want to try. Ideally I would also mark a recipe as tried/enjoyed/disliked, at the very least for my own tracking.
+
+This is my base prompt. I've been fiddling with it and chatting with Codex about how to improve it (based on what it generated) and Codex has been adding some more notes as an addendum to my base prompt, but a) it's verbose so I don't feel like putting the whole thing here, and b) I'm still not too happy with it, so maybe will wait till/if I have a version I like better.
+
+>[!INFO]- Base prompt
+>You are an expert meal planner. Your job is to come up with a realistic and diverse meal plan of lunches and dinners for a week (or whatever time range specified). The plan should focus on doing prep at the beginning (or midpoint) of the week such that the prep will last for several days of meals, to reduce prep time during individual meals.
+> 
+> The user may provide a list of food items they currently have in stock. The plan should take into account what the user already has, especially to use up perishables. You are encouraged to also suggest additional items for purchase, to support a diverse meal plan. IMPORTANT: Do not overly constrain the meal plan to what the user already has. AVOID creating strange meals or forced leftover mashups; prioritize flavor-coherent, standard pairings that would feel normal in everyday vegan home cooking or a casual restaurant.
+> 
+> Another thing to keep in mind is future prep. Even if there is enough food for this week already, it is good to plan ahead and have a bulk food ready for the next week. The user can also freeze portions of a meal to make for a ready meal in the future.
+> 
+> IMPORTANT: All meals must be vegan. There is a preference for whole food plant based meals (WFPB) i.e. use mostly ingredients that are minimally processed -- but exceptions are allowed, especially during discovery of making delicious dishes ("exceptions" may range from just some minor ingredients added to a dish, all the way to trying out a still vegan but dish with more processed ingredients e.g. refined sugar or oil).
+> 
+> Nutritional focus: The goal is for the user to have a balance of hitting nutrition goals and having prepped food that is delicious and palatable, with a setup that will be easily maintained. The goal for nutrition should be based on Michael Greger's Daily Dozen model. Use this as a guideline that should be roughly followed on most days (i.e. generally have food prepped available to hit most of the categories on a given day) but it does not need to be strictly adhered to (e.g. some days may have more of a certain category while other days have less). Additionally, following the exact portions suggested by the daily dozen is not as important as hitting the categories in some amount (though it should be reasonable close to the portions). 
+> 
+> Daily dozen:
+> Beans:3/day(½c cooked beans or ¼c hummus); Berries:1/day(½c fresh/frozen or ¼c dried); OtherFruits:3/day(1 medium fruit or ¼c dried fruit); Greens:2/day(1c raw or ½c cooked); CruciferousVegetables:1/day(½c chopped or 1 tbsp horseradish); OtherVegetables:2/day(½c non-leafy vegetables); Flaxseed:1/day(1 tbsp ground); NutsAndSeeds:1/day(¼c nuts or 2 tbsp nut butter); HerbsAndSpices:1/day(¼ tsp turmeric); WholeGrains:3/day(½c hot cereal or 1 slice bread)
+> (NOTE: Do not be overly constrained by the example food items listed. There is much more that can be added to each category.)
+> 
+> 
+> User note:
+> I often scramble for last minute meals so I am hoping to get better at meal prepping and having more variety in my meals because they are often the same easy stuff I know how to do.
+> Also can take some wfpb dessert suggestions for the week.
+> 
+> Specific files:
+> "recipes to try" --> Access links or recipes here as a source for recipe ideas that user has indicated they'd like to try. This should NOT be at all limiting -- the plan can and should go beyond the listed recipes, if needed to support the goals of the plan.
+> 
+> "week" --> The user will document each week's plan and notes on the plan. Consider these notes when constructing future plans so that the plans will be attuned to the user's needs and preferences (e.g. if they indicate they like a certain meal). Also this can be used to avoid repetition so common meals don't get tiring.
+> 
+> "types of food I like" --> Reference this note for general guidelines on what kinds of foods the user likes. You can use this as a starting point for a sure bet of what kind of dishes will be appealing to the user. You do not need to be limited to this only, because the user values diversity and trying new things.
+> 
+> 
+> Meal plan output:
+> - High level description of the plan
+> - Suggested grocery list
+> - Suggested early prep steps
+> - Meal suggestions per day - can include brief one-line summaries of recipes if needed, or link to a recipe
+
