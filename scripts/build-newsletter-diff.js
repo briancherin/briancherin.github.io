@@ -18,6 +18,8 @@ const DEFAULT_SITE_BASE_URL = "";
 const DEFAULT_TIME_ZONE = "America/New_York";
 const MAX_CHARS_PER_SEGMENT = 1000;
 const ALLOWED_MODES = new Set(["rendered", "markdown"]);
+const SPOILER_TAG_RE = /^\s*(?:>+\s*)?\[!DANGER\]\s*Spoilers ahead\.?\s*$/i;
+const SPOILER_END_TAG_RE = /^\s*(?:>+\s*)?\[!success\]\s*End of spoilers\.?\s*$/i;
 
 const md = new MarkdownIt({
   html: true,
@@ -164,6 +166,34 @@ function parseNoteMeta(filePath, rawContent = "") {
 function renderNoteBodyToHtml(noteRaw) {
   const parsed = matter(noteRaw || "");
   return md.render(parsed.content || "");
+}
+
+function stripAfterSpoilerTag(noteRaw) {
+  const parsed = matter(noteRaw || "");
+  const content = String(parsed.content || "");
+  const lines = content.split(/\r?\n/);
+  const startIdx = lines.findIndex((line) => SPOILER_TAG_RE.test(String(line || "").trim()));
+  if (startIdx === -1) {
+    return { raw: noteRaw || "", content, omittedSpoilers: false };
+  }
+
+  let endIdx = -1;
+  for (let i = startIdx + 1; i < lines.length; i += 1) {
+    if (SPOILER_END_TAG_RE.test(String(lines[i] || "").trim())) {
+      endIdx = i;
+      break;
+    }
+  }
+
+  const omittedSlice =
+    endIdx === -1 ? lines.slice(startIdx + 1) : lines.slice(startIdx + 1, endIdx);
+  const omittedSpoilers = omittedSlice.some((line) => String(line || "").trim().length > 0);
+
+  const before = lines.slice(0, startIdx);
+  const after = endIdx === -1 ? [] : lines.slice(endIdx + 1);
+  const safeContent = [...before, ...after].join("\n").replace(/\s+$/, "");
+  const rebuiltRaw = matter.stringify(safeContent, parsed.data || {});
+  return { raw: rebuiltRaw, content: safeContent, omittedSpoilers };
 }
 
 function diffTextAsPatch(oldText, newText) {
@@ -478,9 +508,10 @@ function simplifySegments(segments) {
   return out.filter((seg, idx) => !(seg.kind === "context" && idx > lastChange));
 }
 
-function renderExcerptBlocksHtml(blocks, fullNoteUrl = "") {
+function renderExcerptBlocksHtml(blocks, fullNoteUrl = "", options = {}) {
+  const spoilerOmitted = Boolean(options.spoilerOmitted);
   if (!blocks || blocks.length === 0) {
-    return '<p class="muted">No meaningful content snippet found for this update.</p>';
+    return spoilerOmitted ? "" : '<p class="muted">No meaningful content snippet found for this update.</p>';
   }
 
   const renderOneBlock = (block, style = "", suppressFirstSegmentTopBorder = false) => {
@@ -547,20 +578,34 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "") {
 }
 
 function buildItemFromGit(range, file, mode, maxLines) {
-  const newRaw = runGitRaw(["show", `HEAD:${file}`], true);
-  const oldRaw = runGitRaw(["show", `${range.split("..")[0]}:${file}`], true);
-  const sourcePatch = runGitRaw(["diff", "--unified=3", range, "--", file], true);
+  const newRawOriginal = runGitRaw(["show", `HEAD:${file}`], true);
+  const oldRawOriginal = runGitRaw(["show", `${range.split("..")[0]}:${file}`], true);
+  const sourcePatchOriginal = runGitRaw(["diff", "--unified=3", range, "--", file], true);
+  const newSafe = stripAfterSpoilerTag(newRawOriginal);
+  const oldSafe = stripAfterSpoilerTag(oldRawOriginal);
+  const newRaw = newSafe.raw;
+  const oldRaw = oldSafe.raw;
+  const sourcePatch = diffTextAsPatch(oldSafe.content || "", newSafe.content || "");
 
   let debugPatch = sourcePatch;
   if (mode === "rendered") {
-    const oldHtml = renderNoteBodyToHtml(oldRaw);
-    const newHtml = renderNoteBodyToHtml(newRaw);
+    const oldHtml = md.render(oldSafe.content || "");
+    const newHtml = md.render(newSafe.content || "");
     debugPatch = diffTextAsPatch(oldHtml, newHtml);
   }
 
   const diff = parseDiffPatch(debugPatch, maxLines);
   const excerptBlocks = buildExcerptBlocksFromPatch(sourcePatch);
-  if (diff.hunks === 0 && diff.added === 0 && diff.removed === 0) return null;
+  const rawDiff = parseDiffPatch(sourcePatchOriginal, maxLines);
+  const spoilerOmitted = newSafe.omittedSpoilers;
+  if (
+    diff.hunks === 0 &&
+    diff.added === 0 &&
+    diff.removed === 0 &&
+    !(spoilerOmitted && (rawDiff.hunks > 0 || rawDiff.added > 0 || rawDiff.removed > 0))
+  ) {
+    return null;
+  }
   const isNew = !oldRaw || !oldRaw.trim();
   const updatedDate = parseNoteMeta(file, newRaw).updated;
   const createdDate = parseNoteMeta(file, newRaw).created;
@@ -572,6 +617,7 @@ function buildItemFromGit(range, file, mode, maxLines) {
     excerptBlocks,
     changeType: isNew ? "new" : "updated",
     changedAt: updatedDate || createdDate || "",
+    spoilerOmitted,
   };
 }
 
@@ -626,20 +672,15 @@ function buildFromJson(inputPath, mode, maxLines) {
   const raw = fs.readFileSync(path.resolve(REPO_ROOT, inputPath), "utf8");
   const data = JSON.parse(raw);
   const items = (data.items || []).map((item) => {
-    const sourcePatch =
-      item.patchWithContext ||
-      item.patch ||
-      (() => {
-        const oldMd = item.oldMarkdown || "";
-        const newMd = item.newMarkdown || "";
-        return diffTextAsPatch(oldMd, newMd);
-      })();
+    const oldSafe = stripAfterSpoilerTag(item.oldMarkdown || "");
+    const newSafe = stripAfterSpoilerTag(item.newMarkdown || "");
+    const sourcePatch = diffTextAsPatch(oldSafe.content || "", newSafe.content || "");
 
     let debugPatch = sourcePatch;
     if (mode === "rendered" && (item.oldMarkdown || item.newMarkdown)) {
       debugPatch = diffTextAsPatch(
-        md.render(item.oldMarkdown || ""),
-        md.render(item.newMarkdown || "")
+        md.render(oldSafe.content || ""),
+        md.render(newSafe.content || "")
       );
     }
 
@@ -656,6 +697,7 @@ function buildFromJson(inputPath, mode, maxLines) {
       excerptBlocks: buildExcerptBlocksFromPatch(sourcePatch),
       changeType: item.changeType || "updated",
       changedAt: item.updated || item.created || "",
+      spoilerOmitted: Boolean(newSafe.omittedSpoilers || item.spoilerOmitted),
     };
   });
 
@@ -679,6 +721,9 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
             : htmlEscape(item.meta.title);
           const statusLabel = item.changeType === "new" ? "New note" : "Updated note";
           const changedDate = formatDate(item.changedAt);
+          const spoilerNotice = item.spoilerOmitted
+            ? `<div style="margin:0 0 8px 0;padding:8px 10px;border:1px solid #fde68a;background:#fffbeb;color:#92400e;font-size:13px;line-height:1.4;border-radius:6px;">Spoiler content omitted. Open note to read the full version.</div>`
+            : "";
           const debug = includeDebug
             ? (() => {
                 const lines = item.diff.lines
@@ -698,8 +743,9 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
           return `
 <section class="card" style="border-top:1px solid #e5e7eb;padding-top:14px;margin-top:14px;">
   <div style="margin:0 0 6px 0;font-size:20px;line-height:1.3;color:#111827;font-weight:700;">${titleHtml}</div>
-  <div class="meta" style="margin:0 0 8px 0;color:#6b7280;font-size:13px;line-height:1.3;"><span class="badge" style="display:inline-block;padding:2px 7px;border-radius:999px;background:#e8f0fe;color:#1e40af;font-weight:600;font-size:12px;">${statusLabel}</span>${changedDate ? ` <span class="meta-date" style="color:#6b7280;">· ${changedDate}</span>` : ""}</div>
-  ${renderExcerptBlocksHtml(item.excerptBlocks, permalink)}
+  <div class="meta" style="margin:0 0 8px 0;color:#6b7280;font-size:13px;line-height:1.3;"><span class="badge" style="display:inline-block;padding:2px 7px;border-radius:999px;background:#e8f0fe;color:#1e40af;font-weight:600;font-size:12px;">${statusLabel}</span>${changedDate ? ` <span class="meta-date" style="color:#6b7280;">Â· ${changedDate}</span>` : ""}</div>
+  ${spoilerNotice}
+  ${renderExcerptBlocksHtml(item.excerptBlocks, permalink, { spoilerOmitted: item.spoilerOmitted })}
   ${link}
   ${debug}
 </section>`;
@@ -755,3 +801,4 @@ function main() {
 }
 
 main();
+
