@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>This is the beginning</title>
+<title>The Left Hand of Darkness (Ursula K. Le Guin)</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -24,7 +24,6 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CYDLTBTMTW"></script>
 <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-CYDLTBTMTW",{allow_google_signals:!1,allow_ad_personalization_signals:!1,restricted_data_processing:!0,url_passthrough:!1})</script>
 </head>
-<body class="theme-light markdown-preview-view markdown-rendered markdown-preview-section">
 <div x-init="isDesktop = (window.innerWidth>=1400) ? true: false;" x-on:resize.window="isDesktop = (window.innerWidth>=1400) ? true : false;" x-data="{isDesktop: true, showFilesMobile: false}">
 <div x-show.important="!isDesktop" style="display:none">
 <nav class="navbar">
@@ -303,7 +302,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/">The Left Hand of Darkness (Ursula K. Le Guin) </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/">The Left Hand of Darkness (Ursula K. Le Guin) </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -716,7 +715,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/">This is the beginning </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/">This is the beginning </a>
 </div>
 </div>
 </div>
@@ -743,507 +742,48 @@ CTRL + K
 </div>
 <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2026-05-08T03:50:36.513Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2026-05-08T03:50:36.513Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2026-05-08T03:50:36.513Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
-<main class="content cm-s-obsidian">
 <header>
-<h1></h1>
+<h1 data-note-icon="">The Left Hand of Darkness (Ursula K. Le Guin)</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
-</div>
+<div class="timestamps">
+<script>console.log("showCreated: " + true + ", created: " + 2026-05-07T23:28:52.602-04:00)</script><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2026-05-07T23:28:52.602-04:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2026-05-07T23:49:58.634-04:00"></span></div></div></div>
 </header>
-<h1 id="this-is-the-beginning" tabindex="-1">This is the beginning</h1>
-<p>of my digital garden / blog thing.</p>
-<p>Hi.</p>
-<p>This is a mix of a blog and personal wiki. It's a place for me to:</p>
+<div class="note-folder-path align-icon">
+<i icon-name="folder"></i>
+<span class="note-folder-trail"><i>Media I Have Consumed &gt; Books &gt; Fiction</i></span>
+</div>
+<p>Taking notes during my re-read for book club in May 2026. Currently mostly listening to the audiobook version (my original read was ebook) but also may switch between ebook as well.</p>
+<div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
+<div class="callout-content">
+<p>
+</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
+<div class="callout-content">
+<p>
+</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
+<div class="callout-content">
+<p>
+</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div>
+<div class="callout-content">
+<p>
+</p><div class="callout" data-callout="danger"><div class="callout-title"><div class="callout-title-inner"> Spoilers ahead.</div></div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+<h4 id="ch-1-4" tabindex="-1">Ch 1-4</h4>
+<li>I'm remembering why I liked this. It's kind of like a case study of anthropology. Person comes to learn about a culture. But also part less like anthropology: also aiming to establish relations/allyship and trade and make them a part of a larger entity/system.</li>
+The cultural mythology (stories) interspersed so far reminds me of what Le Guin kind of was teaching with <a class="internal-link" target="" data-note-icon="" href="/media-i-have-consumed/books/mini-book-reviews/#always-coming-home-em-by-ursula-k-leguin-finished-january-8-2025">Always Coming Home</a>* -- you learn a lot about a culture from their stories and mythos.
+<li>Expanding on my first point, I wonder how much of the message here has to do with the <em>negative</em> aspects of colonialism.
 <ul>
-<li>Comment on media I've consumed</li>
-<li>Share about my interests and personal projects</li>
-<li>Document viewpoints or aspects of my life that I want to share with the world</li>
+<li>My instinct is that we are actually being presented with a good way to establish contact with a different culture and develop positive and respectful relations and exchange.</li>
+<li>But the king's speech to Genly brings up what is probably a common point (in real life) against even this kind of interference -- they are fine on their own, they are doing well on their own, what do they need from the outside?</li>
+<li>This reminded me of hearing about certain indigenous tribes who have been completely undisturbed by outsiders -- they do fine for themselves and maybe wouldn't want to be disturbed. Yet, is that really their answer? I don't know. Maybe they want to stay isolated, but maybe they would be open to exchange (of technology, ideas, etc). There's probably no right answer.</li>
+<li>It also kind of reminds me of the environmental dilemma I mentioned that the <a class="internal-link" target="" data-note-icon="" href="/media-i-have-consumed/books/fiction/mars-trilogy-kim-stanley-robinson/">Mars trilogy</a> explores -- (I just expanded on some of these thoughts <a class="internal-link" target="" data-note-icon="" href="/media-i-have-consumed/books/fiction/mars-trilogy-kim-stanley-robinson/#environmental-dilemma">here</a>), but of course it's different when talking about a human civilization/group.</li>
 </ul>
-<p>For more explanation: <a class="internal-link" target data-note-icon href="/meta/on-blogging/what-is-this/" id="backlink-to-meta-on-blogging-what-is-this">What Is This</a></p>
-<p>I recommend looking at the hierarchy of topics and seeing what catches your interest, or use the Random Note button below, or pick from the list of recently updated posts.</p>
-<p><button id="random-note-button">🎲 Go to Random Note</button></p>
-<script>let notes=null;async function loadNotes(){if(notes)return notes;const o=await fetch("/searchIndex.json"),t=await o.json();return notes=t.map((o=>o.url)),notes}async function goToRandomNote(){const o=await loadNotes(),t=o[Math.floor(Math.random()*o.length)];"/"==t&&await goToRandomNote(),window.location.href=t}document.getElementById("random-note-button").addEventListener("click",goToRandomNote)</script>
-<section class="homepage-category-browser" aria-labelledby="browse-categories-heading">
-<div class="homepage-category-browser-header">
-<h2 id="browse-categories-heading">Posts by category</h2>
-<div class="homepage-category-browser-actions">
-<button type="button" id="expand-all-categories">Expand all</button>
-<button type="button" id="collapse-all-categories">Collapse all</button>
-</div>
-</div>
-<div id="homepage-category-tree"></div>
-</section>
-<script>!function(){const e=document.getElementById("homepage-category-tree");if(!e)return;const n={Creations:{isFolder:!0,Poetry:{isFolder:!0,"Flicker.md":{isNote:!0,permalink:"/creations/poetry/flicker/",name:"Flicker",noteIcon:"",hide:!1,pinned:!1}}},Interests:{Creative:{isFolder:!0,Misc:{isFolder:!0,"DIY Dyes.md":{isNote:!0,permalink:"/interests/creative/misc/diy-dyes/",name:"DIY Dyes",noteIcon:"",hide:!1,pinned:!1}},Songwriting:{isFolder:!0,"Songwriting.md":{isNote:!0,permalink:"/interests/creative/songwriting/songwriting/",name:"Songwriting",noteIcon:"",hide:!1,pinned:!1}},Writing:{isFolder:!0,"Creative Writing.md":{isNote:!0,permalink:"/interests/creative/writing/creative-writing/",name:"Creative Writing",noteIcon:"",hide:!1,pinned:!1},"Poetry.md":{isNote:!0,permalink:"/interests/creative/writing/poetry/",name:"Poetry",noteIcon:"",hide:!1,pinned:!1},"Writing.md":{isNote:!0,permalink:"/interests/creative/writing/writing/",name:"Writing",noteIcon:"",hide:!1,pinned:!1}}},Dreams:{isFolder:!0,"Dreams.md":{isNote:!0,permalink:"/interests/dreams/dreams/",name:"Dreams",noteIcon:"",hide:!1,pinned:!1}},isFolder:!0,Misc:{isFolder:!0,"Hypnosis.md":{isNote:!0,permalink:"/interests/misc/hypnosis/",name:"Hypnosis",noteIcon:"",hide:!1,pinned:!1}},Music:{isFolder:!0,"2025 Music Retrospective.md":{isNote:!0,permalink:"/interests/music/2025-music-retrospective/",name:"2025 Music Retrospective",noteIcon:"",hide:!1,pinned:!1},"Discovering new music.md":{isNote:!0,permalink:"/interests/music/discovering-new-music/",name:"Discovering new music",noteIcon:"",hide:!1,pinned:!1},"The Tragedy of Small Numbers.md":{isNote:!0,permalink:"/interests/music/the-tragedy-of-small-numbers/",name:"The Tragedy of Small Numbers",noteIcon:"",hide:!1,pinned:!1},"Ways to Engage More Deeply With Music.md":{isNote:!0,permalink:"/interests/music/ways-to-engage-more-deeply-with-music/",name:"Ways to Engage More Deeply With Music",noteIcon:"",hide:!1,pinned:!1}},Reading:{isFolder:!0,"Inspiration.md":{isNote:!0,permalink:"/interests/reading/inspiration/",name:"Inspiration",noteIcon:"",hide:!1,pinned:!1}},Theater:{isFolder:!0,"Attending an Industry Reading.md":{isNote:!0,permalink:"/interests/theater/attending-an-industry-reading/",name:"Attending an Industry Reading",noteIcon:"",hide:!1,pinned:!1}}},Lifestyle:{Cooking:{isFolder:!0,"AI-Assisted Meal Planning.md":{isNote:!0,permalink:"/lifestyle/cooking/ai-assisted-meal-planning/",name:"AI-Assisted Meal Planning",noteIcon:"",hide:!1,pinned:!1},"On Cooking - Veganism and Whole-Food Plant-Based Diet.md":{isNote:!0,permalink:"/lifestyle/cooking/on-cooking-veganism-and-whole-food-plant-based-diet/",name:"On Cooking - Veganism and Whole-Food Plant-Based Diet",noteIcon:"",hide:!1,pinned:!1}},isFolder:!0,Veganism:{isFolder:!0,"Asked Why Am I Vegan.md":{isNote:!0,permalink:"/lifestyle/veganism/asked-why-am-i-vegan/",name:"Asked: Why Am I Vegan",noteIcon:"",hide:!1,pinned:!1},"Why do vegans want imitation meat.md":{isNote:!0,permalink:"/lifestyle/veganism/why-do-vegans-want-imitation-meat/",name:"Why do vegans want imitation meat?",noteIcon:"",hide:!1,pinned:!1}}},"Media I Have Consumed":{Books:{Fiction:{isFolder:!0,"In Search of Lost Time by Marcel Proust.md":{isNote:!0,permalink:"/media-i-have-consumed/books/fiction/in-search-of-lost-time-by-marcel-proust/",name:"In Search of Lost Time by Marcel Proust",noteIcon:"",hide:!1,pinned:!1},"Mars trilogy (Kim Stanley Robinson).md":{isNote:!0,permalink:"/media-i-have-consumed/books/fiction/mars-trilogy-kim-stanley-robinson/",name:"Mars trilogy (Kim Stanley Robinson)",noteIcon:"",hide:!1,pinned:!1},"The Left Hand of Darkness (Ursula K. Le Guin).md":{isNote:!0,permalink:"/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/",name:"The Left Hand of Darkness (Ursula K. Le Guin)",noteIcon:"",hide:!1,pinned:!1},"The Realm of the Elderlings (series).md":{isNote:!0,permalink:"/media-i-have-consumed/books/fiction/the-realm-of-the-elderlings-series/",name:"The Realm of the Elderlings (series)",noteIcon:"",hide:!1,pinned:!1},"The Wheel of Time (series).md":{isNote:!0,permalink:"/media-i-have-consumed/books/fiction/the-wheel-of-time-series/",name:"The Wheel of Time (series)",noteIcon:"",hide:!1,pinned:!1},"War and Peace by Leo Tolstoy.md":{isNote:!0,permalink:"/media-i-have-consumed/books/fiction/war-and-peace-by-leo-tolstoy/",name:"War and Peace by Leo Tolstoy",noteIcon:"",hide:!1,pinned:!1}},isFolder:!0,Nonfiction:{isFolder:!0,"CRISPR Book Summary.md":{isNote:!0,permalink:"/media-i-have-consumed/books/nonfiction/crispr-book-summary/",name:'"Editing Humanity" by Kevin Davies (College Assignment Book Summary)',noteIcon:"",hide:!1,pinned:!1},"The 2-Hour Cocktail Party by Nick Gray.md":{isNote:!0,permalink:"/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/",name:"The 2-Hour Cocktail Party by Nick Gray",noteIcon:"",hide:!1,pinned:!1}},"Audiobooks.md":{isNote:!0,permalink:"/media-i-have-consumed/books/audiobooks/",name:"Audiobooks",noteIcon:"",hide:!1,pinned:!1},"Mini Book Reviews.md":{isNote:!0,permalink:"/media-i-have-consumed/books/mini-book-reviews/",name:"Mini Book Reviews",noteIcon:"",hide:!1,pinned:!1}},isFolder:!0,Misc:{isFolder:!0,"Hank Green Tells Me To Fall Downhill.md":{isNote:!0,permalink:"/media-i-have-consumed/misc/hank-green-tells-me-to-fall-downhill/",name:"Hank Green Tells Me To Fall Downhill",noteIcon:"",hide:!1,pinned:!1},"Makoism (blog) posts.md":{isNote:!0,permalink:"/media-i-have-consumed/misc/makoism-blog-posts/",name:"Makoism (blog) posts",noteIcon:"",hide:!1,pinned:!1},"The Egg (Andy Weir).md":{isNote:!0,permalink:"/media-i-have-consumed/misc/the-egg-andy-weir/",name:"The Egg (Andy Weir)",noteIcon:"",hide:!1,pinned:!1}},Movies:{isFolder:!0,"A Tree Grows in Brooklyn (1945).md":{isNote:!0,permalink:"/media-i-have-consumed/movies/a-tree-grows-in-brooklyn-1945/",name:"A Tree Grows in Brooklyn (1945)",noteIcon:"",hide:!1,pinned:!1},"Bugonia (2025).md":{isNote:!0,permalink:"/media-i-have-consumed/movies/bugonia-2025/",name:"Bugonia (2025)",noteIcon:"",hide:!1,pinned:!1},"Eternity (2025).md":{isNote:!0,permalink:"/media-i-have-consumed/movies/eternity-2025/",name:"Eternity (2025)",noteIcon:"",hide:!1,pinned:!1},"Local Hero (1983).md":{isNote:!0,permalink:"/media-i-have-consumed/movies/local-hero-1983/",name:"Local Hero (1983)",noteIcon:"",hide:!1,pinned:!1},"Pools (2025).md":{isNote:!0,permalink:"/media-i-have-consumed/movies/pools-2025/",name:"Pools (2025)",noteIcon:"",hide:!1,pinned:!1},"The Chef of South Polar (2009).md":{isNote:!0,permalink:"/media-i-have-consumed/movies/the-chef-of-south-polar-2009/",name:"The Chef of South Polar (2009)",noteIcon:"",hide:!1,pinned:!1},"The Devil Wears Prada (2006).md":{isNote:!0,permalink:"/media-i-have-consumed/movies/the-devil-wears-prada-2006/",name:"The Devil Wears Prada (2006)",noteIcon:"",hide:!1,pinned:!1},"Twelve Angry Men.md":{isNote:!0,permalink:"/media-i-have-consumed/movies/twelve-angry-men/",name:"Twelve Angry Men",noteIcon:"",hide:!1,pinned:!1}},Music:{isFolder:!0,"2026 Music Standouts.md":{isNote:!0,permalink:"/media-i-have-consumed/music/2026-music-standouts/",name:"2026 Music Standouts",noteIcon:"",hide:!1,pinned:!1},"Music Associations.md":{isNote:!0,permalink:"/media-i-have-consumed/music/music-associations/",name:"Music Associations",noteIcon:"",hide:!1,pinned:!1},"My Music Recommendations.md":{isNote:!0,permalink:"/media-i-have-consumed/music/my-music-recommendations/",name:"My Music Recommendations",noteIcon:"",hide:!1,pinned:!1},"Streetlight Manifesto.md":{isNote:!0,permalink:"/media-i-have-consumed/music/streetlight-manifesto/",name:"Streetlight Manifesto",noteIcon:"",hide:!1,pinned:!1},"Weathervanes (Album) by Freelance Whales.md":{isNote:!0,permalink:"/media-i-have-consumed/music/weathervanes-album-by-freelance-whales/",name:"Weathervanes (Album) by Freelance Whales",noteIcon:"",hide:!1,pinned:!1}},Podcasts:{isFolder:!0,"1 Second Everyday - Indie Hackers Podcast.md":{isNote:!0,permalink:"/media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/",name:'"1 Second Everyday" - Indie Hackers Podcast',noteIcon:"",hide:!1,pinned:!1},"Daniel Vassallo - Indie Hackers Podcast.md":{isNote:!0,permalink:"/media-i-have-consumed/podcasts/daniel-vassallo-indie-hackers-podcast/",name:"Daniel Vassallo - Indie Hackers Podcast",noteIcon:"",hide:!1,pinned:!1}},Poetry:{isFolder:!0,"All nearness pauses while a star can grow (E.E. Cummings).md":{isNote:!0,permalink:"/media-i-have-consumed/poetry/all-nearness-pauses-while-a-star-can-grow-e-e-cummings/",name:"All nearness pauses while a star can grow (E.E. Cummings)",noteIcon:"",hide:!1,pinned:!1}},Theater:{isFolder:!0,"Company A Musical Comedy - Sondheim 1970.md":{isNote:!0,permalink:"/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/",name:"Company: A Musical Comedy - Sondheim 1970",noteIcon:"",hide:!1,pinned:!1},"Ghost Quartet - Dave Malloy (2014).md":{isNote:!0,permalink:"/media-i-have-consumed/theater/ghost-quartet-dave-malloy-2014/",name:"Ghost Quartet - Dave Malloy (2014)",noteIcon:"",hide:!1,pinned:!1},"Into the Woods - Sondheim (1986).md":{isNote:!0,permalink:"/media-i-have-consumed/theater/into-the-woods-sondheim-1986/",name:"Into the Woods - Sondheim (1986)",noteIcon:"",hide:!1,pinned:!1},"Mini Theater Reviews.md":{isNote:!0,permalink:"/media-i-have-consumed/theater/mini-theater-reviews/",name:"Mini Theater Reviews",noteIcon:"",hide:!1,pinned:!1},"Natasha, Pierre, and the Great Comet of 1812.md":{isNote:!0,permalink:"/media-i-have-consumed/theater/natasha-pierre-and-the-great-comet-of-1812/",name:"Natasha, Pierre, and the Great Comet of 1812",noteIcon:"",hide:!1,pinned:!1},"Pen Pals by Michael Griffo (2025).md":{isNote:!0,permalink:"/media-i-have-consumed/theater/pen-pals-by-michael-griffo-2025/",name:"Pen Pals by Michael Griffo (2025)",noteIcon:"",hide:!1,pinned:!1},"Spare Parts (2026).md":{isNote:!0,permalink:"/media-i-have-consumed/theater/spare-parts-2026/",name:"Spare Parts (2026)",noteIcon:"",hide:!1,pinned:!1}},TV:{isFolder:!0,"The Good Place.md":{isNote:!0,permalink:"/media-i-have-consumed/tv/the-good-place/",name:"The Good Place",noteIcon:"",hide:!1,pinned:!1}}},Meta:{isFolder:!0,"On Blogging":{isFolder:!0,"Blogging Inspiration.md":{isNote:!0,permalink:"/meta/on-blogging/blogging-inspiration/",name:"Blogging Inspiration",noteIcon:"",hide:!1,pinned:!1},"Indie Web.md":{isNote:!0,permalink:"/meta/on-blogging/indie-web/",name:"Indie Web",noteIcon:"",hide:!1,pinned:!1},"My Past Self Telling Me To Start a Blog.md":{isNote:!0,permalink:"/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/",name:"My Past Self Telling Me To Start a Blog",noteIcon:"",hide:!1,pinned:!1},"On Privacy.md":{isNote:!0,permalink:"/meta/on-blogging/on-privacy/",name:"On Privacy",noteIcon:"",hide:!1,pinned:!1},"Please Don't Spearphish Me (Creating an Obsidian Plugin).md":{isNote:!0,permalink:"/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/",name:"Please Don't Spearphish Me (Creating an Obsidian Plugin)",noteIcon:"",hide:!1,pinned:!1},"Reasons to Write (Here).md":{isNote:!0,permalink:"/meta/on-blogging/reasons-to-write-here/",name:"Reasons to Write (Here)",noteIcon:"",hide:!1,pinned:!1},"What Is This.md":{isNote:!0,permalink:"/meta/on-blogging/what-is-this/",name:"What is this?",noteIcon:"",hide:!1,pinned:!1}},"Garden Improvements.md":{isNote:!0,permalink:"/meta/garden-improvements/",name:"Garden Improvements",noteIcon:"",hide:!1,pinned:!1},"Obsidian Setup.md":{isNote:!0,permalink:"/meta/obsidian-setup/",name:"Obsidian Setup",noteIcon:"",hide:!1,pinned:!1},"RSS Feed.md":{isNote:!0,permalink:"/meta/rss-feed/",name:"RSS Feed",noteIcon:"",hide:!1,pinned:!1},"Subscribe For Email Updates.md":{isNote:!0,permalink:"/meta/subscribe-for-email-updates/",name:"Subscribe For Email Updates",noteIcon:"",hide:!1,pinned:!1}},Misc:{isFolder:!0,"Random Snippets.md":{isNote:!0,permalink:"/misc/random-snippets/",name:"Random Snippets",noteIcon:"",hide:!1,pinned:!1},"Whats Up.md":{isNote:!0,permalink:"/misc/whats-up/",name:"What's Up",noteIcon:"",hide:!1,pinned:!1}},Musings:{isFolder:!0,"My Most Amazing, Aspirational, Unrealistic, Impossible Self.md":{isNote:!0,permalink:"/musings/my-most-amazing-aspirational-unrealistic-impossible-self/",name:"My Most Amazing, Aspirational, Unrealistic, Impossible Self",noteIcon:"",hide:!1,pinned:!1},"The Tug of Television (Resisting Overconsumption).md":{isNote:!0,permalink:"/musings/the-tug-of-television-resisting-overconsumption/",name:"The Tug of Television (Resisting Overconsumption)",noteIcon:"",hide:!1,pinned:!1}},Projects:{"3D and VR":{isFolder:!0,"Personal 3D VR World Building.md":{isNote:!0,permalink:"/projects/3-d-and-vr/personal-3-d-vr-world-building/",name:"Personal 3D/VR World Building",noteIcon:"",hide:!1,pinned:!1}},isFolder:!0,Software:{"Game Development":{isFolder:!0,"Old projects":{isFolder:!0,"Bee Haven.md":{isNote:!0,permalink:"/projects/software/game-development/old-projects/bee-haven/",name:"Bee Haven",noteIcon:"",hide:!1,pinned:!1},"Toothpaste Burger.md":{isNote:!0,permalink:"/projects/software/game-development/old-projects/toothpaste-burger/",name:"Toothpaste Burger",noteIcon:"",hide:!1,pinned:!1}},"Game Dev Inspiration.md":{isNote:!0,permalink:"/projects/software/game-development/game-dev-inspiration/",name:"Game Dev Inspiration",noteIcon:"",hide:!1,pinned:!1}},isFolder:!0,"Mini Projects":{isFolder:!0,"GPT Meal Planner.md":{isNote:!0,permalink:"/projects/software/mini-projects/gpt-meal-planner/",name:"GPT Meal Planner",noteIcon:"",hide:!1,pinned:!1},"Mini Projects.md":{isNote:!0,permalink:"/projects/software/mini-projects/mini-projects/",name:"Mini Projects",noteIcon:"",hide:!1,pinned:!1},"Restaurant AI VR Simulation.md":{isNote:!0,permalink:"/projects/software/mini-projects/restaurant-ai-vr-simulation/",name:"Restaurant AI VR Simulation",noteIcon:"",hide:!1,pinned:!1}},"Really Old Projects":{isFolder:!0,"brianiscool.tk.md":{isNote:!0,permalink:"/projects/software/really-old-projects/brianiscool-tk/",name:"brianiscool.tk",noteIcon:"",hide:!1,pinned:!1}},"Specific Main App Pursuit I'm Currently Working On.md":{isNote:!0,permalink:"/projects/software/specific-main-app-pursuit-i-m-currently-working-on/",name:"Specific Main App Pursuit I'm Currently Working On",noteIcon:"",hide:!1,pinned:!1}}},"This is the beginning.md":{isNote:!0,permalink:"/",name:"This is the beginning",noteIcon:"",hide:!1,pinned:!1}},i=new Set(new URLSearchParams(window.location.search).getAll("open")),o=e=>e&&"object"==typeof e?e.isNote?e.hide?0:1:Object.entries(e).filter((([e])=>"isFolder"!==e)).reduce(((e,[,n])=>e+o(n)),0):0,a=e=>Object.entries(e).filter((([e])=>"isFolder"!==e)),t=()=>{const e=new URLSearchParams(window.location.search);e.delete("open"),Array.from(i).sort().forEach((n=>e.append("open",n)));const n=e.toString(),o=n?`${window.location.pathname}?${n}${window.location.hash}`:`${window.location.pathname}${window.location.hash}`;window.history.replaceState(null,"",o)},s=()=>{(()=>{const e=new Set;i.forEach((n=>{if(!n)return;const i=n.split("/").filter(Boolean);for(let n=1;n<=i.length;n+=1)e.add(i.slice(0,n).join("/"))})),i.clear(),e.forEach((e=>i.add(e)))})(),e.innerHTML="";const t=document.createDocumentFragment(),s=(e,n,t)=>{a(e).forEach((([e,a])=>{if(!a||"object"!=typeof a)return;if(a.isFolder){const d=t?`${t}/${e}`:e,r=i.has(d),m=o(a);if(0===m)return;const l=document.createElement("div");l.className="hcb-node hcb-folder-node",l.dataset.path=d;const c=document.createElement("button");c.type="button",c.className="hcb-folder-button",c.setAttribute("aria-expanded",r?"true":"false");const p=document.createElement("span");p.className="hcb-caret",p.textContent=r?"v":">";const h=document.createElement("span");h.className="hcb-folder-title",h.textContent=e;const u=document.createElement("span");u.className="hcb-folder-count",u.textContent=`(${m})`,c.append(p,h,u);const g=document.createElement("div");return g.className="hcb-children",r||g.classList.add("hcb-children-hidden"),s(a,g,d),l.append(c,g),void n.appendChild(l)}if(!a.isNote||a.hide)return;if(!t)return;const d=document.createElement("a");d.className="hcb-node hcb-leaf-chip",d.href=a.permalink||"/",d.textContent=a.name||e.replace(/\.md$/i,""),d.setAttribute("data-leaf","true"),n.appendChild(d)}))};s(n,t,""),e.appendChild(t)};e.addEventListener("click",(e=>{const n=e.target.closest(".hcb-folder-button");if(!n)return;e.preventDefault();const o=n.closest(".hcb-folder-node");if(!o)return;const a=o.dataset.path,s=Array.from(o.children).find((e=>e.classList&&e.classList.contains("hcb-children")));if(!a||!s)return;if(i.has(a)){i.delete(a),s.classList.add("hcb-children-hidden"),n.setAttribute("aria-expanded","false");const e=n.querySelector(".hcb-caret");e&&(e.textContent=">")}else{i.add(a),s.classList.remove("hcb-children-hidden"),n.setAttribute("aria-expanded","true");const e=n.querySelector(".hcb-caret");e&&(e.textContent="v")}t()})),document.getElementById("expand-all-categories")?.addEventListener("click",(()=>{const e=(n,t)=>{a(n).forEach((([n,a])=>{if(!a||!a.isFolder)return;const s=t?`${t}/${n}`:n;o(a)>0&&(i.add(s),e(a,s))}))};e(n,""),t(),s()})),document.getElementById("collapse-all-categories")?.addEventListener("click",(()=>{i.clear(),t(),s()})),s()}()</script>
-<h2>Posts by date updated</h2>
-<ul><li>
-<a href="/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/" id="backlink-to-media-i-have-consumed-books-fiction-the-left-hand-of-darkness-ursula-k-le-guin">The Left Hand of Darkness (Ursula K. Le Guin)</a>
-<span style="opacity:.7">
-- May 8, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/books/fiction/the-wheel-of-time-series/" id="backlink-to-media-i-have-consumed-books-fiction-the-wheel-of-time-series">The Wheel of Time (series)</a>
-<span style="opacity:.7">
-- May 8, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/books/fiction/mars-trilogy-kim-stanley-robinson/" id="backlink-to-media-i-have-consumed-books-fiction-mars-trilogy-kim-stanley-robinson">Mars trilogy (Kim Stanley Robinson)</a>
-<span style="opacity:.7">
-- May 8, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/misc/makoism-blog-posts/" id="backlink-to-media-i-have-consumed-misc-makoism-blog-posts">Makoism (blog) posts</a>
-<span style="opacity:.7">
-- May 8, 2026
-</span>
-</li><li>
-<a href="/lifestyle/cooking/ai-assisted-meal-planning/" id="backlink-to-lifestyle-cooking-ai-assisted-meal-planning">AI-Assisted Meal Planning</a>
-<span style="opacity:.7">
-- May 8, 2026
-</span>
-</li><li>
-<a href="/misc/whats-up/" id="backlink-to-misc-whats-up">What&#39;s Up</a>
-<span style="opacity:.7">
-- May 7, 2026
-</span>
-</li><li>
-<a href="/meta/on-blogging/reasons-to-write-here/" id="backlink-to-meta-on-blogging-reasons-to-write-here">Reasons to Write (Here)</a>
-<span style="opacity:.7">
-- May 7, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/movies/the-chef-of-south-polar-2009/" id="backlink-to-media-i-have-consumed-movies-the-chef-of-south-polar-2009">The Chef of South Polar (2009)</a>
-<span style="opacity:.7">
-- May 6, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/movies/the-devil-wears-prada-2006/" id="backlink-to-media-i-have-consumed-movies-the-devil-wears-prada-2006">The Devil Wears Prada (2006)</a>
-<span style="opacity:.7">
-- May 6, 2026
-</span>
-</li><li>
-<a href="/meta/subscribe-for-email-updates/" id="backlink-to-meta-subscribe-for-email-updates">Subscribe For Email Updates</a>
-<span style="opacity:.7">
-- May 6, 2026
-</span>
-</li><li>
-<a href="/musings/my-most-amazing-aspirational-unrealistic-impossible-self/" id="backlink-to-musings-my-most-amazing-aspirational-unrealistic-impossible-self">My Most Amazing, Aspirational, Unrealistic, Impossible Self</a>
-<span style="opacity:.7">
-- May 6, 2026
-</span>
-</li><li>
-<a href="/interests/dreams/dreams/" id="backlink-to-interests-dreams-dreams">Dreams</a>
-<span style="opacity:.7">
-- May 5, 2026
-</span>
-</li><li>
-<a href="/lifestyle/veganism/why-do-vegans-want-imitation-meat/" id="backlink-to-lifestyle-veganism-why-do-vegans-want-imitation-meat">Why do vegans want imitation meat?</a>
-<span style="opacity:.7">
-- Apr 29, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/music/2026-music-standouts/" id="backlink-to-media-i-have-consumed-music-2026-music-standouts">2026 Music Standouts</a>
-<span style="opacity:.7">
-- Apr 28, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/music/my-music-recommendations/" id="backlink-to-media-i-have-consumed-music-my-music-recommendations">My Music Recommendations</a>
-<span style="opacity:.7">
-- Apr 28, 2026
-</span>
-</li><li>
-<a href="/lifestyle/cooking/on-cooking-veganism-and-whole-food-plant-based-diet/" id="backlink-to-lifestyle-cooking-on-cooking-veganism-and-whole-food-plant-based-diet">On Cooking - Veganism and Whole-Food Plant-Based Diet</a>
-<span style="opacity:.7">
-- Apr 28, 2026
-</span>
-</li><li>
-<a href="/lifestyle/veganism/asked-why-am-i-vegan/" id="backlink-to-lifestyle-veganism-asked-why-am-i-vegan">Asked: Why Am I Vegan</a>
-<span style="opacity:.7">
-- Apr 28, 2026
-</span>
-</li><li>
-<a href="/meta/obsidian-setup/" id="backlink-to-meta-obsidian-setup">Obsidian Setup</a>
-<span style="opacity:.7">
-- Apr 27, 2026
-</span>
-</li><li>
-<a href="/projects/software/mini-projects/gpt-meal-planner/" id="backlink-to-projects-software-mini-projects-gpt-meal-planner">GPT Meal Planner</a>
-<span style="opacity:.7">
-- Apr 21, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/misc/the-egg-andy-weir/" id="backlink-to-media-i-have-consumed-misc-the-egg-andy-weir">The Egg (Andy Weir)</a>
-<span style="opacity:.7">
-- Apr 16, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/theater/ghost-quartet-dave-malloy-2014/" id="backlink-to-media-i-have-consumed-theater-ghost-quartet-dave-malloy-2014">Ghost Quartet - Dave Malloy (2014)</a>
-<span style="opacity:.7">
-- Apr 16, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/books/nonfiction/crispr-book-summary/" id="backlink-to-media-i-have-consumed-books-nonfiction-crispr-book-summary">&quot;Editing Humanity&quot; by Kevin Davies (College Assignment Book Summary)</a>
-<span style="opacity:.7">
-- Apr 16, 2026
-</span>
-</li><li>
-<a href="/interests/music/2025-music-retrospective/" id="backlink-to-interests-music-2025-music-retrospective">2025 Music Retrospective</a>
-<span style="opacity:.7">
-- Apr 14, 2026
-</span>
-</li><li>
-<a href="/musings/the-tug-of-television-resisting-overconsumption/" id="backlink-to-musings-the-tug-of-television-resisting-overconsumption">The Tug of Television (Resisting Overconsumption)</a>
-<span style="opacity:.7">
-- Apr 12, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/theater/into-the-woods-sondheim-1986/" id="backlink-to-media-i-have-consumed-theater-into-the-woods-sondheim-1986">Into the Woods - Sondheim (1986)</a>
-<span style="opacity:.7">
-- Apr 11, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/theater/mini-theater-reviews/" id="backlink-to-media-i-have-consumed-theater-mini-theater-reviews">Mini Theater Reviews</a>
-<span style="opacity:.7">
-- Apr 11, 2026
-</span>
-</li><li>
-<a href="/interests/music/discovering-new-music/" id="backlink-to-interests-music-discovering-new-music">Discovering new music</a>
-<span style="opacity:.7">
-- Apr 6, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/theater/spare-parts-2026/" id="backlink-to-media-i-have-consumed-theater-spare-parts-2026">Spare Parts (2026)</a>
-<span style="opacity:.7">
-- Apr 6, 2026
-</span>
-</li><li>
-<a href="/interests/misc/hypnosis/" id="backlink-to-interests-misc-hypnosis">Hypnosis</a>
-<span style="opacity:.7">
-- Apr 6, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/movies/local-hero-1983/" id="backlink-to-media-i-have-consumed-movies-local-hero-1983">Local Hero (1983)</a>
-<span style="opacity:.7">
-- Mar 31, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/movies/twelve-angry-men/" id="backlink-to-media-i-have-consumed-movies-twelve-angry-men">Twelve Angry Men</a>
-<span style="opacity:.7">
-- Mar 30, 2026
-</span>
-</li><li>
-<a href="/projects/software/game-development/old-projects/toothpaste-burger/" id="backlink-to-projects-software-game-development-old-projects-toothpaste-burger">Toothpaste Burger</a>
-<span style="opacity:.7">
-- Mar 29, 2026
-</span>
-</li><li>
-<a href="/meta/on-blogging/indie-web/" id="backlink-to-meta-on-blogging-indie-web">Indie Web</a>
-<span style="opacity:.7">
-- Mar 29, 2026
-</span>
-</li><li>
-<a href="/meta/garden-improvements/" id="backlink-to-meta-garden-improvements">Garden Improvements</a>
-<span style="opacity:.7">
-- Mar 29, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/" id="backlink-to-media-i-have-consumed-books-nonfiction-the-2-hour-cocktail-party-by-nick-gray">The 2-Hour Cocktail Party by Nick Gray</a>
-<span style="opacity:.7">
-- Mar 29, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/books/mini-book-reviews/" id="backlink-to-media-i-have-consumed-books-mini-book-reviews">Mini Book Reviews</a>
-<span style="opacity:.7">
-- Mar 19, 2026
-</span>
-</li><li>
-<a href="/interests/reading/inspiration/" id="backlink-to-interests-reading-inspiration">Inspiration</a>
-<span style="opacity:.7">
-- Mar 19, 2026
-</span>
-</li><li>
-<a href="/interests/creative/songwriting/songwriting/" id="backlink-to-interests-creative-songwriting-songwriting">Songwriting</a>
-<span style="opacity:.7">
-- Mar 18, 2026
-</span>
-</li><li>
-<a href="/interests/creative/writing/poetry/" id="backlink-to-interests-creative-writing-poetry">Poetry</a>
-<span style="opacity:.7">
-- Mar 18, 2026
-</span>
-</li><li>
-<a href="/creations/poetry/flicker/" id="backlink-to-creations-poetry-flicker">Flicker</a>
-<span style="opacity:.7">
-- Mar 18, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/tv/the-good-place/" id="backlink-to-media-i-have-consumed-tv-the-good-place">The Good Place</a>
-<span style="opacity:.7">
-- Mar 18, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/theater/natasha-pierre-and-the-great-comet-of-1812/" id="backlink-to-media-i-have-consumed-theater-natasha-pierre-and-the-great-comet-of-1812">Natasha, Pierre, and the Great Comet of 1812</a>
-<span style="opacity:.7">
-- Mar 17, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/books/audiobooks/" id="backlink-to-media-i-have-consumed-books-audiobooks">Audiobooks</a>
-<span style="opacity:.7">
-- Mar 17, 2026
-</span>
-</li><li>
-<a href="/interests/creative/writing/creative-writing/" id="backlink-to-interests-creative-writing-creative-writing">Creative Writing</a>
-<span style="opacity:.7">
-- Mar 17, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/music/music-associations/" id="backlink-to-media-i-have-consumed-music-music-associations">Music Associations</a>
-<span style="opacity:.7">
-- Mar 13, 2026
-</span>
-</li><li>
-<a href="/misc/random-snippets/" id="backlink-to-misc-random-snippets">Random Snippets</a>
-<span style="opacity:.7">
-- Mar 2, 2026
-</span>
-</li><li>
-<a href="/meta/rss-feed/" id="backlink-to-meta-rss-feed">RSS Feed</a>
-<span style="opacity:.7">
-- Feb 8, 2026
-</span>
-</li><li>
-<a href="/meta/on-blogging/on-privacy/" id="backlink-to-meta-on-blogging-on-privacy">On Privacy</a>
-<span style="opacity:.7">
-- Feb 8, 2026
-</span>
-</li><li>
-<a href="/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/" id="backlink-to-meta-on-blogging-please-don-t-spearphish-me-creating-an-obsidian-plugin">Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)</a>
-<span style="opacity:.7">
-- Feb 8, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/movies/a-tree-grows-in-brooklyn-1945/" id="backlink-to-media-i-have-consumed-movies-a-tree-grows-in-brooklyn-1945">A Tree Grows in Brooklyn (1945)</a>
-<span style="opacity:.7">
-- Feb 8, 2026
-</span>
-</li><li>
-<a href="/interests/music/ways-to-engage-more-deeply-with-music/" id="backlink-to-interests-music-ways-to-engage-more-deeply-with-music">Ways to Engage More Deeply With Music</a>
-<span style="opacity:.7">
-- Feb 4, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/music/weathervanes-album-by-freelance-whales/" id="backlink-to-media-i-have-consumed-music-weathervanes-album-by-freelance-whales">Weathervanes (Album) by Freelance Whales</a>
-<span style="opacity:.7">
-- Feb 4, 2026
-</span>
-</li><li>
-<a href="/interests/creative/misc/diy-dyes/" id="backlink-to-interests-creative-misc-diy-dyes">DIY Dyes</a>
-<span style="opacity:.7">
-- Feb 4, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/books/fiction/the-realm-of-the-elderlings-series/" id="backlink-to-media-i-have-consumed-books-fiction-the-realm-of-the-elderlings-series">The Realm of the Elderlings (series)</a>
-<span style="opacity:.7">
-- Jan 25, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/music/streetlight-manifesto/" id="backlink-to-media-i-have-consumed-music-streetlight-manifesto">Streetlight Manifesto</a>
-<span style="opacity:.7">
-- Jan 21, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/books/fiction/war-and-peace-by-leo-tolstoy/" id="backlink-to-media-i-have-consumed-books-fiction-war-and-peace-by-leo-tolstoy">War and Peace by Leo Tolstoy</a>
-<span style="opacity:.7">
-- Jan 21, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/books/fiction/in-search-of-lost-time-by-marcel-proust/" id="backlink-to-media-i-have-consumed-books-fiction-in-search-of-lost-time-by-marcel-proust">In Search of Lost Time by Marcel Proust</a>
-<span style="opacity:.7">
-- Jan 21, 2026
-</span>
-</li><li>
-<a href="/projects/software/specific-main-app-pursuit-i-m-currently-working-on/" id="backlink-to-projects-software-specific-main-app-pursuit-i-m-currently-working-on">Specific Main App Pursuit I&#39;m Currently Working On</a>
-<span style="opacity:.7">
-- Jan 10, 2026
-</span>
-</li><li>
-<a href="/interests/creative/writing/writing/" id="backlink-to-interests-creative-writing-writing">Writing</a>
-<span style="opacity:.7">
-- Jan 9, 2026
-</span>
-</li><li>
-<a href="/interests/music/the-tragedy-of-small-numbers/" id="backlink-to-interests-music-the-tragedy-of-small-numbers">The Tragedy of Small Numbers</a>
-<span style="opacity:.7">
-- Jan 3, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/movies/pools-2025/" id="backlink-to-media-i-have-consumed-movies-pools-2025">Pools (2025)</a>
-<span style="opacity:.7">
-- Jan 3, 2026
-</span>
-</li><li>
-<a href="/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/" id="backlink-to-media-i-have-consumed-theater-company-a-musical-comedy-sondheim-1970">Company: A Musical Comedy - Sondheim 1970</a>
-<span style="opacity:.7">
-- Dec 27, 2025
-</span>
-</li><li>
-<a href="/media-i-have-consumed/theater/pen-pals-by-michael-griffo-2025/" id="backlink-to-media-i-have-consumed-theater-pen-pals-by-michael-griffo-2025">Pen Pals by Michael Griffo (2025)</a>
-<span style="opacity:.7">
-- Dec 27, 2025
-</span>
-</li><li>
-<a href="/media-i-have-consumed/movies/eternity-2025/" id="backlink-to-media-i-have-consumed-movies-eternity-2025">Eternity (2025)</a>
-<span style="opacity:.7">
-- Dec 26, 2025
-</span>
-</li><li>
-<a href="/interests/theater/attending-an-industry-reading/" id="backlink-to-interests-theater-attending-an-industry-reading">Attending an Industry Reading</a>
-<span style="opacity:.7">
-- Dec 23, 2025
-</span>
-</li><li>
-<a href="/projects/3-d-and-vr/personal-3-d-vr-world-building/" id="backlink-to-projects-3-d-and-vr-personal-3-d-vr-world-building">Personal 3D/VR World Building</a>
-<span style="opacity:.7">
-- Dec 22, 2025
-</span>
-</li><li>
-<a href="/meta/on-blogging/what-is-this/">What is this?</a>
-<span style="opacity:.7">
-- Dec 16, 2025
-</span>
-</li><li>
-<a href="/media-i-have-consumed/poetry/all-nearness-pauses-while-a-star-can-grow-e-e-cummings/" id="backlink-to-media-i-have-consumed-poetry-all-nearness-pauses-while-a-star-can-grow-e-e-cummings">All nearness pauses while a star can grow (E.E. Cummings)</a>
-<span style="opacity:.7">
-- Dec 16, 2025
-</span>
-</li><li>
-<a href="/media-i-have-consumed/movies/bugonia-2025/" id="backlink-to-media-i-have-consumed-movies-bugonia-2025">Bugonia (2025)</a>
-<span style="opacity:.7">
-- Dec 13, 2025
-</span>
-</li><li>
-<a href="/media-i-have-consumed/podcasts/daniel-vassallo-indie-hackers-podcast/" id="backlink-to-media-i-have-consumed-podcasts-daniel-vassallo-indie-hackers-podcast">Daniel Vassallo - Indie Hackers Podcast</a>
-<span style="opacity:.7">
-- Dec 12, 2025
-</span>
-</li><li>
-<a href="/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/" id="backlink-to-meta-on-blogging-my-past-self-telling-me-to-start-a-blog">My Past Self Telling Me To Start a Blog</a>
-<span style="opacity:.7">
-- Dec 10, 2025
-</span>
-</li><li>
-<a href="/meta/on-blogging/blogging-inspiration/" id="backlink-to-meta-on-blogging-blogging-inspiration">Blogging Inspiration</a>
-<span style="opacity:.7">
-- Dec 10, 2025
-</span>
-</li><li>
-<a href="/media-i-have-consumed/misc/hank-green-tells-me-to-fall-downhill/" id="backlink-to-media-i-have-consumed-misc-hank-green-tells-me-to-fall-downhill">Hank Green Tells Me To Fall Downhill</a>
-<span style="opacity:.7">
-- Dec 10, 2025
-</span>
-</li><li>
-<a href="/projects/software/game-development/game-dev-inspiration/" id="backlink-to-projects-software-game-development-game-dev-inspiration">Game Dev Inspiration</a>
-<span style="opacity:.7">
-- Dec 10, 2025
-</span>
-</li><li>
-<a href="/projects/software/game-development/old-projects/bee-haven/" id="backlink-to-projects-software-game-development-old-projects-bee-haven">Bee Haven</a>
-<span style="opacity:.7">
-- Dec 10, 2025
-</span>
-</li><li>
-<a href="/projects/software/mini-projects/mini-projects/" id="backlink-to-projects-software-mini-projects-mini-projects">Mini Projects</a>
-<span style="opacity:.7">
-- Dec 9, 2025
-</span>
-</li><li>
-<a href="/projects/software/mini-projects/restaurant-ai-vr-simulation/" id="backlink-to-projects-software-mini-projects-restaurant-ai-vr-simulation">Restaurant AI VR Simulation</a>
-<span style="opacity:.7">
-- Dec 9, 2025
-</span>
-</li><li>
-<a href="/media-i-have-consumed/podcasts/1-second-everyday-indie-hackers-podcast/" id="backlink-to-media-i-have-consumed-podcasts-1-second-everyday-indie-hackers-podcast">&quot;1 Second Everyday&quot; - Indie Hackers Podcast</a>
-<span style="opacity:.7">
-- Dec 9, 2025
-</span>
-</li><li>
-<a href="/projects/software/really-old-projects/brianiscool-tk/" id="backlink-to-projects-software-really-old-projects-brianiscool-tk">brianiscool.tk</a>
-<span style="opacity:.7">
-- Dec 9, 2025
-</span>
-</li></ul>
-<br>
-<br>
-<style>.ascii-art-wrap{margin:2rem 0;width:100%;overflow:hidden}.ascii-art{display:block;margin:0;width:max-content;white-space:pre;line-height:1;font-size:.56rem;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}</style>
-<div class="ascii-art-wrap" aria-label="ASCII art">
-<pre class="ascii-art">
-                                      *********************  **
-                                     ***********    **      ***
-                                  ****************      *** *   **
-                               ** ***************      *****
-                               ****************     **      **
-                               ********************  ***       ***
-                             *******************************  **
-                        **************************************** **
-                     *************************************************
-                     ****************************************************
-                    ******************************************************
-                   ********************************************************
-                   ************************************************* ******
-                   ***********************************************    ****  **
-                   *********************************************************
-                  ************************************************************
-                  ************************************************************
-                  *************************************************************
-                  ****************************************************************
-                 ***********************************    *********  ***************
-                ************************   ******         **          ************
-                  ********************                                 ***********
-                  *******************                                 ************
-                  ******************                                  ******* ****
-                 *****************************                         *********
-               ********************************       **               *********
-              ***************************************************      *********
-              *******************************************************   ********
-              ******************************************************** ********
-               ********************************    ******************* *******
-               *******************************     ******************* *********
-               ******************************       ****************** *********
-                ***********************               ********         ********
-                  *****************                                    *******
-                  **************                                       *******
-                   *************        *                             ****
-                    ************       * ****                        **  **
-                       *********       *********
-                        ********       ***************             **
-                        ********       ***************           *****
-                         ********      **************            ***
-                         ********     ***********                **
-                         ************* ******** **
-                          ***************************          ***
-                           ******************************    ****
-                           *********************     ****   ****
-                           *************************** ********
-                           ***********************************
-                         **********************************   ****
-                       ************************************   *******    ***
-                ******************************************     ***************************
-               ******************************************      **********************************  *
-             *******************************************      **************************************
-     ***************************************************     ***************************************
-******************************************************* **  ****************************************
-****************************************************** ** ******************************************
-******************************************************* ********************************************
-****************************************************************************************************
-****************************************************************************************************
-****************************************************************************************************
-********************************************   *****************************************************
-****************************************************************************************************
-****************************************************************************************************
-</pre>
-</div>
-<script>!function(){const t=document.querySelector(".ascii-art"),e=document.querySelector(".ascii-art-wrap");if(!t||!e)return;const i=()=>{t.style.fontSize="0.56rem";const i=parseFloat(getComputedStyle(t).fontSize),n=e.clientWidth/t.scrollWidth;n<1&&(t.style.fontSize=`${Math.max(2.5,i*n)}px`)};i(),window.addEventListener("resize",i)}()</script>
-</main>
+</li>
+<li>So far the subject of <em>foretelling</em> has only been briefly mentioned (though we got a whole tale about it). The foretelling from the tale reminded me of the Aelfinn and Eeelfinn from <a class="internal-link" target="" data-note-icon="" href="/media-i-have-consumed/books/fiction/the-wheel-of-time-series/">The Wheel of Time</a>. Your prophecy may come true in a strange and ironic way.</li>
 <aside>
 <div class="sidebar">
 <div class="sidebar-container">
@@ -1284,7 +824,7 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#this-is-the-beginning">This is the beginning</a>
+<li><a href="#ch-1-4">Ch 1-4</a>
 </li>
 </ol>
 </nav>
@@ -1292,8 +832,7 @@ On this page
 </div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card">
-<span class="no-backlinks-message">No other pages mentions this page</span>
+<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/media-i-have-consumed/books/fiction/mars-trilogy-kim-stanley-robinson/#backlink-to-media-i-have-consumed-books-fiction-the-left-hand-of-darkness-ursula-k-le-guin" data-note-icon="" class="backlink">Mars trilogy (Kim Stanley Robinson)</a>
 </div></div>
 </div>
 </div>
@@ -1307,6 +846,9 @@ On this page
 <iframe style="display:none;height:0;width:0" id="link-preview-iframe" src="">
 </iframe>
 <script>var opacityTimeout,contentTimeout,transitionDurationMs=100,iframe=document.getElementById("link-preview-iframe"),tooltipWrapper=document.getElementById("tooltip-wrapper"),tooltipContent=document.getElementById("tooltip-content"),linkHistories={};function hideTooltip(){opacityTimeout=setTimeout((function(){tooltipWrapper.style.opacity=0,contentTimeout=setTimeout((function(){tooltipContent.innerHTML="",tooltipWrapper.style.display="none"}),transitionDurationMs+1)}),transitionDurationMs)}function showTooltip(t){var e=t.target,o=e.getClientRects()[e.getClientRects().length-1],i=window.pageYOffset||document.documentElement.scrollTop,n=t.target.getAttribute("href");if(-1===n.indexOf("http")||-1!==n.indexOf(window.location.host)){let t=n.split("#")[0];linkHistories[t]?(tooltipContent.innerHTML=linkHistories[t],tooltipWrapper.style.display="block",setTimeout((function(){if(tooltipWrapper.style.opacity=1,-1!=n.indexOf("#")){let t=n.split("#")[1];const e=tooltipWrapper.querySelector(`[id='${t}']`);e.classList.add("referred"),e.scrollIntoView({behavior:"smooth"},!0)}else tooltipWrapper.scroll(0,0)}),1)):(iframe.src=t,iframe.onload=function(){tooltipContentHtml="",tooltipContentHtml+='<div style="font-weight: bold; unicode-bidi: plaintext;">'+iframe.contentWindow.document.querySelector("h1").innerHTML+"</div>",tooltipContentHtml+=iframe.contentWindow.document.querySelector(".content").innerHTML,tooltipContent.innerHTML=tooltipContentHtml,linkHistories[t]=tooltipContentHtml,tooltipWrapper.style.display="block",tooltipWrapper.scrollTop=0,setTimeout((function(){if(tooltipWrapper.style.opacity=1,-1!=n.indexOf("#")){let t=n.split("#")[1];const e=tooltipWrapper.querySelector(`[id='${t}']`);e.classList.add("referred"),console.log(e),e.scrollIntoView({behavior:"smooth"},!0)}else tooltipWrapper.scroll(0,0)}),1)}),tooltipWrapper.style.left=o.left-tooltipWrapper.offsetWidth/2+o.width/2+"px",window.innerHeight-o.top<tooltipWrapper.offsetHeight?tooltipWrapper.style.top=o.top+i-tooltipWrapper.offsetHeight-10+"px":window.innerHeight-o.top>tooltipWrapper.offsetHeight&&(tooltipWrapper.style.top=o.top+i+35+"px"),o.left+o.width/2<tooltipWrapper.offsetWidth/2?tooltipWrapper.style.left="10px":document.body.clientWidth-o.left-o.width/2<tooltipWrapper.offsetWidth/2&&(tooltipWrapper.style.left=document.body.clientWidth-tooltipWrapper.offsetWidth-20+"px")}}function setupListeners(t){t.addEventListener("mouseleave",(function(t){hideTooltip()})),tooltipWrapper.addEventListener("mouseleave",(function(t){hideTooltip()})),t.addEventListener("mouseenter",(function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout),showTooltip(t)})),tooltipWrapper.addEventListener("mouseenter",(function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout)}))}window.addEventListener("load",(function(t){document.querySelectorAll(".internal-link").forEach(setupListeners),document.querySelectorAll(".backlink-card a").forEach(setupListeners)}))</script>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
 <hr style="margin-top:3rem;margin-bottom:1rem;opacity:.5;border-top:1px solid #ccc">
 <p style="text-align:center;font-size:.9rem;color:#777">
 <a href="https://garden.briancher.in/meta/subscribe-for-email-updates/" rel="noopener noreferrer" style="text-decoration:underline">
@@ -1321,6 +863,6 @@ Send me a comment!
 RSS Feed
 </a>
 </p>
+<script>(()=>{const e=document.querySelectorAll(".footnote-ref a");if(!e.length)return;const t=document.createElement("div");t.id="footnote-tooltip",t.innerHTML='<div class="footnote-tooltip-content" role="tooltip"></div>',document.body.appendChild(t);const n=t.querySelector(".footnote-tooltip-content");let o,i=!1,s=null;const l=e=>{const n=e.getBoundingClientRect();t.style.display="block",t.style.visibility="hidden",t.classList.remove("is-visible");const o=t.offsetWidth,i=t.offsetHeight,s=document.documentElement.clientWidth;let l=n.left+n.width/2-o/2,r=n.top-i-10;r<10&&(r=n.bottom+10);const c=s-o-10;l=Math.min(Math.max(l,10),c),t.style.left=`${l}px`,t.style.top=`${r}px`,t.style.visibility="visible",requestAnimationFrame((()=>{t.classList.add("is-visible")}))},r=e=>{const t=(e=>{const t=e.getAttribute("href");if(!t||!t.startsWith("#"))return null;const n=document.getElementById(t.slice(1));if(!n)return null;const o=n.cloneNode(!0),i=o.querySelector(".footnote-backref");return i&&i.remove(),o.innerHTML})(e);t&&(n.innerHTML=t,s=e,l(e))},c=()=>{i||(t.classList.remove("is-visible"),clearTimeout(o),o=setTimeout((()=>{t.style.display="none",n.innerHTML="",s=null}),150))},d=e=>{i=e,t.classList.toggle("is-pinned",i),i||c()};t.addEventListener("mouseenter",(()=>{clearTimeout(o)})),t.addEventListener("mouseleave",(()=>{i||c()})),document.addEventListener("click",(e=>{i&&(t.contains(e.target)||s&&s.contains(e.target)||d(!1))}));const a=e=>{clearTimeout(o),i||r(e.currentTarget)},u=()=>{c()};e.forEach((e=>{e.addEventListener("mouseenter",a),e.addEventListener("mouseleave",u),e.addEventListener("focus",a),e.addEventListener("blur",u),e.addEventListener("click",(t=>{t.metaKey||t.ctrlKey||t.shiftKey||t.altKey||(t.preventDefault(),i&&s===e?d(!1):(r(e),d(!0)))}))})),window.addEventListener("scroll",(()=>{i&&s&&l(s)})),window.addEventListener("resize",(()=>{i&&s&&l(s)}))})()</script>
 <script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
-</body>
 </html>
