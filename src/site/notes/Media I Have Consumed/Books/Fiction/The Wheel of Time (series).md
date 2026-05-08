@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-wheel-of-time-series/","created":"2026-01-25T14:48:37.595-05:00","updated":"2026-02-13T10:42:29.246-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-wheel-of-time-series/","created":"2026-01-25T14:48:37.595-05:00","updated":"2026-05-07T23:48:40.637-04:00"}
 ---
 
 by Robert Jordan, and last three books by Brandon Sanderson after Robert Jordan's death.
