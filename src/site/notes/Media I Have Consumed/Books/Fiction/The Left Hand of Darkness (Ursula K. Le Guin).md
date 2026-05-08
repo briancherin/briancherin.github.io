@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/","created":"2026-05-07T23:28:52.602-04:00","updated":"2026-05-07T23:49:58.634-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/","created":"2026-05-07T23:28:52.602-04:00","updated":"2026-05-08T13:58:46.130-04:00"}
 ---
 
 Taking notes during my re-read for book club in May 2026. Currently mostly listening to the audiobook version (my original read was ebook) but also may switch between ebook as well.
@@ -14,7 +14,7 @@ Taking notes during my re-read for book club in May 2026. Currently mostly liste
 
 #### Ch 1-4
 - I'm remembering why I liked this. It's kind of like a case study of anthropology. Person comes to learn about a culture. But also part less like anthropology: also aiming to establish relations/allyship and trade and make them a part of a larger entity/system. 
-- The cultural mythology (stories) interspersed so far reminds me of what Le Guin kind of was teaching with *[[Media I Have Consumed/Books/Mini Book Reviews#Always Coming Home* by Ursula K. Leguin (Finished January 8, 2025)\|Always Coming Home]]* -- you learn a lot about a culture from their stories and mythos.
+- The cultural mythology (stories) interspersed so far reminds me of what Le Guin kind of was teaching with [[Media I Have Consumed/Books/Mini Book Reviews#Always Coming Home* by Ursula K. Leguin (Finished January 8, 2025)\|Always Coming Home]] -- you learn a lot about a culture from their stories and mythos.
 - Expanding on my first point, I wonder how much of the message here has to do with the *negative* aspects of colonialism. 
 	- My instinct is that we are actually being presented with a good way to establish contact with a different culture and develop positive and respectful relations and exchange. 
 	- But the king's speech to Genly brings up what is probably a common point (in real life) against even this kind of interference -- they are fine on their own, they are doing well on their own, what do they need from the outside? 
