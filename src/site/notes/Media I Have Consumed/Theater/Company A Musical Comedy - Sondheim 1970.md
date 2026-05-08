@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/","title":"Company: A Musical Comedy - Sondheim 1970","created":"2025-12-25T15:31:25.511-05:00","updated":"2025-12-26T23:01:37.273-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/","title":"Company: A Musical Comedy - Sondheim 1970","created":"2025-12-25T15:31:25.511-05:00","updated":"2026-05-08T13:25:24.755-04:00"}
 ---
 
 #theater
@@ -84,3 +84,9 @@ I like that this is a whole musical about a somewhat subtle shift in a character
 ## More lines that stood out to me
 - "You're a terribly attractive man. The kind of man most women want but never seen to get"
 - "Someone force me to care"
+
+
+___
+
+## Random notes
+- Robert discovers the/one reason to be in a long-term relationship is "support for being alive". Contrasts with Hadestown where Eurydice asks "Why should I become his wife" and the response is "it'll make you feel alive". For Bobby, "being alive" is something that is difficult to deal with, but for Eurydice it's something to strive for.
