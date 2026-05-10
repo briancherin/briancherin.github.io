@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/specimen-2026/","created":"2026-05-10T18:14:11.929-04:00","updated":"2026-05-10T18:31:51.230-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/specimen-2026/","created":"2026-05-10T18:14:11.929-04:00","updated":"2026-05-10T18:34:34.530-04:00"}
 ---
 
 Writer/director: Randall Sharp
 Axis Theatre Company
-(Off broadway)
+(Off-off broadway)^[off broadway vs off-off-broadway -- an off-off broadway has fewer than 100 seats. Apparently also the distinction between broadway and off broadway is the number of seats (I previously thought it was location-based aka on the avenue of broadway). Broadway is 500 seats or more.]
 75 minutes
 Running May 6 - June 6, 2026
 
