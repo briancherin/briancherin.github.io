@@ -331,6 +331,12 @@ function truncateText(text, maxChars = MAX_CHARS_PER_SEGMENT) {
   return { text: `${safe}...`, truncated: true };
 }
 
+function countWords(text) {
+  const s = String(text || "").trim();
+  if (!s) return 0;
+  return s.split(/\s+/).filter(Boolean).length;
+}
+
 function truncateFromStart(text, maxChars = MAX_CHARS_PER_SEGMENT) {
   const raw = String(text || "").trim();
   if (raw.length <= maxChars) {
@@ -510,9 +516,26 @@ function simplifySegments(segments) {
 
 function renderExcerptBlocksHtml(blocks, fullNoteUrl = "", options = {}) {
   const spoilerOmitted = Boolean(options.spoilerOmitted);
+  const noteWordCount = Number(options.noteWordCount || 0);
   if (!blocks || blocks.length === 0) {
     return spoilerOmitted ? "" : '<p class="muted">No meaningful content snippet found for this update.</p>';
   }
+
+  const visibleWordsInNote = blocks.reduce((sum, block) => {
+    const segments = simplifySegments(buildSegments(block.lines));
+    return (
+      sum +
+      segments.reduce((acc, seg, segIdx) => {
+        if (seg.kind === "removed") return acc;
+        const truncated =
+          seg.kind === "context"
+            ? truncateContextByPosition(seg.text, segIdx, segments)
+            : truncateText(seg.text);
+        return acc + countWords(truncated.text);
+      }, 0)
+    );
+  }, 0);
+  const remainingWordsInNote = Math.max(noteWordCount - visibleWordsInNote, 0);
 
   const renderOneBlock = (block, style = "", suppressFirstSegmentTopBorder = false) => {
       const segments = simplifySegments(buildSegments(block.lines));
@@ -539,10 +562,14 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "", options = {}) {
             segment.kind === "context"
               ? truncateContextByPosition(segment.text, segIdx, segments)
               : truncateText(segment.text);
+          const moreWordsHint =
+            segment.kind === "added" && truncated.truncated && remainingWordsInNote > 0
+              ? `<div style="margin-top:6px;font-size:12px;line-height:1.3;color:#6b7280;font-style:italic;">... plus about ${remainingWordsInNote} more words in this note</div>`
+              : "";
           return `<div class="${klass}">
             <div style="${segmentStyleFinal}">
               ${label ? `<div class="seg-label" style="font-size:12px;font-weight:700;line-height:1;margin:0 0 4px 0;color:#4b5563;">${label}</div>` : ""}
-              <div class="seg-body" style="font-size:14px;line-height:1.6;color:#1f2937;">${renderLineText(truncated.text)}</div>
+              <div class="seg-body" style="font-size:14px;line-height:1.6;color:#1f2937;">${renderLineText(truncated.text)}${moreWordsHint}</div>
             </div>
           </div>`;
         })
@@ -618,6 +645,7 @@ function buildItemFromGit(range, file, mode, maxLines) {
     changeType: isNew ? "new" : "updated",
     changedAt: updatedDate || createdDate || "",
     spoilerOmitted,
+    noteWordCount: countWords(newSafe.content || ""),
   };
 }
 
@@ -698,6 +726,7 @@ function buildFromJson(inputPath, mode, maxLines) {
       changeType: item.changeType || "updated",
       changedAt: item.updated || item.created || "",
       spoilerOmitted: Boolean(newSafe.omittedSpoilers || item.spoilerOmitted),
+      noteWordCount: countWords(newSafe.content || ""),
     };
   });
 
@@ -745,7 +774,7 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
   <div style="margin:0 0 6px 0;font-size:20px;line-height:1.3;color:#111827;font-weight:700;">${titleHtml}</div>
   <div class="meta" style="margin:0 0 8px 0;color:#6b7280;font-size:13px;line-height:1.3;"><span class="badge" style="display:inline-block;padding:2px 7px;border-radius:999px;background:#e8f0fe;color:#1e40af;font-weight:600;font-size:12px;">${statusLabel}</span>${changedDate ? ` <span class="meta-date" style="color:#6b7280;">Â· ${changedDate}</span>` : ""}</div>
   ${spoilerNotice}
-  ${renderExcerptBlocksHtml(item.excerptBlocks, permalink, { spoilerOmitted: item.spoilerOmitted })}
+  ${renderExcerptBlocksHtml(item.excerptBlocks, permalink, { spoilerOmitted: item.spoilerOmitted, noteWordCount: item.noteWordCount })}
   ${link}
   ${debug}
 </section>`;
