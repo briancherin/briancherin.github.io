@@ -772,7 +772,7 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
           return `
 <section class="card" style="border-top:1px solid #e5e7eb;padding-top:14px;margin-top:14px;">
   <div style="margin:0 0 6px 0;font-size:20px;line-height:1.3;color:#111827;font-weight:700;">${titleHtml}</div>
-  <div class="meta" style="margin:0 0 8px 0;color:#6b7280;font-size:13px;line-height:1.3;"><span class="badge" style="display:inline-block;padding:2px 7px;border-radius:999px;background:#e8f0fe;color:#1e40af;font-weight:600;font-size:12px;">${statusLabel}</span>${changedDate ? ` <span class="meta-date" style="color:#6b7280;">Â· ${changedDate}</span>` : ""}</div>
+  <div class="meta" style="margin:0 0 8px 0;color:#6b7280;font-size:13px;line-height:1.3;"><span class="badge" style="display:inline-block;padding:2px 7px;border-radius:999px;background:#e8f0fe;color:#1e40af;font-weight:600;font-size:12px;">${statusLabel}</span>${changedDate ? ` <span class="meta-date" style="color:#6b7280;">&middot; ${changedDate}</span>` : ""}</div>
   ${spoilerNotice}
   ${renderExcerptBlocksHtml(item.excerptBlocks, permalink, { spoilerOmitted: item.spoilerOmitted, noteWordCount: item.noteWordCount })}
   ${link}
