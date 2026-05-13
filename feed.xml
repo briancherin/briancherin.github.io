@@ -3,14 +3,14 @@
     <title>Brian&#39;s Corner</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2026-05-13T15:37:21Z</updated>
+    <updated>2026-05-13T16:58:43Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
                 This is the beginning
                 
             </title>
-            <updated>2026-01-09T21:39:03.799Z</updated>
+            <updated>2026-05-13T15:36:27.361Z</updated>
             <id>https://briancherin.github.io/</id>
             <content type="html">
                 &lt;h1 id=&quot;this-is-the-beginning&quot; tabindex=&quot;-1&quot;&gt;This is the beginning&lt;/h1&gt;
@@ -24,6 +24,7 @@
 &lt;/ul&gt;
 &lt;p&gt;For more explanation: &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/what-is-this/&quot;&gt;What Is This&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I recommend looking at the hierarchy of topics and seeing what catches your interest, or use the Random Note button below, or pick from the list of recently updated posts.&lt;/p&gt;
+&lt;p&gt;You can also &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/subscribe-for-email-updates/&quot;&gt;Subscribe For Email Updates&lt;/a&gt; if you&#39;d like to stay tuned.&lt;/p&gt;
 &lt;p&gt;&lt;button id=&quot;random-note-button&quot;&gt;🎲 Go to Random Note&lt;/button&gt;&lt;/p&gt;
 &lt;script&gt;
 let notes = null;
