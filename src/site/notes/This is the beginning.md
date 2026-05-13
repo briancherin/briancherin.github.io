@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/this-is-the-beginning/","tags":["gardenEntry"],"created":"2025-12-07T16:43:50.597-05:00","updated":"2026-05-13T11:36:27.361-04:00"}
+{"dg-publish":true,"permalink":"/this-is-the-beginning/","tags":["gardenEntry"],"created":"2025-12-07T16:43:50.597-05:00","updated":"2026-05-13T15:42:42.006-04:00"}
 ---
 
 # This is the beginning
@@ -13,7 +13,9 @@ This is a mix of a blog and personal wiki. It's a place for me to:
 - Share about my interests and personal projects
 - Document viewpoints or aspects of my life that I want to share with the world
 
-For more explanation: [[Meta/On Blogging/What Is This\|What Is This]]
+Suggested starting points:
+- For more explanation: [[Meta/On Blogging/What Is This\|What Is This]]
+- For monthly musings / what I've been up to: [[Misc/Whats Up\|What's Up]]
 
 I recommend looking at the hierarchy of topics and seeing what catches your interest, or use the Random Note button below, or pick from the list of recently updated posts.
 

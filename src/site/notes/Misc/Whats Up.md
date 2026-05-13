@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/misc/whats-up/","title":"What's Up","created":"2026-04-09T19:59:21.983-04:00","updated":"2026-05-10T18:33:14.350-04:00"}
+{"dg-publish":true,"permalink":"/misc/whats-up/","title":"What's Up","created":"2026-04-09T19:59:21.983-04:00","updated":"2026-05-13T15:42:36.822-04:00"}
 ---
 
 What's up. What's going on. What am I doing, reading, interesting stuff to share that I don't feel like making a separate page for. Kind of a duplicate of [[Misc/Random Snippets\|Random Snippets]], not sure which will prevail. Also I don't expect myself to keep this super regularly updated or at all comprehensive of my activity - but it's a place to put stuff that I find noteworthy.

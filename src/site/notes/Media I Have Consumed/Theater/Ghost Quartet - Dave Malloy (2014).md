@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/ghost-quartet-dave-malloy-2014/","created":"2026-04-11T19:13:29.797-04:00","updated":"2026-04-16T09:04:01.897-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/ghost-quartet-dave-malloy-2014/","created":"2026-04-11T19:13:29.797-04:00","updated":"2026-05-11T20:10:40.668-04:00"}
 ---
 
 One of my favorites! It's a great show. VERY nontraditional. An official recording is available for free on youtube, so it's pretty accessible for anyone to watch.
@@ -22,3 +22,12 @@ Are part of the same consciousness."
 ~The Photograph
 
 Reminds me of [[Media I Have Consumed/Misc/The Egg (Andy Weir)\|The Egg (Andy Weir)]] (short story). 
+
+
+#### 2
+"I like a good rebellion"
+~Four friends
+{ #62de2a}
+
+
+I spent a couple months with this statement sometimes popping up in my head and not being able to remember where it was from. Then I just re-listened to this song (which is one of my most relistened-to songs from GQ) and heard the line!
