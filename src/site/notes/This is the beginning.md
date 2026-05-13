@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/this-is-the-beginning/","tags":["gardenEntry"],"created":"2025-12-07T16:43:50.597-05:00","updated":"2026-01-09T16:39:03.799-05:00"}
+{"dg-publish":true,"permalink":"/this-is-the-beginning/","tags":["gardenEntry"],"created":"2025-12-07T16:43:50.597-05:00","updated":"2026-05-13T11:36:27.361-04:00"}
 ---
 
 # This is the beginning
@@ -16,6 +16,8 @@ This is a mix of a blog and personal wiki. It's a place for me to:
 For more explanation: [[Meta/On Blogging/What Is This\|What Is This]]
 
 I recommend looking at the hierarchy of topics and seeing what catches your interest, or use the Random Note button below, or pick from the list of recently updated posts.
+
+You can also [[Meta/Subscribe For Email Updates\|Subscribe For Email Updates]] if you'd like to stay tuned.
 
 <button id="random-note-button">🎲 Go to Random Note</button>
 
