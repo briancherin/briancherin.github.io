@@ -72,6 +72,7 @@ function markdownLineToWords(line) {
   }
 
   text = text.replace(/`[^`]*`/g, " ");
+  text = text.replace(/\[![^\]]+\]/g, " ");
   text = text.replace(/\!\[[^\]]*\]\([^)]*\)/g, " ");
   text = text.replace(/\[([^\]]*)\]\([^)]*\)/g, "$1");
   text = text.replace(/\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?]]/g, (_m, target, alias) => {

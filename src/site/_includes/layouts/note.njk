@@ -199,6 +199,44 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
             const wordRegex = /[A-Za-z0-9][A-Za-z0-9'-]*/g;
             const blockedTags = new Set(["SCRIPT", "STYLE", "CODE", "PRE", "BUTTON", "INPUT", "TEXTAREA"]);
             const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+            const setAgeVisual = (span, age) => {
+              span.setAttribute("data-age-days", String(age));
+              if (age <= 1) span.style.setProperty("--recency-alpha", "0.5");
+              else if (age <= 7) span.style.setProperty("--recency-alpha", "0.38");
+              else if (age <= 30) span.style.setProperty("--recency-alpha", "0.26");
+              else if (age <= 90) span.style.setProperty("--recency-alpha", "0.16");
+              else if (age <= 180) span.style.setProperty("--recency-alpha", "0.1");
+              else span.style.setProperty("--recency-alpha", "0.06");
+            };
+            const previousRecencyWord = (fromNode) => {
+              let node = fromNode;
+              while (node) {
+                let cur = node.previousSibling;
+                while (cur) {
+                  let probe = cur;
+                  while (probe && probe.lastChild) probe = probe.lastChild;
+                  while (probe) {
+                    if (
+                      probe.nodeType === 1 &&
+                      probe.classList &&
+                      probe.classList.contains("recency-word") &&
+                      probe.hasAttribute("data-age-days")
+                    ) {
+                      return probe;
+                    }
+                    if (probe.previousSibling) {
+                      probe = probe.previousSibling;
+                      while (probe && probe.lastChild) probe = probe.lastChild;
+                    } else {
+                      probe = probe.parentNode;
+                    }
+                  }
+                  cur = cur.previousSibling;
+                }
+                node = node.parentNode;
+              }
+              return null;
+            };
             let cursor = 0;
             const replacements = [];
 
@@ -248,13 +286,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
                 cursor += 1;
                 const span = document.createElement("span");
                 span.className = "recency-word";
-                span.setAttribute("data-age-days", String(age));
-                if (age <= 1) span.style.setProperty("--recency-alpha", "0.5");
-                else if (age <= 7) span.style.setProperty("--recency-alpha", "0.38");
-                else if (age <= 30) span.style.setProperty("--recency-alpha", "0.26");
-                else if (age <= 90) span.style.setProperty("--recency-alpha", "0.16");
-                else if (age <= 180) span.style.setProperty("--recency-alpha", "0.1");
-                else span.style.setProperty("--recency-alpha", "0.06");
+                setAgeVisual(span, age);
                 span.textContent = match[0];
                 frag.appendChild(span);
                 lastIdx = end;
@@ -265,6 +297,27 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
                 frag.appendChild(document.createTextNode(text.slice(lastIdx)));
               }
               textNode.parentNode.replaceChild(frag, textNode);
+            }
+
+            // Correct recency ages for rendered footnote blocks by inheriting from in-text references.
+            const footnoteAgeById = new Map();
+            const footnoteRefs = root.querySelectorAll('.footnote-ref a[href^="#"]');
+            for (const refLink of footnoteRefs) {
+              const href = refLink.getAttribute("href") || "";
+              const targetId = href.startsWith("#") ? href.slice(1) : "";
+              if (!targetId) continue;
+              const prevWord = previousRecencyWord(refLink);
+              if (!prevWord) continue;
+              const age = Number(prevWord.getAttribute("data-age-days"));
+              if (!Number.isFinite(age)) continue;
+              const existing = footnoteAgeById.get(targetId);
+              if (existing === undefined || age < existing) footnoteAgeById.set(targetId, age);
+            }
+            for (const [targetId, age] of footnoteAgeById.entries()) {
+              const footnoteNode = root.querySelector(`#${CSS.escape(targetId)}`);
+              if (!footnoteNode) continue;
+              const footnoteWords = footnoteNode.querySelectorAll(".recency-word");
+              for (const w of footnoteWords) setAgeVisual(w, age);
             }
 
             const chunkSelectors = "p, li, blockquote, h1, h2, h3, h4, h5, h6";
@@ -323,7 +376,12 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
             }
             if (label) label.textContent = `${verb} page edit history`;
             if (note) {
-              note.hidden = true;
+              if (enabled) {
+                note.hidden = false;
+                note.textContent = "Highlights are approximate. Dates come from line-level edit history, so nearby text may be grouped together.";
+              } else {
+                note.hidden = true;
+              }
             }
           });
 
