@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/","created":"2026-05-07T23:28:52.602-04:00","updated":"2026-05-08T13:58:46.130-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/","created":"2026-05-07T23:28:52.602-04:00","updated":"2026-05-14T18:15:11.933-04:00"}
 ---
 
-Taking notes during my re-read for book club in May 2026. Currently mostly listening to the audiobook version (my original read was ebook) but also may switch between ebook as well.
+Taking notes during my re-read for book club in May 2026. Currently mostly listening to the audiobook version (my original read was ebook in 2020) but also may switch between ebook as well.
 
 
 >[!DANGER] Spoilers ahead.
@@ -22,3 +22,7 @@ Taking notes during my re-read for book club in May 2026. Currently mostly liste
 	- It also kind of reminds me of the environmental dilemma I mentioned that the [[Media I Have Consumed/Books/Fiction/Mars trilogy (Kim Stanley Robinson)\|Mars trilogy]] explores -- (I just expanded on some of these thoughts [[Media I Have Consumed/Books/Fiction/Mars trilogy (Kim Stanley Robinson)#Environmental dilemma\|here]]), but of course it's different when talking about a human civilization/group.
 - So far the subject of *foretelling* has only been briefly mentioned (though we got a whole tale about it). The foretelling from the tale reminded me of the Aelfinn and Eeelfinn from [[Media I Have Consumed/Books/Fiction/The Wheel of Time (series)\|The Wheel of Time]]. Your prophecy may come true in a strange and ironic way.
 
+
+#### Ch 5-??
+- Distinction of "supper" and "dinner" is kind of funny. If I ever have two separate dinners, I will call the first one supper and the second one dinner.
+- Obviously a lot of discussion of gender and sexuality within this. I appreciated the section that was just direct discussion of these topics with regards to the Gethenian physiology. I'm surprised I didn't reflect on this more during my first read through (I think I was just more focused on the sci-fi adventure / politics / ekumen aspect.)
