@@ -76,6 +76,21 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% for imp in dynamics.notes.afterContent %}
         {% include imp %}
       {% endfor %}
+      {% if page.inputPath and page.inputPath.endsWith(".md") and (not tags or tags.indexOf("gardenEntry") == -1) %}
+        <div class="recency-fab-wrap" id="recency-toggle-root">
+          <button
+            type="button"
+            class="recency-fab"
+            id="toggle-recency-highlights"
+            title="Show page edit history"
+            aria-label="Show page edit history"
+            aria-pressed="false">
+            <span class="recency-fab-icon"><i icon-name="history"></i></span>
+            <span class="recency-fab-label">Show page edit history</span>
+          </button>
+          <div class="recency-fab-note" id="recency-highlight-note" hidden></div>
+        </div>
+      {% endif %}
     </main>
 
     {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
@@ -94,5 +109,257 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% include imp %}
     {% endfor %}
     {%include "components/lucideIcons.njk"%}
+    {% if page.inputPath and page.inputPath.endsWith(".md") and (not tags or tags.indexOf("gardenEntry") == -1) %}
+      <script>
+        (function () {
+          const button = document.getElementById("toggle-recency-highlights");
+          const note = document.getElementById("recency-highlight-note");
+          const root = document.getElementById("recency-toggle-root");
+          const label = button.querySelector(".recency-fab-label");
+          if (!button) return;
+          if (!root) return;
+          let hasWrapped = false;
+          let longPressTimer = null;
+          let longPressActive = false;
+
+          function mountToggle() {
+            const topHeaderSlot = document.getElementById("recency-toggle-slot-mobile");
+            const sidebarSlot = document.getElementById("recency-toggle-slot-sidebar");
+            const desktopSlot = document.getElementById("recency-toggle-slot-desktop");
+            const isMobile = window.matchMedia("(max-width: 800px)").matches;
+            const isWideDesktop = window.matchMedia("(min-width: 1400px)").matches;
+            if (isMobile && topHeaderSlot) {
+              topHeaderSlot.appendChild(root);
+              root.classList.add("is-in-mobile-slot");
+              root.classList.remove("is-in-header-slot");
+              root.classList.remove("is-in-sidebar-slot");
+              root.classList.remove("is-in-desktop-slot");
+              button.title = "Show page edit history";
+              button.setAttribute("aria-label", "Show page edit history");
+              if (label) label.textContent = "Show page edit history";
+              return;
+            }
+            if (!isMobile && isWideDesktop && sidebarSlot) {
+              sidebarSlot.appendChild(root);
+              root.classList.add("is-in-sidebar-slot");
+              root.classList.remove("is-in-header-slot");
+              root.classList.remove("is-in-mobile-slot");
+              root.classList.remove("is-in-desktop-slot");
+              button.removeAttribute("title");
+              button.setAttribute("aria-label", "Show page edit history");
+              if (label) label.textContent = "Show page edit history";
+              return;
+            }
+            if (!isMobile && topHeaderSlot) {
+              topHeaderSlot.appendChild(root);
+              root.classList.add("is-in-header-slot");
+              root.classList.remove("is-in-sidebar-slot");
+              root.classList.remove("is-in-mobile-slot");
+              root.classList.remove("is-in-desktop-slot");
+              button.title = "Show page edit history";
+              button.setAttribute("aria-label", "Show page edit history");
+              if (label) label.textContent = "Show page edit history";
+              return;
+            }
+            if (!isMobile && desktopSlot) {
+              desktopSlot.appendChild(root);
+              root.classList.add("is-in-desktop-slot");
+              root.classList.remove("is-in-header-slot");
+              root.classList.remove("is-in-mobile-slot");
+              root.classList.remove("is-in-sidebar-slot");
+              return;
+            }
+            document.body.appendChild(root);
+            root.classList.remove("is-in-header-slot");
+            root.classList.remove("is-in-mobile-slot");
+            root.classList.remove("is-in-sidebar-slot");
+            root.classList.remove("is-in-desktop-slot");
+          }
+
+          function ensureWrappedWords() {
+            if (hasWrapped) return;
+            let ages = window.__recencyWordAges;
+            if ((!Array.isArray(ages) || ages.length === 0) && document.body && document.body.lastElementChild && document.body.lastElementChild.tagName === "SCRIPT") {
+              const tailScript = document.body.lastElementChild.textContent || "";
+              const m = tailScript.match(/window\.__recencyWordAges\s*=\s*(\[[\s\S]*\])\s*;/);
+              if (m) {
+                try {
+                  ages = JSON.parse(m[1]);
+                  window.__recencyWordAges = ages;
+                } catch {
+                  // ignore parse errors and continue to unavailable flow
+                }
+              }
+            }
+            if (!Array.isArray(ages) || ages.length === 0) return;
+
+            const root = document.querySelector("main.content.cm-s-obsidian");
+            if (!root) return;
+
+            const wordRegex = /[A-Za-z0-9][A-Za-z0-9'-]*/g;
+            const blockedTags = new Set(["SCRIPT", "STYLE", "CODE", "PRE", "BUTTON", "INPUT", "TEXTAREA"]);
+            const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+            let cursor = 0;
+            const replacements = [];
+
+            while (walker.nextNode()) {
+              const textNode = walker.currentNode;
+              const parent = textNode.parentElement;
+              if (!parent) continue;
+              if (blockedTags.has(parent.tagName)) continue;
+              if (parent.closest("header")) continue;
+              if (parent.closest(".note-folder-path")) continue;
+              if (parent.closest(".timestamps")) continue;
+              if (parent.closest(".header-tags")) continue;
+              if (parent.closest(".recency-fab-wrap")) continue;
+              if (!textNode.nodeValue || !textNode.nodeValue.trim()) continue;
+              replacements.push(textNode);
+            }
+
+            for (const textNode of replacements) {
+              const text = textNode.nodeValue || "";
+              wordRegex.lastIndex = 0;
+              let match = wordRegex.exec(text);
+              if (!match) continue;
+
+              const frag = document.createDocumentFragment();
+              let lastIdx = 0;
+
+              while (match) {
+                const start = match.index;
+                const end = start + match[0].length;
+                if (start > lastIdx) {
+                  const between = text.slice(lastIdx, start);
+                  const prevNode = frag.lastChild;
+                  const canMergeWhitespace =
+                    prevNode &&
+                    prevNode.nodeType === 1 &&
+                    prevNode.classList &&
+                    prevNode.classList.contains("recency-word") &&
+                    /^[^A-Za-z0-9]+$/.test(between);
+                  if (canMergeWhitespace) {
+                    prevNode.textContent += between;
+                  } else {
+                    frag.appendChild(document.createTextNode(between));
+                  }
+                }
+
+                const age = ages[cursor] ?? 3650;
+                cursor += 1;
+                const span = document.createElement("span");
+                span.className = "recency-word";
+                span.setAttribute("data-age-days", String(age));
+                if (age <= 1) span.style.setProperty("--recency-alpha", "0.5");
+                else if (age <= 7) span.style.setProperty("--recency-alpha", "0.38");
+                else if (age <= 30) span.style.setProperty("--recency-alpha", "0.26");
+                else if (age <= 90) span.style.setProperty("--recency-alpha", "0.16");
+                else if (age <= 180) span.style.setProperty("--recency-alpha", "0.1");
+                else span.style.setProperty("--recency-alpha", "0.06");
+                span.textContent = match[0];
+                frag.appendChild(span);
+                lastIdx = end;
+                match = wordRegex.exec(text);
+              }
+
+              if (lastIdx < text.length) {
+                frag.appendChild(document.createTextNode(text.slice(lastIdx)));
+              }
+              textNode.parentNode.replaceChild(frag, textNode);
+            }
+
+            const chunkSelectors = "p, li, blockquote, h1, h2, h3, h4, h5, h6";
+            const chunks = root.querySelectorAll(chunkSelectors);
+            for (const chunk of chunks) {
+              if (chunk.querySelector(".recency-chunk-date")) continue;
+              const words = chunk.querySelectorAll(".recency-word[data-age-days]");
+              if (!words || words.length === 0) continue;
+              let newestAgeDays = Number.POSITIVE_INFINITY;
+              for (const word of words) {
+                const ageVal = Number(word.getAttribute("data-age-days"));
+                if (!Number.isFinite(ageVal)) continue;
+                if (ageVal < newestAgeDays) newestAgeDays = ageVal;
+              }
+              if (!Number.isFinite(newestAgeDays)) continue;
+              const updatedDate = new Date(Date.now() - (newestAgeDays * 24 * 60 * 60 * 1000));
+              const updatedText = updatedDate.toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "short",
+                day: "numeric",
+              });
+
+              const badge = document.createElement("span");
+              badge.className = "recency-chunk-date";
+              badge.textContent = `updated ${updatedText}`;
+              chunk.appendChild(document.createTextNode(" "));
+              chunk.appendChild(badge);
+            }
+            hasWrapped = true;
+          }
+
+          button.addEventListener("click", function () {
+            if (longPressActive) {
+              longPressActive = false;
+              return;
+            }
+            ensureWrappedWords();
+            if (!hasWrapped) {
+              setTimeout(() => {
+                ensureWrappedWords();
+                if (!hasWrapped && note) {
+                  note.hidden = false;
+                  note.textContent = "Recency data is unavailable for this page right now.";
+                }
+              }, 0);
+              return;
+            }
+            const enabled = document.body.classList.toggle("show-recency-highlights");
+            button.setAttribute("aria-pressed", enabled ? "true" : "false");
+            const verb = enabled ? "Hide" : "Show";
+            button.setAttribute("aria-label", `${verb} page edit history`);
+            if (root.classList.contains("is-in-sidebar-slot")) {
+              button.removeAttribute("title");
+            } else {
+              button.title = `${verb} page edit history`;
+            }
+            if (label) label.textContent = `${verb} page edit history`;
+            if (note) {
+              note.hidden = true;
+            }
+          });
+
+          const showHint = function () {
+            if (!note) return;
+            note.hidden = false;
+            note.textContent = "Show or hide page edit history";
+            longPressActive = true;
+          };
+
+          const hideHint = function () {
+            if (note) {
+              note.hidden = true;
+            }
+          };
+
+          button.addEventListener("pointerdown", function () {
+            clearTimeout(longPressTimer);
+            longPressActive = false;
+            longPressTimer = setTimeout(showHint, 450);
+          });
+
+          const cancelLongPress = function () {
+            clearTimeout(longPressTimer);
+            if (longPressActive) {
+              setTimeout(hideHint, 900);
+            }
+          };
+
+          button.addEventListener("pointerup", cancelLongPress);
+          button.addEventListener("pointerleave", cancelLongPress);
+          button.addEventListener("pointercancel", cancelLongPress);
+          window.addEventListener("resize", mountToggle);
+          mountToggle();
+        })();
+      </script>
+    {% endif %}
   </body>
 </html>

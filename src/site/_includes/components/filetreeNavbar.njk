@@ -12,7 +12,10 @@
         {% endfor %}
     </div>
     
-    {% if settings.dgEnableSearch === true%}
-        {% include "components/searchButton.njk" %}
-    {%endif%}
+    <div class="navbar-actions">
+        <div id="recency-toggle-slot-mobile" class="recency-toggle-slot-mobile"></div>
+        {% if settings.dgEnableSearch === true%}
+            {% include "components/searchButton.njk" %}
+        {%endif%}
+    </div>
 </nav>

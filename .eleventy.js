@@ -7,6 +7,7 @@ const tocPlugin = require("eleventy-plugin-nesting-toc");
 const { parse } = require("node-html-parser");
 const htmlMinifier = require("html-minifier-terser");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const { injectRecencyWordAges } = require("./src/helpers/recencyHighlight");
 
 const { headerToId, namedHeadingsFilter } = require("./src/helpers/utils");
 const {
@@ -538,6 +539,10 @@ module.exports = function (eleventyConfig) {
       });
     }
     return str && parsed.innerHTML;
+  });
+
+  eleventyConfig.addTransform("recency-word-highlights", function (str, outputPath) {
+    return injectRecencyWordAges(str, outputPath);
   });
 
   eleventyConfig.addTransform("htmlMinifier", (content, outputPath) => {
