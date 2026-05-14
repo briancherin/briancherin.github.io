@@ -24,6 +24,15 @@ body {
         font-size: 0.95em;
     }
 
+    .directory-breadcrumb-link {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .directory-breadcrumb-link:hover {
+        text-decoration: underline;
+    }
+
     // Note header ordering: show timestamps above tags
     .header-meta {
         display: flex;
@@ -113,6 +122,10 @@ body {
         align-items: start;
     }
 
+    .directory-index-page #homepage-category-tree {
+        grid-template-columns: 1fr;
+    }
+
     .hcb-node {
         display: block;
     }
@@ -129,6 +142,7 @@ body {
         cursor: pointer;
         display: inline-flex;
         align-items: center;
+        justify-content: flex-start;
         gap: 0.5rem;
         font-size: 0.95rem;
     }
@@ -162,9 +176,24 @@ body {
         font-weight: 600;
     }
 
+    .hcb-folder-title-link {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .hcb-folder-title-link:hover {
+        text-decoration: underline;
+    }
+
+    .hcb-folder-title-link:focus-visible {
+        outline: 2px solid var(--interactive-accent, #3d6bf4);
+        outline-offset: 2px;
+        border-radius: 4px;
+    }
+
     .hcb-folder-count {
         margin-left: auto;
-        opacity: 0.8;
+        opacity: 0.7;
         font-size: 0.85rem;
     }
 

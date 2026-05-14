@@ -1,3 +1,5 @@
+const slugify = require("@sindresorhus/slugify");
+
 // Put your computations here.
 
 function getNoteFolderPathParts(data) {
@@ -31,9 +33,22 @@ function getNoteFolderPathParts(data) {
 
 function userComputed(data) {
   const noteFolderPathParts = getNoteFolderPathParts(data);
+  const noteFolderBreadcrumbs = noteFolderPathParts.map((name, index) => {
+    const slugPath = noteFolderPathParts
+      .slice(0, index + 1)
+      .map((part) => slugify(part))
+      .join("/");
+
+    return {
+      name,
+      url: `/${slugPath}/`,
+    };
+  });
+
   return {
     noteFolderPathParts,
     noteFolderPath: noteFolderPathParts.join(" > "),
+    noteFolderBreadcrumbs,
   };
 }
 
