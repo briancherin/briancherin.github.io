@@ -1,4 +1,4 @@
-const fs = require("fs");
+﻿const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
 const matter = require("gray-matter");
@@ -65,12 +65,28 @@ function stripFrontmatter(lines) {
 function markdownLineToWords(line) {
   if (!line) return [];
   let text = line;
+
+  // Ignore standalone footnote definition lines (e.g. [^1]: ...)
+  if (/^\[\^[^\]]+\]:/.test(text.trim())) {
+    return [];
+  }
+
   text = text.replace(/`[^`]*`/g, " ");
-  text = text.replace(/\!\[[^\]]*]\([^)]*\)/g, " ");
-  text = text.replace(/\[[^\]]*]\([^)]*\)/g, " ");
-  text = text.replace(/\[\[([^\]|#]+)(#[^\]|]+)?(\|[^\]]+)?]]/g, " ");
+  text = text.replace(/\!\[[^\]]*\]\([^)]*\)/g, " ");
+  text = text.replace(/\[([^\]]*)\]\([^)]*\)/g, "$1");
+  text = text.replace(/\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?]]/g, (_m, target, alias) => {
+    if (alias && alias.trim().length > 0) return alias;
+    const normalized = String(target || "").replace(/\\/g, "/");
+    const parts = normalized.split("/");
+    return parts[parts.length - 1] || normalized;
+  });
+
+  // Strip footnote references so they don't shift visible-word mapping
+  text = text.replace(/\[\^[^\]]+\]/g, " ");
+  text = text.replace(/\^\[[^\]]*\]/g, " ");
+
   text = text.replace(/https?:\/\/\S+/g, " ");
-  text = text.replace(/[#>*_\-~|]/g, " ");
+  text = text.replace(/[#>*_~|]/g, " ");
   const words = text.match(WORD_REGEX);
   return words || [];
 }
