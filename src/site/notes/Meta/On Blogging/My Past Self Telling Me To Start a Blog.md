@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/","created":"2025-12-08T12:55:44.347-05:00","updated":"2025-12-10T14:06:37.759-05:00"}
+{"dg-publish":true,"permalink":"/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/","created":"2025-12-08T12:55:44.347-05:00","updated":"2026-05-14T09:52:12.096-04:00"}
 ---
 
 Digging in the archives of my Google Keep notes:
@@ -67,6 +67,12 @@ From December 11, 2024:
 Above note expanded on October 23, 2025:
 >[!NOTE]
 >Brian's Corner
+
+Likely because on October 21, 2025, I wrote this in OneNote^[ (with an associated movie review of *Twinless* which at least as of writing this here I have not published. Maybe I should.]):
+>[!NOTE]
+>Blog: aka writing for an audience.
+>
+>Could see myself having a public blog in the future -- this notebook is an experiment, space to see what posts might look like.
 
 
 And finally, on December 6, 2025, the day before I started this Digital Garden and wrote [[Media I Have Consumed/Podcasts/1 Second Everyday - Indie Hackers Podcast\|my first post]].
