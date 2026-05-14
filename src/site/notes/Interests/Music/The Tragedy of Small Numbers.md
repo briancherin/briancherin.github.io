@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/music/the-tragedy-of-small-numbers/","created":"2026-01-02T20:00:17.884-05:00","updated":"2026-01-02T20:15:19.251-05:00"}
+{"dg-publish":true,"permalink":"/interests/music/the-tragedy-of-small-numbers/","created":"2026-01-02T20:00:17.884-05:00","updated":"2026-05-14T09:20:12.265-04:00"}
 ---
 
 Sometimes I chance upon music on Spotify that catches my attention. And I'll click into the artist's profile to see how many monthly listeners they have. If it's a big(?) number, I feel happy, and I feel like I've tapped into something special. If it's a small number (< 10,000), I feel a bit of a knockback. I start to question whether the content is really worth listening to or spending more time with. 
@@ -23,3 +23,7 @@ Reasons to ignore the above instincts and give these small-number artists a chan
 So, sure -- perhaps I will consider the above reasons as I move forward.
 
 Ultimately, though, I think this is what it comes down to: I have limited time to consume things like music, so I want to optimize my time and expose myself to as much high quality content as possible. 
+
+____
+#### Reversal
+Funnily enough, pretty soon after writing the above, (and perhaps even influenced by my thoughts above, particularly the "reasons to ignore"), I came across some smaller artists and have been deeply enjoying them ([[Media I Have Consumed/Music/2026 Music Standouts#Standouts Jan-April\|2026 Music Standouts#Standouts Jan-April]]). Specifically *Kay Kay and His Weathered Underground* (5.5k monthly listeners on Spotify) and *Dinosaur Feathers* (2.5k monthly listeners). The music has such merit (to me at least) on its own that I don't need to question who else is listening to it.
