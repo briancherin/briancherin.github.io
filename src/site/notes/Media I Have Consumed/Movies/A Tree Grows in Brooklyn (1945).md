@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/a-tree-grows-in-brooklyn-1945/","created":"2026-02-07T23:16:12.368-05:00","updated":"2026-02-07T23:46:11.164-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/a-tree-grows-in-brooklyn-1945/","created":"2026-02-07T23:16:12.368-05:00","updated":"2026-05-14T09:20:29.914-04:00"}
 ---
 
 ![Pasted image 20260207231649.png](/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Pasted%20image%2020260207231649.png)
@@ -35,7 +35,7 @@ He says:
 
 "Now wait a minute. They didn't kill it. They couldn't kill that tree. Well, sure, baby, don't tell me that tree's gonna lie down and die that easy. Look at that tree. See where it's coming from? Right up out of the cement. Didn't nobody plant it. It didn't ask the cement could it grow. It just couldn't help growing so much it pushed that old cement right out of the way. And when you're busting with something like that, can't anybody help it. Like that little old bird up there. Listen to her. He didn't ask anybody could he sing. And he certainly didn't take any lessons. He's so full of singing, it's his cut to bust out someplace. Why, they could cut that old tree right down to the ground, and a root would push up someplace else in the cement. You wait till spring, Prima Donna^[The girl's name is actually Francie. Prima Donna is his nickname for her. Prima donna apparently is the phrase for the lead female singer in an opera. It's a playful way of the father telling his daughter she's a star.], and you'll see."
 
-This dialogue obviously corresponds to the title, and generally to the situations in the story. I interpret it as the family struggling to make their way through life, and whatever obstacles they must push through, they will be able to make it through, simply because that's their name (perhaps the nature of all people). To make your way in the world even despite struggle. Even if they face a large obstacle (like the tree getting cut down -- or the father's death) there will be another chance for growth and improvement (seen at the end of the movie).
+This dialogue obviously corresponds to the title, and generally to the situations in the story. I interpret it as the family struggling to make their way through life, and whatever obstacles they must push through, they will be able to make it through, simply because that's their nature (perhaps the nature of all people). To make your way in the world even despite struggle. Even if they face a large obstacle (like the tree getting cut down -- or the father's death) there will be another chance for growth and improvement (seen at the end of the movie).
 
 ### Notes
 Some random moments I wanted to note down:
