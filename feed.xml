@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" />
     <link href="https://briancherin.github.io" />
-    <updated>2026-05-16T15:09:05Z</updated>
+    <updated>2026-05-16T21:06:57Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -416,7 +416,7 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
                 Toothpaste Burger
                 
             </title>
-            <updated>2026-05-16T15:07:43.548Z</updated>
+            <updated>2026-05-16T21:06:13.120Z</updated>
             <id>https://briancherin.github.io/projects/software/game-development/old-projects/toothpaste-burger/</id>
             <content type="html">
                 &lt;p&gt;This came out of a similar era when I was interested in 2D game development using Unity, around the same time as when I made &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/game-development/old-projects/bee-haven/&quot;&gt;Bee Haven&lt;/a&gt; (2018).&lt;/p&gt;
@@ -424,13 +424,11 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
 &lt;p&gt;And also I&#39;d like to just have a playable web version like I have for Bee Haven. On my to-do list.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/banner.png&quot; alt=&quot;banner.png|x180&quot; /&gt;&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://briancherin.github.io/404&quot; target=&quot;&quot;&gt;x180&lt;/a&gt;&lt;/th&gt;
-&lt;th&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://briancherin.github.io/404&quot; target=&quot;&quot;&gt;x180&lt;/a&gt;&lt;/th&gt;
-&lt;th&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://briancherin.github.io/404&quot; target=&quot;&quot;&gt;x180&lt;/a&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&quot;https://briancherin.github.io/gameplay.png&quot; height=&quot;400&quot; /&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&quot;https://briancherin.github.io/gameover.png&quot; height=&quot;400&quot; /&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&quot;https://briancherin.github.io/homescreen.png&quot; height=&quot;400&quot; /&gt;&lt;/td&gt;
+  &lt;/tr&gt;
 &lt;/table&gt;
 &lt;p&gt;(Not exactly sure what the &amp;quot;anti-toothpaste violence&amp;quot; cause is about, but it&#39;s there. Was being goofy)&lt;/p&gt;
 &lt;h4 id=&quot;breaking-my-thumb-semi-related-backstory&quot; tabindex=&quot;-1&quot;&gt;Breaking my thumb (semi-related backstory)&lt;/h4&gt;
