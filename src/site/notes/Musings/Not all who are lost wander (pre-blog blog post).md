@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/musings/not-all-who-are-lost-wander-pre-blog-blog-post/","created":"2026-05-16T10:43:55.874-04:00","updated":"2026-05-16T17:22:35.013-04:00"}
+{"dg-publish":true,"permalink":"/musings/not-all-who-are-lost-wander-pre-blog-blog-post/","created":"2026-05-16T10:43:55.874-04:00","updated":"2026-05-16T17:26:22.010-04:00"}
 ---
 
 
@@ -27,7 +27,7 @@ In recent times, the list of interests is made up of: reading, cooking, explorin
 
 Some examples of the products of my hobbies:
 
-| ![[Pasted image 20260516104652.png\|300]]        | ![[Pasted image 20260516104655.png\|200]]                                       |
+| ![[Assets/Pasted image 20260516104652.png\|300]] | ![[Assets/Pasted image 20260516104655.png\|200]]                                |
 | ------------------------------------------------ | ------------------------------------------------------------------------------- |
 | _3D modeled, 3D printed, and painted_^[[[Appa\|[Appa]]] | _A mobile game I created, entitled "Toothpaste Burger"_^[[[Toothpaste Burger\|[Toothpaste Burger]]] |
 
