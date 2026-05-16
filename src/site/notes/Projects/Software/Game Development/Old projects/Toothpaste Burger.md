@@ -1,25 +1,36 @@
 ---
-{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/toothpaste-burger/","created":"2026-03-29T19:23:08.280-04:00","updated":"2026-05-16T10:19:10.916-04:00"}
+{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/toothpaste-burger/","created":"2026-03-29T19:23:08.280-04:00","updated":"2026-05-16T10:32:21.530-04:00"}
 ---
 
-This came out of a similar era when I was interested in 2D game development using Unity, around the same time as when I made [[Projects/Software/Game Development/Old projects/Bee Haven\|Bee Haven]]. 
-
-#### Semi-related backstory
+This came out of a similar era when I was interested in 2D game development using Unity, around the same time as when I made [[Projects/Software/Game Development/Old projects/Bee Haven\|Bee Haven]].
 
 
 
+#### Breaking my thumb (semi-related backstory)
+I broke my thumb (minor fracture) in high school. I was exiting the bathroom, and was reaching for the door handle, when someone kicked in the door from the outside and it slammed straight into my thumb. It didn't even hurt that much in the moment - I was mostly startled - and I proceeded back to the cafeteria. But a few minutes after I sat back down, I realized that it was hurting kind of badly, and I had sense enough to head to the nurse's office. I'm not sure if it was my body's reaction to the injury (I still don't recall it hurting that much) or if it was mental anxiety about having been injured, but I was experiencing blurred tunnel vision as I was walking through the hallway, and I felt a little dizzy. I made it to the nurse and they gave me a bag of ice to put around my thumb.
 
-Toothpaste Burger was a project I pretty much exclusively worked on when I had broken my thumb 
+After a couple doctor appointments, I ended up getting a cast on my hand. It was, of course, annoying for various reasons. But it was a really nice color of blue! So there's that. It looked kind of cool, especially in my mirror-selfie photoshoot the day I got it:
 
+![Pasted image 20260516102834.png](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/Pasted%20image%2020260516102834.png)
 
+And the other side effect -- I was excused from phys ed / gym classes in school while I had the cast, and went to "study hall" instead. "Study hall" was basically free time to do (generally school-related) work in the library.
 
+I did some school work / studying / readings.
 
+But also? Toothpaste Burger.
+
+I pretty much exclusively worked on developing Toothpaste Burger during my time in study hall.
+
+So, if there's one slightly cool/good thing that came out of breaking my thumb, it's that.
 
 
 #### Apparently this was my initial mockup
+
 ![Pasted image 20260516100026.png](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/Pasted%20image%2020260516100026.png)
 
 I had this huge whiteboard in my bedroom. It was often blank, but often I had random lists, random quotes, random doodles on it. And apparently the idea for TPB.
+
+Uh, whiteboard typo? I assume "um!" is supposed to be "yum!".
 
 #### "It is no good anticipating regrets"
 Naturally, I am wanting to contemplate this quote because it is so randomly on the whiteboard. I don't recall this quote have a particular impact on me, and I never would have remembered it until now, but I can see how I could relate to it (then and now). It's kind of related to overthinking and worrying, and making a decision whether to do something. 
