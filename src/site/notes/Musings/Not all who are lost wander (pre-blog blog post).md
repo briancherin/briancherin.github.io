@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/musings/not-all-who-are-lost-wander-pre-blog-blog-post/","created":"2026-05-16T10:43:55.874-04:00","updated":"2026-05-16T17:32:20.068-04:00"}
+{"dg-publish":true,"permalink":"/musings/not-all-who-are-lost-wander-pre-blog-blog-post/","created":"2026-05-16T10:43:55.874-04:00","updated":"2026-05-16T17:41:32.330-04:00"}
 ---
 
 
@@ -28,10 +28,10 @@ In recent times, the list of interests is made up of: reading, cooking, explorin
 Some examples of the products of my hobbies:
 
 ![Assets/Pasted image 20260516104652.png|300](/img/user/Musings/Assets/Pasted%20image%2020260516104652.png)
-_3D modeled, 3D printed, and painted_^[[[Appa\|[Appa]]]  
+_3D modeled, 3D printed, and painted_^[ [[Creations/3D/Appa\|Appa]] ]  
 
 ![Assets/Pasted image 20260516104655.png|200](/img/user/Musings/Assets/Pasted%20image%2020260516104655.png)
-_A mobile game I created, entitled "Toothpaste Burger"_^[[[Toothpaste Burger\|[Toothpaste Burger]]]
+_A mobile game I created, entitled "Toothpaste Burger"_^[ [[Projects/Software/Game Development/Old projects/Toothpaste Burger\|Toothpaste Burger]] ]
 
 The time during weekends and a few daily hours after an exhausting 9-5 job just doesn't feel like enough for me to explore all these pursuits to my liking.
 
