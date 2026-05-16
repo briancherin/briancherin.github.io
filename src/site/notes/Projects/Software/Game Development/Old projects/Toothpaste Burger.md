@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/toothpaste-burger/","created":"2026-03-29T19:23:08.280-04:00","updated":"2026-05-16T17:15:45.086-04:00"}
+{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/toothpaste-burger/","created":"2026-03-29T19:23:08.280-04:00","updated":"2026-05-16T17:20:10.983-04:00"}
 ---
 
 This came out of a similar era when I was interested in 2D game development using Unity, around the same time as when I made [[Projects/Software/Game Development/Old projects/Bee Haven\|Bee Haven]] (2018).
@@ -8,9 +8,9 @@ I also published this on the Google Play Store after making it, but took it down
 
 And also I'd like to just have a playable web version like I have for Bee Haven. On my to-do list.
 
-![Assets/banner.png|x180](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/banner.png)
+![Assets/banner.png](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/banner.png)
 
-![Assets/gameplay.png|x180](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/gameplay.png) ![Assets/gameover.png|x180](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/gameover.png) ![Assets/homescreen.png|x180](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/homescreen.png)
+![Assets/gameplay.png|200](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/gameplay.png) ![Assets/gameover.png|200](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/gameover.png) ![Assets/homescreen.png|200](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/homescreen.png)
 
 (Not exactly sure what the "anti-toothpaste violence" cause is about, but it's there. Was being goofy)
 #### Breaking my thumb (semi-related backstory)
