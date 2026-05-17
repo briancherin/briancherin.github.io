@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/","created":"2026-05-07T23:28:52.602-04:00","updated":"2026-05-15T23:53:29.607-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/","created":"2026-05-07T23:28:52.602-04:00","updated":"2026-05-17T18:50:46.136-04:00"}
 ---
 
 Taking notes during my re-read for book club in May 2026. Currently mostly listening to the audiobook version (my original read was ebook in 2020) but also may switch between ebook as well.
@@ -26,4 +26,5 @@ Taking notes during my re-read for book club in May 2026. Currently mostly liste
 #### Ch 5-??
 - Distinction of "supper" and "dinner" is kind of funny. If I ever have two separate dinners, I will call the first one supper and the second one dinner.
 - Obviously a lot of discussion of gender and sexuality within this. I appreciated the section that was just direct discussion of these topics with regards to the Gethenian physiology. I'm surprised I didn't reflect on this more during my first read through (I think I was just more focused on the sci-fi adventure / politics / ekumen aspect.)
+	- The themes on gender also are reminding me of the gender discussions in [[Media I Have Consumed/Books/Fiction/Terra Ignotta\|Terra Ignotta]] - in that universe, people dressed so as to not reveal what gender they are (so it's different from TLHOD in that they do have different genders of course). The reasoning was I think to remove the negative aspects of gender differentiation - this played a role in the Terra Ignotta plot and politics (won't spoil anything here). It's a strong parallel because it feels like TLHOD is also making a point about what lack of gender does to social/political life (obviously).
 - Shifgrethor concept is reminding me of [[Media I Have Consumed/Books/Fiction/The Wheel of Time (series)\|The Wheel of Time]]'s concept of ji'e'toh^[had to look up spelling since I've only heard WoT as audiobook.], though not exactly the same.
