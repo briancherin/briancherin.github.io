@@ -1,18 +1,25 @@
 ---
-{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/toothpaste-burger/","created":"2026-03-29T19:23:08.280-04:00","updated":"2026-05-16T17:20:10.983-04:00"}
+{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/toothpaste-burger/","created":"2026-03-29T19:23:08.280-04:00","updated":"2026-05-17T11:33:27.519-04:00"}
 ---
 
+![Assets/banner.png](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/banner.png)
+(Not exactly sure what the "anti-toothpaste violence" cause is about, but it's there. Was being goofy)
+#### Overview
 This came out of a similar era when I was interested in 2D game development using Unity, around the same time as when I made [[Projects/Software/Game Development/Old projects/Bee Haven\|Bee Haven]] (2018).
 
 I also published this on the Google Play Store after making it, but took it down when I needed to make some updates to comply with Play Store requirements (same situation as Bee Haven). I'd like to get it back up in the store, though.
 
 And also I'd like to just have a playable web version like I have for Bee Haven. On my to-do list.
 
-![Assets/banner.png](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/banner.png)
+#### Gameplay
+The goal of the game is to waste as little toothpaste as possible (hence the "Don't waste the toothpaste" on the title screen).
 
-![Assets/gameplay.png|200](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/gameplay.png) ![Assets/gameover.png|200](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/gameover.png) ![Assets/homescreen.png|200](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/homescreen.png)
+The player controls a tube of toothpaste and taps the tube to squeeze out toothpaste. A moving conveyer belt carries two types of object: hamburgers^[I made this game when I was not vegan. Now that I am vegan, I choose to imagine that the burger is a vegan burger.] and toothbrushes. The player must squeeze the toothpaste onto either of these object types (earning points), and minimize the amount of toothpaste lost to the conveyer belt (i.e. they miss the object). If the player wastes too much (measured by the "Waste" meter), the game ends.
 
-(Not exactly sure what the "anti-toothpaste violence" cause is about, but it's there. Was being goofy)
+
+![Assets/homescreen.png|200](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/homescreen.png)![Assets/gameplay.png|200](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/gameplay.png) ![Assets/gameover.png|200](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/gameover.png) 
+
+
 #### Breaking my thumb (semi-related backstory)
 I broke my thumb (minor fracture) in high school. I was exiting the bathroom, and was reaching for the door handle, when someone kicked in the door from the outside and it slammed straight into my thumb. It didn't even hurt that much in the moment - I was mostly startled - and I proceeded back to the cafeteria. But a few minutes after I sat back down, I realized that it was hurting kind of badly, and I had sense enough to head to the nurse's office. I'm not sure if it was my body's reaction to the injury (I still don't recall it hurting that much) or if it was mental anxiety about having been injured, but I was experiencing blurred tunnel vision as I was walking through the hallway, and I felt a little dizzy. I made it to the nurse and they gave me a bag of ice to put around my thumb.
 
