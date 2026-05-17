@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" //>
     <link href="https://briancherin.github.io" //>
-    <updated>2026-05-16T21:42:53Z</updated>
+    <updated>2026-05-17T15:34:01Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -416,15 +416,19 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
                 Toothpaste Burger
                 
             </title>
-            <updated>2026-05-16T21:20:10.983Z</updated>
+            <updated>2026-05-17T15:33:27.519Z</updated>
             <id>https://briancherin.github.io/projects/software/game-development/old-projects/toothpaste-burger/</id>
             <content type="html">
-                &lt;p&gt;This came out of a similar era when I was interested in 2D game development using Unity, around the same time as when I made &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/game-development/old-projects/bee-haven/&quot;&gt;Bee Haven&lt;/a&gt; (2018).&lt;/p&gt;
+                &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/banner.png&quot; alt=&quot;Assets/banner.png&quot; /&gt;&lt;br /&gt;
+(Not exactly sure what the &amp;quot;anti-toothpaste violence&amp;quot; cause is about, but it&#39;s there. Was being goofy)&lt;/p&gt;
+&lt;h4 id=&quot;overview&quot; tabindex=&quot;-1&quot;&gt;Overview&lt;/h4&gt;
+&lt;p&gt;This came out of a similar era when I was interested in 2D game development using Unity, around the same time as when I made &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/game-development/old-projects/bee-haven/&quot;&gt;Bee Haven&lt;/a&gt; (2018).&lt;/p&gt;
 &lt;p&gt;I also published this on the Google Play Store after making it, but took it down when I needed to make some updates to comply with Play Store requirements (same situation as Bee Haven). I&#39;d like to get it back up in the store, though.&lt;/p&gt;
 &lt;p&gt;And also I&#39;d like to just have a playable web version like I have for Bee Haven. On my to-do list.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/banner.png&quot; alt=&quot;Assets/banner.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/gameplay.png&quot; alt=&quot;Assets/gameplay.png|200&quot; width=&quot;200px&quot; /&gt; &lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/gameover.png&quot; alt=&quot;Assets/gameover.png|200&quot; width=&quot;200px&quot; /&gt; &lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/homescreen.png&quot; alt=&quot;Assets/homescreen.png|200&quot; width=&quot;200px&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;(Not exactly sure what the &amp;quot;anti-toothpaste violence&amp;quot; cause is about, but it&#39;s there. Was being goofy)&lt;/p&gt;
+&lt;h4 id=&quot;gameplay&quot; tabindex=&quot;-1&quot;&gt;Gameplay&lt;/h4&gt;
+&lt;p&gt;The goal of the game is to waste as little toothpaste as possible (hence the &amp;quot;Don&#39;t waste the toothpaste&amp;quot; on the title screen).&lt;/p&gt;
+&lt;p&gt;The player controls a tube of toothpaste and taps the tube to squeeze out toothpaste. A moving conveyer belt carries two types of object: hamburgers&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; and toothbrushes. The player must squeeze the toothpaste onto either of these object types (earning points), and minimize the amount of toothpaste lost to the conveyer belt (i.e. they miss the object). If the player wastes too much (measured by the &amp;quot;Waste&amp;quot; meter), the game ends.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/homescreen.png&quot; alt=&quot;Assets/homescreen.png|200&quot; width=&quot;200px&quot; /&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/gameplay.png&quot; alt=&quot;Assets/gameplay.png|200&quot; width=&quot;200px&quot; /&gt; &lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/gameover.png&quot; alt=&quot;Assets/gameover.png|200&quot; width=&quot;200px&quot; /&gt;&lt;/p&gt;
 &lt;h4 id=&quot;breaking-my-thumb-semi-related-backstory&quot; tabindex=&quot;-1&quot;&gt;Breaking my thumb (semi-related backstory)&lt;/h4&gt;
 &lt;p&gt;I broke my thumb (minor fracture) in high school. I was exiting the bathroom, and was reaching for the door handle, when someone kicked in the door from the outside and it slammed straight into my thumb. It didn&#39;t even hurt that much in the moment - I was mostly startled - and I proceeded back to the cafeteria. But a few minutes after I sat back down, I realized that it was hurting kind of badly, and I had sense enough to head to the nurse&#39;s office. I&#39;m not sure if it was my body&#39;s reaction to the injury (I still don&#39;t recall it hurting that much) or if it was mental anxiety about having been injured, but I was experiencing blurred tunnel vision as I was walking through the hallway, and I felt a little dizzy. I made it to the nurse and they gave me a bag of ice to put around my thumb.&lt;/p&gt;
 &lt;p&gt;After a couple doctor appointments, I ended up getting a cast on my hand. It was, of course, annoying for various reasons. But it was a really nice color of blue! So there&#39;s that. It looked kind of cool, especially in my mirror-selfie photoshoot the day I got it:&lt;/p&gt;
@@ -443,6 +447,13 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
 &lt;p&gt;&amp;quot;Anticipating a regret&amp;quot; might mean you hold yourself back from doing something because you are worried about a negative outcome. I think it&#39;s fine to think through and predict certain outcomes. But &amp;quot;regret&amp;quot; isn&#39;t usually something you can control. Whether you will regret something depends on how things will go, and you don&#39;t know how things will go until they happen. Maybe you can do a risk calculation and decide that the risk outweighs the benefits -- maybe then your decision is to hold back, and that&#39;s fine.&lt;/p&gt;
 &lt;p&gt;But if you&#39;re just scared of failure, or scared that you&#39;ll embarrass yourself, and it&#39;s only &lt;em&gt;possible&lt;/em&gt; (not certain or probably) that you will fail, then it&#39;s better to push through those uncertainties and ignore these &lt;em&gt;potential&lt;/em&gt; regrets. Otherwise, you might completely miss out on the possible positive outcomes.&lt;/p&gt;
 &lt;p&gt;I guess it also just says something about the thinking (&amp;quot;anticipating&amp;quot;) part of it (as opposed to the actual act of making a decision with how to proceed). To actively think about possible regrets is to bring yourself into a negative frame of mind. You&#39;re creating unnecessary worry (though, again, I&#39;m tempted to say that some thinking through risk is okay) and stressing yourself out. Maybe you even sway the outcome through your thinking, which influences your behavior, which influences the outcome - like an &lt;a href=&quot;https://en.wikipedia.org/wiki/Observer_effect_(physics)&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;observer effect&lt;/a&gt;. Ambiguous example: You anticipate a regret, so you act less confidently or take the less bold choice, which actually leads to the negative outcome you were regretting. I feel like there are many examples of this in popular media (tv/movies) and no nothing comes to mind in this moment but maybe I&#39;ll update this if I think of one.&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;I made this game when I was not vegan. Now that I am vegan, I choose to imagine that the burger is a vegan burger. &lt;a href=&quot;https://briancherin.github.io/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 
             </content>
             <link href="https://briancherin.github.io/projects/software/game-development/old-projects/toothpaste-burger/" //>
