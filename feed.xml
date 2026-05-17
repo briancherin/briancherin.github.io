@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" //>
     <link href="https://briancherin.github.io" //>
-    <updated>2026-05-17T15:34:46Z</updated>
+    <updated>2026-05-17T15:36:19Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -416,7 +416,7 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
                 Toothpaste Burger
                 
             </title>
-            <updated>2026-05-17T15:33:27.519Z</updated>
+            <updated>2026-05-17T15:35:51.741Z</updated>
             <id>https://briancherin.github.io/projects/software/game-development/old-projects/toothpaste-burger/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/banner.png&quot; alt=&quot;Assets/banner.png&quot; /&gt;&lt;br /&gt;
@@ -429,6 +429,11 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
 &lt;p&gt;The goal of the game is to waste as little toothpaste as possible (hence the &amp;quot;Don&#39;t waste the toothpaste&amp;quot; on the title screen).&lt;/p&gt;
 &lt;p&gt;The player controls a tube of toothpaste and taps the tube to squeeze out toothpaste. A moving conveyer belt carries two types of object: hamburgers&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; and toothbrushes. The player must squeeze the toothpaste onto either of these object types (earning points), and minimize the amount of toothpaste lost to the conveyer belt (i.e. they miss the object). If the player wastes too much (measured by the &amp;quot;Waste&amp;quot; meter), the game ends.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/homescreen.png&quot; alt=&quot;Assets/homescreen.png|200&quot; width=&quot;200px&quot; /&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/gameplay.png&quot; alt=&quot;Assets/gameplay.png|200&quot; width=&quot;200px&quot; /&gt; &lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/gameover.png&quot; alt=&quot;Assets/gameover.png|200&quot; width=&quot;200px&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;okay-but-why&quot; tabindex=&quot;-1&quot;&gt;Okay, but why?&lt;/h4&gt;
+&lt;p&gt;That&#39;s... a good question.&lt;/p&gt;
+&lt;p&gt;I&#39;m not too sure about the lore behind the game concept.&lt;/p&gt;
+&lt;p&gt;Why indeed are we putting toothpaste on burgers?&lt;/p&gt;
+&lt;p&gt;This is left up to the interpretation of the player.&lt;/p&gt;
 &lt;h4 id=&quot;breaking-my-thumb-semi-related-backstory&quot; tabindex=&quot;-1&quot;&gt;Breaking my thumb (semi-related backstory)&lt;/h4&gt;
 &lt;p&gt;I broke my thumb (minor fracture) in high school. I was exiting the bathroom, and was reaching for the door handle, when someone kicked in the door from the outside and it slammed straight into my thumb. It didn&#39;t even hurt that much in the moment - I was mostly startled - and I proceeded back to the cafeteria. But a few minutes after I sat back down, I realized that it was hurting kind of badly, and I had sense enough to head to the nurse&#39;s office. I&#39;m not sure if it was my body&#39;s reaction to the injury (I still don&#39;t recall it hurting that much) or if it was mental anxiety about having been injured, but I was experiencing blurred tunnel vision as I was walking through the hallway, and I felt a little dizzy. I made it to the nurse and they gave me a bag of ice to put around my thumb.&lt;/p&gt;
 &lt;p&gt;After a couple doctor appointments, I ended up getting a cast on my hand. It was, of course, annoying for various reasons. But it was a really nice color of blue! So there&#39;s that. It looked kind of cool, especially in my mirror-selfie photoshoot the day I got it:&lt;/p&gt;
