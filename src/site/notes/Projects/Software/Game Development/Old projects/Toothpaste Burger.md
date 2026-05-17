@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/toothpaste-burger/","created":"2026-03-29T19:23:08.280-04:00","updated":"2026-05-17T11:33:27.519-04:00"}
+{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/toothpaste-burger/","created":"2026-03-29T19:23:08.280-04:00","updated":"2026-05-17T11:35:51.741-04:00"}
 ---
 
 ![Assets/banner.png](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/banner.png)
@@ -19,6 +19,15 @@ The player controls a tube of toothpaste and taps the tube to squeeze out toothp
 
 ![Assets/homescreen.png|200](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/homescreen.png)![Assets/gameplay.png|200](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/gameplay.png) ![Assets/gameover.png|200](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/gameover.png) 
 
+
+#### Okay, but why?
+That's... a good question.
+
+I'm not too sure about the lore behind the game concept.
+
+Why indeed are we putting toothpaste on burgers?
+
+This is left up to the interpretation of the player.
 
 #### Breaking my thumb (semi-related backstory)
 I broke my thumb (minor fracture) in high school. I was exiting the bathroom, and was reaching for the door handle, when someone kicked in the door from the outside and it slammed straight into my thumb. It didn't even hurt that much in the moment - I was mostly startled - and I proceeded back to the cafeteria. But a few minutes after I sat back down, I realized that it was hurting kind of badly, and I had sense enough to head to the nurse's office. I'm not sure if it was my body's reaction to the injury (I still don't recall it hurting that much) or if it was mental anxiety about having been injured, but I was experiencing blurred tunnel vision as I was walking through the hallway, and I felt a little dizzy. I made it to the nurse and they gave me a bag of ice to put around my thumb.
