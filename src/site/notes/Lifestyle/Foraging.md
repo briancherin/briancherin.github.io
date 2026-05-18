@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/foraging/","created":"2026-05-17T22:14:40.714-04:00","updated":"2026-05-17T22:23:28.832-04:00"}
+{"dg-publish":true,"permalink":"/lifestyle/foraging/","created":"2026-05-17T22:14:40.714-04:00","updated":"2026-05-17T23:01:58.081-04:00"}
 ---
 
 Currently this is a passive interest that I have no acted on in any significant way.
@@ -12,6 +12,7 @@ Small things I've done that come to mind
 
 
 Apparently Central Park has edible plants that can be foraged. [Video](https://www.youtube.com/watch?v=xtCXy7R6-q8) by [[Media I Have Consumed/Misc/Creators I Like#Robin Greenfield\|Robin Greenfield]] of a CP foraging tour. I'd like to try this out sometime. 
+- Video recommends Sam Thayer's books (The Forager's Harvest, Nature's Garden, Incredible Wild Edibles) for actually learning how to identify and prepare specific plants.
 
 
 
