@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/good-luck-have-fun-don-t-die-2025/","created":"2026-05-17T20:32:57.579-04:00","updated":"2026-05-17T22:13:22.940-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/good-luck-have-fun-don-t-die-2025/","created":"2026-05-17T20:32:57.579-04:00","updated":"2026-05-17T22:13:53.447-04:00"}
 ---
 
 A wild ride of a movie. The focus is on anti-AI, anti-overconsumption, anti a world where the spirit of humanity becomes lost to technology. It's presented in an over-the-top way, so it's not as serious of a take on these issues in some ways, but this makes it enjoyable and entertaining while still posing deep questions. Similar feeling to Black Mirror. The cinematography is excellent. I was closely engaged for the whole movie and eager to see it through. During the first half, I thought it would end up being my favorite movie of this year... Maybe it still will be, but some flaws in the second half make me less confident in making such a claim.
@@ -41,6 +41,7 @@ Spoiler-full reactions below.
 - Other notes
 	- Feels like the writer is talking directly to audience when the time traveler explains the mission and the bad things about the future. Example at 53:00.
 	- I like the junk build aesthetic. Like the anti-phone ray guns.
+	- I like the "good luck have fun don't die" chorus sound and also the theme song.
 
 - Writer's message to the present world
 	- Create AI guardrails before AI advances further
