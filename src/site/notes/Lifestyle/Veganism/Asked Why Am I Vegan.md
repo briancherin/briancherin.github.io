@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/veganism/asked-why-am-i-vegan/","title":"Asked: Why Am I Vegan","created":"2026-03-05T09:09:45.351-05:00","updated":"2026-04-27T23:04:23.757-04:00"}
+{"dg-publish":true,"permalink":"/lifestyle/veganism/asked-why-am-i-vegan/","title":"Asked: Why Am I Vegan","created":"2026-03-05T09:09:45.351-05:00","updated":"2026-05-18T12:03:58.357-04:00"}
 ---
 
 #veganism
@@ -27,4 +27,5 @@ Anyway, I can at least go deeper on this site.
 I've been intending to expand more on the ethical arguments, in my own words^[Obviously, anyone can find information online about the ethical arguments for veganism. But I believe there is value in me sharing my own understanding of it.]. For now:
 - [[Lifestyle/Cooking/On Cooking - Veganism and Whole-Food Plant-Based Diet#Talking about veganism & Challenging yourself [This section is (maybe obviously) aimed at people not already vegan.\|On Cooking - Veganism and Whole-Food Plant-Based Diet]]
 - [[Lifestyle/Veganism/Asked Why Am I Vegan\|Asked Why Am I Vegan]]
+- [[Lifestyle/Veganism/Animal Agriculture As An Atrocity\|Animal Agriculture As An Atrocity]]
 
