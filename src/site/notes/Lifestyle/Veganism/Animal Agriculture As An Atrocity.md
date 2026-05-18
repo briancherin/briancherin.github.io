@@ -1,8 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/veganism/animal-agriculture-as-an-atrocity/","created":"2026-05-18T11:36:22.916-04:00","updated":"2026-05-18T12:03:07.823-04:00"}
+{"dg-publish":true,"permalink":"/lifestyle/veganism/animal-agriculture-as-an-atrocity/","created":"2026-05-18T11:36:22.916-04:00","updated":"2026-05-18T12:24:13.819-04:00"}
 ---
 
 #veganism 
+
+![Pasted image 20260518122327.png](/img/user/Lifestyle/Veganism/Assets/Pasted%20image%2020260518122327.png)
+*Animal kill clock: https://animalclock.org*
 
 I believe that some day, humanity will look back at what we have done to animals as an atrocity, alongside other examples of war and genocide.
 
@@ -20,4 +23,3 @@ Various sources will show that globally, we kill 50-80 billion land animals ever
 
 Am I equating animal suffering/death to human suffering/death? No, I am not equating them. I would prevent a human genocide rather than preventing the operation of an animal factory farm. But I would prefer to prevent both.
 
-Animal kill clock: https://animalclock.org/
