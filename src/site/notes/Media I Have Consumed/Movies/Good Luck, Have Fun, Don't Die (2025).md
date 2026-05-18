@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/good-luck-have-fun-don-t-die-2025/","created":"2026-05-17T20:32:57.579-04:00","updated":"2026-05-17T22:13:53.447-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/good-luck-have-fun-don-t-die-2025/","created":"2026-05-17T20:32:57.579-04:00","updated":"2026-05-18T15:10:32.268-04:00"}
 ---
 
 A wild ride of a movie. The focus is on anti-AI, anti-overconsumption, anti a world where the spirit of humanity becomes lost to technology. It's presented in an over-the-top way, so it's not as serious of a take on these issues in some ways, but this makes it enjoyable and entertaining while still posing deep questions. Similar feeling to Black Mirror. The cinematography is excellent. I was closely engaged for the whole movie and eager to see it through. During the first half, I thought it would end up being my favorite movie of this year... Maybe it still will be, but some flaws in the second half make me less confident in making such a claim.
@@ -57,5 +57,5 @@ Spoiler-full reactions below.
 	- What am i doing to fight against this future?
 		- In my very small way: 
 			- Evading short-form content and instead cultivating rational, critical thinking-geared writing in this digital garden
-			- Cultivating real life community and connections 
+			- Cultivating real life [[Lifestyle/Hosting Gatherings\|community]] and connections 
 	- Could a VR world where you are your perfect self really be a better reality? Could AI/VR/tech really get us there? (It's pretty abstract, the concept is so unimaginable I'm not sure how it could be answered.)
