@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/good-luck-have-fun-don-t-die-2025/","created":"2026-05-17T20:32:57.579-04:00","updated":"2026-05-18T22:54:22.028-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/good-luck-have-fun-don-t-die-2025/","created":"2026-05-17T20:32:57.579-04:00","updated":"2026-05-18T23:00:53.129-04:00"}
 ---
 
 ![Pasted image 20260518225420.png](/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Pasted%20image%2020260518225420.png)
@@ -61,3 +61,7 @@ Spoiler-full reactions below.
 			- Evading short-form content and instead cultivating rational, critical thinking-geared writing in this digital garden
 			- Cultivating real life [[Lifestyle/Hosting Gatherings\|community]] and connections 
 	- Could a VR world where you are your perfect self really be a better reality? Could AI/VR/tech really get us there? (It's pretty abstract, the concept is so unimaginable I'm not sure how it could be answered.)
+
+
+- Read [this review](https://theplaylist.net/good-luck-have-fun-dont-die-review-gore-verbinskis-rip-roaring-adventure-is-a-potent-plea-for-ai-safeguards-20260211/). I liked the ending note: "Everyone can align on the peril ahead as AI increasingly embeds itself in everyday life. How to meet this challenge with a new response remains tantalizingly just out of reach. Verbinski and Robinson’s cinematic equivalent of screaming “FIRE” in a crowded room might help the next person tackling this pressing topic find the exit.".
+	- It feels like an important message to get out there and make art about. I'm curious how it will be represented in other media (whether future films, tv, or anything).
