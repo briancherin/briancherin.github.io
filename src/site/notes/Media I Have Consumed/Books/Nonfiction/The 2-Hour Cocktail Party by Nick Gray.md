@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/","created":"2026-02-11T23:32:43.471-05:00","updated":"2026-03-29T11:42:31.591-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/","created":"2026-02-11T23:32:43.471-05:00","updated":"2026-05-19T10:32:24.142-04:00"}
 ---
 
 Poses hosting cocktail parties (or similar) as an approach for strengthening existing connections AND forming new relationships.
@@ -13,7 +13,7 @@ Mostly focusing on the intro chapter rather than the logistical hosting suggesti
 I already have this topic in mind -- wanting to host small events in my apartment as a way to keep in touch with connections, both strong and loose (and strengthen the looser ones).
 
 It's posing this as a way to meet *new* people. I'm curious how it will present hosting as a solution to that. 
-- The answer: It's not taking this hosting strategy as a *source* for meeting new people, but instead as a way to engage more deeply with new people you meet elsewhere. This aligns with my thinking -- though I learn cautious towards inviting people I don't know too well into my home. But I think it is valid and there's an instinct that can be developed for knowing who to invite in and who to wait on.
+- The answer: It's not taking this hosting strategy as a *source* for meeting new people, but instead as a way to engage more deeply with new people you meet elsewhere. This aligns with my thinking -- though I lean cautious towards inviting people I don't know too well into my home. But I think it is valid and there's an instinct that can be developed for knowing who to invite in and who to wait on.
 >[!INFO] Excerpt
 >*We know that approaching new people to develop a personal or business relationship can be intimidating. Even terrifying. I’ve avoided asking someone out for a friendly coffee or a drink because I was afraid of being rejected. I thought, What if they say no?*
 >
