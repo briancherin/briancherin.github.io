@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/creative/writing/creative-writing/","created":"2025-12-14T23:02:33.570-05:00","updated":"2026-05-14T10:11:41.471-04:00"}
+{"dg-publish":true,"permalink":"/interests/creative/writing/creative-writing/","created":"2025-12-14T23:02:33.570-05:00","updated":"2026-05-20T00:00:21.170-04:00"}
 ---
 
 
@@ -31,7 +31,7 @@ I'm pretty sure I had some school assignment when I was really young, maybe in k
 
 At early elementary school age, I wrote a small collection of (very simplistic!) mini stories. Each story was only a couple pages long (again, very simplistic!). I wrote in big messy handwriting on lined paper and drew pictures related to the story with crayons or colored pencils. I even bound the pages in a piece of cardboard, to make it feel like a book. I think I've lost the original copy of this, though I have a document somewhere where I eventually typed up some of the stories. 
 
-Mid elementary school age, I did another simplistic bound story, called "Eight and One". This is one of my punched-in-the-gut losses. I don't know where the original is, if it still exists in this universe. Those stories were special to me. I would pay a demon some good money to retrieve it for me (but perhaps not sell my soul).
+Mid elementary school age, I did another simplistic bound story, called "Eight In One". This is one of my punched-in-the-gut losses. I don't know where the original is, if it still exists in this universe. Those stories were special to me. I would pay a demon some good money to retrieve it for me (but perhaps not sell my soul).
 
 I also had a phase of world-building around this time (I will refer to this as the *Boxish* universe). I would come up with histories, geography, inventions, and civic organizations for this persistent fictional world. My co-conspirator was my friend who I spent a lot of time with in those days. She would also do some creative writing about characters and events in this world -- likely a huge inspiration for my continued interest in creative writing in general. I had a couple false starts at writing stories in the universe around this time (or maybe bleeding into middle school, too), but they never got past more than a couple pages. 
 

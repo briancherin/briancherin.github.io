@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/toothpaste-burger/","created":"2026-03-29T19:23:08.280-04:00","updated":"2026-05-17T11:35:51.741-04:00"}
+{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/toothpaste-burger/","created":"2026-03-29T19:23:08.280-04:00","updated":"2026-05-20T00:00:52.842-04:00"}
 ---
 
 ![Assets/banner.png](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/banner.png)
@@ -55,7 +55,7 @@ I had this huge whiteboard in my bedroom. It was often blank, but often I had ra
 Uh, whiteboard typo? I assume "um!" is supposed to be "yum!".
 
 #### "It is no good anticipating regrets"
-Naturally, I am wanting to contemplate this quote because it is so randomly on the whiteboard. I don't recall this quote have a particular impact on me, and I never would have remembered it until now, but I can see how I could relate to it (then and now). It's kind of related to overthinking and worrying, and making a decision whether to do something. 
+Naturally, I am wanting to contemplate this quote because it is so randomly on the whiteboard. I don't recall this quote having a particular impact on me, and I never would have remembered it until now, but I can see how I could relate to it (then and now). It's kind of related to overthinking and worrying, and making a decision whether to do something. 
 
 "Anticipating a regret" might mean you hold yourself back from doing something because you are worried about a negative outcome. I think it's fine to think through and predict certain outcomes. But "regret" isn't usually something you can control. Whether you will regret something depends on how things will go, and you don't know how things will go until they happen. Maybe you can do a risk calculation and decide that the risk outweighs the benefits -- maybe then your decision is to hold back, and that's fine. 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/veganism/animal-agriculture-as-an-atrocity/","created":"2026-05-18T11:36:22.916-04:00","updated":"2026-05-18T12:24:13.819-04:00"}
+{"dg-publish":true,"permalink":"/lifestyle/veganism/animal-agriculture-as-an-atrocity/","created":"2026-05-18T11:36:22.916-04:00","updated":"2026-05-20T00:00:38.260-04:00"}
 ---
 
 #veganism 
@@ -19,7 +19,7 @@ Do I wish more people could open their eyes to AAAAA before it is (presuming my 
 
 Must I spell out the atrocity?
 
-Various sources will show that globally, we kill 50-80 billion land animals every year. Each of these animals had an experience of life. They likely were extremely uncomfortable (and likely were brutalized) during their life and were likely killed much, much earlier than what their natural lifespan would be.^[Most of these animals probably wouldn't come into existence if we stopped breeding animals for food. We don't need to bring them into existence just for them to live terrible lives and die young.]
+Various sources will show that globally, we kill 50-80 billion land animals every year for food. Each of these animals had an experience of life. They likely were extremely uncomfortable (and likely were brutalized) during their life and were likely killed much, much earlier than what their natural lifespan would be.^[Most of these animals probably wouldn't come into existence if we stopped breeding animals for food. We don't need to bring them into existence just for them to live terrible lives and die young.]
 
 Am I equating animal suffering/death to human suffering/death? No, I am not equating them. I would prevent a human genocide rather than preventing the operation of an animal factory farm. But I would prefer to prevent both.
 
