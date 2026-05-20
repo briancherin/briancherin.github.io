@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/creative/music/songwriting/","created":"2026-03-18T18:49:50.667-04:00","updated":"2026-03-18T19:11:59.472-04:00"}
+{"dg-publish":true,"permalink":"/interests/creative/music/songwriting/","created":"2026-03-18T18:49:50.667-04:00","updated":"2026-05-19T23:35:50.955-04:00"}
 ---
 
 ### The road to songwriting
@@ -8,3 +8,11 @@ It started with poetry: [[Interests/Creative/Writing/Poetry#The road to poetry\|
 
 And then....
 
+(Likely will expand on this):
+- I was like, poetry + music = song? 
+- No, not really, need structure
+- Was walking in the park and thought of a song idea and came up with lyrics
+- Found chords for the lyrics
+- Recorded song
+- Repeated for a bunch more songs, slowly getting better
+- Started with just recording voice (phone mic) with my piano keyboard, then got a slightly nicer microphone, and also started using [[Interests/Creative/Music/Reaper DAW\|Reaper]] for production.
