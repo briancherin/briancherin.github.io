@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/","created":"2026-05-07T23:28:52.602-04:00","updated":"2026-05-20T21:29:06.631-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/","created":"2026-05-07T23:28:52.602-04:00","updated":"2026-05-20T21:40:29.231-04:00"}
 ---
 
 Taking notes during my re-read for book club in May 2026. Currently mostly listening to the audiobook version (my original read was ebook in 2020) but also may switch between ebook as well.
@@ -43,3 +43,4 @@ Taking notes during my re-read for book club in May 2026. Currently mostly liste
 
 
 - Ekumen. In both my first and second read/listen, I am very drawn to the idea of the Ekumen, the union of many worlds. Still makes me want to read more of Le Guin's take on it. I recall after reading it the first time, I was disappointed that it didn't seem there was more of a direct take on the Ekumen. But I still haven't read all her books, so how can I be sure. I definitely want to read more. At the top of my list to get to are *The Dispossessed* and *The Lathe of Heaven* (and especially this one since it relates to [[Interests/Dreams/Dreams\|dreams]]). I'm guessing that *Rocannon's World* would probably fulfil my craving the most - synopsis sounds similar to LHOD, about ethnologist visiting a planet. 
+- I haven't watched much of Doctor Who except for a couple episodes, but it also makes me feel like I should watch more Doctor Who. Might not be super related though. But I think there's something there. Obviously it's space travel scifi. But calling out more is the idea of visiting new strange places and understanding the people there.
