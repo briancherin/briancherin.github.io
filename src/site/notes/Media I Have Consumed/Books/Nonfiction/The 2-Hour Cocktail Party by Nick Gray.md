@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/","created":"2026-02-11T23:32:43.471-05:00","updated":"2026-05-21T12:36:20.803-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/","created":"2026-02-11T23:32:43.471-05:00","updated":"2026-05-21T12:51:17.087-04:00"}
 ---
 
 Poses hosting cocktail parties (or similar) as an approach for strengthening existing connections AND forming new relationships.
@@ -51,7 +51,9 @@ Random quotes
 
 Makes an argument for enforcing 100% of guests wear nametags. It can reduce cliquiness and promote an environment of new connections.
 
-Suggests a party harmonica... I am less convinced. Though, piano could serve similar purpose (attracting attention to start icebreakers.) 
+Suggests a party harmonica... I am less convinced. Though, piano could serve similar purpose (attracting attention to start icebreakers.)
+
+Encourages doing three rounds of icebreakers, spaced about every 30 minutes apart. First round after 4-5 guests are there, second round after all the attendees are there, and third round with a more advanced question (first two icebreakers should be simply, easy, but third can be a bit deeper). Notes that doing icebreakers is a good way to break up conversations (e.g. if someone feels stuck in one) / encourage new conversations, shuffle connections (have more guests meet each other), and obviously give conversation starters. 
 
 #### Random thoughts
 - Saw this in my Google Keep I saved in March 2023 - a good reason to host parties: 
