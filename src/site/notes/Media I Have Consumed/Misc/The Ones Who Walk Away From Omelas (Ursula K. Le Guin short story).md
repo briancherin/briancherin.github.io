@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/misc/the-ones-who-walk-away-from-omelas-ursula-k-le-guin-short-story/","created":"2026-05-11T19:39:10.500-04:00","updated":"2026-05-11T20:40:10.645-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/misc/the-ones-who-walk-away-from-omelas-ursula-k-le-guin-short-story/","created":"2026-05-11T19:39:10.500-04:00","updated":"2026-05-20T21:34:06.549-04:00"}
 ---
 
 https://shsdavisapes.pbworks.com/f/Omelas.pdf
 
-Someone I met at a party recommended this to me after I mentioned I liked Ursula K. Le Guin). It's 5 pages long.
+Someone I met at a party recommended this to me after I mentioned I liked [[Media I Have Consumed/Books/Authors/Ursula K. Le Guin\|Ursula K. Le Guin]]). It's 5 pages long.
 
 It's quite a trip. 
 
