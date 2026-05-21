@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/","created":"2026-05-07T23:28:52.602-04:00","updated":"2026-05-20T22:26:49.809-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/","created":"2026-05-07T23:28:52.602-04:00","updated":"2026-05-20T22:37:40.892-04:00"}
 ---
 
-Taking notes during my re-read for book club in May 2026. Currently mostly listening to the audiobook version (my original read was ebook in 2020) but also may switch between ebook as well.
-
+Taking notes during my re-read^[I stubbornly do not mark this audiobook re-read on Goodreads as a book read. I just don't track audiobooks for Goodreads. Mainly for the purpose of the yearly Reading Challenge. It doesn't "count" to me. I acknowledge there is inherent and equal value in the audiobook. But I more value the more conscious effort of direct reading, in the context of the reading challenge.] for book club in May 2026. Currently mostly listening to the audiobook version (my original read was ebook in 2020) but also may switch between ebook as well.
+### Notes taken during audiobook re-read
 
 >[!DANGER] Spoilers ahead.
 >>[!DANGER] Spoilers ahead.
@@ -11,8 +11,6 @@ Taking notes during my re-read for book club in May 2026. Currently mostly liste
 >>>>[!DANGER] Spoilers ahead.
 >>>>>[!DANGER] Spoilers ahead.
 
-
-### Notes
 
 - I'm remembering why I liked this. It's kind of like a case study of anthropology. Person comes to learn about a culture. But also part less like anthropology: also aiming to establish relations/allyship and trade and make them a part of a larger entity/system. 
 - The cultural mythology (stories) interspersed so far reminds me of what Le Guin kind of was teaching with [[Media I Have Consumed/Books/Mini Book Reviews#Always Coming Home* by Ursula K. Leguin (Finished January 8, 2025)\|Always Coming Home]] -- you learn a lot about a culture from their stories and mythos.
@@ -65,3 +63,5 @@ Taking notes during my re-read for book club in May 2026. Currently mostly liste
 		- She talks about her shift of viewing he/him/his as the default generic pronoun in English; towards being accepting (and preferring over default he/him) of they/them/their. "for until the sixteenth century the English generic singular pronoun was they/them/their, as it still is in English and American colloquial speech." --> I didn't know this. I grew up with English classes telling me never to use they/them as a singular. This stuck with me and I have been having to unlearn it. Reading Le Guin's perspective helps.
 		- "But this is admitted directly only in the chapter “The Question of Sex,” the only voice of a woman in the book." -> oh, is that chapter meant to be le guin's voice directly (i mean, i know not directly, but channeling more directly from her to some other in-world observer)?
 		- "The most it says is, I think, something like this: If we were socially ambisexual, if men and women were completely and genuinely equal in their social roles, equal legally and economically, equal in freedom, in responsibility, and in self-esteem, then society would be a very different thing. What our problems might be, God knows; I only know we would have them. But it seems likely that our central problem would not be the one it is now: the problem of exploitation—exploitation of the woman, of the weak, of the earth. Our curse is alienation, the separation of yang from yin [and the moralization of yang as good, of yin as bad]. Instead of a search for balance and integration, there is a struggle for dominance. Divisions are insisted upon, interdependence is denied. The dualism of value that destroys us, the dualism of superior/inferior, ruler/ruled, owner/owned, user/used, might give way to what seems to me, from here, a much healthier, sounder, more promising modality of integration and integrity."
+
+

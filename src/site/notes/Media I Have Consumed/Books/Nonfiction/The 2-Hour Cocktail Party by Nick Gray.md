@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/","created":"2026-02-11T23:32:43.471-05:00","updated":"2026-05-19T10:32:24.142-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/","created":"2026-02-11T23:32:43.471-05:00","updated":"2026-05-21T12:07:46.606-04:00"}
 ---
 
 Poses hosting cocktail parties (or similar) as an approach for strengthening existing connections AND forming new relationships.
@@ -48,6 +48,9 @@ Random quotes
 - “When I meet someone new, I ask myself: do I want to continue the conversation or see them again? If the answer is yes, then they would make a great guest for one of my parties.”
 - "Be mindful of keeping a genuine interest in your guest list. You’re not trying to use and abuse your old and new friends in a self-serving manner. This is what gives networking a bad name."
 - "“There’s a serendipity to these parties,” Tyler told me. “I like seeing others make connections more than myself.”"
+
+Makes an argument for enforcing 100% of guests wear nametags. It can reduce cliquiness and promote an environment of new connections.
+
 
 #### Random thoughts
 - Saw this in my Google Keep I saved in March 2023 - a good reason to host parties: 
