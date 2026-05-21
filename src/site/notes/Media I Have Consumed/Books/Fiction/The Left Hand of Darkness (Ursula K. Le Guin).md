@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/","created":"2026-05-07T23:28:52.602-04:00","updated":"2026-05-20T17:24:13.992-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/","created":"2026-05-07T23:28:52.602-04:00","updated":"2026-05-20T20:05:07.862-04:00"}
 ---
 
 Taking notes during my re-read for book club in May 2026. Currently mostly listening to the audiobook version (my original read was ebook in 2020) but also may switch between ebook as well.
@@ -28,3 +28,4 @@ Taking notes during my re-read for book club in May 2026. Currently mostly liste
 	- The themes on gender also are reminding me of the gender discussions in [[Media I Have Consumed/Books/Fiction/Terra Ignotta\|Terra Ignotta]] - in that universe, people dressed so as to not reveal what gender they are (so it's different from TLHOD in that they do have different genders of course). The reasoning was I think to remove the negative aspects of gender differentiation - this played a role in the Terra Ignotta plot and politics (won't spoil anything here). It's a strong parallel because it feels like TLHOD is also making a point about what lack of gender does to social/political life (obviously).
 - Shifgrethor concept is reminding me of [[Media I Have Consumed/Books/Fiction/The Wheel of Time (series)\|The Wheel of Time]]'s concept of ji'e'toh^[had to look up spelling since I've only heard WoT as audiobook.], though not exactly the same.
 - Estraven's journal snippets is slightly making me want to do my own (private) journaling more often.
+- Got chills when Ai said that Estraven's actions were not for the sake of any one nation but for all of mankind. I feel like this is a thing in scifi that commonly excites me. To act in advancement of *humanity*. Similar feelings to Foundation (Asimov), and Terra Ignotta, and [[Media I Have Consumed/Books/Fiction/Book of the New Sun\|Book of the New Sun]].
