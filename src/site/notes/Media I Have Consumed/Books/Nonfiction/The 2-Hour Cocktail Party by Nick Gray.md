@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/","created":"2026-02-11T23:32:43.471-05:00","updated":"2026-05-21T12:07:46.606-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/","created":"2026-02-11T23:32:43.471-05:00","updated":"2026-05-21T12:36:20.803-04:00"}
 ---
 
 Poses hosting cocktail parties (or similar) as an approach for strengthening existing connections AND forming new relationships.
@@ -51,6 +51,7 @@ Random quotes
 
 Makes an argument for enforcing 100% of guests wear nametags. It can reduce cliquiness and promote an environment of new connections.
 
+Suggests a party harmonica... I am less convinced. Though, piano could serve similar purpose (attracting attention to start icebreakers.) 
 
 #### Random thoughts
 - Saw this in my Google Keep I saved in March 2023 - a good reason to host parties: 
