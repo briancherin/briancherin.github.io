@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/","created":"2026-02-11T23:32:43.471-05:00","updated":"2026-05-21T12:51:17.087-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/","created":"2026-02-11T23:32:43.471-05:00","updated":"2026-05-21T12:57:31.053-04:00"}
 ---
 
 Poses hosting cocktail parties (or similar) as an approach for strengthening existing connections AND forming new relationships.
@@ -51,9 +51,23 @@ Random quotes
 
 Makes an argument for enforcing 100% of guests wear nametags. It can reduce cliquiness and promote an environment of new connections.
 
+##### Icebreakers
 Suggests a party harmonica... I am less convinced. Though, piano could serve similar purpose (attracting attention to start icebreakers.)
 
 Encourages doing three rounds of icebreakers, spaced about every 30 minutes apart. First round after 4-5 guests are there, second round after all the attendees are there, and third round with a more advanced question (first two icebreakers should be simply, easy, but third can be a bit deeper). Notes that doing icebreakers is a good way to break up conversations (e.g. if someone feels stuck in one) / encourage new conversations, shuffle connections (have more guests meet each other), and obviously give conversation starters. 
+
+
+Suggests giving a five minute warning for the advanced ice breaker question. Announce the question and that you'll go around in five minutes, then wait five minutes, repeat the question, and everyone answers.
+
+Guests repeat name and occupation/passion again for each icebreaker, to remind everyone and to inform late arrivals.
+
+Suggests having everyone standing up for icebreakers.
+
+Suggestions for advanced icebreakers:
+- "What’s a great piece of media that you’ve consumed recently, and what did you like about it?". "Answers could include a movie, book, magazine article, Netflix show, YouTube video, TED Talk, or podcast" ---> This obviously strikes me as a great question, given my "Media I Have Consumed" directory on this site.
+- "What’s one of your favorite secret spots or life hacks for this city?"
+
+
 
 #### Random thoughts
 - Saw this in my Google Keep I saved in March 2023 - a good reason to host parties: 

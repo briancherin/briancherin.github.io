@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/misc/whats-up/","title":"What's Up","created":"2026-04-09T19:59:21.983-04:00","updated":"2026-05-13T15:42:36.822-04:00"}
+{"dg-publish":true,"permalink":"/misc/whats-up/","title":"What's Up","created":"2026-04-09T19:59:21.983-04:00","updated":"2026-05-23T11:46:46.542-04:00"}
 ---
 
 What's up. What's going on. What am I doing, reading, interesting stuff to share that I don't feel like making a separate page for. Kind of a duplicate of [[Misc/Random Snippets\|Random Snippets]], not sure which will prevail. Also I don't expect myself to keep this super regularly updated or at all comprehensive of my activity - but it's a place to put stuff that I find noteworthy.
@@ -10,6 +10,7 @@ What's up. What's going on. What am I doing, reading, interesting stuff to share
 - Also semi re-reading *Beyond Beliefs* by Melanie Joy - it's basically about how to help make personal relationships work between vegans and non-vegans, though it also just has some great relationship advice in general (and I feel the advice on relationships and vegan/non-vegan relationships applies to friends and family too, though perhaps the most important one would be the romantic relationship / life partner).
 - **I really want to read this article** but haven't gotten around to it yet. I'm kind of scared (in a nervous-good way), it poses itself as being mind-changing.  https://letters.thedankoe.com/p/why-your-life-feels-fake-an-antidote (also found from Makoism)
 - Saw an off-off-Broadway show. Notes: [[Media I Have Consumed/Theater/Specimen (2026)\|Specimen (2026)]]
+- Blog post: ["NES, SNES, Genesis, VirtualBoy, and PSX | A journey with AI and Recompilation"](https://1379.tech/nes-snes-genesis-virtualboy-and-psx-a-journey-with-ai-and-recompilation/) - interesting quick read about someone's project of creating recompilations of some retro consoles. Interesting to see LLMs (Claude cli specifically) with a project like this.
 
 
 ### April 2026
