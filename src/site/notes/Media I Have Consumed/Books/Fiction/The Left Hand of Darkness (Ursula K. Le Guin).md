@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/","created":"2026-05-07T23:28:52.602-04:00","updated":"2026-05-20T22:37:40.892-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/","created":"2026-05-07T23:28:52.602-04:00","updated":"2026-05-23T11:55:11.369-04:00"}
 ---
 
 Taking notes during my re-read^[I stubbornly do not mark this audiobook re-read on Goodreads as a book read. I just don't track audiobooks for Goodreads. Mainly for the purpose of the yearly Reading Challenge. It doesn't "count" to me. I acknowledge there is inherent and equal value in the audiobook. But I more value the more conscious effort of direct reading, in the context of the reading challenge.] for book club in May 2026. Currently mostly listening to the audiobook version (my original read was ebook in 2020) but also may switch between ebook as well.
@@ -64,4 +64,9 @@ Taking notes during my re-read^[I stubbornly do not mark this audiobook re-read 
 		- "But this is admitted directly only in the chapter “The Question of Sex,” the only voice of a woman in the book." -> oh, is that chapter meant to be le guin's voice directly (i mean, i know not directly, but channeling more directly from her to some other in-world observer)?
 		- "The most it says is, I think, something like this: If we were socially ambisexual, if men and women were completely and genuinely equal in their social roles, equal legally and economically, equal in freedom, in responsibility, and in self-esteem, then society would be a very different thing. What our problems might be, God knows; I only know we would have them. But it seems likely that our central problem would not be the one it is now: the problem of exploitation—exploitation of the woman, of the weak, of the earth. Our curse is alienation, the separation of yang from yin [and the moralization of yang as good, of yin as bad]. Instead of a search for balance and integration, there is a struggle for dominance. Divisions are insisted upon, interdependence is denied. The dualism of value that destroys us, the dualism of superior/inferior, ruler/ruled, owner/owned, user/used, might give way to what seems to me, from here, a much healthier, sounder, more promising modality of integration and integrity."
 
+>[!success] End of spoilers
 
+#### Ansible drawing
+This is the really the wrong note for this, since I made this drawing in 2017 and didn't read LHOD in 2020. So this drawing is actually my mind's representation of an ansible from the Ender's Game series, not LHOD. But this drawing was inspired by an ansible (or what my mind thought it would look like) I saw in a [[Interests/Dreams/Dreams\|dream]] (7/24/2017).
+
+![Pasted image 20260523115142.png](/img/user/Media%20I%20Have%20Consumed/Books/Fiction/Assets/Pasted%20image%2020260523115142.png)
