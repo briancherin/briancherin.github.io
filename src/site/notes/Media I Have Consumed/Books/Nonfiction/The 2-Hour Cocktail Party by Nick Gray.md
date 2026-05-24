@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/","created":"2026-02-11T23:32:43.471-05:00","updated":"2026-05-21T12:57:31.053-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/","created":"2026-02-11T23:32:43.471-05:00","updated":"2026-05-24T11:12:07.641-04:00"}
 ---
 
 Poses hosting cocktail parties (or similar) as an approach for strengthening existing connections AND forming new relationships.
@@ -72,3 +72,8 @@ Suggestions for advanced icebreakers:
 #### Random thoughts
 - Saw this in my Google Keep I saved in March 2023 - a good reason to host parties: 
 	> "*you can turn those friends into a group of friends! Invite them all over at once for a party or group activity. Introduce them to each other. Watch who gets along reasonably well, and then repeat this every week/month/whatever. You’ll have a friend group in no time*." (source: [reddit](https://www.reddit.com/r/socialskills/comments/yctzjr/comment/itomqzx/?utm_source=share&utm_medium=web2x&context=3))
+	
+
+
+#### Real life application/learnings
+- I had a gathering right after reading/skimming a bunch of the book (mostly the day-of event chapters) and applied several things and had success. I enforced nametag wearing, which was embraced by all guests and, at the very least, no one complained. I also did an icebreaker (yes, one, even though the book says to do three) an hour into the event, when most of the 13-ish people had arrived. I did not force everyone to stand, as the book suggests, mostly because it would have been more cramped given the size of the room. The book's icebreaker suggestions were pretty instrumental - it helped me to not be afraid to interrupt people's conversations to start the ice breaker; and to my pleasure, it also helped to shuffle conversations and start new connections (and giving new topics to talk about), as the book said it would. The book makes a weird emphasis on getting people to leave at exactly the 2 hour mark, and I do think that setting a specific time range is helpful for getting guests to show up on time and to not feel bad about leaving, but I was fine with letting some people linger if they wanted to, which resulted in some interesting conversations.
