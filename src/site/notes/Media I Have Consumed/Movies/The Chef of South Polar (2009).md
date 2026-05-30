@@ -10,7 +10,7 @@ IMDB: https://www.imdb.com/title/tt1345728/
 
 (Warning: Not much spoilers here I think but I don't guarantee that there are no spoilers.)
 
-If I'm being facetious, I'd say that after my thoughts about the movie Chef (with Jon Favreau) that I mentioned in [[Media I Have Consumed/Podcasts/1 Second Everyday - Indie Hackers Podcast\|1 Second Everyday - Indie Hackers Podcast]], which I mentioned inspired me to want to watch Chef again, I accidentally watched this movie instead. Well, that's basically what happened, but it wasn't accidental. 
+If I'm being facetious, I'd say that after my thoughts about the movie Chef (with Jon Favreau) that I mentioned in [[Media I Have Consumed/Podcasts/Indie Hackers Podcast/1 Second Everyday - Indie Hackers Podcast\|1 Second Everyday - Indie Hackers Podcast]], which I mentioned inspired me to want to watch Chef again, I accidentally watched this movie instead. Well, that's basically what happened, but it wasn't accidental. 
 
 I was searching up Chef and took a glance a bit too far down the line, and saw Chef of South Polar with its 7/10 IMDB rating, which maybe doesn't sound like so notably high of a rating, but given that I stumbled upon it in happenstance and mingling with other incredibly random movies that had the word "Chef" in them, it impressed me enough to at least give the synopsis a read. My attention was snared. A movie about researchers in Antarctica with a focus on the chef that is with them. All this to say, I watched about 30 seconds of Jon Favreau's Chef, decided I didn't need to watch it again, watched just the ["1 Second Everyday" clip](https://www.youtube.com/watch?v=rkpwfnApDCo) on YouTube, and then settled in for The Chef of South Polar.
 

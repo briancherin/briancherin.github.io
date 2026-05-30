@@ -75,7 +75,7 @@ Likely because on October 21, 2025, I wrote this in OneNote^[ (with an associate
 >Could see myself having a public blog in the future -- this notebook is an experiment, space to see what posts might look like.
 
 
-And finally, on December 6, 2025, the day before I started this Digital Garden and wrote [[Media I Have Consumed/Podcasts/1 Second Everyday - Indie Hackers Podcast\|my first post]].
+And finally, on December 6, 2025, the day before I started this Digital Garden and wrote [[Media I Have Consumed/Podcasts/Indie Hackers Podcast/1 Second Everyday - Indie Hackers Podcast\|my first post]].
 
 >[!NOTE]
 >Digital Garden -- related to my ideas for blog / personal website / answer to my wondering about use of social media to share projects and interests and [engage?] and such

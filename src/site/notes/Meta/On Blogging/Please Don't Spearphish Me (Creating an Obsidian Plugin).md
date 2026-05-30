@@ -14,7 +14,7 @@ Is this a perfect solution? No.
 
 Am I overthinking this? Maybe.
 
-But just like my footnote in my [[Media I Have Consumed/Podcasts/1 Second Everyday - Indie Hackers Podcast\|1 Second Everyday - Indie Hackers Podcast]] post ("It's scary sometimes how easy it might be to ruin your own life"), I feel that exposing some little piece of information about yourself in public could cause some mess for you. At best? Someone being creepy and sending you weird messages. At worst? Someone identifying a routine that you have and stalking you in real life. Or just hacking you via a spearphishing email that contains a link or download you mindlessly click.
+But just like my footnote in my [[Media I Have Consumed/Podcasts/Indie Hackers Podcast/1 Second Everyday - Indie Hackers Podcast\|1 Second Everyday - Indie Hackers Podcast]] post ("It's scary sometimes how easy it might be to ruin your own life"), I feel that exposing some little piece of information about yourself in public could cause some mess for you. At best? Someone being creepy and sending you weird messages. At worst? Someone identifying a routine that you have and stalking you in real life. Or just hacking you via a spearphishing email that contains a link or download you mindlessly click.
 
 So what's my little solution for this? An Obsidian plugin that will audit the current note I've written and tell me if I'm revealing too much information in the post. (Obsidian is the text editor I use to write these blog posts, and I use the [Obsidian Digital Garden plugin](https://github.com/oleeskild/Obsidian-Digital-Garden) for help building+publishing to this site.)
 
