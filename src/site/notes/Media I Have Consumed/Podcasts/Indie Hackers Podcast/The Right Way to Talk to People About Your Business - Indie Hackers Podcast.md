@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/podcasts/indie-hackers-podcast/the-right-way-to-talk-to-people-about-your-business-indie-hackers-podcast/","created":"2026-05-30T15:00:56.409-04:00","updated":"2026-05-30T15:45:19.653-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/podcasts/indie-hackers-podcast/the-right-way-to-talk-to-people-about-your-business-indie-hackers-podcast/","created":"2026-05-30T18:35:15.351-04:00","updated":"2026-05-30T18:36:26.532-04:00"}
 ---
 
 Indie Hackers Podcast episode \#154: "The Right Way to Talk to People About Your Business with Rob Fitzpatrick, Author of The Mom Test"
@@ -84,6 +84,7 @@ The top result it picked was this episode - #154. It said "Best fit for your big
 
 - **If it feels hard to do something and it's making you miserable, find a way to do it that's easier / feels better**. 
 	- again, advice that can apply to many areas of life.
+	- Echos the advice in [[Media I Have Consumed/Misc/Hank Green Tells Me To Fall Downhill\|Hank Green Tells Me To Fall Downhill]]
 
 - Venture/investors approach - could spend 4 yrs working on something without reward and then it fails. With indie hacking, you get to choose what your days are like, who you spend time with. 
 
