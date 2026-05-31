@@ -1,5 +1,6 @@
 require("dotenv").config();
 const settings = require("../../helpers/constants");
+const { getGitNoteDates } = require("../../helpers/gitNoteDates");
 
 const allSettings = settings.ALL_NOTE_SETTINGS;
 
@@ -16,6 +17,14 @@ module.exports = {
         return "/";
       }
       return data.permalink || undefined;
+    },
+    created: (data) => {
+      const gitDates = getGitNoteDates(data?.page?.inputPath);
+      return gitDates?.created || data.created;
+    },
+    updated: (data) => {
+      const gitDates = getGitNoteDates(data?.page?.inputPath);
+      return gitDates?.updated || data.updated;
     },
     settings: (data) => {
       const noteSettings = {};
