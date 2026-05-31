@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/audiobooks/","created":"2026-01-25T15:00:37.431-05:00","updated":"2026-03-17T18:44:04.405-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/audiobooks/"}
 ---
 
 These are the book series I have consumed in audiobook form:

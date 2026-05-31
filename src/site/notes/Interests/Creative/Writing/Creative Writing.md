@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/creative/writing/creative-writing/","created":"2025-12-14T23:02:33.570-05:00","updated":"2026-05-20T00:00:21.170-04:00"}
+{"dg-publish":true,"permalink":"/interests/creative/writing/creative-writing/"}
 ---
 
 

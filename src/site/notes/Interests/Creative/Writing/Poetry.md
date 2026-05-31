@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/creative/writing/poetry/","created":"2026-03-18T19:06:47.200-04:00","updated":"2026-03-18T19:10:32.101-04:00"}
+{"dg-publish":true,"permalink":"/interests/creative/writing/poetry/"}
 ---
 
 #### The road to poetry

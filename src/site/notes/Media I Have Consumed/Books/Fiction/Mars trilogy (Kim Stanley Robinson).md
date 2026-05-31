@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/mars-trilogy-kim-stanley-robinson/","created":"2026-05-05T23:40:34.188-04:00","updated":"2026-05-07T23:45:24.209-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/mars-trilogy-kim-stanley-robinson/"}
 ---
 
 ### Overview

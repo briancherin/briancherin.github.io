@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/misc/random-snippets/","created":"2025-12-16T11:21:59.955-05:00","updated":"2026-03-01T22:50:55.196-05:00"}
+{"dg-publish":true,"permalink":"/misc/random-snippets/"}
 ---
 
 ##### 6

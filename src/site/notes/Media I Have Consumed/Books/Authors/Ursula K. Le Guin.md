@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/authors/ursula-k-le-guin/","created":"2026-05-20T21:28:16.971-04:00","updated":"2026-05-20T21:33:26.818-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/authors/ursula-k-le-guin/"}
 ---
 
 One of my favorite authors.

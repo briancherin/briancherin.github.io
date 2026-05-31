@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/rss-feed/","created":"2026-02-08T12:35:31.367-05:00","updated":"2026-05-13T11:36:52.153-04:00"}
+{"dg-publish":true,"permalink":"/meta/rss-feed/"}
 ---
 
 Link to RSS Feed: https://garden.briancher.in/feed.xml

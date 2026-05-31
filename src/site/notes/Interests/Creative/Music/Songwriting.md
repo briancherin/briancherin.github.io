@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/creative/music/songwriting/","created":"2026-03-18T18:49:50.667-04:00","updated":"2026-05-19T23:35:50.955-04:00"}
+{"dg-publish":true,"permalink":"/interests/creative/music/songwriting/"}
 ---
 
 ### The road to songwriting

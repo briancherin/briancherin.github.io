@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/dreams/dreams/","created":"2026-01-09T17:10:44.428-05:00","updated":"2026-05-23T11:53:53.830-04:00"}
+{"dg-publish":true,"permalink":"/interests/dreams/dreams/"}
 ---
 
 Yes, this is a major interest.

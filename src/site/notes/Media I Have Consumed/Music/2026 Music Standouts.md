@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/music/2026-music-standouts/","created":"2026-04-28T17:39:21.332-04:00","updated":"2026-05-11T18:52:50.113-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/music/2026-music-standouts/"}
 ---
 
 This should be like [[Interests/Music/2025 Music Retrospective\|2025 Music Retrospective]] but more as the year goes on rather than one burst at the end (though I may reflect at the end).

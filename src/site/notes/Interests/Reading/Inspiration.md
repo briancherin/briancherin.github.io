@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/reading/inspiration/","created":"2026-02-07T20:52:40.605-05:00","updated":"2026-03-18T22:09:32.812-04:00"}
+{"dg-publish":true,"permalink":"/interests/reading/inspiration/"}
 ---
 
 

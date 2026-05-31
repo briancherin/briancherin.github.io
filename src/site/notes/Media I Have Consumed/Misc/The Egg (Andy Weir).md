@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/misc/the-egg-andy-weir/","created":"2026-04-16T09:03:37.816-04:00","updated":"2026-04-16T09:24:01.372-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/misc/the-egg-andy-weir/"}
 ---
 
 Short story / concept.

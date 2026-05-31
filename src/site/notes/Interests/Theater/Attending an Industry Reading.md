@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/theater/attending-an-industry-reading/","created":"2025-12-19T15:59:59.796-05:00","updated":"2025-12-22T23:46:01.204-05:00"}
+{"dg-publish":true,"permalink":"/interests/theater/attending-an-industry-reading/"}
 ---
 
 I found myself at a stage reading for a musical called "Glory Ride". It was called an "industry reading" (though I am not "Industry"). This was my first time attending a reading.

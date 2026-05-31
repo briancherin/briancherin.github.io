@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/mini-theater-reviews/","created":"2026-04-11T19:03:56.896-04:00","updated":"2026-04-11T19:05:16.199-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/mini-theater-reviews/"}
 ---
 
 ### Black Swan (2026)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/pools-2025/","created":"2026-01-01T19:08:10.315-05:00","updated":"2026-01-02T20:00:02.984-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/pools-2025/"}
 ---
 
 ![pools poster.png](/img/user/Media%20I%20Have%20Consumed/Movies/Assets/pools%20poster.png)

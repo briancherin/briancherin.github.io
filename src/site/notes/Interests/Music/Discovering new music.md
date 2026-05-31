@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/music/discovering-new-music/","created":"2026-04-05T22:14:38.606-04:00","updated":"2026-04-06T09:27:08.541-04:00"}
+{"dg-publish":true,"permalink":"/interests/music/discovering-new-music/"}
 ---
 
 Ways to discover new music

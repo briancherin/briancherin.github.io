@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/on-blogging/on-privacy/","created":"2026-02-08T11:51:14.377-05:00","updated":"2026-02-08T12:04:35.286-05:00"}
+{"dg-publish":true,"permalink":"/meta/on-blogging/on-privacy/"}
 ---
 
 As can be hinted in [[Meta/On Blogging/Please Don't Spearphish Me (Creating an Obsidian Plugin)\|Please Don't Spearphish Me]], I a conscientious of the dilemma of having a blog like this versus possible privacy and safety concerns. I have always been careful about what I post online, and suddenly I am encouraging myself to post more personal thoughts, opinions, and details -- obviously I'm avoiding posting information that would lead to someone being able to harm me, but it's scary to think about what could slip through which someone malicious could leverage. What's there to be scared of? Stalker, hacker, threats. I don't think anyone has a reason to target me in particular, but it's the Internet. You never know.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/poetry/all-nearness-pauses-while-a-star-can-grow-e-e-cummings/","created":"2025-12-15T22:57:35.951-05:00","updated":"2025-12-15T23:21:22.056-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/poetry/all-nearness-pauses-while-a-star-can-grow-e-e-cummings/"}
 ---
 
 ![all nearness pauses.png](/img/user/Media%20I%20Have%20Consumed/Poetry/Assets/all%20nearness%20pauses.png)

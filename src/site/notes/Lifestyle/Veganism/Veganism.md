@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/veganism/veganism/","created":"2026-05-20T20:11:52.052-04:00","updated":"2026-05-20T20:13:44.018-04:00"}
+{"dg-publish":true,"permalink":"/lifestyle/veganism/veganism/"}
 ---
 
 Notes about veganism:

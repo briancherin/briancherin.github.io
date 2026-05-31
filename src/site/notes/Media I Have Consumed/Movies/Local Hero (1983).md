@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/local-hero-1983/","created":"2026-03-29T21:55:26.194-04:00","updated":"2026-03-30T22:25:37.721-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/local-hero-1983/"}
 ---
 
 ![Pasted image 20260329215544.png|519](/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Pasted%20image%2020260329215544.png)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/eternity-2025/","created":"2025-12-25T21:48:01.173-05:00","updated":"2025-12-25T23:41:19.042-05:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/eternity-2025/"}
 ---
 
 ![Eternity poster.png](/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Eternity%20poster.png)

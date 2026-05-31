@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/the-devil-wears-prada-2006/","created":"2026-04-21T18:44:10.034-04:00","updated":"2026-05-08T13:29:27.612-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/the-devil-wears-prada-2006/"}
 ---
 
 Watched in preparation for seeing the sequel. (The choice of seeing the sequel not entirely being in my own hands.)

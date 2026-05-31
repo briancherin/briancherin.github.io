@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/ghost-quartet-dave-malloy-2014/","created":"2026-04-11T19:13:29.797-04:00","updated":"2026-05-11T20:10:40.668-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/ghost-quartet-dave-malloy-2014/"}
 ---
 
 One of my favorites! It's a great show. VERY nontraditional. An official recording is available for free on youtube, so it's pretty accessible for anyone to watch.

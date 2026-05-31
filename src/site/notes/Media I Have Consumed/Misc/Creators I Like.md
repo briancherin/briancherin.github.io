@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/misc/creators-i-like/","created":"2026-05-17T21:34:00.551-04:00","updated":"2026-05-17T22:22:59.367-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/misc/creators-i-like/"}
 ---
 
 ##### ReWild University

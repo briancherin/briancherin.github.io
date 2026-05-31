@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/foraging/","created":"2026-05-17T22:14:40.714-04:00","updated":"2026-05-17T23:15:29.752-04:00"}
+{"dg-publish":true,"permalink":"/lifestyle/foraging/"}
 ---
 
 Currently this is a passive interest that I have no acted on in any significant way.

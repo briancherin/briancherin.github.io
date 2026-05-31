@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/","title":"Company: A Musical Comedy - Sondheim 1970","created":"2025-12-25T15:31:25.511-05:00","updated":"2026-05-08T13:25:24.755-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/","title":"Company: A Musical Comedy - Sondheim 1970"}
 ---
 
 #theater

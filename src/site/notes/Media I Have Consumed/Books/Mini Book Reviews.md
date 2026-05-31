@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/mini-book-reviews/","created":"2026-01-09T16:32:52.469-05:00","updated":"2026-05-20T21:33:56.777-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/mini-book-reviews/"}
 ---
 
 Reactions to books I've read. This list does not necessarily represent every book I've read.

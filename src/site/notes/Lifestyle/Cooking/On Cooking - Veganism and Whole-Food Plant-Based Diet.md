@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/cooking/on-cooking-veganism-and-whole-food-plant-based-diet/","created":"2025-12-17T13:54:53.493-05:00","updated":"2026-04-27T23:05:02.968-04:00"}
+{"dg-publish":true,"permalink":"/lifestyle/cooking/on-cooking-veganism-and-whole-food-plant-based-diet/"}
 ---
 
 #veganism 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/obsidian-setup/","created":"2025-12-08T19:14:35.836-05:00","updated":"2026-04-27T17:07:51.559-04:00"}
+{"dg-publish":true,"permalink":"/meta/obsidian-setup/"}
 ---
 
 #obsidian 

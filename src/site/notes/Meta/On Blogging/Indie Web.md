@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/on-blogging/indie-web/","created":"2026-03-29T12:26:36.169-04:00","updated":"2026-03-29T13:10:03.043-04:00"}
+{"dg-publish":true,"permalink":"/meta/on-blogging/indie-web/"}
 ---
 
 #### Notes on "The Web Revival Breakdown"

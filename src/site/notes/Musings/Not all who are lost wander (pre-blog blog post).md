@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/musings/not-all-who-are-lost-wander-pre-blog-blog-post/","created":"2026-05-16T10:43:55.874-04:00","updated":"2026-05-16T17:41:32.330-04:00"}
+{"dg-publish":true,"permalink":"/musings/not-all-who-are-lost-wander-pre-blog-blog-post/"}
 ---
 
 

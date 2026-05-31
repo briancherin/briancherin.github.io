@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/tv/the-good-place/","created":"2026-03-03T21:00:35.658-05:00","updated":"2026-03-18T18:47:46.284-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/tv/the-good-place/"}
 ---
 
 Completed watching on March 3, 2026.

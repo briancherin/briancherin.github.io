@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/specimen-2026/","created":"2026-05-10T18:14:11.929-04:00","updated":"2026-05-10T18:34:34.530-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/specimen-2026/"}
 ---
 
 Writer/director: Randall Sharp

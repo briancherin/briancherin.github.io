@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/hosting-gatherings/","created":"2026-05-17T22:02:42.590-04:00","updated":"2026-05-17T22:09:29.205-04:00"}
+{"dg-publish":true,"permalink":"/lifestyle/hosting-gatherings/"}
 ---
 
 Hosting gatherings is a way to foster connections and cultivate community. This can apply to existing long-term friendships, and to more newly developing ones.

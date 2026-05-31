@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/on-blogging/reasons-to-write-here/","created":"2025-12-11T21:12:52.827-05:00","updated":"2026-05-06T23:16:52.286-04:00"}
+{"dg-publish":true,"permalink":"/meta/on-blogging/reasons-to-write-here/"}
 ---
 
 - Doing any writing makes me a better writer by developing the skill

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/creations/poetry/flicker/","created":"2026-03-18T18:53:03.073-04:00","updated":"2026-03-18T18:56:32.334-04:00"}
+{"dg-publish":true,"permalink":"/creations/poetry/flicker/"}
 ---
 
 Used to have night skies,

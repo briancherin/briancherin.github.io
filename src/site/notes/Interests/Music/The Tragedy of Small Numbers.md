@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/music/the-tragedy-of-small-numbers/","created":"2026-01-02T20:00:17.884-05:00","updated":"2026-05-14T09:20:12.265-04:00"}
+{"dg-publish":true,"permalink":"/interests/music/the-tragedy-of-small-numbers/"}
 ---
 
 Sometimes I chance upon music on Spotify that catches my attention. And I'll click into the artist's profile to see how many monthly listeners they have. If it's a big(?) number, I feel happy, and I feel like I've tapped into something special. If it's a small number (< 10,000), I feel a bit of a knockback. I start to question whether the content is really worth listening to or spending more time with. 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/garden-improvements/","created":"2025-12-07T17:13:34.190-05:00","updated":"2026-03-29T12:49:45.210-04:00"}
+{"dg-publish":true,"permalink":"/meta/garden-improvements/"}
 ---
 
 #digitalgarden 

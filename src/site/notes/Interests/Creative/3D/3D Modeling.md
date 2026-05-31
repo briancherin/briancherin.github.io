@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/creative/3-d/3-d-modeling/","created":"2026-05-14T09:53:10.191-04:00","updated":"2026-05-14T10:12:19.621-04:00"}
+{"dg-publish":true,"permalink":"/interests/creative/3-d/3-d-modeling/"}
 ---
 
 Creation: [[Creations/3D/Appa\|Appa]].

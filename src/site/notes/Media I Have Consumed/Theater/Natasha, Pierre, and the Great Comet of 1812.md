@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/natasha-pierre-and-the-great-comet-of-1812/","created":"2026-01-21T10:38:02.803-05:00","updated":"2026-03-17T18:46:34.665-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/natasha-pierre-and-the-great-comet-of-1812/"}
 ---
 
 This musical, created by Dave Malloy and put on in 2012, is based on a 70-page slice of Leo Tolstoy's novel [[Media I Have Consumed/Books/Fiction/War and Peace by Leo Tolstoy\|War and Peace]] I found out about this musical after seeing one of Dave Malloy's latest works (a musical called Octet) and then exploring what other things he had created.

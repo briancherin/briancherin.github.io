@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/the-drama-2026/","created":"2026-05-24T23:17:45.351-04:00","updated":"2026-05-25T00:13:08.790-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/the-drama-2026/"}
 ---
 
 Great movie. Asks some deep questions.

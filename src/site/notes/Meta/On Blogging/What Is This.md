@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/on-blogging/what-is-this/","title":"What is this?","created":"2025-12-15T17:52:15.535-05:00","updated":"2025-12-16T11:08:28.520-05:00"}
+{"dg-publish":true,"permalink":"/meta/on-blogging/what-is-this/","title":"What is this?"}
 ---
 
 #digitalgarden 

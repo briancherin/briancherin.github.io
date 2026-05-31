@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/veganism/asked-why-am-i-vegan/","title":"Asked: Why Am I Vegan","created":"2026-03-05T09:09:45.351-05:00","updated":"2026-05-18T12:03:58.357-04:00"}
+{"dg-publish":true,"permalink":"/lifestyle/veganism/asked-why-am-i-vegan/","title":"Asked: Why Am I Vegan"}
 ---
 
 #veganism

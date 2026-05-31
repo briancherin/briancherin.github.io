@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/good-luck-have-fun-don-t-die-2025/","created":"2026-05-17T20:32:57.579-04:00","updated":"2026-05-18T23:00:53.129-04:00"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/good-luck-have-fun-don-t-die-2025/"}
 ---
 
 ![Pasted image 20260518225420.png](/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Pasted%20image%2020260518225420.png)
