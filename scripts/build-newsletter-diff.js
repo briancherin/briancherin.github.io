@@ -608,6 +608,8 @@ function buildItemFromGit(range, file, mode, maxLines) {
   const newRawOriginal = runGitRaw(["show", `HEAD:${file}`], true);
   const oldRawOriginal = runGitRaw(["show", `${range.split("..")[0]}:${file}`], true);
   const sourcePatchOriginal = runGitRaw(["diff", "--unified=3", range, "--", file], true);
+  const oldParsed = matter(oldRawOriginal || "");
+  const newParsed = matter(newRawOriginal || "");
   const newSafe = stripAfterSpoilerTag(newRawOriginal);
   const oldSafe = stripAfterSpoilerTag(oldRawOriginal);
   const newRaw = newSafe.raw;
@@ -629,7 +631,8 @@ function buildItemFromGit(range, file, mode, maxLines) {
     diff.hunks === 0 &&
     diff.added === 0 &&
     diff.removed === 0 &&
-    !(spoilerOmitted && (rawDiff.hunks > 0 || rawDiff.added > 0 || rawDiff.removed > 0))
+    oldSafe.content === newSafe.content &&
+    !(spoilerOmitted && (oldParsed.content || "") !== (newParsed.content || ""))
   ) {
     return null;
   }
@@ -830,4 +833,3 @@ function main() {
 }
 
 main();
-
