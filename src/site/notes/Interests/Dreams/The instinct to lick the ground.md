@@ -15,3 +15,8 @@ The easiest way to engage the senses is probably by touch. I'm a touch-oriented 
 So, touch is easy, but for some reason, touch+taste is extra effective for me. Maybe it's because the texture of the ground against my tongue is usually odd. It creates a sort of jolt, bringing my awareness fully back into my body. It's really the texture that is more memorable and focus-inducing than the taste^[here's to hoping I'm not jinxing my mind into making some real unpleasant-tasting ground in the future].
 
 I sometimes like to think about the *unique sensations* that dream efforts have added to my experiences in life. Probably one on the list is this feeling of losing stability and then re-gaining it. Perhaps it feels similar to the real life experience of almost passing out but then coming back to being okay again. Sometimes it feels exactly like that, and sometimes not quite.
+
+
+___
+
+A note aside from the silliness of the (true) "instinct to lick the ground": I find it interesting that we are able to form habits in the dream world. I am my own proof, if you are willing to believe me (and if I am willing to believe myself). It's just like any other learned behavior. There is just a new variable introduced for the dream yogi: state = { REALITY | DREAM }.
