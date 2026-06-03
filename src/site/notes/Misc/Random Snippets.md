@@ -2,6 +2,15 @@
 {"dg-publish":true,"permalink":"/misc/random-snippets/"}
 ---
 
+#### 8
+https://experimentalliving.substack.com/p/life-lessons-from-a-pro-bowler
+- Encourages experimenting with everyday things in your life
+- Footnote 3 talks about a way to help falling asleep - it's essentially thinking of words that start with a selected letter and visualizing those objects interacting. Similarly, I often find that visualizing (usually imagining tasks to complete in [[Interests/Dreams/Dreams\|dreams]]) brings me closer to sleep. Something about letting your mind wander away from the physical sensations of your body/bed and towards the inners of your mind seems to help with drifting.
+- "Try new methods, no matter how ridiculous they might seem."
+- Makes me think of the thinking I've been doing recently related to sending broad invites to social hangouts (in terms of experimenting with new/different ways to do so) (see some discussion of this in [[Media I Have Consumed/Podcasts/Indie Hackers Podcast/The Right Way to Talk to People About Your Business - Indie Hackers Podcast\|The Right Way to Talk to People About Your Business - Indie Hackers Podcast]])
+- "Often, progress happens because a handful of people are willing to look ridiculous for awhile. "
+
+
 ##### 7
 [https://sive.rs/bfaq](https://sive.rs/bfaq) - Blogger who posts notes about books he reads. Linked article is about philosophy on publicizing the notes he takes on the books he read. Feels similar to the idea of a Digital Garden as a public place for your own notes which you take for yourself but you also want to share them with others in case they can get something out of them. He makes emphasis that the notes he posts aren't meant to be a replacement/summary of the book, but instead just his own notes about what stands out to him and things he wants to remember about them. I also do make a lot of highlights in e-books I've read, so I could see myself at some point going through those after I read a book and making more formal notes and publicizing them here, though I've never really done this yet (Except for my notes on [[Media I Have Consumed/Books/Nonfiction/The 2-Hour Cocktail Party by Nick Gray\|The 2-Hour Cocktail Party by Nick Gray]])
 
