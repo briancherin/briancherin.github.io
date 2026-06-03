@@ -5,6 +5,13 @@
 I've been reading some bunches of [Makoism](makoism.com) posts and I've been liking both 1) His periodic/weekly coffee posts with links to interesting articles, as well as 2) His own posts. The content has felt growth-oriented and honest about technology. I was starting to flood [[Misc/Whats Up\|Whats Up]] with his posts, so I'm branching out to a new note instead.
 
 ___
+
+#### From Makoism "About" page
+>To me, living a rich life of experiences and surrounding yourself with interesting people is what brings the diversity of thought into your life. Trying hard things (the things you thought were impossible) and going on fun, crazy adventures is all part of the journey.
+
+I like this.
+
+___
 #### personal board of directors
  [have a personal board of directors](https://makoism.com/a-personal-board-of-directors/). I like the idea of having a list of people in your mind who you turn to when facing important (or less important too) life decisions.
 

@@ -2,8 +2,18 @@
 {"dg-publish":true,"permalink":"/misc/random-snippets/"}
 ---
 
+#### 9
+https://www.scarletink.com/if-youre-never-wrong-at-work-youre-probably-not-leading/
+(from [[Media I Have Consumed/Misc/Makoism (blog) posts\|Makoism]] coffee post)
+- Title - "If you're never wrong at work, you're probably not leading"
+- importance of taking risks and trying things out that aren't obviously already needed/definite
+	- Surely this applies outside of career stuff as well (See snippet #8 below)
+- "a person who adds value is doing things that others would not do."
+- `One criterion I've used before to measure value is, "If you weren't there, would things have gone a drastically different way?"`
+
 #### 8
 https://experimentalliving.substack.com/p/life-lessons-from-a-pro-bowler
+(from [[Media I Have Consumed/Misc/Makoism (blog) posts\|Makoism]] coffee post)
 - Encourages experimenting with everyday things in your life
 - Footnote 3 talks about a way to help falling asleep - it's essentially thinking of words that start with a selected letter and visualizing those objects interacting. Similarly, I often find that visualizing (usually imagining tasks to complete in [[Interests/Dreams/Dreams\|dreams]]) brings me closer to sleep. Something about letting your mind wander away from the physical sensations of your body/bed and towards the inners of your mind seems to help with drifting.
 - "Try new methods, no matter how ridiculous they might seem."
