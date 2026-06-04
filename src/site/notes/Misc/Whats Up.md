@@ -4,6 +4,10 @@
 
 What's up. What's going on. What am I doing, reading, interesting stuff to share that I don't feel like making a separate page for. Kind of a duplicate of [[Misc/Random Snippets\|Random Snippets]], not sure which will prevail. Also I don't expect myself to keep this super regularly updated or at all comprehensive of my activity - but it's a place to put stuff that I find noteworthy.
 
+
+### June 2026
+- I sewed a button back onto my shorts. Huge news, I know. First time doing this. Needle and thread. Followed youtube vids. Haven't worn them yet but hopefully it's stable.
+
 ### May 2026
 - Articles:
 	- Article I found via [[Media I Have Consumed/Misc/Makoism (blog) posts\|Makoism]] (which seems to be my new favorite blog lately -- or at least I've really liked the links that he posts): [Why I'm Not Worried About Running Out of Work in the Age of AI](https://www.kellblog.com/why-im-not-worried-about-running-out-of-work-in-the-age-of-ai/)- Standout part to me: `You want to be driving the tools, not driven by them. Aggressively learn AI. Be the person who knows the most about solving problems using AI tools — integrating them, automating workflows. Not just generating content.` Maybe kind of obvious, but I feel it's good to highlight. More specific to the title of the article, it talks about how AI will make work happen faster (and unfortunately possibly make less workers necessary. though I feel this depends on the industry) but it doesn't mean there will be less work to do -- this aligns with my feeling of how AI is speeding up our work at least in my job.
