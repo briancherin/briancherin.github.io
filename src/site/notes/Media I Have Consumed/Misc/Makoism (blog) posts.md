@@ -9,7 +9,7 @@ ___
 #### From Makoism "About" page
 >To me, living a rich life of experiences and surrounding yourself with interesting people is what brings the diversity of thought into your life. Trying hard things (the things you thought were impossible) and going on fun, crazy adventures is all part of the journey.
 
-I like this.
+I like this. Resonates strongly.
 
 ___
 #### personal board of directors

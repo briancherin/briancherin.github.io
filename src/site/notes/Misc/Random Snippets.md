@@ -2,6 +2,23 @@
 {"dg-publish":true,"permalink":"/misc/random-snippets/"}
 ---
 
+#### 11
+ https://letters.thedankoe.com/p/why-your-life-feels-fake-an-antidote
+- "You wake up and rather than hiding from the day by pressing snooze, you can’t wait to get up."
+	- Unfortunately I definitely do not wake up excited for my day most of the time. There is usually a vague sense of not really wanting to start working for the day. There was one morning which was particularly memorable in that I woke up with a big smile on my face and I noted to myself in that moment that it doesn't happen that often: this was the day after I signed my lease on my new apartment (which I've been living in for almost a year now) after a frustrating apartment hunt.
+- 
+
+#### 10
+https://blog.avas.space/nemesis/
+(Avas Space is a blog I found via the Kagi Small Web RSS feed and I've been following new posts since then.)
+This is resonating with me: 
+- "search for someone equally passionate to help me grow and challenge me in some topics"
+- "My understanding of things is not getting pressure-tested, I want to need to research more and formulate arguments in conversation.
+
+I feel like for a lot of topics, I don't have much challenge or back-and-forth. Looking for that is part of why I started writing on this website - to increase the amount of stuff I put forth into the void, which can open the possibility for discussion of topics that are important to me. 
+
+I think what is really important is to regularly have chats with people who want to have intellectual discussions.
+
 #### 9
 https://www.scarletink.com/if-youre-never-wrong-at-work-youre-probably-not-leading/
 (from [[Media I Have Consumed/Misc/Makoism (blog) posts\|Makoism]] coffee post)
