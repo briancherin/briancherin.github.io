@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" //>
     <link href="https://briancherin.github.io" //>
-    <updated>2026-06-05T14:06:45Z</updated>
+    <updated>2026-06-06T00:04:34Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -683,7 +683,7 @@ With the snap of a finger:&lt;/p&gt;
                 Whats Up
                 
             </title>
-            <updated>2026-06-04T20:06:57.000Z</updated>
+            <updated>2026-06-06T00:04:05.000Z</updated>
             <id>https://briancherin.github.io/misc/whats-up/</id>
             <content type="html">
                 &lt;p&gt;What&#39;s up. What&#39;s going on. What am I doing, reading, interesting stuff to share that I don&#39;t feel like making a separate page for. Kind of a duplicate of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/misc/random-snippets/&quot;&gt;Random Snippets&lt;/a&gt;, not sure which will prevail. Also I don&#39;t expect myself to keep this super regularly updated or at all comprehensive of my activity - but it&#39;s a place to put stuff that I find noteworthy.&lt;/p&gt;
@@ -697,6 +697,11 @@ With the snap of a finger:&lt;/p&gt;
 &lt;li&gt;Videos
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=dT5IJExTUR4&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Hank Green - &amp;quot;What is &#39;Slop&#39; (and why it gives me hope)&amp;quot;&lt;/a&gt; - The &#39;hope&#39; part is that as low-effort AI generated content becomes easier to make and thus there is more of it (this is the &amp;quot;slop&amp;quot;), real human effort will become the more scarce thing and thus people will appreciate the value of human effort more.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Podcasts
+&lt;ul&gt;
+&lt;li&gt;Skeptics Guide to the Universe - episode &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#1087&quot;&gt;#1087&lt;/a&gt; -- interesting discussion about an evolutionary biologist who is convinced that LLMs (specifically Claude) have consciousness.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
