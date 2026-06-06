@@ -16,3 +16,4 @@ I'm intrigued by this guy. There's a lot to him and a lot of history.
 - His youtube channel is pretty interesting: https://www.youtube.com/@wildmanstevebrill. 
 	- So far I've watched his ice cream recipe (reminds me of justinthetrees as I discuss in [[Lifestyle/Foraging/Foraged Flavors\|Foraged Flavors]])
 	- He has a playlist called "The Inquiring Naturalist" which is apparently a cable TV show that he hosted in the 90s.
+- He seems to be an artist - he has illustrations in his books of plants. The introduction to his cookbook also mentions that he made sculptures of mushrooms.
