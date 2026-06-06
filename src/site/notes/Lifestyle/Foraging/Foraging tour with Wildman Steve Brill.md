@@ -29,93 +29,93 @@ Log of the plants we saw / talked about / tried:
 common plantain (medicinal for mosquito bites)
 
 lambs quarter - tastes like spinach, (tasted)
-![Assets/PXL_20260606_152744285.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_152744285.jpg)
+![PXL_20260606_152744285.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_152744285.jpg)
 
 Burdock root
-![Assets/PXL_20260606_153208620.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_153208620.jpg)
-![Assets/PXL_20260606_153410681.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_153410681.jpg)
+![PXL_20260606_153208620.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_153208620.jpg)
+![PXL_20260606_153410681.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_153410681.jpg)
 Can make vegan beef jerky out of burdock root
 
 Jewel weed (medicinal for mosquito bites, poison ivy)
-![Assets/PXL_20260606_154233001.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_154233001.jpg)
+![PXL_20260606_154233001.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_154233001.jpg)
 
 
 Bitter dock (tasted) (after accidentally tasting a burdock leaf, oops)
-![Assets/PXL_20260606_154813249.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_154813249.jpg)
+![PXL_20260606_154813249.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_154813249.jpg)
 
 
 Northern bayberry -- a shrub (not a tree because no trunk) smells like bay leaves and similar cooking usage. In season all year. Smells very good
-![Assets/PXL_20260606_155208492.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_155208492.jpg)
+![PXL_20260606_155208492.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_155208492.jpg)
 
-![Assets/PXL_20260606_155533988.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_155533988.jpg)
+![PXL_20260606_155533988.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_155533988.jpg)
 
 Epazoté - used in small quantites as a seasoning, very strong
 (didn't get a picture or get to taste/smell it)
 
 
 Poor man's pepper (tasted)
-![Assets/PXL_20260606_161724962.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_161724962.jpg)
+![PXL_20260606_161724962.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_161724962.jpg)
 
 
 
 Wood sorrel - lemony taste
-![Assets/PXL_20260606_160307678.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_160307678.jpg)
+![PXL_20260606_160307678.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_160307678.jpg)
 
 
 
 Red clover and white clove - red ones taste better. You eat the pieces from the flower part. Taste kind of sweet. Wildman said tastes kind of legumey(peas) but I didn't really sense that. Red ones taste the best. Brown not so good. 
-![Assets/PXL_20260606_161241153.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_161241153.jpg)
+![PXL_20260606_161241153.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_161241153.jpg)
 
 Field garlic - related to onion and garlic (tasted) (has poisonous lookalike)
 (Didn't really see how this was found - it was under a mysterious covering of a big patch of ground.)
 
 Cattail - cook like corn on the cob. Not to eat raw. When it's younger and doesn't have flower yet, you can peel it and eat the shoot raw
-![Assets/PXL_20260606_162311300.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_162311300.jpg)
+![PXL_20260606_162311300.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_162311300.jpg)
 
 
 Kentucky coffee tree -- has pods with beans that can roast for a similar taste as coffee, can use as coffee or for seasoning. Can make fudge out of dates+almonds+??  (want to find the recipe for this -- either in his book or app)
-![Assets/PXL_20260606_162827026.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_162827026.jpg)
-![Assets/PXL_20260606_162914168.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_162914168.jpg)
-![PXL_20260606_163050287.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_163050287.jpg)
+![PXL_20260606_162827026.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_162827026.jpg)
+![PXL_20260606_162914168.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_162914168.jpg)
+![PXL_20260606_163050287.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_163050287.jpg)
 
 Lunch break
 
 Random foraging guide i found https://www.wildedible.com/foraging#identification and it also mentions Brill's own book as a good resource (clearly he is well known in this field)
 
 Reviewed poison ivy. Three leaves the middle leaf has the stem
-![Assets/PXL_20260606_180909555.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_180909555.jpg)
+![PXL_20260606_180909555.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_180909555.jpg)
 
 
 Found a peach tree
-![Assets/PXL_20260606_173233633.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_173233633.jpg)
+![PXL_20260606_173233633.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_173233633.jpg)
 
 
 Sassafrass tree. You can eat the smallest (very small) leaves. They are gummy can make gumbo. (Tasted. Did not like the gooeyness). Smaller plant root smells like root beer. White part in bark is a good seasoning e.g. for rice pudding. 
-![Assets/PXL_20260606_173546928.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_173546928.jpg)
+![PXL_20260606_173546928.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_173546928.jpg)
 
-![Assets/PXL_20260606_174228422.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_174228422.jpg)
+![PXL_20260606_174228422.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_174228422.jpg)
 
 Common spice bush - for tea. He has a recipe for spiceberry peanut butter (it has berries in the fall)
-![Assets/PXL_20260606_174546824.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_174546824.jpg)
+![PXL_20260606_174546824.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_174546824.jpg)
 
 Saw some black raspberry bushes (in season later in June )
-![Assets/PXL_20260606_175354448.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_175354448.jpg)
+![PXL_20260606_175354448.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_175354448.jpg)
 
 
 Black birch tree - can chew on the twigs like chewing gum. Smells like wintergreen (kind of minty flavor -- i really liked it. Carried the twig for a bit and smelled.). This is low dose aspirin. I chewed on it but didn't have flavor (but smelling is strong)
-![Assets/PXL_20260606_175543176.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_175543176.jpg)
-![Assets/PXL_20260606_175629431.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_175629431.jpg)
-![Assets/PXL_20260606_175701210.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_175701210.jpg)
+![PXL_20260606_175543176.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_175543176.jpg)
+![PXL_20260606_175629431.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_175629431.jpg)
+![PXL_20260606_175701210.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_175701210.jpg)
 
 Milkweed -- not picking because rare and used by monarch butterflies
-![Assets/PXL_20260606_180332294.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_180332294.jpg)
+![PXL_20260606_180332294.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_180332294.jpg)
 
 
 Hack berries ripe in september
-![Assets/PXL_20260606_181357939.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_181357939.jpg)
+![PXL_20260606_181357939.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_181357939.jpg)
 
 Juneberries / serviceberries -  exciting find! Blue ones are best, red ones are ok. I tasted the dark red ones (easier to find than blue), mildly sweet and yummy. Also had a couple bluer ones, which are slightly sweeter. 
-![Assets/PXL_20260606_181541681.jpg|500](/img/user/Lifestyle/Foraging/Assets/PXL_20260606_181541681.jpg)
+![PXL_20260606_181541681.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_181541681.jpg)
 
 
 Two girls were filming during the tour for a documentary. Past work - (freegan film) https://youtu.be/VB8SdONZGGU
