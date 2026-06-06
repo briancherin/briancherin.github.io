@@ -17,7 +17,7 @@ Small things I've done that come to mind
 Apparently Central Park has edible plants that can be foraged. [Video](https://www.youtube.com/watch?v=xtCXy7R6-q8) by [[Media I Have Consumed/Misc/Creators I Like#Robin Greenfield\|Robin Greenfield]] of a CP foraging tour. I'd like to try this out sometime --
 - Video recommends Sam Thayer's books (The Forager's Harvest, Nature's Garden, Incredible Wild Edibles) for actually learning how to identify and prepare specific plants.
  
- Update: I joined a foraging tour in Central Park: [[Lifestyle/Foraging/Foraging tour with Wildman Steve Brill\|Foraging tour with Wildman Steve Brill]]. 
+ Update: I joined a foraging tour in Central Park: [[Lifestyle/Foraging/6-26-2026 Foraging tour with Wildman Steve Brill\|6-26-2026 Foraging tour with Wildman Steve Brill]]. 
 
 I'm starting to feel a sense that urban foraging is part of an antidote to a negative feeling I sometimes get about living in NYC from an environmentalist perspective. It's not exactly the place to be to be immersed in nature. And yet, there are edible plants hiding just below the surface. It's a whole world beneath the surface of normal perception, a way to cultivate a connection with nature even in an urban setting.
 
