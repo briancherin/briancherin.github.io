@@ -12,6 +12,8 @@ Small things I've done that come to mind
 - Tasting a random pine needle in Montana (during Glacier National Park trip by a lake).
 - Luxuriating in the caramel scent of the Ponderosa Pine (No I don't think smelling really counts as foraging, but it counts as appreciating a plant)
 
+### The most important principle of foraging
+> “Use only those wild foods that you've identified with 100 percent certainty.” ~ *Steve Brill, The Wild Vegan Cookbook*
 
 ### Urban foraging 
 Apparently Central Park has edible plants that can be foraged. [Video](https://www.youtube.com/watch?v=xtCXy7R6-q8) by [[Media I Have Consumed/Misc/Creators I Like#Robin Greenfield\|Robin Greenfield]] of a CP foraging tour. I'd like to try this out sometime --
