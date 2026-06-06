@@ -5,8 +5,17 @@
 https://www.wildmanstevebrill.com/
 Steve Brill is an expert at foraging wild edible plants. From March-December, he regularly runs foraging tours in NYC (and other places too I think) which are free to join (with a suggested donation). 
 
-I joined the foraging tour in Central Park (June 2026). I'm excited to become more confident in identifying the plants we saw. 
+I joined the foraging tour in Central Park (June 26, 2026). 
 
+#### Takeaways
+- I'm excited to become more confident in identifying the plants we saw. I absolutely intend to forage more on my own.
+- I feel that this experience was transformative. 
+	- I already loved Central Park, and this is a whole new way of appreciating it and seeing a new layer of it that never really crossed my mind until I started thinking about foraging it. (I really had no clue it was a possibility until I saw that [[Media I Have Consumed/Misc/Creators I Like#Robin Greenfield\|Robin Greenfield]] does tours and then also found out about Steve Brill's tours.)
+	- It's given me a new way to cultivate a connection to nature and the environment even though I'm in an urban setting.
+- I'm learning more about [[Lifestyle/Foraging/Wildman Steve Brill\|Wildman Steve Brill]] - interesting guy.
+
+
+#### Plant highlights
 My favorites:
 - black birch (twig smells like wintergreen)
 - wood sorrel (three leaf clover which tastes lemon-y)
@@ -25,7 +34,7 @@ I want to check out Steve Brill's reference book and maybe his app if that's whe
 
 He also said he is [[Lifestyle/Veganism/Veganism\|vegan]], which is cool.
 
-Log of the plants we saw / talked about / tried:
+#### Log of the plants we saw / talked about / tried:
 common plantain (medicinal for mosquito bites)
 
 lambs quarter - tastes like spinach, (tasted)
@@ -53,7 +62,7 @@ Epazoté - used in small quantites as a seasoning, very strong
 (didn't get a picture or get to taste/smell it)
 
 
-Poor man's pepper (tasted)
+Poor man's pepper (tasted -- it's peppery/spicy)
 ![PXL_20260606_161724962.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_161724962.jpg)
 
 
