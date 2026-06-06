@@ -12,6 +12,9 @@ I joined the foraging tour in Central Park (June 26, 2026).
 - I feel that this experience was transformative. 
 	- I already loved Central Park, and this is a whole new way of appreciating it and seeing a new layer of it that never really crossed my mind until I started thinking about foraging it. (I really had no clue it was a possibility until I saw that [[Media I Have Consumed/Misc/Creators I Like#Robin Greenfield\|Robin Greenfield]] does tours and then also found out about Steve Brill's tours.)
 	- It's given me a new way to cultivate a connection to nature and the environment even though I'm in an urban setting.
+- I'm really glad I jumped right into going on the tour rather than waiting a long time or trying to learn/study more on my own before actually doing it in real life. 
+	- This is made easy by the fact that Steve Brill does these tours pretty regularly, and it's obviously very convenient that these are being done in NYC where I am, in a park that I was able to walk to.
+	- The direct tangible experience of seeing the plants, hearing their uses, picking some of them and tasting many of them, was such a great experience and it directly translates to increased motivation that I probably would not have had if I hadn't gone on the tour. (I'm kind of trying to find a tie to [[Interests/Misc/Hypnosis\|hypnosis]] as a learning from this -- I spent so much time studying up on techniques but not much time actually practicing/applying.)
 - I'm learning more about [[Lifestyle/Foraging/Wildman Steve Brill\|Wildman Steve Brill]] - interesting guy.
 
 
@@ -91,15 +94,15 @@ Lunch break
 
 Random foraging guide i found https://www.wildedible.com/foraging#identification and it also mentions Brill's own book as a good resource (clearly he is well known in this field)
 
-Reviewed poison ivy. Three leaves the middle leaf has the stem
+Reviewed poison ivy. Three leaves, the middle leaf has the stem
 ![PXL_20260606_180909555.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_180909555.jpg)
 
 
-Found a peach tree
+Found a peach tree (not ripe yet)
 ![PXL_20260606_173233633.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_173233633.jpg)
 
 
-Sassafrass tree. You can eat the smallest (very small) leaves. They are gummy can make gumbo. (Tasted. Did not like the gooeyness). Smaller plant root smells like root beer. White part in bark is a good seasoning e.g. for rice pudding. 
+Sassafrass tree. You can eat the smallest (very small) leaves. They are gummy - can make gumbo. (Tasted. Did not like the gooeyness). Smaller plant root smells like root beer (it's what was traditionally used for making root beer). White part in bark is a good seasoning e.g. for rice pudding. 
 ![PXL_20260606_173546928.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_173546928.jpg)
 
 ![PXL_20260606_174228422.jpg|500](/img/user/Lifestyle/Foraging/Assets/wildman%20tour%206-6-2026/PXL_20260606_174228422.jpg)
