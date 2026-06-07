@@ -14,7 +14,7 @@ I joined the foraging tour in Central Park (June 26, 2026). We walked from east 
 - I'm really glad I jumped right into going on the tour rather than waiting a long time or trying to learn/study more on my own before actually doing it in real life. 
 	- This is made easy by the fact that Steve Brill does these tours pretty regularly, and it's obviously very convenient that these are being done in NYC where I am, in a park that I was able to walk to.
 	- The direct tangible experience of seeing the plants, hearing their uses, picking some of them and tasting many of them, was such a great experience and it directly translates to increased motivation that I probably would not have had if I hadn't gone on the tour.^[ (I'm kind of sensing a tie to [[Interests/Misc/Hypnosis\|hypnosis]] as a learning from this -- I spent so much time studying up on techniques but not much time actually practicing/applying.)]
-	- At the same time, now that I'm learning more about [[Lifestyle/Foraging/Wildman Steve Brill\|Wildman Steve Brill]], I am starting to wish I knew some of this before meeting him. For example, that he is vegan and advocates for a whole food diet. But still, I can always go to another of his tours.
+	- At the same time, now that I'm learning more about [[Lifestyle/Foraging/Wildman Steve Brill\|Wildman Steve Brill]], I am starting to wish I knew more about him before meeting him. For example, that he is vegan and advocates for a whole food diet. But still, I can always go to another of his tours and have more interactions/conversations.
 
 
 #### Plant highlights
