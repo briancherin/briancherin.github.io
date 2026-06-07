@@ -131,3 +131,9 @@ Juneberries / serviceberries -  exciting find! Blue ones are best, red ones are 
 
 
 Two girls were filming during the tour for a documentary. Past work - (freegan film) https://youtu.be/VB8SdONZGGU
+
+
+#### Burdock root vegan beef jerky recipe
+From an interview with Steve Brill https://www.eatweeds.co.uk/ep17
+>And with the root, I slice it thinly, and then I steam it for 20 minutes over vegetable stock. And then I put it in the kind of marinade that is used for beef jerky. So it’s apple cider vinegar, tamari soy sauce, fresh apple juice, cloves … what else goes in there? Garlic that is peeled, but not cut, which makes it much more mild than the cut garlic. And then I bake it and it gets drier and chewier. And when it’s about the level of beef jerky, I stop, and it’s really delicious.
+
