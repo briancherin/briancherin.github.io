@@ -5,12 +5,11 @@
 https://www.wildmanstevebrill.com/
 Steve Brill is an expert at foraging wild edible plants. From March-December, he regularly runs foraging tours in NYC (and other places too I think) which are free to join (with a suggested donation). 
 
-I joined the foraging tour in Central Park (June 26, 2026). 
-
+I joined the foraging tour in Central Park (June 26, 2026). We walked from east 106th street, through the park, and ended at the west side. There were at least 30-40 people on the tour. Steve Brill showed us different plants (some edible, some medicinal), explained their uses and briefly how to identify them, and we tasted/smelled them.
 #### Takeaways
 - I'm excited to become more confident in identifying the plants we saw. I absolutely intend to forage more on my own.
 - I feel that this experience was transformative. 
-	- I already loved Central Park, and this is a whole new way of appreciating it and seeing a new layer of it that never really crossed my mind until I started thinking about foraging it. (I really had no clue it was a possibility until I saw that [[Media I Have Consumed/Misc/Creators I Like#Robin Greenfield\|Robin Greenfield]] does tours and then also found out about Steve Brill's tours.)
+	- I already loved Central Park, and this is a whole new way of appreciating it and seeing a new layer of it that never really crossed my mind until I started thinking about foraging. (I really had no clue it was a possibility until I saw that [[Media I Have Consumed/Misc/Creators I Like#Robin Greenfield\|Robin Greenfield]] does tours and then also found out about Steve Brill's tours.)
 	- It's given me a new way to cultivate a connection to nature and the environment even though I'm in an urban setting.
 - I'm really glad I jumped right into going on the tour rather than waiting a long time or trying to learn/study more on my own before actually doing it in real life. 
 	- This is made easy by the fact that Steve Brill does these tours pretty regularly, and it's obviously very convenient that these are being done in NYC where I am, in a park that I was able to walk to.
