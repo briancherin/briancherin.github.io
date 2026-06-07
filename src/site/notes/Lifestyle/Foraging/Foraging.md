@@ -24,6 +24,8 @@ Apparently Central Park has edible plants that can be foraged. [Video](https://w
 I'm starting to feel a sense that urban foraging is part of an antidote to a negative feeling I sometimes get about living in NYC from an environmentalist perspective. It's not exactly the place to be to be immersed in nature. And yet, there are edible plants hiding just below the surface. It's a whole world beneath the surface of normal perception, a way to cultivate a connection with nature even in an urban setting.
 
 
+Another opportunity: The [New York Mycological Society](https://www.newyorkmyc.org/) does walks for identifying+foraging mushrooms. Could be interesting to join.
+
 
 Related:
 - [[Lifestyle/Foraging/Foraged Flavors\|Foraged Flavors]]
