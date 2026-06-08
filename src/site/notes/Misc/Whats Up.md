@@ -9,6 +9,7 @@ What's up. What's going on. What am I doing, reading, interesting stuff to share
 - Doings
 	- I sewed a button back onto my shorts. Huge news, I know. First time doing this. Needle and thread. Followed youtube vids. Haven't worn them yet but hopefully it's stable.
 	- I went on a [[Lifestyle/Foraging/6-26-2026 Foraging tour with Wildman Steve Brill\|6-26-2026 Foraging tour with Wildman Steve Brill]] -- foraged plants in Central Park. Great experience! I'm excited to become more confident on identifying the plants we saw.
+	- Finally got my [[Interests/Music/Record player\|record player]] set up. I had the record player but no amp/speakers for it. I bought "ART DJPREII Phono Preamplifier" from Amazon and then got some old computer speakers which my dad had lying around. I've had the record player itself for almost a year -- it was  a curbside find from my parents' neighborhood.
 - Videos
 	- [Hank Green - "What is 'Slop' (and why it gives me hope)"](https://www.youtube.com/watch?v=dT5IJExTUR4) - The 'hope' part is that as low-effort AI generated content becomes easier to make and thus there is more of it (this is the "slop"), real human effort will become the more scarce thing and thus people will appreciate the value of human effort more.
 - Podcasts
