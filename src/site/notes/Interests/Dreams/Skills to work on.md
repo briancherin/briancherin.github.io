@@ -1,0 +1,19 @@
+---
+{"dg-publish":true,"permalink":"/interests/dreams/skills-to-work-on/"}
+---
+
+- Flying
+	- Pretty happy with my ability here generally. Perhaps I can improve on actually flying to get to another specific destination (more of a travel skill than just flight itself)
+- Hovering
+	- different from flying - flying involves leaping off from the ground usually, with hovering it would be a more gentle, intentional start into floating a short height from the ground and gliding through the air.
+- Teleportation
+	- via portal
+		- create portal with a portal gun (also involves object-summoning skill)
+		- create portal with finger in the air or just with my mind
+	- Open door to another visualized/intended location
+	- Instantaneous bodily teleportation to another intended location
+	- Focus on a place, know it's behind me, and turn around
+- Object summoning
+	- Direct into my hand in front of me, or into the space in front of me
+	- Into my hand that is behind my back, or "finding" something specific in my pocket
+	- "finding" an object in the current scene (e.g. focusing on the intent for the object to be behind a different object that I can see)
