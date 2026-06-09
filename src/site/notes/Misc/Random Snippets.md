@@ -2,12 +2,6 @@
 {"dg-publish":true,"permalink":"/misc/random-snippets/"}
 ---
 
-#### 11
- https://letters.thedankoe.com/p/why-your-life-feels-fake-an-antidote
-- "You wake up and rather than hiding from the day by pressing snooze, you can’t wait to get up."
-	- Unfortunately I definitely do not wake up excited for my day most of the time. There is usually a vague sense of not really wanting to start working for the day. There was one morning which was particularly memorable in that I woke up with a big smile on my face and I noted to myself in that moment that it doesn't happen that often: this was the day after I signed my lease on my new apartment (which I've been living in for almost a year now) after a frustrating apartment hunt.
-- 
-
 #### 10
 https://blog.avas.space/nemesis/
 (Avas Space is a blog I found via the Kagi Small Web RSS feed and I've been following new posts since then.)
