@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/lifestyle/foraging/wildman-steve-brill/"}
 ---
 
-Steve Brill organizes foraging tours in Central Park (amongst other places in and beyond NYC). I joined a tour: [[Lifestyle/Foraging/6-26-2026 Foraging tour with Wildman Steve Brill\|6-26-2026 Foraging tour with Wildman Steve Brill]].
+Steve Brill organizes foraging tours in Central Park (amongst other places in and beyond NYC). I joined a tour: [[Lifestyle/Foraging/6-6-2026 Foraging tour with Wildman Steve Brill\|6-6-2026 Foraging tour with Wildman Steve Brill]].
 
 His website: https://www.wildmanstevebrill.com/
 
