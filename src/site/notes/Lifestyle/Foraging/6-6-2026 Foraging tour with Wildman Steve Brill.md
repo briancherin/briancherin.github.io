@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/foraging/6-26-2026-foraging-tour-with-wildman-steve-brill/"}
+{"dg-publish":true,"permalink":"/lifestyle/foraging/6-6-2026-foraging-tour-with-wildman-steve-brill/"}
 ---
 
 https://www.wildmanstevebrill.com/
