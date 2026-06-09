@@ -178,20 +178,30 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
 
           function ensureWrappedWords() {
             if (hasWrapped) return;
-            let ages = window.__recencyWordAges;
-            if ((!Array.isArray(ages) || ages.length === 0) && document.body && document.body.lastElementChild && document.body.lastElementChild.tagName === "SCRIPT") {
+            let timestamps = window.__recencyWordTimestamps;
+            if (
+              (!Array.isArray(timestamps) || timestamps.length === 0) &&
+              Array.isArray(window.__recencyWordAges) &&
+              window.__recencyWordAges.length > 0
+            ) {
+              // Backward compatibility for previously built pages.
+              const oldAges = window.__recencyWordAges;
+              const nowMs = Date.now();
+              timestamps = oldAges.map((age) => nowMs - (Number(age) * 24 * 60 * 60 * 1000));
+            }
+            if ((!Array.isArray(timestamps) || timestamps.length === 0) && document.body && document.body.lastElementChild && document.body.lastElementChild.tagName === "SCRIPT") {
               const tailScript = document.body.lastElementChild.textContent || "";
-              const m = tailScript.match(/window\.__recencyWordAges\s*=\s*(\[[\s\S]*\])\s*;/);
+              const m = tailScript.match(/window\.__recencyWordTimestamps\s*=\s*(\[[\s\S]*\])\s*;/) || tailScript.match(/window\.__recencyWordAges\s*=\s*(\[[\s\S]*\])\s*;/);
               if (m) {
                 try {
-                  ages = JSON.parse(m[1]);
-                  window.__recencyWordAges = ages;
+                  timestamps = JSON.parse(m[1]);
+                  window.__recencyWordTimestamps = timestamps;
                 } catch {
                   // ignore parse errors and continue to unavailable flow
                 }
               }
             }
-            if (!Array.isArray(ages) || ages.length === 0) return;
+            if (!Array.isArray(timestamps) || timestamps.length === 0) return;
 
             const root = document.querySelector("main.content.cm-s-obsidian");
             if (!root) return;
@@ -282,11 +292,13 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
                   }
                 }
 
-                const age = ages[cursor] ?? 3650;
+                const timestamp = timestamps[cursor] ?? 0;
                 cursor += 1;
                 const span = document.createElement("span");
                 span.className = "recency-word";
+                const age = timestamp ? Math.max(0, Math.floor((Date.now() - timestamp) / (24 * 60 * 60 * 1000))) : 3650;
                 setAgeVisual(span, age);
+                if (timestamp) span.setAttribute("data-timestamp", String(timestamp));
                 span.textContent = match[0];
                 frag.appendChild(span);
                 lastIdx = end;
@@ -300,7 +312,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
             }
 
             // Correct recency ages for rendered footnote blocks by inheriting from in-text references.
-            const footnoteAgeById = new Map();
+            const footnoteTimestampById = new Map();
             const footnoteRefs = root.querySelectorAll('.footnote-ref a[href^="#"]');
             for (const refLink of footnoteRefs) {
               const href = refLink.getAttribute("href") || "";
@@ -308,16 +320,20 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
               if (!targetId) continue;
               const prevWord = previousRecencyWord(refLink);
               if (!prevWord) continue;
-              const age = Number(prevWord.getAttribute("data-age-days"));
-              if (!Number.isFinite(age)) continue;
-              const existing = footnoteAgeById.get(targetId);
-              if (existing === undefined || age < existing) footnoteAgeById.set(targetId, age);
+              const timestamp = Number(prevWord.getAttribute("data-timestamp"));
+              if (!Number.isFinite(timestamp)) continue;
+              const existing = footnoteTimestampById.get(targetId);
+              if (existing === undefined || timestamp > existing) footnoteTimestampById.set(targetId, timestamp);
             }
-            for (const [targetId, age] of footnoteAgeById.entries()) {
+            for (const [targetId, timestamp] of footnoteTimestampById.entries()) {
               const footnoteNode = root.querySelector(`#${CSS.escape(targetId)}`);
               if (!footnoteNode) continue;
               const footnoteWords = footnoteNode.querySelectorAll(".recency-word");
-              for (const w of footnoteWords) setAgeVisual(w, age);
+              const age = Math.max(0, Math.floor((Date.now() - timestamp) / (24 * 60 * 60 * 1000)));
+              for (const w of footnoteWords) {
+                setAgeVisual(w, age);
+                w.setAttribute("data-timestamp", String(timestamp));
+              }
             }
 
             const chunkSelectors = "p, li, blockquote, h1, h2, h3, h4, h5, h6";
@@ -326,14 +342,14 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
               if (chunk.querySelector(".recency-chunk-date")) continue;
               const words = chunk.querySelectorAll(".recency-word[data-age-days]");
               if (!words || words.length === 0) continue;
-              let newestAgeDays = Number.POSITIVE_INFINITY;
+              let newestTimestamp = Number.NEGATIVE_INFINITY;
               for (const word of words) {
-                const ageVal = Number(word.getAttribute("data-age-days"));
-                if (!Number.isFinite(ageVal)) continue;
-                if (ageVal < newestAgeDays) newestAgeDays = ageVal;
+                const wordTimestamp = Number(word.getAttribute("data-timestamp"));
+                if (!Number.isFinite(wordTimestamp)) continue;
+                if (wordTimestamp > newestTimestamp) newestTimestamp = wordTimestamp;
               }
-              if (!Number.isFinite(newestAgeDays)) continue;
-              const updatedDate = new Date(Date.now() - (newestAgeDays * 24 * 60 * 60 * 1000));
+              if (!Number.isFinite(newestTimestamp)) continue;
+              const updatedDate = new Date(newestTimestamp);
               const updatedText = updatedDate.toLocaleDateString("en-US", {
                 year: "numeric",
                 month: "short",

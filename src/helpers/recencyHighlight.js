@@ -9,7 +9,7 @@ const WORD_REGEX = /[A-Za-z0-9][A-Za-z0-9'-]*/g;
 const MS_PER_DAY = 24 * 60 * 60 * 1000;
 
 const permalinkToSource = new Map();
-const sourceToAges = new Map();
+const sourceToTimestamps = new Map();
 
 function normalizePermalink(urlPath) {
   if (!urlPath) return "/";
@@ -92,8 +92,8 @@ function markdownLineToWords(line) {
   return words || [];
 }
 
-function getWordAgesForSource(sourceFile) {
-  if (sourceToAges.has(sourceFile)) return sourceToAges.get(sourceFile);
+function getWordTimestampsForSource(sourceFile) {
+  if (sourceToTimestamps.has(sourceFile)) return sourceToTimestamps.get(sourceFile);
 
   const relPath = path.relative(process.cwd(), sourceFile).replace(/\\/g, "/");
   const blameRaw = execSync(`git blame --line-porcelain -- "${relPath}"`, {
@@ -117,19 +117,17 @@ function getWordAgesForSource(sourceFile) {
   const startIdx = blameLineEntries.length - contentOnlyLines.length;
   const filteredEntries = blameLineEntries.slice(startIdx);
   const nowMs = Date.now();
-  const ages = [];
+  const timestamps = [];
 
   for (const entry of filteredEntries) {
     const words = markdownLineToWords(entry.line);
     if (words.length === 0) continue;
-    const ageDays = entry.timestamp
-      ? Math.max(0, Math.floor((nowMs - entry.timestamp) / MS_PER_DAY))
-      : 3650;
-    for (let i = 0; i < words.length; i += 1) ages.push(ageDays);
+    const timestamp = entry.timestamp || nowMs - (3650 * MS_PER_DAY);
+    for (let i = 0; i < words.length; i += 1) timestamps.push(timestamp);
   }
 
-  sourceToAges.set(sourceFile, ages);
-  return ages;
+  sourceToTimestamps.set(sourceFile, timestamps);
+  return timestamps;
 }
 
 function outputPathToPermalink(outputPath) {
@@ -154,16 +152,16 @@ function injectRecencyWordAges(html, outputPath) {
   const sourceFile = permalinkToSource.get(permalink);
   if (!sourceFile) return html;
 
-  let ages;
+  let timestamps;
   try {
-    ages = getWordAgesForSource(sourceFile);
+    timestamps = getWordTimestampsForSource(sourceFile);
   } catch {
     return html;
   }
-  if (!ages || ages.length === 0) return html;
+  if (!timestamps || timestamps.length === 0) return html;
 
-  const payload = JSON.stringify(ages);
-  const scriptTag = `<script>window.__recencyWordAges=${payload};</script>`;
+  const payload = JSON.stringify(timestamps);
+  const scriptTag = `<script>window.__recencyWordTimestamps=${payload};</script>`;
   if (html.includes("</body>")) return html.replace("</body>", `${scriptTag}</body>`);
   return `${html}${scriptTag}`;
 }

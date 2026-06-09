@@ -152,6 +152,7 @@ function parseNoteMeta(filePath, rawContent = "") {
     return {
       title: path.basename(filePath, ".md"),
       permalink: "",
+      dgPath: "",
     };
   }
   const parsed = matter(rawContent);
@@ -160,12 +161,38 @@ function parseNoteMeta(filePath, rawContent = "") {
     permalink: parsed.data.permalink || "",
     created: parsed.data.created || "",
     updated: parsed.data.updated || "",
+    dgPath: parsed.data["dg-path"] || "",
   };
 }
 
-function renderNoteBodyToHtml(noteRaw) {
-  const parsed = matter(noteRaw || "");
-  return md.render(parsed.content || "");
+function getNoteFolderPathParts(filePath, meta = {}) {
+  const dgPath = String(meta.dgPath || "").trim();
+  const notePath = dgPath || String(filePath || "").replace(/\\/g, "/").replace(NOTES_PREFIX, "");
+  const parts = notePath.split("/").filter(Boolean);
+  if (parts.length <= 1) return [];
+  parts.pop();
+  return parts;
+}
+
+function renderFolderBreadcrumbHtml(filePath, meta = {}) {
+  const parts = getNoteFolderPathParts(filePath, meta);
+  if (!parts.length) return "";
+  const breadcrumb = parts.map(htmlEscape).join(" &gt; ");
+  return `<div class="note-folder-path" style="margin:-2px 0 8px 0;color:#6b7280;font-size:13px;line-height:1.35;font-style:italic;">${breadcrumb}</div>`;
+}
+
+function getItemSortTime(item) {
+  const raw = item?.changedAt || item?.meta?.updated || item?.meta?.created || "";
+  const time = new Date(raw).getTime();
+  return Number.isNaN(time) ? 0 : time;
+}
+
+function sortItemsMostRecentlyUpdated(items) {
+  return [...items].sort((a, b) => {
+    const diff = getItemSortTime(b) - getItemSortTime(a);
+    if (diff !== 0) return diff;
+    return String(a.file || "").localeCompare(String(b.file || ""));
+  });
 }
 
 function stripAfterSpoilerTag(noteRaw) {
@@ -637,16 +664,16 @@ function buildItemFromGit(range, file, mode, maxLines) {
     return null;
   }
   const isNew = !oldRaw || !oldRaw.trim();
-  const updatedDate = parseNoteMeta(file, newRaw).updated;
-  const createdDate = parseNoteMeta(file, newRaw).created;
+  const meta = parseNoteMeta(file, newRaw);
+  const gitUpdatedDate = runGit(["log", "-1", "--format=%cI", "--", file], true);
 
   return {
     file,
-    meta: parseNoteMeta(file, newRaw),
+    meta,
     diff,
     excerptBlocks,
     changeType: isNew ? "new" : "updated",
-    changedAt: updatedDate || createdDate || "",
+    changedAt: gitUpdatedDate || "",
     spoilerOmitted,
     noteWordCount: countWords(newSafe.content || ""),
   };
@@ -694,9 +721,10 @@ function buildFromGit(days, mode, maxLines) {
     const item = buildItemFromGit(range, file, mode, maxLines);
     if (item) items.push(item);
   }
+  const sortedItems = sortItemsMostRecentlyUpdated(items);
   console.log(`[newsletter] items_with_diff=${items.length}`);
 
-  return { windowStart, windowEnd, items };
+  return { windowStart, windowEnd, items: sortedItems };
 }
 
 function buildFromJson(inputPath, mode, maxLines) {
@@ -723,6 +751,7 @@ function buildFromJson(inputPath, mode, maxLines) {
         permalink: item.permalink || "",
         created: item.created || "",
         updated: item.updated || "",
+        dgPath: item.dgPath || item["dg-path"] || "",
       },
       diff,
       excerptBlocks: buildExcerptBlocksFromPatch(sourcePatch),
@@ -736,7 +765,7 @@ function buildFromJson(inputPath, mode, maxLines) {
   return {
     windowStart: data.windowStart || `${DEFAULT_DAYS} days ago`,
     windowEnd: data.windowEnd || "now",
-    items,
+    items: sortItemsMostRecentlyUpdated(items),
   };
 }
 
@@ -751,6 +780,7 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
           const titleHtml = permalink
             ? `<a href="${htmlEscape(permalink)}" style="color:#111827;text-decoration:none;">${htmlEscape(item.meta.title)}</a>`
             : htmlEscape(item.meta.title);
+          const folderBreadcrumb = renderFolderBreadcrumbHtml(item.file, item.meta);
           const statusLabel = item.changeType === "new" ? "New note" : "Updated note";
           const changedDate = formatDate(item.changedAt);
           const spoilerNotice = item.spoilerOmitted
@@ -775,6 +805,7 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
           return `
 <section class="card" style="border-top:1px solid #e5e7eb;padding-top:14px;margin-top:14px;">
   <div style="margin:0 0 6px 0;font-size:20px;line-height:1.3;color:#111827;font-weight:700;">${titleHtml}</div>
+  ${folderBreadcrumb}
   <div class="meta" style="margin:0 0 8px 0;color:#6b7280;font-size:13px;line-height:1.3;"><span class="badge" style="display:inline-block;padding:2px 7px;border-radius:999px;background:#e8f0fe;color:#1e40af;font-weight:600;font-size:12px;">${statusLabel}</span>${changedDate ? ` <span class="meta-date" style="color:#6b7280;">&middot; ${changedDate}</span>` : ""}</div>
   ${spoilerNotice}
   ${renderExcerptBlocksHtml(item.excerptBlocks, permalink, { spoilerOmitted: item.spoilerOmitted, noteWordCount: item.noteWordCount })}
