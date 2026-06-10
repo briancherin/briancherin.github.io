@@ -28,3 +28,5 @@ I feel a slight cringe at disclosing that ChatGPT was used to help get me to thi
 >>>>[!DANGER] Spoilers ahead.
 >>>>>[!DANGER] Spoilers ahead.
 
+
+(definitely want to discuss the orpheus/eurydice parallells)
