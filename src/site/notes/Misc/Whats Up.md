@@ -14,7 +14,7 @@ What's up. What's going on. What am I doing, reading, interesting stuff to share
 - Videos
 	- [Hank Green - "What is 'Slop' (and why it gives me hope)"](https://www.youtube.com/watch?v=dT5IJExTUR4) - The 'hope' part is that as low-effort AI generated content becomes easier to make and thus there is more of it (this is the "slop"), real human effort will become the more scarce thing and thus people will appreciate the value of human effort more.
 - Podcasts
-	- Skeptics Guide to the Universe - episode \#1087 -- interesting discussion about an evolutionary biologist who is convinced that LLMs (specifically Claude) have consciousness.
+	- [[Media I Have Consumed/Podcasts/Skeptics Guide to the Universe#Episode 1087\|Skeptics Guide to the Universe#Episode 1087]]  
 - Theater
 	- Saw a production of the play Uncle Vanya (first time seeing it) by the Hudson Classical Theater Company. They perform in a park. Nice to be outside although it is a low budget production.
 
