@@ -11,7 +11,7 @@ I liked this a lot! Even gave it a heart on Letterboxd.
 
 A lovely premise+story. Full of emotion; depiction of artistic vision; sensuality; echoes of mythology. A likely candidate for a rewatch (rare for me). Good writing and cinematography and direction.
 
-Bits of it also drive some inspiration to draw+paint, and like most good films I see these days (particularly indie ones), it also inspires me to write (and contemplate what writing/directing for film might be like).
+Bits of it also drive some inspiration to draw+paint, play piano, and like most good films I see these days (particularly indie ones), it also inspires me to write (and contemplate what writing/directing for film might be like).
 
 #### The road to this film
 Probably four or five years ago, I heard of this movie in the context of it relating to the Orpheus and Eurydice myth (subject of [[Media I Have Consumed/Theater/Hadestown\|Hadestown]], my favorite musical). I was interested in watching this film, but never got around to it until now. Today was also the day that the Hadestown theatrical trailer was released (not much of a meaningful coincidence because Hadestown is generally always somewhere in my field consciousness)^[though, there is some poetry in me watching a film relating to hadestown on the day that a hadestown film is in sharp focus.].
