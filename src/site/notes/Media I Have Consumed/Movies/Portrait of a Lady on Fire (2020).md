@@ -7,7 +7,7 @@
 Director: Céline Sciamma
 (French film)
 
-Five stars on Letterboxd, AND a heart^[a genuinely rare combination. five stars means great film; heart means special to me.]. 
+I liked this a lot! Even gave it a heart on Letterboxd.
 
 A lovely premise+story. Full of emotion; depiction of artistic vision; sensuality; echoes of mythology. A likely candidate for a rewatch (rare for me). Good writing and cinematography and direction.
 
