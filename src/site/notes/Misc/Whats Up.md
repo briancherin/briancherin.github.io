@@ -17,6 +17,8 @@ What's up. What's going on. What am I doing, reading, interesting stuff to share
 	- [[Media I Have Consumed/Podcasts/Skeptics Guide to the Universe#Episode 1087\|Skeptics Guide to the Universe#Episode 1087]]  
 - Theater
 	- Saw a production of the play Uncle Vanya (first time seeing it) by the Hudson Classical Theater Company. They perform in a park. Nice to be outside although it is a low budget production.
+- Music
+	- Loving the song "Each Time I Die" by Bones & Beaker. (Title sounds morbid but it's more reincarnation-esque.)
 
 ### May 2026
 - Articles:
