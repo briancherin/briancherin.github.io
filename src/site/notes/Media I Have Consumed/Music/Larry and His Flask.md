@@ -2,7 +2,21 @@
 {"dg-publish":true,"permalink":"/media-i-have-consumed/music/larry-and-his-flask/"}
 ---
 
-Really really love their music.
+Really really love their music! One of my favorite artists. Discovered them in 2024.
+
+Favorite songs:
+- Ebb and Flow
+- Call it What You Will
+- The Battle For Clear Sight
+- Breaking Even
+
+Albums -- I basically like 90% of all of the songs on all four of their main albums which are on Spotify:
+- All That We Know
+- By the Lamplight
+- This Remedy
+- Everything Besides
+
+Each album has a slightly different feeling. Love it all.
 
 
 
