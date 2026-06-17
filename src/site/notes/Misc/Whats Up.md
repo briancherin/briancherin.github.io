@@ -19,6 +19,7 @@ What's up. What's going on. What am I doing, reading, interesting stuff to share
 	- Saw a production of the play Uncle Vanya (first time seeing it) by the Hudson Classical Theater Company. They perform in a park. Nice to be outside although it is a low budget production.
 - Music
 	- Loving the song "Each Time I Die" by Bones & Beaker. (Title sounds morbid but it's more reincarnation-esque.) The rest of their album doesn't really resonate with me though.
+	- I saw Larry and His Flask live! [[Media I Have Consumed/Music/Larry and His Flask#June 2026 Concert\|Larry and His Flask#June 2026 Concert]]
 
 ### May 2026
 - Articles:
