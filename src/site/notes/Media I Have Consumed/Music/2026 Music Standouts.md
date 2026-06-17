@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/media-i-have-consumed/music/2026-music-standouts/"}
 ---
 
-This should be like [[Interests/Music/2025 Music Retrospective\|2025 Music Retrospective]] but more as the year goes on rather than one burst at the end (though I may reflect at the end).
+This should be like [[Media I Have Consumed/Music/2025 Music Retrospective\|2025 Music Retrospective]] but more as the year goes on rather than one burst at the end (though I may reflect at the end).
 
 ### Standouts Jan-April
 Mostly taking this from my playlist called "Stepping Forward Briskly"
