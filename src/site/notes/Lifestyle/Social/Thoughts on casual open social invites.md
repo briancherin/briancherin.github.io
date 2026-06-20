@@ -9,6 +9,12 @@
 		- e.g. some free **event** that is happening, like a comedy show or a concert; 
 		- or, it could be a general **activity** like visiting a museum or hanging out in a park.
 
+- Why is this on my mind?
+	- I regularly meet new people in NYC. 
+	- I regularly seek out activities and events in NYC which align with my interests.
+	- Though I'm generally fine going to activities/events on my own, doing things with people is nice too. And it can nourish connections (see goals below). And people generally want to *do* things too. And it's also a way to find common interests and share my own interests with others.
+	- I haven't been quite sure the best approach on how to send open invites for casual plans; so obviously (as is my nature) I think through solutions.
+
 - my goals are 
 		- foster community and nourish+create connections between people (by creating social spaces around events/activities)
 		- be inclusive --> have open opportunities for my social connections to join events/activities. Inclusivity is limited to **my own social network** (i.e. I'm not at the moment interested in organizing public events); this includes connections of varying strength -- ranging from my closest friends; developing friendships; new connections. Can also be open to friends of friends (though I am not thinking much about this case). My hope is that by opening up events to a broad range of people in my social circle, I open the way for my own connections with these friends to develop and flourish, as well as for new connections between friends in my circle to develop and flourish. Strengthening networks of connections form community. Having an open invite allows for people to self-select their participation without feeling pressure that declining any one invite would lose them a chance to receive a future invite. (<-- amongst other reasons; to be expanded on I think)
