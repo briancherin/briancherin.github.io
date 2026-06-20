@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/lifestyle/social/thoughts-on-casual-open-social-invites/"}
 ---
 
+If you're reading this -- this is the kind of note where feedback+opinions+discussion is very valuable (especially due to the social nature of this topic) so please write to me if you want to share any thoughts!
 
 - "casual open social invites"???
 	- I'm not talking about small gatherings. Though I enjoy [[Lifestyle/Social/Hosting Gatherings\|hosting small gatherings]] in my apartment, I could not send out a broad social invite (for one thing, because of space limitations. But also it's just a different social mode I'm trying to hit for what I'm discussing here; but perhaps some aspects of this discussion could apply to small gatherings as well, especially the goals I describe below).
