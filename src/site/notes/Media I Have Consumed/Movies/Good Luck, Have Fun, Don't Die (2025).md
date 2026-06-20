@@ -59,7 +59,7 @@ Spoiler-full reactions below.
 	- What am i doing to fight against this future?
 		- In my very small way: 
 			- Evading short-form content and instead cultivating rational, critical thinking-geared writing in this digital garden
-			- Cultivating real life [[Lifestyle/Hosting Gatherings\|community]] and connections 
+			- Cultivating real life [[Lifestyle/Social/Hosting Gatherings\|community]] and connections 
 	- Could a VR world where you are your perfect self really be a better reality? Could AI/VR/tech really get us there? (It's pretty abstract, the concept is so unimaginable I'm not sure how it could be answered.)
 
 
