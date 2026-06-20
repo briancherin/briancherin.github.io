@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" //>
     <link href="https://briancherin.github.io" //>
-    <updated>2026-06-17T15:47:21Z</updated>
+    <updated>2026-06-20T03:40:23Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -140,13 +140,13 @@ document.getElementById(&quot;random-note-button&quot;)
                 Mini Projects
                 
             </title>
-            <updated>2026-06-17T15:34:20.000Z</updated>
+            <updated>2026-06-20T03:39:50.000Z</updated>
             <id>https://briancherin.github.io/projects/software/mini-projects/mini-projects/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#miniproject&quot;&gt;#miniproject&lt;/a&gt;&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/&quot;&gt;Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/mini-projects/restaurant-ai-vr-simulation/&quot;&gt;Restaurant AI VR Simulation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/&quot;&gt;Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
@@ -416,10 +416,11 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
                 Idea - Spontaneous Plans
                 
             </title>
-            <updated>2026-05-30T19:45:49.000Z</updated>
+            <updated>2026-06-20T03:39:50.000Z</updated>
             <id>https://briancherin.github.io/projects/software/idea-spontaneous-plans/idea-spontaneous-plans/</id>
             <content type="html">
-                
+                &lt;p&gt;(Discussed this idea a bit in &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/podcasts/indie-hackers-podcast/the-right-way-to-talk-to-people-about-your-business-indie-hackers-podcast/&quot;&gt;The Right Way to Talk to People About Your Business - Indie Hackers Podcast&lt;/a&gt;; and closely tied to &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/lifestyle/social/thoughts-on-casual-open-social-invites/&quot;&gt;Thoughts on casual open social invites&lt;/a&gt;)&lt;/p&gt;
+
             </content>
             <link href="https://briancherin.github.io/projects/software/idea-spontaneous-plans/idea-spontaneous-plans/" //>
         </entry>
@@ -2816,7 +2817,7 @@ Céline Sciamma. What else did Sciamma make? I was surprised to see: &lt;em&gt;P
                 Good Luck, Have Fun, Don&#39;t Die (2025)
                 
             </title>
-            <updated>2026-05-19T03:00:59.000Z</updated>
+            <updated>2026-06-20T03:39:50.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/movies/good-luck-have-fun-don-t-die-2025/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Pasted%20image%2020260518225420.png&quot; alt=&quot;Pasted image 20260518225420.png&quot; /&gt;&lt;/p&gt;
@@ -2909,7 +2910,7 @@ Céline Sciamma. What else did Sciamma make? I was surprised to see: &lt;em&gt;P
 &lt;li&gt;In my very small way:
 &lt;ul&gt;
 &lt;li&gt;Evading short-form content and instead cultivating rational, critical thinking-geared writing in this digital garden&lt;/li&gt;
-&lt;li&gt;Cultivating real life &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/lifestyle/hosting-gatherings/&quot;&gt;community&lt;/a&gt; and connections&lt;/li&gt;
+&lt;li&gt;Cultivating real life &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/lifestyle/social/hosting-gatherings/&quot;&gt;community&lt;/a&gt; and connections&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -4051,6 +4052,79 @@ The intellectual and rational refusal to support animal exploitation/suffering/u
 
             </content>
             <link href="https://briancherin.github.io/lifestyle/veganism/animal-agriculture-as-an-atrocity/" //>
+        </entry>
+        <entry>
+            <title>
+                Thoughts on casual open social invites
+                
+            </title>
+            <updated>2026-06-20T03:39:50.000Z</updated>
+            <id>https://briancherin.github.io/lifestyle/social/thoughts-on-casual-open-social-invites/</id>
+            <content type="html">
+                &lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;quot;casual open social invites&amp;quot;???&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I&#39;m not talking about small gatherings. Though I enjoy &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/lifestyle/social/hosting-gatherings/&quot;&gt;hosting small gatherings&lt;/a&gt; in my apartment, I could not send out a broad social invite (for one thing, because of space limitations. But also it&#39;s just a different social mode I&#39;m trying to hit for what I&#39;m discussing here; but perhaps some aspects of this discussion could apply to small gatherings as well, especially the goals I describe below).&lt;/li&gt;
+&lt;li&gt;More I&#39;m talking about things that can happen in public and without a strict limit on number of people who can join.
+&lt;ul&gt;
+&lt;li&gt;e.g. some free &lt;strong&gt;event&lt;/strong&gt; that is happening, like a comedy show or a concert;&lt;/li&gt;
+&lt;li&gt;or, it could be a general &lt;strong&gt;activity&lt;/strong&gt; like visiting a museum or hanging out in a park.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;my goals are&lt;br /&gt;
+- foster community and nourish+create connections between people (by creating social spaces around events/activities)&lt;br /&gt;
+- be inclusive --&amp;gt; have open opportunities for my social connections to join events/activities. Inclusivity is limited to &lt;strong&gt;my own social network&lt;/strong&gt; (i.e. I&#39;m not at the moment interested in organizing public events); this includes connections of varying strength -- ranging from my closest friends; developing friendships; new connections. Can also be open to friends of friends (though I am not thinking much about this case). My hope is that by opening up events to a broad range of people in my social circle, I open the way for my own connections with these friends to develop and flourish, as well as for new connections between friends in my circle to develop and flourish. Strengthening networks of connections form community. Having an open invite allows for people to self-select their participation without feeling pressure that declining any one invite would lose them a chance to receive a future invite. (&amp;lt;-- amongst other reasons; to be expanded on I think)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Current thinking of an approach: send direct invite to friends who I know would be specifically interested; then share out more broadly as a soft invite via Instagram story&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This is my current solution to experiment, but I do not see it as a true solution. Instagram story approach is not fully-inclusive because:
+&lt;ol&gt;
+&lt;li&gt;some people simply do not use Instagram;&lt;/li&gt;
+&lt;li&gt;Stories are short-lived, so someone may not see the posting on time;&lt;/li&gt;
+&lt;li&gt;Stories approach relies on people consistently checking Instagram&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;, which frankly I do not think people should have any additional pressure to do so, given the general negatives of social media.&lt;/li&gt;
+&lt;li&gt;Related to the previous points: People do not really think of Instagram stories as a place to receive event invites. They may not be in a state of mind for thinking about invites / social activities when they are browsing stories --&amp;gt; even if I surface an event via story, it may not be the right time for them to receive it. People may not think of stories as a time-sensitive thing; i.e. they may not expect that they may miss an invite to a social activity if they are not consistently checking their stories.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;The above points about why Instagram stories are not an ideal approach is a primary reason in why I was brainstorming+prototyping on creating an app for spontaneous social plans (&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/idea-spontaneous-plans/idea-spontaneous-plans/&quot;&gt;Idea - Spontaneous Plans&lt;/a&gt;). But, I paused that project idea because I realized I should first try the solutions available to me. So I am trying and learning.&lt;/li&gt;
+&lt;li&gt;Those listed flaws aside, Instagram story has pretty broad reach and there is generally high visibility (specifically I am applying this to my &amp;quot;close friends&amp;quot; story which I&#39;ve added anyone fitting my criteria of being in my &#39;social circle&#39; -- this essentially equates to people who are not strangers to me and who I am comfortable hanging out with) -- so it may be a decent solution.&lt;/li&gt;
+&lt;li&gt;Of course there are other possible approaches to explore as well.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;unless they have notifications turned on for a specific user&#39;s stories, though personally the notifications aren&#39;t even consistent when I&#39;ve tried to do this &lt;a href=&quot;https://briancherin.github.io/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/lifestyle/social/thoughts-on-casual-open-social-invites/" //>
+        </entry>
+        <entry>
+            <title>
+                Hosting Gatherings
+                
+            </title>
+            <updated>2026-06-20T03:39:50.000Z</updated>
+            <id>https://briancherin.github.io/lifestyle/social/hosting-gatherings/</id>
+            <content type="html">
+                &lt;p&gt;Hosting gatherings is a way to foster connections and cultivate community. This can apply to existing long-term friendships, and to more newly developing ones.&lt;/p&gt;
+&lt;p&gt;Living in New York City, I often meet new people while participating in various activities, groups, and social spaces. I strongly value being able to bring people together. It&#39;s really great to be able to introduce people from different circles to each other and see what commonalities may be found and what connections may be made.&lt;/p&gt;
+&lt;p&gt;I would say that fostering connections and cultivating community is one of my core values and goals. It&#39;s one of those things I feel I will be doing my whole life.&lt;/p&gt;
+&lt;p&gt;Related:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Notes on a book about the logistics and philosophy of hosting small gatherings: &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/&quot;&gt;The 2-Hour Cocktail Party by Nick Gray&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/lifestyle/social/hosting-gatherings/" //>
         </entry>
         <entry>
             <title>
