@@ -1528,3 +1528,7 @@ And I had it generate a plan after I voice recorded my current fridge+pantry sto
 
 Something I want to keep an eye on is making sure it gets me prepping the right kinds of vegetables and greens so I fit those in for hitting the Greger Daily Dozen. The first plan it outputted did refer to those ingredients (cruciferous vegetables and greens) but, for example, there wasn't a prep step for cooking a certain type of greens which I wish it did because I am not great at knowing how to prep greens. Of course, I didn't explicitly mention this anywhere at all, so maybe I should in the future.
 
+
+___
+6/21/2026
+Experimenting with the idea of scraping the captions from Tiktok videos of someone who makes vegan what-i-ate-in-a-day videos, as a source for the AI to pull inspiration/meal concepts from.
