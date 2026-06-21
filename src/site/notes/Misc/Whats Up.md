@@ -15,6 +15,8 @@ What's up. What's going on. What am I doing, reading, interesting stuff to share
 	- [Hank Green - "What is 'Slop' (and why it gives me hope)"](https://www.youtube.com/watch?v=dT5IJExTUR4) - The 'hope' part is that as low-effort AI generated content becomes easier to make and thus there is more of it (this is the "slop"), real human effort will become the more scarce thing and thus people will appreciate the value of human effort more.
 - Podcasts
 	- [[Media I Have Consumed/Podcasts/Skeptics Guide to the Universe#Episode 1087\|Skeptics Guide to the Universe#Episode 1087]]  
+- Blogs
+	- I found a blog called "Escaping Flatland", specifically because of this [dating advice article](https://www.henrikkarlsson.xyz/p/looking-for-alice) which is resonating strongly with me, but I think I'm also going to enjoy many of the other blog posts/topics.
 - Theater
 	- Saw a production of the play Uncle Vanya (first time seeing it) by the Hudson Classical Theater Company. They perform in a park. Nice to be outside although it is a low budget production.
 - Music
