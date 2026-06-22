@@ -2,48 +2,29 @@
 {"dg-publish":true,"permalink":"/misc/whats-up/","title":"What's Up"}
 ---
 
-What's up. What's going on. What am I doing, reading, interesting stuff to share that I don't feel like making a separate page for. Kind of a duplicate of [[Misc/Random Snippets\|Random Snippets]], not sure which will prevail. Also I don't expect myself to keep this super regularly updated or at all comprehensive of my activity - but it's a place to put stuff that I find noteworthy.
-
+What's up. What's going on. What am I doing, reading, interesting stuff to share that I don't feel like making a separate page for.^[It's kind of similar to [[Misc/Random Snippets\|Random Snippets]], but that one is more for random quotes/articles that I want to save or comment on but not necessarily find important enough to call out for time chunk of time.] I don't expect myself to keep this super regularly updated or fully comprehensive of my activity - but it's a place to put stuff that I find noteworthy.
 
 ### June 2026
 - Doings
-	- I sewed a button back onto my shorts. Huge news, I know. First time doing this. Needle and thread. Followed youtube vids. Haven't worn them yet but hopefully it's stable.
-	- I went on a [[Lifestyle/Foraging/6-6-2026 Foraging tour with Wildman Steve Brill\|6-6-2026 Foraging tour with Wildman Steve Brill]] -- foraged plants in Central Park. Great experience! I'm excited to become more confident on identifying the plants we saw.
-	- Finally got my [[Interests/Music/Record player\|record player]] set up. I had the record player but no amp/speakers for it. I bought "ART DJPREII Phono Preamplifier" from Amazon and then got some old computer speakers which my dad had lying around. I've had the record player itself for almost a year -- it was  a curbside find from my parents' neighborhood.
+	- I sewed a button back onto my shorts. Huge news, I know. First time doing this. Needle and thread. Followed youtube vids.
+	- I went on a [[Lifestyle/Foraging/6-6-2026 Foraging tour with Wildman Steve Brill\|Foraging tour with Wildman Steve Brill]] - foraged (and ate) plants in Central Park. Great experience! I'm excited to become more confident on identifying the plants we saw.
+	- Finally got my [[Interests/Music/Record player\|record player]] set up. I already had the record player but no amp/speakers for it. I bought "ART DJPREII Phono Preamplifier" from Amazon and then took some old computer speakers which my dad had lying around. I've had the record player itself for almost a year -- it was a curbside find from my parents' neighborhood. Now I can actually play records on it!
 	- I'm building back up some [[Interests/Dreams/On Dream Recall\|dream recall]], which is why I've been making some [[Interests/Dreams/The instinct to lick the ground\|recent]] [[Interests/Dreams/Having well-defined goals for skill of dreaming\|notes]] about dreams.
-- Videos
+- Blogs / videos / podcasts
 	- [Hank Green - "What is 'Slop' (and why it gives me hope)"](https://www.youtube.com/watch?v=dT5IJExTUR4) - The 'hope' part is that as low-effort AI generated content becomes easier to make and thus there is more of it (this is the "slop"), real human effort will become the more scarce thing and thus people will appreciate the value of human effort more.
-- Podcasts
-	- [[Media I Have Consumed/Podcasts/Skeptics Guide to the Universe#Episode 1087\|Skeptics Guide to the Universe#Episode 1087]]  
-- Blogs
+	- Podcast:  [[Media I Have Consumed/Podcasts/Skeptics Guide to the Universe#Episode 1087\|Skeptics Guide to the Universe#Episode 1087]]  
 	- I found a blog called "Escaping Flatland", specifically because of this [dating advice article](https://www.henrikkarlsson.xyz/p/looking-for-alice) which is resonating strongly with me, but I think I'm also going to enjoy many of the other blog posts/topics.
 - Theater
 	- Saw a production of the play Uncle Vanya (first time seeing it) by the Hudson Classical Theater Company. They perform in a park. Nice to be outside although it is a low budget production.
+	- Saw a free production of Shakespear's *Tragedy of Julius Caesar* performed by NY Classical in Central Park. It was very well done, and an enjoyable show! It was semi-immersive because they had us walk+settle to different (near) locations in the park for different scenes of the performance. Similar to [[Media I Have Consumed/Theater/Into the Woods - Sondheim (1986)#Into the Woods - Sternfeld Studio Immersive Show\|Into the Woods Immersive Performance]] (though the ITW experience was much more epic in my opinion).
 - Music
 	- Loving the song "Each Time I Die" by Bones & Beaker. (Title sounds morbid but it's more reincarnation-esque.) The rest of their album doesn't really resonate with me though.
 	- I saw Larry and His Flask live! [[Media I Have Consumed/Music/Larry and His Flask#June 2026 Concert\|Larry and His Flask#June 2026 Concert]]
 
-### May 2026
-- Articles:
-	- Article I found via [[Media I Have Consumed/Misc/Makoism (blog) posts\|Makoism]] (which seems to be my new favorite blog lately -- or at least I've really liked the links that he posts): [Why I'm Not Worried About Running Out of Work in the Age of AI](https://www.kellblog.com/why-im-not-worried-about-running-out-of-work-in-the-age-of-ai/)- Standout part to me: `You want to be driving the tools, not driven by them. Aggressively learn AI. Be the person who knows the most about solving problems using AI tools — integrating them, automating workflows. Not just generating content.` Maybe kind of obvious, but I feel it's good to highlight. More specific to the title of the article, it talks about how AI will make work happen faster (and unfortunately possibly make less workers necessary. though I feel this depends on the industry) but it doesn't mean there will be less work to do -- this aligns with my feeling of how AI is speeding up our work at least in my job.
-	- **I really want to read this article** but haven't gotten around to it yet. I'm kind of scared (in a nervous-good way), it poses itself as being mind-changing.  https://letters.thedankoe.com/p/why-your-life-feels-fake-an-antidote (also found from Makoism)
-		- Update: I read this. Did not need to be scared. It did not really resonate with me, though I will be thinking a bit about its points. Mostly the problem is I think I've mostly evolved already from the issues it brings up (but I do feel it can be valuable to people who need to hear it). Took (non-comprehensive) notes here: [[Media I Have Consumed/Misc/"Why your life feels fake"\|"Why your life feels fake"]].
-	- Blog post: ["NES, SNES, Genesis, VirtualBoy, and PSX | A journey with AI and Recompilation"](https://1379.tech/nes-snes-genesis-virtualboy-and-psx-a-journey-with-ai-and-recompilation/) - interesting quick read about someone's project of creating recompilations of some retro consoles. Interesting to see LLMs (Claude cli specifically) with a project like this.
-- Books:
-	- Starting to re-read *The Left Hand of Darkness* for my bookclub. Ursula K. Leguin is one of my favorites. Taking notes: [[Media I Have Consumed/Books/Fiction/The Left Hand of Darkness (Ursula K. Le Guin)\|The Left Hand of Darkness (Ursula K. Le Guin)]]
-	- Also semi re-reading *Beyond Beliefs* by Melanie Joy - it's basically about how to help make personal relationships work between vegans and non-vegans, though it also just has some great relationship advice in general (and I feel the advice on relationships and vegan/non-vegan relationships applies to friends and family too, though perhaps the most important one would be the romantic relationship / life partner).
-- Theater:
-	- Saw an off-off-Broadway show. Notes: [[Media I Have Consumed/Theater/Specimen (2026)\|Specimen (2026)]]
-	- Saw Dave Malloy's latest musical: [[Media I Have Consumed/Theater/Mini Theater Reviews#Black Swan (2026)\|Black Swan]]
-- Podcasts:
-	- Indie Hackers podcast helping me think about asking potential users questions for an app idea: [[Media I Have Consumed/Podcasts/Indie Hackers Podcast/The Right Way to Talk to People About Your Business - Indie Hackers Podcast\|The Right Way to Talk to People About Your Business - Indie Hackers Podcast]]
-	- Listened to "Did Shakesepare really write all that stuff" on the *Stuff You Should Know* Podcast. Interesting listen.
 
-### April 2026
-- Listened to part of an episode of the podcast called "Sceptic's Guide to the Universe" (episode #1079). I've been following this podcast for a while but never listened to an episode. I like it. More of a conversation about different topics, with an intellectual/academic tone. e.g. this episode jumped from discussing a) hygiene during medieval times, b) a logical fallacy called "fundamental attribution error", c) agricultural science related to photosynthesis. (And that was just barely half of the episode.) Long episodes. I have a feeling I'll be listening to this podcast more often.
-- Another podcast I've been listening to (on walks) is "The Bowery Boys", which covers interesting tidbits of NYC history. Listened to 1) about the construction of an underwater railway across the Hudson River, 2) about the 'scandal' surrounding Robert Ray Hamilton (grandson of Alexander Hamilton), 3) about the Great Fire of 1835 which destroyed hundreds of buildings, 4) about the Ellis Island processing center and hospital. All very interesting listens. 
-- Saw [[Media I Have Consumed/Theater/Mini Theater Reviews#The Lost Boys (2026)\|The Lost Boys]] (musical) on Broadway
-- Listened to the new Foo Fighters album ("Your Favorite Toy") and I liked it after listening through once. I just read some threads on reddit of people's reactions, and it seems people are underwhelmed at it. I think I can see why, but I still enjoyed the listen and would listen to the songs again. For what it's worth, my exposure to Foo Fighters is pretty much only the album "Wasting Light" and even looking at the track list from that, the only songs that are close to my heart are "These Days" (probably my most-listened-to song of theirs) and "Arlandria". I indeed should explore their stuff more. Anyway, the new album felt similar to what I knew their sound to be from Wasting Light, in a good way, so it makes sense that I liked it.
-- I obtained a free book called "The Marquis de Sade: the complete Justine / Philosophy in the bedroom / and other writings". I selected it because it seemed it could be an interesting philosophy book to have on my bookshelf of physical books that I barely (but sometimes!) look at (because I'm an e-book guy through and through). I just now read the Forward to the book, and this Sade guy seems to be pretty interesting. Apparently a masterful writer who was ostracized (maybe?) and jailed (for some reason) and wrote a lot, almost with the intention of seeing how far he could push the limits of ideas that go against all societal norms. I'm almost scared to see what that means, but I'm also intrigued. I get a kick out of people going against the grain (but I get the feeling this may go waaaay farther than what is probably my own wholesome version of "going against the grain", so I'm definitely not trying to make any claims about his work before I have any idea what it contains). Not sure if or when I will read more of this, but it will be on my shelf, with mysteries to be discovered.
-- Listened to "Cardboard Castles" (album) by Watsky (pop rap). I like it, will listen more. Spotify suggested a song from it after I was listening to Flobots (conscious hip hop). Added it to my current playlist of albums I like / want to listen to more (similar to what I was describing in [[Media I Have Consumed/Music/2025 Music Retrospective\|2025 Music Retrospective]])
-- Working through Book Four of [[Media I Have Consumed/Books/Fiction/War and Peace by Leo Tolstoy\|War and Peace]] - exciting times (seriously, I'm being slow at reading it, but the plot/character developments are exciting)
+
+#### Past months:
+- [[Misc/What Was Up/May 2026\|May 2026]]
+- [[Misc/What Was Up/April 2026\|April 2026]]
+
+{ .block-language-dataview}
