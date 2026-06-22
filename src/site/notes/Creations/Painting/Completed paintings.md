@@ -12,6 +12,11 @@ February 2, 2024
 <img src="Assets/Completed%20Paintings/painting-08.jpg" height="500" alt="Painting">
 December 23, 2023
 
+## Title Placeholder
+
+<img src="Assets/Completed%20Paintings/painting-11.jpg" height="500" alt="Painting">
+October 18, 2023
+
 ## Friends in Nature
 
 <img src="Assets/Completed%20Paintings/painting-07.jpg" height="500" alt="Painting">
