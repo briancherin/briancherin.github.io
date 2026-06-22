@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" //>
     <link href="https://briancherin.github.io" //>
-    <updated>2026-06-22T19:05:35Z</updated>
+    <updated>2026-06-22T19:14:27Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -6688,10 +6688,25 @@ Eighth grade assignment. Can you guess what this is about?&lt;/p&gt;
                 Scrappy Paintings
                 
             </title>
-            <updated>2026-06-22T19:04:53.000Z</updated>
+            <updated>2026-06-22T19:13:51.000Z</updated>
             <id>https://briancherin.github.io/creations/painting/scrappy-paintings/</id>
             <content type="html">
-                
+                &lt;h2 id=&quot;title-placeholder&quot; tabindex=&quot;-1&quot;&gt;Title Placeholder&lt;/h2&gt;
+&lt;p&gt;Date: 2025-01-29&lt;/p&gt;
+&lt;img src=&quot;https://briancherin.github.io/Assets/Scrappy%20Paintings/scrappy-painting-01.jpg&quot; height=&quot;320&quot; alt=&quot;Painting&quot; /&gt;
+&lt;h2 id=&quot;title-placeholder-1&quot; tabindex=&quot;-1&quot;&gt;Title Placeholder&lt;/h2&gt;
+&lt;p&gt;Date: 2024-02-01&lt;/p&gt;
+&lt;img src=&quot;https://briancherin.github.io/Assets/Scrappy%20Paintings/scrappy-painting-02.jpg&quot; height=&quot;320&quot; alt=&quot;Painting&quot; /&gt;
+&lt;h2 id=&quot;title-placeholder-2&quot; tabindex=&quot;-1&quot;&gt;Title Placeholder&lt;/h2&gt;
+&lt;p&gt;Date: 2023-11-14&lt;/p&gt;
+&lt;img src=&quot;https://briancherin.github.io/Assets/Scrappy%20Paintings/scrappy-painting-03.jpg&quot; height=&quot;320&quot; alt=&quot;Painting&quot; /&gt;
+&lt;h2 id=&quot;title-placeholder-3&quot; tabindex=&quot;-1&quot;&gt;Title Placeholder&lt;/h2&gt;
+&lt;p&gt;Date: 2023-11-14&lt;/p&gt;
+&lt;img src=&quot;https://briancherin.github.io/Assets/Scrappy%20Paintings/scrappy-painting-04.jpg&quot; height=&quot;320&quot; alt=&quot;Painting&quot; /&gt;
+&lt;h2 id=&quot;title-placeholder-4&quot; tabindex=&quot;-1&quot;&gt;Title Placeholder&lt;/h2&gt;
+&lt;p&gt;Date: 2023-10-18&lt;/p&gt;
+&lt;img src=&quot;https://briancherin.github.io/Assets/Scrappy%20Paintings/scrappy-painting-05.jpg&quot; height=&quot;320&quot; alt=&quot;Painting&quot; /&gt;
+
             </content>
             <link href="https://briancherin.github.io/creations/painting/scrappy-paintings/" //>
         </entry>
@@ -6700,7 +6715,7 @@ Eighth grade assignment. Can you guess what this is about?&lt;/p&gt;
                 Completed paintings
                 
             </title>
-            <updated>2026-06-22T19:04:53.000Z</updated>
+            <updated>2026-06-22T19:13:51.000Z</updated>
             <id>https://briancherin.github.io/creations/painting/completed-paintings/</id>
             <content type="html">
                 &lt;h2 id=&quot;silly-slug&quot; tabindex=&quot;-1&quot;&gt;Silly Slug&lt;/h2&gt;
@@ -6709,6 +6724,9 @@ February 2, 2024
 &lt;h2 id=&quot;freshman-move-out&quot; tabindex=&quot;-1&quot;&gt;Freshman Move-Out&lt;/h2&gt;
 &lt;img src=&quot;https://briancherin.github.io/Assets/Completed%20Paintings/painting-08.jpg&quot; height=&quot;500&quot; alt=&quot;Painting&quot; /&gt;
 December 23, 2023
+&lt;h2 id=&quot;title-placeholder&quot; tabindex=&quot;-1&quot;&gt;Title Placeholder&lt;/h2&gt;
+&lt;img src=&quot;https://briancherin.github.io/Assets/Completed%20Paintings/painting-11.jpg&quot; height=&quot;500&quot; alt=&quot;Painting&quot; /&gt;
+October 18, 2023
 &lt;h2 id=&quot;friends-in-nature&quot; tabindex=&quot;-1&quot;&gt;Friends in Nature&lt;/h2&gt;
 &lt;img src=&quot;https://briancherin.github.io/Assets/Completed%20Paintings/painting-07.jpg&quot; height=&quot;500&quot; alt=&quot;Painting&quot; /&gt;
 February 18, 2023
