@@ -136,3 +136,7 @@ Two girls were filming during the tour for a documentary. Past work - (freegan f
 From an interview with Steve Brill https://www.eatweeds.co.uk/ep17
 >And with the root, I slice it thinly, and then I steam it for 20 minutes over vegetable stock. And then I put it in the kind of marinade that is used for beef jerky. So it’s apple cider vinegar, tamari soy sauce, fresh apple juice, cloves … what else goes in there? Garlic that is peeled, but not cut, which makes it much more mild than the cut garlic. And then I bake it and it gets drier and chewier. And when it’s about the level of beef jerky, I stop, and it’s really delicious.
 
+
+#### Extra paint painting
+I needed to use up some leftover paint after a short session of working on [[Media I Have Consumed/Movies/Pools (2025)#Paint a picture\|Pools (2025)#Paint a picture]]. I like to make something quick and rough so I don't waste the paint, and it's fun, and a little bit extra practice. Usually I scroll through recent pictures I've taken and pick something to paint. This time, I scrolled and landed on a pic of the Wildman and so made this little thing.
+![Pasted image 20260621211851.png](/img/user/Lifestyle/Foraging/Assets/Pasted%20image%2020260621211851.png)
