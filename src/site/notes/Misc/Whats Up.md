@@ -8,6 +8,7 @@ What's up. What's going on. What am I doing, reading, interesting stuff to share
 - Doings
 	- I sewed a button back onto my shorts. Huge news, I know. First time doing this. Needle and thread. Followed youtube vids.
 	- I went on a [[Lifestyle/Foraging/6-6-2026 Foraging tour with Wildman Steve Brill\|Foraging tour with Wildman Steve Brill]] - foraged (and ate) plants in Central Park. Great experience! I'm excited to become more confident on identifying the plants we saw.
+	- I've finally gone back to the sketch I made in January for [[Media I Have Consumed/Movies/Pools (2025)#Paint a picture\|Pools (2025)#Paint a picture]] and have started painting it (still in progress).
 	- Finally got my [[Interests/Music/Record player\|record player]] set up. I already had the record player but no amp/speakers for it. I bought "ART DJPREII Phono Preamplifier" from Amazon and then took some old computer speakers which my dad had lying around. I've had the record player itself for almost a year -- it was a curbside find from my parents' neighborhood. Now I can actually play records on it!
 	- I'm building back up some [[Interests/Dreams/On Dream Recall\|dream recall]], which is why I've been making some [[Interests/Dreams/The instinct to lick the ground\|recent]] [[Interests/Dreams/Having well-defined goals for skill of dreaming\|notes]] about dreams.
 - Blogs / videos / podcasts
