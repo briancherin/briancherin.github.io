@@ -58,3 +58,7 @@ June 7, 2019
 
 ![Assets/painting-01.jpg|500](/img/user/Creations/Painting/Assets/painting-01.jpg)
 February 11, 2019
+
+Watercolor (which I don't do much of anything in really, at least as of 2026 when I'm adding this.)
+
+My favorite parts of this are 1) the silhouette of Peter Pan against the moon and the cloud that seems to be bursting from his hand and which goes behind the clocktower; and 2) the little boy and his teddy bear. I look at these and am kind of astounded and amazed that I actually made those parts look as good as (I at least think) they are. Of course, I drew/painted this from a reference image, so I'm not saying I'm amazing at my composition of it, but just of the ability to mimic it.
