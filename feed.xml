@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" //>
     <link href="https://briancherin.github.io" //>
-    <updated>2026-06-27T20:01:22Z</updated>
+    <updated>2026-06-27T21:43:33Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -134,6 +134,21 @@ document.getElementById(&quot;random-note-button&quot;)
 
             </content>
             <link href="https://briancherin.github.io/projects/software/mini-projects/restaurant-ai-vr-simulation/" //>
+        </entry>
+        <entry>
+            <title>
+                Ohmyrockness genre enhancer
+                
+            </title>
+            <updated>2026-06-27T21:42:57.000Z</updated>
+            <id>https://briancherin.github.io/projects/software/mini-projects/ohmyrockness-genre-enhancer/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a href=&quot;https://www.ohmyrockness.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Oh My Rockness&lt;/a&gt; is a website that lists music shows in NYC. It also lets you filter by shows that are free to attend. I&#39;ve never actually attended a show through the site, but I&#39;ve wanted to. My one qualm with it is that it does not easily show the genre of the bands or a description of the kind of music they play. There are so many event listings that it&#39;s hard to make a choice of which I might be interested in.&lt;/p&gt;
+&lt;p&gt;For a while, I&#39;ve had an idea floating in my mind to create some way to easily tell what the genres of the bands are.&lt;/p&gt;
+&lt;p&gt;Today I decided to have an AI coding session to come up with a solution. And it worked out pretty well!&lt;/p&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/projects/software/mini-projects/ohmyrockness-genre-enhancer/" //>
         </entry>
         <entry>
             <title>
@@ -684,7 +699,7 @@ With the snap of a finger:&lt;/p&gt;
                 Whats Up
                 
             </title>
-            <updated>2026-06-22T01:52:51.000Z</updated>
+            <updated>2026-06-27T21:42:57.000Z</updated>
             <id>https://briancherin.github.io/misc/whats-up/</id>
             <content type="html">
                 &lt;p&gt;What&#39;s up. What&#39;s going on. What am I doing, reading, interesting stuff to share that I don&#39;t feel like making a separate page for.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; I don&#39;t expect myself to keep this super regularly updated or fully comprehensive of my activity - but it&#39;s a place to put stuff that I find noteworthy.&lt;/p&gt;
@@ -716,6 +731,7 @@ With the snap of a finger:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Loving the song &amp;quot;Each Time I Die&amp;quot; by Bones &amp;amp; Beaker. (Title sounds morbid but it&#39;s more reincarnation-esque.) The rest of their album doesn&#39;t really resonate with me though.&lt;/li&gt;
 &lt;li&gt;I saw Larry and His Flask live! &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/music/larry-and-his-flask/#june-2026-concert&quot;&gt;Larry and His Flask#June 2026 Concert&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Saw &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/music/streetlight-manifesto/&quot;&gt;Streetlight Manifesto&lt;/a&gt; live at the Stone Pony in Asbury Park! Really fun concert (it&#39;s my fifth time seeing them live). They were opened by a band called Whilhelm Screem, and then &lt;em&gt;The Aquabats!&lt;/em&gt;. Aquabats was really fun (I had listened to some of their songs in the past).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
