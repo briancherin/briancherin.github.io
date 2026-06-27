@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" //>
     <link href="https://briancherin.github.io" //>
-    <updated>2026-06-27T21:43:33Z</updated>
+    <updated>2026-06-27T22:08:44Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -149,6 +149,29 @@ document.getElementById(&quot;random-note-button&quot;)
 
             </content>
             <link href="https://briancherin.github.io/projects/software/mini-projects/ohmyrockness-genre-enhancer/" //>
+        </entry>
+        <entry>
+            <title>
+                Oh My Rockness Genre Enrichment
+                
+            </title>
+            <updated>2026-06-27T22:08:10.000Z</updated>
+            <id>https://briancherin.github.io/projects/software/mini-projects/oh-my-rockness-genre-enrichment/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a href=&quot;https://www.ohmyrockness.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Oh My Rockness&lt;/a&gt; is a website that lists music shows in NYC. It also lets you filter by shows that are free to attend. I&#39;ve never actually attended a show through the site, but I&#39;ve wanted to.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Mini%20Projects/Assets/ohmyrockness.png&quot; alt=&quot;ohmyrockness.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;My one qualm with it is that it does not easily show the genre of the bands or a description of the kind of music they play. There are so many event listings that it&#39;s hard to make a choice of which I might be interested in.&lt;/p&gt;
+&lt;p&gt;For a while, I&#39;ve had an idea floating in my mind to create some way to easily tell what the genres of the bands are.&lt;/p&gt;
+&lt;p&gt;Today I decided to have an AI coding session to come up with a solution. And it worked out pretty well!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Mini%20Projects/Assets/ohmyrocknessenrichment.png&quot; alt=&quot;ohmyrocknessenrichment.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It scrapes from ohmyrockness as you flip through the dates, and pulls genre data from Spotify and &lt;a href=&quot;http://last.fm/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Last.fm&lt;/a&gt;. Also includes a convenient link to the artist in Spotify. It took about an hour to spin this up.&lt;/p&gt;
+&lt;p&gt;It&#39;s locally only, and currently I don&#39;t plan to host it anywhere, but we&#39;ll see. For one thing, I&#39;d worry that ohmyrockness would not be happy about a mirror of their site. Maybe a browser extension to augment the existing ohmyrockness site with genre data would be better than hosting a standaline webapp. But for now, this tool perhaps will be useful to me. (I do sense there is a flaw for my local setup in that it must be run on my laptop, and there may be times when I want to know about current music events from my phone while I&#39;m on-the-go. Maybe I&#39;ll be motivated to host this somewhere small just for my own use.)&lt;/p&gt;
+&lt;p&gt;Anyone can set this up locally if desired -- you just need a Spotify and/or &lt;a href=&quot;http://last.fm/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Last.FM&lt;/a&gt; API key. Note that Spotify API requires a premium account, but &lt;a href=&quot;http://last.fm/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Last.FM&lt;/a&gt; is free and it should work with just that.&lt;/p&gt;
+&lt;p&gt;Note - this may be buggy and imperfect. Haven&#39;t tested it thoroughly.&lt;/p&gt;
+&lt;p&gt;Code is on Github: &lt;a href=&quot;https://github.com/briancherin/ohmyrockness-genre-enrichment&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://github.com/briancherin/ohmyrockness-genre-enrichment&lt;/a&gt;&lt;/p&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/projects/software/mini-projects/oh-my-rockness-genre-enrichment/" //>
         </entry>
         <entry>
             <title>
