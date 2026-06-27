@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/lifestyle/veganism/veganism/"}
 ---
 
+I've been vegan since around 2020. My reasons for staying vegan include the health benefits, an opposition to animal exploitation, and the environmental benefits. Read [[Lifestyle/Cooking/On Cooking - Veganism and Whole-Food Plant-Based Diet\|On Cooking - Veganism and Whole-Food Plant-Based Diet]] for some more description of my journey.
+
 Notes about veganism:
 - [[Lifestyle/Veganism/Asked Why Am I Vegan\|Asked Why Am I Vegan]]
 - [[Lifestyle/Veganism/Animal Agriculture As An Atrocity\|Animal Agriculture As An Atrocity]]
