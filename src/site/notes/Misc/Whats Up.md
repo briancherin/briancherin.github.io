@@ -21,7 +21,8 @@ What's up. What's going on. What am I doing, reading, interesting stuff to share
 - Music
 	- Loving the song "Each Time I Die" by Bones & Beaker. (Title sounds morbid but it's more reincarnation-esque.) The rest of their album doesn't really resonate with me though.
 	- I saw Larry and His Flask live! [[Media I Have Consumed/Music/Larry and His Flask#June 2026 Concert\|Larry and His Flask#June 2026 Concert]]
-	- Saw [[Media I Have Consumed/Music/Streetlight Manifesto\|Streetlight Manifesto]] live at the Stone Pony in Asbury Park! Really fun concert (it's my fifth time seeing them live). They were opened by a band called Whilhelm Screem, and then *The Aquabats!*. Aquabats was really fun (I had listened to some of their songs in the past). 
+	- Saw [[Media I Have Consumed/Music/Streetlight Manifesto\|Streetlight Manifesto]] live at the Stone Pony in Asbury Park! Really fun concert (it's my fifth time seeing them live). They were opened by a band called Whilhelm Screem, and then *The Aquabats!*. Aquabats was really fun (I had listened to some of their songs in the past).
+	- Right after I coded up a quick little project, [[Projects/Software/Mini Projects/Oh My Rockness Genre Enrichment\|Oh My Rockness Genre Enrichment]], I used it and went to see some live music by two bands called *Um, Jennifer?* and *Dune Blue*.
 
 
 
