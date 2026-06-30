@@ -4,6 +4,8 @@ const path = require("path");
 const { spawnSync } = require("child_process");
 const matter = require("gray-matter");
 const MarkdownIt = require("markdown-it");
+const slugify = require("@sindresorhus/slugify");
+const { headerToId } = require("../src/helpers/utils");
 
 const REPO_ROOT = process.cwd();
 const OUTPUT_DIR = path.join(REPO_ROOT, "dist");
@@ -20,6 +22,8 @@ const MAX_CHARS_PER_SEGMENT = 1000;
 const ALLOWED_MODES = new Set(["rendered", "markdown"]);
 const SPOILER_TAG_RE = /^\s*(?:>+\s*)?\[!DANGER\]\s*Spoilers ahead\.?\s*$/i;
 const SPOILER_END_TAG_RE = /^\s*(?:>+\s*)?\[!success\]\s*End of spoilers\.?\s*$/i;
+const WIKILINK_RE = /\[\[([^\]]+)\]\]/g;
+const noteLinkCache = new Map();
 
 const md = new MarkdownIt({
   html: true,
@@ -67,6 +71,67 @@ function htmlEscape(s) {
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
+}
+
+function splitWikilinkTarget(rawTarget) {
+  const target = String(rawTarget || "");
+  const pipeIndex = target.indexOf("|");
+  if (pipeIndex >= 0) {
+    return [target.slice(0, pipeIndex), target.slice(pipeIndex + 1)];
+  }
+  return [target, ""];
+}
+
+function cleanWikilinkPart(value) {
+  return String(value || "").replace(/\\\|/g, "|").replace(/\\/g, "").trim();
+}
+
+function resolveNotePermalink(filePath) {
+  const fileName = String(filePath || "").replaceAll("&amp;", "&").trim();
+  if (!fileName) return "/404";
+  if (noteLinkCache.has(fileName)) return noteLinkCache.get(fileName);
+
+  const fullPath = path.join(
+    REPO_ROOT,
+    NOTES_PREFIX,
+    fileName.endsWith(".md") ? fileName : `${fileName}.md`
+  );
+  let permalink = "/404";
+  try {
+    const parsed = matter(fs.readFileSync(fullPath, "utf8"));
+    permalink = parsed.data.permalink || `/notes/${slugify(fileName)}`;
+    if (parsed.data.tags && parsed.data.tags.indexOf("gardenEntry") !== -1) {
+      permalink = "/";
+    }
+  } catch {
+    permalink = "/404";
+  }
+
+  noteLinkCache.set(fileName, permalink);
+  return permalink;
+}
+
+function renderWikilinksAsHtml(text) {
+  return String(text || "").replace(WIKILINK_RE, (match, rawTarget) => {
+    if (rawTarget.includes("],[") || rawTarget.includes('"$"')) {
+      return match;
+    }
+
+    const [rawFileLink, rawTitle] = splitWikilinkTarget(rawTarget);
+    const fileLink = cleanWikilinkPart(rawFileLink);
+    const title = cleanWikilinkPart(rawTitle) || fileLink;
+    let fileName = fileLink;
+    let headerLinkPath = "";
+
+    if (fileLink.includes("#")) {
+      const parts = fileLink.split("#");
+      fileName = parts.shift();
+      headerLinkPath = `#${headerToId(parts.join("#"))}`;
+    }
+
+    const href = `${resolveNotePermalink(fileName)}${headerLinkPath}`;
+    return `<a href="${htmlEscape(href)}">${htmlEscape(title)}</a>`;
+  });
 }
 
 function runGitRaw(args, allowEmpty = false) {
@@ -344,7 +409,7 @@ function buildExcerptBlocksFromPatch(patch, maxBlocks = 2, maxLinesPerBlock = 14
 
 function renderLineText(text) {
   if (!text || !String(text).trim()) return "";
-  return md.render(String(text).trim());
+  return md.render(renderWikilinksAsHtml(String(text).trim()));
 }
 
 function truncateText(text, maxChars = MAX_CHARS_PER_SEGMENT) {
