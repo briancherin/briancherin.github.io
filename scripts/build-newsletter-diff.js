@@ -16,7 +16,7 @@ const NOTES_PREFIX = "src/site/notes/";
 const DEFAULT_DAYS = 7;
 const DEFAULT_MAX_LINES = 120;
 const DEFAULT_MODE = "rendered";
-const DEFAULT_SITE_BASE_URL = "";
+const DEFAULT_SITE_BASE_URL = "https://garden.briancher.in";
 const DEFAULT_TIME_ZONE = "America/New_York";
 const MAX_CHARS_PER_SEGMENT = 1000;
 const ALLOWED_MODES = new Set(["rendered", "markdown"]);
@@ -111,7 +111,7 @@ function resolveNotePermalink(filePath) {
   return permalink;
 }
 
-function renderWikilinksAsHtml(text) {
+function renderWikilinksAsHtml(text, siteBaseUrl = "") {
   return String(text || "").replace(WIKILINK_RE, (match, rawTarget) => {
     if (rawTarget.includes("],[") || rawTarget.includes('"$"')) {
       return match;
@@ -129,7 +129,7 @@ function renderWikilinksAsHtml(text) {
       headerLinkPath = `#${headerToId(parts.join("#"))}`;
     }
 
-    const href = `${resolveNotePermalink(fileName)}${headerLinkPath}`;
+    const href = toAbsoluteUrl(`${resolveNotePermalink(fileName)}${headerLinkPath}`, siteBaseUrl);
     return `<a href="${htmlEscape(href)}">${htmlEscape(title)}</a>`;
   });
 }
@@ -407,9 +407,9 @@ function buildExcerptBlocksFromPatch(patch, maxBlocks = 2, maxLinesPerBlock = 14
   return blocks.slice(0, maxBlocks);
 }
 
-function renderLineText(text) {
+function renderLineText(text, siteBaseUrl = "") {
   if (!text || !String(text).trim()) return "";
-  return md.render(renderWikilinksAsHtml(String(text).trim()));
+  return md.render(renderWikilinksAsHtml(String(text).trim(), siteBaseUrl));
 }
 
 function truncateText(text, maxChars = MAX_CHARS_PER_SEGMENT) {
@@ -609,6 +609,7 @@ function simplifySegments(segments) {
 function renderExcerptBlocksHtml(blocks, fullNoteUrl = "", options = {}) {
   const spoilerOmitted = Boolean(options.spoilerOmitted);
   const noteWordCount = Number(options.noteWordCount || 0);
+  const siteBaseUrl = options.siteBaseUrl || "";
   if (!blocks || blocks.length === 0) {
     return spoilerOmitted ? "" : '<p class="muted">No meaningful content snippet found for this update.</p>';
   }
@@ -661,7 +662,7 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "", options = {}) {
           return `<div class="${klass}">
             <div style="${segmentStyleFinal}">
               ${label ? `<div class="seg-label" style="font-size:12px;font-weight:700;line-height:1;margin:0 0 4px 0;color:#4b5563;">${label}</div>` : ""}
-              <div class="seg-body" style="font-size:14px;line-height:1.6;color:#1f2937;">${renderLineText(truncated.text)}${moreWordsHint}</div>
+              <div class="seg-body" style="font-size:14px;line-height:1.6;color:#1f2937;">${renderLineText(truncated.text, siteBaseUrl)}${moreWordsHint}</div>
             </div>
           </div>`;
         })
@@ -873,7 +874,7 @@ function renderHtml(model, days, mode, maxLines, includeDebug, siteBaseUrl) {
   ${folderBreadcrumb}
   <div class="meta" style="margin:0 0 8px 0;color:#6b7280;font-size:13px;line-height:1.3;"><span class="badge" style="display:inline-block;padding:2px 7px;border-radius:999px;background:#e8f0fe;color:#1e40af;font-weight:600;font-size:12px;">${statusLabel}</span>${changedDate ? ` <span class="meta-date" style="color:#6b7280;">&middot; ${changedDate}</span>` : ""}</div>
   ${spoilerNotice}
-  ${renderExcerptBlocksHtml(item.excerptBlocks, permalink, { spoilerOmitted: item.spoilerOmitted, noteWordCount: item.noteWordCount })}
+  ${renderExcerptBlocksHtml(item.excerptBlocks, permalink, { spoilerOmitted: item.spoilerOmitted, noteWordCount: item.noteWordCount, siteBaseUrl })}
   ${link}
   ${debug}
 </section>`;
