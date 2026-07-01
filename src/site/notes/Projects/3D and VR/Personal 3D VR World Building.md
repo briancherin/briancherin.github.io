@@ -19,3 +19,6 @@ I want want 3d environment building to be an art form, a kind of journaling and 
 >
 >Finally, protect the work over time. Use version control for text and metadata, archive assets carefully, and periodically “freeze” scenes by exporting models, videos, and written reflections. Start small—one room, one memory, one piece of music—and let the world grow organically. The result is not just a VR environment, but a durable, explorable record of your inner life that can evolve with you.
 
+
+Notes
+- Mainly this has been an idea for myself only, but if I make something I am willing to share, it could be cool to host it (or at least to it) on this digital garden so that visitors can explore these 3D scenes.
