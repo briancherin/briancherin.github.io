@@ -30,3 +30,6 @@ So yeah -- I've had this dream goal floating around in my mind for a while, and 
 #### Persistent Realms
 A key aspect of this dream goal is the idea of [[Interests/Dreams/Persistent Realms\|persistent realms]]. Building a civilization takes time! And probably many, many dream sessions. And that's the fun part. It's a long-term project. The world where I'm building civilization needs to be persistent across many dream sessions so that it can build up over time. Otherwise, it would be like building a Minecraft world, but every time you close the game, the entire world is wiped. You need to save the state of the world between sessions. That's the idea behind persistent realms.
 
+
+#### Related stuff
+- Youtube video: "[How To Make WIFI Starting With Only A Rock](https://www.youtube.com/watch?v=-NDMtkkaJ0E)" (channel: *Rune*). I came across this video, and it's what motivated me to add this page to my digital garden! It's a fun video and obviously reminded me of this dream goal.
