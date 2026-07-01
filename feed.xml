@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" //>
     <link href="https://briancherin.github.io" //>
-    <updated>2026-07-01T01:21:04Z</updated>
+    <updated>2026-07-01T01:52:55Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -566,7 +566,7 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
                 Personal 3D VR World Building
                 
             </title>
-            <updated>2025-12-22T03:10:28.000Z</updated>
+            <updated>2026-07-01T01:52:19.000Z</updated>
             <id>https://briancherin.github.io/projects/3-d-and-vr/personal-3-d-vr-world-building/</id>
             <content type="html">
                 &lt;p&gt;I&#39;ve had many ideas related to this topic. I can explain it in more depth in the future, but for right now I&#39;m just going to paste a tiny thought-stream question I asked ChatGPT and then the AI response. Just a little bit of ideating for something I know I want to spend more time on in the future.&lt;/p&gt;
@@ -580,6 +580,10 @@ You’re essentially building a long-lived personal &lt;strong&gt;spatial archiv
 &lt;p&gt;Music and sound should be treated as first-class elements of each scene, stored separately and documented alongside the visuals. When bringing paintings or fiction into 3D, focus on translating emotional and symbolic qualities rather than literal realism—lighting, spatial rhythm, and abstraction often convey memory better than accuracy.&lt;/p&gt;
 &lt;p&gt;Finally, protect the work over time. Use version control for text and metadata, archive assets carefully, and periodically “freeze” scenes by exporting models, videos, and written reflections. Start small—one room, one memory, one piece of music—and let the world grow organically. The result is not just a VR environment, but a durable, explorable record of your inner life that can evolve with you.&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;Notes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mainly this has been an idea for myself only, but if I make something I am willing to share, it could be cool to host it (or at least to it) on this digital garden so that visitors can explore these 3D scenes.&lt;/li&gt;
+&lt;/ul&gt;
 
             </content>
             <link href="https://briancherin.github.io/projects/3-d-and-vr/personal-3-d-vr-world-building/" //>
