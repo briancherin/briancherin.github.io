@@ -124,7 +124,7 @@ The thing is, there was never secrecy around the way the spaghetti was generated
 > 
 > Rick: *It was the complexity of life.*
 
-Morty hits an important point -- even though the people may still think the spaghetti *tastes* good^[semi-related: [[Lifestyle/Veganism/Why do I stay vegan enough though I miss certain foods?\|Why do I stay vegan enough though I miss certain foods?]]], something mental has shifted that makes them view it no longer as desirable food. (Similar to my point in the interlude about the gut-instinct undesirability of road-killed deer meat even if it technically it could be considered ethical.) 
+Morty hits an important point -- even though the people may still think the spaghetti *tastes* good^[semi-related: [[Why do I stay vegan enough though I miss certain foods?\|Why do I stay vegan enough though I miss certain foods?]]], something mental has shifted that makes them view it no longer as desirable food. (Similar to my point in the interlude about the gut-instinct undesirability of road-killed deer meat even if it technically it could be considered ethical.) 
 #### Re-thinking food in our own world
 It's not hard to draw the parallel from the episode to the real world. Becoming vegan is to re-think where our food came from. Most of us are born into a society where consuming animal products is a normal thing which almost everyone around us does, and there is no reason to question it. That is, until something makes us re-think it. For me, it was a [video](https://www.youtube.com/watch?v=Z3u7hXpOm58) of Ed Winters talking about the philosophy of veganism. For others, they may chance upon a [Cube of Truth](https://en.wikipedia.org/wiki/Anonymous_for_the_Voiceless) demonstration and see the gory footage of the animal industry. 
 

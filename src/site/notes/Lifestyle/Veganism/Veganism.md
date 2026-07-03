@@ -9,4 +9,4 @@ Notes about veganism:
 - [[Lifestyle/Veganism/Animal Agriculture As An Atrocity\|Animal Agriculture As An Atrocity]]
 - [[Lifestyle/Veganism/Why do vegans want imitation meat\|Why do vegans want imitation meat]]
 - [[Lifestyle/Cooking/On Cooking - Veganism and Whole-Food Plant-Based Diet\|On Cooking - Veganism and Whole-Food Plant-Based Diet]]
-- [[Lifestyle/Veganism/Why do I stay vegan enough though I miss certain foods?\|Why do I stay vegan enough though I miss certain foods?]]
+- [[Why do I stay vegan enough though I miss certain foods?\|Why do I stay vegan enough though I miss certain foods?]]
