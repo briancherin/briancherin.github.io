@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <link href="https://briancherin.github.io/feed.xml" rel="self" //>
     <link href="https://briancherin.github.io" //>
-    <updated>2026-07-01T14:32:36Z</updated>
+    <updated>2026-07-03T15:40:09Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -590,6 +590,27 @@ You’re essentially building a long-lived personal &lt;strong&gt;spatial archiv
         </entry>
         <entry>
             <title>
+                Environment Generation
+                
+            </title>
+            <updated>2026-07-03T15:39:28.000Z</updated>
+            <id>https://briancherin.github.io/projects/3-d-and-vr/environment-generation/</id>
+            <content type="html">
+                &lt;p&gt;One of my strongest interests in Virtual Reality is the idea of having an auto-generating virtual environment.&lt;/p&gt;
+&lt;p&gt;Similar to the game simulation in Ender&#39;s Game&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;(well... ultimately not really but kind of) &lt;a href=&quot;https://briancherin.github.io/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/projects/3-d-and-vr/environment-generation/" //>
+        </entry>
+        <entry>
+            <title>
                 Time Travelers, Back Off
                 
             </title>
@@ -746,47 +767,16 @@ With the snap of a finger:&lt;/p&gt;
                 Whats Up
                 
             </title>
-            <updated>2026-06-28T16:01:15.000Z</updated>
+            <updated>2026-07-03T15:39:28.000Z</updated>
             <id>https://briancherin.github.io/misc/whats-up/</id>
             <content type="html">
                 &lt;p&gt;What&#39;s up. What&#39;s going on. What am I doing, reading, interesting stuff to share that I don&#39;t feel like making a separate page for.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; I don&#39;t expect myself to keep this super regularly updated or fully comprehensive of my activity - but it&#39;s a place to put stuff that I find noteworthy.&lt;/p&gt;
-&lt;h3 id=&quot;june-2026&quot; tabindex=&quot;-1&quot;&gt;June 2026&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Doings
-&lt;ul&gt;
-&lt;li&gt;I sewed a button back onto my shorts. Huge news, I know. First time doing this. Needle and thread. Followed youtube vids.&lt;/li&gt;
-&lt;li&gt;I went on a &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/lifestyle/foraging/6-6-2026-foraging-tour-with-wildman-steve-brill/&quot;&gt;Foraging tour with Wildman Steve Brill&lt;/a&gt; - foraged (and ate) plants in Central Park. Great experience! I&#39;m excited to become more confident on identifying the plants we saw.&lt;/li&gt;
-&lt;li&gt;I&#39;ve finally gone back to the sketch I made in January for &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/movies/pools-2025/#paint-a-picture&quot;&gt;Pools (2025)#Paint a picture&lt;/a&gt; and have started painting it (still in progress).&lt;/li&gt;
-&lt;li&gt;Finally got my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/music/record-player/&quot;&gt;record player&lt;/a&gt; set up. I already had the record player but no amp/speakers for it. I bought &amp;quot;ART DJPREII Phono Preamplifier&amp;quot; from Amazon and then took some old computer speakers which my dad had lying around. I&#39;ve had the record player itself for almost a year -- it was a curbside find from my parents&#39; neighborhood. Now I can actually play records on it!&lt;/li&gt;
-&lt;li&gt;I&#39;m building back up some &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/dreams/on-dream-recall/&quot;&gt;dream recall&lt;/a&gt;, which is why I&#39;ve been making some &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/dreams/the-instinct-to-lick-the-ground/&quot;&gt;recent&lt;/a&gt; &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/dreams/having-well-defined-goals-for-skill-of-dreaming/&quot;&gt;notes&lt;/a&gt; about dreams.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Blogs / videos / podcasts
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=dT5IJExTUR4&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Hank Green - &amp;quot;What is &#39;Slop&#39; (and why it gives me hope)&amp;quot;&lt;/a&gt; - The &#39;hope&#39; part is that as low-effort AI generated content becomes easier to make and thus there is more of it (this is the &amp;quot;slop&amp;quot;), real human effort will become the more scarce thing and thus people will appreciate the value of human effort more.&lt;/li&gt;
-&lt;li&gt;Podcast:  &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/podcasts/skeptics-guide-to-the-universe/#episode-1087&quot;&gt;Skeptics Guide to the Universe#Episode 1087&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;I found a blog called &amp;quot;Escaping Flatland&amp;quot;, specifically because of this &lt;a href=&quot;https://www.henrikkarlsson.xyz/p/looking-for-alice&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;dating advice article&lt;/a&gt; which is resonating strongly with me, but I think I&#39;m also going to enjoy many of the other blog posts/topics.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Theater
-&lt;ul&gt;
-&lt;li&gt;Saw a production of the play Uncle Vanya (first time seeing it) by the Hudson Classical Theater Company. They perform in a park. Nice to be outside although it is a low budget production.&lt;/li&gt;
-&lt;li&gt;Saw a free production of Shakespear&#39;s &lt;em&gt;Tragedy of Julius Caesar&lt;/em&gt; performed by NY Classical in Central Park. It was very well done, and an enjoyable show! It was semi-immersive because they had us walk+settle to different (near) locations in the park for different scenes of the performance. Similar to &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/theater/into-the-woods-sondheim-1986/#into-the-woods-sternfeld-studio-immersive-show&quot;&gt;Into the Woods Immersive Performance&lt;/a&gt; (though the ITW experience was much more epic in my opinion).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Music
-&lt;ul&gt;
-&lt;li&gt;Loving the song &amp;quot;Each Time I Die&amp;quot; by Bones &amp;amp; Beaker. (Title sounds morbid but it&#39;s more reincarnation-esque.) The rest of their album doesn&#39;t really resonate with me though.&lt;/li&gt;
-&lt;li&gt;I saw Larry and His Flask live! &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/music/larry-and-his-flask/#june-2026-concert&quot;&gt;Larry and His Flask#June 2026 Concert&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Saw &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/music/streetlight-manifesto/&quot;&gt;Streetlight Manifesto&lt;/a&gt; live at the Stone Pony in Asbury Park! Really fun concert (it&#39;s my fifth time seeing them live). They were opened by a band called Whilhelm Screem, and then &lt;em&gt;The Aquabats!&lt;/em&gt;. Aquabats was really fun (I had listened to some of their songs in the past).&lt;/li&gt;
-&lt;li&gt;Right after I coded up a quick little project, &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/mini-projects/oh-my-rockness-genre-enrichment/&quot;&gt;Oh My Rockness Genre Enrichment&lt;/a&gt;, I used it and went to see some live music by two bands called &lt;em&gt;Um, Jennifer?&lt;/em&gt; and &lt;em&gt;Dune Blue&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&quot;july-2026&quot; tabindex=&quot;-1&quot;&gt;July 2026&lt;/h3&gt;
 &lt;h4 id=&quot;past-months&quot; tabindex=&quot;-1&quot;&gt;Past months:&lt;/h4&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/misc/what-was-up/may-2026/&quot;&gt;May 2026&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/misc/what-was-up/april-2026/&quot;&gt;April 2026&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/misc/what-was-up/june-2026/&quot;&gt;June 2026&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
@@ -841,6 +831,50 @@ With the snap of a finger:&lt;/p&gt;
 
             </content>
             <link href="https://briancherin.github.io/misc/what-was-up/may-2026/" //>
+        </entry>
+        <entry>
+            <title>
+                June 2026
+                
+            </title>
+            <updated>2026-07-03T15:39:28.000Z</updated>
+            <id>https://briancherin.github.io/misc/what-was-up/june-2026/</id>
+            <content type="html">
+                &lt;ul&gt;
+&lt;li&gt;Doings
+&lt;ul&gt;
+&lt;li&gt;I sewed a button back onto my shorts. Huge news, I know. First time doing this. Needle and thread. Followed youtube vids.&lt;/li&gt;
+&lt;li&gt;I went on a &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/lifestyle/foraging/6-6-2026-foraging-tour-with-wildman-steve-brill/&quot;&gt;Foraging tour with Wildman Steve Brill&lt;/a&gt; - foraged (and ate) plants in Central Park. Great experience! I&#39;m excited to become more confident on identifying the plants we saw.&lt;/li&gt;
+&lt;li&gt;I&#39;ve finally gone back to the sketch I made in January for &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/movies/pools-2025/#paint-a-picture&quot;&gt;Pools (2025)#Paint a picture&lt;/a&gt; and have started painting it (still in progress).&lt;/li&gt;
+&lt;li&gt;Finally got my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/music/record-player/&quot;&gt;record player&lt;/a&gt; set up. I already had the record player but no amp/speakers for it. I bought &amp;quot;ART DJPREII Phono Preamplifier&amp;quot; from Amazon and then took some old computer speakers which my dad had lying around. I&#39;ve had the record player itself for almost a year -- it was a curbside find from my parents&#39; neighborhood. Now I can actually play records on it!&lt;/li&gt;
+&lt;li&gt;I&#39;m building back up some &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/dreams/on-dream-recall/&quot;&gt;dream recall&lt;/a&gt;, which is why I&#39;ve been making some &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/dreams/the-instinct-to-lick-the-ground/&quot;&gt;recent&lt;/a&gt; &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/dreams/having-well-defined-goals-for-skill-of-dreaming/&quot;&gt;notes&lt;/a&gt; about dreams.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Blogs / videos / podcasts
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=dT5IJExTUR4&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Hank Green - &amp;quot;What is &#39;Slop&#39; (and why it gives me hope)&amp;quot;&lt;/a&gt; - The &#39;hope&#39; part is that as low-effort AI generated content becomes easier to make and thus there is more of it (this is the &amp;quot;slop&amp;quot;), real human effort will become the more scarce thing and thus people will appreciate the value of human effort more.&lt;/li&gt;
+&lt;li&gt;Podcast:  &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/podcasts/skeptics-guide-to-the-universe/#episode-1087&quot;&gt;Skeptics Guide to the Universe#Episode 1087&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I found a blog called &amp;quot;Escaping Flatland&amp;quot;, specifically because of this &lt;a href=&quot;https://www.henrikkarlsson.xyz/p/looking-for-alice&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;dating advice article&lt;/a&gt; which is resonating strongly with me, but I think I&#39;m also going to enjoy many of the other blog posts/topics.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Theater
+&lt;ul&gt;
+&lt;li&gt;Saw a production of the play Uncle Vanya (first time seeing it) by the Hudson Classical Theater Company. They perform in a park. Nice to be outside although it is a low budget production.&lt;/li&gt;
+&lt;li&gt;Saw a free production of Shakespear&#39;s &lt;em&gt;Tragedy of Julius Caesar&lt;/em&gt; performed by NY Classical in Central Park. It was very well done, and an enjoyable show! It was semi-immersive because they had us walk+settle to different (near) locations in the park for different scenes of the performance. Similar to &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/theater/into-the-woods-sondheim-1986/#into-the-woods-sternfeld-studio-immersive-show&quot;&gt;Into the Woods Immersive Performance&lt;/a&gt; (though the ITW experience was much more epic in my opinion).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Music
+&lt;ul&gt;
+&lt;li&gt;Loving the song &amp;quot;Each Time I Die&amp;quot; by Bones &amp;amp; Beaker. (Title sounds morbid but it&#39;s more reincarnation-esque.) The rest of their album doesn&#39;t really resonate with me though.&lt;/li&gt;
+&lt;li&gt;I saw Larry and His Flask live! &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/music/larry-and-his-flask/#june-2026-concert&quot;&gt;Larry and His Flask#June 2026 Concert&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Saw &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/music/streetlight-manifesto/&quot;&gt;Streetlight Manifesto&lt;/a&gt; live at the Stone Pony in Asbury Park! Really fun concert (it&#39;s my fifth time seeing them live). They were opened by a band called Whilhelm Screem, and then &lt;em&gt;The Aquabats!&lt;/em&gt;. Aquabats was really fun (I had listened to some of their songs in the past).&lt;/li&gt;
+&lt;li&gt;Right after I coded up a quick little project, &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/mini-projects/oh-my-rockness-genre-enrichment/&quot;&gt;Oh My Rockness Genre Enrichment&lt;/a&gt;, I used it and went to see some live music by two bands called &lt;em&gt;Um, Jennifer?&lt;/em&gt; and &lt;em&gt;Dune Blue&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://briancherin.github.io/misc/what-was-up/june-2026/" //>
         </entry>
         <entry>
             <title>
@@ -4084,90 +4118,10 @@ longevity / anti-aging efforts/research
         </entry>
         <entry>
             <title>
-                &quot;Search query&quot; (advice on blogging to attract engagement on niche interests)
-                
-            </title>
-            <updated>2026-06-25T15:09:57.000Z</updated>
-            <id>https://briancherin.github.io/media-i-have-consumed/blogs/escaping-flatland/search-query-advice-on-blogging-to-attract-engagement-on-niche-interests/</id>
-            <content type="html">
-                &lt;p&gt;&lt;a href=&quot;https://www.henrikkarlsson.xyz/p/search-query&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.henrikkarlsson.xyz/p/search-query&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&amp;quot;A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox&amp;quot;&lt;/li&gt;
-&lt;li&gt;TODO: apparently this is part 3 of a series of posts, starting at &lt;a href=&quot;https://www.henrikkarlsson.xyz/p/first-we-shape-our-social-graph-then&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.henrikkarlsson.xyz/p/first-we-shape-our-social-graph-then&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&amp;quot;you can shape yourself by reshaping your relationships&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;quot;&lt;strong&gt;Writing for a general public, you need to be broad and a bit bland. I didn’t want a general public. I wanted a specific set of people, the people who could help me along as a human being&lt;/strong&gt; obsessed with certain intellectual problems. I didn’t know who these people were. I only knew that they existed. Hence my writing was a search query. It needed to be phrased in such a way that it found these people and, if necessary, filtered others.&amp;quot;&lt;/li&gt;
-&lt;li&gt;Talking about how the more niche of interests/knowledge that you explore, the more isolated you can be because you won&#39;t know many people interested in those things.
-&lt;ul&gt;
-&lt;li&gt;examples that come to my mind are &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/misc/hypnosis/&quot;&gt;hypnosis&lt;/a&gt; and &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/dreams/dreams/&quot;&gt;LDing&lt;/a&gt;. obviously there are internet communities for those, but it&#39;s things I never really talk about in real life. (trying to change that, at least with LDing so far, on digital garden)&lt;/li&gt;
-&lt;li&gt;the solution is to write publicly online about the things, and to realize that there are other ppl online who are interested in them too.&lt;/li&gt;
-&lt;li&gt;Encourages to not think that you need to make your niche topics &amp;quot;accessible&amp;quot; i.e. simplify them or avoid jargon. Being true to the niche will get the right ppl engaging.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;quot;The people you will be able to have deep conversations with have, like you, already been surprised by the simple, clear things. They need more to get high. And this “more” will be wildly idiosyncratic. It cannot be summarized in a list of writing rules.&amp;quot;
-&lt;ul&gt;
-&lt;li&gt;again, LDing -- (i guess this is one of my niches). I am bored by the basics, and crave the advanced discussions. Same with hypnosis.
-&lt;ul&gt;
-&lt;li&gt;maybe i should be writing a blog post about my interpretation of the dangers of hypnosis / &#39;can you get someone to do something they dont want to&#39;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;quot;You ask yourself: What would have made me jump off my chair if I had read it six months ago (or a week ago, or however fast you write)? If you have figured out something that made you ecstatic, this is what you should write. And you do not dumb it down, because you were not stupid six months ago, you just knew less. You also write with as much useful detail and beauty as you can muster, because that is what you would have wanted.&amp;quot;
-&lt;ul&gt;
-&lt;li&gt;The point here is to write about what you have learned. If you recently learned something that made you really excited, you can write about it and share it with other people to get them excited too.
-&lt;ul&gt;
-&lt;li&gt;So... for example, Henrik&#39;s &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://briancherin.github.io/404&quot; target=&quot;&quot;&gt;Alice&lt;/a&gt; dating advice.? (so far I only have my private notes on it, and shared link to the article in dig garden, but havent added any notes on it. but i feel it was a suuuper exciting article for me. &lt;strong&gt;TODO&lt;/strong&gt;: &lt;strong&gt;Write more about it publicly.?&lt;/strong&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;quot;as much useful detail and beauty&amp;quot; &amp;lt;-- a lot of my notes on this digital garden are &lt;em&gt;messy&lt;/em&gt;. And that&#39;s okay, because I&#39;m not aiming to sell it as something else. But I would like to write more polished things too on here.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;quot;I like it when people don’t just talk in the abstract but show you with examples, preferably many examples, and preferably taken from the real world so they are messy.&amp;quot;
-&lt;ul&gt;
-&lt;li&gt;I&#39;m definitely guilty of talking in the abstract sometimes.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;quot;It is crazy-beautiful to have a stranger arrive in your inbox, and they are excited by exactly the same things as you! You start dropping the most obscure references, and they’re like, yeah, read that, love it. &amp;quot;
-&lt;ul&gt;
-&lt;li&gt;reminds me of the time i was on the subway and a group of girls was talking about acting in a production of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/theater/natasha-pierre-and-the-great-comet-of-1812/&quot;&gt;Great Comet&lt;/a&gt; and I asked what part she played and then mentioned I was going to go see &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/theater/mini-theater-reviews/#black-swan-2026&quot;&gt;Black Swan&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;I&#39;m not sure the benefit he&#39;s talking about (of finding ppl who will then send me more interesting stuff) exactly resonates with me, but there could be something here
-&lt;ul&gt;
-&lt;li&gt;like i&#39;m not sure an issue in my life is that i dont have enough ppl online helping me learn&lt;/li&gt;
-&lt;li&gt;then again... I do have some Big Questions and perhaps asking/presenting them online could be useful/interesting. &lt;strong&gt;like i would indeed love if i was presenting these Questions and then random ppl started sending me relevant articles to them which are useful and could help me grow.&lt;/strong&gt; (ok this advice is clicking now, whoa)
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;What are these Big Questions??&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;finding enough time in life to do all the things i want to do / stretching myself thin with so many activities+interests / making time for creative things&lt;/li&gt;
-&lt;li&gt;the paradoxes of relationships / the issues w dating (or at least in my life lol. e.g. the artificiality of &amp;quot;dates&amp;quot; versus organically getting to know someone (i mean, this is strongly related to the Alice topic, but it&#39;s also been on my mind, and even more on my mind since reading the Alice article.))&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;TODO: Think of more&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;But I feel like these Questions are less about what this article is talking about. The article is advising to post things you &lt;em&gt;know&lt;/em&gt;, not that you &lt;em&gt;want&lt;/em&gt; to know. But I still feel there is similar benefit. What I&#39;m getting at with the Questions is more generically the &lt;strong&gt;&lt;a href=&quot;https://swyx.io/learn-in-public&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Learn in Public&lt;/a&gt;&lt;/strong&gt; thing and its benefits. Henrik is saying to also &lt;strong&gt;Teach in Public.&lt;/strong&gt; But the teaching is just the evidence of the learning, so it&#39;s kind of the same thing. And even for my Questions, if I make any updates with potential Answers, then that does then count as Teach in Public and fits into Henrik&#39;s advice.
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;TODO&lt;/strong&gt;: Read more about &amp;quot;Learn in Public&amp;quot; and make notes on it&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;TODO: Finish reading article, starting at Distribution section &lt;a href=&quot;https://www.henrikkarlsson.xyz/i/65048840/distribution&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.henrikkarlsson.xyz/i/65048840/distribution&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-            </content>
-            <link href="https://briancherin.github.io/media-i-have-consumed/blogs/escaping-flatland/search-query-advice-on-blogging-to-attract-engagement-on-niche-interests/" //>
-        </entry>
-        <entry>
-            <title>
                 &quot;Search query&quot; (advice on blogging to attract conversation on niche interests)
                 
             </title>
-            <updated>2026-06-29T03:22:47.000Z</updated>
+            <updated>2026-07-03T15:39:28.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/blogs/escaping-flatland/search-query-advice-on-blogging-to-attract-conversation-on-niche-interests/</id>
             <content type="html">
                 &lt;p&gt;Notes about &lt;a href=&quot;https://www.henrikkarlsson.xyz/p/search-query&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.henrikkarlsson.xyz/p/search-query&lt;/a&gt;&lt;/p&gt;
@@ -4230,6 +4184,11 @@ longevity / anti-aging efforts/research
 &lt;li&gt;But I feel like these Questions are less about what this article is talking about. The article is advising to post things you &lt;em&gt;know&lt;/em&gt;, not that you &lt;em&gt;want&lt;/em&gt; to know. But I still feel there is similar benefit. What I&#39;m getting at with the Questions is more generically the &lt;strong&gt;&lt;a href=&quot;https://swyx.io/learn-in-public&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Learn in Public&lt;/a&gt;&lt;/strong&gt; thing and its benefits. Henrik is saying to also &lt;strong&gt;Teach in Public.&lt;/strong&gt; But the teaching is just the evidence of the learning, so it&#39;s kind of the same thing. And even for my Questions, if I make any updates with potential Answers, then that does then count as Teach in Public and fits into Henrik&#39;s advice.
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;TODO&lt;/strong&gt;: Read more about &amp;quot;Learn in Public&amp;quot; and make notes on it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The more I think of this, the more I am feeling like I could use this digital garden as a way to attract Answers+Discussion.
+&lt;ul&gt;
+&lt;li&gt;For example, I have certain ideas for personal projects which sometimes feel unrealistic and infeasible. If someone were to read my thoughts on those projects and have some kind of input about how to move forward with them, that would be phenomenal.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
