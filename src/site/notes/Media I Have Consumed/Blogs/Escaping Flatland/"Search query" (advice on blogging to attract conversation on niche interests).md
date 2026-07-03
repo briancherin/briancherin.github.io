@@ -32,6 +32,8 @@ Notes about https://www.henrikkarlsson.xyz/p/search-query
 			- **TODO: Think of more**
 		- But I feel like these Questions are less about what this article is talking about. The article is advising to post things you *know*, not that you *want* to know. But I still feel there is similar benefit. What I'm getting at with the Questions is more generically the **[Learn in Public](https://swyx.io/learn-in-public)** thing and its benefits. Henrik is saying to also **Teach in Public.** But the teaching is just the evidence of the learning, so it's kind of the same thing. And even for my Questions, if I make any updates with potential Answers, then that does then count as Teach in Public and fits into Henrik's advice.
 			- **TODO**: Read more about "Learn in Public" and make notes on it
+		- The more I think of this, the more I am feeling like I could use this digital garden as a way to attract Answers+Discussion.
+			- For example, I have certain ideas for personal projects which sometimes feel unrealistic and infeasible. If someone were to read my thoughts on those projects and have some kind of input about how to move forward with them, that would be phenomenal.
 - Distribution
 	- Suggests not being afraid to try to get the attention of bigger bloggers to your posts, because if they re-share it out (the article is pretty heavily using Twitter as an example), it will reach a lot of people. 
 	- "The way messages spread on the internet is by flowing up this order of streams, from people with smaller networks to those with larger, and then it spreads back down through the larger networks."
