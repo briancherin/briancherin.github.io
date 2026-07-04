@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/veganism/rick-and-morty-s-vegan-propaganda/"}
+{"dg-publish":true,"public-rss":true,"permalink":"/lifestyle/veganism/rick-and-morty-s-vegan-propaganda/","dgPassFrontmatter":true}
 ---
 
 Whoops, it's been two and a half years since I've watched a Rick and Morty episode! Back then, I had watched up through season 6. Then there was the wait for the next season, and I just never got back into it. But now apparently I'm in the mood for it again (and I'm over the fact that they changed the voice actor(s?) starting in S7 -- not that I disagree with their decision to do so, but it had me a little worried that the show would feel different).
