@@ -3,8 +3,167 @@
     <title>Brian&#39;s Corner Public RSS</title>
     <atom:link href="https://briancherin.github.io/publicRss.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-07-04T21:16:20Z</updated>
+    <updated>2026-07-04T21:19:23Z</updated>
     <id>https://briancherin.github.io/publicRss.xml</id>
+        <entry>
+            <title>
+                Oh My Rockness Genre Enrichment
+                
+            </title>
+            <published>2026-06-27T22:08:10.000Z</published>
+            <updated>2026-07-04T21:19:05.000Z</updated>
+            <id>https://briancherin.github.io/projects/software/mini-projects/oh-my-rockness-genre-enrichment/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a href=&quot;https://www.ohmyrockness.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Oh My Rockness&lt;/a&gt; is a website that lists music shows in NYC. It also lets you filter by shows that are free to attend. I&#39;ve never actually attended a show through the site, but I&#39;ve wanted to.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Mini%20Projects/Assets/ohmyrockness.png&quot; alt=&quot;ohmyrockness.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;My one qualm with it is that it does not easily show the genre of the bands or a description of the kind of music they play. There are so many event listings that it&#39;s hard to make a choice of which I might be interested in.&lt;/p&gt;
+&lt;p&gt;For a while, I&#39;ve had an idea floating in my mind to create some way to easily tell what the genres of the bands are.&lt;/p&gt;
+&lt;p&gt;Today I decided to have an AI coding session to come up with a solution. And it worked out pretty well!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Mini%20Projects/Assets/ohmyrocknessenrichment.png&quot; alt=&quot;ohmyrocknessenrichment.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It scrapes from ohmyrockness as you flip through the dates, and pulls genre data from Spotify and &lt;a href=&quot;http://last.fm/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Last.fm&lt;/a&gt;. Also includes a convenient link to the artist in Spotify. It took about an hour to spin this up.&lt;/p&gt;
+&lt;p&gt;It&#39;s locally only, and currently I don&#39;t plan to host it anywhere, but we&#39;ll see. For one thing, I&#39;d worry that ohmyrockness would not be happy about a mirror of their site. Maybe a browser extension to augment the existing ohmyrockness site with genre data would be better than hosting a standaline webapp. But for now, this tool perhaps will be useful to me. (I do sense there is a flaw for my local setup in that it must be run on my laptop, and there may be times when I want to know about current music events from my phone while I&#39;m on-the-go. Maybe I&#39;ll be motivated to host this somewhere small just for my own use.)&lt;/p&gt;
+&lt;p&gt;Anyone can set this up locally if desired -- you just need a Spotify and/or &lt;a href=&quot;http://last.fm/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Last.FM&lt;/a&gt; API key. Note that Spotify API requires a premium account, but &lt;a href=&quot;http://last.fm/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Last.FM&lt;/a&gt; is free and it should work with just that.&lt;/p&gt;
+&lt;p&gt;Note - this may be buggy and imperfect. Haven&#39;t tested it thoroughly.&lt;/p&gt;
+&lt;p&gt;Code is on Github: &lt;a href=&quot;https://github.com/briancherin/ohmyrockness-genre-enrichment&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://github.com/briancherin/ohmyrockness-genre-enrichment&lt;/a&gt;&lt;/p&gt;
+
+            </content>
+            <atom:link href="https://briancherin.github.io/projects/software/mini-projects/oh-my-rockness-genre-enrichment/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                Good Luck, Have Fun, Don&#39;t Die (2025)
+                
+            </title>
+            <published>2026-05-18T01:10:10.000Z</published>
+            <updated>2026-07-04T21:19:05.000Z</updated>
+            <id>https://briancherin.github.io/media-i-have-consumed/movies/good-luck-have-fun-don-t-die-2025/</id>
+            <content type="html">
+                &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Pasted%20image%2020260518225420.png&quot; alt=&quot;Pasted image 20260518225420.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;A wild ride of a movie. The focus is on anti-AI, anti-overconsumption, anti a world where the spirit of humanity becomes lost to technology. It&#39;s presented in an over-the-top way, so it&#39;s not as serious of a take on these issues in some ways, but this makes it enjoyable and entertaining while still posing deep questions. Similar feeling to Black Mirror. The cinematography is excellent. I was closely engaged for the whole movie and eager to see it through. During the first half, I thought it would end up being my favorite movie of this year... Maybe it still will be, but some flaws in the second half make me less confident in making such a claim.&lt;/p&gt;
+&lt;p&gt;Spoiler-full reactions below.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!DANGER] Spoilers ahead.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!DANGER] Spoilers ahead.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!DANGER] Spoilers ahead.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!DANGER] Spoilers ahead.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!DANGER] Spoilers ahead.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The ending&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The hesitation
+&lt;ul&gt;
+&lt;li&gt;He was able to plug the thing in, but then he hesitates for twenty seconds. It seemed like he could have plugged it in during those twenty seconds, but instead he stopped to watch what was happening (objects started flying in the air, but they weren&#39;t threatening yet). Clearly they needed him to not plug it in at that point so that Ingrid could be the one to go for it and then we get the reveal that she is the time traveler&#39;s mother. They could have paced that scene better so that he didn&#39;t have the unreasonable, unbelievable moment of hesitation. This alone knocks half a star off my rating for this movie.&lt;/li&gt;
+&lt;li&gt;That being said, twist &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#2&quot;&gt;#2&lt;/a&gt; (they actually lost) revealed that the safeguards didn&#39;t actually change anything. So the hesitation didn&#39;t actually matter ultimately, and in fact perhaps did show to time traveler that this approach will never work. I just wish the hesitation was more plausible. Did he really just freeze up? The scene did not set it up in that way.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Twist and double twist. I was not too pleased with the first twist (she is his mother), but was decently redeemed by the second twist (the safeguards didn&#39;t actually help; their reality is being manipulated; they really lost).
+&lt;ul&gt;
+&lt;li&gt;Her being his mother... I had thought the future he came from was much further into the future, not max ~50 years ahead. Maybe it makes sense.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;I&#39;m pleased with the very ending -- the new idea to spread her technology allergy. Who knows if it&#39;s the thing that will actually save the world, but I like that the whole plot of the movie led up to scrapping the premise (the original heist idea) and using what was learned to get to a next step that we don&#39;t actually see.&lt;/li&gt;
+&lt;li&gt;But also, maybe it&#39;s not the ending we as an audience, dealing with similar issues in the real world, want. Or at least I don&#39;t. We don&#39;t want to be forced to not use any technology. We would rather have guardrails. But that&#39;s the idea of the ending. It poses that guardrails will never be enough; technology will always corrupt. The only way to avoid that is to avoid technology entirely. Do I believe this? Again, I don&#39;t really want to. But I think it&#39;s a reasonable hypothesis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open questions&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We didn&#39;t get much info about the group of people that sent him to the past. He opens with the information that there is some grouping of people in the diner that will lead to a successful mission. How does he/anyone know that? (Does it have to do with Ingrid being his mother? Did he somehow know she had been there?) Did that only apply to the flash drive mission, or does that also apply to the new rat-spread-tech-allergy idea at the end?&lt;/li&gt;
+&lt;li&gt;Will the proposed solution at the end work? Who knows. But there is hope still.&lt;/li&gt;
+&lt;li&gt;What&#39;s the mechanism by which the AI/technology controls the people using it? The anti-phone ray guns show that when the tech turns off, the user seems to exit a trance state.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What was up with the mother&#39;s AI son helping the heist? Was that just the all-powerful AI luring them in so that it could get to Ingrid, make the son reveal, and try to convince her to stop the rebellion? (probably)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Not totally sure about why the AI is able to seemingly manipulate the real world like spawning the cat monster. Oh, I guess if there is technology to clone humans, they probably are advanced enough to make cat monsters that emit sparkles.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dystopian concepts presented&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Using AI voice to replace a lost child&lt;/li&gt;
+&lt;li&gt;Using AI-driven clones to replace a lost child. The clones spout product advertisements.&lt;/li&gt;
+&lt;li&gt;School shootings have become so commonplace that parents are numbed to it and are willing to replace their children with AI (truly absurd).&lt;/li&gt;
+&lt;li&gt;Teenagers behaving literally like zombies due to technology&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Other notes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Feels like the writer is talking directly to audience when the time traveler explains the mission and the bad things about the future. Example at 53:00.&lt;/li&gt;
+&lt;li&gt;I like the junk build aesthetic. Like the anti-phone ray guns.&lt;/li&gt;
+&lt;li&gt;I like the &amp;quot;good luck have fun don&#39;t die&amp;quot; chorus sound and also the theme song.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Writer&#39;s message to the present world&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create AI guardrails before AI advances further&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Parallels to my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/creative/writing/creative-writing/&quot;&gt;writing&lt;/a&gt; idea&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;One of my ideas for a story (not sure if short story or novel) is &amp;quot;Agents of Chaos&amp;quot;, about time-looping agents who must complete missions to change how events turn out, and there are antagonistic forces trying to stop them. This movie had a similar core concept. Does this make me less interested in my own idea? Only time will tell. It perhaps slightly is off-putting to me, but I don&#39;t think I should let it and I don&#39;t necessarily think it will. My idea is different enough and generally I understand/believe that similar concepts can be manifested in different executions/styles/etc. I&#39;m not claiming to be the sole inventor of a time looping idea at all. It seemed like a fun idea to me. Also my idea became quite sprawling, so I feel there&#39;s a lot of potential with it. (If I ever actually start writing it...)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Questions to think about&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Effectiveness of the over-the-top ridiculousness of the plot, versus a more serious take?&lt;/li&gt;
+&lt;li&gt;Would I volunteer to participate at the diner?&lt;/li&gt;
+&lt;li&gt;What am i doing to fight against this future?
+&lt;ul&gt;
+&lt;li&gt;In my very small way:
+&lt;ul&gt;
+&lt;li&gt;Evading short-form content and instead cultivating rational, critical thinking-geared writing in this digital garden&lt;/li&gt;
+&lt;li&gt;Cultivating real life &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/lifestyle/social/hosting-gatherings/&quot;&gt;community&lt;/a&gt; and connections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Could a VR world where you are your perfect self really be a better reality? Could AI/VR/tech really get us there? (It&#39;s pretty abstract, the concept is so unimaginable I&#39;m not sure how it could be answered.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Read &lt;a href=&quot;https://theplaylist.net/good-luck-have-fun-dont-die-review-gore-verbinskis-rip-roaring-adventure-is-a-potent-plea-for-ai-safeguards-20260211/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;this review&lt;/a&gt;. I liked the ending note: &amp;quot;Everyone can align on the peril ahead as AI increasingly embeds itself in everyday life. How to meet this challenge with a new response remains tantalizingly just out of reach. Verbinski and Robinson’s cinematic equivalent of screaming “FIRE” in a crowded room might help the next person tackling this pressing topic find the exit.&amp;quot;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It feels like an important message to get out there and make art about. I&#39;m curious how it will be represented in other media (whether future films, tv, or anything).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <atom:link href="https://briancherin.github.io/media-i-have-consumed/movies/good-luck-have-fun-don-t-die-2025/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                Why do I stay vegan enough though I miss certain foods
+                
+            </title>
+            <published>2026-06-02T01:40:09.000Z</published>
+            <updated>2026-07-04T21:19:05.000Z</updated>
+            <id>https://briancherin.github.io/lifestyle/veganism/why-do-i-stay-vegan-enough-though-i-miss-certain-foods/</id>
+            <content type="html">
+                &lt;p&gt;No one has specifically asked me this question (not directly at least) but it kind of is a certain subtext to the vegan experience, so I will answer it.&lt;/p&gt;
+&lt;p&gt;The answer:&lt;br /&gt;
+The intellectual and rational refusal to support animal exploitation/suffering/unnecessary_death far outweighs the sensation of satisfying the desire for this &amp;quot;missed&amp;quot; food item or any pleasure that might arise from consuming it.&lt;/p&gt;
+&lt;p&gt;It&#39;s not like I think about this much, though. I don&#39;t. It usually just surfaces when I&#39;m around people eating non-vegan food and I would (pre-going-vegan) want to try it or share it, but obviously choose not to. For example, being with friends who are partaking in a cake makes me crave a cake. If the cake was vegan, I would obviously partake, and not think any different of it. So in this situation, it&#39;s not the non-vegan-ness of it (meaning, it&#39;s not that I find the vegan version inferior), but a matter of convenience and proximity. Of course, there are also foods that don&#39;t have quite good enough substitutes to really make me able to say the vegan option isn&#39;t inferior (e.g. not sure I&#39;ve really ever found an adequate cheesecake substitute, yet)... So in a case like that, we go back to the &amp;quot;far outweighs&amp;quot; statement -- it&#39;s a very intentional choice to adhere to the philosophy of veganism and sacrifice what may be pleasure in satisfying a craving.&lt;/p&gt;
+
+            </content>
+            <atom:link href="https://briancherin.github.io/lifestyle/veganism/why-do-i-stay-vegan-enough-though-i-miss-certain-foods/"></atom:link>
+        </entry>
         <entry>
             <title>
                 Rick and Morty&#39;s Vegan Propaganda
@@ -141,6 +300,51 @@
 
             </content>
             <atom:link href="https://briancherin.github.io/lifestyle/veganism/rick-and-morty-s-vegan-propaganda/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                Dream Goal Build Civilization
+                
+            </title>
+            <published>2026-07-01T01:13:40.000Z</published>
+            <updated>2026-07-04T21:19:05.000Z</updated>
+            <id>https://briancherin.github.io/interests/dreams/dream-goal-build-civilization/</id>
+            <content type="html">
+                &lt;p&gt;It&#39;s more of a dream &lt;em&gt;project&lt;/em&gt; than a goal -- this would be a long-spanning thing over many dreams. Equally as importing as experiencing it is writing+documenting it. This goal has served as a strong point of motivation that gets me looking forward to mastering my dreams, because I think it would be so cool to do this.&lt;/p&gt;
+&lt;h4 id=&quot;the-task&quot; tabindex=&quot;-1&quot;&gt;The task&lt;/h4&gt;
+&lt;p&gt;The way I&#39;ve envisioned it in my head: in a dream, I establish a persistent realm&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;. In that realm, I travel back in time to a world where there has been very little technological advancements, no cities, no civilizations. Perhaps just hunter-gatherer tribes of humans. Then the task is to meet these people, and help give them a head start on building up an advanced society.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;I think it would be really fun to build this up over time. I could go to the dream civilization, give them some help or teach them something, then come back in a later dream (or jump forward in time) and see how this tip I&#39;ve given has changed their society. The cool thing is that I couldn&#39;t really predict how anything will go -- it&#39;s up to my mind (subconsciously) to decide the result of things. And I get to figure out how to respond to those results. In theory, it&#39;s an infinitely generated open-world video game in my mind.&lt;/p&gt;
+&lt;h4 id=&quot;status-on-this-task&quot; tabindex=&quot;-1&quot;&gt;Status on this task&lt;/h4&gt;
+&lt;p&gt;Frankly, as of 2026 (13 years after I first discovered the concept of LDing), I feel very far from achieving anything close to this. But also, I don&#39;t think it is necessarily such an unrealistic task that it&#39;s not something I&#39;ll be able to do once I have consistent and high quality lucid dream experiences.&lt;/p&gt;
+&lt;p&gt;Mainly, I feel that I have a lot of foundational work to do in my dreams before I get to this point. There are the fundamentals of dream stability and confidence that I&#39;ve struggled with for years. Then there is dream control and &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/dreams/skills-to-work-on/&quot;&gt;dream skills&lt;/a&gt; which I&#39;d need, e.g. to transport myself to a persistent realm and be able to navigate it confidently, to travel forward (or backwards) in time, and so on.&lt;/p&gt;
+&lt;h4 id=&quot;context-inspiration&quot; tabindex=&quot;-1&quot;&gt;Context / inspiration&lt;/h4&gt;
+&lt;p&gt;My past self from November 2018 wrote this in Google Keep:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;HUGE LD goal&lt;br /&gt;
+Build civilization, following How to Invent Everything&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;How to Invent Everything&lt;/em&gt; is a book by Ryan North that talks at a high level about, well, pretty much how to re-build civilization from scratch.&lt;/p&gt;
+&lt;p&gt;That book&#39;s subtitle is &amp;quot;A survival guide for the stranded time traveler&amp;quot;. I remember reading the intro to the book, which in a humorous way talks about this (obviously fictional) scenario where you are a time traveler and go back in time and get stranded and want to rebuild civilization.&lt;/p&gt;
+&lt;p&gt;I don&#39;t quite remember if my dream goal actually came as a result of reading some snippets of this book. But it&#39;s possible that it did. Even before the book, though, I generally had in mind that I was very excited to generally learn about how things work, and how things got to how they are. That general interest is what led to this book catching my eye. Then I think this book inspired the dream goal.&lt;/p&gt;
+&lt;p&gt;So yeah -- I&#39;ve had this dream goal floating around in my mind for a while, and I&#39;ve never acted on it. But it&#39;s come to be one of the strongest motivators for &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/dreams/dreams/&quot;&gt;lucid dreaming&lt;/a&gt; for me. I think it would be so cool for me to pursue this as sort of a dream project.&lt;/p&gt;
+&lt;h4 id=&quot;persistent-realms&quot; tabindex=&quot;-1&quot;&gt;Persistent Realms&lt;/h4&gt;
+&lt;p&gt;A key aspect of this dream goal is the idea of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/dreams/persistent-realms/&quot;&gt;persistent realms&lt;/a&gt;. Building a civilization takes time! And probably many, many dream sessions. And that&#39;s the fun part. It&#39;s a long-term project. The world where I&#39;m building civilization needs to be persistent across many dream sessions so that it can build up over time. Otherwise, it would be like building a Minecraft world, but every time you close the game, the entire world is wiped. You need to save the state of the world between sessions. That&#39;s the idea behind persistent realms.&lt;/p&gt;
+&lt;h4 id=&quot;related-stuff&quot; tabindex=&quot;-1&quot;&gt;Related stuff&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Youtube video: &amp;quot;&lt;a href=&quot;https://www.youtube.com/watch?v=-NDMtkkaJ0E&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;How To Make WIFI Starting With Only A Rock&lt;/a&gt;&amp;quot; (channel: &lt;em&gt;Rune&lt;/em&gt;). I came across this video, and it&#39;s what motivated me to add this page to my digital garden! It&#39;s a fun video and obviously reminded me of this dream goal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;(see section below for more on &amp;quot;persistent realms&amp;quot;) &lt;a href=&quot;https://briancherin.github.io/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;As I write this... I am realizing how I sound like a colonizer. But it&#39;s not about forcing my own ways/beliefs on these (dream character!) people. It&#39;s about improving the quality of life for them. &lt;a href=&quot;https://briancherin.github.io/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+            </content>
+            <atom:link href="https://briancherin.github.io/interests/dreams/dream-goal-build-civilization/"></atom:link>
         </entry>
 </feed>
 
