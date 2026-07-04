@@ -3,14 +3,14 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-07-04T21:19:38Z</updated>
+    <updated>2026-07-04T21:22:11Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
                 This is the beginning
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-13T19:42:55.000Z</updated>
             <id>https://briancherin.github.io/</id>
             <content type="html">
                 &lt;h1 id=&quot;this-is-the-beginning&quot; tabindex=&quot;-1&quot;&gt;This is the beginning&lt;/h1&gt;
@@ -62,7 +62,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 Solar Punk
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-29T01:44:38.000Z</updated>
             <id>https://briancherin.github.io/random-topics/solar-punk/</id>
             <content type="html">
                 &lt;p&gt;I&#39;ve come across this concept a couple times, and it&#39;s extremely appealing and aligns with my hopes for the future, especially as a contrast to how the current dominant systems in the world&#39;s governments work.&lt;/p&gt;
@@ -79,7 +79,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 Specific Main App Pursuit I&#39;m Currently Working On
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-01-10T20:29:03.000Z</updated>
             <id>https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
@@ -121,7 +121,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 brianiscool.tk
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2025-12-10T01:13:09.000Z</updated>
             <id>https://briancherin.github.io/projects/software/really-old-projects/brianiscool-tk/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
@@ -144,7 +144,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 Restaurant AI VR Simulation
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2025-12-09T23:29:47.000Z</updated>
             <id>https://briancherin.github.io/projects/software/mini-projects/restaurant-ai-vr-simulation/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#miniproject&quot;&gt;#miniproject&lt;/a&gt;&lt;/p&gt;
@@ -157,7 +157,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 Oh My Rockness Genre Enrichment
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-27T22:08:10.000Z</updated>
             <id>https://briancherin.github.io/projects/software/mini-projects/oh-my-rockness-genre-enrichment/</id>
             <content type="html">
                 &lt;p&gt;&lt;a href=&quot;https://www.ohmyrockness.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Oh My Rockness&lt;/a&gt; is a website that lists music shows in NYC. It also lets you filter by shows that are free to attend. I&#39;ve never actually attended a show through the site, but I&#39;ve wanted to.&lt;/p&gt;
@@ -180,7 +180,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 Mini Projects
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-20T03:39:50.000Z</updated>
             <id>https://briancherin.github.io/projects/software/mini-projects/mini-projects/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#miniproject&quot;&gt;#miniproject&lt;/a&gt;&lt;/p&gt;
@@ -197,7 +197,7 @@ document.getElementById(&quot;random-note-button&quot;)
                 GPT Meal Planner
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-04-21T04:31:40.000Z</updated>
             <id>https://briancherin.github.io/projects/software/mini-projects/gpt-meal-planner/</id>
             <content type="html">
                 &lt;p&gt;The idea: An AI-driven Discord bot that would prompt me once on the weekend to ask me what kind of recipes I wanted to make during the week, and then prompt me each weekday morning if I wanted to work on preparing one of the recipes that day. Since I work from home, the goal was for the AI to break up a recipe into small chunks that I could slowly prep during breaks from work (since I work from home).&lt;/p&gt;
@@ -456,7 +456,7 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
                 Idea - Spontaneous Plans
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-20T03:39:50.000Z</updated>
             <id>https://briancherin.github.io/projects/software/idea-spontaneous-plans/idea-spontaneous-plans/</id>
             <content type="html">
                 &lt;p&gt;(Discussed this idea a bit in &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/podcasts/indie-hackers-podcast/the-right-way-to-talk-to-people-about-your-business-indie-hackers-podcast/&quot;&gt;The Right Way to Talk to People About Your Business - Indie Hackers Podcast&lt;/a&gt;; and closely tied to &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/lifestyle/social/thoughts-on-casual-open-social-invites/&quot;&gt;Thoughts on casual open social invites&lt;/a&gt;)&lt;/p&gt;
@@ -469,7 +469,7 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
                 Toothpaste Burger
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-20T04:00:58.000Z</updated>
             <id>https://briancherin.github.io/projects/software/game-development/old-projects/toothpaste-burger/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/banner.png&quot; alt=&quot;Assets/banner.png&quot; /&gt;&lt;br /&gt;
@@ -521,7 +521,7 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
                 Bee Haven
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2025-12-10T03:16:54.000Z</updated>
             <id>https://briancherin.github.io/projects/software/game-development/old-projects/bee-haven/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gamedev&quot;&gt;#gamedev&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
@@ -546,7 +546,7 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
                 Game Dev Inspiration
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2025-12-10T19:06:42.000Z</updated>
             <id>https://briancherin.github.io/projects/software/game-development/game-dev-inspiration/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gamedev&quot;&gt;#gamedev&lt;/a&gt;&lt;/p&gt;
@@ -566,7 +566,7 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
                 Personal 3D VR World Building
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-07-01T01:52:19.000Z</updated>
             <id>https://briancherin.github.io/projects/3-d-and-vr/personal-3-d-vr-world-building/</id>
             <content type="html">
                 &lt;p&gt;I&#39;ve had many ideas related to this topic. I can explain it in more depth in the future, but for right now I&#39;m just going to paste a tiny thought-stream question I asked ChatGPT and then the AI response. Just a little bit of ideating for something I know I want to spend more time on in the future.&lt;/p&gt;
@@ -593,7 +593,7 @@ You’re essentially building a long-lived personal &lt;strong&gt;spatial archiv
                 Environment Generation
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-07-03T15:39:28.000Z</updated>
             <id>https://briancherin.github.io/projects/3-d-and-vr/environment-generation/</id>
             <content type="html">
                 &lt;p&gt;One of my strongest interests in Virtual Reality is the idea of having an auto-generating virtual environment.&lt;/p&gt;
@@ -614,7 +614,7 @@ You’re essentially building a long-lived personal &lt;strong&gt;spatial archiv
                 Time Travelers, Back Off
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-28T16:08:07.000Z</updated>
             <id>https://briancherin.github.io/musings/time-travelers-back-off/</id>
             <content type="html">
                 &lt;p&gt;I try to be pretty &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/&quot;&gt;privacy-aware&lt;/a&gt; went writing publicly. This includes not disclosing where exactly I&#39;ll be at a specific time and place. I don&#39;t want someone malicious to know where I&#39;ll be!&lt;/p&gt;
@@ -632,7 +632,7 @@ You’re essentially building a long-lived personal &lt;strong&gt;spatial archiv
                 The Tug of Television (Resisting Overconsumption)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-27T20:00:45.000Z</updated>
             <id>https://briancherin.github.io/musings/the-tug-of-television-resisting-overconsumption/</id>
             <content type="html">
                 &lt;p&gt;One episode of a great series ends, and you want to watch the next. This tug... It&#39;s what causes bingeing (not so good). But also it&#39;s an effect of the joy of storytelling and a good production.&lt;/p&gt;
@@ -677,7 +677,7 @@ You’re essentially building a long-lived personal &lt;strong&gt;spatial archiv
                 Not all who are lost wander (pre-blog blog post)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-16T21:41:33.000Z</updated>
             <id>https://briancherin.github.io/musings/not-all-who-are-lost-wander-pre-blog-blog-post/</id>
             <content type="html">
                 &lt;p&gt;&lt;em&gt;I was searching for files on my computer related to &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/game-development/old-projects/toothpaste-burger/&quot;&gt;Toothpaste Burger&lt;/a&gt; and I came across this college assignment which was to write a blog post about values related to my career. I completely forgot about this assignment. It will finally revel in satisfaction of any blog post&#39;s wish: to actually be a public blog post.&lt;/em&gt;&lt;/p&gt;
@@ -720,7 +720,7 @@ You’re essentially building a long-lived personal &lt;strong&gt;spatial archiv
                 My Most Amazing, Aspirational, Unrealistic, Impossible Self
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-06T03:08:19.000Z</updated>
             <id>https://briancherin.github.io/musings/my-most-amazing-aspirational-unrealistic-impossible-self/</id>
             <content type="html">
                 &lt;p&gt;After watching a &lt;a href=&quot;https://www.youtube.com/watch?v=THAupOYwJTs&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;video &lt;/a&gt; &lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;of a guy living 21 years off-grid and building a bunch of structures, dance studio, sustaining a life (with outside purchases too. And a weird amount of technology and power tools), I am in a state of wondering what my own life would be like if I was at 100% max following my instinctual pursuits without inhibitions or limitations by things like willpower, money, and energy. No, I&#39;m not saying I want to live off-grid (though, I find it really cool how he built everything/mostly on his own).&lt;/p&gt;
@@ -767,7 +767,7 @@ With the snap of a finger:&lt;/p&gt;
                 Whats Up
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-07-03T17:44:31.000Z</updated>
             <id>https://briancherin.github.io/misc/whats-up/</id>
             <content type="html">
                 &lt;p&gt;What&#39;s up. What&#39;s going on. What am I doing, reading, interesting stuff to share that I don&#39;t feel like making a separate page for.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; I don&#39;t expect myself to keep this super regularly updated or fully comprehensive of my activity - but it&#39;s a place to put stuff that I find noteworthy.&lt;/p&gt;
@@ -801,7 +801,7 @@ With the snap of a finger:&lt;/p&gt;
                 May 2026
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-07-03T18:55:50.000Z</updated>
             <id>https://briancherin.github.io/misc/what-was-up/may-2026/</id>
             <content type="html">
                 &lt;ul&gt;
@@ -844,7 +844,7 @@ With the snap of a finger:&lt;/p&gt;
                 June 2026
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-07-03T15:39:28.000Z</updated>
             <id>https://briancherin.github.io/misc/what-was-up/june-2026/</id>
             <content type="html">
                 &lt;ul&gt;
@@ -888,7 +888,7 @@ With the snap of a finger:&lt;/p&gt;
                 April 2026
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-22T01:31:03.000Z</updated>
             <id>https://briancherin.github.io/misc/what-was-up/april-2026/</id>
             <content type="html">
                 &lt;ul&gt;
@@ -909,7 +909,7 @@ With the snap of a finger:&lt;/p&gt;
                 Random Snippets
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-09T15:19:07.000Z</updated>
             <id>https://briancherin.github.io/misc/random-snippets/</id>
             <content type="html">
                 &lt;h4 id=&quot;10&quot; tabindex=&quot;-1&quot;&gt;10&lt;/h4&gt;
@@ -990,7 +990,7 @@ This is resonating with me:&lt;/p&gt;
                 Subscribe For Email Updates
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-06T03:38:06.000Z</updated>
             <id>https://briancherin.github.io/meta/subscribe-for-email-updates/</id>
             <content type="html">
                 &lt;p&gt;Want to get weekly updates on new or updated notes in my digital garden? Enter your email below.&lt;/p&gt;
@@ -1004,7 +1004,7 @@ This is resonating with me:&lt;/p&gt;
                 RSS Feed
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-13T15:36:53.000Z</updated>
             <id>https://briancherin.github.io/meta/rss-feed/</id>
             <content type="html">
                 &lt;p&gt;Link to RSS Feed: &lt;a href=&quot;https://garden.briancher.in/feed.xml&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://garden.briancher.in/feed.xml&lt;/a&gt;&lt;/p&gt;
@@ -1020,7 +1020,7 @@ This is resonating with me:&lt;/p&gt;
                 What Is This
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2025-12-16T16:08:31.000Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/what-is-this/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt;&lt;/p&gt;
@@ -1070,7 +1070,7 @@ This is resonating with me:&lt;/p&gt;
                 Reasons to Write (Here)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-07T03:16:56.000Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/reasons-to-write-here/</id>
             <content type="html">
                 &lt;ul&gt;
@@ -1093,7 +1093,7 @@ This is resonating with me:&lt;/p&gt;
                 Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-30T19:45:49.000Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#obsidian&quot;&gt;#obsidian&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cybersecurity&quot;&gt;#cybersecurity&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#privacy&quot;&gt;#privacy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#miniproject&quot;&gt;#miniproject&lt;/a&gt;&lt;/p&gt;
@@ -1151,7 +1151,7 @@ Also, I realize that there is some irony/concern with passing the potentially se
                 On Privacy
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-13T18:34:58.000Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/on-privacy/</id>
             <content type="html">
                 &lt;p&gt;As can be hinted in &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/&quot;&gt;Please Don&#39;t Spearphish Me&lt;/a&gt;, I a conscientious of the dilemma of having a blog like this versus possible privacy and safety concerns. I have always been careful about what I post online, and suddenly I am encouraging myself to post more personal thoughts, opinions, and details -- obviously I&#39;m avoiding posting information that would lead to someone being able to harm me, but it&#39;s scary to think about what could slip through which someone malicious could leverage. What&#39;s there to be scared of? Stalker, hacker, threats. I don&#39;t think anyone has a reason to target me in particular, but it&#39;s the Internet. You never know.&lt;/p&gt;
@@ -1175,7 +1175,7 @@ Also, I realize that there is some irony/concern with passing the potentially se
                 My Past Self Telling Me To Start a Blog
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-30T19:45:49.000Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/</id>
             <content type="html">
                 &lt;p&gt;Digging in the archives of my Google Keep notes:&lt;/p&gt;
@@ -1267,7 +1267,7 @@ Found from this good video which has other great ideas too &lt;a href=&quot;http
                 Indie Web
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-03-30T02:33:59.000Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/indie-web/</id>
             <content type="html">
                 &lt;h4 id=&quot;notes-on-and-quot-the-web-revival-breakdown-and-quot&quot; tabindex=&quot;-1&quot;&gt;Notes on &amp;quot;The Web Revival Breakdown&amp;quot;&lt;/h4&gt;
@@ -1312,7 +1312,7 @@ Reading on: 3/29/2026&lt;/p&gt;
                 Blogging Inspiration
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2025-12-10T19:06:42.000Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/blogging-inspiration/</id>
             <content type="html">
                 &lt;ul&gt;
@@ -1327,7 +1327,7 @@ Reading on: 3/29/2026&lt;/p&gt;
                 Obsidian Setup
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-04-27T21:07:52.000Z</updated>
             <id>https://briancherin.github.io/meta/obsidian-setup/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#obsidian&quot;&gt;#obsidian&lt;/a&gt;&lt;/p&gt;
@@ -1351,7 +1351,7 @@ I found this &lt;a href=&quot;https://briancherin.github.io/&quot; target=&quot;
                 Garden Improvements
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-07-04T20:37:23.000Z</updated>
             <id>https://briancherin.github.io/meta/garden-improvements/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt;&lt;/p&gt;
@@ -1382,7 +1382,7 @@ I found this &lt;a href=&quot;https://briancherin.github.io/&quot; target=&quot;
                 Specimen (2026)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-10T22:34:45.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/theater/specimen-2026/</id>
             <content type="html">
                 &lt;p&gt;Writer/director: Randall Sharp&lt;br /&gt;
@@ -1446,7 +1446,7 @@ Running May 6 - June 6, 2026&lt;/p&gt;
                 Spare Parts (2026)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-04-06T02:08:26.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/theater/spare-parts-2026/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Media%20I%20Have%20Consumed/Theater/Assets/Pasted%20image%2020260405220102.png&quot; alt=&quot;Pasted image 20260405220102.png|381&quot; width=&quot;381px&quot; /&gt;&lt;br /&gt;
@@ -1487,7 +1487,7 @@ Directed by: Michael Herwitz&lt;/p&gt;
                 Pen Pals by Michael Griffo (2025)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2025-12-27T04:02:07.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/theater/pen-pals-by-michael-griffo-2025/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#theater&quot;&gt;#theater&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#friendship&quot;&gt;#friendship&lt;/a&gt;&lt;/p&gt;
@@ -1525,7 +1525,7 @@ Directed by: Michael Herwitz&lt;/p&gt;
                 Natasha, Pierre, and the Great Comet of 1812
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-03-17T22:46:54.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/theater/natasha-pierre-and-the-great-comet-of-1812/</id>
             <content type="html">
                 &lt;p&gt;This musical, created by Dave Malloy and put on in 2012, is based on a 70-page slice of Leo Tolstoy&#39;s novel &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/books/fiction/war-and-peace-by-leo-tolstoy/&quot;&gt;War and Peace&lt;/a&gt; I found out about this musical after seeing one of Dave Malloy&#39;s latest works (a musical called Octet) and then exploring what other things he had created.&lt;/p&gt;
@@ -1543,7 +1543,7 @@ Directed by: Michael Herwitz&lt;/p&gt;
                 Mini Theater Reviews
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-30T23:50:05.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/theater/mini-theater-reviews/</id>
             <content type="html">
                 &lt;h3 id=&quot;black-swan-2026&quot; tabindex=&quot;-1&quot;&gt;Black Swan (2026)&lt;/h3&gt;
@@ -1559,7 +1559,7 @@ Directed by: Michael Herwitz&lt;/p&gt;
                 Into the Woods - Sondheim (1986)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-01T01:54:32.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/theater/into-the-woods-sondheim-1986/</id>
             <content type="html">
                 &lt;p&gt;A Stephen Sondheim musical that won many awards.&lt;/p&gt;
@@ -1592,7 +1592,7 @@ Another interesting choice was that after the narrator was killed, there was no 
                 Hadestown
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-10T04:08:12.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/theater/hadestown/</id>
             <content type="html">
                 &lt;p&gt;Generally my favorite Broadway musical.&lt;/p&gt;
@@ -1605,7 +1605,7 @@ Another interesting choice was that after the narrator was killed, there was no 
                 Ghost Quartet - Dave Malloy (2014)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-13T19:42:55.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/theater/ghost-quartet-dave-malloy-2014/</id>
             <content type="html">
                 &lt;p&gt;One of my favorites! It&#39;s a great show. VERY nontraditional. An official recording is available for free on youtube, so it&#39;s pretty accessible for anyone to watch.&lt;/p&gt;
@@ -1634,7 +1634,7 @@ Are part of the same consciousness.&amp;quot;&lt;br /&gt;
                 Company A Musical Comedy - Sondheim 1970
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-08T17:25:29.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#theater&quot;&gt;#theater&lt;/a&gt;&lt;/p&gt;
@@ -1746,7 +1746,7 @@ Are part of the same consciousness.&amp;quot;&lt;br /&gt;
                 The Good Place
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-03-18T22:48:03.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/tv/the-good-place/</id>
             <content type="html">
                 &lt;p&gt;Completed watching on March 3, 2026.&lt;/p&gt;
@@ -1818,7 +1818,7 @@ Are part of the same consciousness.&amp;quot;&lt;br /&gt;
                 All nearness pauses while a star can grow (E.E. Cummings)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2025-12-16T04:21:25.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/poetry/all-nearness-pauses-while-a-star-can-grow-e-e-cummings/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Media%20I%20Have%20Consumed/Poetry/Assets/all%20nearness%20pauses.png&quot; alt=&quot;all nearness pauses.png&quot; /&gt;&lt;/p&gt;
@@ -1941,7 +1941,7 @@ Are part of the same consciousness.&amp;quot;&lt;br /&gt;
                 Skeptics Guide to the Universe
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-07-04T21:22:11.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/podcasts/skeptics-guide-to-the-universe/</id>
             <content type="html">
                 &lt;p&gt;Podcast I&#39;ve been loving -- each episode is a discussion about recent science news and current events with the lens of scientific skepticism. Skepticism here is in the context of always questioning things and not believing things just because you are told them or because its the popular view; holding beliefs that are based in evidence/facts. I like that they not only talk about interesting topics, but they also educate on examples of misinformation and bad science. It&#39;s always the same panel of ~5 hosts, and they are a diverse and knowledgable set of individuals and they have fun with the discussion.&lt;/p&gt;
@@ -1964,7 +1964,7 @@ Are part of the same consciousness.&amp;quot;&lt;br /&gt;
                 The Right Way to Talk to People About Your Business - Indie Hackers Podcast
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-30T22:36:32.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/podcasts/indie-hackers-podcast/the-right-way-to-talk-to-people-about-your-business-indie-hackers-podcast/</id>
             <content type="html">
                 &lt;p&gt;Indie Hackers Podcast episode &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#154&quot;&gt;#154&lt;/a&gt;: &amp;quot;The Right Way to Talk to People About Your Business with Rob Fitzpatrick, Author of The Mom Test&amp;quot;&lt;/p&gt;
@@ -2062,7 +2062,7 @@ Are part of the same consciousness.&amp;quot;&lt;br /&gt;
                 Indie Hackers Podcast
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-30T19:45:49.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/podcasts/indie-hackers-podcast/indie-hackers-podcast/</id>
             <content type="html">
                 &lt;p&gt;A podcast with interviews giving advice on bootstrapping a product/app.&lt;/p&gt;
@@ -2081,7 +2081,7 @@ Are part of the same consciousness.&amp;quot;&lt;br /&gt;
                 Daniel Vassallo - Indie Hackers Podcast
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-30T19:45:49.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/podcasts/indie-hackers-podcast/daniel-vassallo-indie-hackers-podcast/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#podcast&quot;&gt;#podcast&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#entrepreneurship&quot;&gt;#entrepreneurship&lt;/a&gt;&lt;/p&gt;
@@ -2122,7 +2122,7 @@ Are part of the same consciousness.&amp;quot;&lt;br /&gt;
                 1 Second Everyday - Indie Hackers Podcast
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-30T19:45:49.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/podcasts/indie-hackers-podcast/1-second-everyday-indie-hackers-podcast/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#podcast&quot;&gt;#podcast&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#entrepreneurship&quot;&gt;#entrepreneurship&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt;&lt;/p&gt;
@@ -2201,7 +2201,7 @@ One final note, on my experience writing this right now (spent about 1hr 45 min 
                 Weathervanes (Album) by Freelance Whales
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-02-04T02:28:10.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/music/weathervanes-album-by-freelance-whales/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Media%20I%20Have%20Consumed/Music/Assets/Pasted%20image%2020260121174318.png&quot; alt=&quot;Pasted image 20260121174318.png&quot; /&gt;&lt;/p&gt;
@@ -2254,7 +2254,7 @@ One final note, on my experience writing this right now (spent about 1hr 45 min 
                 Streetlight Manifesto
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-31T13:50:02.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/music/streetlight-manifesto/</id>
             <content type="html">
                 &lt;p&gt;A lot to be said.&lt;/p&gt;
@@ -2268,7 +2268,7 @@ One final note, on my experience writing this right now (spent about 1hr 45 min 
                 My Music Recommendations
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-06T04:07:02.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/music/my-music-recommendations/</id>
             <content type="html">
                 &lt;p&gt;...&lt;/p&gt;
@@ -2281,7 +2281,7 @@ One final note, on my experience writing this right now (spent about 1hr 45 min 
                 Music Associations
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-03-13T20:18:35.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/music/music-associations/</id>
             <content type="html">
                 &lt;p&gt;Some songs instantly bring me back to a different time in my life, often a specific moment when I was listening to them. It could be an overall album or artist, too.&lt;/p&gt;
@@ -2307,7 +2307,7 @@ One final note, on my experience writing this right now (spent about 1hr 45 min 
                 Larry and His Flask
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-17T15:46:29.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/music/larry-and-his-flask/</id>
             <content type="html">
                 &lt;p&gt;Really really love their music! One of my favorite artists. Discovered them in 2024.&lt;/p&gt;
@@ -2339,7 +2339,7 @@ One final note, on my experience writing this right now (spent about 1hr 45 min 
                 2026 Music Standouts
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-17T15:34:20.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/music/2026-music-standouts/</id>
             <content type="html">
                 &lt;p&gt;This should be like &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/music/2025-music-retrospective/&quot;&gt;2025 Music Retrospective&lt;/a&gt; but more as the year goes on rather than one burst at the end (though I may reflect at the end).&lt;/p&gt;
@@ -2390,7 +2390,7 @@ One final note, on my experience writing this right now (spent about 1hr 45 min 
                 2025 Music Retrospective
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-17T15:34:20.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/music/2025-music-retrospective/</id>
             <content type="html">
                 &lt;p&gt;The below &amp;quot;new approach&amp;quot; isn&#39;t all there is to be said about my music consumption this year, but it&#39;s a major part of it.&lt;/p&gt;
@@ -2626,7 +2626,7 @@ Fastly, Slowly, Breathe - Created October 2, 2025&lt;/p&gt;
                 Twelve Angry Men
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-03-30T02:33:59.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/movies/twelve-angry-men/</id>
             <content type="html">
                 
@@ -2638,7 +2638,7 @@ Fastly, Slowly, Breathe - Created October 2, 2025&lt;/p&gt;
                 The Drama (2026)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-30T23:50:05.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/movies/the-drama-2026/</id>
             <content type="html">
                 &lt;p&gt;Great movie. Asks some deep questions.&lt;/p&gt;
@@ -2677,7 +2677,7 @@ Fastly, Slowly, Breathe - Created October 2, 2025&lt;/p&gt;
                 The Devil Wears Prada (2006)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-10T22:35:01.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/movies/the-devil-wears-prada-2006/</id>
             <content type="html">
                 &lt;p&gt;Watched in preparation for seeing the sequel. (The choice of seeing the sequel not entirely being in my own hands.)&lt;/p&gt;
@@ -2728,7 +2728,7 @@ Fastly, Slowly, Breathe - Created October 2, 2025&lt;/p&gt;
                 The Chef of South Polar (2009)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-30T19:45:49.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/movies/the-chef-of-south-polar-2009/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#movie&quot;&gt;#movie&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#japanese&quot;&gt;#japanese&lt;/a&gt;&lt;/p&gt;
@@ -2758,7 +2758,7 @@ IMDB: &lt;a href=&quot;https://www.imdb.com/title/tt1345728/&quot; target=&quot;
                 Portrait of a Lady on Fire (2020)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-10T16:09:36.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/movies/portrait-of-a-lady-on-fire-2020/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Pasted%20image%2020260609233011.png&quot; alt=&quot;Pasted image 20260609233011.png&quot; /&gt;&lt;/p&gt;
@@ -2812,7 +2812,7 @@ Céline Sciamma. What else did Sciamma make? I was surprised to see: &lt;em&gt;P
                 Pools (2025)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-01-03T01:00:12.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/movies/pools-2025/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Media%20I%20Have%20Consumed/Movies/Assets/pools%20poster.png&quot; alt=&quot;pools poster.png&quot; /&gt;&lt;/p&gt;
@@ -2854,7 +2854,7 @@ Céline Sciamma. What else did Sciamma make? I was surprised to see: &lt;em&gt;P
                 Over the Edge (1979)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-08T20:54:58.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/movies/over-the-edge-1979/</id>
             <content type="html">
                 &lt;p&gt;I really liked this movie! Three word description: justified teenage rebellion. Message: good recreation programs and parental attention are important for kids/teens to... not be delinquents.&lt;/p&gt;
@@ -2891,7 +2891,7 @@ Céline Sciamma. What else did Sciamma make? I was surprised to see: &lt;em&gt;P
                 Local Hero (1983)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-03-31T02:25:43.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/movies/local-hero-1983/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Pasted%20image%2020260329215544.png&quot; alt=&quot;Pasted image 20260329215544.png|519&quot; width=&quot;519px&quot; /&gt;&lt;/p&gt;
@@ -2962,7 +2962,7 @@ Céline Sciamma. What else did Sciamma make? I was surprised to see: &lt;em&gt;P
                 Good Luck, Have Fun, Don&#39;t Die (2025)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-20T03:39:50.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/movies/good-luck-have-fun-don-t-die-2025/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Pasted%20image%2020260518225420.png&quot; alt=&quot;Pasted image 20260518225420.png&quot; /&gt;&lt;/p&gt;
@@ -3079,7 +3079,7 @@ Céline Sciamma. What else did Sciamma make? I was surprised to see: &lt;em&gt;P
                 Eternity (2025)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2025-12-26T04:42:20.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/movies/eternity-2025/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Eternity%20poster.png&quot; alt=&quot;Eternity poster.png&quot; /&gt;&lt;/p&gt;
@@ -3170,7 +3170,7 @@ Céline Sciamma. What else did Sciamma make? I was surprised to see: &lt;em&gt;P
                 Bugonia (2025)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2025-12-13T23:59:06.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/movies/bugonia-2025/</id>
             <content type="html">
                 &lt;p&gt;&lt;a href=&quot;https://www.imdb.com/title/tt12300742/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.imdb.com/title/tt12300742/&lt;/a&gt;&lt;br /&gt;
@@ -3199,7 +3199,7 @@ Céline Sciamma. What else did Sciamma make? I was surprised to see: &lt;em&gt;P
                 A Tree Grows in Brooklyn (1945)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-14T13:20:30.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/movies/a-tree-grows-in-brooklyn-1945/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Pasted%20image%2020260207231649.png&quot; alt=&quot;Pasted image 20260207231649.png&quot; /&gt;&lt;/p&gt;
@@ -3261,7 +3261,7 @@ Céline Sciamma. What else did Sciamma make? I was surprised to see: &lt;em&gt;P
                 Why your life feels fake
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-07-03T18:55:50.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/misc/why-your-life-feels-fake/</id>
             <content type="html">
                 &lt;p&gt;Reading / taking notes on this article: &lt;a href=&quot;https://letters.thedankoe.com/p/why-your-life-feels-fake-an-antidote&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://letters.thedankoe.com/p/why-your-life-feels-fake-an-antidote&lt;/a&gt;&lt;br /&gt;
@@ -3363,7 +3363,7 @@ Céline Sciamma. What else did Sciamma make? I was surprised to see: &lt;em&gt;P
                 The Ones Who Walk Away From Omelas (Ursula K. Le Guin short story)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-21T01:34:19.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/misc/the-ones-who-walk-away-from-omelas-ursula-k-le-guin-short-story/</id>
             <content type="html">
                 &lt;p&gt;&lt;a href=&quot;https://shsdavisapes.pbworks.com/f/Omelas.pdf&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://shsdavisapes.pbworks.com/f/Omelas.pdf&lt;/a&gt;&lt;/p&gt;
@@ -3420,7 +3420,7 @@ Céline Sciamma. What else did Sciamma make? I was surprised to see: &lt;em&gt;P
                 The Egg (Andy Weir)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-04-16T13:24:06.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/misc/the-egg-andy-weir/</id>
             <content type="html">
                 &lt;p&gt;Short story / concept.&lt;/p&gt;
@@ -3452,7 +3452,7 @@ Céline Sciamma. What else did Sciamma make? I was surprised to see: &lt;em&gt;P
                 Makoism (blog) posts
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-04T03:38:15.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/misc/makoism-blog-posts/</id>
             <content type="html">
                 &lt;p&gt;I&#39;ve been reading some bunches of &lt;a href=&quot;https://briancherin.github.io/makoism.com&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Makoism&lt;/a&gt; posts and I&#39;ve been liking both 1) His periodic/weekly coffee posts with links to interesting articles, as well as 2) His own posts. The content has felt growth-oriented and honest about technology. I was starting to flood &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/misc/whats-up/&quot;&gt;Whats Up&lt;/a&gt; with his posts, so I&#39;m branching out to a new note instead.&lt;/p&gt;
@@ -3509,7 +3509,7 @@ Céline Sciamma. What else did Sciamma make? I was surprised to see: &lt;em&gt;P
                 Hank Green Tells Me To Fall Downhill
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-01-21T22:47:31.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/misc/hank-green-tells-me-to-fall-downhill/</id>
             <content type="html">
                 &lt;p&gt;Video title: &amp;quot;Don&#39;t Follow Your Dreams, Follow Your Tools&amp;quot;&lt;br /&gt;
@@ -3546,7 +3546,7 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
                 Creators I Like
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-07T13:53:36.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/misc/creators-i-like/</id>
             <content type="html">
                 &lt;h5 id=&quot;re-wild-university&quot; tabindex=&quot;-1&quot;&gt;ReWild University&lt;/h5&gt;
@@ -3562,7 +3562,7 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
                 The 2-Hour Cocktail Party by Nick Gray
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-24T15:12:11.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/books/nonfiction/the-2-hour-cocktail-party-by-nick-gray/</id>
             <content type="html">
                 &lt;p&gt;Poses hosting cocktail parties (or similar) as an approach for strengthening existing connections AND forming new relationships.&lt;/p&gt;
@@ -3632,7 +3632,7 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
                 CRISPR Book Summary
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-04-16T13:00:05.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/books/nonfiction/crispr-book-summary/</id>
             <content type="html">
                 &lt;p&gt;“Editing Humanity: The CRISPR Revolution and the New Era of Genome Editing” by Kevin Davies (published in April 2020)&lt;/p&gt;
@@ -3665,7 +3665,7 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
                 Braiding Sweetgrass by Robin Wall Kimmerer
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-07T13:53:36.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/books/nonfiction/braiding-sweetgrass-by-robin-wall-kimmerer/</id>
             <content type="html">
                 &lt;p&gt;This is a book that my close friends in college were recommending to me -- took a couple years for me to get to it, but it felt like the right time: After &lt;em&gt;Always Coming Home&lt;/em&gt;, which talks about the culture and stories of a fictional indigenous-like civilization, I wanted to gain a sense of the culture of real world indigenous people. This book delivered, combining indigenous stories and some history with a strong and impactful environmental lens. At the start, it posed the question of how humanity can have a positive relationship with the environment (while not giving up technology and our core way of life), and it delivered on working through answering this question, in an optimistic way. I think this genuinely shifted how I think about the relationship of humanity and the environment. Spoiler: a core part of the &amp;quot;answer&amp;quot; is restorative ecology.&lt;/p&gt;
@@ -3678,7 +3678,7 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
                 Mini Book Reviews
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-07T13:53:36.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/books/mini-book-reviews/</id>
             <content type="html">
                 &lt;p&gt;Reactions to books I&#39;ve read. This list does not necessarily represent every book I&#39;ve read.&lt;/p&gt;
@@ -3709,7 +3709,7 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
                 War and Peace by Leo Tolstoy
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-07-01T14:31:59.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/books/fiction/war-and-peace-by-leo-tolstoy/</id>
             <content type="html">
                 &lt;p&gt;See &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/theater/natasha-pierre-and-the-great-comet-of-1812/&quot;&gt;Natasha, Pierre, and the Great Comet of 1812&lt;/a&gt;. Perhaps will expand this note later for more book-specific thoughts. But my reading of this book can not be separated from the linked musical.&lt;/p&gt;
@@ -3795,7 +3795,7 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
                 The Wheel of Time (series)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-02-13T15:42:32.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/books/fiction/the-wheel-of-time-series/</id>
             <content type="html">
                 &lt;p&gt;by Robert Jordan, and last three books by Brandon Sanderson after Robert Jordan&#39;s death.&lt;/p&gt;
@@ -3823,7 +3823,7 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
                 The Realm of the Elderlings (series)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-02-12T04:54:01.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/books/fiction/the-realm-of-the-elderlings-series/</id>
             <content type="html">
                 &lt;p&gt;Listened to as &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/books/audiobooks/&quot;&gt;audiobook&lt;/a&gt;s. So good!&lt;/p&gt;
@@ -3836,7 +3836,7 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
                 The Left Hand of Darkness (Ursula K. Le Guin)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-06T23:22:04.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/</id>
             <content type="html">
                 &lt;p&gt;Taking notes during my re-read&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; for book club in May 2026. Currently mostly listening to the audiobook version (my original read was ebook in 2020) but also may switch between ebook as well.&lt;/p&gt;
@@ -3989,7 +3989,7 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
                 Terra Ignotta
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-17T22:51:01.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/books/fiction/terra-ignotta/</id>
             <content type="html">
                 &lt;p&gt;A four-part series I really liked. Read in May-August 2025.&lt;/p&gt;
@@ -4002,7 +4002,7 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
                 Mars trilogy (Kim Stanley Robinson)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-07T13:53:36.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/books/fiction/mars-trilogy-kim-stanley-robinson/</id>
             <content type="html">
                 &lt;h3 id=&quot;overview&quot; tabindex=&quot;-1&quot;&gt;Overview&lt;/h3&gt;
@@ -4049,7 +4049,7 @@ longevity / anti-aging efforts/research
                 Island by Aldous Huxley
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-13T19:42:55.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/books/fiction/island-by-aldous-huxley/</id>
             <content type="html">
                 
@@ -4061,7 +4061,7 @@ longevity / anti-aging efforts/research
                 In Search of Lost Time by Marcel Proust
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-02-12T04:54:01.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/books/fiction/in-search-of-lost-time-by-marcel-proust/</id>
             <content type="html">
                 
@@ -4073,7 +4073,7 @@ longevity / anti-aging efforts/research
                 Book of the New Sun
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-21T00:06:21.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/books/fiction/book-of-the-new-sun/</id>
             <content type="html">
                 &lt;p&gt;Four-part series I liked.&lt;/p&gt;
@@ -4086,7 +4086,7 @@ longevity / anti-aging efforts/research
                 Ursula K. Le Guin
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-21T01:33:30.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/books/authors/ursula-k-le-guin/</id>
             <content type="html">
                 &lt;p&gt;One of my favorite authors.&lt;/p&gt;
@@ -4114,7 +4114,7 @@ longevity / anti-aging efforts/research
                 Audiobooks
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-03-17T22:46:54.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/books/audiobooks/</id>
             <content type="html">
                 &lt;p&gt;These are the book series I have consumed in audiobook form:&lt;/p&gt;
@@ -4134,7 +4134,7 @@ longevity / anti-aging efforts/research
                 Search query (advice on blogging to attract conversation on niche interests)
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-07-03T18:55:50.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/blogs/escaping-flatland/search-query-advice-on-blogging-to-attract-conversation-on-niche-interests/</id>
             <content type="html">
                 &lt;p&gt;Notes about &lt;a href=&quot;https://www.henrikkarlsson.xyz/p/search-query&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.henrikkarlsson.xyz/p/search-query&lt;/a&gt;&lt;/p&gt;
@@ -4248,7 +4248,7 @@ longevity / anti-aging efforts/research
                 Looking for Alice
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-07-03T18:55:50.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/blogs/escaping-flatland/looking-for-alice/</id>
             <content type="html">
                 &lt;p&gt;&lt;a href=&quot;https://www.henrikkarlsson.xyz/p/looking-for-alice&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.henrikkarlsson.xyz/p/looking-for-alice&lt;/a&gt;&lt;/p&gt;
@@ -4262,7 +4262,7 @@ longevity / anti-aging efforts/research
                 Why do vegans want imitation meat
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-04-29T14:01:23.000Z</updated>
             <id>https://briancherin.github.io/lifestyle/veganism/why-do-vegans-want-imitation-meat/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#veganism&quot;&gt;#veganism&lt;/a&gt;&lt;/p&gt;
@@ -4301,7 +4301,7 @@ longevity / anti-aging efforts/research
                 Why do I stay vegan enough though I miss certain foods
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-07-03T18:55:50.000Z</updated>
             <id>https://briancherin.github.io/lifestyle/veganism/why-do-i-stay-vegan-enough-though-i-miss-certain-foods/</id>
             <content type="html">
                 &lt;p&gt;No one has specifically asked me this question (not directly at least) but it kind of is a certain subtext to the vegan experience, so I will answer it.&lt;/p&gt;
@@ -4317,7 +4317,7 @@ The intellectual and rational refusal to support animal exploitation/suffering/u
                 Veganism
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-07-03T18:55:50.000Z</updated>
             <id>https://briancherin.github.io/lifestyle/veganism/veganism/</id>
             <content type="html">
                 &lt;p&gt;I&#39;ve been vegan since around 2020. My reasons for staying vegan include the health benefits, an opposition to animal exploitation, and the environmental benefits. Read &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/lifestyle/cooking/on-cooking-veganism-and-whole-food-plant-based-diet/&quot;&gt;On Cooking - Veganism and Whole-Food Plant-Based Diet&lt;/a&gt; for some more description of my journey.&lt;/p&gt;
@@ -4338,7 +4338,7 @@ The intellectual and rational refusal to support animal exploitation/suffering/u
                 Rick and Morty&#39;s Vegan Propaganda
                 
             </title>
-            <updated>2026-07-04T20:47:11.000Z</updated>
+            <updated>2026-07-03T18:55:50.000Z</updated>
             <id>https://briancherin.github.io/lifestyle/veganism/rick-and-morty-s-vegan-propaganda/</id>
             <content type="html">
                 &lt;p&gt;Whoops, it&#39;s been two and a half years since I&#39;ve watched a Rick and Morty episode! Back then, I had watched up through season 6. Then there was the wait for the next season, and I just never got back into it. But now apparently I&#39;m in the mood for it again (and I&#39;m over the fact that they changed the voice actor(s?) starting in S7 -- not that I disagree with their decision to do so, but it had me a little worried that the show would feel different).&lt;/p&gt;
@@ -4474,7 +4474,7 @@ The intellectual and rational refusal to support animal exploitation/suffering/u
                 Asked Why Am I Vegan
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-18T16:04:02.000Z</updated>
             <id>https://briancherin.github.io/lifestyle/veganism/asked-why-am-i-vegan/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#veganism&quot;&gt;#veganism&lt;/a&gt;&lt;/p&gt;
@@ -4510,7 +4510,7 @@ The intellectual and rational refusal to support animal exploitation/suffering/u
                 Animal Agriculture As An Atrocity
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-31T13:53:56.000Z</updated>
             <id>https://briancherin.github.io/lifestyle/veganism/animal-agriculture-as-an-atrocity/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#veganism&quot;&gt;#veganism&lt;/a&gt;&lt;/p&gt;
@@ -4542,7 +4542,7 @@ The intellectual and rational refusal to support animal exploitation/suffering/u
                 Thoughts on casual open social invites
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-20T03:51:08.000Z</updated>
             <id>https://briancherin.github.io/lifestyle/social/thoughts-on-casual-open-social-invites/</id>
             <content type="html">
                 &lt;p&gt;Whoever is reading this -- this is the kind of note where feedback+opinions+discussion is very valuable (especially due to the social nature of this topic) so please write to me if you want to share any thoughts!&lt;/p&gt;
@@ -4606,7 +4606,7 @@ The intellectual and rational refusal to support animal exploitation/suffering/u
                 Hosting Gatherings
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-20T03:39:50.000Z</updated>
             <id>https://briancherin.github.io/lifestyle/social/hosting-gatherings/</id>
             <content type="html">
                 &lt;p&gt;Hosting gatherings is a way to foster connections and cultivate community. This can apply to existing long-term friendships, and to more newly developing ones.&lt;/p&gt;
@@ -4625,7 +4625,7 @@ The intellectual and rational refusal to support animal exploitation/suffering/u
                 Wildman Steve Brill
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-09T19:04:48.000Z</updated>
             <id>https://briancherin.github.io/lifestyle/foraging/wildman-steve-brill/</id>
             <content type="html">
                 &lt;p&gt;Steve Brill organizes foraging tours in Central Park (amongst other places in and beyond NYC). I joined a tour: &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/lifestyle/foraging/6-6-2026-foraging-tour-with-wildman-steve-brill/&quot;&gt;6-6-2026 Foraging tour with Wildman Steve Brill&lt;/a&gt;.&lt;/p&gt;
@@ -4663,7 +4663,7 @@ The intellectual and rational refusal to support animal exploitation/suffering/u
                 Foraging
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-09T19:04:48.000Z</updated>
             <id>https://briancherin.github.io/lifestyle/foraging/foraging/</id>
             <content type="html">
                 &lt;p&gt;Currently this is a passive interest that I have no acted on in any significant way.&lt;/p&gt;
@@ -4702,7 +4702,7 @@ The intellectual and rational refusal to support animal exploitation/suffering/u
                 Foraged Flavors
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-06T19:55:46.000Z</updated>
             <id>https://briancherin.github.io/lifestyle/foraging/foraged-flavors/</id>
             <content type="html">
                 &lt;p&gt;A couple months ago, I came across a YouTube channel called &lt;a href=&quot;https://www.youtube.com/@Justinthetrees&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Justinthetrees&lt;/a&gt;. He makes experimental ice cream flavors out of tree bark, flowers, and/or sap. He also creates his own bowl and spoon in each video in his woodshop, out of wood from the same type of tree as the flavor. The videos are entertaining and interesting. My first exposure was during a flight.&lt;/p&gt;
@@ -4718,7 +4718,7 @@ The intellectual and rational refusal to support animal exploitation/suffering/u
                 6-6-2026 Foraging tour with Wildman Steve Brill
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-22T01:19:43.000Z</updated>
             <id>https://briancherin.github.io/lifestyle/foraging/6-6-2026-foraging-tour-with-wildman-steve-brill/</id>
             <content type="html">
                 &lt;p&gt;&lt;a href=&quot;https://www.wildmanstevebrill.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.wildmanstevebrill.com/&lt;/a&gt;&lt;br /&gt;
@@ -4838,7 +4838,7 @@ Can make vegan beef jerky out of burdock root&lt;/p&gt;
                 On Cooking - Veganism and Whole-Food Plant-Based Diet
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-04-28T03:05:07.000Z</updated>
             <id>https://briancherin.github.io/lifestyle/cooking/on-cooking-veganism-and-whole-food-plant-based-diet/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#veganism&quot;&gt;#veganism&lt;/a&gt;&lt;/p&gt;
@@ -4923,7 +4923,7 @@ Can make vegan beef jerky out of burdock root&lt;/p&gt;
                 AI-Assisted Meal Planning
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-21T20:59:17.000Z</updated>
             <id>https://briancherin.github.io/lifestyle/cooking/ai-assisted-meal-planning/</id>
             <content type="html">
                 &lt;p&gt;It&#39;s April of 2026 and I feel like my cooking habits have not changed much in the past few years. I feel that meal planning/prepping is an underdeveloped area in my life right now. I often find myself scrambling to make last-minute meals because I don&#39;t have anything prepped. I have common staple meals that I rely on and often do make large batches of them which last for several days -- but I go in cycles of feeling like I&#39;m doing a good job with this, and then drift off into bad habits of not having things prepared.&lt;/p&gt;
@@ -6439,7 +6439,7 @@ Experimenting with the idea of scraping the captions from Tiktok videos of someo
                 Attending an Industry Reading
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2025-12-23T04:46:11.000Z</updated>
             <id>https://briancherin.github.io/interests/theater/attending-an-industry-reading/</id>
             <content type="html">
                 &lt;p&gt;I found myself at a stage reading for a musical called &amp;quot;Glory Ride&amp;quot;. It was called an &amp;quot;industry reading&amp;quot; (though I am not &amp;quot;Industry&amp;quot;). This was my first time attending a reading.&lt;/p&gt;
@@ -6474,7 +6474,7 @@ Experimenting with the idea of scraping the captions from Tiktok videos of someo
                 Inspiration
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-03-19T02:09:33.000Z</updated>
             <id>https://briancherin.github.io/interests/reading/inspiration/</id>
             <content type="html">
                 &lt;h4 id=&quot;1&quot; tabindex=&quot;-1&quot;&gt;1&lt;/h4&gt;
@@ -6495,7 +6495,7 @@ Experimenting with the idea of scraping the captions from Tiktok videos of someo
                 Ways to Engage More Deeply With Music
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-02-04T02:28:10.000Z</updated>
             <id>https://briancherin.github.io/interests/music/ways-to-engage-more-deeply-with-music/</id>
             <content type="html">
                 &lt;p&gt;Ideas.&lt;/p&gt;
@@ -6516,7 +6516,7 @@ Experimenting with the idea of scraping the captions from Tiktok videos of someo
                 The Tragedy of Small Numbers
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-14T13:20:15.000Z</updated>
             <id>https://briancherin.github.io/interests/music/the-tragedy-of-small-numbers/</id>
             <content type="html">
                 &lt;p&gt;Sometimes I chance upon music on Spotify that catches my attention. And I&#39;ll click into the artist&#39;s profile to see how many monthly listeners they have. If it&#39;s a big(?) number, I feel happy, and I feel like I&#39;ve tapped into something special. If it&#39;s a small number (&amp;lt; 10,000), I feel a bit of a knockback. I start to question whether the content is really worth listening to or spending more time with.&lt;/p&gt;
@@ -6549,7 +6549,7 @@ Experimenting with the idea of scraping the captions from Tiktok videos of someo
                 Record player
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-08T22:23:21.000Z</updated>
             <id>https://briancherin.github.io/interests/music/record-player/</id>
             <content type="html">
                 &lt;p&gt;Ideally in the future this note will include:&lt;/p&gt;
@@ -6568,7 +6568,7 @@ Experimenting with the idea of scraping the captions from Tiktok videos of someo
                 Discovering new music
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-04-06T13:27:57.000Z</updated>
             <id>https://briancherin.github.io/interests/music/discovering-new-music/</id>
             <content type="html">
                 &lt;p&gt;Ways to discover new music&lt;/p&gt;
@@ -6595,7 +6595,7 @@ Experimenting with the idea of scraping the captions from Tiktok videos of someo
                 Hypnosis
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-04-06T02:23:40.000Z</updated>
             <id>https://briancherin.github.io/interests/misc/hypnosis/</id>
             <content type="html">
                 
@@ -6607,7 +6607,7 @@ Experimenting with the idea of scraping the captions from Tiktok videos of someo
                 The instinct to lick the ground
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-02T01:41:45.000Z</updated>
             <id>https://briancherin.github.io/interests/dreams/the-instinct-to-lick-the-ground/</id>
             <content type="html">
                 &lt;p&gt;Over the years&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;, I have developed the instinct, in my dreams, to lick the ground (whether floor, dirt, pavement, grass), or really any nearby object, in moments of instability.&lt;/p&gt;
@@ -6641,7 +6641,7 @@ Experimenting with the idea of scraping the captions from Tiktok videos of someo
                 Skills to work on
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-09T14:02:39.000Z</updated>
             <id>https://briancherin.github.io/interests/dreams/skills-to-work-on/</id>
             <content type="html">
                 &lt;ul&gt;
@@ -6685,7 +6685,7 @@ Experimenting with the idea of scraping the captions from Tiktok videos of someo
                 Persistent Realms
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-30T21:52:08.000Z</updated>
             <id>https://briancherin.github.io/interests/dreams/persistent-realms/</id>
             <content type="html">
                 &lt;p&gt;The term and concept of &amp;quot;persistent realms&amp;quot; comes from &lt;a href=&quot;https://www.dreamviews.com/blogs/hyu/persistent-realms-other-lucid-dreaming-techniques-i-use-39218/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;this DreamViews post&lt;/a&gt; by &lt;em&gt;Hyu&lt;/em&gt; in 2012&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;. It&#39;s probably one of my favorite posts in a lucid dreaming forum ever.&lt;/p&gt;
@@ -6709,7 +6709,7 @@ Experimenting with the idea of scraping the captions from Tiktok videos of someo
                 On Dream Recall
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-05T14:06:06.000Z</updated>
             <id>https://briancherin.github.io/interests/dreams/on-dream-recall/</id>
             <content type="html">
                 &lt;p&gt;One of the most important skills in lucid dreaming is dream recall. If you can&#39;t remember your regular dreams, you&#39;re also not going to remember your lucid dreams. But it&#39;s more than that -- maintaining a dream journal and boosting your dream recall increases your &lt;em&gt;awareness&lt;/em&gt; of your dreams and develops your mental sense of understanding the experience of what it feels like to be in a dream. Focusing on dream recall teaches your mind that you are paying attention to your dreams and that you care about them. At least in my experience, these things add up to an increased sense of self-awareness in future dreams, which can convert to lucidity and enhanced presence in dreams.&lt;/p&gt;
@@ -6744,7 +6744,7 @@ Experimenting with the idea of scraping the captions from Tiktok videos of someo
                 Having well-defined goals for skill of dreaming
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-09T14:02:39.000Z</updated>
             <id>https://briancherin.github.io/interests/dreams/having-well-defined-goals-for-skill-of-dreaming/</id>
             <content type="html">
                 &lt;p&gt;Feeling inspired by a dreamviews thread &lt;a href=&quot;https://www.dreamviews.com/intro-class/167037-santatis-workbook.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.dreamviews.com/intro-class/167037-santatis-workbook.html&lt;/a&gt; -- talking about how other real life skills are easier to work on because they have well-defined goals for those.&lt;/p&gt;
@@ -6762,7 +6762,7 @@ Experimenting with the idea of scraping the captions from Tiktok videos of someo
                 Dreams
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-05T02:59:07.000Z</updated>
             <id>https://briancherin.github.io/interests/dreams/dreams/</id>
             <content type="html">
                 &lt;p&gt;Yes, this is a major interest.&lt;/p&gt;
@@ -6781,7 +6781,7 @@ Experimenting with the idea of scraping the captions from Tiktok videos of someo
                 Dream Goal Build Civilization
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-07-01T01:20:31.000Z</updated>
             <id>https://briancherin.github.io/interests/dreams/dream-goal-build-civilization/</id>
             <content type="html">
                 &lt;p&gt;It&#39;s more of a dream &lt;em&gt;project&lt;/em&gt; than a goal -- this would be a long-spanning thing over many dreams. Equally as importing as experiencing it is writing+documenting it. This goal has served as a strong point of motivation that gets me looking forward to mastering my dreams, because I think it would be so cool to do this.&lt;/p&gt;
@@ -6825,7 +6825,7 @@ Build civilization, following How to Invent Everything&lt;/p&gt;
                 Writing
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-01-10T19:09:05.000Z</updated>
             <id>https://briancherin.github.io/interests/creative/writing/writing/</id>
             <content type="html">
                 &lt;p&gt;The kinds of writing I pursue or intend to pursue:&lt;/p&gt;
@@ -6843,7 +6843,7 @@ Build civilization, following How to Invent Everything&lt;/p&gt;
                 Poetry
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-03-18T23:12:02.000Z</updated>
             <id>https://briancherin.github.io/interests/creative/writing/poetry/</id>
             <content type="html">
                 &lt;h4 id=&quot;the-road-to-poetry&quot; tabindex=&quot;-1&quot;&gt;The road to poetry&lt;/h4&gt;
@@ -6873,7 +6873,7 @@ Build civilization, following How to Invent Everything&lt;/p&gt;
                 Creative Writing
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-20T04:00:58.000Z</updated>
             <id>https://briancherin.github.io/interests/creative/writing/creative-writing/</id>
             <content type="html">
                 &lt;p&gt;I&#39;ve always been a big reader of fiction. It feels natural that I would want to write stories as well. And I do want to.&lt;/p&gt;
@@ -6929,7 +6929,7 @@ Build civilization, following How to Invent Everything&lt;/p&gt;
                 Songwriting
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-20T03:35:56.000Z</updated>
             <id>https://briancherin.github.io/interests/creative/music/songwriting/</id>
             <content type="html">
                 &lt;h3 id=&quot;the-road-to-songwriting&quot; tabindex=&quot;-1&quot;&gt;The road to songwriting&lt;/h3&gt;
@@ -6954,7 +6954,7 @@ Build civilization, following How to Invent Everything&lt;/p&gt;
                 Reaper DAW
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-20T03:35:56.000Z</updated>
             <id>https://briancherin.github.io/interests/creative/music/reaper-daw/</id>
             <content type="html">
                 &lt;p&gt;I&#39;ve been using Reaper, which is a DAW (Digital Audio Workstation) for music production. It&#39;s free and lightweight. A lot of people seem to like it and apparently it can do things just as well as the fancier-seeming DAWs. I think a lot of its potential is unlocked through plugins.&lt;/p&gt;
@@ -6968,7 +6968,7 @@ Build civilization, following How to Invent Everything&lt;/p&gt;
                 DIY Dyes
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-02-04T02:06:21.000Z</updated>
             <id>https://briancherin.github.io/interests/creative/misc/diy-dyes/</id>
             <content type="html">
                 &lt;p&gt;I visited the Met Cloisters museum a couple days ago, and (perhaps surprisingly) one of the most engaging exhibits to me was about how dyes were made in medieval times. See exhibit image:&lt;/p&gt;
@@ -7149,7 +7149,7 @@ Make four jars, label them, paint swatches, then modify each with vinegar/baking
                 3D Modeling
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-14T14:12:22.000Z</updated>
             <id>https://briancherin.github.io/interests/creative/3-d/3-d-modeling/</id>
             <content type="html">
                 &lt;p&gt;Creation: &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/creations/3-d/appa/&quot;&gt;Appa&lt;/a&gt;.&lt;/p&gt;
@@ -7163,7 +7163,7 @@ Make four jars, label them, paint swatches, then modify each with vinegar/baking
                 Flicker
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-03-18T23:12:02.000Z</updated>
             <id>https://briancherin.github.io/creations/poetry/flicker/</id>
             <content type="html">
                 &lt;p&gt;Used to have night skies,&lt;br /&gt;
@@ -7205,7 +7205,7 @@ Eighth grade assignment. Can you guess what this is about?&lt;/p&gt;
                 Scrappy Paintings
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-22T19:32:14.000Z</updated>
             <id>https://briancherin.github.io/creations/painting/scrappy-paintings/</id>
             <content type="html">
                 &lt;p&gt;Most, if not all, of these were made with the purpose of using up excess paint after a paint night or paint session.&lt;/p&gt;
@@ -7234,7 +7234,7 @@ Eighth grade assignment. Can you guess what this is about?&lt;/p&gt;
                 Completed paintings
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-06-23T03:29:40.000Z</updated>
             <id>https://briancherin.github.io/creations/painting/completed-paintings/</id>
             <content type="html">
                 &lt;h2 id=&quot;silly-slug&quot; tabindex=&quot;-1&quot;&gt;Silly Slug&lt;/h2&gt;
@@ -7282,7 +7282,7 @@ February 11, 2019&lt;/p&gt;
                 Appa
                 
             </title>
-            <updated>2026-07-04T21:19:05.000Z</updated>
+            <updated>2026-05-14T22:06:47.000Z</updated>
             <id>https://briancherin.github.io/creations/3-d/appa/</id>
             <content type="html">
                 &lt;p&gt;Made in October 2020.&lt;/p&gt;
