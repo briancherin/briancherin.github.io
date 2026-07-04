@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/creations/painting/scrappy-paintings/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/creations/painting/scrappy-paintings/"}
 ---
 
 Most, if not all, of these were made with the purpose of using up excess paint after a paint night or paint session.

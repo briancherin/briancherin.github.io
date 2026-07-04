@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/software/game-development/game-dev-inspiration/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/projects/software/game-development/game-dev-inspiration/"}
 ---
 
 #gamedev

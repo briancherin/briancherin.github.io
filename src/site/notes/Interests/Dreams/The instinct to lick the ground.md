@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/dreams/the-instinct-to-lick-the-ground/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/interests/dreams/the-instinct-to-lick-the-ground/"}
 ---
 
 Over the years^[my lucid dreaming efforts began around 2012], I have developed the instinct, in my dreams, to lick the ground (whether floor, dirt, pavement, grass), or really any nearby object, in moments of instability.

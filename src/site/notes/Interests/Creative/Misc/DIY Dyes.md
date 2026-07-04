@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/creative/misc/diy-dyes/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/interests/creative/misc/diy-dyes/"}
 ---
 
 I visited the Met Cloisters museum a couple days ago, and (perhaps surprisingly) one of the most engaging exhibits to me was about how dyes were made in medieval times. See exhibit image:

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Asked: Why Am I Vegan","permalink":"/lifestyle/veganism/asked-why-am-i-vegan/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/lifestyle/veganism/asked-why-am-i-vegan/","title":"Asked: Why Am I Vegan"}
 ---
 
 #veganism

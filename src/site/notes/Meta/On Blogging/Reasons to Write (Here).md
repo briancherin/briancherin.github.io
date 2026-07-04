@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/on-blogging/reasons-to-write-here/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/meta/on-blogging/reasons-to-write-here/"}
 ---
 
 - Doing any writing makes me a better writer by developing the skill

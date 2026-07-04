@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["The Left Hand of Darkness"],"permalink":"/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/the-left-hand-of-darkness-ursula-k-le-guin/"}
 ---
 
 Taking notes during my re-read^[I stubbornly do not mark this audiobook re-read on Goodreads as a book read. I just don't track audiobooks for Goodreads. Mainly for the purpose of the yearly Reading Challenge. It doesn't "count" to me. I acknowledge there is inherent and equal value in the audiobook. But I more value the more conscious effort of direct reading, in the context of the reading challenge.] for book club in May 2026. Currently mostly listening to the audiobook version (my original read was ebook in 2020) but also may switch between ebook as well.

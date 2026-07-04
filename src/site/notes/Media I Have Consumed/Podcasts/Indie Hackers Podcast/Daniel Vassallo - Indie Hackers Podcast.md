@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/podcasts/indie-hackers-podcast/daniel-vassallo-indie-hackers-podcast/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/podcasts/indie-hackers-podcast/daniel-vassallo-indie-hackers-podcast/"}
 ---
 
 #podcast #entrepreneurship 

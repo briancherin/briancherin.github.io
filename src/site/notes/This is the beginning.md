@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/this-is-the-beginning/","tags":["gardenEntry"],"dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/this-is-the-beginning/","tags":["gardenEntry"]}
 ---
 
 # This is the beginning

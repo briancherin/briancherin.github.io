@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/creative/writing/creative-writing/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/interests/creative/writing/creative-writing/"}
 ---
 
 

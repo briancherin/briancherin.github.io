@@ -1,5 +1,5 @@
 ---
-{"aliases":["persistent realms"],"dg-publish":true,"permalink":"/interests/dreams/persistent-realms/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/interests/dreams/persistent-realms/"}
 ---
 
 The term and concept of "persistent realms" comes from [this DreamViews post](https://www.dreamviews.com/blogs/hyu/persistent-realms-other-lucid-dreaming-techniques-i-use-39218/) by *Hyu* in 2012^[funnily enough, the year before I started getting interested in LDing]. It's probably one of my favorite posts in a lucid dreaming forum ever.

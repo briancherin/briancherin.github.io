@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/creative/music/songwriting/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/interests/creative/music/songwriting/"}
 ---
 
 ### The road to songwriting

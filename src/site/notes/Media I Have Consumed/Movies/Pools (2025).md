@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/pools-2025/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/pools-2025/"}
 ---
 
 ![pools poster.png](/img/user/Media%20I%20Have%20Consumed/Movies/Assets/pools%20poster.png)

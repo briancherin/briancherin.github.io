@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/dreams/having-well-defined-goals-for-skill-of-dreaming/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/interests/dreams/having-well-defined-goals-for-skill-of-dreaming/"}
 ---
 
 Feeling inspired by a dreamviews thread https://www.dreamviews.com/intro-class/167037-santatis-workbook.html -- talking about how other real life skills are easier to work on because they have well-defined goals for those.

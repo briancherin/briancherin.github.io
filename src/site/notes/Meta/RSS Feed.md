@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/rss-feed/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/meta/rss-feed/"}
 ---
 
 Link to RSS Feed: https://garden.briancher.in/feed.xml

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/over-the-edge-1979/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/over-the-edge-1979/"}
 ---
 
 I really liked this movie! Three word description: justified teenage rebellion. Message: good recreation programs and parental attention are important for kids/teens to... not be delinquents.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/social/thoughts-on-casual-open-social-invites/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/lifestyle/social/thoughts-on-casual-open-social-invites/"}
 ---
 
 Whoever is reading this -- this is the kind of note where feedback+opinions+discussion is very valuable (especially due to the social nature of this topic) so please write to me if you want to share any thoughts!

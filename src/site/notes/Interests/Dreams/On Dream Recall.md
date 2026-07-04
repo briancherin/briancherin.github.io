@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/dreams/on-dream-recall/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/interests/dreams/on-dream-recall/"}
 ---
 
 One of the most important skills in lucid dreaming is dream recall. If you can't remember your regular dreams, you're also not going to remember your lucid dreams. But it's more than that -- maintaining a dream journal and boosting your dream recall increases your *awareness* of your dreams and develops your mental sense of understanding the experience of what it feels like to be in a dream. Focusing on dream recall teaches your mind that you are paying attention to your dreams and that you care about them. At least in my experience, these things add up to an increased sense of self-awareness in future dreams, which can convert to lucidity and enhanced presence in dreams.

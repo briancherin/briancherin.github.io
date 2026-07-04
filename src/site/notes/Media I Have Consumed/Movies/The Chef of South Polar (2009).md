@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/the-chef-of-south-polar-2009/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/the-chef-of-south-polar-2009/"}
 ---
 
 #movie #japanese

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/music/ways-to-engage-more-deeply-with-music/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/interests/music/ways-to-engage-more-deeply-with-music/"}
 ---
 
 Ideas.

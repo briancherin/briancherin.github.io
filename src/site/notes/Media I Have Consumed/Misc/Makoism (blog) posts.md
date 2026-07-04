@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["Makoism"],"permalink":"/media-i-have-consumed/misc/makoism-blog-posts/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/misc/makoism-blog-posts/"}
 ---
 
 I've been reading some bunches of [Makoism](makoism.com) posts and I've been liking both 1) His periodic/weekly coffee posts with links to interesting articles, as well as 2) His own posts. The content has felt growth-oriented and honest about technology. I was starting to flood [[Misc/Whats Up\|Whats Up]] with his posts, so I'm branching out to a new note instead.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["veganism","vegan","vegans"],"permalink":"/lifestyle/veganism/veganism/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/lifestyle/veganism/veganism/"}
 ---
 
 I've been vegan since around 2020. My reasons for staying vegan include the health benefits, an opposition to animal exploitation, and the environmental benefits. Read [[Lifestyle/Cooking/On Cooking - Veganism and Whole-Food Plant-Based Diet\|On Cooking - Veganism and Whole-Food Plant-Based Diet]] for some more description of my journey.

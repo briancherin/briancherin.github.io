@@ -1,5 +1,5 @@
 ---
-{"title":"Why do vegans want imitation meat?","dg-publish":true,"permalink":"/lifestyle/veganism/why-do-vegans-want-imitation-meat/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/lifestyle/veganism/why-do-vegans-want-imitation-meat/","title":"Why do vegans want imitation meat?"}
 ---
 
 #veganism 

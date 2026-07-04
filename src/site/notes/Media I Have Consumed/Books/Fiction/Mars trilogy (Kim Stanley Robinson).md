@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["Mars trilogy"],"permalink":"/media-i-have-consumed/books/fiction/mars-trilogy-kim-stanley-robinson/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/fiction/mars-trilogy-kim-stanley-robinson/"}
 ---
 
 ### Overview

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/creations/painting/completed-paintings/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/creations/painting/completed-paintings/"}
 ---
 
 ## Silly Slug

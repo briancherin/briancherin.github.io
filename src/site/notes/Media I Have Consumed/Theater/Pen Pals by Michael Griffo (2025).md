@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/pen-pals-by-michael-griffo-2025/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/pen-pals-by-michael-griffo-2025/"}
 ---
 
 #theater #friendship

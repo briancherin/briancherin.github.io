@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/cooking/ai-assisted-meal-planning/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/lifestyle/cooking/ai-assisted-meal-planning/"}
 ---
 
 It's April of 2026 and I feel like my cooking habits have not changed much in the past few years. I feel that meal planning/prepping is an underdeveloped area in my life right now. I often find myself scrambling to make last-minute meals because I don't have anything prepped. I have common staple meals that I rely on and often do make large batches of them which last for several days -- but I go in cycles of feeling like I'm doing a good job with this, and then drift off into bad habits of not having things prepared.

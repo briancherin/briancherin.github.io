@@ -1,5 +1,5 @@
 ---
-{"title":"What is this?","dg-publish":true,"permalink":"/meta/on-blogging/what-is-this/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/meta/on-blogging/what-is-this/","title":"What is this?"}
 ---
 
 #digitalgarden 

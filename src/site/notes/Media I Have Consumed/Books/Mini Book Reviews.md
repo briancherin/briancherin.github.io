@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/mini-book-reviews/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/mini-book-reviews/"}
 ---
 
 Reactions to books I've read. This list does not necessarily represent every book I've read.

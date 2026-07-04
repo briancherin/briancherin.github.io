@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["solar punk"],"permalink":"/random-topics/solar-punk/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/random-topics/solar-punk/"}
 ---
 
 I've come across this concept a couple times, and it's extremely appealing and aligns with my hopes for the future, especially as a contrast to how the current dominant systems in the world's governments work.

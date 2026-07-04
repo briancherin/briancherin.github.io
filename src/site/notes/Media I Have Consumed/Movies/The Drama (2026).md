@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/the-drama-2026/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/the-drama-2026/"}
 ---
 
 Great movie. Asks some deep questions.

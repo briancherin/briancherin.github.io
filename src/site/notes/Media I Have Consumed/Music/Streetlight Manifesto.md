@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/music/streetlight-manifesto/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/music/streetlight-manifesto/"}
 ---
 
 A lot to be said.

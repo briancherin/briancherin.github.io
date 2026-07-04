@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":"Braiding Sweetgrass","permalink":"/media-i-have-consumed/books/nonfiction/braiding-sweetgrass-by-robin-wall-kimmerer/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/braiding-sweetgrass-by-robin-wall-kimmerer/"}
 ---
 
 This is a book that my close friends in college were recommending to me -- took a couple years for me to get to it, but it felt like the right time: After *Always Coming Home*, which talks about the culture and stories of a fictional indigenous-like civilization, I wanted to gain a sense of the culture of real world indigenous people. This book delivered, combining indigenous stories and some history with a strong and impactful environmental lens. At the start, it posed the question of how humanity can have a positive relationship with the environment (while not giving up technology and our core way of life), and it delivered on working through answering this question, in an optimistic way. I think this genuinely shifted how I think about the relationship of humanity and the environment. Spoiler: a core part of the "answer" is restorative ecology.

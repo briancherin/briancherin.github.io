@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/foraging/foraged-flavors/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/lifestyle/foraging/foraged-flavors/"}
 ---
 
 A couple months ago, I came across a YouTube channel called [Justinthetrees](https://www.youtube.com/@Justinthetrees). He makes experimental ice cream flavors out of tree bark, flowers, and/or sap. He also creates his own bowl and spoon in each video in his woodshop, out of wood from the same type of tree as the flavor. The videos are entertaining and interesting. My first exposure was during a flight.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/software/mini-projects/gpt-meal-planner/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/projects/software/mini-projects/gpt-meal-planner/"}
 ---
 
 The idea: An AI-driven Discord bot that would prompt me once on the weekend to ask me what kind of recipes I wanted to make during the week, and then prompt me each weekday morning if I wanted to work on preparing one of the recipes that day. Since I work from home, the goal was for the AI to break up a recipe into small chunks that I could slowly prep during breaks from work (since I work from home).

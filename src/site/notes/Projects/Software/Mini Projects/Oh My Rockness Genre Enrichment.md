@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"public-rss":true,"permalink":"/projects/software/mini-projects/oh-my-rockness-genre-enrichment/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/projects/software/mini-projects/oh-my-rockness-genre-enrichment/"}
 ---
 
 [Oh My Rockness](https://www.ohmyrockness.com/) is a website that lists music shows in NYC. It also lets you filter by shows that are free to attend. I've never actually attended a show through the site, but I've wanted to. 

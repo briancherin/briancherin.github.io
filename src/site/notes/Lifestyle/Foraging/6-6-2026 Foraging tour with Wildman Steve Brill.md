@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["Foraging tour with Wildman Steve Brill"],"permalink":"/lifestyle/foraging/6-6-2026-foraging-tour-with-wildman-steve-brill/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/lifestyle/foraging/6-6-2026-foraging-tour-with-wildman-steve-brill/"}
 ---
 
 https://www.wildmanstevebrill.com/

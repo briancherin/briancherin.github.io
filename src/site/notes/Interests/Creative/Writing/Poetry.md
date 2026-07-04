@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/creative/writing/poetry/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/interests/creative/writing/poetry/"}
 ---
 
 #### The road to poetry

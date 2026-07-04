@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/musings/the-tug-of-television-resisting-overconsumption/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/musings/the-tug-of-television-resisting-overconsumption/"}
 ---
 
 One episode of a great series ends, and you want to watch the next. This tug... It's what causes bingeing (not so good). But also it's an effect of the joy of storytelling and a good production.

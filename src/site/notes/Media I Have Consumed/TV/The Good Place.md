@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/tv/the-good-place/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/tv/the-good-place/"}
 ---
 
 Completed watching on March 3, 2026.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"month":"2026-04-01","permalink":"/misc/what-was-up/april-2026/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/misc/what-was-up/april-2026/"}
 ---
 
 - Listened to part of an episode of the podcast called "Sceptic's Guide to the Universe" (episode #1079). I've been following this podcast for a while but never listened to an episode. I like it. More of a conversation about different topics, with an intellectual/academic tone. e.g. this episode jumped from discussing a) hygiene during medieval times, b) a logical fallacy called "fundamental attribution error", c) agricultural science related to photosynthesis. (And that was just barely half of the episode.) Long episodes. I have a feeling I'll be listening to this podcast more often.

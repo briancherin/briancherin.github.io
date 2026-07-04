@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/spare-parts-2026/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/spare-parts-2026/"}
 ---
 
 ![Pasted image 20260405220102.png|381](/img/user/Media%20I%20Have%20Consumed/Theater/Assets/Pasted%20image%2020260405220102.png)

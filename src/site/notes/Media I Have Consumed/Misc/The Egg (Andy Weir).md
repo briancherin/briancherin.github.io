@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/misc/the-egg-andy-weir/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/misc/the-egg-andy-weir/"}
 ---
 
 Short story / concept.

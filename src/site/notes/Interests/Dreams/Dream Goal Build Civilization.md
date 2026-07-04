@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Dream Goal: Build Civilization","aliases":["build civilization dream goal"],"public-rss":true,"permalink":"/interests/dreams/dream-goal-build-civilization/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/interests/dreams/dream-goal-build-civilization/","title":"Dream Goal: Build Civilization"}
 ---
 
 It's more of a dream *project* than a goal -- this would be a long-spanning thing over many dreams. Equally as importing as experiencing it is writing+documenting it. This goal has served as a strong point of motivation that gets me looking forward to mastering my dreams, because I think it would be so cool to do this.

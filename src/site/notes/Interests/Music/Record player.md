@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["record player"],"permalink":"/interests/music/record-player/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/interests/music/record-player/"}
 ---
 
 Ideally in the future this note will include:

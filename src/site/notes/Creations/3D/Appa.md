@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/creations/3-d/appa/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/creations/3-d/appa/"}
 ---
 
 Made in October 2020. 

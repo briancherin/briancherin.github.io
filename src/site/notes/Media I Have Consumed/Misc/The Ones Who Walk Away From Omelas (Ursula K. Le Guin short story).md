@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/misc/the-ones-who-walk-away-from-omelas-ursula-k-le-guin-short-story/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/misc/the-ones-who-walk-away-from-omelas-ursula-k-le-guin-short-story/"}
 ---
 
 https://shsdavisapes.pbworks.com/f/Omelas.pdf

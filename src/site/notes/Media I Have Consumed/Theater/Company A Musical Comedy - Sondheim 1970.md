@@ -1,5 +1,5 @@
 ---
-{"title":"Company: A Musical Comedy - Sondheim 1970","dg-publish":true,"permalink":"/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/company-a-musical-comedy-sondheim-1970/","title":"Company: A Musical Comedy - Sondheim 1970"}
 ---
 
 #theater

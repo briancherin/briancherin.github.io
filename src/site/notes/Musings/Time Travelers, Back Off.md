@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/musings/time-travelers-back-off/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/musings/time-travelers-back-off/"}
 ---
 
 I try to be pretty [[Meta/On Blogging/Please Don't Spearphish Me (Creating an Obsidian Plugin)\|privacy-aware]] went writing publicly. This includes not disclosing where exactly I'll be at a specific time and place. I don't want someone malicious to know where I'll be! 

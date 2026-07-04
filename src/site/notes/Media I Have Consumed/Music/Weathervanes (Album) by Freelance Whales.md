@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/music/weathervanes-album-by-freelance-whales/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/music/weathervanes-album-by-freelance-whales/"}
 ---
 
 ![Pasted image 20260121174318.png](/img/user/Media%20I%20Have%20Consumed/Music/Assets/Pasted%20image%2020260121174318.png)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/the-devil-wears-prada-2006/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/the-devil-wears-prada-2006/"}
 ---
 
 Watched in preparation for seeing the sequel. (The choice of seeing the sequel not entirely being in my own hands.)
