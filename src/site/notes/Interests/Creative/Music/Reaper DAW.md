@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/creative/music/reaper-daw/"}
+{"dg-publish":true,"aliases":["Reaper"],"permalink":"/interests/creative/music/reaper-daw/","dgPassFrontmatter":true}
 ---
 
 I've been using Reaper, which is a DAW (Digital Audio Workstation) for music production. It's free and lightweight. A lot of people seem to like it and apparently it can do things just as well as the fancier-seeming DAWs. I think a lot of its potential is unlocked through plugins.

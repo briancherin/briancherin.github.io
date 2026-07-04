@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/creative/writing/writing/"}
+{"dg-publish":true,"permalink":"/interests/creative/writing/writing/","dgPassFrontmatter":true}
 ---
 
 The kinds of writing I pursue or intend to pursue:

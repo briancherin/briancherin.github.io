@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/toothpaste-burger/"}
+{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/toothpaste-burger/","dgPassFrontmatter":true}
 ---
 
 ![Assets/banner.png](/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/banner.png)

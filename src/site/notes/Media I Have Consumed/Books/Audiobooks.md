@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/audiobooks/"}
+{"aliases":["audiobook"],"dg-publish":true,"permalink":"/media-i-have-consumed/books/audiobooks/","dgPassFrontmatter":true}
 ---
 
 These are the book series I have consumed in audiobook form:

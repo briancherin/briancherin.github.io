@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/3-d-and-vr/personal-3-d-vr-world-building/","title":"Personal 3D/VR World Building"}
+{"title":"Personal 3D/VR World Building","dg-publish":true,"permalink":"/projects/3-d-and-vr/personal-3-d-vr-world-building/","dgPassFrontmatter":true}
 ---
 
 I've had many ideas related to this topic. I can explain it in more depth in the future, but for right now I'm just going to paste a tiny thought-stream question I asked ChatGPT and then the AI response. Just a little bit of ideating for something I know I want to spend more time on in the future.

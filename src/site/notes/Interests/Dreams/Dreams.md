@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/dreams/dreams/"}
+{"dg-publish":true,"aliases":["dreams","dream"],"permalink":"/interests/dreams/dreams/","dgPassFrontmatter":true}
 ---
 
 Yes, this is a major interest.

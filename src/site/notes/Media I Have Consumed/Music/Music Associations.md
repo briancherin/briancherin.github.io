@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/music/music-associations/"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/music/music-associations/","dgPassFrontmatter":true}
 ---
 
 Some songs instantly bring me back to a different time in my life, often a specific moment when I was listening to them. It could be an overall album or artist, too.

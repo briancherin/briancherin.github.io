@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/garden-improvements/"}
+{"dg-publish":true,"permalink":"/meta/garden-improvements/","dgPassFrontmatter":true}
 ---
 
 #digitalgarden 

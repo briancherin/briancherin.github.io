@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/eternity-2025/"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/eternity-2025/","dgPassFrontmatter":true}
 ---
 
 ![Eternity poster.png](/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Eternity%20poster.png)

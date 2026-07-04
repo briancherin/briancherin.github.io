@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/misc/why-your-life-feels-fake/","title":"\"Why your life feels fake\""}
+{"dg-publish":true,"title":"\"Why your life feels fake\"","permalink":"/media-i-have-consumed/misc/why-your-life-feels-fake/","dgPassFrontmatter":true}
 ---
 
 Reading / taking notes on this article: https://letters.thedankoe.com/p/why-your-life-feels-fake-an-antidote

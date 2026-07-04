@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/software/specific-main-app-pursuit-i-m-currently-working-on/"}
+{"dg-publish":true,"permalink":"/projects/software/specific-main-app-pursuit-i-m-currently-working-on/","dgPassFrontmatter":true}
 ---
 
 #project 

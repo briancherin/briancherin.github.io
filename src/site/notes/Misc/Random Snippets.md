@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/misc/random-snippets/"}
+{"dg-publish":true,"permalink":"/misc/random-snippets/","dgPassFrontmatter":true}
 ---
 
 #### 10

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/into-the-woods-sondheim-1986/"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/into-the-woods-sondheim-1986/","dgPassFrontmatter":true}
 ---
 
 A Stephen Sondheim musical that won many awards.

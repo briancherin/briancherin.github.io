@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/cooking/on-cooking-veganism-and-whole-food-plant-based-diet/"}
+{"dg-publish":true,"aliases":["Whole-Food Plant-Based Diet"],"permalink":"/lifestyle/cooking/on-cooking-veganism-and-whole-food-plant-based-diet/","dgPassFrontmatter":true}
 ---
 
 #veganism 

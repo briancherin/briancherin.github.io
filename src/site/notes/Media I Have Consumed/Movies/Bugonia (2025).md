@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/bugonia-2025/"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/bugonia-2025/","dgPassFrontmatter":true}
 ---
 
 https://www.imdb.com/title/tt12300742/

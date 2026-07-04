@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/on-blogging/indie-web/"}
+{"dg-publish":true,"permalink":"/meta/on-blogging/indie-web/","dgPassFrontmatter":true}
 ---
 
 #### Notes on "The Web Revival Breakdown"
