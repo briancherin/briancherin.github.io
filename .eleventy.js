@@ -568,6 +568,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/site/img");
   eleventyConfig.addPassthroughCopy("src/site/scripts");
   eleventyConfig.addPassthroughCopy("src/site/styles/_theme.*.css");
+  eleventyConfig.addCollection("publicRss", function (collectionApi) {
+    return collectionApi
+      .getFilteredByTag("note")
+      .filter((note) => note.data["public-rss"] === true);
+  });
   eleventyConfig.addPlugin(faviconsPlugin, { outputDir: "dist" });
   eleventyConfig.addPlugin(tocPlugin, {
     ul: true,

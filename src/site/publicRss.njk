@@ -1,0 +1,31 @@
+---json
+{
+  "permalink": "/publicRss.xml",
+  "eleventyExcludeFromCollections": true
+}
+---
+{%if meta.siteBaseUrl %}<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:atom="http://www.w3.org/2005/Atom" xml:base="{{ meta.siteBaseUrl }}">
+    <title>{{ meta.siteName}} Public RSS</title>
+    <atom:link href="{{ meta.siteBaseUrl }}{{ permalink }}" rel="self"></atom:link>
+    <atom:link href="{{ meta.siteBaseUrl }}"></atom:link>
+    <updated>{{ collections.publicRss | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <id>{{ meta.siteBaseUrl }}{{ permalink }}</id>
+    {%- for note in collections.publicRss | reverse %}
+        <entry>
+            <title>
+                {% if note.title %}{{ note.title }}
+                {% else %}{{ note.fileSlug }}
+                {% endif %}
+            </title>
+            <published>{%if note.data.created %}{{ note.data.created | dateToZulu }}{%else%}{{ note.date | dateToRfc3339 }}{%endif%}</published>
+            <updated>{%if note.data.updated %}{{ note.data.updated | dateToZulu }}{%else%}{{ note.date | dateToRfc3339 }}{%endif%}</updated>
+            <id>{{ meta.siteBaseUrl }}{{note.url | url }}</id>
+            <content type="html">
+                {{ note.templateContent | hideDataview | taggify | link | htmlToAbsoluteUrls(meta.siteBaseUrl) }}
+            </content>
+            <atom:link href="{{ meta.siteBaseUrl }}{{note.url | url }}"></atom:link>
+        </entry>
+    {%- endfor %}
+</feed>
+{% endif %}
