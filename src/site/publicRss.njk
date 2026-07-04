@@ -9,7 +9,7 @@
     <title>{{ meta.siteName}} Public RSS</title>
     <atom:link href="{{ meta.siteBaseUrl }}{{ permalink }}" rel="self"></atom:link>
     <atom:link href="{{ meta.siteBaseUrl }}"></atom:link>
-    <updated>{{ collections.publicRss | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <updated>{{ collections.publicRss | newestNoteUpdatedDate | dateToRfc3339 }}</updated>
     <id>{{ meta.siteBaseUrl }}{{ permalink }}</id>
     {%- for note in collections.publicRss | reverse %}
         <entry>

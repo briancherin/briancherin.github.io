@@ -588,6 +588,16 @@ module.exports = function (eleventyConfig) {
     }
   });
 
+  eleventyConfig.addFilter("newestNoteUpdatedDate", function (collection) {
+    const newest = (collection || []).reduce((latest, note) => {
+      const date = new Date(note?.data?.updated || note?.date);
+      if (Number.isNaN(date.getTime())) return latest;
+      return !latest || date > latest ? date : latest;
+    }, null);
+
+    return newest || new Date();
+  });
+
   eleventyConfig.addFilter("humanDate", (value) => {
     if (!value) return "";
 

@@ -2,7 +2,6 @@ const path = require("path");
 const { execFileSync } = require("child_process");
 
 const gitDateCache = new Map();
-const TIMESTAMP_KEYS = new Set(["created", "updated"]);
 
 function toRepoRelativePath(inputPath) {
   if (!inputPath || typeof inputPath !== "string") return "";
@@ -59,18 +58,7 @@ function getFirstParent(commit) {
   }
 }
 
-function stableJson(value) {
-  if (Array.isArray(value)) return value.map(stableJson);
-  if (!value || typeof value !== "object") return value;
-  return Object.keys(value)
-    .sort()
-    .reduce((acc, key) => {
-      acc[key] = stableJson(value[key]);
-      return acc;
-    }, {});
-}
-
-function normalizeDigitalGardenTimestamps(content) {
+function stripFrontmatter(content) {
   if (!content) return content;
 
   const lines = content.split(/\r?\n/);
@@ -79,17 +67,7 @@ function normalizeDigitalGardenTimestamps(content) {
   const endIndex = lines.findIndex((line, index) => index > 0 && line.trim() === "---");
   if (endIndex === -1) return content;
 
-  const frontmatter = lines.slice(1, endIndex);
-  if (frontmatter.length !== 1) return content;
-
-  try {
-    const data = JSON.parse(frontmatter[0]);
-    for (const key of TIMESTAMP_KEYS) delete data[key];
-    const normalizedFrontmatter = JSON.stringify(stableJson(data));
-    return ["---", normalizedFrontmatter, "---", ...lines.slice(endIndex + 1)].join("\n");
-  } catch {
-    return content;
-  }
+  return lines.slice(endIndex + 1).join("\n");
 }
 
 function isSubstantiveCommit(commit, repoRelativePath) {
@@ -101,8 +79,8 @@ function isSubstantiveCommit(commit, repoRelativePath) {
   if (parentContent === null) return true;
 
   return (
-    normalizeDigitalGardenTimestamps(currentContent) !==
-    normalizeDigitalGardenTimestamps(parentContent)
+    stripFrontmatter(currentContent) !==
+    stripFrontmatter(parentContent)
   );
 }
 
@@ -125,7 +103,7 @@ function getGitNoteDates(inputPath) {
   const firstCommit = history[history.length - 1];
 
   const dates = {
-    // Ignore Digital Garden timestamp-only commits when deciding "updated".
+    // Ignore frontmatter-only Digital Garden commits when deciding "updated".
     updated: latestSubstantiveCommit?.date || history[0].date,
     // First commit in this repo where this note appeared.
     created: firstCommit.date,
