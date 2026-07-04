@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/software/mini-projects/mini-projects/"}
+{"dg-publish":true,"permalink":"/projects/software/mini-projects/mini-projects/","dgPassFrontmatter":true}
 ---
 
 #coding #project #miniproject 

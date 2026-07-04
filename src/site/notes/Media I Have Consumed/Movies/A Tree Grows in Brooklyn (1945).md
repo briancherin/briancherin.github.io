@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/a-tree-grows-in-brooklyn-1945/"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/a-tree-grows-in-brooklyn-1945/","dgPassFrontmatter":true}
 ---
 
 ![Pasted image 20260207231649.png](/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Pasted%20image%2020260207231649.png)

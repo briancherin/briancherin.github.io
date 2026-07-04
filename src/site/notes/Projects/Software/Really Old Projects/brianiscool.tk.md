@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/software/really-old-projects/brianiscool-tk/"}
+{"dg-publish":true,"permalink":"/projects/software/really-old-projects/brianiscool-tk/","dgPassFrontmatter":true}
 ---
 
 #project 

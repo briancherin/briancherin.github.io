@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/crispr-book-summary/","title":"\"Editing Humanity\" by Kevin Davies (College Assignment Book Summary)"}
+{"title":"\"Editing Humanity\" by Kevin Davies (College Assignment Book Summary)","dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/crispr-book-summary/","dgPassFrontmatter":true}
 ---
 
 

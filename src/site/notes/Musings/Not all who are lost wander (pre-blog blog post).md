@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/musings/not-all-who-are-lost-wander-pre-blog-blog-post/"}
+{"dg-publish":true,"permalink":"/musings/not-all-who-are-lost-wander-pre-blog-blog-post/","dgPassFrontmatter":true}
 ---
 
 

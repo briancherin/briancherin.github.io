@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/blogs/escaping-flatland/search-query-advice-on-blogging-to-attract-conversation-on-niche-interests/","title":"\"Search query\" (advice on blogging to attract conversation on niche interests)"}
+{"dg-publish":true,"title":"\"Search query\" (advice on blogging to attract conversation on niche interests)","permalink":"/media-i-have-consumed/blogs/escaping-flatland/search-query-advice-on-blogging-to-attract-conversation-on-niche-interests/","dgPassFrontmatter":true}
 ---
 
 Notes about https://www.henrikkarlsson.xyz/p/search-query

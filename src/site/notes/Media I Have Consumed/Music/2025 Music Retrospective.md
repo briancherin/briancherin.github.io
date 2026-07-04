@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/music/2025-music-retrospective/"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/music/2025-music-retrospective/","dgPassFrontmatter":true}
 ---
 
 The below "new approach" isn't all there is to be said about my music consumption this year, but it's a major part of it.

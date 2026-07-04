@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/reading/inspiration/"}
+{"dg-publish":true,"permalink":"/interests/reading/inspiration/","dgPassFrontmatter":true}
 ---
 
 

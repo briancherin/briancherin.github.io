@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/bee-haven/"}
+{"dg-publish":true,"permalink":"/projects/software/game-development/old-projects/bee-haven/","dgPassFrontmatter":true}
 ---
 
 #gamedev #project 

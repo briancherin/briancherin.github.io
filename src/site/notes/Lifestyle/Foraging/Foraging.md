@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/foraging/foraging/"}
+{"dg-publish":true,"permalink":"/lifestyle/foraging/foraging/","dgPassFrontmatter":true}
 ---
 
 Currently this is a passive interest that I have no acted on in any significant way.

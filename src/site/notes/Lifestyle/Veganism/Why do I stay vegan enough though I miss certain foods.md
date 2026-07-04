@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/veganism/why-do-i-stay-vegan-enough-though-i-miss-certain-foods/","title":"Why do I stay vegan enough though I miss certain foods?"}
+{"dg-publish":true,"title":"Why do I stay vegan enough though I miss certain foods?","public-rss":true,"permalink":"/lifestyle/veganism/why-do-i-stay-vegan-enough-though-i-miss-certain-foods/","dgPassFrontmatter":true}
 ---
 
 No one has specifically asked me this question (not directly at least) but it kind of is a certain subtext to the vegan experience, so I will answer it.

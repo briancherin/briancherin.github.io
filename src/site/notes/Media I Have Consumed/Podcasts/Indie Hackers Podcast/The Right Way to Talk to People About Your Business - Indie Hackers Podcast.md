@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/podcasts/indie-hackers-podcast/the-right-way-to-talk-to-people-about-your-business-indie-hackers-podcast/"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/podcasts/indie-hackers-podcast/the-right-way-to-talk-to-people-about-your-business-indie-hackers-podcast/","dgPassFrontmatter":true}
 ---
 
 Indie Hackers Podcast episode \#154: "The Right Way to Talk to People About Your Business with Rob Fitzpatrick, Author of The Mom Test"

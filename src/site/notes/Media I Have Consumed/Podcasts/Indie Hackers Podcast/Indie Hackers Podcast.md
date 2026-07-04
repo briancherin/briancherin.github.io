@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/podcasts/indie-hackers-podcast/indie-hackers-podcast/"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/podcasts/indie-hackers-podcast/indie-hackers-podcast/","dgPassFrontmatter":true}
 ---
 
 A podcast with interviews giving advice on bootstrapping a product/app.

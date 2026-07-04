@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/"}
+{"dg-publish":true,"permalink":"/meta/on-blogging/my-past-self-telling-me-to-start-a-blog/","dgPassFrontmatter":true}
 ---
 
 Digging in the archives of my Google Keep notes:

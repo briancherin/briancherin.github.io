@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/interests/music/discovering-new-music/"}
+{"dg-publish":true,"permalink":"/interests/music/discovering-new-music/","dgPassFrontmatter":true}
 ---
 
 Ways to discover new music

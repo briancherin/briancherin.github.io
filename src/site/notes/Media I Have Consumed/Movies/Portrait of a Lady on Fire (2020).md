@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/portrait-of-a-lady-on-fire-2020/"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/portrait-of-a-lady-on-fire-2020/","dgPassFrontmatter":true}
 ---
 
 ![Pasted image 20260609233011.png](/img/user/Media%20I%20Have%20Consumed/Movies/Assets/Pasted%20image%2020260609233011.png)

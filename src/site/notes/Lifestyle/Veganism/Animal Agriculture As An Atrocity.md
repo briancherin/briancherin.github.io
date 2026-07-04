@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lifestyle/veganism/animal-agriculture-as-an-atrocity/"}
+{"dg-publish":true,"alias":"AAAAA","permalink":"/lifestyle/veganism/animal-agriculture-as-an-atrocity/","dgPassFrontmatter":true}
 ---
 
 #veganism 

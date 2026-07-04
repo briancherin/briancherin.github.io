@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/misc/creators-i-like/"}
+{"dg-publish":true,"permalink":"/media-i-have-consumed/misc/creators-i-like/","dgPassFrontmatter":true}
 ---
 
 ##### ReWild University
