@@ -6,6 +6,12 @@ https://www.henrikkarlsson.xyz/p/looking-for-alice
 
 Dating advice which feels refreshing.
 
+My main takeaways:
+- Introduces a concept of "pattern matching" -- during the process of learning what you are looking for in a person, gradually narrowing down your criteria and choosing to spend more time in spaces where the people who fit your criteria are more likely to be. It's something I've been already doing but it's nice to hear it affirmed.
+- Emphasizes the importance of lowering your filter when engaging with someone ("jump directly to the strange parts"). Showing someone how you really communicate, what your real interests are, and how your mind works will make it clear more quickly whether you are compatible.
+- To me, this has been resonating with the idea of an anti-dating-apps approach to dating, and aligned with organically getting to know people over time before introducing a tone of romance. 
+	- I find myself asking -- how do I *know* if I want to enter the tone of romance with someone, until I get to know them a little bit? Sometimes, the simple act of going on a proclaimed-romantic date with someone feels like too much of a declaration, and forces the pressure of making a decision on whether to continue the romantic tone. I may feel some interest in someone, but not want to make that declaration until I get to know them a little bit more. When it's more obvious that there is romantic potential, then it would be time to request a formal date.
+
 ___
 
 ### Notes I took while reading
