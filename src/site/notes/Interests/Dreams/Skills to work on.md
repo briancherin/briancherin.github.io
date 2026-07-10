@@ -17,3 +17,5 @@
 	- Direct into my hand in front of me, or into the space in front of me
 	- Into my hand that is behind my back, or "finding" something specific in my pocket
 	- "finding" an object in the current scene (e.g. focusing on the intent for the object to be behind a different object that I can see)
+- Element bending (manipulating water/earth/fire/air)
+	- Historically I have been most interested in waterbending. I'd like to be able to do all.
