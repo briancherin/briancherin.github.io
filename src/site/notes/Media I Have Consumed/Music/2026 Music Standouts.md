@@ -19,4 +19,4 @@ Mostly taking this from my playlist called "Stepping Forward Briskly"
 - "Bangs" and "Dropped" (both albums) by Brick+Mortar
 	- Haven't (yet?) gotten as deeply familiar with this one, but I like the sound and lyrics. No standout songs on mind, but there are definitely some that I've been hearing over and over again and have grown to appreciate.
 	- Ok update on May 11 - these are growing on me! A couple standout songs: "Train", "Terrible Things".
-	- Update on July 12 -- ok I've reached obsession level with these albums. Maybe "obsession" is stretching it. But they've become top albums for me.
+	- Update on July 12 -- ok I've reached obsession level with these albums. Maybe "obsession" is stretching it. But they've become top albums for me. Additional songs to highlight: ... you know what, nevermind. All of them.
