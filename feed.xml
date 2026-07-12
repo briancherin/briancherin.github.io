@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-07-12T14:17:27Z</updated>
+    <updated>2026-07-12T14:33:19Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -767,15 +767,25 @@ With the snap of a finger:&lt;/p&gt;
                 Whats Up
                 
             </title>
-            <updated>2026-07-03T17:44:31.000Z</updated>
+            <updated>2026-07-12T14:33:19.000Z</updated>
             <id>https://briancherin.github.io/misc/whats-up/</id>
             <content type="html">
                 &lt;p&gt;What&#39;s up. What&#39;s going on. What am I doing, reading, interesting stuff to share that I don&#39;t feel like making a separate page for.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; I don&#39;t expect myself to keep this super regularly updated or fully comprehensive of my activity - but it&#39;s a place to put stuff that I find noteworthy.&lt;/p&gt;
 &lt;h3 id=&quot;july-2026&quot; tabindex=&quot;-1&quot;&gt;July 2026&lt;/h3&gt;
 &lt;ul&gt;
+&lt;li&gt;Doings
+&lt;ul&gt;
+&lt;li&gt;Starting to learn some &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/learning/languages/greek/&quot;&gt;Greek&lt;/a&gt; in preparation for a short trip coming up.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;Articles
 &lt;ul&gt;
 &lt;li&gt;Netflix character requirements: &amp;quot;have this character announce what they’re doing so that viewers who have this program on in the background can follow along&amp;quot;. This came up for me because of a really bad line in the S2 Netflix adaptation of Avatar Last Airbender, where a character did exactly that. Reading that this kind of bad writing is being &amp;quot;required&amp;quot; is so sad to me. Haven&#39;t read this full &lt;a href=&quot;https://www.nplusonemag.com/issue-49/essays/casual-viewing/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;article&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Music
+&lt;ul&gt;
+&lt;li&gt;Been loving the album &amp;quot;Waves&amp;quot; by Bitter Ruin. Love the male+female vocals+harmonies. It&#39;s especially nice when the male+female vocals alternate in a song. Their voices are lovely. Highlighted songs so far are &amp;quot;Tom Thumb&amp;quot; and &amp;quot;Ticker Don&#39;t Tock&amp;quot;. Regarding genre: wikipedia says &amp;quot;experimental pop&amp;quot;; Rate Your Music says &amp;quot;dark cabaret, acoustic rock, indie folk&amp;quot;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -6596,7 +6606,7 @@ Experimenting with the idea of scraping the captions from Tiktok videos of someo
                 Greek
                 
             </title>
-            <updated>2026-07-12T14:14:45.000Z</updated>
+            <updated>2026-07-12T14:33:19.000Z</updated>
             <id>https://briancherin.github.io/learning/languages/greek/</id>
             <content type="html">
                 &lt;p&gt;As of July 2026, I potentially have a two week trip to Greece coming up in September. It barely crossed my mind to learn any of the language, until my mom made a comment: &amp;quot;Are you going to learn Greek?&amp;quot;. I scoffed and said, &amp;quot;of course not.&amp;quot;&lt;/p&gt;
@@ -6613,8 +6623,19 @@ Experimenting with the idea of scraping the captions from Tiktok videos of someo
 &lt;/ol&gt;
 &lt;p&gt;So, as of now, I have landed on a dual approach for my own &amp;quot;study&amp;quot; routine:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Anki vocab deck&lt;/li&gt;
-&lt;li&gt;Language Reactor audio course&lt;/li&gt;
+&lt;li&gt;Anki vocab deck
+&lt;ul&gt;
+&lt;li&gt;(Anki is software for studying vocab through spaced repetition.)&lt;/li&gt;
+&lt;li&gt;I feel a bit funny about this, but I am using an AI-generated vocab deck. My only worry is that there could be some inaccuracies or missed nuances - but honestly, the words are simple enough that I think it&#39;s unlikely. But otherwise, it&#39;s feeling useful. I wanted a vocab deck specifically geared towards a short trip -- mainly vocab around food, signs, transport, etc. I worked with ChatGPT to generate the Anki deck, and in my opinion, it did a pretty good job.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Language Transfer audio course (free)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.languagetransfer.org/greek&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.languagetransfer.org/greek&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;This is a &lt;em&gt;long&lt;/em&gt; course. But it&#39;s a quite engaging way to learn the language. There&#39;s more emphasis on grammar than expansive vocab (though it does slowly introduce vocab), which is why I&#39;m doing Anki for vocab.&lt;/li&gt;
+&lt;li&gt;Reminds me of the Pimsleur audio course for Japanese, which I used when learning some Japanese basics prior to my trip to Japan in high school. (only progressed a little bit through it.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 
             </content>
