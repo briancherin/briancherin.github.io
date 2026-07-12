@@ -21,5 +21,12 @@ I took a glimpse at Duolingo. Two things drove me away:
 
 So, as of now, I have landed on a dual approach for my own "study" routine:
 1) Anki vocab deck
-2) Language Reactor audio course
+	- (Anki is software for studying vocab through spaced repetition.)
+	- I feel a bit funny about this, but I am using an AI-generated vocab deck. My only worry is that there could be some inaccuracies or missed nuances - but honestly, the words are simple enough that I think it's unlikely. But otherwise, it's feeling useful. I wanted a vocab deck specifically geared towards a short trip -- mainly vocab around food, signs, transport, etc. I worked with ChatGPT to generate the Anki deck, and in my opinion, it did a pretty good job. 
+2) Language Transfer audio course (free)
+	- https://www.languagetransfer.org/greek
+	- This is a *long* course. But it's a quite engaging way to learn the language. There's more emphasis on grammar than expansive vocab (though it does slowly introduce vocab), which is why I'm doing Anki for vocab.
+	- Reminds me of the Pimsleur audio course for Japanese, which I used when learning some Japanese basics prior to my trip to Japan in high school. (only progressed a little bit through it.)
+
+
 
