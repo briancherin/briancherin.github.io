@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"aliases":["dream skills"],"permalink":"/interests/dreams/skills-to-work-on/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["dream skills","skills to work on"],"permalink":"/interests/dreams/skills-to-work-on/","dgPassFrontmatter":true}
 ---
 
 - Flying
