@@ -44,5 +44,5 @@ ___
 
 Slightly tangential but related to this line of thinking:
 
-- Not this episode -- but obviously Zuko recently had chosen to leave the fire nation royal scene and switch sides. This was more of a slowly rising tension which culminated in his self-discovery, rather than an intense in-moment conflict.
+- Not this episode -- but Zuko recently had chosen to leave the fire nation royal scene and switch sides. This was more of a slowly rising tension which culminated in his self-discovery, rather than an intense in-moment conflict.
 	- Though, there was the moment of crisis in S2 when Zuko had to choose between helping the Avatar or staying loyal to Azula / fire nation. He chose Azula. But eventually he saw that this choice was not actually in line with that his values had transformed into; he regroups with the fire nation, but slowly sees that world in a new light (given his new values) and comes to his own conclusions and ultimately decides to branch out on his own.
