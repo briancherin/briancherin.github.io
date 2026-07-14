@@ -356,7 +356,7 @@ function isMetadataLine(text) {
   return false;
 }
 
-function buildExcerptBlocksFromPatch(patch, maxBlocks = 2, maxLinesPerBlock = 14) {
+function buildExcerptBlocksFromPatch(patch, maxBlocks = 4, maxLinesPerBlock = 14) {
   const lines = String(patch || "").split(/\r?\n/);
   const blocks = [];
   let current = null;
@@ -404,7 +404,12 @@ function buildExcerptBlocksFromPatch(patch, maxBlocks = 2, maxLinesPerBlock = 14
   }
   pushCurrent();
 
-  return blocks.slice(0, maxBlocks);
+  const selectedBlocks = blocks.slice(0, maxBlocks);
+  Object.defineProperties(selectedBlocks, {
+    totalBlocks: { value: blocks.length },
+    omittedBlocks: { value: Math.max(blocks.length - selectedBlocks.length, 0) },
+  });
+  return selectedBlocks;
 }
 
 function renderLineText(text, siteBaseUrl = "") {
@@ -629,6 +634,14 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "", options = {}) {
     );
   }, 0);
   const remainingWordsInNote = Math.max(noteWordCount - visibleWordsInNote, 0);
+  const omittedBlocks = Number(blocks.omittedBlocks || 0);
+  const renderOmittedChangesHint = () => {
+    if (omittedBlocks <= 0) return "";
+    const blockLabel = omittedBlocks === 1 ? "changed section" : "changed sections";
+    const wordHint =
+      remainingWordsInNote > 0 ? `, plus about ${remainingWordsInNote} more words in this note` : "";
+    return `<div style="margin-top:6px;font-size:12px;line-height:1.3;color:#6b7280;font-style:italic;">Skipped ${omittedBlocks} more ${blockLabel}${wordHint}. Open the full note to read everything.</div>`;
+  };
 
   const renderOneBlock = (block, style = "", suppressFirstSegmentTopBorder = false) => {
       const segments = simplifySegments(buildSegments(block.lines));
@@ -671,7 +684,7 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "", options = {}) {
   };
 
   if (blocks.length <= 1) {
-    return renderOneBlock(blocks[0]);
+    return `${renderOneBlock(blocks[0])}${renderOmittedChangesHint()}`;
   }
 
   const omissionLink = fullNoteUrl
@@ -694,7 +707,7 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "", options = {}) {
     out.push(renderOneBlock(blocks[i], style, isAfterGap));
     if (isBeforeGap) out.push(omissionBar);
   }
-  return out.join("\n");
+  return `${out.join("\n")}${renderOmittedChangesHint()}`;
 }
 
 function buildItemFromGit(range, file, mode, maxLines) {
