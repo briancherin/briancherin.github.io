@@ -10,7 +10,9 @@ What's up. What's going on. What am I doing, reading, interesting stuff to share
 - Articles
 	- Netflix character requirements: "have this character announce what they’re doing so that viewers who have this program on in the background can follow along". This came up for me because of a really bad line in the S2 Netflix adaptation of Avatar Last Airbender, where a character did exactly that. Reading that this kind of bad writing is being "required" is so sad to me. Haven't read this full [article](https://www.nplusonemag.com/issue-49/essays/casual-viewing/).
 - Music
-	- Been loving the album "Waves" by Bitter Ruin. Love the male+female vocals+harmonies. It's especially nice when the male+female vocals alternate in a song. Their voices are lovely. Highlighted songs so far are "Tom Thumb" and "Ticker Don't Tock". Regarding genre: wikipedia says "experimental pop"; Rate Your Music says "dark cabaret, acoustic rock, indie folk". 
+	- Been loving the album "Waves" by Bitter Ruin. Love the male+female vocals+harmonies. It's especially nice when the male+female vocals alternate in a song. Their voices are lovely. Highlighted songs so far are "Tom Thumb", "Ticker Don't Tock", "Leather for Hell", "Stampede". Regarding genre: wikipedia says "experimental pop", Rate Your Music says "dark cabaret, acoustic rock, indie folk". 
+- TV
+	- I've been rewatching *Avatar: The Last Airbender* (the original series) right after having watched S2 of the Netflix adaptation (which, especially after rewatching S2 of the original (which itself is fantastic of course), my opinion has gotten lower and lower of). One particular episode in S3 inspired this note: [[Media I Have Consumed/TV/Dostoevsky of Last Airbender\|Dostoevsky of Last Airbender]]. I'm also excited to watch the new movie which is being officially released later in the month (I have refused out of principle to watch the leaked version).
 
 #### Past months:
 - [[Misc/What Was Up/May 2026\|May 2026]]
