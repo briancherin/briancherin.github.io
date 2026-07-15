@@ -10,3 +10,9 @@ I just now googled "how to learn to draw people from imagination" and read the s
 - https://drawabox.com/ for general drawing skills
 - Proko course (free) for figure drawing fundamentals: https://www.proko.com/course/figure-drawing-fundamentals
 
+This is what I need to improve on:
+
+![Screenshot 2026-07-15 at 6.13.24 PM.png|200](/img/user/Interests/Creative/Drawing/Assets/Screenshot%202026-07-15%20at%206.13.24%20PM.png)
+
+(In defense of my art skills... See [[Creations/Painting/Completed paintings\|Completed paintings]] for a couple examples of **reference-image** people drawings I've done. The problem I'm solving for here is for imagination-drawn.)
+
