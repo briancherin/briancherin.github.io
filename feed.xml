@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-07-15T22:23:14Z</updated>
+    <updated>2026-07-16T16:18:53Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -761,6 +761,52 @@ With the snap of a finger:&lt;/p&gt;
 
             </content>
             <atom:link href="https://briancherin.github.io/musings/my-most-amazing-aspirational-unrealistic-impossible-self/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                If an AI-art falls in a forest...
+                
+            </title>
+            <updated>2026-07-16T16:18:53.000Z</updated>
+            <id>https://briancherin.github.io/musings/if-an-ai-art-falls-in-a-forest/</id>
+            <content type="html">
+                &lt;p&gt;The title is misleading. It&#39;s not AI art falling in the forest. It&#39;s human-made art.&lt;/p&gt;
+&lt;p&gt;Here is the question I pose:&lt;/p&gt;
+&lt;p&gt;If you see a piece of art, and you do not know who created it, is it any different from AI-generated art?&lt;/p&gt;
+&lt;p&gt;Or, put a different way: Is AI-generated art just as valuable as human-made art if you don&#39;t know what human made the art?&lt;/p&gt;
+&lt;p&gt;A couple assumptions are necessary:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It is impossible to find out who made the human art&lt;/li&gt;
+&lt;li&gt;The general AI-art that we are imagining would be, from a purely visual standpoint, as good as, if not indistinguishable from, the general human-made art we are imagining.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Normally, I would say that AI art has less value than human art because there was a human behind the human art. Someone actually worked on making it&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;But if you don&#39;t know who that human was, is there really value to the art?&lt;/p&gt;
+&lt;p&gt;Well, sure. My instinct says that art from an anonymous artist still has value.&lt;/p&gt;
+&lt;p&gt;But what if you really don&#39;t know whether the art was human-made or AI-made? Then you may start shaking with this moral quandry. You want to appreciate the art, but you don&#39;t know if you are &amp;quot;allowed&amp;quot; to.&lt;/p&gt;
+&lt;p&gt;So now there are two variants to this question:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If you don&#39;t know &lt;em&gt;what human&lt;/em&gt; made art, is it any more valuable than AI art?&lt;/li&gt;
+&lt;li&gt;If you don&#39;t know &lt;em&gt;whether&lt;/em&gt; a human or AI made the art, how are you supposed to feel about appreciating it?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I may have to think more about that second question.&lt;/p&gt;
+&lt;p&gt;Mainly, I wanted to drop a line from a &lt;a href=&quot;https://insertchaos.bearblog.dev/thoughts-on-ai-and-art/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;blog post&lt;/a&gt; I just read, which reminded me that I wanted to discuss this topic:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;It&#39;s that art was never just &amp;quot;output&amp;quot; to me. The point was never just the image. It was my hands, my bad decisions, my (what felt like) infinite number of discarded versions sometimes, my taste built over years of looking at things and being influenced and rebelling against influences. When a model spits out an image, it&#39;s skipped all of that.&lt;/em&gt;&lt;br /&gt;
+...&lt;br /&gt;
+&lt;em&gt;For art, and for me, process is the point, quite possibly the entire point. The meaning comes from a human having something to say and figuring out how to say it.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So, to me, this is part of the answer to question &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#1&quot;&gt;#1&lt;/a&gt;. If you know that a human made it, but you don&#39;t know who that person was, you can still be assured that that person went through a process to create the art; they made decisions; they crafted something based on their accumulated experience and taste.&lt;/p&gt;
+&lt;p&gt;Also regarding: &amp;quot;The meaning comes from a human having something to say and figuring out how to say it&amp;quot; -- Most of my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/creations/painting/completed-paintings/&quot;&gt;art&lt;/a&gt; is just me copying reference images that I think look cool or pretty. I&#39;m usually not imbuing a particular meaning into it. Does that mean my art is no more valuable than AI? I don&#39;t think so, because I still put &lt;em&gt;process&lt;/em&gt; into it. I decided how exactly to sketch and color it. And there is of course something inherently rewarding about me personally recalling the memory of having created it - as insertchaos said, I would never want to replace that with just the output. It&#39;s not the same. (But -- to an outside observer (someone who didn&#39;t make the art), it could feel the same...)&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;I acknowledge that there can be tweaking and human processing in AI-generated art. Maybe we are just talking about one-shot or minimally-prompted AI art here. &lt;a href=&quot;https://briancherin.github.io/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+            </content>
+            <atom:link href="https://briancherin.github.io/musings/if-an-ai-art-falls-in-a-forest/"></atom:link>
         </entry>
         <entry>
             <title>
