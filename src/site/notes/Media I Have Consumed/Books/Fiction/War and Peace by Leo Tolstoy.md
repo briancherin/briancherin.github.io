@@ -2,13 +2,28 @@
 {"dg-publish":true,"aliases":["War and Peace"],"permalink":"/media-i-have-consumed/books/fiction/war-and-peace-by-leo-tolstoy/","dgPassFrontmatter":true}
 ---
 
-See [[Media I Have Consumed/Theater/Natasha, Pierre, and the Great Comet of 1812\|Natasha, Pierre, and the Great Comet of 1812]]. Perhaps will expand this note later for more book-specific thoughts. But my reading of this book can not be separated from the linked musical.
+Finished July 2026.
 
-I'm reading the translation by Louise and Aylmer Maude, specifically because this is the translation which Dave Malloy quotes from in the musical.
+Excellent.
+
+Easy? No.
+
+Some slow parts, some Tolstoy philosophy.
+
+But - strongly compelling character arcs.
+
+
+_____
+
+Though I may eventually have otherwise found my way to reading War and Peace, what got me to read it at the time that I did was 100% caused by [[Media I Have Consumed/Theater/Natasha, Pierre, and the Great Comet of 1812\|Natasha, Pierre, and the Great Comet of 1812]], a Broadway musical (Tony-nominated) based on an ~80 page slice of the book (the musical ends at about the halfway point of War and Peace). After watching the musical, I wanted to know what happened before and after. So I read War and Peace. I'm certain Dave Malloy (creator of the musical) would have wanted it no other way.
+
+I read the translation by Louise and Aylmer Maude, specifically because this is the translation which Dave Malloy quotes from in the musical.
 
 
 ___
 
+
+Notes ahead contain spoilers.
 
 
 >[!DANGER] Spoilers ahead.
