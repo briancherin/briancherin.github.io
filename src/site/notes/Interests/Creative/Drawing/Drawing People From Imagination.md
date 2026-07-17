@@ -16,3 +16,23 @@ This is what I need to improve on:
 
 (In defense of my art skills... See [[Creations/Painting/Completed paintings\|Completed paintings]] for a couple examples of **reference-image** people drawings I've done. The problem I'm solving for here is for imagination-drawn.)
 
+
+
+___
+
+
+##### Cool tip from chatgpt
+```
+## Create recurring benchmark drawings
+
+Every month or every six weeks, draw the same kind of prompt without reference. Examples:
+
+- A person sitting on the floor and reaching upward
+- Two people arguing
+- Someone running toward the viewer
+- A figure carrying something heavy
+- A three-panel conversation scene
+
+Date the drawing and spend no more than 30–45 minutes on it. Do not correct the old version. Comparing successive attempts will reveal changes in gesture, construction, proportion, confidence, and storytelling.
+```
+
