@@ -47,7 +47,7 @@ Here's an example of this train of thought I just encountered. I was reading a f
 https://substack.com/@dreamsymbols/p-203837052
 ![Assets/dreamblog.png](/img/user/Musings/Assets/dreamblog.png)
 
-Though I don't explore the blog any deeper, I feel a little bit of excitement because of my interest in [[Interests/Dreams/Dreams\|dreams]], and especially when I figure that the art here is (maybe?) based on this person's dreams^[in the past I have made some sketches based on dreams and I'd like to do more. I love the idea of dream-inspired art. I recently also [[Interests/Creative/Music/Songwriting\|wrote]] a song based on dream I had.].
+Though I don't explore the blog any deeper, I feel a little bit of excitement because of my interest in [[Interests/Dreams/Dreams\|dreams]], and especially when I figure that the art here is (maybe?) based on this person's dreams^[in the past I have made some sketches based on dreams and I'd like to do more. I love the idea of dream-inspired art. Example of my own dream drawing: [[Media I Have Consumed/Books/Fiction/The Left Hand of Darkness (Ursula K. Le Guin)#Ansible drawing\|Ansible drawing]]. I recently also [[Interests/Creative/Music/Songwriting\|wrote]] a song based on dream I had.].
 
 Then a thought crossed my mind: "Wait a second, is this art AI-generated?".
 
