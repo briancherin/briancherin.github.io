@@ -18,3 +18,8 @@ Reasons that make me *want* to add a comments system:
 - Having a public comments section may make someone more likely to write something rather than writing to me privately, which might seem more intimidating. This could increase the chance of someone sharing something that could be helpful to me or others.
 - Maybe part of why I am hesitant to add a comments system is because of the fear of an *empty* comments section and making it publicly obvious that what I've written has not had engagement. I don't want to not do something simply because I am scared or anticipating shame^[to be clear, I don't think I *should* be ashamed at any lack of engagement. I write on here happily regardless of whether anyone engages. But those feelings may still come up.].
 	- 30 minutes after typing the above, I opened the *Insight Timer* app for a short meditation session^[I just use the app for the timer feature. I set a never-ending timer which rings a chime every five minutes. Helps me to not wonder about how much time is passing (which yes is maybe something to work on not worrying about)] and the quote of the day was: *"May your choices reflect your hopes, not your fears."* Feels like the universe responding to me or something. (Also... the quote has a comments section.)
+
+___
+And then I go and leave a comment on my friend's [blog](https://teamtahoe.substack.com/), and I'm thinking... shouldn't I let people do that on mine, too?
+____
+
