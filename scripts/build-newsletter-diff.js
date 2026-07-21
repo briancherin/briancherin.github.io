@@ -356,6 +356,15 @@ function isMetadataLine(text) {
   return false;
 }
 
+function countRenderedChangedWords(lines, applyTruncation = false) {
+  const segments = simplifySegments(buildSegments(lines));
+  return segments.reduce((sum, segment) => {
+    if (segment.kind === "context") return sum;
+    const text = applyTruncation ? truncateText(segment.text).text : segment.text;
+    return sum + countWords(text);
+  }, 0);
+}
+
 function buildExcerptBlocksFromPatch(patch, maxBlocks = 4, maxLinesPerBlock = 14) {
   const lines = String(patch || "").split(/\r?\n/);
   const blocks = [];
@@ -374,7 +383,11 @@ function buildExcerptBlocksFromPatch(patch, maxBlocks = 4, maxLinesPerBlock = 14
     }
     const filtered = current.lines.filter((line) => !isMetadataLine(line.text));
     if (filtered.length > 0) {
-      blocks.push({ lines: filtered.slice(0, maxLinesPerBlock) });
+      blocks.push({
+        lines: filtered.slice(0, maxLinesPerBlock),
+        allLines: filtered,
+        omittedLines: Math.max(filtered.length - maxLinesPerBlock, 0),
+      });
     }
     current = null;
   };
@@ -405,9 +418,11 @@ function buildExcerptBlocksFromPatch(patch, maxBlocks = 4, maxLinesPerBlock = 14
   pushCurrent();
 
   const selectedBlocks = blocks.slice(0, maxBlocks);
+  const omittedFullBlocks = blocks.slice(maxBlocks);
   Object.defineProperties(selectedBlocks, {
     totalBlocks: { value: blocks.length },
     omittedBlocks: { value: Math.max(blocks.length - selectedBlocks.length, 0) },
+    omittedFullBlocks: { value: omittedFullBlocks },
   });
   return selectedBlocks;
 }
@@ -613,34 +628,33 @@ function simplifySegments(segments) {
 
 function renderExcerptBlocksHtml(blocks, fullNoteUrl = "", options = {}) {
   const spoilerOmitted = Boolean(options.spoilerOmitted);
-  const noteWordCount = Number(options.noteWordCount || 0);
   const siteBaseUrl = options.siteBaseUrl || "";
   if (!blocks || blocks.length === 0) {
     return spoilerOmitted ? "" : '<p class="muted">No meaningful content snippet found for this update.</p>';
   }
 
-  const visibleWordsInNote = blocks.reduce((sum, block) => {
-    const segments = simplifySegments(buildSegments(block.lines));
-    return (
-      sum +
-      segments.reduce((acc, seg, segIdx) => {
-        if (seg.kind === "removed") return acc;
-        const truncated =
-          seg.kind === "context"
-            ? truncateContextByPosition(seg.text, segIdx, segments)
-            : truncateText(seg.text);
-        return acc + countWords(truncated.text);
-      }, 0)
-    );
-  }, 0);
-  const remainingWordsInNote = Math.max(noteWordCount - visibleWordsInNote, 0);
   const omittedBlocks = Number(blocks.omittedBlocks || 0);
+  const omittedChangedWords = Math.max(
+    blocks.reduce((sum, block) => {
+      const allLines = Array.isArray(block.allLines) ? block.allLines : block.lines;
+      return (
+        sum +
+        Math.max(
+          countRenderedChangedWords(allLines, false) -
+            countRenderedChangedWords(block.lines, true),
+          0
+        )
+      );
+    }, 0) +
+      (blocks.omittedFullBlocks || []).reduce(
+        (sum, block) => sum + countRenderedChangedWords(block.allLines || block.lines, false),
+        0
+      ),
+    0
+  );
   const renderOmittedChangesHint = () => {
-    if (omittedBlocks <= 0) return "";
-    const blockLabel = omittedBlocks === 1 ? "changed section" : "changed sections";
-    const wordHint =
-      remainingWordsInNote > 0 ? `, plus about ${remainingWordsInNote} more words in this note` : "";
-    return `<div style="margin-top:6px;font-size:12px;line-height:1.3;color:#6b7280;font-style:italic;">Skipped ${omittedBlocks} more ${blockLabel}${wordHint}. Open the full note to read everything.</div>`;
+    if (omittedChangedWords <= 0) return "";
+    return `<div style="margin-top:6px;font-size:12px;line-height:1.3;color:#6b7280;font-style:italic;">... plus about ${omittedChangedWords} more changed words.</div>`;
   };
 
   const renderOneBlock = (block, style = "", suppressFirstSegmentTopBorder = false) => {
@@ -668,14 +682,10 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "", options = {}) {
             segment.kind === "context"
               ? truncateContextByPosition(segment.text, segIdx, segments)
               : truncateText(segment.text);
-          const moreWordsHint =
-            segment.kind === "added" && truncated.truncated && remainingWordsInNote > 0
-              ? `<div style="margin-top:6px;font-size:12px;line-height:1.3;color:#6b7280;font-style:italic;">... plus about ${remainingWordsInNote} more words in this note</div>`
-              : "";
           return `<div class="${klass}">
             <div style="${segmentStyleFinal}">
               ${label ? `<div class="seg-label" style="font-size:12px;font-weight:700;line-height:1;margin:0 0 4px 0;color:#4b5563;">${label}</div>` : ""}
-              <div class="seg-body" style="font-size:14px;line-height:1.6;color:#1f2937;">${renderLineText(truncated.text, siteBaseUrl)}${moreWordsHint}</div>
+              <div class="seg-body" style="font-size:14px;line-height:1.6;color:#1f2937;">${renderLineText(truncated.text, siteBaseUrl)}</div>
             </div>
           </div>`;
         })
