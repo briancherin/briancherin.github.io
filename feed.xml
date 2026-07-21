@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-07-18T16:30:32Z</updated>
+    <updated>2026-07-21T01:52:08Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -180,13 +180,13 @@ document.getElementById(&quot;random-note-button&quot;)
                 Mini Projects
                 
             </title>
-            <updated>2026-06-20T03:39:50.000Z</updated>
+            <updated>2026-07-21T01:52:08.000Z</updated>
             <id>https://briancherin.github.io/projects/software/mini-projects/mini-projects/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#miniproject&quot;&gt;#miniproject&lt;/a&gt;&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/mini-projects/restaurant-ai-vr-simulation/&quot;&gt;Restaurant AI VR Simulation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/&quot;&gt;Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/mini-projects/restaurant-ai-vr-simulation/&quot;&gt;Restaurant AI VR Simulation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
@@ -767,7 +767,7 @@ With the snap of a finger:&lt;/p&gt;
                 If an AI-art falls in a forest...
                 
             </title>
-            <updated>2026-07-16T16:18:53.000Z</updated>
+            <updated>2026-07-21T01:52:08.000Z</updated>
             <id>https://briancherin.github.io/musings/if-an-ai-art-falls-in-a-forest/</id>
             <content type="html">
                 &lt;p&gt;The title is misleading. It&#39;s not AI art falling in the forest. It&#39;s human-made art.&lt;/p&gt;
@@ -797,10 +797,29 @@ With the snap of a finger:&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;So, to me, this is part of the answer to question &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#1&quot;&gt;#1&lt;/a&gt;. If you know that a human made it, but you don&#39;t know who that person was, you can still be assured that that person went through a process to create the art; they made decisions; they crafted something based on their accumulated experience and taste.&lt;/p&gt;
 &lt;p&gt;Also regarding: &amp;quot;The meaning comes from a human having something to say and figuring out how to say it&amp;quot; -- Most of my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/creations/painting/completed-paintings/&quot;&gt;art&lt;/a&gt; is just me copying reference images that I think look cool or pretty. I&#39;m usually not imbuing a particular meaning into it. Does that mean my art is no more valuable than AI? I don&#39;t think so, because I still put &lt;em&gt;process&lt;/em&gt; into it. I decided how exactly to sketch and color it. And there is of course something inherently rewarding about me personally recalling the memory of having created it - as insertchaos said, I would never want to replace that with just the output. It&#39;s not the same. (But -- to an outside observer (someone who didn&#39;t make the art), it could feel the same...)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Here&#39;s an example of this train of thought I just encountered. I was reading a friend&#39;s &lt;a href=&quot;https://teamtahoe.substack.com/p/good-luck-have-fun-dont-die&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;blog post&lt;/a&gt; and, while contemplating the nature of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/on-lack-of-a-comments-system/&quot;&gt;comments on a blog&lt;/a&gt;, I checked what one other person had &amp;quot;hearted&amp;quot; his post, which led me to the below blog.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://substack.com/@dreamsymbols/p-203837052&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://substack.com/@dreamsymbols/p-203837052&lt;/a&gt;&lt;br /&gt;
+&lt;img src=&quot;https://briancherin.github.io/img/user/Musings/Assets/dreamblog.png&quot; alt=&quot;Assets/dreamblog.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Though I don&#39;t explore the blog any deeper, I feel a little bit of excitement because of my interest in &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/dreams/dreams/&quot;&gt;dreams&lt;/a&gt;, and especially when I figure that the art here is (maybe?) based on this person&#39;s dreams&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Then a thought crossed my mind: &amp;quot;Wait a second, is this art AI-generated?&amp;quot;.&lt;/p&gt;
+&lt;p&gt;My instinct was no, but these days, you have to consider.&lt;/p&gt;
+&lt;p&gt;It doesn&#39;t really look AI-generated to me, but it can be really hard to tell, and I haven&#39;t exactly been intensely training my brain to distinguish AI-art from non-AI-art.&lt;/p&gt;
+&lt;p&gt;Then I asked myself: &amp;quot;But does it even matter?&amp;quot;.&lt;/p&gt;
+&lt;p&gt;So we get to the variant of the question I pose in this post, in the form of: &amp;quot;If you don&#39;t know whether a piece of art is AI-generated or not, is it still valuable?&amp;quot;. And I kind of have a feeling that this really just comes down to: &amp;quot;If it is probably AI-generated, is it still valuable?&amp;quot;&lt;/p&gt;
+&lt;p&gt;Here&#39;s my gut answer in this case. I say yes, it is still valuable. The art here is meant to represent the dream that the person is describing. So what if they prompted AI until it spat out an image that looked really close to what they saw or experienced in a dream? There is inherent value here in the mental image itself, regardless of how it manifested into a sharable medium. The person had an idea of what they want the end result to look like -- the idea itself is an act of creation&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn3&quot; id=&quot;fnref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;. Even if a person used AI, they are still making decisions about what tweaks to make (via prompting) and they decide when it is complete and matches their vision. Those decisions are creative decisions.&lt;/p&gt;
+&lt;p&gt;At the same time, if this is real, hand-drawn art, then I obviously commend it, and I think it is really cool to have &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/creative/drawing/drawing-people-from-imagination/&quot;&gt;the skill to draw&lt;/a&gt; something from your mind and for it to look really good. And, despite what I just said about there being decision-making even in AI-art, there is &lt;em&gt;so much more&lt;/em&gt; decision-making with hand-drawn art. Every placement of a line, every curve, every shade, every aspect of where objects are placed in the composition and how much detail to put into each thing - those are all creative decisions that stack up into the creation.&lt;/p&gt;
+&lt;p&gt;But if I don&#39;t know whether those &amp;quot;decisions&amp;quot; were made by a human or an AI... well, what am I to think? I can only interpret it based on the aesthetics of it. This is an example, a case in point, not a resolution of the question... I still feel an off-ness here. I feel myself not wanting to commit to appreciating this art because I am unsure of its origin. Aesthetics versus process. I easily can appreciate the aesthetics of it. If it were human-made, I would appreciate the process of it being created. But I waver on that point due to the possibility that the process could have been drastically different to what I normally imagine it would have been, in the case that it was AI-made. Now that I say this, I realize that any digital image&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn4&quot; id=&quot;fnref4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt; of art can be questioned in this way.&lt;/p&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
 &lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;I acknowledge that there can be tweaking and human processing in AI-generated art. Maybe we are just talking about one-shot or minimally-prompted AI art here. &lt;a href=&quot;https://briancherin.github.io/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;in the past I have made some sketches based on dreams and I&#39;d like to do more. I love the idea of dream-inspired art. I recently also &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/creative/music/songwriting/&quot;&gt;wrote&lt;/a&gt; a song based on dream I had. &lt;a href=&quot;https://briancherin.github.io/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn3&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;though... it may instead of the subconscious mind&#39;s act of creation in the case of a dream. &lt;a href=&quot;https://briancherin.github.io/#fnref3&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn4&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;not going to dive into the possibility of physical-medium art potentially being created by an AI that is controlling a physical medium... I&#39;m sure it&#39;s been done, though. &lt;a href=&quot;https://briancherin.github.io/#fnref4&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -1234,7 +1253,7 @@ Also, I realize that there is some irony/concern with passing the potentially se
                 On Lack of a Comments System
                 
             </title>
-            <updated>2026-07-18T16:30:32.000Z</updated>
+            <updated>2026-07-21T01:52:08.000Z</updated>
             <id>https://briancherin.github.io/meta/on-blogging/on-lack-of-a-comments-system/</id>
             <content type="html">
                 &lt;p&gt;When I was first creating this digital garden, I was wondering if I should add a comments system so that people can react and discuss to my posts. There could be genuine community and engagement developed through that.&lt;/p&gt;
@@ -1256,6 +1275,9 @@ Also, I realize that there is some irony/concern with passing the potentially se
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;And then I go and leave a comment on my friend&#39;s &lt;a href=&quot;https://teamtahoe.substack.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;blog&lt;/a&gt;, and I&#39;m thinking... shouldn&#39;t I let people do that on mine, too?&lt;/p&gt;
+&lt;hr /&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
