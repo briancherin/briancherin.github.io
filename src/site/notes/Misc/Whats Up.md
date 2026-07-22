@@ -15,6 +15,7 @@ What's up. What's going on. What am I doing, reading, interesting stuff to share
 	- I've been rewatching *Avatar: The Last Airbender* (the original series) right after having watched S2 of the Netflix adaptation (which, especially after rewatching S2 of the original (which itself is fantastic of course), my opinion has gotten lower and lower of). One particular episode in S3 inspired this note: [[Media I Have Consumed/TV/Dostoevsky as Last Airbender\|Dostoevsky as Last Airbender]]. I'm also excited to watch the new movie which is being officially released later in the month (I have refused out of principle to watch the leaked version). And of course took this as a reminder to update my list of dreaming [[Interests/Dreams/Skills to work on\|skills to work on]] with element bending (which has been one of my dream interests since I first got into lucid dreaming).
 - Books
 	- Finally finished [[Media I Have Consumed/Books/Fiction/War and Peace by Leo Tolstoy\|War and Peace]] (perhaps poetically, finished it on the same day as finishing my rewatch of The Last Airbender (which certainly, as a show, covers topics of war and of peace.)). Happy I finished it; definitely ready+excited to move on to other books. (I've been interleaving book-club books between chunks of War and Peace. But still just excited to move on.)
+	- Starting to read [[Media I Have Consumed/Books/Fiction/The Ministry for the Future (Kim Stanley Robinson)\|The Ministry for the Future (Kim Stanley Robinson)]]
 - Movies
 	- Saw *The Odyssey* (Christopher Nolan). Fantastic film.
 
