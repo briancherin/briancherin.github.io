@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-07-21T21:38:29Z</updated>
+    <updated>2026-07-22T01:21:57Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -832,7 +832,7 @@ With the snap of a finger:&lt;/p&gt;
                 Whats Up
                 
             </title>
-            <updated>2026-07-21T02:46:45.000Z</updated>
+            <updated>2026-07-22T01:21:57.000Z</updated>
             <id>https://briancherin.github.io/misc/whats-up/</id>
             <content type="html">
                 &lt;p&gt;What&#39;s up. What&#39;s going on. What am I doing, reading, interesting stuff to share that I don&#39;t feel like making a separate page for. I don&#39;t expect myself to keep this super regularly updated or fully comprehensive of my activity - but it&#39;s a place to put stuff that I find noteworthy.&lt;/p&gt;
@@ -861,6 +861,7 @@ With the snap of a finger:&lt;/p&gt;
 &lt;li&gt;Books
 &lt;ul&gt;
 &lt;li&gt;Finally finished &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/books/fiction/war-and-peace-by-leo-tolstoy/&quot;&gt;War and Peace&lt;/a&gt; (perhaps poetically, finished it on the same day as finishing my rewatch of The Last Airbender (which certainly, as a show, covers topics of war and of peace.)). Happy I finished it; definitely ready+excited to move on to other books. (I&#39;ve been interleaving book-club books between chunks of War and Peace. But still just excited to move on.)&lt;/li&gt;
+&lt;li&gt;Starting to read &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/books/fiction/the-ministry-for-the-future-kim-stanley-robinson/&quot;&gt;The Ministry for the Future (Kim Stanley Robinson)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Movies
@@ -4044,6 +4045,19 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
         </entry>
         <entry>
             <title>
+                The Ministry for the Future (Kim Stanley Robinson)
+                
+            </title>
+            <updated>2026-07-22T01:21:57.000Z</updated>
+            <id>https://briancherin.github.io/media-i-have-consumed/books/fiction/the-ministry-for-the-future-kim-stanley-robinson/</id>
+            <content type="html">
+                &lt;p&gt;by &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/books/authors/kim-stanley-robinson/&quot;&gt;Kim Stanley Robinson&lt;/a&gt;&lt;/p&gt;
+
+            </content>
+            <atom:link href="https://briancherin.github.io/media-i-have-consumed/books/fiction/the-ministry-for-the-future-kim-stanley-robinson/"></atom:link>
+        </entry>
+        <entry>
+            <title>
                 The Left Hand of Darkness (Ursula K. Le Guin)
                 
             </title>
@@ -4319,6 +4333,37 @@ longevity / anti-aging efforts/research
 
             </content>
             <atom:link href="https://briancherin.github.io/media-i-have-consumed/books/authors/ursula-k-le-guin/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                Kim Stanley Robinson
+                
+            </title>
+            <updated>2026-07-22T01:21:57.000Z</updated>
+            <id>https://briancherin.github.io/media-i-have-consumed/books/authors/kim-stanley-robinson/</id>
+            <content type="html">
+                &lt;p&gt;Sci-fi author, one of my favorites. Contender&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; for favorite overall author.&lt;/p&gt;
+&lt;p&gt;Also apparently studied under &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/books/authors/ursula-k-le-guin/&quot;&gt;Ursula K. Le Guin&lt;/a&gt; (another favorite author).&lt;/p&gt;
+&lt;p&gt;His books that I&#39;ve read:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/books/fiction/mars-trilogy-kim-stanley-robinson/&quot;&gt;Mars trilogy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Years of Rice and Salt
+&lt;ul&gt;
+&lt;li&gt;(Contender for one of my overall favorite books)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Shaman&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;contender because I&#39;m bad at committing to &#39;favorites&#39; &lt;a href=&quot;https://briancherin.github.io/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+            </content>
+            <atom:link href="https://briancherin.github.io/media-i-have-consumed/books/authors/kim-stanley-robinson/"></atom:link>
         </entry>
         <entry>
             <title>
