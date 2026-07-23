@@ -4,42 +4,6 @@
 
 
 <style>
-body:has(.comic-page) {
-  --background-primary: #111214;
-  --background-primary-alt: #17191d;
-  --background-secondary: #17191d;
-  --background-secondary-alt: #202228;
-  --background-modifier-border: rgba(238, 231, 220, 0.22);
-  --text-normal: #eee7dc;
-  --text-muted: #b9b0a3;
-  --text-faint: #8e8578;
-  --link-color: #d2b4ff;
-  --link-color-hover: #e2ccff;
-  background: #111214;
-  color: #eee7dc;
-  color-scheme: dark;
-}
-body:has(.comic-page) main,
-body:has(.comic-page) article,
-body:has(.comic-page) header,
-body:has(.comic-page) footer,
-body:has(.comic-page) .content,
-body:has(.comic-page) .markdown-preview-view,
-body:has(.comic-page) .markdown-rendered {
-  background: #111214;
-  color: #eee7dc;
-}
-body:has(.comic-page) .sidebar,
-body:has(.comic-page) .filetree-sidebar,
-body:has(.comic-page) .toc {
-  background: #17191d;
-  color: #eee7dc;
-  border-color: rgba(238, 231, 220, 0.16);
-}
-.comic-page {
-  background: #111214;
-  color: #eee7dc;
-}
 .comic-carousel {
   display: flex;
   gap: 18px;
@@ -65,7 +29,7 @@ body:has(.comic-page) .toc {
   max-height: 78vh;
   object-fit: contain;
   background: #f7f3ea;
-  border: 1px solid rgba(238, 231, 220, 0.18);
+  border: 1px solid rgba(0, 0, 0, 0.14);
   border-radius: 6px;
 }
 .comic-carousel figcaption {
@@ -119,12 +83,10 @@ body:has(.comic-page) .toc {
   max-width: 1100px;
   margin: 1rem auto;
   background: #f7f3ea;
-  border: 1px solid rgba(238, 231, 220, 0.18);
+  border: 1px solid rgba(0, 0, 0, 0.14);
   border-radius: 6px;
 }
 </style>
-
-<div class="comic-page">
 
 <div class="comic-carousel" aria-label="An Unnecessary Upgrade comic carousel" style="display: flex; gap: 18px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-behavior: smooth; margin: 1rem calc(50% - 50vw) 0; padding: 0 max(12px, calc((100vw - 860px) / 2)) 14px; scrollbar-width: thin;">
 
@@ -299,5 +261,3 @@ body:has(.comic-page) .toc {
 ![Full page of An Unnecessary Upgrade](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/full-sheet.jpg)
 
 </details>
-
-</div>
