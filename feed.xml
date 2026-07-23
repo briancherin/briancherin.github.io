@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-07-23T16:37:14Z</updated>
+    <updated>2026-07-23T16:44:15Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -7811,46 +7811,10 @@ February 11, 2019&lt;/p&gt;
                 An Unnecessary Upgrade
                 
             </title>
-            <updated>2026-07-23T16:37:14.000Z</updated>
+            <updated>2026-07-23T16:44:15.000Z</updated>
             <id>https://briancherin.github.io/creations/comic/an-unnecessary-upgrade/</id>
             <content type="html">
                 &lt;style&gt;
-body:has(.comic-page) {
-  --background-primary: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#111214&quot;&gt;#111214&lt;/a&gt;;
-  --background-primary-alt: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#17191d&quot;&gt;#17191d&lt;/a&gt;;
-  --background-secondary: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#17191d&quot;&gt;#17191d&lt;/a&gt;;
-  --background-secondary-alt: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#202228&quot;&gt;#202228&lt;/a&gt;;
-  --background-modifier-border: rgba(238, 231, 220, 0.22);
-  --text-normal: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#eee7dc&quot;&gt;#eee7dc&lt;/a&gt;;
-  --text-muted: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#b9b0a3&quot;&gt;#b9b0a3&lt;/a&gt;;
-  --text-faint: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#8e8578&quot;&gt;#8e8578&lt;/a&gt;;
-  --link-color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#d2b4ff&quot;&gt;#d2b4ff&lt;/a&gt;;
-  --link-color-hover: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#e2ccff&quot;&gt;#e2ccff&lt;/a&gt;;
-  background: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#111214&quot;&gt;#111214&lt;/a&gt;;
-  color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#eee7dc&quot;&gt;#eee7dc&lt;/a&gt;;
-  color-scheme: dark;
-}
-body:has(.comic-page) main,
-body:has(.comic-page) article,
-body:has(.comic-page) header,
-body:has(.comic-page) footer,
-body:has(.comic-page) .content,
-body:has(.comic-page) .markdown-preview-view,
-body:has(.comic-page) .markdown-rendered {
-  background: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#111214&quot;&gt;#111214&lt;/a&gt;;
-  color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#eee7dc&quot;&gt;#eee7dc&lt;/a&gt;;
-}
-body:has(.comic-page) .sidebar,
-body:has(.comic-page) .filetree-sidebar,
-body:has(.comic-page) .toc {
-  background: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#17191d&quot;&gt;#17191d&lt;/a&gt;;
-  color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#eee7dc&quot;&gt;#eee7dc&lt;/a&gt;;
-  border-color: rgba(238, 231, 220, 0.16);
-}
-.comic-page {
-  background: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#111214&quot;&gt;#111214&lt;/a&gt;;
-  color: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#eee7dc&quot;&gt;#eee7dc&lt;/a&gt;;
-}
 .comic-carousel {
   display: flex;
   gap: 18px;
@@ -7876,7 +7840,7 @@ body:has(.comic-page) .toc {
   max-height: 78vh;
   object-fit: contain;
   background: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#f7f3ea&quot;&gt;#f7f3ea&lt;/a&gt;;
-  border: 1px solid rgba(238, 231, 220, 0.18);
+  border: 1px solid rgba(0, 0, 0, 0.14);
   border-radius: 6px;
 }
 .comic-carousel figcaption {
@@ -7930,11 +7894,10 @@ body:has(.comic-page) .toc {
   max-width: 1100px;
   margin: 1rem auto;
   background: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#f7f3ea&quot;&gt;#f7f3ea&lt;/a&gt;;
-  border: 1px solid rgba(238, 231, 220, 0.18);
+  border: 1px solid rgba(0, 0, 0, 0.14);
   border-radius: 6px;
 }
 &lt;/style&gt;
-&lt;div class=&quot;comic-page&quot;&gt;
 &lt;div class=&quot;comic-carousel&quot; aria-label=&quot;An Unnecessary Upgrade comic carousel&quot; style=&quot;display: flex; gap: 18px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-behavior: smooth; margin: 1rem calc(50% - 50vw) 0; padding: 0 max(12px, calc((100vw - 860px) / 2)) 14px; scrollbar-width: thin;&quot;&gt;
 &lt;figure id=&quot;comic-panel-01&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-01.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 1&quot; /&gt;&lt;/p&gt;
@@ -8043,7 +8006,6 @@ body:has(.comic-page) .toc {
 &lt;summary&gt;Full-page view&lt;/summary&gt;
 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/full-sheet.jpg&quot; alt=&quot;Full page of An Unnecessary Upgrade&quot; /&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;/div&gt;
 
             </content>
             <atom:link href="https://briancherin.github.io/creations/comic/an-unnecessary-upgrade/"></atom:link>
