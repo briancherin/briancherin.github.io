@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-07-23T03:23:47Z</updated>
+    <updated>2026-07-23T16:25:38Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -7805,6 +7805,187 @@ February 11, 2019&lt;/p&gt;
 
             </content>
             <atom:link href="https://briancherin.github.io/creations/painting/completed-paintings/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                An Unnecessary Upgrade
+                
+            </title>
+            <updated>2026-07-23T16:25:38.000Z</updated>
+            <id>https://briancherin.github.io/creations/comic/an-unnecessary-upgrade/</id>
+            <content type="html">
+                &lt;style&gt;
+.comic-carousel {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  margin: 1rem calc(50% - 50vw) 0;
+  padding: 0 max(12px, calc((100vw - 860px) / 2)) 14px;
+  scrollbar-width: thin;
+}
+.comic-carousel figure {
+  flex: 0 0 min(100%, 860px);
+  scroll-snap-align: center;
+  margin: 0;
+}
+.comic-carousel p {
+  margin: 0;
+}
+.comic-carousel img {
+  display: block;
+  width: 100%;
+  max-height: 78vh;
+  object-fit: contain;
+  background: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#f7f3ea&quot;&gt;#f7f3ea&lt;/a&gt;;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 6px;
+}
+.comic-carousel figcaption {
+  margin-top: 8px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+.comic-panel-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.45rem;
+  margin: 0.75rem 0 1.6rem;
+}
+.comic-panel-nav a {
+  min-width: 2rem;
+  min-height: 2rem;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 999px;
+  text-decoration: none;
+}
+.comic-full-page img {
+  display: block;
+  width: 100%;
+  max-width: 1100px;
+  margin: 1rem auto;
+  background: &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#f7f3ea&quot;&gt;#f7f3ea&lt;/a&gt;;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 6px;
+}
+&lt;/style&gt;
+&lt;div class=&quot;comic-carousel&quot; aria-label=&quot;An Unnecessary Upgrade comic carousel&quot; style=&quot;display: flex; gap: 18px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-behavior: smooth; margin: 1rem calc(50% - 50vw) 0; padding: 0 max(12px, calc((100vw - 860px) / 2)) 14px; scrollbar-width: thin;&quot;&gt;
+&lt;figure id=&quot;comic-panel-01&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-01.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 1&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;1 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-02&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-02.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 2&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;2 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-03&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-03.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 3&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;3 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-04&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-04.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 4&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;4 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-05&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-05.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 5&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;5 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-06&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-06.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 6&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;6 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-07&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-07.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 7&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;7 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-08&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-08.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 8&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;8 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-09&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-09.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 9&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;9 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-10&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-10.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 10&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;10 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-11&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-11.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 11&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;11 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-12&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-12.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 12&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;12 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-13&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-13.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 13&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;13 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-15&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-15.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 14&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;14 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-16&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-16.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 15&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;15 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-17&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-17.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 16&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;16 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-18&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-18.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 17&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;17 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-19&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-19.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 18&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;18 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-20&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-20.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 19&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;19 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id=&quot;comic-panel-21&quot; style=&quot;flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-21.jpg&quot; alt=&quot;An Unnecessary Upgrade comic panel 20&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;20 / 20&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;nav class=&quot;comic-panel-nav&quot; aria-label=&quot;Comic panel navigation&quot;&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-01&quot; aria-label=&quot;Go to panel 1&quot;&gt;1&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-02&quot; aria-label=&quot;Go to panel 2&quot;&gt;2&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-03&quot; aria-label=&quot;Go to panel 3&quot;&gt;3&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-04&quot; aria-label=&quot;Go to panel 4&quot;&gt;4&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-05&quot; aria-label=&quot;Go to panel 5&quot;&gt;5&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-06&quot; aria-label=&quot;Go to panel 6&quot;&gt;6&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-07&quot; aria-label=&quot;Go to panel 7&quot;&gt;7&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-08&quot; aria-label=&quot;Go to panel 8&quot;&gt;8&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-09&quot; aria-label=&quot;Go to panel 9&quot;&gt;9&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-10&quot; aria-label=&quot;Go to panel 10&quot;&gt;10&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-11&quot; aria-label=&quot;Go to panel 11&quot;&gt;11&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-12&quot; aria-label=&quot;Go to panel 12&quot;&gt;12&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-13&quot; aria-label=&quot;Go to panel 13&quot;&gt;13&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-15&quot; aria-label=&quot;Go to panel 14&quot;&gt;14&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-16&quot; aria-label=&quot;Go to panel 15&quot;&gt;15&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-17&quot; aria-label=&quot;Go to panel 16&quot;&gt;16&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-18&quot; aria-label=&quot;Go to panel 17&quot;&gt;17&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-19&quot; aria-label=&quot;Go to panel 18&quot;&gt;18&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-20&quot; aria-label=&quot;Go to panel 19&quot;&gt;19&lt;/a&gt;
+  &lt;a href=&quot;https://briancherin.github.io/#comic-panel-21&quot; aria-label=&quot;Go to panel 20&quot;&gt;20&lt;/a&gt;
+&lt;/nav&gt;
+&lt;details class=&quot;comic-full-page&quot;&gt;
+&lt;summary&gt;Full-page view&lt;/summary&gt;
+&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/full-sheet.jpg&quot; alt=&quot;Full page of An Unnecessary Upgrade&quot; /&gt;&lt;/p&gt;
+&lt;/details&gt;
+
+            </content>
+            <atom:link href="https://briancherin.github.io/creations/comic/an-unnecessary-upgrade/"></atom:link>
         </entry>
         <entry>
             <title>
