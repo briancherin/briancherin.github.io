@@ -18,6 +18,7 @@
 .comic-carousel figure {
   flex: 0 0 min(100%, 860px);
   scroll-snap-align: center;
+  scroll-margin-top: calc(6rem + env(safe-area-inset-top));
   margin: 0;
 }
 .comic-carousel p {
