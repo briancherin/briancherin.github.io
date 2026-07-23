@@ -4,6 +4,42 @@
 
 
 <style>
+body:has(.comic-page) {
+  --background-primary: #111214;
+  --background-primary-alt: #17191d;
+  --background-secondary: #17191d;
+  --background-secondary-alt: #202228;
+  --background-modifier-border: rgba(238, 231, 220, 0.22);
+  --text-normal: #eee7dc;
+  --text-muted: #b9b0a3;
+  --text-faint: #8e8578;
+  --link-color: #d2b4ff;
+  --link-color-hover: #e2ccff;
+  background: #111214;
+  color: #eee7dc;
+  color-scheme: dark;
+}
+body:has(.comic-page) main,
+body:has(.comic-page) article,
+body:has(.comic-page) header,
+body:has(.comic-page) footer,
+body:has(.comic-page) .content,
+body:has(.comic-page) .markdown-preview-view,
+body:has(.comic-page) .markdown-rendered {
+  background: #111214;
+  color: #eee7dc;
+}
+body:has(.comic-page) .sidebar,
+body:has(.comic-page) .filetree-sidebar,
+body:has(.comic-page) .toc {
+  background: #17191d;
+  color: #eee7dc;
+  border-color: rgba(238, 231, 220, 0.16);
+}
+.comic-page {
+  background: #111214;
+  color: #eee7dc;
+}
 .comic-carousel {
   display: flex;
   gap: 18px;
@@ -29,7 +65,7 @@
   max-height: 78vh;
   object-fit: contain;
   background: #f7f3ea;
-  border: 1px solid rgba(0, 0, 0, 0.14);
+  border: 1px solid rgba(238, 231, 220, 0.18);
   border-radius: 6px;
 }
 .comic-carousel figcaption {
@@ -37,6 +73,29 @@
   text-align: center;
   color: var(--text-muted);
   font-size: 0.9rem;
+}
+.comic-panel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+.comic-panel-controls a,
+.comic-panel-controls span {
+  min-width: 2.25rem;
+  min-height: 2rem;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 999px;
+  text-decoration: none;
+}
+.comic-panel-controls .comic-panel-count {
+  min-width: 4.5rem;
+  border: 0;
+}
+.comic-panel-controls .is-disabled {
+  opacity: 0.35;
 }
 .comic-panel-nav {
   display: flex;
@@ -60,10 +119,12 @@
   max-width: 1100px;
   margin: 1rem auto;
   background: #f7f3ea;
-  border: 1px solid rgba(0, 0, 0, 0.14);
+  border: 1px solid rgba(238, 231, 220, 0.18);
   border-radius: 6px;
 }
 </style>
+
+<div class="comic-page">
 
 <div class="comic-carousel" aria-label="An Unnecessary Upgrade comic carousel" style="display: flex; gap: 18px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-behavior: smooth; margin: 1rem calc(50% - 50vw) 0; padding: 0 max(12px, calc((100vw - 860px) / 2)) 14px; scrollbar-width: thin;">
 
@@ -71,140 +132,140 @@
 
 ![An Unnecessary Upgrade comic panel 1](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-01.jpg)
 
-<figcaption>1 / 20</figcaption>
+<figcaption class="comic-panel-controls"><span class="is-disabled" aria-hidden="true">&larr;</span><span class="comic-panel-count">1 / 20</span><a href="#comic-panel-02" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-02" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 2](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-02.jpg)
 
-<figcaption>2 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-01" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">2 / 20</span><a href="#comic-panel-03" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-03" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 3](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-03.jpg)
 
-<figcaption>3 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-02" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">3 / 20</span><a href="#comic-panel-04" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-04" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 4](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-04.jpg)
 
-<figcaption>4 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-03" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">4 / 20</span><a href="#comic-panel-05" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-05" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 5](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-05.jpg)
 
-<figcaption>5 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-04" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">5 / 20</span><a href="#comic-panel-06" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-06" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 6](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-06.jpg)
 
-<figcaption>6 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-05" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">6 / 20</span><a href="#comic-panel-07" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-07" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 7](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-07.jpg)
 
-<figcaption>7 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-06" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">7 / 20</span><a href="#comic-panel-08" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-08" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 8](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-08.jpg)
 
-<figcaption>8 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-07" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">8 / 20</span><a href="#comic-panel-09" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-09" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 9](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-09.jpg)
 
-<figcaption>9 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-08" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">9 / 20</span><a href="#comic-panel-10" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-10" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 10](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-10.jpg)
 
-<figcaption>10 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-09" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">10 / 20</span><a href="#comic-panel-11" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-11" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 11](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-11.jpg)
 
-<figcaption>11 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-10" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">11 / 20</span><a href="#comic-panel-12" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-12" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 12](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-12.jpg)
 
-<figcaption>12 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-11" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">12 / 20</span><a href="#comic-panel-13" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-13" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 13](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-13.jpg)
 
-<figcaption>13 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-12" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">13 / 20</span><a href="#comic-panel-15" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-15" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 14](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-15.jpg)
 
-<figcaption>14 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-13" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">14 / 20</span><a href="#comic-panel-16" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-16" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 15](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-16.jpg)
 
-<figcaption>15 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-15" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">15 / 20</span><a href="#comic-panel-17" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-17" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 16](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-17.jpg)
 
-<figcaption>16 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-16" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">16 / 20</span><a href="#comic-panel-18" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-18" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 17](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-18.jpg)
 
-<figcaption>17 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-17" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">17 / 20</span><a href="#comic-panel-19" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-19" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 18](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-19.jpg)
 
-<figcaption>18 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-18" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">18 / 20</span><a href="#comic-panel-20" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-20" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 19](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-20.jpg)
 
-<figcaption>19 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-19" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">19 / 20</span><a href="#comic-panel-21" aria-label="Next panel" title="Next panel">&rarr;</a></figcaption>
 </figure>
 
 <figure id="comic-panel-21" style="flex: 0 0 min(100%, 860px); scroll-snap-align: center; margin: 0;">
 
 ![An Unnecessary Upgrade comic panel 20](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/panel-21.jpg)
 
-<figcaption>20 / 20</figcaption>
+<figcaption class="comic-panel-controls"><a href="#comic-panel-20" aria-label="Previous panel" title="Previous panel">&larr;</a><span class="comic-panel-count">20 / 20</span><span class="is-disabled" aria-hidden="true">&rarr;</span></figcaption>
 </figure>
 
 </div>
@@ -238,3 +299,5 @@
 ![Full page of An Unnecessary Upgrade](/img/user/Creations/Comic/Assets/An%20Unnecessary%20Upgrade/full-sheet.jpg)
 
 </details>
+
+</div>
