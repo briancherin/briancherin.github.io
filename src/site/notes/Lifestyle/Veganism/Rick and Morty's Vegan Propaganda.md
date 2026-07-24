@@ -45,6 +45,8 @@ These aliens don't have spaghetti inside them just by dying any death -- it has 
 
 This changes everything.
 
+>[!success] End of spoilers
+(fornow)
 #### Interlude: An Anecdote on Animal Suicide and Roadkill Meat
 I didn't realize until getting to this point that I have a recent and relevant anecdote. But it's perfect.
 
@@ -74,6 +76,12 @@ Plus, a big reason for staying vegan for me is the [[Lifestyle/Cooking/On Cookin
 
 But I guess I have to acknowledge that if someone approached me and asked if it's okay for them to eat roadkill, the answer would have to be yes. They genuinely are not hurting anyone by doing it. (My own caveat here would be that by consuming an animal product, they are still promoting the idea of eating animal products to other people in society, which can contribute to the continuation of traditional animal exploitation.)
 
+
+>[!DANGER] Spoilers ahead.
+>>[!DANGER] Spoilers ahead.
+>>>[!DANGER] Spoilers ahead.
+>>>>[!DANGER] Spoilers ahead.
+>>>>>[!DANGER] Spoilers ahead.
 #### Back to the spaghetti people
 As I was saying, at the start of the Rick and Morty episode, the aliens who commit suicide *chose* to die.
 
