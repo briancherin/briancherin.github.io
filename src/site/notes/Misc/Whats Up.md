@@ -8,7 +8,7 @@ What's up. What's going on. What am I doing, reading, interesting stuff to share
 - Doings
 	- Starting to learn some [[Learning/Languages/Greek\|Greek]] in preparation for a short trip coming up.
 - Articles
-	- Netflix character requirements: "have this character announce what they’re doing so that viewers who have this program on in the background can follow along". This came up for me because of a really bad line in the S2 Netflix adaptation of Avatar Last Airbender, where a character did exactly that. Reading that this kind of bad writing is being "required" is so sad to me. Haven't read this full [article](https://www.nplusonemag.com/issue-49/essays/casual-viewing/).
+	- Netflix character requirements: "have this character announce what they’re doing so that viewers who have this program on in the background can follow along". This came up for me because of a really bad line in the S2 Netflix adaptation of Avatar Last Airbender, where a character did exactly that (Youtuber Drew Gooden agrees in his analysis [here](https://www.youtube.com/watch?v=7fmyTueYPhw) - also highlights everything else wrong with the Netflix adaptation, and it resonates.). Reading that this kind of bad writing is being "required" is so sad to me. Haven't read this full [article](https://www.nplusonemag.com/issue-49/essays/casual-viewing/).
 - Music
 	- Been loving the album "Waves" by Bitter Ruin. Love the male+female vocals+harmonies. It's especially nice when the male+female vocals alternate in a song. Their voices are lovely. Highlighted songs so far are "Tom Thumb", "Ticker Don't Tock", "Leather for Hell", "Stampede". Regarding genre: wikipedia says "experimental pop", Rate Your Music says "dark cabaret, acoustic rock, indie folk". 
 - TV
