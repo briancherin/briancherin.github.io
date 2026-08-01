@@ -13,6 +13,11 @@ This is a mix of a blog and personal wiki. It's a place for me to:
 - Share about my interests and personal projects
 - Document viewpoints or aspects of my life that I want to share with the world
 
+Pages here come in different flavors:
+- Some are more polished, traditional blog posts or reviews
+- Some are smaller notes, lists, or quick thoughts
+- Some are placeholder pages that I'll expand on later
+
 Suggested starting points:
 - For more explanation: [[Meta/On Blogging/What Is This\|What Is This]]
 - For monthly musings / what I've been up to: [[Misc/Whats Up\|What's Up]]
