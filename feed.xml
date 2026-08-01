@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-07-31T23:12:54Z</updated>
+    <updated>2026-08-01T01:41:16Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -73,6 +73,267 @@ document.getElementById(&quot;random-note-button&quot;)
 
             </content>
             <atom:link href="https://briancherin.github.io/random-topics/solar-punk/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                Interactive Narrative
+                
+            </title>
+            <updated>2026-08-01T01:41:16.000Z</updated>
+            <id>https://briancherin.github.io/random-topics/interactive-narrative/</id>
+            <content type="html">
+                &lt;ul&gt;
+&lt;li&gt;Concept from Ready Player One -- you enter a movie in VR and you have to play along as one of the characters in the movie, say the right lines, etc.&lt;/li&gt;
+&lt;li&gt;Rick and Morty S8E7 (&amp;quot;Ricker Than Fiction&amp;quot;) reminded me of this too (though they mess with the plot)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It has occasionally crossed my mind that LLM-based AI could probably get us to something similar. I asked ChatGPT if there are any current research/projects around this.&lt;/p&gt;
+&lt;p&gt;Pasting ChatGPT&#39;s answer in the meantime before I explore the specific links further.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!INFO]- ChatGPT&lt;br /&gt;
+(ME): &amp;quot;are there any projects/research about: &amp;quot;ai to put yourself into a movie&amp;quot;&lt;br /&gt;
+like, ai re-enacts a movie script and you take over the role of a character and if you make changes, the plot changes? or reenacting in VR like in ready player one?&amp;quot;&lt;br /&gt;
+(CHATGPT:)&lt;br /&gt;
+Yes. The field is usually described as &lt;strong&gt;LLM-based interactive drama&lt;/strong&gt;, &lt;strong&gt;generative interactive narrative&lt;/strong&gt;, &lt;strong&gt;playable television&lt;/strong&gt;, or &lt;strong&gt;interactive generative video&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;No polished system yet fully combines:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;an existing feature film;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;you physically or vocally performing one character;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AI actors performing everyone else;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;unrestricted deviations from the script;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;a coherent newly generated plot; and&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;real-time cinematic VR.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Several projects are surprisingly close to individual parts of that idea.&lt;/p&gt;
+&lt;h2 id=&quot;closest-direct-research&quot; tabindex=&quot;-1&quot;&gt;Closest direct research&lt;/h2&gt;
+&lt;h3 id=&quot;1-em-from-role-play-to-drama-interaction-em&quot; tabindex=&quot;-1&quot;&gt;1. &lt;em&gt;From Role-Play to Drama-Interaction&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;This is probably the closest academic match to what you described. The player enters a known story, assumes the role of one character, speaks or takes actions, and interacts with characters controlled by an LLM.&lt;/p&gt;
+&lt;p&gt;The researchers built demonstrations based on &lt;strong&gt;Detective Conan, Harry Potter, and Romeo and Juliet&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Their “Narrative Chain” system tries to keep the original dramatic progression intact while still responding to the player—a central problem in your idea: what happens when Harry refuses to go somewhere, warns someone early, or otherwise breaks the screenplay?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://aclanthology.org/2024.findings-acl.196/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;From Role-Play to Drama-Interaction: An LLM Solution&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A 2025 follow-up studies:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;immersion&lt;/strong&gt;: feeling present inside the story;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;agency&lt;/strong&gt;: genuinely influencing the story rather than merely choosing dialogue;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;adapting NPC reactions to the player’s intentions while retaining dramatic structure.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://aclanthology.org/2025.acl-long.546/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Follow-up paper on immersion and agency in drama interaction&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These experiments are primarily dialogue-driven rather than photorealistic movies or VR, but conceptually they are almost exactly your proposal.&lt;/p&gt;
+&lt;h3 id=&quot;2-ibsen&quot; tabindex=&quot;-1&quot;&gt;2. IBSEN&lt;/h3&gt;
+&lt;p&gt;IBSEN divides the AI into a &lt;strong&gt;director agent&lt;/strong&gt; and multiple &lt;strong&gt;actor agents&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The director maintains the overall plot, while the actor agents portray individual characters. When a human enters and changes events, the director can revise the plan and redirect the actors toward a new dramatic objective.&lt;/p&gt;
+&lt;p&gt;That “AI director repairs the movie after you disrupt it” architecture is likely how a practical version would work.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://aclanthology.org/2024.acl-long.88/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;IBSEN: Director-Actor Agent Collaboration for Interactive Narrative&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;3-story-verse-and-what-else&quot; tabindex=&quot;-1&quot;&gt;3. StoryVerse and WhatELSE&lt;/h3&gt;
+&lt;p&gt;Autodesk Research’s &lt;strong&gt;StoryVerse&lt;/strong&gt; generates “living stories” from high-level plot outlines, character simulations, and the changing state of the story world.&lt;/p&gt;
+&lt;p&gt;The plot is co-created by the author, simulated characters, and player rather than selected from a fixed branching tree.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.research.autodesk.com/publications/storyverse/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;StoryVerse&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Its successor, &lt;strong&gt;WhatELSE&lt;/strong&gt;, lets an author establish a range of permissible alternate plots.&lt;/p&gt;
+&lt;p&gt;For example, a studio might decide:&lt;/p&gt;
+&lt;p&gt;“The detective may accuse different suspects, lose evidence, or become allied with the villain—but the story must remain a murder mystery and eventually reveal the conspiracy.”&lt;/p&gt;
+&lt;p&gt;The system then produces playable events inside those boundaries.&lt;/p&gt;
+&lt;p&gt;This is particularly relevant to adapting films because it provides something between a completely fixed script and unrestricted AI improvisation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.research.autodesk.com/publications/whatelse/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;WhatELSE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;4-narrative-play-and-open-theatre&quot; tabindex=&quot;-1&quot;&gt;4. NarrativePlay and Open-Theatre&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;NarrativePlay&lt;/strong&gt; converts existing narratives into environments where the user selects a fictional character, explores the story, and converses with AI-controlled characters.&lt;/p&gt;
+&lt;p&gt;It extracts personalities and major events from the source narrative and adds generated settings and character portraits.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2310.01459&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;NarrativePlay: Interactive Narrative Understanding&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Open-Theatre&lt;/strong&gt;, published in 2025, is an open-source toolkit specifically for constructing LLM-based interactive dramas.&lt;/p&gt;
+&lt;p&gt;It is a more practical starting point for experimentation than most research-only systems.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://aclanthology.org/2025.emnlp-demos.31/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Open-Theatre: An Open-Source Toolkit for LLM-Based Interactive Drama&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;5-stage&quot; tabindex=&quot;-1&quot;&gt;5. STAGE&lt;/h3&gt;
+&lt;p&gt;The 2026 &lt;strong&gt;STAGE&lt;/strong&gt; benchmark focuses on whether AI can understand entire movie screenplays well enough to construct character relationships, track events, and perform &lt;strong&gt;in-script character role-playing&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;It contains structured material covering 150 English- and Chinese-language films.&lt;/p&gt;
+&lt;p&gt;It is not itself an interactive movie, but it addresses a prerequisite: the AI needs a reliable internal model of what everyone knows, where they are, what has happened, and how each character should behave at every point in the film.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2601.08510&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;STAGE: Screenplay Understanding and Character Role-Playing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;the-closest-actual-consumer-product-showrunner&quot; tabindex=&quot;-1&quot;&gt;The closest actual consumer product: Showrunner&lt;/h2&gt;
+&lt;p&gt;Fable Studio’s &lt;strong&gt;Showrunner&lt;/strong&gt; is currently one of the most direct visual implementations.&lt;/p&gt;
+&lt;p&gt;Users can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;create or remix animated television scenes;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;upload themselves or friends as characters;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;place those characters into a show’s world;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;provide instructions for what happens next;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;generate scenes or episodes rather than merely receiving text.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The app describes itself as serialized AI storytelling and explicitly offers the ability to “put yourself in the show.”&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://apps.apple.com/ca/app/showrunner-ai-video-generator/id6754945404&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Showrunner app&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://fablestudio.github.io/showrunner-agents/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Showrunner Agents research&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Showrunner is not yet “act continuously inside the movie.” You prompt or remix a scene and then wait for it to be generated.&lt;/p&gt;
+&lt;p&gt;It currently works best for relatively self-contained animated episodes, especially formats where characters can reset between installments, rather than a causally complex two-hour movie that continually branches.&lt;/p&gt;
+&lt;p&gt;Its creators nevertheless frame the eventual concept as making films and television &lt;strong&gt;playable&lt;/strong&gt;, including putting yourself into an existing fictional world and generating alternate continuations.&lt;/p&gt;
+&lt;h2 id=&quot;the-visual-technology-is-beginning-to-catch-up&quot; tabindex=&quot;-1&quot;&gt;The visual technology is beginning to catch up&lt;/h2&gt;
+&lt;p&gt;Runway’s 2026 &lt;strong&gt;Characters&lt;/strong&gt; system can generate a responsive, expressive video character in real time from a single reference image.&lt;/p&gt;
+&lt;p&gt;A language model and voice system control the conversation while Runway generates the character’s visible performance.&lt;/p&gt;
+&lt;p&gt;That could eventually supply the AI “actors” in this kind of experience.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://runwayml.com/research/how-real-time-video-generation-is-changing-online-interaction&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Runway Characters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Runway’s &lt;strong&gt;Game Worlds&lt;/strong&gt; research is more directly aimed at nonlinear experiences where users explore characters, stories, and environments generated with AI.&lt;/p&gt;
+&lt;p&gt;It is still an experimental hybrid rather than a convincing cinematic world.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://runwayml.com/research/runway-game-worlds&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Runway Game Worlds&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;CinemaWorld&lt;/strong&gt;, a 2026 mixed-reality research system, extracts objects and effects from a film and extends them spatially into the viewer’s physical surroundings on a Quest 3.&lt;/p&gt;
+&lt;p&gt;It does not alter the story, but it shows how an ordinary 2D movie could be converted into a spatial experience.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2603.08060&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;CinemaWorld&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;what-is-still-missing&quot; tabindex=&quot;-1&quot;&gt;What is still missing&lt;/h2&gt;
+&lt;p&gt;The main obstacle is no longer merely generating dialogue. A complete system must simultaneously maintain:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Narrative causality:&lt;/strong&gt; If you prevent an early death, every later scene dependent on that death must be reconsidered.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Character knowledge:&lt;/strong&gt; Someone cannot react to information they have not learned in the altered timeline.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Character arcs:&lt;/strong&gt; Characters should evolve according to what has happened rather than act like static chatbots.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Long-term visual continuity:&lt;/strong&gt; Faces, clothing, rooms, props, injuries, and spatial arrangements must remain consistent.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Real-time generation:&lt;/strong&gt; VR generally cannot pause several minutes whenever you speak.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Dramatic quality:&lt;/strong&gt; Total freedom often produces shapeless role-play rather than something satisfying as a movie.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Rights and consent:&lt;/strong&gt; Commercially inserting users into recognizable films would require licenses covering the story world, characters, performances, voices, likenesses, and generated variations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Researchers in interactive generative video still identify real-time rendering, persistent memory, long-horizon coherence, physics, and causal reasoning as major unsolved problems.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2504.21853&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Interactive Generative Video survey&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;what-a-plausible-near-term-version-would-look-like&quot; tabindex=&quot;-1&quot;&gt;What a plausible near-term version would look like&lt;/h2&gt;
+&lt;p&gt;The first convincing version probably would not generate photorealistic video from scratch.&lt;/p&gt;
+&lt;p&gt;It would likely use:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;a licensed movie screenplay converted into a scene and causal graph;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;a game-engine reconstruction of the sets;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AI-controlled character agents;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;an AI “director” that maintains dramatic goals;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;voice input and VR body tracking for the player;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;fixed or motion-captured animation augmented by generative facial performance;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;dynamic dialogue and moderately flexible alternate scenes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In other words, it would initially resemble &lt;strong&gt;immersive theater inside a video game&lt;/strong&gt;, not a perfectly regenerated Hollywood movie.&lt;/p&gt;
+&lt;p&gt;Fully generated video could gradually replace the game-engine layer as interactive world models become more stable.&lt;/p&gt;
+&lt;p&gt;The research phrase most likely to produce useful results is:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;“LLM-based interactive drama with player agency and embodied virtual characters”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Closely related searches include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;generative drama management&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;interactive narrative planning&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;story-world simulation&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;playable television&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;interactive generative video&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;High level points from ChatGPT i&#39;m curious to explore more about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;quot;Their “Narrative Chain” system tries to keep the original dramatic progression intact while still responding to the player—a central problem in your idea: what happens when Harry refuses to go somewhere, warns someone early, or otherwise breaks the screenplay?&amp;quot;&lt;/li&gt;
+&lt;li&gt;&amp;quot;IBSEN divides the AI into a director agent and multiple actor agents. The director maintains the overall plot; the actor agents portray individual characters. When a human enters and changes events, the director can revise the plan and redirect the actors toward a new dramatic objective.&amp;quot;&lt;/li&gt;
+&lt;li&gt;&amp;quot;WhatELSE, lets an author establish a range of permissible alternate plots&amp;quot;&lt;/li&gt;
+&lt;li&gt;&amp;quot;The 2026 STAGE benchmark focuses on whether AI can understand entire movie screenplays well enough to construct character relationships, track events and perform in-script character role-playing.&amp;quot;&lt;/li&gt;
+&lt;li&gt;&amp;quot;Runway’s Game Worlds research is more directly aimed at nonlinear experiences where users explore characters, stories and environments generated with AI&amp;quot;
+&lt;ul&gt;
+&lt;li&gt;Sounds similar to the &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/random-topics/ender-s-infinite-game/&quot;&gt;Ender&#39;s Game VR world simulation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <atom:link href="https://briancherin.github.io/random-topics/interactive-narrative/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                Ender&#39;s Infinite Game
+                
+            </title>
+            <updated>2026-08-01T01:41:16.000Z</updated>
+            <id>https://briancherin.github.io/random-topics/ender-s-infinite-game/</id>
+            <content type="html">
+                
+            </content>
+            <atom:link href="https://briancherin.github.io/random-topics/ender-s-infinite-game/"></atom:link>
         </entry>
         <entry>
             <title>
@@ -180,13 +441,13 @@ document.getElementById(&quot;random-note-button&quot;)
                 Mini Projects
                 
             </title>
-            <updated>2026-07-21T01:52:08.000Z</updated>
+            <updated>2026-08-01T01:41:16.000Z</updated>
             <id>https://briancherin.github.io/projects/software/mini-projects/mini-projects/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#miniproject&quot;&gt;#miniproject&lt;/a&gt;&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/&quot;&gt;Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/mini-projects/restaurant-ai-vr-simulation/&quot;&gt;Restaurant AI VR Simulation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/&quot;&gt;Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
@@ -593,11 +854,11 @@ You’re essentially building a long-lived personal &lt;strong&gt;spatial archiv
                 Environment Generation
                 
             </title>
-            <updated>2026-07-03T15:39:28.000Z</updated>
+            <updated>2026-08-01T01:41:16.000Z</updated>
             <id>https://briancherin.github.io/projects/3-d-and-vr/environment-generation/</id>
             <content type="html">
                 &lt;p&gt;One of my strongest interests in Virtual Reality is the idea of having an auto-generating virtual environment.&lt;/p&gt;
-&lt;p&gt;Similar to the game simulation in Ender&#39;s Game&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Similar to the &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/random-topics/ender-s-infinite-game/&quot;&gt;game simulation in Ender&#39;s Game&lt;/a&gt; &lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
