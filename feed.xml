@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-08-01T01:41:16Z</updated>
+    <updated>2026-08-01T15:15:03Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -724,6 +724,55 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
 
             </content>
             <atom:link href="https://briancherin.github.io/projects/software/idea-spontaneous-plans/idea-spontaneous-plans/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                Grocery Receipt Tracker
+                
+            </title>
+            <updated>2026-08-01T15:15:03.000Z</updated>
+            <id>https://briancherin.github.io/projects/software/grocery-receipt-tracker/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;slowness&quot; tabindex=&quot;-1&quot;&gt;Slowness&lt;/h3&gt;
+&lt;p&gt;I started writing down ideas related to this project in July of 2024. It&#39;s taken me a really long time to make progress. There are several factors that have caused this.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;General life stuff - changing priorities, other pursuits capturing my interest (like piano and learning Japanese)&lt;/li&gt;
+&lt;li&gt;Coding/focusing at work makes it difficult to want to code outside of work&lt;/li&gt;
+&lt;li&gt;I got stuck on some infrastructure aspects that took me a while to figure out&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Specifically on that last point (stalled infrastructure), now that I&#39;ve gotten past those hurdles, development of my prototype (writing this as of January 2026) has been speeding along and I&#39;m making a lot of progress.&lt;/p&gt;
+&lt;p&gt;I&#39;ve also decided to use AI to help me code - at this point, if it gets me to work on this project, I want to leverage AI because I just want to have my prototype ready. I&#39;ve started using OpenAI&#39;s codex in my command line (previously I was just occasionally using ChatGPT and copy/pasting relevant code back and forth) and it&#39;s made things so much easier.&lt;/p&gt;
+&lt;h3 id=&quot;the-infrastructure-troubles&quot; tabindex=&quot;-1&quot;&gt;The infrastructure troubles&lt;/h3&gt;
+&lt;p&gt;I have a backend API and a frontend (mobile) for this project. I knew from the start that ideally the backend would be hosted on AWS EC2. However, I&#39;ve done this for a few projects in the past, and realized that since my AWS free tier is expired, having a new EC2 instance running would cost around $10 per month. I didn&#39;t want to have that running for the indeterminate amount of time I would spend developing this.&lt;/p&gt;
+&lt;p&gt;So I opted to try a different solution, which was to wrap the API in an AWS Lambda function and have the frontend make requests through that. Lambda is much cheaper because it only runs when the call is being executed - as opposed to EC2, which is essentially a sever that is always running, waiting for requests. The main drawback of the Lambda approach was that it takes longer for requests to be processed, since Lambda has to do a &amp;quot;cold start&amp;quot; - it takes extra time to warm up for accepting requests if it hasn&#39;t been triggered in a certain amount of time. I was willing to deal with this in the short term.&lt;/p&gt;
+&lt;p&gt;So I started working on this approach. I developed the first major endpoint of the API. At that point, I had only been testing it locally. Once I was satisfied with the implementation, it was time to deploy it to Lambda in AWS. Unfortunately, I simply could not get it to work. It seemed like everything was set up correctly, but when I would make API requests to the Lambda function (via AWS API Gateway), the requests would fail. I spent a lot of time trying to debug this, but eventually I gave up.&lt;/p&gt;
+&lt;p&gt;I decided that I was better off switching to the EC2 approach, which is what I would do in the long term anyway. It didn&#39;t take too long to set it up, and I&#39;m really glad I did. Development became so much more manageable after that. This was only a few months ago, at the time of writing this (Jan 2026). I&#39;ve been shutting off the EC2 instance when I&#39;m not actively working on it so that it doesn&#39;t incur unnecessary cost. At this point, however, I have an in-progress prototype frontend and I&#39;m in a phase of actively working on this, so I&#39;m just leaving the instance on.&lt;/p&gt;
+&lt;h3 id=&quot;using-ai-code-assistance&quot; tabindex=&quot;-1&quot;&gt;Using AI Code Assistance&lt;/h3&gt;
+&lt;p&gt;At the moment, &amp;quot;code assistance&amp;quot; is more like, it&#39;s writing all the code for me, given my prompting.&lt;/p&gt;
+&lt;p&gt;At the beginning of this project, I was intending to do more of the coding on my own and to rely less on AI. However, as mentioned, I&#39;ve gotten to the point where using AI is what&#39;s helping me to stop procrastinating and to actually get results. After sitting on this project for over a year with not much progress, I&#39;m kind of thrilled at how much I&#39;ve accomplished while using AI. It speeds up development so much, and doesn&#39;t force me to expend the mental effort which, if I knew I needed to expend, would probably make me want to avoid the effort.&lt;/p&gt;
+&lt;p&gt;I could argue that coding more of it on my own would make me a better programmer, increase my experience, help me learn -- I generally agree with points like those, but in this case, I just want to have my app prototype.&lt;/p&gt;
+&lt;p&gt;I am a little bit wary, though. I&#39;ll have to see how AI usage impacts codebase maintainability. I am also more distanced from the specific implementation details, which could make it more challenging to debug things that come up. Yes, I could ask AI to debug as well, but there are some things that it couldn&#39;t handle, I&#39;m sure. I want to say that I&#39;d be confident in digging through and understanding the code in a debugging situation - and I would be. But would I really do a better job than AI? Well, given my experience of actually doing this for my job, I&#39;d say that yes, there are issues that I can solve that current AI tools can not. Especially when it comes to understanding interactions between different systems and overall architecture. For smaller, self-contained problems, AI is pretty good.&lt;/p&gt;
+&lt;p&gt;Using AI kind of feels like cheating. But this may just be the future of software development. I don&#39;t think I should feel like I&#39;m &amp;quot;cheating&amp;quot;. Instead, I&#39;m directing my skills in a different way. I&#39;m performing something closer to a product management and design role. I am defining the specifications of what features and user experience I want, and still thinking through the technical needs in order to implement them. I augment my overall implementation plan with AI input, and then have the AI implement it. But the product specifications aspect is essential. Without it, AI wouldn&#39;t have much direction - it might be able to create something like what I want, but it wouldn&#39;t be exactly how I want it. So I&#39;m still thinking through the engineering aspects of it -- the AI is just handling the tedious details of actually coding it.&lt;/p&gt;
+&lt;h3 id=&quot;not-telling-people-about-this-project&quot; tabindex=&quot;-1&quot;&gt;Not telling people about this project&lt;/h3&gt;
+&lt;p&gt;For a while, I wasn&#39;t telling people what my idea was. (&lt;em&gt;cough&lt;/em&gt;, at the time of writing this, I still haven&#39;t described what the actual project is on this blog. I&#39;ll get there eventually.)&lt;/p&gt;
+&lt;p&gt;The reason for this was NOT that I was scared someone would copy the idea.&lt;/p&gt;
+&lt;p&gt;The reason for not telling people was because I was protecting the fragility of the idea in my own mind. I was scared that I would lose motivation to work on it if someone gave a certain reaction. For example, they might point out that something like this already exists. Even if I still felt my version had value, this person&#39;s pointing this out might be enough to deflate my motivation. I was scared of other similar well-meaning but perceived-negatively comments as well. Even someone displaying not as much interest as I might hope them to, could be something that deflated my motivation.&lt;/p&gt;
+&lt;p&gt;I do believe there is merit in being cautious like this. However, I admit that I dragged that period on for too long. It certainly has to do with how long it took me to make good progress on the project in general. I was telling myself, once I hit a basic prototype, and am certain that there&#39;s no turning back from at least that point, I would tell people about it. But it just took so long to get there.&lt;/p&gt;
+&lt;p&gt;Looking back now, I was losing something by not talking about the idea. It would give me a better sense of whether it&#39;s a product people would actually use (this &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/podcasts/indie-hackers-podcast/the-right-way-to-talk-to-people-about-your-business-indie-hackers-podcast/&quot;&gt;podcast episode&lt;/a&gt;  brought this lesson home for me). I could shift certain priorities in terms of features based on what people find useful. Telling people could also actually &lt;em&gt;increase&lt;/em&gt; my motivation.&lt;/p&gt;
+&lt;p&gt;Now that I&#39;ve got an actual frontend, something I can show people wherever I am (since it&#39;s on my phone), which has the basics of what my MVP was supposed to be, I&#39;m starting to talk to more people in my life about it. I can mention that I&#39;ve been working on a side project, and then show them what it is.&lt;/p&gt;
+&lt;p&gt;Maybe it took me too long to get to this point, but it also kind of makes sense that now is the time -- I actually have something to show. I can still reap the benefits of having people give input on the idea. But the idea is less fragile now. My own internal resolve for this particular idea is strong enough that even if someone doesn&#39;t think it&#39;s useful, I&#39;m confident in giving it the chance that I think it deserves.&lt;/p&gt;
+&lt;p&gt;Maybe I shouldn&#39;t have that fragility in the first place. But given how many ideas for projects I have floating around in my head, I can sometimes be tempted to hop from project to project. It&#39;s fine if I decide an idea isn&#39;t worth pursuing - I can move onto a different idea. This project in particular felt like it deserved to be pushed through to the end. I just decided I wasn&#39;t taking chances. But sure, perhaps I should be less private in the future at the earlier stages of an idea&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Example where I did this: &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/idea-spontaneous-plans/idea-spontaneous-plans/&quot;&gt;Idea - Spontaneous Plans&lt;/a&gt; &lt;a href=&quot;https://briancherin.github.io/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+            </content>
+            <atom:link href="https://briancherin.github.io/projects/software/grocery-receipt-tracker/"></atom:link>
         </entry>
         <entry>
             <title>
