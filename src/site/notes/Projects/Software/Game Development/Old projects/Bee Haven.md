@@ -19,4 +19,4 @@ But also recently, I've been wanting to show people a demo of the game. I recent
 So...
 - [ ] Run it locally and build it to Android, test it
 - [ ] Try re-publishing it to the Play Store???
-- [ ] Could also think about what improvements I could make (though tbh don't feel it's the place for me to invest my energy in anytime soon, especially with projects like [[Projects/Software/Specific Main App Pursuit I'm Currently Working On\|Specific Main App Pursuit I'm Currently Working On]] on top of my mind)
+- [ ] Could also think about what improvements I could make (though tbh don't feel it's the place for me to invest my energy in anytime soon, especially with projects like [[Projects/Software/Grocery Receipt Tracker\|Grocery Receipt Tracker]] on top of my mind)

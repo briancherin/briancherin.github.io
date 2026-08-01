@@ -4,6 +4,7 @@
 
 #project 
 
+*Note: This page was formerly titled "Specific Main App Pursuit I'm Currently Working On"*
 ### Slowness
 I started writing down ideas related to this project in July of 2024. It's taken me a really long time to make progress. There are several factors that have caused this.
 - General life stuff - changing priorities, other pursuits capturing my interest (like piano and learning Japanese)
