@@ -20,13 +20,3 @@ Though my watching this film was in the back of my mind as an inevitability, a s
 Céline Sciamma. What else did Sciamma make? I was surprised to see: *Portrait of a Lady on Fire* --  instantly reminding me of my intention to watch it, and also making me quite sure I would watch it soon. And then, today, deciding to watch a movie, and deciding it was time for this.^[side note: the *Lady* actress was also one of the two protagonists of *Water Lilies*.]
 
 I feel a slight cringe at disclosing that ChatGPT was used to help get me to this movie. Yet how can I be ashamed given the wholly positive outcome? I say something similar to what I mentioned in [[Media I Have Consumed/Podcasts/Indie Hackers Podcast/The Right Way to Talk to People About Your Business - Indie Hackers Podcast#I used ChatGPT to find this episode\|this Indie Hackers podcast note]]: "I'm using \[ChatGPT] to make a broad search for *real* human content, but leveraging natural language and a large-scoping conversation to drive that search." This also is evoking for me something I heard on [[Media I Have Consumed/Podcasts/Skeptics Guide to the Universe#Episode 1087\|Episode 1087]] of the SGU podcast which I listened to today -- the concept of the "genetic fallacy", which says that you can dismiss an argument or piece of evidence due to its origin. Similarly, even though I got a movie recommendation from ChatGPT, I can judge and appreciate the movie separately from that source. Its worth is self-contained, regardless of where it came from.^[(Though, it does still feel appropriate and relevant to discuss its origin, which is why I have done so here, and I feel that it does add something to the conversation about AI usage, and how one discovers media, and how similar media is connected, and how interest in something can be predicted by an automation.)]
-
-
->[!DANGER] Spoilers ahead.
->>[!DANGER] Spoilers ahead.
->>>[!DANGER] Spoilers ahead.
->>>>[!DANGER] Spoilers ahead.
->>>>>[!DANGER] Spoilers ahead.
-
-
-(definitely want to discuss the orpheus/eurydice parallells)
