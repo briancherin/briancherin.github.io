@@ -16,7 +16,7 @@ This is a mix of a blog and personal wiki. It's a place for me to:
 Pages here come in different flavors:
 - Some are more polished, traditional blog posts or reviews
 - Some are smaller notes, lists, or quick thoughts
-- Some are placeholder pages that I'll expand on later
+- Some are placeholder pages that I'll expand on later. Generally any page might be in-progress and subject to change or be added to.
 
 Suggested starting points:
 - For more explanation: [[Meta/On Blogging/What Is This\|What Is This]]
