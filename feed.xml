@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-08-01T15:15:03Z</updated>
+    <updated>2026-08-01T15:16:25Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -334,48 +334,6 @@ Yes. The field is usually described as &lt;strong&gt;LLM-based interactive drama
                 
             </content>
             <atom:link href="https://briancherin.github.io/random-topics/ender-s-infinite-game/"></atom:link>
-        </entry>
-        <entry>
-            <title>
-                Specific Main App Pursuit I&#39;m Currently Working On
-                
-            </title>
-            <updated>2026-01-10T20:29:03.000Z</updated>
-            <id>https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/</id>
-            <content type="html">
-                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;slowness&quot; tabindex=&quot;-1&quot;&gt;Slowness&lt;/h3&gt;
-&lt;p&gt;I started writing down ideas related to this project in July of 2024. It&#39;s taken me a really long time to make progress. There are several factors that have caused this.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;General life stuff - changing priorities, other pursuits capturing my interest (like piano and learning Japanese)&lt;/li&gt;
-&lt;li&gt;Coding/focusing at work makes it difficult to want to code outside of work&lt;/li&gt;
-&lt;li&gt;I got stuck on some infrastructure aspects that took me a while to figure out&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Specifically on that last point (stalled infrastructure), now that I&#39;ve gotten past those hurdles, development of my prototype (writing this as of January 2026) has been speeding along and I&#39;m making a lot of progress.&lt;/p&gt;
-&lt;p&gt;I&#39;ve also decided to use AI to help me code - at this point, if it gets me to work on this project, I want to leverage AI because I just want to have my prototype ready. I&#39;ve started using OpenAI&#39;s codex in my command line (previously I was just occasionally using ChatGPT and copy/pasting relevant code back and forth) and it&#39;s made things so much easier.&lt;/p&gt;
-&lt;h3 id=&quot;the-infrastructure-troubles&quot; tabindex=&quot;-1&quot;&gt;The infrastructure troubles&lt;/h3&gt;
-&lt;p&gt;I have a backend API and a frontend (mobile) for this project. I knew from the start that ideally the backend would be hosted on AWS EC2. However, I&#39;ve done this for a few projects in the past, and realized that since my AWS free tier is expired, having a new EC2 instance running would cost around $10 per month. I didn&#39;t want to have that running for the indeterminate amount of time I would spend developing this.&lt;/p&gt;
-&lt;p&gt;So I opted to try a different solution, which was to wrap the API in an AWS Lambda function and have the frontend make requests through that. Lambda is much cheaper because it only runs when the call is being executed - as opposed to EC2, which is essentially a sever that is always running, waiting for requests. The main drawback of the Lambda approach was that it takes longer for requests to be processed, since Lambda has to do a &amp;quot;cold start&amp;quot; - it takes extra time to warm up for accepting requests if it hasn&#39;t been triggered in a certain amount of time. I was willing to deal with this in the short term.&lt;/p&gt;
-&lt;p&gt;So I started working on this approach. I developed the first major endpoint of the API. At that point, I had only been testing it locally. Once I was satisfied with the implementation, it was time to deploy it to Lambda in AWS. Unfortunately, I simply could not get it to work. It seemed like everything was set up correctly, but when I would make API requests to the Lambda function (via AWS API Gateway), the requests would fail. I spent a lot of time trying to debug this, but eventually I gave up.&lt;/p&gt;
-&lt;p&gt;I decided that I was better off switching to the EC2 approach, which is what I would do in the long term anyway. It didn&#39;t take too long to set it up, and I&#39;m really glad I did. Development became so much more manageable after that. This was only a few months ago, at the time of writing this (Jan 2026). I&#39;ve been shutting off the EC2 instance when I&#39;m not actively working on it so that it doesn&#39;t incur unnecessary cost. At this point, however, I have an in-progress prototype frontend and I&#39;m in a phase of actively working on this, so I&#39;m just leaving the instance on.&lt;/p&gt;
-&lt;h3 id=&quot;using-ai-code-assistance&quot; tabindex=&quot;-1&quot;&gt;Using AI Code Assistance&lt;/h3&gt;
-&lt;p&gt;At the moment, &amp;quot;code assistance&amp;quot; is more like, it&#39;s writing all the code for me, given my prompting.&lt;/p&gt;
-&lt;p&gt;At the beginning of this project, I was intending to do more of the coding on my own and to rely less on AI. However, as mentioned, I&#39;ve gotten to the point where using AI is what&#39;s helping me to stop procrastinating and to actually get results. After sitting on this project for over a year with not much progress, I&#39;m kind of thrilled at how much I&#39;ve accomplished while using AI. It speeds up development so much, and doesn&#39;t force me to expend the mental effort which, if I knew I needed to expend, would probably make me want to avoid the effort.&lt;/p&gt;
-&lt;p&gt;I could argue that coding more of it on my own would make me a better programmer, increase my experience, help me learn -- I generally agree with points like those, but in this case, I just want to have my app prototype.&lt;/p&gt;
-&lt;p&gt;I am a little bit wary, though. I&#39;ll have to see how AI usage impacts codebase maintainability. I am also more distanced from the specific implementation details, which could make it more challenging to debug things that come up. Yes, I could ask AI to debug as well, but there are some things that it couldn&#39;t handle, I&#39;m sure. I want to say that I&#39;d be confident in digging through and understanding the code in a debugging situation - and I would be. But would I really do a better job than AI? Well, given my experience of actually doing this for my job, I&#39;d say that yes, there are issues that I can solve that current AI tools can not. Especially when it comes to understanding interactions between different systems and overall architecture. For smaller, self-contained problems, AI is pretty good.&lt;/p&gt;
-&lt;p&gt;Using AI kind of feels like cheating. But this may just be the future of software development. I don&#39;t think I should feel like I&#39;m &amp;quot;cheating&amp;quot;. Instead, I&#39;m directing my skills in a different way. I&#39;m performing something closer to a product management and design role. I am defining the specifications of what features and user experience I want, and still thinking through the technical needs in order to implement them. I augment my overall implementation plan with AI input, and then have the AI implement it. But the product specifications aspect is essential. Without it, AI wouldn&#39;t have much direction - it might be able to create something like what I want, but it wouldn&#39;t be exactly how I want it. So I&#39;m still thinking through the engineering aspects of it -- the AI is just handling the tedious details of actually coding it.&lt;/p&gt;
-&lt;h3 id=&quot;not-telling-people-about-this-project&quot; tabindex=&quot;-1&quot;&gt;Not telling people about this project&lt;/h3&gt;
-&lt;p&gt;For a while, I wasn&#39;t telling people what my idea was. (&lt;em&gt;cough&lt;/em&gt;, at the time of writing this, I still haven&#39;t described what the actual project is on this blog. I&#39;ll get there eventually.)&lt;/p&gt;
-&lt;p&gt;The reason for this was NOT that I was scared someone would copy the idea.&lt;/p&gt;
-&lt;p&gt;The reason for not telling people was because I was protecting the fragility of the idea in my own mind. I was scared that I would lose motivation to work on it if someone gave a certain reaction. For example, they might point out that something like this already exists. Even if I still felt my version had value, this person&#39;s pointing this out might be enough to deflate my motivation. I was scared of other similar well-meaning but perceived-negatively comments as well. Even someone displaying not as much interest as I might hope them to, could be something that deflated my motivation.&lt;/p&gt;
-&lt;p&gt;I do believe there is merit in being cautious like this. However, I admit that I dragged that period on for too long. It certainly has to do with how long it took me to make good progress on the project in general. I was telling myself, once I hit a basic prototype, and am certain that there&#39;s no turning back from at least that point, I would tell people about it. But it just took so long to get there.&lt;/p&gt;
-&lt;p&gt;Looking back now, I was losing something by not talking about the idea. It would give me a better sense of whether it&#39;s a product people would actually use. I could shift certain priorities in terms of features based on what people find useful. Telling people could also actually &lt;em&gt;increase&lt;/em&gt; my motivation.&lt;/p&gt;
-&lt;p&gt;Now that I&#39;ve got an actual frontend, something I can show people wherever I am (since it&#39;s on my phone), which has the basics of what my MVP was supposed to be, I&#39;m starting to talk to more people in my life about it. I can mention that I&#39;ve been working on a side project, and then show them what it is.&lt;/p&gt;
-&lt;p&gt;Maybe it took me too long to get to this point, but it also kind of makes sense that now is the time -- I actually have something to show. I can still reap the benefits of having people give input on the idea. But the idea is less fragile now. My own internal resolve for this particular idea is strong enough that even if someone doesn&#39;t think it&#39;s useful, I&#39;m confident in giving it the chance that I think it deserves.&lt;/p&gt;
-&lt;p&gt;Maybe I shouldn&#39;t have that fragility in the first place. But given how many ideas for projects I have floating around in my head, I can sometimes be tempted to hop from project to project. It&#39;s fine if I decide an idea isn&#39;t worth pursuing - I can move onto a different idea. This project in particular felt like it deserved to be pushed through to the end. I just decided I wasn&#39;t taking chances. But sure, perhaps I should be less private in the future at the earlier stages of an idea.&lt;/p&gt;
-
-            </content>
-            <atom:link href="https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/"></atom:link>
         </entry>
         <entry>
             <title>
@@ -730,10 +688,11 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
                 Grocery Receipt Tracker
                 
             </title>
-            <updated>2026-08-01T15:15:03.000Z</updated>
+            <updated>2026-08-01T15:16:25.000Z</updated>
             <id>https://briancherin.github.io/projects/software/grocery-receipt-tracker/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: This page was formerly titled &amp;quot;Specific Main App Pursuit I&#39;m Currently Working On&amp;quot;&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&quot;slowness&quot; tabindex=&quot;-1&quot;&gt;Slowness&lt;/h3&gt;
 &lt;p&gt;I started writing down ideas related to this project in July of 2024. It&#39;s taken me a really long time to make progress. There are several factors that have caused this.&lt;/p&gt;
 &lt;ul&gt;
@@ -831,7 +790,7 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
                 Bee Haven
                 
             </title>
-            <updated>2025-12-10T03:16:54.000Z</updated>
+            <updated>2026-08-01T15:16:25.000Z</updated>
             <id>https://briancherin.github.io/projects/software/game-development/old-projects/bee-haven/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gamedev&quot;&gt;#gamedev&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
@@ -845,7 +804,7 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
 &lt;ul class=&quot;task-list&quot;&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; Run it locally and build it to Android, test it&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_1&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_1&quot;&gt; Try re-publishing it to the Play Store???&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_2&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_2&quot;&gt; Could also think about what improvements I could make (though tbh don&#39;t feel it&#39;s the place for me to invest my energy in anytime soon, especially with projects like &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/&quot;&gt;Specific Main App Pursuit I&#39;m Currently Working On&lt;/a&gt; on top of my mind)&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_2&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_2&quot;&gt; Could also think about what improvements I could make (though tbh don&#39;t feel it&#39;s the place for me to invest my energy in anytime soon, especially with projects like &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/grocery-receipt-tracker/&quot;&gt;Grocery Receipt Tracker&lt;/a&gt; on top of my mind)&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
@@ -2595,7 +2554,7 @@ But most of the last two seasons were disappointing, and unfortunately that&#39;
                 Daniel Vassallo - Indie Hackers Podcast
                 
             </title>
-            <updated>2026-05-30T19:45:49.000Z</updated>
+            <updated>2026-08-01T15:16:25.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/podcasts/indie-hackers-podcast/daniel-vassallo-indie-hackers-podcast/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#podcast&quot;&gt;#podcast&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#entrepreneurship&quot;&gt;#entrepreneurship&lt;/a&gt;&lt;/p&gt;
@@ -2613,7 +2572,7 @@ But most of the last two seasons were disappointing, and unfortunately that&#39;
 &lt;ul&gt;
 &lt;li&gt;You can work on a project and publish it, and let it sit for a while, without actively working on it, and come back to it in the future.
 &lt;ul&gt;
-&lt;li&gt;This made me think of my work on &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/&quot;&gt;Specific Main App Pursuit I&#39;m Currently Working On&lt;/a&gt;. Sometimes I view it as: if I have even a little bit of success on it, it&#39;ll be The Thing that I am always working on. But by this advice, I don&#39;t necessarily have to adhere to that. I can get a core form of my app out, and just let people use it and see how it goes. Then I can pick it back up at some point and make improvements to it, or go harder on marketing it more. (But also probably smart to take initial traction and develop from there right away. But still, there can be a breaking point at some point.)&lt;/li&gt;
+&lt;li&gt;This made me think of my work on &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/grocery-receipt-tracker/&quot;&gt;Grocery Receipt Tracker&lt;/a&gt;. Sometimes I view it as: if I have even a little bit of success on it, it&#39;ll be The Thing that I am always working on. But by this advice, I don&#39;t necessarily have to adhere to that. I can get a core form of my app out, and just let people use it and see how it goes. Then I can pick it back up at some point and make improvements to it, or go harder on marketing it more. (But also probably smart to take initial traction and develop from there right away. But still, there can be a breaking point at some point.)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;The host made a brief comment about the strategy of asking yourself what your future life/lifestyle looks&lt;/li&gt;
@@ -2636,7 +2595,7 @@ But most of the last two seasons were disappointing, and unfortunately that&#39;
                 1 Second Everyday - Indie Hackers Podcast
                 
             </title>
-            <updated>2026-05-30T19:45:49.000Z</updated>
+            <updated>2026-08-01T15:16:25.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/podcasts/indie-hackers-podcast/1-second-everyday-indie-hackers-podcast/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#podcast&quot;&gt;#podcast&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#entrepreneurship&quot;&gt;#entrepreneurship&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#digitalgarden&quot;&gt;#digitalgarden&lt;/a&gt;&lt;/p&gt;
@@ -2663,7 +2622,7 @@ I&#39;m in a larger awkward period right now where I haven&#39;t done this in (I
 &lt;ul&gt;
 &lt;li&gt;A good callout to not be too secretive about your app idea. Probably no one is going to steal it, and even if they do, they probably won&#39;t have the same passion as you do. And there can be a lot of benefit in sharing your idea with others and having conversations about it and seeing what people might be interested in, etc.
 &lt;ul&gt;
-&lt;li&gt;I really needed to hear this, because I have been working on an app idea (&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/&quot;&gt;Specific Main App Pursuit I&#39;m Currently Working On&lt;/a&gt;) for at least a year (progress and effort have been too slow for my liking) and pretty much across the board I&#39;ve been not telling people about what I&#39;m working on -- though, that&#39;s more because I was scared that one slightly negative comment (or someone pointing out my idea already exists) would cause me to lose motivation to continue working on it, and less about someone stealing my idea.&lt;/li&gt;
+&lt;li&gt;I really needed to hear this, because I have been working on an app idea (&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/grocery-receipt-tracker/&quot;&gt;Grocery Receipt Tracker&lt;/a&gt;) for at least a year (progress and effort have been too slow for my liking) and pretty much across the board I&#39;ve been not telling people about what I&#39;m working on -- though, that&#39;s more because I was scared that one slightly negative comment (or someone pointing out my idea already exists) would cause me to lose motivation to continue working on it, and less about someone stealing my idea.&lt;/li&gt;
 &lt;li&gt;Recently, though, I&#39;ve started talking about the idea to some people (because honestly it was just taking too long for me to create an MVP that I had to backtrack on the secret-keeping, perhaps in part to see if it would motivate me to work on it more frequently (it kind of has worked)). But hearing this reinforced from the podcast will certainly encourage me to do this more.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -4024,7 +3983,7 @@ Céline Sciamma. What else did Sciamma make? I was surprised to see: &lt;em&gt;P
                 Hank Green Tells Me To Fall Downhill
                 
             </title>
-            <updated>2026-01-21T22:47:31.000Z</updated>
+            <updated>2026-08-01T15:16:25.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/misc/hank-green-tells-me-to-fall-downhill/</id>
             <content type="html">
                 &lt;p&gt;Video title: &amp;quot;Don&#39;t Follow Your Dreams, Follow Your Tools&amp;quot;&lt;br /&gt;
@@ -4036,7 +3995,7 @@ Link: &lt;a href=&quot;https://www.youtube.com/watch?v=f_Rqf-vxBM8&quot; target=
 &lt;p&gt;I kinda agree/vibe with this and kind of don&#39;t.&lt;/p&gt;
 &lt;p&gt;The idea of &amp;quot;falling downhill&amp;quot; feels extremely relevant to me. I have a lot of interests and hobbies and pursuits, and I love the feeling when working on one of them is an easy thing to do, not requiring much effort because I am really into it and can easily reach a flow state. I&#39;ve felt this way recently with writing (like, blog writing, i.e. Here) and piano (either practicing easy sheet music, or doing simple improvisation). Blogging/writing Here feels quite productive in the scheme of my pursuits, and I&#39;m kind of surprising myself at how easy it feels.&lt;/p&gt;
 &lt;p&gt;On the other hand, I have pursuits that I feel are high importance to me that aren&#39;t as easy and that do require more discipline. However I disagree with Mister Green here because I view myself as obligated to pursue these areas, even if I wouldn&#39;t go as far as saying I&#39;d feel like a &amp;quot;monster&amp;quot; to ignore them.&lt;/p&gt;
-&lt;p&gt;That being said, I do feel some resonance with the &amp;quot;monster&amp;quot; thing. My &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/specific-main-app-pursuit-i-m-currently-working-on/&quot;&gt;Specific Main App Pursuit I&#39;m Currently Working On&lt;/a&gt; is not the easiest thing for me to work on&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; but I tell myself it&#39;s really important for me to work on because I feel like it can have a high impact on myself and potentially others if I (hopefully) publish it some day. I would kind of feel terrible (/monster) about myself, to myself, if I didn&#39;t give this a fair shot. However, it does feel uphill at times because of the energy required to work on it. But I do have the toolkit. So maybe it&#39;s just a circumstantial thing that makes this a hard project for me (where the circumstances are, code-fatigue from dayjob, and not making the right time/space/energy for this pursuit, and (perhaps often rightfully) spending energy on other aspects of life).&lt;/p&gt;
+&lt;p&gt;That being said, I do feel some resonance with the &amp;quot;monster&amp;quot; thing. My &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/grocery-receipt-tracker/&quot;&gt;Grocery Receipt Tracker&lt;/a&gt; is not the easiest thing for me to work on&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; but I tell myself it&#39;s really important for me to work on because I feel like it can have a high impact on myself and potentially others if I (hopefully) publish it some day. I would kind of feel terrible (/monster) about myself, to myself, if I didn&#39;t give this a fair shot. However, it does feel uphill at times because of the energy required to work on it. But I do have the toolkit. So maybe it&#39;s just a circumstantial thing that makes this a hard project for me (where the circumstances are, code-fatigue from dayjob, and not making the right time/space/energy for this pursuit, and (perhaps often rightfully) spending energy on other aspects of life).&lt;/p&gt;
 &lt;p&gt;But still, I have other areas of pursuit that aren&#39;t &amp;quot;easy&amp;quot; to me but that I would love to get around to working on. Maybe this wording reveals something though -- &amp;quot;get around to&amp;quot;. Not necessarily working on them &lt;em&gt;right now&lt;/em&gt;, instantaneously. Mister Green implies that at any given moment, he falls downhill. But perhaps something that is uphill right now could later be downhill in the future. So, I wait for the right time to work on this other pursuit, because in the future it may become easier. On the one hand, this could be a rationalization that gives way to procrastination (which is why the &amp;quot;monster&amp;quot; thing is important -- there are exceptions where I can enforce that discipline). But on the other hand, this mindset respects my energy and removes possibly unnecessary strain in life (and in hobbies that are usually supposed to be for fun and/or relaxation and etc).&lt;/p&gt;
 &lt;p&gt;Still, though, I&#39;m a strong believer in &amp;quot;embrace discomfort&amp;quot;. Always doing the easiest thing doesn&#39;t feel like it aligns with this.&lt;/p&gt;
 &lt;p&gt;A couple other thoughts&lt;/p&gt;
