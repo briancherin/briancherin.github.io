@@ -8,7 +8,7 @@ Inspired by this line someone wrote: "If I wouldn't eat a dog no matter what, wh
 
 The "treatment" we are talking about here is with regards to the conditions of the cow's life^[because, no, we are not talking about a cow that we bring to the dog park, feed dog food, and teach it tricks]. For the cow to have a "good" life where it's free to do what it wants to and it isn't mistreated in any way. Taken care of as nicely as someone's pet dog would be. (We can imagine the same scenario for a chicken or pig or any other farm animal, too.)
 
-Well, first, I ask, would I eat a dog? No matter what? 
+Well, first, I ask, would I not eat a dog? No matter what? 
 
 A couple things come to mind:
 - I generally have no reason to eat a dog, so yeah why would I
