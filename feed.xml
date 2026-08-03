@@ -3,18 +3,18 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-08-01T16:08:40Z</updated>
+    <updated>2026-08-03T00:54:29Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
                 This is the beginning
                 
             </title>
-            <updated>2026-08-01T15:31:51.000Z</updated>
+            <updated>2026-08-03T00:54:29.000Z</updated>
             <id>https://briancherin.github.io/</id>
             <content type="html">
-                &lt;h1 id=&quot;this-is-the-beginning&quot; tabindex=&quot;-1&quot;&gt;This is the beginning&lt;/h1&gt;
-&lt;p&gt;of my digital garden / blog thing.&lt;/p&gt;
+                &lt;h1 id=&quot;welcome&quot; tabindex=&quot;-1&quot;&gt;Welcome&lt;/h1&gt;
+&lt;p&gt;to my little corner of the Internet.&lt;/p&gt;
 &lt;p&gt;Hi.&lt;/p&gt;
 &lt;p&gt;This is a mix of a blog and personal wiki. It&#39;s a place for me to:&lt;/p&gt;
 &lt;ul&gt;
