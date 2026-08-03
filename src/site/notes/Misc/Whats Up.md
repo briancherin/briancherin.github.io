@@ -7,6 +7,8 @@ What's up. What's going on. What am I doing, reading, interesting stuff to share
 ### August 2026
 - TV
 	- Rewatching ATLA last month and finishing catching up on Rick & Morty is reminding me how good animated series can be.
+- Blog commentary
+	- Adding a couple kind of random (but pre-existing) ideas to the Projects->Creative section. I want to document more of the random ideas that are floating around, both simply to share them and also to have a place for me to track progress on them (and also creating pages for ideas lets me reference them in other notes when they are relevant of course.)
 
 
 #### Past months:
