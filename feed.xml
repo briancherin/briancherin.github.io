@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-08-03T02:49:22Z</updated>
+    <updated>2026-08-03T03:20:10Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -908,6 +908,19 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
         </entry>
         <entry>
             <title>
+                Idea - Dresser objects come to life
+                
+            </title>
+            <updated>2026-08-03T03:20:10.000Z</updated>
+            <id>https://briancherin.github.io/projects/animation-and-vfx/idea-dresser-objects-come-to-life/</id>
+            <content type="html">
+                &lt;p&gt;Idea is to animate the objects on top of my dresser in my childhood bedroom coming to life and jumping off the dresser and going on some adventure.&lt;/p&gt;
+
+            </content>
+            <atom:link href="https://briancherin.github.io/projects/animation-and-vfx/idea-dresser-objects-come-to-life/"></atom:link>
+        </entry>
+        <entry>
+            <title>
                 Personal 3D VR World Building
                 
             </title>
@@ -953,6 +966,63 @@ You’re essentially building a long-lived personal &lt;strong&gt;spatial archiv
 
             </content>
             <atom:link href="https://briancherin.github.io/projects/3-d-and-vr/environment-generation/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                Idea - House Doll House
+                
+            </title>
+            <updated>2026-08-03T03:20:10.000Z</updated>
+            <id>https://briancherin.github.io/projects/3-d-modeling/idea-house-doll-house/</id>
+            <content type="html">
+                &lt;p&gt;Idea is to make a 3D model doll house of my childhood house. Could be cool to 3D print it. It would open up like a dollhouse and you could look into all the rooms, and when closed it would look like the house from the outside.&lt;/p&gt;
+&lt;p&gt;Could be nightmare / horror-movie fuel though, something to consider (joking but I acknowledge this could be a little creepy.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;).&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Reminding myself of the book &amp;quot;Time Windows&amp;quot; which is a memorable but haunting book that I read when I was somewhat young. &lt;a href=&quot;https://briancherin.github.io/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+            </content>
+            <atom:link href="https://briancherin.github.io/projects/3-d-modeling/idea-house-doll-house/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                Hadestown
+                
+            </title>
+            <updated>2026-08-03T03:20:10.000Z</updated>
+            <id>https://briancherin.github.io/projects/3-d-modeling/hadestown/</id>
+            <content type="html">
+                &lt;p&gt;I&#39;ve had a couple &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/theater/hadestown/&quot;&gt;Hadestown&lt;/a&gt;-related ideas for 3D modeling/printing over the years.&lt;/p&gt;
+&lt;p&gt;Not spoiler-related ideas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3D model+print of the set of Hadestown&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Spoiler-related ideas:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!DANGER] Spoilers ahead.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!DANGER] Spoilers ahead.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!DANGER] Spoilers ahead.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!DANGER] Spoilers ahead.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!DANGER] Spoilers ahead.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;The ending Orpheus moment, crouched by the hole in the ground and looking into it distraught, with Hermes standing nearby and peering in too. I&#39;ve had this idea in mind since around 2022. Should really get on that.&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <atom:link href="https://briancherin.github.io/projects/3-d-modeling/hadestown/"></atom:link>
         </entry>
         <entry>
             <title>
@@ -1177,7 +1247,7 @@ With the snap of a finger:&lt;/p&gt;
                 Whats Up
                 
             </title>
-            <updated>2026-08-03T02:49:03.000Z</updated>
+            <updated>2026-08-03T03:20:10.000Z</updated>
             <id>https://briancherin.github.io/misc/whats-up/</id>
             <content type="html">
                 &lt;p&gt;What&#39;s up. What&#39;s going on. What am I doing, reading, interesting stuff to share that I don&#39;t feel like making a separate page for. I don&#39;t expect myself to keep this super regularly updated or fully comprehensive of my activity - but it&#39;s a place to put stuff that I find noteworthy.&lt;/p&gt;
@@ -1188,9 +1258,14 @@ With the snap of a finger:&lt;/p&gt;
 &lt;li&gt;Rewatching ATLA last month and finishing catching up on Rick &amp;amp; Morty is reminding me how good animated series can be.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Creative thoughts
+&lt;ul&gt;
+&lt;li&gt;Also, as usually happens when I consume good art (see &amp;quot;TV&amp;quot; above), it makes &lt;em&gt;me&lt;/em&gt; want to &lt;em&gt;create&lt;/em&gt;... Trying to come to terms with this desire within me to create some kind of animated story. When I&#39;ve had this feeling in the past (well, maybe more for feeling inspired to create a live action film or shorts or whatever), I come to the logic that the baby steps are to first just &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/creative/writing/creative-writing/&quot;&gt;write creatively&lt;/a&gt;, then for animation get better at &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/creative/drawing/drawing-people-from-imagination/&quot;&gt;drawing&lt;/a&gt;, which could lead to creating &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://briancherin.github.io/404&quot; target=&quot;&quot;&gt;storyboards/comics&lt;/a&gt; , which doesn&#39;t feel too far away from animation (except of course realizing that animation is extremely time-expensive, but knowing me, I might put a medium amount of effort interspersed over an annoyingly long period of time and end up creating a mediocre three minute long animation and then be satisfied and call it quits).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;Blog commentary
 &lt;ul&gt;
-&lt;li&gt;Adding a couple kind of random (but pre-existing) ideas to the Projects-&amp;gt;Creative section. I want to document more of the random ideas that are floating around, both simply to share them and also to have a place for me to track progress on them (and also creating pages for ideas lets me reference them in other notes when they are relevant of course.)&lt;/li&gt;
+&lt;li&gt;Adding a couple kind of random (but pre-existing) ideas to the Projects-&amp;gt;&lt;em&gt;3D Modeling&lt;/em&gt; &amp;amp; &lt;em&gt;Animation and VFX&lt;/em&gt; sections. I want to document more of the random ideas that are floating around, both simply to share them and also to have a place for me to track progress on them (and also creating pages for ideas lets me reference them in other notes when they are relevant of course.)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -8071,11 +8146,11 @@ Make four jars, label them, paint swatches, then modify each with vinegar/baking
                 Drawing People From Imagination
                 
             </title>
-            <updated>2026-07-17T02:49:21.000Z</updated>
+            <updated>2026-08-03T03:20:10.000Z</updated>
             <id>https://briancherin.github.io/interests/creative/drawing/drawing-people-from-imagination/</id>
             <content type="html">
                 &lt;p&gt;I&#39;d like to be able to draw people from imagination. This isn&#39;t a new goal. In 2020, I started a small list of (mostly creativity-oriented) goals for myself, and one of them was: &amp;quot;I want to be able to draw a realistic person in any pose&amp;quot;. As of 2026, I haven&#39;t made much progress on this since adding it to the list.&lt;/p&gt;
-&lt;p&gt;And I&#39;m not necessarily saying that right now is the time to do so, but I&#39;ve been thinking a little bit about it recently. The specific driver of this is that I&#39;ve had this stretch-goal project of creating a comic (or at least small snippets of a comic) for the plot of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/books/fiction/terra-ignotta/&quot;&gt;Terra Ignotta&lt;/a&gt;. And though I am not a beginner at drawing, most of my art is based on drawing from reference images, and I do not feel equipped to compose more complex scenes, poses, expressions, etc. I&#39;d like to be able to. It&#39;s one of those areas that feels inevitable for me to eventually make progress in, or at least never stop wanting to make progress in.&lt;/p&gt;
+&lt;p&gt;And I&#39;m not necessarily saying that right now is the time to do so, but I&#39;ve been thinking a little bit about it recently. The specific driver of this is that I&#39;ve had this stretch-goal project of &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://briancherin.github.io/404&quot; target=&quot;&quot;&gt;creating a comic&lt;/a&gt; (or at least small snippets of a comic) for the plot of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/books/fiction/terra-ignotta/&quot;&gt;Terra Ignotta&lt;/a&gt;. And though I am not a beginner at drawing, most of my art is based on drawing from reference images, and I do not feel equipped to compose more complex scenes, poses, expressions, etc. I&#39;d like to be able to. It&#39;s one of those areas that feels inevitable for me to eventually make progress in, or at least never stop wanting to make progress in.&lt;/p&gt;
 &lt;p&gt;I just now googled &amp;quot;how to learn to draw people from imagination&amp;quot; and read the single response to this person&#39;s question on this &lt;a href=&quot;https://line-of-action.com/forums/topic/resources-on-drawing-the-figure-from-imagination&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;forum&lt;/a&gt;, which recommends these two resources:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://drawabox.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://drawabox.com/&lt;/a&gt; for general drawing skills&lt;/li&gt;
