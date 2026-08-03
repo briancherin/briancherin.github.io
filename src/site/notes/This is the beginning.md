@@ -2,9 +2,9 @@
 {"dg-publish":true,"dg-home":true,"permalink":"/this-is-the-beginning/","tags":["gardenEntry"],"dgPassFrontmatter":true}
 ---
 
-# This is the beginning
+# Welcome
 
-of my digital garden / blog thing. 
+to my little corner of the Internet. 
 
 Hi.
 
