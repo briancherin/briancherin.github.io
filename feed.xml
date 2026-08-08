@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-08-08T19:03:07Z</updated>
+    <updated>2026-08-08T20:10:04Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -346,7 +346,7 @@ Yes. The field is usually described as &lt;strong&gt;LLM-based interactive drama
                 AI Person Simulation
                 
             </title>
-            <updated>2026-08-08T19:03:07.000Z</updated>
+            <updated>2026-08-08T20:10:04.000Z</updated>
             <id>https://briancherin.github.io/random-topics/ai-person-simulation/</id>
             <content type="html">
                 &lt;ul&gt;
@@ -354,11 +354,21 @@ Yes. The field is usually described as &lt;strong&gt;LLM-based interactive drama
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2304.03442&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://arxiv.org/abs/2304.03442&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=XY5Wncq5vAE&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.youtube.com/watch?v=XY5Wncq5vAE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Experiment - simulated a small town called &amp;quot;Smallville&amp;quot; with a bunch (couple dozen?) of characters - only input from the start is small character bios. Agents then live out their day to day lives and have interactions with each other. There is some emerging social behavior in the agents, like dissemination of information through the community, and collective gathering.&lt;/li&gt;
+&lt;li&gt;Important components
+&lt;ul&gt;
+&lt;li&gt;Memory - each agent has a list of actions/observations representing what it&#39;s done, said, etc&lt;/li&gt;
+&lt;li&gt;Reflections - to help the AI to make decisions without the huge context of full list of memories. Series of observations are turned into a tree of &#39;reflections&#39;: e.g. &amp;quot;Character A is reading a book&amp;quot; + &amp;quot;Character A visits the library&amp;quot; --&amp;gt; reflection: &amp;quot;Character A likes to read&amp;quot;.&lt;/li&gt;
+&lt;li&gt;Planning - agents show more believable behavior if they follow long-term plans which guide their actions/decisions. e.g. could be at the scale of one day (plan is what they&#39;ll do that day), then they break it down into more granular chunks, for every hour and then every 5-15 minutes. They also give the option for editing plan if circumstances change, e.g. someone else has a conversation with them in the middle of the day.&lt;/li&gt;
+&lt;li&gt;In the simulation, the human can intervene and ask the characters questions (acting as the &#39;reporter&#39;), they can influence the character&#39;s actions by acting as the &#39;inner voice&#39;, and they can also directly take control over the character.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Agentopia: Long-Term Life Simulation and Learning in Agent Societies — Wang et al. (June 2026)&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2606.07513&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://arxiv.org/abs/2606.07513&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;html &lt;a href=&quot;https://arxiv.org/html/2606.07513v1&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://arxiv.org/html/2606.07513v1&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
