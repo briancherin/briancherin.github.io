@@ -11,6 +11,14 @@ body {
     //   color: black;
     //  }
 
+    @media (max-width: 800px) {
+        &.markdown-preview-view.markdown-rendered ul,
+        &.markdown-preview-view.markdown-rendered ol {
+            padding-left: 16px;
+            padding-inline-start: 16px;
+        }
+    }
+
     .note-folder-path {
         display: inline-flex;
         align-items: center;

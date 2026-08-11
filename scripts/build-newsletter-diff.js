@@ -32,6 +32,17 @@ const md = new MarkdownIt({
   breaks: false,
 });
 
+function renderCompactListOpen(tokens, idx, options, env, self) {
+  tokens[idx].attrJoin(
+    "style",
+    "padding-left:16px;padding-inline-start:16px;"
+  );
+  return self.renderToken(tokens, idx, options);
+}
+
+md.renderer.rules.bullet_list_open = renderCompactListOpen;
+md.renderer.rules.ordered_list_open = renderCompactListOpen;
+
 function getArg(name) {
   const prefix = `--${name}=`;
   const found = process.argv.find((a) => a.startsWith(prefix));
