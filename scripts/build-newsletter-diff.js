@@ -13,6 +13,7 @@ const OUTPUT_FILE = path.join(OUTPUT_DIR, "newsletter-weekly-email.html");
 const OUTPUT_COMPAT_FILE = path.join(OUTPUT_DIR, "newsletter-weekly-preview.html");
 const OUTPUT_META_FILE = path.join(OUTPUT_DIR, "newsletter-meta.json");
 const NOTES_PREFIX = "src/site/notes/";
+const PRIORITY_NOTE_FILE = `${NOTES_PREFIX}Misc/Whats Up.md`;
 const DEFAULT_DAYS = 7;
 const DEFAULT_MAX_LINES = 120;
 const DEFAULT_MODE = "rendered";
@@ -254,6 +255,10 @@ function getItemSortTime(item) {
 
 function sortItemsMostRecentlyUpdated(items) {
   return [...items].sort((a, b) => {
+    const aIsPriorityNote = a.file === PRIORITY_NOTE_FILE;
+    const bIsPriorityNote = b.file === PRIORITY_NOTE_FILE;
+    if (aIsPriorityNote !== bIsPriorityNote) return aIsPriorityNote ? -1 : 1;
+
     const diff = getItemSortTime(b) - getItemSortTime(a);
     if (diff !== 0) return diff;
     return String(a.file || "").localeCompare(String(b.file || ""));
@@ -356,37 +361,52 @@ function isMetadataLine(text) {
   return false;
 }
 
-function countRenderedChangedWords(lines, applyTruncation = false) {
+function countRenderedChangedWords(
+  lines,
+  applyTruncation = false,
+  maxChars = MAX_CHARS_PER_SEGMENT
+) {
   const segments = simplifySegments(buildSegments(lines));
   return segments.reduce((sum, segment) => {
     if (segment.kind === "context") return sum;
-    const text = applyTruncation ? truncateText(segment.text).text : segment.text;
+    const text = applyTruncation ? truncateText(segment.text, maxChars).text : segment.text;
     return sum + countWords(text);
   }, 0);
 }
 
-function buildExcerptBlocksFromPatch(patch, maxBlocks = 4, maxLinesPerBlock = 14) {
+function buildExcerptBlocksFromPatch(
+  patch,
+  newContent = null,
+  maxBlocks = 4,
+  maxLinesPerBlock = 14
+) {
   const lines = String(patch || "").split(/\r?\n/);
+  const canInspectGaps = typeof newContent === "string";
+  const newLines = canInspectGaps ? newContent.split(/\r?\n/) : [];
   const blocks = [];
   let current = null;
 
   const pushCurrent = () => {
     if (!current || current.lines.length === 0) return;
-    const hasMeaningfulChange = current.lines.some(
-      (line) =>
-        (line.kind === "added" || line.kind === "removed") &&
-        !isMetadataLine(line.text)
+    const filtered = current.lines.filter(
+      (line) => line.kind === "added" && !isMetadataLine(line.text)
     );
-    if (!hasMeaningfulChange) {
-      current = null;
-      return;
-    }
-    const filtered = current.lines.filter((line) => !isMetadataLine(line.text));
     if (filtered.length > 0) {
+      const addedLineCount = current.lines.filter((line) => line.kind === "added").length;
+      const newEndIndex = current.newStartIndex + addedLineCount;
+      const previousBlock = blocks[blocks.length - 1];
+      const hasMeaningfulGapBefore = previousBlock
+        ? !canInspectGaps ||
+          newLines
+            .slice(previousBlock.newEndIndex, current.newStartIndex)
+            .some((line) => String(line || "").trim().length > 0)
+        : false;
       blocks.push({
         lines: filtered.slice(0, maxLinesPerBlock),
         allLines: filtered,
         omittedLines: Math.max(filtered.length - maxLinesPerBlock, 0),
+        newEndIndex,
+        hasMeaningfulGapBefore,
       });
     }
     current = null;
@@ -395,7 +415,11 @@ function buildExcerptBlocksFromPatch(patch, maxBlocks = 4, maxLinesPerBlock = 14
   for (const line of lines) {
     if (line.startsWith("@@")) {
       pushCurrent();
-      current = { lines: [] };
+      const hunkMatch = line.match(/^@@ -\d+(?:,\d+)? \+(\d+)(?:,\d+)? @@/);
+      current = {
+        lines: [],
+        newStartIndex: hunkMatch ? Math.max(Number(hunkMatch[1]) - 1, 0) : 0,
+      };
       continue;
     }
     if (!current) continue;
@@ -418,13 +442,31 @@ function buildExcerptBlocksFromPatch(patch, maxBlocks = 4, maxLinesPerBlock = 14
   pushCurrent();
 
   const selectedBlocks = blocks.slice(0, maxBlocks);
+  const mergedBlocks = [];
+  for (const block of selectedBlocks) {
+    const previousBlock = mergedBlocks[mergedBlocks.length - 1];
+    if (previousBlock && block.hasMeaningfulGapBefore === false) {
+      const paragraphBreak = { kind: "added", text: "" };
+      previousBlock.lines.push(paragraphBreak, ...block.lines);
+      previousBlock.allLines.push(paragraphBreak, ...block.allLines);
+      previousBlock.omittedLines += block.omittedLines;
+      previousBlock.newEndIndex = block.newEndIndex;
+      continue;
+    }
+    mergedBlocks.push({
+      ...block,
+      lines: [...block.lines],
+      allLines: [...block.allLines],
+      maxChars: MAX_CHARS_PER_SEGMENT,
+    });
+  }
   const omittedFullBlocks = blocks.slice(maxBlocks);
-  Object.defineProperties(selectedBlocks, {
+  Object.defineProperties(mergedBlocks, {
     totalBlocks: { value: blocks.length },
     omittedBlocks: { value: Math.max(blocks.length - selectedBlocks.length, 0) },
     omittedFullBlocks: { value: omittedFullBlocks },
   });
-  return selectedBlocks;
+  return mergedBlocks;
 }
 
 function renderLineText(text, siteBaseUrl = "") {
@@ -630,7 +672,7 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "", options = {}) {
   const spoilerOmitted = Boolean(options.spoilerOmitted);
   const siteBaseUrl = options.siteBaseUrl || "";
   if (!blocks || blocks.length === 0) {
-    return spoilerOmitted ? "" : '<p class="muted">No meaningful content snippet found for this update.</p>';
+    return spoilerOmitted ? "" : '<p class="muted">No added content snippet found for this update.</p>';
   }
 
   const omittedBlocks = Number(blocks.omittedBlocks || 0);
@@ -641,7 +683,7 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "", options = {}) {
         sum +
         Math.max(
           countRenderedChangedWords(allLines, false) -
-            countRenderedChangedWords(block.lines, true),
+            countRenderedChangedWords(block.lines, true, block.maxChars),
           0
         )
       );
@@ -681,7 +723,7 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "", options = {}) {
           const truncated =
             segment.kind === "context"
               ? truncateContextByPosition(segment.text, segIdx, segments)
-              : truncateText(segment.text);
+              : truncateText(segment.text, block.maxChars || MAX_CHARS_PER_SEGMENT);
           return `<div class="${klass}">
             <div style="${segmentStyleFinal}">
               ${label ? `<div class="seg-label" style="font-size:12px;font-weight:700;line-height:1;margin:0 0 4px 0;color:#4b5563;">${label}</div>` : ""}
@@ -715,7 +757,9 @@ function renderExcerptBlocksHtml(blocks, fullNoteUrl = "", options = {}) {
       style += "margin-top:0;border-top:0;border-top-left-radius:0;border-top-right-radius:0;";
     }
     out.push(renderOneBlock(blocks[i], style, isAfterGap));
-    if (isBeforeGap) out.push(omissionBar);
+    if (isBeforeGap && blocks[i + 1].hasMeaningfulGapBefore !== false) {
+      out.push(omissionBar);
+    }
   }
   return `${out.join("\n")}${renderOmittedChangesHint()}`;
 }
@@ -740,7 +784,7 @@ function buildItemFromGit(range, file, mode, maxLines) {
   }
 
   const diff = parseDiffPatch(debugPatch, maxLines);
-  const excerptBlocks = buildExcerptBlocksFromPatch(sourcePatch);
+  const excerptBlocks = buildExcerptBlocksFromPatch(sourcePatch, newSafe.content || "");
   const rawDiff = parseDiffPatch(sourcePatchOriginal, maxLines);
   const spoilerOmitted = newSafe.omittedSpoilers;
   if (
@@ -843,7 +887,7 @@ function buildFromJson(inputPath, mode, maxLines) {
         dgPath: item.dgPath || item["dg-path"] || "",
       },
       diff,
-      excerptBlocks: buildExcerptBlocksFromPatch(sourcePatch),
+      excerptBlocks: buildExcerptBlocksFromPatch(sourcePatch, newSafe.content || ""),
       changeType: item.changeType || "updated",
       changedAt: item.updated || item.created || "",
       spoilerOmitted: Boolean(newSafe.omittedSpoilers || item.spoilerOmitted),
