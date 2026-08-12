@@ -29,4 +29,6 @@ So, as of now, I have landed on a dual approach for my own "study" routine:
 	- Reminds me of the Pimsleur audio course for Japanese, which I used when learning some Japanese basics prior to my trip to Japan in high school. (only progressed a little bit through it.)
 
 
+____
 
+To briefly update on this -- at least as of August, I've not been making much progress here. I had gone through about 11-12 lessons of Language Transfer, and I genuinely enjoyed it, and all things equal I would totally consider it. I also learned a couple dozen vocab words (mostly related to food) in the AI-generated Anki deck, and enjoyed that as well. However, when it comes down to it, it hasn't been a high priority to me to continue. I think it's a good thing for me to focus on other things that are more important to me right now (general life stuff, work, other creative endeavors, etc). Honestly don't see myself continuing Greek in general after my trip. However, I would not say at all that what I did so far was a waste of time. It was fun, gave me a glimpse into how another language worked, definitely exercised the language-learning muscle in general, and reminded me of the fun of language learning. I think this will be a good factor getting me to dive back into continuing my study of Japanese.
