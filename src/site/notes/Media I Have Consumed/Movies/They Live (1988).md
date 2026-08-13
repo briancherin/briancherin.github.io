@@ -1,0 +1,31 @@
+---
+{"dg-publish":true,"permalink":"/media-i-have-consumed/movies/they-live-1988/","dgPassFrontmatter":true}
+---
+
+Scifi/horror film, directed by John Carpenter^[never particularly paid attention to this name but I've also seen his *The Thing* and *Big Trouble in Little China*].
+
+On December 14, 2020, I watched a Youtube video called "They Live - glasses scene" -- no recollection as to what linked me to it (probably some reddit comment), but I watched it. Since then, I have occasionally thought^[and occasionally got it confused with the movie "Soylent Green", which I also watched earlier this year. I guess it was the year to wrap up thinking about watching this duo, and to actually watch them.] about this scene and figured I would someday watch the movie, since I was interested in the premise. That day was today, August 12, 2026^[I feel some weight in realizing that it took me 6 years to get around to it. It's like it was eating away at some part of me for these six years, just waiting to be actualized. But what can be done. There are surely countless other latent situations like this just waiting to be realized. But I suppose the real point here is that the meaning and value of things can change over time, and you can't know right away which one of these things might build up. And also as more time passed, the memory of this clip intrigued me more and more until something reminded me of it and I couldn't resist the temptation of finding out the surrounding context of that clip. It's kind of a "[Marshmallow Test](https://en.wikipedia.org/wiki/Stanford_marshmallow_experiment)" situation.].
+
+It was a good movie, but not a *great* one, I must admit.
+
+First of all, I love a good rebellion. So there's that.
+
+But. The movie didn't really live up to the hype that had built up in my head (yes, from that one clip) starting six years ago. The ending fell a little flat. I expected more, maybe. 
+
+I guess I want to get a bit more specific so I will guard my notes with spoiler warning.
+
+
+>[!DANGER] Spoilers ahead.
+>>[!DANGER] Spoilers ahead.
+>>>[!DANGER] Spoilers ahead.
+>>>>[!DANGER] Spoilers ahead.
+>>>>>[!DANGER] Spoilers ahead.
+
+- I do love the premise. It's a bold statement. That the upper class is aliens and oppressing the lower, basically. "They live. We sleep." I feel like this is a message that, transfigurated to a real life and not sci-fi meaning, more people need to hear. I want more people to wake up. For me, this can apply to politics, [[Lifestyle/Veganism/Veganism\|veganism]], environmentalism (aka climate change), food waste, so many of the issues of our time. Open your eyes, people! Or rather, put on these sunglasses.
+- Our main guy was just a little too cheesy for our taste. Just some of the lines he said. e.g. "I'm not daddy's little boy anymore." "life's a bitch, and she's back in heat". I'm not sure if this is just the nature of this era of film, but just not to my liking in my 21st century taste. (Not that I don't like older movies. I do. This was just a little too much on those "quotable" catchphrases.^[All that being said, I feel like it would be pretty funny to memorize these phrases and spit them back out at random times in real life. I'm slightly cracking myself up at this idea. Will I do it? Probably not.])
+- I understand why the "glasses scene" (the fight scene) is iconic , which is surely why I ended up stumbling upon it. But the premise of that fight is kind of ridiculous. He realllllly didn't want to try on the sunglasses. So they fought? John (protag) wasn't even being aggressive about it. I guess Frank just really wanted to not get in any trouble, and he thought that by going along with John's doings, he might become party to it. So maybe I can see why he was resistant... But the level of the fight just didn't seem necessary.
+- The ending. I'm not upset about the reveal of Holly's betrayal, and I'm not upset that John sacrificed himself. I think the end result that everyone now sees the true, non-brainwashed, reality is a good end result. And it's interesting to think about what would have happened next -- would they just get brainwashed again, or is the knowledge permanent? Would the humans rise up and kill the oppressors? Maybe the director/writer wants me to be asking these questions to myself. But I can't help but feel that the ending felt a bit cut short. We had thirty seconds or less of screentime after the illusion was broken. I wish we got more reward for John's sacrifice. I feel like it merited showing more of the end result, showing that his sacrifice was worth it. 
+- The nature of the illusion didn't quite click until I was thinking about it right now
+	- I was off-put when the glasses let you see the aliens even through a tv screen. Meaning, without the glasses, the person on the tv looks human, but with the glasses, you see their true alien nature. This feels wrong, but only because I thought that the aliens themselves were creating the illusion. I figured that each alien emits some kind of illusion, and putting on the glasses stops that illusion from reaching the viewer. So, for an alien on tv, it made no sense to me that the glasses would do anything -- because you're looking at a recording, not at the actual creature. So why would it change anything you see.
+	- But now it clicked that the glasses are actually *stopping* the interference that is in the viewer's mind, rather than piercing through an external illusion. It's not adding an ability to the viewer; it's removing an inhibition. So for the tv situation, the true image actually is the alien; because of the radio waves in the air or whatever, the human brain is twisted into seeing the "human" on the screen. The glasses cancel out the effect of the radio waves, leading the human to see the reality.
+	- Retrospectively, my second bullet above is maybe obvious. I think it probably subconsciously clicked for me at some point in the movie, but I couldn't have put it into words until now. I feel like I appreciate it a little more, now that I've thought it through. The ending probably clicks a little bit more too (though, still feel it was cut too short).
