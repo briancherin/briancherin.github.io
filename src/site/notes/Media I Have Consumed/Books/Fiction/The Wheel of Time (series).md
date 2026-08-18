@@ -51,3 +51,5 @@ Since I just finished the series, and because I've been thinking about [[Interes
 Anyway, I ended up purchasing a used copy of the first volume of Book 1 from eBay for ~$6^[free shipping!] -- I don't particularly intend to read through it cover to cover, but I expect it will be nice to occasionally flip through.
 
 ![Pasted image 20260817233218.png|500](/img/user/Media%20I%20Have%20Consumed/Books/Fiction/Assets/Pasted%20image%2020260817233218.png)
+
+It feels like I'm discovering that I like graphic novels (/ comics?) first the first time. For now, I feel that only applies to material that I'm already familiar with and love and want to see them in visual form.
