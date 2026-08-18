@@ -19,7 +19,7 @@ My past self from November 2018 wrote this in Google Keep:
 >HUGE LD goal
 >Build civilization, following How to Invent Everything
 
-*How to Invent Everything* is a book by Ryan North that talks at a high level about, well, pretty much how to re-build civilization from scratch.
+*How to Invent Everything* is a book by Ryan North that talks at a high level about, well, pretty much how to re-build civilization from scratch.^[Also found another similar book which is I think a more serious take on rebuilding civilization: "The Knowledge" by Lewis Dartnell]
 
 That book's subtitle is "A survival guide for the stranded time traveler". I remember reading the intro to the book, which in a humorous way talks about this (obviously fictional) scenario where you are a time traveler and go back in time and get stranded and want to rebuild civilization.
 
