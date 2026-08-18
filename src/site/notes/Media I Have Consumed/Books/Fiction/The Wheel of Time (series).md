@@ -44,3 +44,10 @@ That's changed a little bit in recent months, though. Maybe it's just because I'
 The writing is really good. Character development is really good. The way Robert Jordan weaves together plots over long spans of time is really amazing. It feels great when plotlines resolve and things come together finally. These books give so many moments like that. 
 
 Part of this is due to the pacing. It's almost frustratingly entrancing. The story covers a really interesting scene or arc, and then that chapter ends in a cliffhanger (not necessarily a super dramatic cliffhanger, but it makes you want to continue staying with those characters and seeing what they do next) and then moves on to a different scene or set of characters. And you are feeling, "nooo! I want to stay with these other characters and see what happens next". But then really quickly you become invested again in the next scene because it's resolving that cliffhanger feeling from an earlier chapter. And it continues like this moment to moment until things resolve or converge.
+
+### Graphic Novel
+Since I just finished the series, and because I've been thinking about [[Interests/Creative/Drawing/Creating Webcomics\|Creating Webcomics]] recently, I decided to look up whether there is a graphic novel format of Wheel of Time. Turns out there are *some* -- At least as of 2026, a full set of six volumes for the first book (Eye of the World) and the prequel (New Spring, which I haven't read/listened yet^[Not sure when I will.]), and several volumes for book 2 (The Great Hunt) -- that was in 2023, and supposedly more volumes are due to come out in October of 2027 (according to Wikipedia^[I know -- most reliable source in the world.]).
+
+Anyway, I ended up purchasing a used copy of the first volume of Book 1 from eBay for ~$6^[free shipping!] -- I don't particularly intend to read through it cover to cover, but I expect it will be nice to occasionally flip through.
+
+![Pasted image 20260817233218.png|500](/img/user/Media%20I%20Have%20Consumed/Books/Fiction/Assets/Pasted%20image%2020260817233218.png)
