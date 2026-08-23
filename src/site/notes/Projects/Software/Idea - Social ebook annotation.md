@@ -3,7 +3,7 @@
 ---
 
 #### The idea
-While someone is reading an e-book, they should be able to highlight a quote or passage and make a public annotation that other readers can see while they are reading, and likewise they can see annotations that other people have posted. It's a micro-community around this one book where discussions about the content can take place, *integrated* within the content itself. 
+While someone is reading an e-book, they should be able to highlight a quote or passage and make a public annotation that other readers can see while they are reading, and likewise they can see annotations that other people have posted. Annotations become comment threads for further discussion. It's a micro-community around this one book, *integrated* within the content itself. As you read the book, you have an experience that is shared with the other people who have read it or who will read it in the future.
 
 Imagine reading a sentence in a book that is a huge reveal, or poses a philosophical question, and you can immediately see that other people are discussing that exact line, and join the discussion or start your own. 
 
