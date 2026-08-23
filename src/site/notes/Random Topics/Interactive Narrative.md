@@ -246,4 +246,7 @@ High level points from ChatGPT i'm curious to explore more about:
 - "The 2026 STAGE benchmark focuses on whether AI can understand entire movie screenplays well enough to construct character relationships, track events and perform in-script character role-playing."
 - "Runway’s Game Worlds research is more directly aimed at nonlinear experiences where users explore characters, stories and environments generated with AI"
 	- Sounds similar to the [[Random Topics/Ender's Infinite Game\|Ender's Game VR world simulation]]
-- 
+
+
+
+___
