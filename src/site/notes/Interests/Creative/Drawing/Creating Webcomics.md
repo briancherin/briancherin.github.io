@@ -26,3 +26,8 @@ Then one night, while showering, I thought of a recent situation that happened, 
 No current plans other than seeing [[Interests/Creative/Drawing/Drawing People From Imagination\|Drawing People From Imagination]] as the next step in my progression towards a web comic. Also for the Terra Ignotta idea, probably if I want to inch just a little bit towards that, I could make some sketches of characters or even certain scenes. Could even just jump straight into sketching out the opening sequence of the first book. 
 
 Seems like the "scrappy" method (low effort but comprehendible storyboarding)is a low-friction way for me to do comic-drawing, so I could see myself having more sessions like that in the future (whether for Terra Ignotta or random things like Unnecessary Upgrade).
+
+
+#### Resources
+- Scott McCloud: "Understanding Comics" (1993) and "Making Comics" (2006)
+	- I've started reading "Understanding Comics", which itself is structured as a sort of comic strip going through the history and mechanics (?) of comics.
