@@ -29,5 +29,4 @@ Seems like the "scrappy" method (low effort but comprehendible storyboarding)is 
 
 
 #### Resources
-- Scott McCloud: "Understanding Comics" (1993) and "Making Comics" (2006)
-	- I've started reading "Understanding Comics", which itself is structured as a sort of comic strip going through the history and mechanics (?) of comics.
+- Scott McCloud: "Understanding Comics" (1993) ([[Media I Have Consumed/Books/Nonfiction/Understanding Comics by Scott McCloud\|notes]]) and "Making Comics" (2006)
