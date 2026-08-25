@@ -19,6 +19,12 @@ body {
         }
     }
 
+    // Blue Topaz now makes callout backgrounds transparent by default.
+    // Preserve each callout type's configured background color.
+    .callout {
+        background-color: rgba(var(--callout-color), 0.1);
+    }
+
     .note-folder-path {
         display: inline-flex;
         align-items: center;
