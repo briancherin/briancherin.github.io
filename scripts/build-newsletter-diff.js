@@ -388,9 +388,11 @@ function countRenderedChangedWords(
 function buildExcerptBlocksFromPatch(
   patch,
   newContent = null,
-  maxBlocks = 4,
-  maxLinesPerBlock = 14
+  options = {}
 ) {
+  const maxBlocks = options.maxBlocks ?? 4;
+  const maxLinesPerBlock = options.maxLinesPerBlock ?? 14;
+  const maxChars = options.maxChars ?? MAX_CHARS_PER_SEGMENT;
   const lines = String(patch || "").split(/\r?\n/);
   const canInspectGaps = typeof newContent === "string";
   const newLines = canInspectGaps ? newContent.split(/\r?\n/) : [];
@@ -468,7 +470,7 @@ function buildExcerptBlocksFromPatch(
       ...block,
       lines: [...block.lines],
       allLines: [...block.allLines],
-      maxChars: MAX_CHARS_PER_SEGMENT,
+      maxChars,
     });
   }
   const omittedFullBlocks = blocks.slice(maxBlocks);
@@ -480,20 +482,33 @@ function buildExcerptBlocksFromPatch(
   return mergedBlocks;
 }
 
+function getExcerptOptions(file) {
+  if (file !== PRIORITY_NOTE_FILE) return {};
+  return {
+    maxBlocks: Infinity,
+    maxLinesPerBlock: Infinity,
+    maxChars: Infinity,
+  };
+}
+
 function renderLineText(text, siteBaseUrl = "") {
   if (!text || !String(text).trim()) return "";
-  return md.render(renderWikilinksAsHtml(String(text).trim(), siteBaseUrl));
+  return splitMarkdownAtIndentDrops(text)
+    .map((chunk) =>
+      md.render(renderWikilinksAsHtml(dedentMarkdownBlock(chunk), siteBaseUrl))
+    )
+    .join("\n");
 }
 
 function truncateText(text, maxChars = MAX_CHARS_PER_SEGMENT) {
-  const raw = String(text || "").trim();
+  const raw = String(text || "").trimEnd();
   if (raw.length <= maxChars) {
-    return { text: raw, truncated: false };
+    return { text: dedentMarkdownBlock(raw), truncated: false };
   }
   const sliced = raw.slice(0, maxChars);
   const cutAt = sliced.lastIndexOf(" ");
-  const safe = (cutAt > Math.floor(maxChars * 0.6) ? sliced.slice(0, cutAt) : sliced).trim();
-  return { text: `${safe}...`, truncated: true };
+  const safe = (cutAt > Math.floor(maxChars * 0.6) ? sliced.slice(0, cutAt) : sliced).trimEnd();
+  return { text: dedentMarkdownBlock(`${safe}...`), truncated: true };
 }
 
 function countWords(text) {
@@ -539,6 +554,73 @@ function formatDateTimeShort(iso) {
   });
 }
 
+function markdownIndentWidth(line) {
+  let width = 0;
+  for (const char of String(line || "")) {
+    if (char === " ") {
+      width += 1;
+    } else if (char === "\t") {
+      width += 4 - (width % 4);
+    } else {
+      break;
+    }
+  }
+  return width;
+}
+
+function dedentMarkdownBlock(text) {
+  const lines = String(text || "").split(/\r?\n/);
+
+  while (lines.length > 0 && !lines[0].trim()) lines.shift();
+  while (lines.length > 0 && !lines[lines.length - 1].trim()) lines.pop();
+  if (lines.length === 0) return "";
+
+  const commonIndent = Math.min(
+    ...lines.filter((line) => line.trim()).map(markdownIndentWidth)
+  );
+  if (commonIndent === 0) return lines.join("\n");
+
+  return lines
+    .map((line) => {
+      let removed = 0;
+      let index = 0;
+      while (index < line.length && removed < commonIndent) {
+        if (line[index] === " ") {
+          removed += 1;
+        } else if (line[index] === "\t") {
+          removed += 4 - (removed % 4);
+        } else {
+          break;
+        }
+        index += 1;
+      }
+      return line.slice(index);
+    })
+    .join("\n");
+}
+
+function splitMarkdownAtIndentDrops(text) {
+  const chunks = [];
+  let current = [];
+  let rootIndent = null;
+
+  for (const line of String(text || "").split(/\r?\n/)) {
+    const isListItem = /^[ \t]*(?:[-+*]|\d+[.)])\s+/.test(line);
+    const indent = markdownIndentWidth(line);
+    if (line.trim() && rootIndent === null) rootIndent = indent;
+
+    if (isListItem && rootIndent !== null && indent < rootIndent) {
+      if (current.some((currentLine) => currentLine.trim())) chunks.push(current);
+      current = [];
+      rootIndent = indent;
+    }
+    current.push(line);
+  }
+
+  if (current.some((line) => line.trim())) chunks.push(current);
+  return chunks.map((lines) => lines.join("\n"));
+}
+
 function getTimeZone() {
   const tz = (getArg("time-zone") || process.env.NEWSLETTER_TIME_ZONE || DEFAULT_TIME_ZONE).trim();
   return tz || DEFAULT_TIME_ZONE;
@@ -550,8 +632,10 @@ function buildSegments(lines) {
 
   const flush = () => {
     if (!current) return;
-    current.text = current.lines.map((line) => line.text).join("\n").trim();
-    if (current.text) segments.push(current);
+    current.text = dedentMarkdownBlock(
+      current.lines.map((line) => line.text).join("\n")
+    );
+    if (current.text.trim()) segments.push(current);
     current = null;
   };
 
@@ -795,7 +879,11 @@ function buildItemFromGit(range, file, mode, maxLines) {
   }
 
   const diff = parseDiffPatch(debugPatch, maxLines);
-  const excerptBlocks = buildExcerptBlocksFromPatch(sourcePatch, newSafe.content || "");
+  const excerptBlocks = buildExcerptBlocksFromPatch(
+    sourcePatch,
+    newSafe.content || "",
+    getExcerptOptions(file)
+  );
   const rawDiff = parseDiffPatch(sourcePatchOriginal, maxLines);
   const spoilerOmitted = newSafe.omittedSpoilers;
   if (
@@ -898,7 +986,11 @@ function buildFromJson(inputPath, mode, maxLines) {
         dgPath: item.dgPath || item["dg-path"] || "",
       },
       diff,
-      excerptBlocks: buildExcerptBlocksFromPatch(sourcePatch, newSafe.content || ""),
+      excerptBlocks: buildExcerptBlocksFromPatch(
+        sourcePatch,
+        newSafe.content || "",
+        getExcerptOptions(item.file)
+      ),
       changeType: item.changeType || "updated",
       changedAt: item.updated || item.created || "",
       spoilerOmitted: Boolean(newSafe.omittedSpoilers || item.spoilerOmitted),
