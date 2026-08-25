@@ -1,0 +1,7 @@
+---
+{"dg-publish":true,"permalink":"/media-i-have-consumed/theater/the-will-rogers-follies-1991/","dgPassFrontmatter":true}
+---
+
+Broadway musical from 1991 that won the Tony awards for Best Musical and Best Original Score. It's about the life of historical figure Will Rogers (1879-1935), who was a performer and social commentator.
+
+I chanced upon it due to a piano sheet music book I was working through (unsurprisingly, it's a Broadway songbook) and the song "The Big Time" caught my interest. I searched it on Youtube and saw that there was a full recording of the show (with original cast). So I watched it. I enjoyed it! I understand what it won the awards. It has the classic extravagance of Broadway^[which normally I am not a huge fan of, but either it's grown on me, or it's just that it's expected of the time period this was made in and so I appreciate it for what it was in its context] and some very fun traits -- it kind of has a show-within-a-show gimmick, and the fourth wall is broken a bunch of times, and it's funny, and (somewhat) touching at times. There are some pretty catchy songs (especially "The Big Time", which is echoed as a recurring motif throughout the show). I've learned more about Will Rogers than I ever would have expected to, especially considering I had never heard of him before this. I don't particularly intend to learn any more about him, though, beyond being curious how accurate the show was to his actual life.
