@@ -11,6 +11,7 @@ I enjoyed it! I understand what it won the awards. It has the classic extravagan
 Less positive feedback about the show:
 - It was a bit slow at times
 - Not a particularly compelling plot, especially if you've never heard of Will Rogers
+- Perhaps one too many songs about his wife missing him (though, it's an important characteristic, so I forgive it)
 
 (Still, I think it was very well done and was entertaining to watch overall).
 
