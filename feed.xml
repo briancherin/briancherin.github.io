@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-08-30T20:32:38Z</updated>
+    <updated>2026-08-30T20:36:57Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -1264,7 +1264,7 @@ With the snap of a finger:&lt;/p&gt;
                 Whats Up
                 
             </title>
-            <updated>2026-08-25T02:20:38.000Z</updated>
+            <updated>2026-08-30T20:36:57.000Z</updated>
             <id>https://briancherin.github.io/misc/whats-up/</id>
             <content type="html">
                 &lt;p&gt;What&#39;s up. What&#39;s going on. What am I doing, reading, interesting stuff to share that I don&#39;t feel like making a separate page for. I don&#39;t expect myself to keep this super regularly updated or fully comprehensive of my activity - but it&#39;s a place to put stuff that I find noteworthy.&lt;/p&gt;
@@ -1279,6 +1279,7 @@ With the snap of a finger:&lt;/p&gt;
 &lt;li&gt;Watched &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/movies/they-live-1988/&quot;&gt;They Live (1988)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Catching up on &lt;em&gt;Daredevil: Born Again&lt;/em&gt; season 2. I started it a couple months ago but wasn&#39;t in the right mindspace to continue (maybe just because it&#39;s a darker type of show) but I&#39;m enjoying it now that I&#39;ve actually gotten into it.&lt;/li&gt;
 &lt;li&gt;I found a &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/creative/music/instruments/piano/piano/&quot;&gt;piano&lt;/a&gt; songbook for classical / old-time-y &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/theater/theater/&quot;&gt;Broadway&lt;/a&gt; showtunes and a couple songs in was a song called &amp;quot;The Big Time&amp;quot; from a show called &lt;em&gt;The Will Roger Follies&lt;/em&gt;, which, as I learned, won the 1991 Tony Award for Best Musical. After playing the song through, I wanted to see a performance/visual of it, so I searched YouTube, and got drawn into a proshot recording of the musical. Some more &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/theater/the-will-rogers-follies-1991/&quot;&gt;notes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I saw &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/music/will-wood-and-the-tapeworms/&quot;&gt;Will Wood and the Tapeworms&lt;/a&gt; live at the Starland Ballroom in NJ! Fun show, love the music, though the concert didn&#39;t hit as hard as I expected it to.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Creative thoughts
@@ -1297,6 +1298,7 @@ With the snap of a finger:&lt;/p&gt;
 &lt;li&gt;I&#39;ve occasionally been using Codex (Open AI&#39;s CLI-based AI tool) to help with local development. After getting frustrated at reaching the weekly credit limit, I decided to try one month of the pro-tier ($80/month) which highly increases the limit. I&#39;ve ended up making progress on several projects due to trying to then hit that limit so as to make use of what I&#39;ve paid for. There a strange balance of finding enough work for it to do, versus then still eventually running out of quota and then having to wait for the limit to reset the next week. I&#39;m not currently sure if I would do another renewal of this or just stick to the regular plus-tier ($20/month) which I&#39;ve been on basically since ChatGPT came out.&lt;/li&gt;
 &lt;li&gt;Been making progress on &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/grocery-receipt-tracker/&quot;&gt;Grocery Receipt Tracker&lt;/a&gt;. I&#39;m partially feeling spurred to make progress here because I discovered a competitor who has actually released something that is almost exactly my same idea. I&#39;m feeling mixed between thereby not wanting to continue it, or wanting to continue it and make it better than theirs. I&#39;m at least giving it a try and we&#39;ll see how far I go.&lt;/li&gt;
 &lt;li&gt;Started making a prototype for &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/idea-social-ebook-annotation/&quot;&gt;Idea - Social ebook annotation&lt;/a&gt; - I&#39;m quite excited about this idea, and the goal (at first at least) is for a community tool that&#39;s more open-source rather than profit/product-driven. I just genuinely feel like this should be a thing that exists and that people should use, and I feel that I don&#39;t want to put a barrier (like a paywall) in front of it.&lt;/li&gt;
+&lt;li&gt;Devised &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/apartment-life/wall-mounted-livestream-kiosk-window-into-another-world/&quot;&gt;Wall-mounted livestream kiosk - Window into another world&lt;/a&gt; -- partly a coding project (hardly, because AI coded for me), partly a new apartment feature -- excited to get this mounted onto my wall.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Blog commentary
@@ -2913,6 +2915,18 @@ One final note, on my experience writing this right now (spent about 1hr 45 min 
 
             </content>
             <atom:link href="https://briancherin.github.io/media-i-have-consumed/podcasts/indie-hackers-podcast/1-second-everyday-indie-hackers-podcast/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                Will Wood and the Tapeworms
+                
+            </title>
+            <updated>2026-08-30T20:36:57.000Z</updated>
+            <id>https://briancherin.github.io/media-i-have-consumed/music/will-wood-and-the-tapeworms/</id>
+            <content type="html">
+                
+            </content>
+            <atom:link href="https://briancherin.github.io/media-i-have-consumed/music/will-wood-and-the-tapeworms/"></atom:link>
         </entry>
         <entry>
             <title>
