@@ -12,6 +12,6 @@ I am using an old Amazon Fire tablet and installed the "Fully Kiosk Browser" app
 
 The plan is to mount the tablet somewhere on my wall. This step remains to be done.
 
-The deployed webapp is at https://display.briancher.in/.
+The deployed webapp is at https://display.briancher.in/ and can be viewed anywhere.
 
 ![Pasted image 20260830160030.png](/img/user/Projects/Apartment%20Life/Assets/Pasted%20image%2020260830160030.png)
