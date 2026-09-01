@@ -116,6 +116,30 @@ body {
         margin: 2rem 0;
     }
 
+    .homepage-recent-posts {
+        list-style: disc;
+    }
+
+    .homepage-recent-post {
+        margin-bottom: 0;
+    }
+
+    .homepage-recent-breadcrumbs {
+        color: var(--text-muted);
+        font-size: 0.7rem;
+        font-style: italic;
+        white-space: nowrap;
+    }
+
+    .homepage-recent-title {
+        font-size: 1rem;
+    }
+
+    .homepage-recent-date {
+        color: var(--text-muted);
+        font-size: 0.9em;
+    }
+
     .homepage-category-browser-header {
         display: flex;
         align-items: center;

@@ -196,13 +196,22 @@
 {# sort descending by updated using built-in sort filter + reverse trick #}
 {%- set published = published | sort(false, false, "data.updated") | reverse -%}
 
-<ul>
+<ul class="homepage-recent-posts">
 {%- for note in published  -%}
-  <li>
-    <a href="{{ note.url }}">{{ note.data.title or note.fileSlug }}</a>
-    <span style="opacity:0.7;">
+  <li class="homepage-recent-post">
+    <a class="homepage-recent-title" href="{{ note.url }}">{{ note.data.title or note.fileSlug }}</a>
+    <span class="homepage-recent-date">
       - {{ note.data.updated | humanDate }}
     </span>
+    {%- set breadcrumbs = note.data.userComputed.noteFolderBreadcrumbs -%}
+    {%- if breadcrumbs and breadcrumbs.length -%}
+      <span class="homepage-recent-breadcrumbs" aria-label="Directory">
+        <span aria-hidden="true"> &middot; </span>(
+        {%- for crumb in breadcrumbs -%}
+          {{ crumb.name }}{% if not loop.last %}<span aria-hidden="true"> &gt; </span>{% endif %}
+        {%- endfor -%})
+      </span>
+    {%- endif -%}
   </li>
 {%- endfor -%}
 </ul>
