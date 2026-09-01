@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-09-01T17:34:22Z</updated>
+    <updated>2026-09-01T17:40:45Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -1319,7 +1319,7 @@ With the snap of a finger:&lt;/p&gt;
                 Whats Up
                 
             </title>
-            <updated>2026-08-30T20:36:57.000Z</updated>
+            <updated>2026-09-01T17:40:45.000Z</updated>
             <id>https://briancherin.github.io/misc/whats-up/</id>
             <content type="html">
                 &lt;p&gt;What&#39;s up. What&#39;s going on. What am I doing, reading, interesting stuff to share that I don&#39;t feel like making a separate page for. I don&#39;t expect myself to keep this super regularly updated or fully comprehensive of my activity - but it&#39;s a place to put stuff that I find noteworthy.&lt;/p&gt;
@@ -1353,7 +1353,7 @@ With the snap of a finger:&lt;/p&gt;
 &lt;li&gt;I&#39;ve occasionally been using Codex (Open AI&#39;s CLI-based AI tool) to help with local development. After getting frustrated at reaching the weekly credit limit, I decided to try one month of the pro-tier ($80/month) which highly increases the limit. I&#39;ve ended up making progress on several projects due to trying to then hit that limit so as to make use of what I&#39;ve paid for. There a strange balance of finding enough work for it to do, versus then still eventually running out of quota and then having to wait for the limit to reset the next week. I&#39;m not currently sure if I would do another renewal of this or just stick to the regular plus-tier ($20/month) which I&#39;ve been on basically since ChatGPT came out.&lt;/li&gt;
 &lt;li&gt;Been making progress on &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/grocery-receipt-tracker/&quot;&gt;Grocery Receipt Tracker&lt;/a&gt;. I&#39;m partially feeling spurred to make progress here because I discovered a competitor who has actually released something that is almost exactly my same idea. I&#39;m feeling mixed between thereby not wanting to continue it, or wanting to continue it and make it better than theirs. I&#39;m at least giving it a try and we&#39;ll see how far I go.&lt;/li&gt;
 &lt;li&gt;Started making a prototype for &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/idea-social-ebook-annotation/&quot;&gt;Idea - Social ebook annotation&lt;/a&gt; - I&#39;m quite excited about this idea, and the goal (at first at least) is for a community tool that&#39;s more open-source rather than profit/product-driven. I just genuinely feel like this should be a thing that exists and that people should use, and I feel that I don&#39;t want to put a barrier (like a paywall) in front of it.&lt;/li&gt;
-&lt;li&gt;Devised &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/apartment-life/wall-mounted-livestream-kiosk-window-into-another-world/&quot;&gt;Wall-mounted livestream kiosk - Window into another world&lt;/a&gt; -- partly a coding project (hardly, because AI coded for me), partly a new apartment feature -- excited to get this mounted onto my wall.&lt;/li&gt;
+&lt;li&gt;Devised &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/apartment-life/wildlife-livestream-kiosk-window-into-another-world/&quot;&gt;Wildlife livestream kiosk - Window into another world&lt;/a&gt; -- partly a coding project (hardly, because AI coded for me), partly a new apartment feature -- excited to get this mounted onto my wall.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Blog commentary
