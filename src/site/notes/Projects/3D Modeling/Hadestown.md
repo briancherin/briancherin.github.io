@@ -14,4 +14,9 @@ Spoiler-related ideas:
 >>>>[!DANGER] Spoilers ahead.
 >>>>>[!DANGER] Spoilers ahead.
 
+>[!DANGER] Spoilers ahead.
+>>[!DANGER] Spoilers ahead.
+>>>[!DANGER] Spoilers ahead.
+>>>>[!DANGER] Spoilers ahead.
+>>>>>[!DANGER] Spoilers ahead.
 - The ending Orpheus moment, crouched by the hole in the ground and looking into it distraught, with Hermes standing nearby and peering in too. I've had this idea in mind since around 2022. Should really get on that.
