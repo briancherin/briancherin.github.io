@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-09-01T17:40:45Z</updated>
+    <updated>2026-09-01T17:42:02Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -935,36 +935,6 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
         </entry>
         <entry>
             <title>
-                Wall-mounted livestream kiosk - Window into another world
-                
-            </title>
-            <updated>2026-08-30T20:32:38.000Z</updated>
-            <id>https://briancherin.github.io/projects/apartment-life/wall-mounted-livestream-kiosk-window-into-another-world/</id>
-            <content type="html">
-                &lt;p&gt;Earlier this year (2026), I was at &lt;em&gt;Manatee Lagoon&lt;/em&gt; in West Palm Beach, Florida - it&#39;s an educational center with wildlife viewing. Inside the center, there was a TV displaying a livestream of an underwater cam.&lt;/p&gt;
-&lt;p&gt;Of course, that&#39;s not the first wildlife livestream I&#39;ve come across. But it staged my mind. A while later, an idea came to me: having a small display mounted somewhere in my apartment which would have an always-on wildlife&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; livestream displaying. It&#39;s a very passive thing, not something to be constantly watched, but something to occasionally notice.&lt;/p&gt;
-&lt;p&gt;I made&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; a simple custom site that searches YouTube for wildlife livestreams and then displays a random one, with some basic settings such as to rotate through them at a specified interval. Code can be found here: &lt;a href=&quot;https://github.com/briancherin/wildlife-livestream&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://github.com/briancherin/wildlife-livestream&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I am using an old Amazon Fire tablet and installed the &amp;quot;Fully Kiosk Browser&amp;quot; app&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://briancherin.github.io/#fn3&quot; id=&quot;fnref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;, which lets me specify a URL (where I&#39;ve deployed the webapp) and it will keep the webpage locked on the screen, always in fullscreen mode. (I guess it&#39;s better than just using a browser, so it&#39;s fullscreen all the time and keeps the display on.)&lt;/p&gt;
-&lt;p&gt;The plan is to mount the tablet somewhere on my wall. This step remains to be done.&lt;/p&gt;
-&lt;p&gt;The deployed webapp is at &lt;a href=&quot;https://display.briancher.in/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://display.briancher.in/&lt;/a&gt; and can be viewed anywhere.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Apartment%20Life/Assets/Pasted%20image%2020260830160030.png&quot; alt=&quot;Pasted image 20260830160030.png&quot; /&gt;&lt;/p&gt;
-&lt;hr class=&quot;footnotes-sep&quot; /&gt;
-&lt;section class=&quot;footnotes&quot;&gt;
-&lt;ol class=&quot;footnotes-list&quot;&gt;
-&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;doesn&#39;t necessarily have to be wildlife, but I&#39;m not sure what else it would be &lt;a href=&quot;https://briancherin.github.io/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;AI-assisted &lt;a href=&quot;https://briancherin.github.io/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&quot;fn3&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;via APK file since Fire doesn&#39;t use the Play Store &lt;a href=&quot;https://briancherin.github.io/#fnref3&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-
-            </content>
-            <atom:link href="https://briancherin.github.io/projects/apartment-life/wall-mounted-livestream-kiosk-window-into-another-world/"></atom:link>
-        </entry>
-        <entry>
-            <title>
                 Idea - Dresser objects come to life
                 
             </title>
@@ -1319,55 +1289,18 @@ With the snap of a finger:&lt;/p&gt;
                 Whats Up
                 
             </title>
-            <updated>2026-09-01T17:40:45.000Z</updated>
+            <updated>2026-09-01T17:42:02.000Z</updated>
             <id>https://briancherin.github.io/misc/whats-up/</id>
             <content type="html">
                 &lt;p&gt;What&#39;s up. What&#39;s going on. What am I doing, reading, interesting stuff to share that I don&#39;t feel like making a separate page for. I don&#39;t expect myself to keep this super regularly updated or fully comprehensive of my activity - but it&#39;s a place to put stuff that I find noteworthy.&lt;/p&gt;
-&lt;h3 id=&quot;august-2026&quot; tabindex=&quot;-1&quot;&gt;August 2026&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Media
-&lt;ul&gt;
-&lt;li&gt;Rewatching ATLA last month and finishing catching up on Rick &amp;amp; Morty is reminding me how good animated series can be.&lt;/li&gt;
-&lt;li&gt;Finished the final book (audiobook) in &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/books/fiction/the-wheel-of-time-series/&quot;&gt;The Wheel of Time&lt;/a&gt; series! I wrote up a bit of a sentimental thought-stream in that post.&lt;/li&gt;
-&lt;li&gt;A &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/misc/creators-i-like/#re-wild-university&quot;&gt;ReWildU&lt;/a&gt; video making me suspect I will eventually want to try learning some Braille... (&lt;a href=&quot;https://www.youtube.com/watch?v=AR39oD8f-lw&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.youtube.com/watch?v=AR39oD8f-lw&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Saw &lt;em&gt;Spiderman: Brand New Day&lt;/em&gt; - liked it overall&lt;/li&gt;
-&lt;li&gt;Watched &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/movies/they-live-1988/&quot;&gt;They Live (1988)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Catching up on &lt;em&gt;Daredevil: Born Again&lt;/em&gt; season 2. I started it a couple months ago but wasn&#39;t in the right mindspace to continue (maybe just because it&#39;s a darker type of show) but I&#39;m enjoying it now that I&#39;ve actually gotten into it.&lt;/li&gt;
-&lt;li&gt;I found a &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/creative/music/instruments/piano/piano/&quot;&gt;piano&lt;/a&gt; songbook for classical / old-time-y &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/theater/theater/&quot;&gt;Broadway&lt;/a&gt; showtunes and a couple songs in was a song called &amp;quot;The Big Time&amp;quot; from a show called &lt;em&gt;The Will Roger Follies&lt;/em&gt;, which, as I learned, won the 1991 Tony Award for Best Musical. After playing the song through, I wanted to see a performance/visual of it, so I searched YouTube, and got drawn into a proshot recording of the musical. Some more &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/theater/the-will-rogers-follies-1991/&quot;&gt;notes&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;I saw &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/music/will-wood-and-the-tapeworms/&quot;&gt;Will Wood and the Tapeworms&lt;/a&gt; live at the Starland Ballroom in NJ! Fun show, love the music, though the concert didn&#39;t hit as hard as I expected it to.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Creative thoughts
-&lt;ul&gt;
-&lt;li&gt;Comics
-&lt;ul&gt;
-&lt;li&gt;As usually happens when I consume good art (see &amp;quot;TV&amp;quot; above), it makes &lt;em&gt;me&lt;/em&gt; want to &lt;em&gt;create&lt;/em&gt;... Trying to come to terms with this desire within me to create some kind of animated story. When I&#39;ve had this feeling in the past (well, maybe more for feeling inspired to create a live action film or shorts or whatever), I come to the logic that the baby steps are to first just &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/creative/writing/creative-writing/&quot;&gt;write creatively&lt;/a&gt;, then for animation get better at &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/creative/drawing/drawing-people-from-imagination/&quot;&gt;drawing&lt;/a&gt;, which could lead to creating &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/creative/drawing/creating-webcomics/&quot;&gt;storyboards/comics&lt;/a&gt;, which doesn&#39;t feel too far away from animation (except of course realizing that animation is extremely time-expensive, but knowing me, I might put a medium amount of effort interspersed over an annoyingly long period of time and end up creating a mediocre three minute long animation and then be satisfied and call it quits). Brief youtube spree searching for &amp;quot;How to make a cartoon&amp;quot;: &lt;a href=&quot;https://www.youtube.com/watch?v=-CkwJKbWRr4&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&amp;quot;Making an Indie Animated Series from Scratch&amp;quot; (Infinimart)&lt;/a&gt; makes it very scary, whereas &lt;a href=&quot;https://www.youtube.com/watch?v=-uZ3kXp1MTA&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&amp;quot;Animating a Whole Cartoon in 24 Hours&amp;quot; (CyanSandwich)&lt;/a&gt; is more comforting -- makes me more confident that there is an in-between space between these two where I could create something satisfying.&lt;/li&gt;
-&lt;li&gt;I&#39;ve also started reading through &amp;quot;Understanding Comics&amp;quot;  by Scott McCloud (&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/books/nonfiction/understanding-comics-by-scott-mc-cloud/&quot;&gt;notes&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Programming projects
-&lt;ul&gt;
-&lt;li&gt;I&#39;m gotten an urge to think through some game dev ideas. Not sure what will come of them. Possibly this is triggered by me working on a game-ish project for my company hackathon. Most of my ideas right now are involving LLM-based interaction or user-directed AI-generated assets in some way. e.g. Thinking about &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/random-topics/ai-person-simulation/&quot;&gt;AI Person Simulation&lt;/a&gt; and &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/random-topics/interactive-narrative/&quot;&gt;Interactive Narrative&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;I&#39;ve occasionally been using Codex (Open AI&#39;s CLI-based AI tool) to help with local development. After getting frustrated at reaching the weekly credit limit, I decided to try one month of the pro-tier ($80/month) which highly increases the limit. I&#39;ve ended up making progress on several projects due to trying to then hit that limit so as to make use of what I&#39;ve paid for. There a strange balance of finding enough work for it to do, versus then still eventually running out of quota and then having to wait for the limit to reset the next week. I&#39;m not currently sure if I would do another renewal of this or just stick to the regular plus-tier ($20/month) which I&#39;ve been on basically since ChatGPT came out.&lt;/li&gt;
-&lt;li&gt;Been making progress on &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/grocery-receipt-tracker/&quot;&gt;Grocery Receipt Tracker&lt;/a&gt;. I&#39;m partially feeling spurred to make progress here because I discovered a competitor who has actually released something that is almost exactly my same idea. I&#39;m feeling mixed between thereby not wanting to continue it, or wanting to continue it and make it better than theirs. I&#39;m at least giving it a try and we&#39;ll see how far I go.&lt;/li&gt;
-&lt;li&gt;Started making a prototype for &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/idea-social-ebook-annotation/&quot;&gt;Idea - Social ebook annotation&lt;/a&gt; - I&#39;m quite excited about this idea, and the goal (at first at least) is for a community tool that&#39;s more open-source rather than profit/product-driven. I just genuinely feel like this should be a thing that exists and that people should use, and I feel that I don&#39;t want to put a barrier (like a paywall) in front of it.&lt;/li&gt;
-&lt;li&gt;Devised &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/apartment-life/wildlife-livestream-kiosk-window-into-another-world/&quot;&gt;Wildlife livestream kiosk - Window into another world&lt;/a&gt; -- partly a coding project (hardly, because AI coded for me), partly a new apartment feature -- excited to get this mounted onto my wall.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Blog commentary
-&lt;ul&gt;
-&lt;li&gt;Adding a couple kind of random (but pre-existing) ideas to the Projects-&amp;gt;&lt;em&gt;3D Modeling&lt;/em&gt; &amp;amp; &lt;em&gt;Animation and VFX&lt;/em&gt; sections. I want to document more of the random ideas that are floating around, both simply to share them and also to have a place for me to track progress on them (and also creating pages for ideas lets me reference them in other notes when they are relevant of course.)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&quot;september-2026&quot; tabindex=&quot;-1&quot;&gt;September 2026&lt;/h3&gt;
 &lt;h4 id=&quot;past-months&quot; tabindex=&quot;-1&quot;&gt;Past months:&lt;/h4&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/misc/what-was-up/may-2026/&quot;&gt;May 2026&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/misc/what-was-up/april-2026/&quot;&gt;April 2026&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/misc/what-was-up/june-2026/&quot;&gt;June 2026&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/misc/what-was-up/july-2026/&quot;&gt;July 2026&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/misc/what-was-up/august-2026/&quot;&gt;August 2026&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
@@ -1504,6 +1437,56 @@ With the snap of a finger:&lt;/p&gt;
 
             </content>
             <atom:link href="https://briancherin.github.io/misc/what-was-up/july-2026/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                August 2026
+                
+            </title>
+            <updated>2026-09-01T17:42:02.000Z</updated>
+            <id>https://briancherin.github.io/misc/what-was-up/august-2026/</id>
+            <content type="html">
+                &lt;ul&gt;
+&lt;li&gt;Media
+&lt;ul&gt;
+&lt;li&gt;Rewatching ATLA last month and finishing catching up on Rick &amp;amp; Morty is reminding me how good animated series can be.&lt;/li&gt;
+&lt;li&gt;Finished the final book (audiobook) in &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/books/fiction/the-wheel-of-time-series/&quot;&gt;The Wheel of Time&lt;/a&gt; series! I wrote up a bit of a sentimental thought-stream in that post.&lt;/li&gt;
+&lt;li&gt;A &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/misc/creators-i-like/#re-wild-university&quot;&gt;ReWildU&lt;/a&gt; video making me suspect I will eventually want to try learning some Braille... (&lt;a href=&quot;https://www.youtube.com/watch?v=AR39oD8f-lw&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.youtube.com/watch?v=AR39oD8f-lw&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Saw &lt;em&gt;Spiderman: Brand New Day&lt;/em&gt; - liked it overall&lt;/li&gt;
+&lt;li&gt;Watched &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/movies/they-live-1988/&quot;&gt;They Live (1988)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Catching up on &lt;em&gt;Daredevil: Born Again&lt;/em&gt; season 2. I started it a couple months ago but wasn&#39;t in the right mindspace to continue (maybe just because it&#39;s a darker type of show) but I&#39;m enjoying it now that I&#39;ve actually gotten into it.&lt;/li&gt;
+&lt;li&gt;I found a &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/creative/music/instruments/piano/piano/&quot;&gt;piano&lt;/a&gt; songbook for classical / old-time-y &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/theater/theater/&quot;&gt;Broadway&lt;/a&gt; showtunes and a couple songs in was a song called &amp;quot;The Big Time&amp;quot; from a show called &lt;em&gt;The Will Roger Follies&lt;/em&gt;, which, as I learned, won the 1991 Tony Award for Best Musical. After playing the song through, I wanted to see a performance/visual of it, so I searched YouTube, and got drawn into a proshot recording of the musical. Some more &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/theater/the-will-rogers-follies-1991/&quot;&gt;notes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I saw &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/music/will-wood-and-the-tapeworms/&quot;&gt;Will Wood and the Tapeworms&lt;/a&gt; live at the Starland Ballroom in NJ! Fun show, love the music, though the concert didn&#39;t hit as hard as I expected it to.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Creative thoughts
+&lt;ul&gt;
+&lt;li&gt;Comics
+&lt;ul&gt;
+&lt;li&gt;As usually happens when I consume good art (see &amp;quot;TV&amp;quot; above), it makes &lt;em&gt;me&lt;/em&gt; want to &lt;em&gt;create&lt;/em&gt;... Trying to come to terms with this desire within me to create some kind of animated story. When I&#39;ve had this feeling in the past (well, maybe more for feeling inspired to create a live action film or shorts or whatever), I come to the logic that the baby steps are to first just &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/creative/writing/creative-writing/&quot;&gt;write creatively&lt;/a&gt;, then for animation get better at &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/creative/drawing/drawing-people-from-imagination/&quot;&gt;drawing&lt;/a&gt;, which could lead to creating &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/interests/creative/drawing/creating-webcomics/&quot;&gt;storyboards/comics&lt;/a&gt;, which doesn&#39;t feel too far away from animation (except of course realizing that animation is extremely time-expensive, but knowing me, I might put a medium amount of effort interspersed over an annoyingly long period of time and end up creating a mediocre three minute long animation and then be satisfied and call it quits). Brief youtube spree searching for &amp;quot;How to make a cartoon&amp;quot;: &lt;a href=&quot;https://www.youtube.com/watch?v=-CkwJKbWRr4&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&amp;quot;Making an Indie Animated Series from Scratch&amp;quot; (Infinimart)&lt;/a&gt; makes it very scary, whereas &lt;a href=&quot;https://www.youtube.com/watch?v=-uZ3kXp1MTA&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&amp;quot;Animating a Whole Cartoon in 24 Hours&amp;quot; (CyanSandwich)&lt;/a&gt; is more comforting -- makes me more confident that there is an in-between space between these two where I could create something satisfying.&lt;/li&gt;
+&lt;li&gt;I&#39;ve also started reading through &amp;quot;Understanding Comics&amp;quot;  by Scott McCloud (&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/media-i-have-consumed/books/nonfiction/understanding-comics-by-scott-mc-cloud/&quot;&gt;notes&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Programming projects
+&lt;ul&gt;
+&lt;li&gt;I&#39;m gotten an urge to think through some game dev ideas. Not sure what will come of them. Possibly this is triggered by me working on a game-ish project for my company hackathon. Most of my ideas right now are involving LLM-based interaction or user-directed AI-generated assets in some way. e.g. Thinking about &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/random-topics/ai-person-simulation/&quot;&gt;AI Person Simulation&lt;/a&gt; and &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/random-topics/interactive-narrative/&quot;&gt;Interactive Narrative&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I&#39;ve occasionally been using Codex (Open AI&#39;s CLI-based AI tool) to help with local development. After getting frustrated at reaching the weekly credit limit, I decided to try one month of the pro-tier ($80/month) which highly increases the limit. I&#39;ve ended up making progress on several projects due to trying to then hit that limit so as to make use of what I&#39;ve paid for. There a strange balance of finding enough work for it to do, versus then still eventually running out of quota and then having to wait for the limit to reset the next week. I&#39;m not currently sure if I would do another renewal of this or just stick to the regular plus-tier ($20/month) which I&#39;ve been on basically since ChatGPT came out.&lt;/li&gt;
+&lt;li&gt;Been making progress on &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/grocery-receipt-tracker/&quot;&gt;Grocery Receipt Tracker&lt;/a&gt;. I&#39;m partially feeling spurred to make progress here because I discovered a competitor who has actually released something that is almost exactly my same idea. I&#39;m feeling mixed between thereby not wanting to continue it, or wanting to continue it and make it better than theirs. I&#39;m at least giving it a try and we&#39;ll see how far I go.&lt;/li&gt;
+&lt;li&gt;Started making a prototype for &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/idea-social-ebook-annotation/&quot;&gt;Idea - Social ebook annotation&lt;/a&gt; - I&#39;m quite excited about this idea, and the goal (at first at least) is for a community tool that&#39;s more open-source rather than profit/product-driven. I just genuinely feel like this should be a thing that exists and that people should use, and I feel that I don&#39;t want to put a barrier (like a paywall) in front of it.&lt;/li&gt;
+&lt;li&gt;Devised &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/apartment-life/wildlife-livestream-kiosk-window-into-another-world/&quot;&gt;Wildlife livestream kiosk - Window into another world&lt;/a&gt; -- partly a coding project (hardly, because AI coded for me), partly a new apartment feature -- excited to get this mounted onto my wall.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Blog commentary
+&lt;ul&gt;
+&lt;li&gt;Adding a couple kind of random (but pre-existing) ideas to the Projects-&amp;gt;&lt;em&gt;3D Modeling&lt;/em&gt; &amp;amp; &lt;em&gt;Animation and VFX&lt;/em&gt; sections. I want to document more of the random ideas that are floating around, both simply to share them and also to have a place for me to track progress on them (and also creating pages for ideas lets me reference them in other notes when they are relevant of course.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <atom:link href="https://briancherin.github.io/misc/what-was-up/august-2026/"></atom:link>
         </entry>
         <entry>
             <title>
