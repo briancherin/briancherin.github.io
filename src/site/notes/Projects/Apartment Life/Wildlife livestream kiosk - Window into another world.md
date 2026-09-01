@@ -26,3 +26,12 @@ So, the more important things than the actual code here are:
 3. Actually executing it and placing this in my apartment.
 
 Those are the valuable things, and less so the fact of writing actual code. It's a more product-oriented outlook.
+
+
+##### Scifi connection
+The project reminds me of farcaster windows from [[Media I Have Consumed/Books/Fiction/Hyperion series\|Hyperion]]:
+
+>  *“Is it true, Merin, that people in the Hegemony have their homes on a dozen worlds? One house, I mean, with windows facing out on a dozen skies?” ~Hyperion* 
+
+Window into another world.
+
