@@ -26,6 +26,13 @@ I write all this right after having finished the final book. [[Misc/What Was Up/
 
 ____
 
+Okay, I feel the need to temper the above a little bit. It's now a few weeks later, and I do feel like I was riding the high of the ending, as I mentioned. It was definitely not a perfect series. There were some slow/boring parts throughout. The ending was rushed, and there are some characters and events that Brandon Sanderson probably didn't write as well as Robert Jordan would have (and it's just bittersweet to imagine what would have been different had Robert Jordan finished it himself).
+
+Still, though, despite those qualifications -- a great series, great writing.
+
+
+_____
+
 
 
 ## Notes I took before finishing the series
