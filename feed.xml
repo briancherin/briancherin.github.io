@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-09-01T20:29:16Z</updated>
+    <updated>2026-09-03T03:08:49Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -2705,10 +2705,14 @@ But most of the last two seasons were disappointing, and unfortunately that&#39;
                 Skeptics Guide to the Universe
                 
             </title>
-            <updated>2026-07-04T21:22:11.000Z</updated>
+            <updated>2026-09-03T03:08:49.000Z</updated>
             <id>https://briancherin.github.io/media-i-have-consumed/podcasts/skeptics-guide-to-the-universe/</id>
             <content type="html">
                 &lt;p&gt;Podcast I&#39;ve been loving -- each episode is a discussion about recent science news and current events with the lens of scientific skepticism. Skepticism here is in the context of always questioning things and not believing things just because you are told them or because its the popular view; holding beliefs that are based in evidence/facts. I like that they not only talk about interesting topics, but they also educate on examples of misinformation and bad science. It&#39;s always the same panel of ~5 hosts, and they are a diverse and knowledgable set of individuals and they have fun with the discussion.&lt;/p&gt;
+&lt;h5 id=&quot;episode-1100&quot; tabindex=&quot;-1&quot;&gt;Episode 1100&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;One discussion topic was a review study having to do with social cohesion and how having a good community can help with mental health outcomes. They started talking about how these are observational studies and how you might do a more rigorous scientific controlled experiment. Very briefly the idea of using AI was brought up (but they didn&#39;t explore it further). This reminded me of the study &lt;em&gt;Generative Agents: Interactive Simulacra of Human Behavior — Park et al. (2023)&lt;/em&gt; which I took some notes on in &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/random-topics/ai-person-simulation/&quot;&gt;AI Person Simulation&lt;/a&gt; -- one of the concluding points of that study was that such a system of simulated humans could be used in scientific studies. I&#39;m curious if AI agent-characters could actually produce some emergent knowledge that would reflect people&#39;s behaviors in real life. I&#39;m sure there is so much that could &lt;em&gt;not&lt;/em&gt; be practically learned from it; but I think there could be some stuff that &lt;em&gt;could&lt;/em&gt;. The power of the AI simulation would be that it could simulate the &lt;em&gt;complex interactions&lt;/em&gt; between people and see what emerges from that. Many simple building blocks (basic thoughts, decisions, actions) could add up to complex societal interactions, which we could maybe learn something from, especially if its a controlled (simulated) experiment. Curious to see if anyone has done studies like this yet.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h5 id=&quot;episode-1095&quot; tabindex=&quot;-1&quot;&gt;Episode 1095&lt;/h5&gt;
 &lt;ul&gt;
 &lt;li&gt;Discussion about a research advancement in synthetic cell creation -- project called &amp;quot;spud&amp;quot; -- the researchers created a minimal cell which can build proteins (but can&#39;t make its own ribosomes (which are the protein factories) which have to be injected in) and keep itself alive (but needs mechanical assistance to reproduce). Really cool stuff. Reminds me of my past excitement about cell biology and everything required for a cell to be &amp;quot;alive&amp;quot;. Also cool that the researchers are going for an open-source vibe. They published a long &amp;quot;tome&amp;quot; publicly about how exactly to reproduce what they&#39;ve accomplished, so that anyone (well scientists) can iterate on what they accomplished so far. Also brief discussion on the merit of having it public like this, which allows bad actors to see it, but also allows good actors to combat bad actors if bad actors try to do something bad (similar to how in cybersecurity, they publish full details about known exploits online as soon as possible, which hackers can use, but which devs can also guard against). In terms of the aspirational uses for the synthetic cells, they talked briefly about potential uses in medicine or industry, though I&#39;m not fully satisfied, wish they gave more examples. I kind of want to find the research paper or at least more about it because I&#39;m curious about how they created the cell structures and machinery.&lt;/li&gt;
