@@ -11,33 +11,53 @@ This is my first time adding any sort of travelogue here. I'd like to do this fo
 - After landing in Seattle, we had a two hour drive to our Airbnb in Bellingham. We picked up the rental car and drove. I was expecting to be a driver candidate during the trip, but I opted out since we weren't getting liability insurance.
 - Settled into the Airbnb, which was pretty nice! We were directly on a lake and had our own doc going into the water. We had 12-14 people staying here, spread throughout four bedrooms, but it still felt spacious. There was a nice kitchen, a large dining area, and a nice common area with a big couch and tv. There was a porch with an outdoor table and a grill, and a grassy yard out back, leading to the walkway to the dock. The water of the lake was lower than we expected (but still swimmable), apparently due to less snowmelt this season.
 
-
 ##### Sunday: Chain Loops Trail
 - Got out of the house at 7am. Drove 1 hour 20 min to the Chain Loops trail in the Mt Baker wilderness. 6 miles total. Nice views - rocks, trees, mountains, lakes. Views of Mt. Baker (distinct peak with snow on it). We took a quick, cold dip in a small but pretty lake around two thirds the way through. Finally we got back to the car and chilled with some snacks.
 - We got back home, did some dinner prep, and then chilled at the doc and swam in the lake for a little bit. It was somewhat chilly (though not as cold as the trailside swim) so it was only a 10 minute dip.
 - We hung out more outside. I helped grill vegetables and tofu skewers (we had one other vegan and one vegetarian on the trip). K helped coach me on grill technique.
 - Sn ran a game of BOTC (Blood on the Clocktower, a kind of complicated social deduction game that can be played with many players). I was the ravenkeeper and made a bad choice of who to learn information about (J the undertaker) and thus was mistrusted for the rest of the game (and was killed the second night). My team (the townspeople) did win but I felt slightly bitter about at least my own gameplay. But it was fun overall and a satisfying win.
 ![PXL_20260906_172925951.jpg](/img/user/Lifestyle/Travel/Assets/PXL_20260906_172925951.jpg)
+
+![Pasted image 20260913123515.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913123515.png)
 ##### Monday: Oyster Dome Trail
 - It was a rainy night, thunderstorms in the morning so we got out later. Had a leisurely morning. Played a fun card game that M brought called Cross Clues (given a grid of word combinations, you are given a location and you need to give a one word clue that will help the other players to point to which coordinate you are referring to).
+![Pasted image 20260913123617.png|400](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913123617.png)
 - Once the rain had mostly cleared, we drove 30 minutes to the Oyster Dome trail. A group of five (including me) did a six mile version of the trail, and the rest of our group did a 4 mile version which started at a different point. We ended up all converging near the peak of the trail. We enjoyed the views and had snacks and lunches, before hiking back down. We had driven in separate cars, so we split back up on the way down.
+![Pasted image 20260913123726.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913123726.png)
+
+![Pasted image 20260913123906.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913123906.png)
+
+![Pasted image 20260913123938.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913123938.png)
 - After the hike, we drove to the Schweinhaus Biergaten, in the town of Bellingham. We got drinks and food (I didn't get anything, I was full from trail food. Though I was extremely tempted to try the vegan sausage.). They had a big Connect 4 game and I won best of five when playing with Sg. Various others also gave their go at Steinholding.
-    ![[PXL_20260907_225252689.jpg \|PXL_20260907_225252689.jpg ]]
-- After biergarten, we went to a nearby walkable ice cream place (Mallard ice cream). They had a lot of wacky, interesting ice cream flavors. And then a dissapointingly boring non-dairy/sorbet menu -- I feel like they're slacking on that part of the menu^[I know it's a smaller proportion of customers ordering from that menu, but it's just sad when the regular menu has flavors like root beer, cereal milk, smores cone, wasabi, and the vegan options are nectarine, coconut date, and lemon/mint.]. I copied Rc and got the coconut-date flavor
+    ![PXL_20260907_225252689.jpg|400](/img/user/Lifestyle/Travel/Assets/PXL_20260907_225252689.jpg)
+- After biergarten, we walked to a nearby ice cream place (Mallard ice cream). They had a lot of wacky, interesting ice cream flavors. And then a dissapointingly boring non-dairy/sorbet menu -- I feel like they're slacking on that part of the menu^[I know it's a smaller proportion of customers ordering from that menu, but it's just sad when the regular menu has flavors like root beer, cereal milk, smores cone, wasabi, and the vegan options are nectarine, coconut date, and lemon/mint.]. I copied Rc and got the coconut-date flavor
 - Then we walked to a shop with outdoor gear ("Backcountry Essentials") which was having a big sale on new and used items. I ended up buying a Lifestraw filtration system (squeeze bottle with attachable filter) for about $28 dollars since that's been in the back of my mind as something to acquire for future backpacking/camping adventures.
+![Pasted image 20260913124024.png|300](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913124024.png)
 - We drove back home and immediately went to swim in the lake. Some others were practicing lap-style swimming, and I wanted to do so as well so I grabbed the goggles I had just bought a couple weeks ago. I jumped from the dock into the water, with the goggles on my head. When I surfaced from the water, the goggles were gone and nowhere to be seen. I spent twenty minutes using someone else's goggles to search under the water (which was pretty clear) but couldn't find them - they either flowed away or were just hard to find. Tried looking other days too but no luck. Quite sad. It was kind of fun, though, to be doing the underwater search. I found a pair of old, breaking sunglasses on the bottom (the lake by the dock was only 6 or 7 feet deep) and brought them up. 
 - Dinner for me was rice, grilled cabbage, grilled vegan sausages, and broccoli. 
 
 ##### Tuesday: Maple Pass Trail
 - 7am departure again. We drove about 2.5 hours to the North Cascades National Park area and hiked the Maple Pass Trail, a loop of about 7 miles total. There were some pretty nice 360 views. I had a banana in the morning, and had made overnight oats and ate them out of a ziploc bag during the car ride. I had snacks on the trail (nut mix, sliced apple) and my peanut butter and date sandwich during the long car ride back. I felt like I planned my meals and snacks pretty well (or rather, I packed what I thought what I needed, and it worked out perfectly).
 - My dinner was homemade (orchestrated by our passionate chef N) mango salsa, homemade guac, tortillas and black beans. And also tater tots.
+![Pasted image 20260913124159.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913124159.png)
+![Pasted image 20260913124228.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913124228.png)
+![Pasted image 20260913124322.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913124322.png)
 
+![Pasted image 20260913124347.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913124347.png)
 ##### Wednesday: Sahale
 - We hiked about 12 miles in North Cascades again - on Alltrails, the "Cascade Pass and Sahale Arm Trail". Our longest (and final) hike of the trip. Many of us agreed it was the best trail of the trip too. 
 - We saw three black bears, almost scarily close to the trail! I haven't seen a bear in a really long time, so it was quite joyful to see them. They were beautiful, and there is a moment in my mind where we continued on the trail past one of them and I could see its fur glistening in the sunlight. On the way back, we saw a fourth bear that was getting a little too close to a woman and she banged her walking pole on the ground to stop it from getting closer (it was way nearer to her than they ever were to us), which worked and it headed away from the trail (though, for a second it seemed like it was going to go down the trail towards us, and it didn't, but we started semi-rushing away just in case). We were a big group so not too worried about being threatened by the bears (they were really just minding their own business).
-- At the peak, we chilled for a little bit. U and E filtered some fresh glacier water (I tried a sip, yum. Kind of regret not bringing my own new water filter to try it out.). We hiked faster on the way down. Many marmot sightings, and also sighted a bird of prey which was gracefully soaring about. It was more of a rocky hike overall, which I often like as much (if not more) than regular dirt trails.
-- We got home a bit after 9pm (long day!). Our friends who had stayed home and skipped this hike had prepped dinner and made it ready for us when we got there, which we were all grateful for.
+![Pasted image 20260913124726.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913124726.png)
+![PXL_20260909_204512688.gif|498](/img/user/Lifestyle/Travel/Assets/PXL_20260909_204512688.gif)
+![ezgif-5bf80654d09272c4.gif|504](/img/user/Lifestyle/Travel/Assets/ezgif-5bf80654d09272c4.gif)
 
+- At the peak, we chilled for a little bit. U and E filtered some fresh glacier water (I tried a sip, yum. Kind of regret not bringing my own new water filter to try it out.). We hiked faster on the way down. Many marmot sightings, and also sighted a bird of prey which was gracefully soaring about. It was more of a rocky hike overall, which I often like as much (if not more) than regular dirt trails.
+![Pasted image 20260913125627.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913125627.png)
+
+![Pasted image 20260913125726.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913125726.png)
+
+- We got home a bit after 9pm (long day!). Our friends who had stayed home and skipped this hike had prepped dinner and made it ready for us when we got there, which we were all grateful for.
+![Pasted image 20260913124410.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913124410.png)
 
 ##### Thursday: San Juan Islands
 - We had a 9am ferry reservation to the San Juan islands (specially going to Friday Harbor on san juan island) and a 1pm kayak tour reservation. Drove car onto ferry and then parked on the island.
@@ -46,11 +66,18 @@ This is my first time adding any sort of travelogue here. I'd like to do this fo
 - After food a couple of us went to a small used bookstore called Serendipity Used Books. Was quite a nice bookstore, several rooms, many shelves and stacks of books. Sg, C, and R got a book. I was kind of looking for Colossus of Maroussi (just started reading a couple days ago) but no luck (could have asked the shop tender to check the system but I didn't. I checked most of the travel stacks and by author name letter).
 - Drove to roche harbor where the kayak tour was. I ended up pairing with E, him in back. Got basic instructions, life vest, skirt to block water, they let us store belongings in a chest (i just left my jacket and big bottle of sunscreen. Phone stayed in car. I was wearing flip flops), fig bar and clif bar in life vest pocket as well as small sunscreen tube which didnt end up using at all during kayak but kept just in case. All 12 kayaked (two friends had left the trip already), all tandem sea kayaks. Two tour guides. It was called a 3 hour tour but really setup plus 2.5 hrs. 
 - Kayaking was fun! My first time kayaking. Felt like E and I were at the back of the pack for a lot of the first half but that changed later on for the most part. Highlight was going to the kelp forest. We got to taste the kelp directly from the water. It kind of had the texture/bite of pickled cabbage, kind of the flavor too, def like a pickle, salty and firm / semi-crunchy. Didn't eat too much because they warned they take up heavy metals. We sat at the kelp forest for quite a while, first just as kelp time but then because they got word that there was a whale sighting in the distance so we were waiting for the chance, but we never saw it. We did see some seals in the water, not too far away, poking their heads up and seeing the rest of their bodies surface as they swam back under. Pretty cute. Also apparently saw one sea lion in the distance but it was kind of a small lump(speck). The guy tour guide had also cut a part of a kelp plant and showed how it could be used as a sort of tubed horn instrument. He asked if anyone was a trumpet player and K said yes and he was able to make some trumpet sounds with it (single note mostly, though with some variation, but also just did some basic but cool stuff with sequence of note lengths). Then we passed it around and tried to make sounds. K helped instruct me a bit (after doing so first for Sg) on how to shape lips to make trumpet sound and it took me some tries but i eventually got it and made a semi constant horn sound for a few seconds -- satisfying!
+![Pasted image 20260913125900.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913125900.png)
 - After kayaking we parked our car at the ferry line since we had about an hour and a half till ferry left but they let you leave the car there. We got dinner at a brewery (had vegan burger, fried. Pretty good). Then some ppl got ice cream. We met a big dog named Athena. Then waited a bit more conversing by the car and then drove onto the ferry. Walk up to seats and outside deck. Started with reading a bit and then stood outside, a little chilly but I had a light jacket and rain layer. Was right around sunset 7pm-7:30 ish (ferry ride about an hour). First just me outside and then M and Sg, then M went back inside, then sky pink with sunset colors and saw a little bit of alpenglow (pink tinge of mountain snow) on what we think was mt baker. Got E from inside and told him to come out. Then we went to the back side of the boat outside where the sky was still much more red in spots and we stayed there for rest of ferry ride until they said to go back to your car.
+![Pasted image 20260913125947.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913125947.png)
+
+![Pasted image 20260913130032.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913130032.png)
+
+![Pasted image 20260913130059.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913130059.png)
+
 - Car ride 1 hour from ferry to home. We were all kind of tired and silent at first and then Sg posed a question "if you could have infinite money what would you spend it on except for charitable things" and that livened up the convo and led to a semi-intense discussion. Then when we got home and other car too, we leaned their car had also had an intense debate about a different topic. We spent the rest of the evening discussing these things as a bigger group. Natural chatter in small groups and then occasional full group rundowns. Eventually there was a final discussion that ended up lasting till almost 1am, people trickling to bed as it got later. I helped as arbiter in part of the final discussion so we could wrap it up for the night and get to bed. (Serious and kind of intense discussions but all in good sport and with the goal of understanding one another generally).
 
 ##### Friday: Chill lake day
-- Chill day at the Airbnb! Slept in, sawm in lake -- had fun on the 2 standup paddleboards that the house had. We were trying to get three people standing up on one, but we never got it (always lost balance after the second person stood up).
+- Chill day at the Airbnb! Slept in, swam in lake -- had fun on the 2 standup paddleboards that the house had. We were trying to get three people standing up on one, but we never got it (always lost balance after the second person stood up).
 - Hung out on lawn, throwing football and practicing handstands/cartwheels. Also earlier we did a fun small 6 person BOTC game outside while M was doing some classwork.
 - Most of group went to the town to go to a thrift store and get snack. Four of us stayed behind, helped a little bit with dinner prep, and then we went to grab some groceries and dessert.
 - Pizza night! Sg had prepped dough in the morning. Eight pies total, two vegan ones. Everyone stood around in the kitchen while each was made and cooked. Some musical karaoke going on. I was kind of socially drained ever since the afternoon and also quite tired.
@@ -58,3 +85,16 @@ This is my first time adding any sort of travelogue here. I'd like to do this fo
 
 ##### Saturday: Travel day
 - Bittersweet departure, sad but was a great trip. I spent most of the flight contemplating a nonfiction book idea "Lazarus Long survival guide". Also I made an effort to try to know what we were flying through -- i had window seat, though there was no one else in my row (toward back of plane). With the help of the flight map, I was able to recognize that we were flying over Michigan and I was able to correspond the lake and islands I was seeing to what I saw on Google Maps -- very cool experience. There were also some nice pink cloud effects when the sun was down. And once it was dark and we were flying over NY approaching the city, I enjoyed seeing the sea of electric speckles as always.
+![PXL_20260912_232932926 1.jpg](/img/user/Lifestyle/Travel/Assets/PXL_20260912_232932926%201.jpg)
+![Pasted image 20260913130309.png|346](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913130309.png)
+![PXL_20260912_233349310.jpg](/img/user/Lifestyle/Travel/Assets/PXL_20260912_233349310.jpg)
+![Pasted image 20260913130245.png|343](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020260913130245.png)
+
+
+##### Thoughts this trip inspired
+- I want to hike more near NYC throughout the year rather than waiting for trips like this to hike.
+- I want to cook better and more interesting things
+- I want to document travel more, in this digital garden, including past trips
+- I want to learn more about how LLMs work, e.g. transformers and the NLP part
+- I want to become more confident in understanding and being able to explain the evidence behind [[Lifestyle/Cooking/On Cooking - Veganism and Whole-Food Plant-Based Diet\|Whole-Food Plant-Based Diet]]
+- Reflecting on the social groups I spend time with in nyc
