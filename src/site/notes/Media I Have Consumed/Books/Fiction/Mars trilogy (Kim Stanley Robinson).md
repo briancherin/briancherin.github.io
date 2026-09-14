@@ -3,7 +3,7 @@
 ---
 
 ### Overview
-KSR is one of my favorite authors. Mainly because of this (Mars trilogy) and The Years of Rice And Salt.
+[[Media I Have Consumed/Books/Authors/Kim Stanley Robinson\|Kim Stanley Robinson]] is one of my favorite authors. Mainly because of this (Mars trilogy) and The Years of Rice And Salt.
 
 The Mars trilogy books: Red Mars; Green Mars; Blue Mars.
 
