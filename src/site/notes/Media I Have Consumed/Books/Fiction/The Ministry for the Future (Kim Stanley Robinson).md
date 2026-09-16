@@ -10,6 +10,8 @@ ___
 
 KSR is one of my favorite authors, so this book has been on my mind as one to read some time, and it always felt like an important one to get to. So, what better moment to start the book in than one where I was feeling a droplet of climate despair? It's kind of like listening to sad music when you're sad. There's a resonance between the moment and the media which makes it just feel right. Plus, I figured it might *frame* the moment for me - give me a framework of thought, a way to think about the situation, an outlook, maybe even an answer of whether hope or despair should win.
 
+Brief thoughts after finishing reading: I like the premise; I like that it got me thinking about climate change in the real world (led me to find some podcasts about climate change and the environment in general); I like that it gave me a vision of how humanity might fight it; Yet I wish it was more narrative-driven and had some more compelling characters. (More in-depth thoughts below.)
+
 ____
 ### Notes taken while reading
 
