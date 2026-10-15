@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/media-i-have-consumed/books/nonfiction/the-colossus-of-maroussi-by-henry-miller/","dgPassFrontmatter":true}
+{"dg-publish":true,"aliases":["The Colossus of Maroussi"],"permalink":"/media-i-have-consumed/books/nonfiction/the-colossus-of-maroussi-by-henry-miller/","dgPassFrontmatter":true}
 ---
 
 It's kind of funny that this is classified as non-fiction. It's obviously based on Henry Miller's real travel throughout Greece, but his descriptions are so exaggerated that I feel like it's got kind of a fictional spirit to it. (But I may just be thinking too much of the feel of [[Media I Have Consumed/Books/Fiction/In Search of Lost Time by Marcel Proust\|In Search of Lost Time]], which is more definitively a *fictionalized* narrative of Proust's life. But here, Henry Miller is really just writing about his direct experience and (apparently) not fabricating characters or details in general.)

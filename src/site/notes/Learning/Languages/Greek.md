@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/learning/languages/greek/","dgPassFrontmatter":true}
 ---
 
-As of July 2026, I potentially have a two week trip to Greece coming up in September. It barely crossed my mind to learn any of the language, until my mom made a comment: "Are you going to learn Greek?". I scoffed and said, "of course not." 
+As of July 2026, I potentially have a two week trip to Greece coming up in September (indeed -- see [[Lifestyle/Travel/Greece 2026\|Greece 2026]]). It barely crossed my mind to learn any of the language, until my mom made a comment: "Are you going to learn Greek?". I scoffed and said, "of course not." 
 
 But the seed was planted. Once rooted in my mind, it started to feel inevitable for me to at least learn a little bit about the language and see what beginner resources are out there for learning it.
 
@@ -34,3 +34,16 @@ ____
 To briefly update on this -- at least as of August, I've not been making much progress here. I had gone through about 11-12 lessons of Language Transfer, and I genuinely enjoyed it, and all things equal I would totally consider it. I also learned a couple dozen vocab words (mostly related to food) in the AI-generated Anki deck, and enjoyed that as well. However, when it comes down to it, it hasn't been a high priority to me to continue. I think it's a good thing for me to focus on other things that are more important to me right now (general life stuff, work, other creative endeavors, etc). Honestly don't see myself continuing Greek in general after my trip. However, I would not say at all that what I did so far was a waste of time. It was fun, gave me a glimpse into how another language worked, definitely exercised the language-learning muscle in general, and reminded me of the fun of language learning. I think this will be a good factor getting me to dive back into continuing my study of Japanese.
 
 Also, retrospectively, the vocab deck was much too ambitious, with a lot of words I wouldn't have a particular reason to say while traveling, though I guess I was imagining that I could just learn them all and just have breadth in what I knew. But realistically, I feel like I should have (or should still) just learned a couple dozen basic social phrases because that's realistically the things I might actually genuinely want to say in Greek while there.
+
+
+___
+
+Some of the most important phrases for when I was actually [[Lifestyle/Travel/Greece 2026\|in Greece]]:
+- Hello / goodbye – Γειά σας (Yiá sas):
+- Good morning – Καλημέρα (Kaliméra)
+- Good afternoon/evening – Καλησπέρα (Kalispéra)
+- Good night – Καληνύχτα (Kaliníkhta)
+- Please – Παρακαλώ (Parakaló)
+- Thank you – Ευχαριστώ (Efcharistó)
+- You’re welcome – Παρακαλώ (Parakaló)
+- Excuse me – Συγγνώμη (Syngnómi)
