@@ -11,9 +11,9 @@ What's up. What's going on. What am I doing, reading, interesting stuff to share
 #### Past months:
 - [[Misc/What Was Up/May 2026\|May 2026]]
 - [[Misc/What Was Up/April 2026\|April 2026]]
+- [[Misc/What Was Up/August 2026\|August 2026]]
 - [[Misc/What Was Up/July 2026\|July 2026]]
 - [[Misc/What Was Up/June 2026\|June 2026]]
-- [[Misc/What Was Up/August 2026\|August 2026]]
 - [[Misc/What Was Up/September 2026\|September 2026]]
 
 { .block-language-dataview}
