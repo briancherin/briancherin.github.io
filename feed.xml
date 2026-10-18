@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-10-18T02:55:47Z</updated>
+    <updated>2026-10-18T22:01:04Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -462,13 +462,13 @@ Yes. The field is usually described as &lt;strong&gt;LLM-based interactive drama
                 Mini Projects
                 
             </title>
-            <updated>2026-10-17T00:34:41.000Z</updated>
+            <updated>2026-10-18T22:01:04.000Z</updated>
             <id>https://briancherin.github.io/projects/software/mini-projects/mini-projects/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#coding&quot;&gt;#coding&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#miniproject&quot;&gt;#miniproject&lt;/a&gt;&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/&quot;&gt;Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/mini-projects/restaurant-ai-vr-simulation/&quot;&gt;Restaurant AI VR Simulation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/meta/on-blogging/please-don-t-spearphish-me-creating-an-obsidian-plugin/&quot;&gt;Please Don&#39;t Spearphish Me (Creating an Obsidian Plugin)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
@@ -1360,7 +1360,7 @@ With the snap of a finger:&lt;/p&gt;
                 Whats Up
                 
             </title>
-            <updated>2026-10-18T02:39:14.000Z</updated>
+            <updated>2026-10-18T22:01:04.000Z</updated>
             <id>https://briancherin.github.io/misc/whats-up/</id>
             <content type="html">
                 &lt;p&gt;What&#39;s up. What&#39;s going on. What am I doing, reading, interesting stuff to share that I don&#39;t feel like making a separate page for. I don&#39;t expect myself to keep this super regularly updated or fully comprehensive of my activity - but it&#39;s a place to put stuff that I find noteworthy.&lt;/p&gt;
@@ -1376,8 +1376,8 @@ With the snap of a finger:&lt;/p&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/misc/what-was-up/august-2026/&quot;&gt;August 2026&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/misc/what-was-up/july-2026/&quot;&gt;July 2026&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/misc/what-was-up/june-2026/&quot;&gt;June 2026&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/misc/what-was-up/september-2026/&quot;&gt;September 2026&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/misc/what-was-up/october-2026/&quot;&gt;October 2026&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/misc/what-was-up/september-2026/&quot;&gt;September 2026&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
