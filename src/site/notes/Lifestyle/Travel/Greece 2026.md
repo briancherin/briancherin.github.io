@@ -90,7 +90,6 @@ The rest of argos - Went here on one of the last days of the trip. I was a bit o
 temple of apollo -- mostly cool because of Orestes connection
 
 ancient theater -- again cool because of interest in theater, and this one was bigger and more intact than the Theater of Dionysus. I took about ten minutes to read a bit of The Oresteia here, imagining that people in ancient times could have been watching a production of it in this very spot.
-
 ![Pasted image 20261016201346.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020261016201346.png)
 
 ancient stadium. -- cool and memorable. Fun to read the description of the races that happened there, and match up features to what I was seeing.
