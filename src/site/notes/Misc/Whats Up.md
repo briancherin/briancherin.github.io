@@ -14,7 +14,7 @@ What's up. What's going on. What am I doing, reading, interesting stuff to share
 - [[Misc/What Was Up/August 2026\|August 2026]]
 - [[Misc/What Was Up/July 2026\|July 2026]]
 - [[Misc/What Was Up/June 2026\|June 2026]]
-- [[Misc/What Was Up/September 2026\|September 2026]]
 - [[Misc/What Was Up/October 2026\|October 2026]]
+- [[Misc/What Was Up/September 2026\|September 2026]]
 
 { .block-language-dataview}
