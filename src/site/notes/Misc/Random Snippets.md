@@ -2,6 +2,15 @@
 {"dg-publish":true,"permalink":"/misc/random-snippets/","dgPassFrontmatter":true}
 ---
 
+
+#### 11
+https://www.nytimes.com/2026/10/21/magazine/dark-nutrition-raw-meat-diet.html
+A friend shared this article with me, my thoughts:
+- The raw meat just sounds gross, even separate from the ethical [[Lifestyle/Veganism/Veganism\|vegan]] side
+- I appreciate the writer's skeptical^[I feel like [[Media I Have Consumed/Podcasts/Skeptics Guide to the Universe\|Skeptics Guide to the Universe]] podcast has deepened my appreciation and understanding of the importance of a skeptical eye in journalism] take on it all and showing how there are confounding factors, like what really is making these people feel better
+- But also i do kind of like the idea of people experimenting with what feels best for their body.... But also ignoring scientific consensus is not good.
+- I like the point about how people are searching for answers about what the "right" way to eat is. That was something I felt when i found the [[Lifestyle/Cooking/On Cooking - Veganism and Whole-Food Plant-Based Diet\|Whole-Food Plant-Based Diet]] - suddenly it felt like I had a good guideline on how to eat healthily. I'm wary of falling into the same trap of following a diet without critically thinking about it, but I have seen enough diverse sources roughly saying that a mostly whole plant based diet is healthy. I want to educate myself more on research in the area, though, to be more confident in defending my choice.
+
 #### 10
 https://blog.avas.space/nemesis/
 (Avas Space is a blog I found via the Kagi Small Web RSS feed and I've been following new posts since then.)
