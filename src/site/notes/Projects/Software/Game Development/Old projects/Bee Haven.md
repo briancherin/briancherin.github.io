@@ -14,7 +14,7 @@ The graphics were very simplistic (I vaguely wanted to make them better in the f
 
 I published it to the Google Play Store (under a pseudonym because I was very resistant to publishing things under my real name back then) but eventually it got taken down because I needed to update things to comply with Google's new developer rules (possibly could've been something as easy as adding a privacy policy to my app, but I just never bothered to expend the energy to do whatever it needed me to do).
 
-But also recently, I've been wanting to show people a demo of the game. I recently tried to re-install it on my phone by using an old APK (app installation file for Android) that I downloaded from the Google Play Dev Console, but installation failed because the architecture of the app was too out of date. There is, however, a usable version of the game that can be accessed via [[Projects/Software/Really Old Projects/brianiscool.tk\|brianiscool.tk]], so in theory I can show people from that, but I'd prefer the app experience.
+But also recently, I've been wanting to show people a demo of the game. I recently tried to re-install it on my phone by using an old APK (app installation file for Android) that I downloaded from the Google Play Dev Console, but installation failed because the architecture of the app was too out of date. There is, however, a usable version of the game that can be accessed via [[Projects/Software/Really Old Projects/brianiscool.tk\|brianiscool.tk]], -- [direct link](https://garden.briancher.in/brianiscool/beehaven/beehaven.html) -- so in theory I can show people from that, but I'd prefer the app experience.
 
 So...
 - [ ] Run it locally and build it to Android, test it
