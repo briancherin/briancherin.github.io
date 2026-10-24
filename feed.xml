@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://briancherin.github.io/feed.xml" rel="self"></atom:link>
     <atom:link href="https://briancherin.github.io"></atom:link>
-    <updated>2026-10-24T17:45:08Z</updated>
+    <updated>2026-10-24T17:57:48Z</updated>
     <id>https://briancherin.github.io</id>
         <entry>
             <title>
@@ -403,7 +403,7 @@ Yes. The field is usually described as &lt;strong&gt;LLM-based interactive drama
                 brianiscool.tk
                 
             </title>
-            <updated>2025-12-10T01:13:09.000Z</updated>
+            <updated>2026-10-24T17:57:48.000Z</updated>
             <id>https://briancherin.github.io/projects/software/really-old-projects/brianiscool-tk/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
@@ -414,7 +414,7 @@ Yes. The field is usually described as &lt;strong&gt;LLM-based interactive drama
 &lt;ul&gt;
 &lt;li&gt;Random color generator (not on the homepage!)&lt;/li&gt;
 &lt;li&gt;Farm animal game (weirdly fun but eventually not balanced)&lt;/li&gt;
-&lt;li&gt;Bee Haven game (warning that this is not particularly mobile-friendly but it&#39;ll still work)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://garden.briancher.in/brianiscool/beehaven/beehaven.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Bee Haven game&lt;/a&gt; (warning that this is not particularly mobile-friendly but it&#39;ll still work)&lt;/li&gt;
 &lt;li&gt;Try not to fall into the Trap (the curse of 100 alert dialogs)&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -875,7 +875,7 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
                 Bee Haven
                 
             </title>
-            <updated>2026-08-01T15:16:25.000Z</updated>
+            <updated>2026-10-24T17:57:48.000Z</updated>
             <id>https://briancherin.github.io/projects/software/game-development/old-projects/bee-haven/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gamedev&quot;&gt;#gamedev&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#project&quot;&gt;#project&lt;/a&gt;&lt;/p&gt;
@@ -884,7 +884,7 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
 &lt;p&gt;The graphics were very simplistic (I vaguely wanted to make them better in the future but never went back to it).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://briancherin.github.io/img/user/Projects/Software/Game%20Development/Old%20projects/Assets/bee%20haven%20gameplay.png&quot; alt=&quot;bee haven gameplay.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I published it to the Google Play Store (under a pseudonym because I was very resistant to publishing things under my real name back then) but eventually it got taken down because I needed to update things to comply with Google&#39;s new developer rules (possibly could&#39;ve been something as easy as adding a privacy policy to my app, but I just never bothered to expend the energy to do whatever it needed me to do).&lt;/p&gt;
-&lt;p&gt;But also recently, I&#39;ve been wanting to show people a demo of the game. I recently tried to re-install it on my phone by using an old APK (app installation file for Android) that I downloaded from the Google Play Dev Console, but installation failed because the architecture of the app was too out of date. There is, however, a usable version of the game that can be accessed via &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/really-old-projects/brianiscool-tk/&quot;&gt;brianiscool.tk&lt;/a&gt;, so in theory I can show people from that, but I&#39;d prefer the app experience.&lt;/p&gt;
+&lt;p&gt;But also recently, I&#39;ve been wanting to show people a demo of the game. I recently tried to re-install it on my phone by using an old APK (app installation file for Android) that I downloaded from the Google Play Dev Console, but installation failed because the architecture of the app was too out of date. There is, however, a usable version of the game that can be accessed via &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://briancherin.github.io/projects/software/really-old-projects/brianiscool-tk/&quot;&gt;brianiscool.tk&lt;/a&gt;, -- &lt;a href=&quot;https://garden.briancher.in/brianiscool/beehaven/beehaven.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;direct link&lt;/a&gt; -- so in theory I can show people from that, but I&#39;d prefer the app experience.&lt;/p&gt;
 &lt;p&gt;So...&lt;/p&gt;
 &lt;ul class=&quot;task-list&quot;&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; Run it locally and build it to Android, test it&lt;/label&gt;&lt;/li&gt;
