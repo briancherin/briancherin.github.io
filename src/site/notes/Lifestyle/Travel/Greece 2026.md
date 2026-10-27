@@ -39,18 +39,19 @@ It was very cool to reflect those book experiences onto my own visits. I felt th
 
 ### Post-trip takeaways
 - It ended up being good to get distance from home and having a break from routines. The space let my brain pause and reflect. Now that I'm back home, I feel revitalized in certain ways.
-- I'm excited for more travel in the future. This trip gave me a better idea of what style of travel I may like, e.g. the movie+books warming me up and giving me meaning. Also, knowing that I would have limited time at a place, I may want to come in with more historical context (or other related context, like the books/movies) because it makes sites more meaningful to already come in with some understanding, and less like I am just going through the motions of seeing the places I should see.
+- I'm excited for more travel in the future. This trip gave me a better idea of what style of travel I may like, e.g. the movie+books warming me up and giving me meaning. Also, knowing that I would have limited time at a place, I may want to come in with more historical context (or other related context, like the books/movies) because it makes sites more meaningful to already come in with some understanding, and less like I am just going through the motions of seeing the places I "should" see.
 - As usual in trips where I'm not the one driving the rental car, it makes me more eager to drive more and become more experienced so i am more confident/comfortable driving (though to my credit, I've improved a lot there in the last couple years, but I have space for more comfort+confidence).
-- I don't at all feel like i've "completed" Greece, and in fact I feel motivated to continue learning more about the history. Any learning I do moving forward will only add onto the foundation and memories of the actual sites I visited. e.g. I'd love to watch some videos showing guided tours with more info about some of the sites we visited. I'd love to watch a production of *The Oresteia* plays. I'm also feeling more motivated in general to see productions of any ancient Greek plays or related material. And now because of the connections I can make to this trip, I feel I'm more interested than ever in Greek myths and related culture/history/stories. 
+- I don't at all feel like I've "completed" Greece, and in fact I feel motivated to continue learning more about the history. Any learning I do moving forward will only add onto the foundation and memories of the actual sites I visited. e.g. I'd love to watch some videos showing guided tours with more info about some of the sites we visited. I'd love to watch a production of *The Oresteia* plays. I'm also feeling more motivated in general to see productions of any ancient Greek plays or related material. And now because of the connections I can make to this trip, I feel I'm more interested than ever in Greek myths and related culture/history/stories. 
 - I want to cook the traditional (naturally vegan) Greek dishes I had, and also find recipes for veganized versions of greek dishes that are not normally vegan, and also try Greek food in NYC.
 ### Specific sites/ruins
 #### Mycenae
+Big hill of ruins of an ancient city and castle.
 ![Pasted image 20261016193648.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020261016193648.png)
 
 Lion's Gate - loved the moment of walking through this, feeling like a threshold, imagining that people in ancient times walked through this exact spot, fantasizing that there is a bustling ancient city just beyond the gate.
 ![Pasted image 20261016193517.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020261016193517.png)
 
-Agamemnon's Tomb (aka Treasury of Atreus, a short drive from the main archaeological site of Mycenae) -- cool structure in itself, and obviously I had the Henry Miller connection to think about (because he made a big deal about this spot in particular). I had a cool moment of walking into it by myself (like it was empty). I immediately noticed a really interesting echo effect, which I excitedly showed by brother and cousin when they got there. When you stand in the center and tap your feet even so gently, you hear a series of clicks reverberate through the conical room.
+Agamemnon's Tomb (aka Treasury of Atreus, a short drive from the main archaeological site of Mycenae) -- cool structure in itself, and obviously I had the Henry Miller connection to think about (because he made a big deal about this spot in particular). I had a cool moment of walking into it alone when it was empty of anyone else. I immediately noticed a really interesting echo effect, which I excitedly showed by brother and cousin when they got there. When you stand in the center and tap your feet even so gently, you hear a series of clicks reverberate through the conical room. The sound feels like it's going directly into your ear from right next to you, kind of an ASMR-ish effect.
 
 ![Pasted image 20261016194757.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020261016194757.png)
 
@@ -60,16 +61,15 @@ Possibly my favorite temple we visited, mostly because of the environment it's i
 
 ![Pasted image 20261016195518.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020261016195518.png)
 
-
 #### Acropolis 
-Parthenon - It was incredibly crowded. It was great to see (and a must-do), and it was really cool, but I feel like I felt kind of lost and didn't know how to orient my thoughts around it. That feeling could also be related to the rush of the crowds, and also the preconceived hype of the place.
+Parthenon - It was incredibly crowded. It was great to see (and a must-do), and it was really cool, but I feel like I felt kind of lost and didn't know how to orient my thoughts around it. That feeling could also be related to the rush of the crowds, and also the preconceived hype of the place. But I also think I would have benefited from reading up more on the history of the Parthenon beforehand^[I did do a little bit of reading beforehand, but maybe not enough.].
 ![Pasted image 20261016200026.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020261016200026.png)
 
 Theater of Dionysus - Given my interest in [[Interests/Theater/Theater\|theater]], I was excited to see ruins of what were probably the oldest ones we know of (and directly connected to what modern theater became). So I liked seeing this.
 
 ![Pasted image 20261016200212.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020261016200212.png)
 
-Acropolis Museum - I **loved every moment** of the basement of this museum. Apparently when constructing the museum, they realized that there were ruins of an ancient village underneath the foundations, and you can see the excavation of it. There are hundreds of little details to see here. It was so so so cool to me.
+Acropolis Museum - Major highlight. I **loved every moment** of the basement of this museum. Apparently when constructing the museum, they realized that there were ruins of an ancient village underneath the foundations, and you can see the excavation of it. There are hundreds of little details to see here. It was so so so cool to me.
 
 | ![Pasted image 20261016200420.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020261016200420.png) | ![Pasted image 20261016200715.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020261016200715.png) |
 | --- | --- |
@@ -104,12 +104,15 @@ Theopetra Cave -- a small drive away from Delphi, this is an archaelogical site 
 ![Pasted image 20261016201747.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020261016201747.png)
 
 ### Beach pictures
-
+(Swam at all these)
 ![Pasted image 20261016202034.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020261016202034.png)
 
 ![Pasted image 20261016201952.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020261016201952.png)
 
-![Pasted image 20261016202138.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020261016202138.png)
+
+| ![Pasted image 20261027175804.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020261027175804.png) | ![Pasted image 20261016202138.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020261016202138.png) |
+| ------------------------------------ | ------------------------------------ |
+
 
 ![Pasted image 20261016202156.png](/img/user/Lifestyle/Travel/Assets/Pasted%20image%2020261016202156.png)
 
