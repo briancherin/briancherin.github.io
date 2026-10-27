@@ -35,7 +35,7 @@ Similarly, the first part of *The Oresteia* takes place in what was probably Myc
 
 It was very cool to reflect those book experiences onto my own visits. I felt that it enhanced both the books and the places, resonating in both directions -- adding meaning to the literary experience by seeing those places in person; and adding meaning to the in-person visits by being able to connect it to the stories. It's something I would love to do for future trips as well.
 
-(Side note about how I came to read *the Oresteia* -- I asked ChatGPT what would be a good book to read, given my itinerary. So it really was no coincidence at how well it.. coincided with my path.)
+(Side note about how I came to read *the Oresteia* -- I asked ChatGPT what would be a good book to read, given my itinerary. So it really was no coincidence at how well it coincided with my path.)
 
 ### Post-trip takeaways
 - It ended up being good to get distance from home and having a break from routines. The space let my brain pause and reflect. Now that I'm back home, I feel revitalized in certain ways.
