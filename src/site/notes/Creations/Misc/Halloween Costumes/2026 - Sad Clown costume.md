@@ -77,8 +77,8 @@ The first part I worked on was the hat. I started with a baseball cap and used a
 
 Then I cut a large square from the banner and folded it around the hat, pinned it in place, and sewed it on.
 
-| ![[Pasted image 20261101220750.png\|200]] | ![[Pasted image 20261101220729.png\|200]] |
-| ----------------------------------------- | ----------------------------------------- |
+| ![Pasted image 20261101220750.png](/img/user/Creations/Misc/Halloween%20Costumes/Assets/Pasted%20image%2020261101220750.png) | ![Pasted image 20261101220729.png](/img/user/Creations/Misc/Halloween%20Costumes/Assets/Pasted%20image%2020261101220729.png) |
+| ------------------------------------ | ------------------------------------ |
 
 Then for the floppy horns^[in my head these are the "floopy ear things"], I wasn't sure how best to construct them. I was both asking ChatGPT for advice and also looking up images of jester hats online to try to figure out what stitching pattern they used. I feel like working this part out is connected to my interest in [[Interests/Creative/Misc/Plushie making\|plushie-making]], though ultimately the horns ended up being pretty simple to make (though it took some thinking to plan out). 
 
