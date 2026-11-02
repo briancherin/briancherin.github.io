@@ -1,0 +1,5 @@
+---
+{"dg-publish":true,"aliases":["getting involved in theater"],"permalink":"/interests/theater/getting-involved-in-theater/","dgPassFrontmatter":true}
+---
+
+I did stage crew in fifth grade (handing out props during the show) and in middle school (painting sets, and setting up the stage during live performances), and didn't do it in high school and somewhat regret it^[I tell myself that I chose swim team over doing stage crew, and I think it's true, but I do wonder if I could have found some way to do both]. I would love to get involved in backstage theater work again in some form. I live in NYC and it's obviously a good place to do it. I imagine that eventually I'll find some community theater group that takes volunteers. I just have to work around my 9-5 job schedule. I've done some basic research and have seen some options that look like places I could reach out to. It hasn't felt like the right time yet for me to do it - it would be a time commitment and I'm not ready for it yet. But I think it will happen eventually. If it doesn't happen eventually, I'll be disappointed. So I think it will happen eventually. 
