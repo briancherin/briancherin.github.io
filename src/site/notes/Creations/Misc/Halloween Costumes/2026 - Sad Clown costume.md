@@ -46,8 +46,8 @@ Then, I was at a thrift store and I found a couple items that I felt could be pe
 
 My input images:
 
-| ![[Pasted image 20261101214157.png\|200]] | ![[Pasted image 20261101214218.png\|200]] | ![[Pasted image 20261101214240.png\|100]] |
-| ----------------------------------------- | ----------------------------------------- | ----------------------------------------- |
+| ![Pasted image 20261101214157.png](/img/user/Creations/Misc/Halloween%20Costumes/Assets/Pasted%20image%2020261101214157.png) | ![Pasted image 20261101214218.png](/img/user/Creations/Misc/Halloween%20Costumes/Assets/Pasted%20image%2020261101214218.png) | ![Pasted image 20261101214240.png](/img/user/Creations/Misc/Halloween%20Costumes/Assets/Pasted%20image%2020261101214240.png) |
+| ------------------------------------ | ------------------------------------ | ------------------------------------ |
 Generated:
 ![Pasted image 20261101214322.png|200](/img/user/Creations/Misc/Halloween%20Costumes/Assets/Pasted%20image%2020261101214322.png)
 
