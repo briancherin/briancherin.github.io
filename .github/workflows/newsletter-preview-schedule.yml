@@ -4,7 +4,8 @@ on:
   workflow_dispatch:
     inputs: { }
   schedule:
-    - cron: "0 14 * * 2" # Tuesday 10:00 AM ET (EDT; shifts with DST)
+    - cron: "17 7 * * 2" # Tuesday 7:17 AM ET
+      timezone: "America/New_York"
 
 jobs:
   preview-send:
