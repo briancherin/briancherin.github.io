@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://garden.briancher.in/feed.xml" rel="self"></atom:link>
     <atom:link href="https://garden.briancher.in"></atom:link>
-    <updated>2026-11-05T03:51:01Z</updated>
+    <updated>2026-11-05T14:44:49Z</updated>
     <id>https://garden.briancher.in</id>
         <entry>
             <title>
@@ -473,6 +473,25 @@ Yes. The field is usually described as &lt;strong&gt;LLM-based interactive drama
 
             </content>
             <atom:link href="https://garden.briancher.in/projects/software/mini-projects/mini-projects/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                Interest-Based YouTube Discovery
+                
+            </title>
+            <updated>2026-11-05T14:44:49.000Z</updated>
+            <id>https://garden.briancher.in/projects/software/mini-projects/interest-based-you-tube-discovery/</id>
+            <content type="html">
+                &lt;p&gt;Sometimes I really like the kinds of videos that YouTube suggests to me. And then it stops suggesting those kinds of videos and I get frustrated.&lt;/p&gt;
+&lt;p&gt;This project would be to create a more deterministic feed of videos. You list your interests, and the service would find videos relevant to those interests. Probably the resulting videos should be relatively new (e.g. published within the last 30 days). Though, it would be nice to be able to discover older videos that are relevant, too.&lt;/p&gt;
+&lt;p&gt;This would be a standalone webpage where you enter your interests and see the feed. I also envision a way to auto-export the feed to your own custom YouTube playlist which you could save to your account, and it would automatically be updated daily with the latest relevant videos. Then, you could view the results within YouTube itself without needing to go to my external website. I&#39;m not sure yet if this is technically feasible.&lt;/p&gt;
+&lt;p&gt;If I wanted to monetize it, I could limit a user&#39;s account to a certain number of free interests, and then upgrade for unlimited or something like that. I feel a little guilty mentioning monetizing something like this, because it feels like an &amp;quot;open web&amp;quot; kind of thing that should be easily used. But servers don&#39;t run themselves (and these days I am often thinking of how to create a passive income stream on the side, even if it&#39;s modest). I am slightly dubious about whether anyone would actually pay for that, but who knows.&lt;/p&gt;
+&lt;p&gt;Anyway, I&#39;m working on a prototype. Usually I end up making prototypes and scrapping them or letting them rot. Maybe that will happen to this. Maybe it won&#39;t. Ultimately I think it will come down to whether this thing is useful to myself in the first place.&lt;/p&gt;
+&lt;p&gt;Also, YouTube itself has started rolling out a new &amp;quot;custom feed&amp;quot; feature where you enter natural language of what videos you want to see and the feed is based on that. So maybe that would be good enough.&lt;/p&gt;
+&lt;p&gt;I am partly drawing inspiration from another site called &lt;a href=&quot;https://scour.ing/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Scour&lt;/a&gt; which is for discovering articles/blogs based on interests.&lt;/p&gt;
+
+            </content>
+            <atom:link href="https://garden.briancher.in/projects/software/mini-projects/interest-based-you-tube-discovery/"></atom:link>
         </entry>
         <entry>
             <title>
