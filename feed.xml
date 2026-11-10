@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://garden.briancher.in/feed.xml" rel="self"></atom:link>
     <atom:link href="https://garden.briancher.in"></atom:link>
-    <updated>2026-11-10T18:48:32Z</updated>
+    <updated>2026-11-10T19:50:59Z</updated>
     <id>https://garden.briancher.in</id>
         <entry>
             <title>
@@ -426,10 +426,10 @@ Yes. The field is usually described as &lt;strong&gt;LLM-based interactive drama
                 Photo Prompt Journal
                 
             </title>
-            <updated>2026-11-10T18:48:32.000Z</updated>
+            <updated>2026-11-10T19:50:59.000Z</updated>
             <id>https://garden.briancher.in/projects/software/photo-prompt-journal/</id>
             <content type="html">
-                &lt;p&gt;This is something I am developing with the aim to release on the app story (Android first).&lt;/p&gt;
+                &lt;p&gt;This is something I am developing with the aim to release on the app store (Android first).&lt;/p&gt;
 &lt;p&gt;Here&#39;s the vision: The app prompts you with a recent photo you&#39;ve taken, and asks you to describe the story behind the image. You can record audio or write text. The app sends you notifications a couple times a week to do this, and you can have a widget on your homescreen that shows you a new photo periodically. Then you can view your responses in a journal. You can share the image and your caption to social media, or just save it to your device. You can also export it as a video that combines the image with your voice recording and the transcribed caption.&lt;/p&gt;
 &lt;p&gt;I like this because it&#39;s not just a utility - I&#39;m trying to teach a new behavior. To myself, or to the app&#39;s users.&lt;/p&gt;
 &lt;p&gt;Instead of taking pictures and forgetting about them, I want the user to look back at their photos, and to add meaning and depth to them by describing the context, story, or feeling behind it.&lt;/p&gt;
@@ -1404,11 +1404,19 @@ With the snap of a finger:&lt;/p&gt;
                 Whats Up
                 
             </title>
-            <updated>2026-11-05T03:42:09.000Z</updated>
+            <updated>2026-11-10T19:50:59.000Z</updated>
             <id>https://garden.briancher.in/misc/whats-up/</id>
             <content type="html">
                 &lt;p&gt;What&#39;s up. What&#39;s going on. What am I doing, reading, interesting stuff to share that I don&#39;t feel like making a separate page for. I don&#39;t expect myself to keep this super regularly updated or fully comprehensive of my activity - but it&#39;s a place to put stuff that I find noteworthy.&lt;/p&gt;
 &lt;h3 id=&quot;november-2026&quot; tabindex=&quot;-1&quot;&gt;November 2026&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Getting into indie app developer mode.
+&lt;ul&gt;
+&lt;li&gt;I&#39;m planning to publish a simple free widget for Android which lets a user import their highlights from Google Play books. It&#39;s based on a project I worked on years ago. I really just want to get something into the app store. Aiming to have more exciting projects in the future.&lt;/li&gt;
+&lt;li&gt;For later on, I&#39;m working on &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://garden.briancher.in/projects/software/photo-prompt-journal/&quot;&gt;Photo Prompt Journal&lt;/a&gt;. But I want to focus on the above release first.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h4 id=&quot;past-months&quot; tabindex=&quot;-1&quot;&gt;Past months:&lt;/h4&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://garden.briancher.in/misc/what-was-up/may-2026/&quot;&gt;May 2026&lt;/a&gt;&lt;/li&gt;
