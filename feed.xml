@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://garden.briancher.in/feed.xml" rel="self"></atom:link>
     <atom:link href="https://garden.briancher.in"></atom:link>
-    <updated>2026-11-09T00:31:49Z</updated>
+    <updated>2026-11-10T18:48:32Z</updated>
     <id>https://garden.briancher.in</id>
         <entry>
             <title>
@@ -420,6 +420,31 @@ Yes. The field is usually described as &lt;strong&gt;LLM-based interactive drama
 
             </content>
             <atom:link href="https://garden.briancher.in/projects/software/really-old-projects/brianiscool-tk/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                Photo Prompt Journal
+                
+            </title>
+            <updated>2026-11-10T18:48:32.000Z</updated>
+            <id>https://garden.briancher.in/projects/software/photo-prompt-journal/</id>
+            <content type="html">
+                &lt;p&gt;This is something I am developing with the aim to release on the app story (Android first).&lt;/p&gt;
+&lt;p&gt;Here&#39;s the vision: The app prompts you with a recent photo you&#39;ve taken, and asks you to describe the story behind the image. You can record audio or write text. The app sends you notifications a couple times a week to do this, and you can have a widget on your homescreen that shows you a new photo periodically. Then you can view your responses in a journal. You can share the image and your caption to social media, or just save it to your device. You can also export it as a video that combines the image with your voice recording and the transcribed caption.&lt;/p&gt;
+&lt;p&gt;I like this because it&#39;s not just a utility - I&#39;m trying to teach a new behavior. To myself, or to the app&#39;s users.&lt;/p&gt;
+&lt;p&gt;Instead of taking pictures and forgetting about them, I want the user to look back at their photos, and to add meaning and depth to them by describing the context, story, or feeling behind it.&lt;/p&gt;
+&lt;h3 id=&quot;why-this-might-be-useful-for-me&quot; tabindex=&quot;-1&quot;&gt;Why this might be useful for me&lt;/h3&gt;
+&lt;p&gt;I take a lot of pictures. I&#39;m infamous, among my friends, for that behavior. I like to document my life, what I&#39;m doing, to have a record of it and to have something to look back to.&lt;/p&gt;
+&lt;p&gt;There are two problems:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;My photos often don&#39;t go anywhere, unless it&#39;s a group trip and we have a shared Google Photos album. I don&#39;t post to social media. I&#39;ve sometimes been adding photos to posts here in my digital garden, but it&#39;s an extreme minority compared to all the photos I take.&lt;/li&gt;
+&lt;li&gt;I lose the narrative dimension to the photos. I take a picture and wonder if I&#39;ll remember in the future what it meant or why I took it. I don&#39;t caption the photo in the moment... that&#39;s too tedious and takes away from the smoothness of a quick photo.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I&#39;ve tried to solve &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#2&quot;&gt;#2&lt;/a&gt; before. A couple years ago, I started recording what I called &amp;quot;monthly photo recaps&amp;quot;. I would open my photos app and start recording my phone screen and audio, and work my way through my photos, starting from the beginning of the month until the end, scrolling through the photos and describing what I saw, what circumstances surrounded the photos, and what they made me think of. I felt it would be really nice to be able to look back at this narration. It was a form of journaling, adding another dimension to the mass of casual photos I take. I only did this for a few months (I have 5 recordings total) but stopped doing it because, frankly, I just wouldn&#39;t set out the time to do it, and the inertia required to sit for five minutes and talk through my photos was large enough that I started to ignore the monthly reminder I set. And it&#39;s been two years and I&#39;ve only done one additional recording (June of this year) and none other.&lt;/p&gt;
+&lt;p&gt;So jump back to the present, and I was thinking about app ideas, and I reminded myself of this kind of photo journaling. I wondered if I could make some kind of app that would help someone automate this process. First I thought about making something to do literally what I previously did - they scroll through their photos and narrate. But I decided to cut down the scope a bit and start with something simpler, and perhaps more manageable. So the app will prompt the user with one image at a time.&lt;/p&gt;
+
+            </content>
+            <atom:link href="https://garden.briancher.in/projects/software/photo-prompt-journal/"></atom:link>
         </entry>
         <entry>
             <title>
