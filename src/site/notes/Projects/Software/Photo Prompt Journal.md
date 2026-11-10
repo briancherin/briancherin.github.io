@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/projects/software/photo-prompt-journal/","dgPassFrontmatter":true}
 ---
 
-This is something I am developing with the aim to release on the app story (Android first).
+This is something I am developing with the aim to release on the app store (Android first).
 
 Here's the vision: The app prompts you with a recent photo you've taken, and asks you to describe the story behind the image. You can record audio or write text. The app sends you notifications a couple times a week to do this, and you can have a widget on your homescreen that shows you a new photo periodically. Then you can view your responses in a journal. You can share the image and your caption to social media, or just save it to your device. You can also export it as a video that combines the image with your voice recording and the transcribed caption.
 
