@@ -20,4 +20,4 @@ I found this [Github issue]() that helped resolve this. The solution was to manu
 
 
 #### Setting custom domain name
-I added garden.briancher.in as my domain in Github Pages settings, but it got cleared any time I published a note from Obsidian. Thankfully I quickly found a note in the repo's readme which said I needed to add the domain also to .github/workflows/build.yml.
+I added brianscorner.net as my domain in Github Pages settings, but it got cleared any time I published a note from Obsidian. Thankfully I quickly found a note in the repo's readme which said I needed to add the domain also to .github/workflows/build.yml.
