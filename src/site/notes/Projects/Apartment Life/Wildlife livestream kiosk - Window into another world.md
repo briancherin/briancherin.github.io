@@ -35,3 +35,7 @@ The project reminds me of farcaster windows from [[Media I Have Consumed/Books/F
 
 Window into another world.
 
+
+___
+
+Small update on this from [[Misc/What Was Up/November 2026\|November 2026]] - I had this set up in my apartment for a couple weeks. But it was starting to bother me that there was a digital screen for me to mentally 'tend to'. Anytime I walked past it, I felt like I had to take a look at it. I think it disturbed some state of simplicity that is important for me to maintain in my apartment. I think I could try out a different spot for the tablet that might be less obtrusive, but for now it has just been sitting where I originally set it up, but off. Remains to be seen whether I move it or scrap it. (Either way, no regrets on this mini project because it was fun, and better to try out doing something than to never know how it'll turn out.)
