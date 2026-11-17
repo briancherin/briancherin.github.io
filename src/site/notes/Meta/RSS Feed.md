@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/meta/rss-feed/","dgPassFrontmatter":true}
 ---
 
-Link to RSS Feed: https://brianscorner.net/feed.xml
+Link to RSS Feed: https://garden.briancher.in/feed.xml
 
 You can add this link into an RSS reader or subscription service.
 
