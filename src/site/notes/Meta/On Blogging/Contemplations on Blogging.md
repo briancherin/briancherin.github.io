@@ -23,3 +23,5 @@ I think there is also some weirdness about this medium being virtual; a friend i
 Of course, there is also the matter of distribution. Currently anyone reading my site is most likely one of my friends, either one who has subscribed to the newsletter, or someone who has clicked a link in an Instagram story where I occasionally share my notes on. I have listed my site on Kagi Small Web but no other blog index as of now. My traffic from Google Search has also been quite minimal, due to some site indexing issues which I'm working on resolving. All that to say, there are less Internet strangers reading my site than I kind of hope there eventually will be.
 
 All that being said, although it is often quiet around here, it generally does not stop me from continuing to write. So much of the benefit I get from this site is inherent to the simple act of writing and formulating my thoughts, and *having* a place to write (which spurs me to think, formulate, and write). 
+
+___
