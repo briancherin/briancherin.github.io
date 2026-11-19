@@ -61,8 +61,8 @@ But the next iteration is the one that stuck.
 
 Pretty soon after finishing the browser, I decided to make an Android version of it. I knew even then that this would probably be the version of this that I would keep using.
 
-| ![[Pasted image 20261118215930.png\|200]] | ![[Pasted image 20261118215950.png\|200]] |
-| ----------------------------------------- | ----------------------------------------- |
+| ![Pasted image 20261118215930.png](/img/user/Projects/Software/Assets/Pasted%20image%2020261118215930.png) | ![Pasted image 20261118215950.png](/img/user/Projects/Software/Assets/Pasted%20image%2020261118215950.png) |
+| ------------------------------------ | ------------------------------------ |
 
 Then I had the idea for the most lasting feature -- the widget.
 
