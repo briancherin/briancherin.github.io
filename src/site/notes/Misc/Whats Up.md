@@ -10,6 +10,7 @@ What's up. What's going on. What am I doing, reading, interesting stuff to share
 	- For later on, I'm working on [[Projects/Software/Photo Prompt Journal\|Photo Prompt Journal]]. But I want to focus on the above release first.
 - Theater
 	- Saw the [[Media I Have Consumed/Theater/In The Heights\|In The Heights]] revival at the NY City Center. It was a great performance, quite talented cast, and the show hit right on all the best moments.
+		- ^ Above is an understatement. It was an awesome performance!!! The show means a lot to me (mostly because of the phase of life I was in (college) when I was absorbing the soundtrack for the first time) and it translated so well from this cast (it was my first time seeing a real life production of it). I was tearing up throughout the performance and got major chills, especially at the end. 
 
 #### Past months:
 - [[Misc/What Was Up/November 2026\|November 2026]]
