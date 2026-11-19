@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://brianscorner.net/feed.xml" rel="self"></atom:link>
     <atom:link href="https://brianscorner.net"></atom:link>
-    <updated>2026-11-19T02:03:18Z</updated>
+    <updated>2026-11-19T03:25:14Z</updated>
     <id>https://brianscorner.net</id>
         <entry>
             <title>
@@ -420,6 +420,97 @@ Yes. The field is usually described as &lt;strong&gt;LLM-based interactive drama
 
             </content>
             <atom:link href="https://brianscorner.net/projects/software/really-old-projects/brianiscool-tk/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                Play Books Notes Quiz and Browser
+                
+            </title>
+            <updated>2026-11-19T03:25:14.000Z</updated>
+            <id>https://brianscorner.net/projects/software/play-books-notes-quiz-and-browser/</id>
+            <content type="html">
+                &lt;h4 id=&quot;how-it-started&quot; tabindex=&quot;-1&quot;&gt;How it started&lt;/h4&gt;
+&lt;p&gt;I&#39;ve used Google Play Books as my e-book reader of choice for a long time (starting in high school).&lt;/p&gt;
+&lt;p&gt;I also am a semi-frequent highlighter when reading a book. If there&#39;s a quote that stands out to me in some way -- whether it&#39;s sage life advice, or just something I find funny -- I&#39;ll highlight it. I even have a sort of loose &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/interests/reading/book-highlights-color-code/&quot;&gt;color code&lt;/a&gt; for how I highlight.&lt;/p&gt;
+&lt;p&gt;In 2018 (when I was 17 years old), I wrote this idea into Google Keep:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://brianscorner.net/img/user/Projects/Software/Assets/Pasted%20image%2020261118211825.png&quot; alt=&quot;Pasted image 20261118211825.png&quot; /&gt;&lt;br /&gt;
+&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://brianscorner.net/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h4 id=&quot;turning-idea-into-reality-making-the-quiz&quot; tabindex=&quot;-1&quot;&gt;Turning idea into reality - making the quiz&lt;/h4&gt;
+&lt;p&gt;That note sat there for over a year, until in October of 2019 I started working on the idea. This became the basis of what I was calling the &amp;quot;Play Books Highlights Quiz&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Actually, the idea wasn&#39;t quite what the Keep note said. Instead of presenting myself with my written annotation about a quote and making myself determine which quote it came from, it presented one of the quotes I highlighted and I had to pick which book title it came from.&lt;/p&gt;
+&lt;p&gt;The idea was that this would be a way for me to look back at my highlighted passages (to perhaps remind myself of whatever reason I highlighted it for), in the form of a fun little game.&lt;/p&gt;
+&lt;p&gt;My mockup (sketched in OneNote) of the idea:&lt;br /&gt;
+&lt;img src=&quot;https://brianscorner.net/img/user/Projects/Software/Assets/Pasted%20image%2020261118213205.png&quot; alt=&quot;Pasted image 20261118213205.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;And the actual result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://brianscorner.net/img/user/Projects/Software/Assets/Pasted%20image%2020261118213234.png&quot; alt=&quot;Pasted image 20261118213234.png|500&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/briancherin/Google-Play-Books-Highlights-Quiz/refs/heads/master/res/quiz_demo.gif&quot; /&gt;
+&lt;p&gt;I was pretty happy with the result. To be honest, though, I never really actually used it much. The quiz was fun enough when I was playing it, but it was a bit gimicky. I was more just proud that I had created this thing and taken it from mental vision to reality.&lt;/p&gt;
+&lt;p&gt;Technical side note -- The extraction of the quotes from Google Play Books was made possible by a quirk of the platform -- there is an option in Play Books to auto-save highlights to a Google Doc, one per book. So I built into my webapp the capability to select those files from my Google Drive, and then parse the Google Doc to extract the quotes (including the highlight color, book title, date highlighted, and link to the exact location of the quote in the ebook).&lt;/p&gt;
+&lt;h4 id=&quot;the-next-step-building-the-browser&quot; tabindex=&quot;-1&quot;&gt;The next step - building the browser&lt;/h4&gt;
+&lt;p&gt;The project sat for a couple years. But it was simmering in the back of my mind, and I knew I wanted to do something more with it.&lt;/p&gt;
+&lt;p&gt;Admittedly, the quiz idea was kind of a gimick. Fun, but a gimick. I sensed something more important to me emerging: being able to browse my highlights in a nicer way than Play Books natively allowed me to. And I had all the data - I just had to implement it.&lt;/p&gt;
+&lt;p&gt;I took the next steps throughout 2022 and 2023. The first thing I needed to address was the reliability of the quotes storage. In the initial project, I was loading the quotes on the frontend client only. The browser was doing all the work - downloading the files from Google Drive, parsing them, and storing them in the browser&#39;s local storage. The last bit is important -- it means that if I somehow cleared my browser cache or needed to switch computers or something, I would have to re-import all my quotes again&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://brianscorner.net/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;So I decided to create a backend for the webapp. I used Google Firebase, which made it easy to set up authentication, backend cloud functions with an API, and a realtime database.&lt;/p&gt;
+&lt;p&gt;A sketch I found in my notes where I was mapping out how to pass around auth so the backend could pull the required files from Google Drive on behalf of the user token which the Oauth picker provided from the frontend:&lt;br /&gt;
+&lt;img src=&quot;https://brianscorner.net/img/user/Projects/Software/Assets/Pasted%20image%2020261118214947.png&quot; alt=&quot;Pasted image 20261118214947.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Once I made that architectural change, it felt reliable enough for me to build the next part that I cared about -- the browser.&lt;br /&gt;
+&lt;img src=&quot;https://brianscorner.net/img/user/Projects/Software/Assets/Pasted%20image%2020261118215157.png&quot; alt=&quot;Pasted image 20261118215157.png&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/briancherin/Google-Play-Books-Highlights-Quiz/refs/heads/master/res/browse_demo.gif&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It listed all the books in my library, and showed me all my highlighted quotes (and any of my written annotations on the highlights) for each book.&lt;/p&gt;
+&lt;p&gt;I was pretty happy!&lt;/p&gt;
+&lt;h4 id=&quot;the-lasting-impact-android-app-version-and-widget&quot; tabindex=&quot;-1&quot;&gt;The lasting impact -- Android app version and widget&lt;/h4&gt;
+&lt;p&gt;Again, I have to be honest. I haven&#39;t touched the webapp version of this since I finished working on it in 2023.&lt;/p&gt;
+&lt;p&gt;But the next iteration is the one that stuck.&lt;/p&gt;
+&lt;p&gt;Pretty soon after finishing the browser, I decided to make an Android version of it. I knew even then that this would probably be the version of this that I would keep using.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brianscorner.net/404&quot; target=&quot;&quot;&gt;200&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brianscorner.net/404&quot; target=&quot;&quot;&gt;200&lt;/a&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;/table&gt;
+&lt;p&gt;Then I had the idea for the most lasting feature -- the widget.&lt;/p&gt;
+&lt;p&gt;I wanted to have a widget on my phone&#39;s homescreen that would show me a random quote from my highlights, and auto-refresh daily. I had this working by July 2023:&lt;/p&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/briancherin/Google-Play-Books-Highlights-Android-Widget/refs/heads/main/demo/highlights-widget-demo.gif&quot; width=&quot;250px&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://brianscorner.net/img/user/Projects/Software/Assets/Pasted%20image%2020261118220246.png&quot; alt=&quot;Pasted image 20261118220246.png|300&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Another thing to note is that it also periodically re-imported new book highlights from Google Drive, so I didn&#39;t have to manually do anything for new books that I read. Over the last several years, I have been occasionally surprised that this flow has not broken - I haven&#39;t had to touch the code for over two years.&lt;/p&gt;
+&lt;p&gt;Needless to say, I&#39;ve had this widget on my homescreen ever since I created it, and I genuinely enjoy having it there. I like to ocassionally look at what highlight it is showing, and get a kick out of the quotes or my associated note.&lt;/p&gt;
+&lt;p&gt;All the code for the webapp and Android app are available on my Github&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://brianscorner.net/#fn3&quot; id=&quot;fnref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;:&lt;br /&gt;
+&lt;a href=&quot;https://github.com/briancherin/Google-Play-Books-Highlights-Quiz&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://github.com/briancherin/Google-Play-Books-Highlights-Quiz&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/briancherin/Google-Play-Books-Highlights-Android-Widget&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://github.com/briancherin/Google-Play-Books-Highlights-Android-Widget&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;why-did-i-never-put-this-out-anywhere&quot; tabindex=&quot;-1&quot;&gt;Why did I never put this out anywhere?&lt;/h4&gt;
+&lt;p&gt;Well, it worked for me, but it didn&#39;t feel stable enough for real users. I tried to have a couple people use the Oauth flow on the webapp version and it didn&#39;t work, and I never looked further into it. Plus, I was mostly content with using it for myself. It also partly was a nice side project to be able to have on my resume (of course the grand majority of my motivation was to have a tool that I liked using for myself).&lt;/p&gt;
+&lt;h4 id=&quot;jumping-to-2026-releasing-a-simplified-version&quot; tabindex=&quot;-1&quot;&gt;Jumping to 2026 -- releasing a simplified version&lt;/h4&gt;
+&lt;p&gt;So it&#39;s 2026 now.&lt;/p&gt;
+&lt;p&gt;For a long time, probably ever since I&#39;ve started programming, I&#39;ve wanted to publish apps that people actually use, and hopefully one day make money from them. I had a little taste of this from a simple Android app that I published while I was in high school which I actually made a couple thousand dollars in ad revenue from. But since then, nothing.&lt;/p&gt;
+&lt;p&gt;I constantly am thinking of ideas for possible apps/projects. In the last few years, I&#39;ve tried to sneak in time between all the other things I hold myself to working on in my life to work on coding projects, but they never have really gotten far enough to a place where I&#39;d actually release something. I have felt very motivated by ideas like &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/projects/software/grocery-receipt-tracker/&quot;&gt;Grocery Receipt Tracker&lt;/a&gt;,  &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/projects/software/idea-spontaneous-plans/idea-spontaneous-plans/&quot;&gt;Idea - Spontaneous Plans&lt;/a&gt;, and &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/projects/software/idea-social-ebook-annotation/&quot;&gt;Idea - Social ebook annotation&lt;/a&gt;. But I never got anywhere, for one reason or another.&lt;/p&gt;
+&lt;p&gt;I think part of the lack of going anywhere was because I was biting off huge projects which had a lot of uncertainty on whether I could do them well or reasonably get usership.&lt;/p&gt;
+&lt;p&gt;Recently I have been thinking more about putting out something &lt;em&gt;smaller&lt;/em&gt; and straightforward.&lt;/p&gt;
+&lt;p&gt;I was laying in bed one night, thinking about what simple thing I could put out, when the obvious struck me -- my Play Books browser.&lt;/p&gt;
+&lt;p&gt;It&#39;s not a revolutionary product. And it&#39;s very niche -- for people who use Google Play Books and like to highlight things, and feel the need to browse those highlights separate from the official app. And also who are Android users, because I don&#39;t want to invest the time to translate this to iOS yet&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://brianscorner.net/#fn4&quot; id=&quot;fnref4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;But it&#39;s &lt;em&gt;something&lt;/em&gt;, and I really just want to get &lt;em&gt;something&lt;/em&gt; out there.&lt;/p&gt;
+&lt;p&gt;But I had to simplify it still. I have realized with these recent projects that it is not cheap to run a backend server, and it&#39;s hard to justify an always-available backend when there are no users.&lt;/p&gt;
+&lt;p&gt;So I didn&#39;t want to release a backend-supported version of the highlights app.&lt;/p&gt;
+&lt;p&gt;Instead, I&#39;m making a local-only version (i.e. pretty similar to what the earlier iteration of the webapp was). The user will import their book files from Google Drive, the app will parse and store them locally, and then the user will be able to browse their notes and add the auto-refreshing widget to their homescreen.&lt;/p&gt;
+&lt;p&gt;I&#39;m almost ready to release this, and I&#39;ve already been learning a lot. It feels very different to be publishing an app with an adult mindset, compared to ten years ago when I was publishing fun-facts apps under a pseudonym. I&#39;m feeling the momentum build, and it&#39;s already leading me into the next bite-sized project I want to release - &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/projects/software/photo-prompt-journal/&quot;&gt;Photo Prompt Journal&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Again, I&#39;m keeping my expectations low. I don&#39;t expect many users. But I&#39;m curious to see what will happen. It&#39;s kind of crazy that I&#39;m finally doing something with this project that started as an idea in my mind over eight years ago.&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;play books highlights / notes game extension idea: Given my caption for a certain quote, determine which quote it came from, from several choices &lt;a href=&quot;https://brianscorner.net/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;which admittedly wouldn&#39;t have been too big of a deal, but it would happen occasionally and it was an annoyance &lt;a href=&quot;https://brianscorner.net/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn3&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;It crosses my mind that, since I may want to eventually monetize the app I&#39;m releasing in some way, that I should make it harder to access this code. But frankly, my code is nothing revolutionary, and someone could easily reproduce it just with an AI coding tool. if someone is paying me for this, it is for the convenience of my having made the app for them, not out of the impossibility of them implementing it themself. &lt;a href=&quot;https://brianscorner.net/#fnref3&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn4&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;maybe I will if I get a better sense of whether people actually want to use this &lt;a href=&quot;https://brianscorner.net/#fnref4&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+            </content>
+            <atom:link href="https://brianscorner.net/projects/software/play-books-notes-quiz-and-browser/"></atom:link>
         </entry>
         <entry>
             <title>
@@ -1406,7 +1497,7 @@ With the snap of a finger:&lt;/p&gt;
                 Whats Up
                 
             </title>
-            <updated>2026-11-17T03:59:02.000Z</updated>
+            <updated>2026-11-19T03:25:14.000Z</updated>
             <id>https://brianscorner.net/misc/whats-up/</id>
             <content type="html">
                 &lt;p&gt;What&#39;s up. What&#39;s going on. What am I doing, reading, interesting stuff to share that I don&#39;t feel like making a separate page for. I don&#39;t expect myself to keep this super regularly updated or fully comprehensive of my activity - but it&#39;s a place to put stuff that I find noteworthy.&lt;/p&gt;
@@ -1414,7 +1505,7 @@ With the snap of a finger:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Getting into indie app developer mode.
 &lt;ul&gt;
-&lt;li&gt;I&#39;m planning to publish a simple free widget for Android which lets a user import their highlights from Google Play books. It&#39;s based on a project I worked on years ago. I really just want to get something into the app store. Aiming to have more exciting projects in the future.&lt;/li&gt;
+&lt;li&gt;I&#39;m planning to publish a simple free widget for Android which lets a user import their highlights from Google Play books. It&#39;s based on a project I worked on years ago (&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/projects/software/play-books-notes-quiz-and-browser/&quot;&gt;Play Books Notes Quiz and Browser&lt;/a&gt;) but a simplified version. I really just want to get something into the app store. Aiming to have more exciting projects in the future.&lt;/li&gt;
 &lt;li&gt;For later on, I&#39;m working on &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/projects/software/photo-prompt-journal/&quot;&gt;Photo Prompt Journal&lt;/a&gt;. But I want to focus on the above release first.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -8725,6 +8816,33 @@ Experimenting with the idea of scraping the captions from Tiktok videos of someo
 
             </content>
             <atom:link href="https://brianscorner.net/interests/reading/inspiration/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                Book Highlights Color Code
+                
+            </title>
+            <updated>2026-11-19T03:25:14.000Z</updated>
+            <id>https://brianscorner.net/interests/reading/book-highlights-color-code/</id>
+            <content type="html">
+                &lt;p&gt;I like to highlight passes that stand out to me in e-books&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://brianscorner.net/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;. Over the years I&#39;ve developed a sort of loose color code for when I highlight something:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;yellow for something in the writing that just generally stands out&lt;/li&gt;
+&lt;li&gt;blue for something that is funny according to some inside joke with myself or an allusion to other material&lt;/li&gt;
+&lt;li&gt;red for the sage life advice stuff that I want to mark as something significant for me to remember and look back on&lt;/li&gt;
+&lt;li&gt;green for something related to my specific reason for reading the book, or more lately, just a catch-all if I want to add commentary on my experience of reading the book&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When I &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/projects/software/play-books-notes-quiz-and-browser/&quot;&gt;look back at my highlights&lt;/a&gt;, I then have a sense of why I highlighted each one, based on its color.&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;I read 99% of books in e-book form &lt;a href=&quot;https://brianscorner.net/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+            </content>
+            <atom:link href="https://brianscorner.net/interests/reading/book-highlights-color-code/"></atom:link>
         </entry>
         <entry>
             <title>
