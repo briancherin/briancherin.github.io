@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://brianscorner.net/feed.xml" rel="self"></atom:link>
     <atom:link href="https://brianscorner.net"></atom:link>
-    <updated>2026-11-19T03:27:21Z</updated>
+    <updated>2026-11-19T03:28:04Z</updated>
     <id>https://brianscorner.net</id>
         <entry>
             <title>
@@ -2692,10 +2692,11 @@ Another interesting choice was that after the narrator was killed, there was no 
                 In The Heights
                 
             </title>
-            <updated>2026-11-15T17:57:08.000Z</updated>
+            <updated>2026-11-19T03:28:04.000Z</updated>
             <id>https://brianscorner.net/media-i-have-consumed/theater/in-the-heights/</id>
             <content type="html">
-                
+                &lt;p&gt;Show by Lin Manuel Miranda (he made it before Hamilton).&lt;/p&gt;
+
             </content>
             <atom:link href="https://brianscorner.net/media-i-have-consumed/theater/in-the-heights/"></atom:link>
         </entry>
