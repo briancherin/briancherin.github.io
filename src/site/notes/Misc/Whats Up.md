@@ -6,7 +6,7 @@ What's up. What's going on. What am I doing, reading, interesting stuff to share
 
 ### November 2026
 - Getting into indie app developer mode. 
-	- I'm planning to publish a simple free widget for Android which lets a user import their highlights from Google Play books. It's based on a project I worked on years ago. I really just want to get something into the app store. Aiming to have more exciting projects in the future.
+	- I'm planning to publish a simple free widget for Android which lets a user import their highlights from Google Play books. It's based on a project I worked on years ago ([[Projects/Software/Play Books Notes Quiz and Browser\|Play Books Notes Quiz and Browser]]) but a simplified version. I really just want to get something into the app store. Aiming to have more exciting projects in the future.
 	- For later on, I'm working on [[Projects/Software/Photo Prompt Journal\|Photo Prompt Journal]]. But I want to focus on the above release first.
 - Theater
 	- Saw the [[Media I Have Consumed/Theater/In The Heights\|In The Heights]] revival at the NY City Center. It was a great performance, quite talented cast, and the show hit right on all the best moments.
