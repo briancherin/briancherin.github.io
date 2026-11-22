@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://brianscorner.net/feed.xml" rel="self"></atom:link>
     <atom:link href="https://brianscorner.net"></atom:link>
-    <updated>2026-11-22T17:26:51Z</updated>
+    <updated>2026-11-22T18:11:43Z</updated>
     <id>https://brianscorner.net</id>
         <entry>
             <title>
@@ -1063,6 +1063,47 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
         </entry>
         <entry>
             <title>
+                CrowdSpeare - Crowdsourced Shakespeare Performances, or More
+                
+            </title>
+            <updated>2026-11-22T18:11:43.000Z</updated>
+            <id>https://brianscorner.net/projects/software/crowd-speare-crowdsourced-shakespeare-performances-or-more/</id>
+            <content type="html">
+                &lt;p&gt;I was laying in bed a few nights ago when this idea spawned into existence and I couldn&#39;t stop thinking about it. It&#39;s kind of a silly idea, but I think it would be fun to create.&lt;/p&gt;
+&lt;p&gt;Here&#39;s the idea: Select a Shakespeare play and put up the script online. Divide it into short segments (i.e. each speaking line is one segment). Users claim a segment and upload a video of them speaking or acting out that dialogue. Eventually there will be a video for every speaking part, and putting it all together, it will be a Shakespeare performance made up of all these individual parts stitched together.&lt;/p&gt;
+&lt;p&gt;What&#39;s the point? Just for fun, to see what&#39;ll happen, it&#39;s a sort of art experiment, and maybe the result will be funny or interesting. I have an intuition that people would find it fun to contribute and watch the result. The intuition could be wrong but I&#39;m excited enough about the idea to keep moving forward with it. So far I&#39;m just building out a prototype for the interface that shows the script and lets users upload videos. Ideally I will have a web app version and Android/iOS versions.&lt;/p&gt;
+&lt;p&gt;Creating it will be not very hard (especially because of AI assistance). The harder part for projects these days is marketing and getting people to care about it. I actually feel like for this project, this part won&#39;t be too hard either. I can post it online. I also live in NYC where there is plenty of theater community. I have an image in my head of going to a theater school building at Columbia or NYU and putting up some flyers with a QR code and some challenge like &amp;quot;Can you do the best Romeo and Juliet scene&amp;quot; or something better-sounding than that.&lt;/p&gt;
+&lt;p&gt;I think there would be an organic social sharing aspect to this. Someone uploads their video and then shares the site with their friend so their friend can contribute too. It could be competitive too. You see someone&#39;s take of a line and you think you can do better, so you record your own. Users will be able to upvote recordings, so there&#39;s a Fake Internet Points motivation there, too.&lt;/p&gt;
+&lt;p&gt;It&#39;s also mostly an experimental art venture rather than a profit-driven project, so I think that adds to the appeal or at least doesn&#39;t make it unappealing. Of course I am also contemplating how this could turn monetizable in the future if it gains traction, and I have a couple ideas, but that&#39;s not really the reason I want to do this. I want to do it because it seems really fun. Of course there will be server costs and probably storage costs (though maybe Cloudflare has storage offerings that will not make it too bad, I have to research it more). So probably I would have a way for users to donate money to the project if they would like to. But obviously I wouldn&#39;t gate video submissions by membership or anything like that, which would be silly if I actually want people to contribute to it.&lt;/p&gt;
+&lt;p&gt;There was actually an existing project that&#39;s conceptually very similar. ChatGPT found this for me after I explained my idea. Star Wars Uncut: &lt;a href=&quot;https://www.starwarsuncut.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.starwarsuncut.com/&lt;/a&gt; -- it was a project in 2010 where Star Wars: A New Hope was broken into segments and people recorded their version of it and eventually the best submissions were stitched together into one movie, available on youtube. I watched a couple clips and it looks very fun (and many of the user contributed scenes are impressive). I feel this is quite validating for my own idea. Though it does make me further wonder if anyone else has had this idea before and succeeded or failed.&lt;/p&gt;
+&lt;p&gt;My original idea actually wasn&#39;t for Shakespeare/plays, it was for movies (so actually closers to the Star Wars one). But I quickly realized that there might be copyright issues if I try to crowdsource people to reproduce a popular movie. Apparently the Star Wars Uncut actually had an agreement with the studio and got permission. But still I&#39;m keeping this in mind as a potential area for expansion in the future.&lt;/p&gt;
+&lt;p&gt;I was also kind of surprised that &lt;a href=&quot;http://crowdspeare.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;crowdspeare.com&lt;/a&gt; was an unregistered domain, but it feels like the perfect name for me. (I have bought the domain, otherwise I would not say the intended name in fear that someone&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://brianscorner.net/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; would buy it before me).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;similar-projects&quot; tabindex=&quot;-1&quot;&gt;Similar projects&lt;/h3&gt;
+&lt;p&gt;I found another (very) similar project: Sofa Shakespeare &lt;a href=&quot;https://www.youtube.com/@sofashakespeare6025&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.youtube.com/@sofashakespeare6025&lt;/a&gt;. They crowdsourced 1 minute clips from Shakespeare plays and stitched them together. There&#39;s also a research paper about the project: &lt;a href=&quot;https://www.tara.tcd.ie/items/e38b1064-2e8a-48b8-ba9c-3fd248f6d2d4&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.tara.tcd.ie/items/e38b1064-2e8a-48b8-ba9c-3fd248f6d2d4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;My instinct, when finding something so similar to an idea I have, is to feel a slight blow. My idea wasn&#39;t as original as I thought. But I think that mindset should be smoothed over to something else. It provides validation to the idea -- it&#39;s something that people would be interested in. My take is also unique in its own way -- I&#39;m proposing a platform, an interactive way for people to engage with this kind of project (whereas the Sofa Shakespeare was one person manually managing video allocation and submissions through Facebook).&lt;/p&gt;
+&lt;p&gt;Other related projects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mentioned above -- Star Wars Uncut:  &lt;a href=&quot;https://www.starwarsuncut.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.starwarsuncut.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Johnny Cash project -- participants each submitted one drawn frame of Johnny Cash&#39;s final music video. &lt;a href=&quot;https://www.aaronkoblin.com/project/johnny-cash-project/?utm_source=chatgpt.com&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.aaronkoblin.com/project/johnny-cash-project/?utm_source=chatgpt.com&lt;/a&gt; (assembled video: &lt;a href=&quot;https://www.youtube.com/watch?v=rJPMu1sfOoI&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.youtube.com/watch?v=rJPMu1sfOoI&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Shrek Retold -- Similar to Star Wars Uncut, this is a full Shrek movie put together from segments in different styles: &lt;a href=&quot;https://the3gi.com/pages/shrek-retold&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://the3gi.com/pages/shrek-retold&lt;/a&gt;. That project was from 2018 but there is actually an in progress &lt;a href=&quot;https://www.youtube.com/watch?v=MbKRAOKCkxc&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;followup&lt;/a&gt; with some updates to the project in 2026. I think there is a difference here though, where clips are recreated professionally rather than from public crowdsourced submissions.&lt;/li&gt;
+&lt;li&gt;Back to the future 2 - &lt;a href=&quot;https://www.youtube.com/watch?v=GcUUjWbVc4I&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.youtube.com/watch?v=GcUUjWbVc4I&lt;/a&gt; Crowdsourced scenes&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;most of the readers of this blog are my friends so obviously I am not worried about them stealing it, but still &lt;a href=&quot;https://brianscorner.net/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+            </content>
+            <atom:link href="https://brianscorner.net/projects/software/crowd-speare-crowdsourced-shakespeare-performances-or-more/"></atom:link>
+        </entry>
+        <entry>
+            <title>
                 Wildlife livestream kiosk - Window into another world
                 
             </title>
@@ -1508,7 +1549,7 @@ With the snap of a finger:&lt;/p&gt;
                 Whats Up
                 
             </title>
-            <updated>2026-11-19T03:27:21.000Z</updated>
+            <updated>2026-11-22T18:11:43.000Z</updated>
             <id>https://brianscorner.net/misc/whats-up/</id>
             <content type="html">
                 &lt;p&gt;What&#39;s up. What&#39;s going on. What am I doing, reading, interesting stuff to share that I don&#39;t feel like making a separate page for. I don&#39;t expect myself to keep this super regularly updated or fully comprehensive of my activity - but it&#39;s a place to put stuff that I find noteworthy.&lt;/p&gt;
@@ -1518,6 +1559,7 @@ With the snap of a finger:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;I&#39;m planning to publish a simple free widget for Android which lets a user import their highlights from Google Play books. It&#39;s based on a project I worked on years ago (&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/projects/software/play-books-notes-quiz-and-browser/&quot;&gt;Play Books Notes Quiz and Browser&lt;/a&gt;) but a simplified version. I really just want to get something into the app store. Aiming to have more exciting projects in the future.&lt;/li&gt;
 &lt;li&gt;For later on, I&#39;m working on &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/projects/software/photo-prompt-journal/&quot;&gt;Photo Prompt Journal&lt;/a&gt;. But I want to focus on the above release first.&lt;/li&gt;
+&lt;li&gt;Added onto the roster now is &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/projects/software/crowd-speare-crowdsourced-shakespeare-performances-or-more/&quot;&gt;CrowdSpeare - Crowdsourced Shakespeare Performances, or More&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Theater
