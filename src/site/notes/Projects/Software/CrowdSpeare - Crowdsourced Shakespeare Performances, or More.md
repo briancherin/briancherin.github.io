@@ -27,7 +27,9 @@ I found another (very) similar project: Sofa Shakespeare https://www.youtube.com
 
 My instinct, when finding something so similar to an idea I have, is to feel a slight blow. My idea wasn't as original as I thought. But I think that mindset should be smoothed over to something else. It provides validation to the idea -- it's something that people would be interested in. My take is also unique in its own way -- I'm proposing a platform, an interactive way for people to engage with this kind of project (whereas the Sofa Shakespeare was one person manually managing video allocation and submissions through Facebook). 
 
-Other related projects:
+It's actually kind of funny that I approached this idea blindly -- I could imagine a scenario where I had been familiar with these prior examples and wanted to create a platform to automate the tedious organizational work. Instead, I had the crowdsourced production idea first, decided to build a platform to support it, and then realized there were more manual projects in the past.
+
+Other similar projects:
 - Mentioned above -- Star Wars Uncut:  https://www.starwarsuncut.com/
 - The Johnny Cash project -- participants each submitted one drawn frame of Johnny Cash's final music video. https://www.aaronkoblin.com/project/johnny-cash-project/?utm_source=chatgpt.com (assembled video: https://www.youtube.com/watch?v=rJPMu1sfOoI)
 - Shrek Retold -- Similar to Star Wars Uncut, this is a full Shrek movie put together from segments in different styles: https://the3gi.com/pages/shrek-retold. That project was from 2018 but there is actually an in progress [followup](https://www.youtube.com/watch?v=MbKRAOKCkxc) with some updates to the project in 2026. I think there is a difference here though, where clips are recreated professionally rather than from public crowdsourced submissions.
