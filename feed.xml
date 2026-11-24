@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://brianscorner.net/feed.xml" rel="self"></atom:link>
     <atom:link href="https://brianscorner.net"></atom:link>
-    <updated>2026-11-24T04:34:05Z</updated>
+    <updated>2026-11-24T04:57:37Z</updated>
     <id>https://brianscorner.net</id>
         <entry>
             <title>
@@ -1074,7 +1074,7 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
                 CrowdSpeare - Crowdsourced Shakespeare Performances, or More
                 
             </title>
-            <updated>2026-11-22T18:14:28.000Z</updated>
+            <updated>2026-11-24T04:57:37.000Z</updated>
             <id>https://brianscorner.net/projects/software/crowd-speare-crowdsourced-shakespeare-performances-or-more/</id>
             <content type="html">
                 &lt;p&gt;I was laying in bed a few nights ago when this idea spawned into existence and I couldn&#39;t stop thinking about it. It&#39;s kind of a silly idea, but I think it would be fun to create.&lt;/p&gt;
@@ -1097,13 +1097,21 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
 &lt;li&gt;The Johnny Cash project -- participants each submitted one drawn frame of Johnny Cash&#39;s final music video. &lt;a href=&quot;https://www.aaronkoblin.com/project/johnny-cash-project/?utm_source=chatgpt.com&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.aaronkoblin.com/project/johnny-cash-project/?utm_source=chatgpt.com&lt;/a&gt; (assembled video: &lt;a href=&quot;https://www.youtube.com/watch?v=rJPMu1sfOoI&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.youtube.com/watch?v=rJPMu1sfOoI&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Shrek Retold -- Similar to Star Wars Uncut, this is a full Shrek movie put together from segments in different styles: &lt;a href=&quot;https://the3gi.com/pages/shrek-retold&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://the3gi.com/pages/shrek-retold&lt;/a&gt;. That project was from 2018 but there is actually an in progress &lt;a href=&quot;https://www.youtube.com/watch?v=MbKRAOKCkxc&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;followup&lt;/a&gt; with some updates to the project in 2026. I think there is a difference here though, where clips are recreated professionally rather than from public crowdsourced submissions.&lt;/li&gt;
 &lt;li&gt;Back to the future 2 - &lt;a href=&quot;https://www.youtube.com/watch?v=GcUUjWbVc4I&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.youtube.com/watch?v=GcUUjWbVc4I&lt;/a&gt; Crowdsourced scenes&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;There&#39;s an interesting combination of things that I think led to this idea springing forth from my mind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;My &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/projects/software/idea-social-ebook-annotation/&quot;&gt;Idea - Social ebook annotation&lt;/a&gt; and the related &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/projects/software/book-forum/&quot;&gt;Book Forum&lt;/a&gt; idea have got me thinking about collaborate social dialogue on media. The ebook annotation is about giving people the granularity of being able to discuss any individual passage from a book (and the book forum idea is a more unstructured version of this, since it&#39;s more of a chapter-based comments thread concept rather than integrated within a specific highlighted portion of the actual book). Splitting up a play/movie and letting a user engage with a specific segment has kind of a similar feel.&lt;/li&gt;
+&lt;li&gt;I&#39;ve started to browse Reddit&#39;s r/EntrepreneurRideAlong in hope of inspiration/advice on making a profitable side project&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://brianscorner.net/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; and one post I stumbled upon was about someone&#39;s website&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://brianscorner.net/#fn3&quot; id=&quot;fnref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt; they made which is aiming to collect 100,000 photos from people to add to a mosaic which will be physically made and set up in a real life art installation for a week (&lt;a href=&quot;https://www.reddit.com/r/EntrepreneurRideAlong/comments/1tpr41n/got_laid_off_built_a_weird_internet_project_in&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;original post here&lt;/a&gt;). I thought this was interesting but didn&#39;t think much more of it. But I think it put into my mind the concept of a collaborate art project with input from many people which will have a presentable result in the end. (It was probably within a few days of reading this post that I spawned the CrowdSpeare idea.)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
 &lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;most of the readers of this blog are my friends so obviously I am not worried about them stealing it, but still &lt;a href=&quot;https://brianscorner.net/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;I hoped that the &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/media-i-have-consumed/podcasts/indie-hackers-podcast/indie-hackers-podcast/&quot;&gt;Indie Hackers&lt;/a&gt; forum would provide that, but it is all just people advertising their hustles with AI generated posts or at least human generated clickbait titles. This subreddit has some of that too (especially AI comments in response to posts) but it also has more human discussion too so I&#39;m semi enjoying it. &lt;a href=&quot;https://brianscorner.net/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn3&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://onetile.me/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;onetile.me&lt;/a&gt; &lt;a href=&quot;https://brianscorner.net/#fnref3&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -1116,10 +1124,12 @@ It&#39;s time to check on both the lentils and the rice. The lentils should be t
                 Book Forum
                 
             </title>
-            <updated>2026-11-24T04:25:36.000Z</updated>
+            <updated>2026-11-24T04:57:37.000Z</updated>
             <id>https://brianscorner.net/projects/software/book-forum/</id>
             <content type="html">
-                
+                &lt;p&gt;Kind of an extension of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/projects/software/idea-social-ebook-annotation/&quot;&gt;Idea - Social ebook annotation&lt;/a&gt;. Having a website with a page for discussions about every chapter of every book.&lt;/p&gt;
+&lt;p&gt;I did find one existing website - &lt;a href=&quot;http://pagebound.co/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;http://pagebound.co/&lt;/a&gt; - which is almost exactly my idea. But I have some problems with that site and its UX/feel and I think there would be room for my own vision of it.&lt;/p&gt;
+
             </content>
             <atom:link href="https://brianscorner.net/projects/software/book-forum/"></atom:link>
         </entry>
@@ -3232,11 +3242,12 @@ But most of the last two seasons were disappointing, and unfortunately that&#39;
                 Tobias van Schneider - Indie Hackers Ep. 035
                 
             </title>
-            <updated>2026-11-24T04:34:05.000Z</updated>
+            <updated>2026-11-24T04:57:37.000Z</updated>
             <id>https://brianscorner.net/media-i-have-consumed/podcasts/indie-hackers-podcast/tobias-van-schneider-indie-hackers-ep-035/</id>
             <content type="html">
                 &lt;p&gt;&lt;a href=&quot;https://indiehackers.transistor.fm/episodes/035-definitely-not-trying-to-fit-in-with-tobias-van-schneider&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://indiehackers.transistor.fm/episodes/035-definitely-not-trying-to-fit-in-with-tobias-van-schneider&lt;/a&gt;&lt;br /&gt;
-Released November 1, 2017&lt;/p&gt;
+Released November 1, 2017&lt;br /&gt;
+Listened to in &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/misc/what-was-up/november-2026/&quot;&gt;November 2026&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Notes I took while listening:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Having a blog - putting things down on a page helps you think through things (related to some of my recent &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/meta/on-blogging/contemplations-on-blogging/&quot;&gt;Contemplations on Blogging&lt;/a&gt;). &amp;quot;I write it for myself&amp;quot; and might as well publish for others. Write for yourself first and then for the others (or just for yourself is fine too)&lt;/li&gt;
@@ -3390,11 +3401,12 @@ Released November 1, 2017&lt;/p&gt;
                 Pieter Levels of Nomad List - Indie Hackers Ep. 043
                 
             </title>
-            <updated>2026-11-24T04:34:05.000Z</updated>
+            <updated>2026-11-24T04:57:37.000Z</updated>
             <id>https://brianscorner.net/media-i-have-consumed/podcasts/indie-hackers-podcast/pieter-levels-of-nomad-list-indie-hackers-ep-043/</id>
             <content type="html">
                 &lt;p&gt;&lt;a href=&quot;https://indiehackers.transistor.fm/episodes/043-confronting-your-fears-and-taking-a-leap-with-pieter-levels-of-nomad-list&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://indiehackers.transistor.fm/episodes/043-confronting-your-fears-and-taking-a-leap-with-pieter-levels-of-nomad-list&lt;/a&gt;&lt;br /&gt;
 Released January 17, 2018&lt;/p&gt;
+&lt;p&gt;Listened in &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/misc/what-was-up/november-2026/&quot;&gt;November 2026&lt;/a&gt; when I have been working on some projects like &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/projects/software/play-books-notes-quiz-and-browser/#jumping-to-2026-releasing-a-simplified-version&quot;&gt;Play Books Notes Quiz and Browser#Jumping to 2026 -- releasing a simplified version&lt;/a&gt; and &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/projects/software/photo-prompt-journal/&quot;&gt;Photo Prompt Journal&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Notes from listening to this episode:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Dont spend too much time on one startup idea&lt;/li&gt;
