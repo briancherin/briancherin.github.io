@@ -8,3 +8,5 @@ Episodes I've taken notes on:
 - [[Media I Have Consumed/Podcasts/Indie Hackers Podcast/1 Second Everyday - Indie Hackers Podcast\|1 Second Everyday - Indie Hackers Podcast]]
 - [[Media I Have Consumed/Podcasts/Indie Hackers Podcast/Daniel Vassallo - Indie Hackers Podcast\|Daniel Vassallo - Indie Hackers Podcast]]
 - [[Media I Have Consumed/Podcasts/Indie Hackers Podcast/The Right Way to Talk to People About Your Business - Indie Hackers Podcast\|The Right Way to Talk to People About Your Business - Indie Hackers Podcast]]
+- [[Media I Have Consumed/Podcasts/Indie Hackers Podcast/Pieter Levels of Nomad List - Indie Hackers Ep. 043\|Pieter Levels of Nomad List - Indie Hackers Ep. 043]]
+- [[Media I Have Consumed/Podcasts/Indie Hackers Podcast/Tobias van Schneider - Indie Hackers Ep. 035\|Tobias van Schneider - Indie Hackers Ep. 035]]

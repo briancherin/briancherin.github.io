@@ -3,6 +3,7 @@
 ---
 
 https://indiehackers.transistor.fm/episodes/043-confronting-your-fears-and-taking-a-leap-with-pieter-levels-of-nomad-list
+Released January 17, 2018
 
 Notes from listening to this episode:
 - Dont spend too much time on one startup idea 
