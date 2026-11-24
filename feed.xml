@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://brianscorner.net/feed.xml" rel="self"></atom:link>
     <atom:link href="https://brianscorner.net"></atom:link>
-    <updated>2026-11-24T04:57:37Z</updated>
+    <updated>2026-11-24T19:24:54Z</updated>
     <id>https://brianscorner.net</id>
         <entry>
             <title>
@@ -9869,6 +9869,23 @@ I also started recently (2026) following raminnazer on Instagram which also fits
 
             </content>
             <atom:link href="https://brianscorner.net/interests/creative/drawing/creating-webcomics/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                Creative Coding
+                
+            </title>
+            <updated>2026-11-24T19:24:54.000Z</updated>
+            <id>https://brianscorner.net/interests/creative/coding/creative-coding/</id>
+            <content type="html">
+                &lt;p&gt;Some videos about creative coding&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=eCtOUBIkyyw&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.youtube.com/watch?v=eCtOUBIkyyw&lt;/a&gt; talk by Dan Shiffman. I haven&#39;t thought about it in a long time, but I used to watch his Coding Train videos quite often. I never really acted on the ideas presented in those videos, so I&#39;m curious to see if I have a similar feeling of inspiration in my current life as(/if?) I venture into trying out creative coding.&lt;/li&gt;
+&lt;li&gt;10 years of daily sketching, Zach Lierberman &lt;a href=&quot;https://www.youtube.com/watch?v=CaF0t8QrQjE&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.youtube.com/watch?v=CaF0t8QrQjE&lt;/a&gt;. helping me understand more examples of creative coding. Inspiring.&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <atom:link href="https://brianscorner.net/interests/creative/coding/creative-coding/"></atom:link>
         </entry>
         <entry>
             <title>
