@@ -5,6 +5,8 @@
 https://indiehackers.transistor.fm/episodes/043-confronting-your-fears-and-taking-a-leap-with-pieter-levels-of-nomad-list
 Released January 17, 2018
 
+Listened in [[Misc/What Was Up/November 2026\|November 2026]] when I have been working on some projects like [[Projects/Software/Play Books Notes Quiz and Browser#Jumping to 2026 -- releasing a simplified version\|Play Books Notes Quiz and Browser#Jumping to 2026 -- releasing a simplified version]] and [[Projects/Software/Photo Prompt Journal\|Photo Prompt Journal]].
+
 Notes from listening to this episode:
 - Dont spend too much time on one startup idea 
 - Want to make "indie music" - not something that will universally appeal to everyone, but something he likes. Follow gut to make decisions on what to build rather than just following metrics. (Still test/observe features obviously)

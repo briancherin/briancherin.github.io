@@ -4,6 +4,7 @@
 
 https://indiehackers.transistor.fm/episodes/035-definitely-not-trying-to-fit-in-with-tobias-van-schneider
 Released November 1, 2017
+Listened to in [[Misc/What Was Up/November 2026\|November 2026]]
 
 Notes I took while listening:
 - Having a blog - putting things down on a page helps you think through things (related to some of my recent [[Meta/On Blogging/Contemplations on Blogging\|Contemplations on Blogging]]). "I write it for myself" and might as well publish for others. Write for yourself first and then for the others (or just for yourself is fine too)
