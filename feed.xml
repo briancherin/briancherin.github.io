@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://brianscorner.net/feed.xml" rel="self"></atom:link>
     <atom:link href="https://brianscorner.net"></atom:link>
-    <updated>2026-11-24T04:25:36Z</updated>
+    <updated>2026-11-24T04:34:05Z</updated>
     <id>https://brianscorner.net</id>
         <entry>
             <title>
@@ -3229,6 +3229,66 @@ But most of the last two seasons were disappointing, and unfortunately that&#39;
         </entry>
         <entry>
             <title>
+                Tobias van Schneider - Indie Hackers Ep. 035
+                
+            </title>
+            <updated>2026-11-24T04:34:05.000Z</updated>
+            <id>https://brianscorner.net/media-i-have-consumed/podcasts/indie-hackers-podcast/tobias-van-schneider-indie-hackers-ep-035/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a href=&quot;https://indiehackers.transistor.fm/episodes/035-definitely-not-trying-to-fit-in-with-tobias-van-schneider&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://indiehackers.transistor.fm/episodes/035-definitely-not-trying-to-fit-in-with-tobias-van-schneider&lt;/a&gt;&lt;br /&gt;
+Released November 1, 2017&lt;/p&gt;
+&lt;p&gt;Notes I took while listening:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Having a blog - putting things down on a page helps you think through things (related to some of my recent &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/meta/on-blogging/contemplations-on-blogging/&quot;&gt;Contemplations on Blogging&lt;/a&gt;). &amp;quot;I write it for myself&amp;quot; and might as well publish for others. Write for yourself first and then for the others (or just for yourself is fine too)&lt;/li&gt;
+&lt;li&gt;Having low expectation, &amp;quot;just wanted 100 people&amp;quot; to use it. Easy to get 100, you just go door to door / hustle.&lt;/li&gt;
+&lt;li&gt;Not having everything figured out shouldn&#39;t stop you from making something&lt;/li&gt;
+&lt;li&gt;&amp;quot;Side projects are stupid because they have to be&amp;quot;. &lt;strong&gt;Keep it simple and stupid / low expectations on purpose, and figure out as you go&lt;/strong&gt;. If you have to work out every little detail from the start, you&#39;re making it more complex, and losing the momentum.
+&lt;ul&gt;
+&lt;li&gt;(I keep telling myself for &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/projects/software/crowd-speare-crowdsourced-shakespeare-performances-or-more/&quot;&gt;CrowdSpeare&lt;/a&gt;, this is stupid but i love this idea)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Find what motivates you, keep it super simple, so there&#39;s absolutely no excuse to not do it&lt;/li&gt;
+&lt;li&gt;Someone doing something already doesn&#39;t mean you shouldn&#39;t do your own approach/take on it. Can be a good sign - validates the idea. &amp;quot;You (the existing product) already gave the people a taste and they want more -- now I&#39;ll do the same thing but with a special twist.&amp;quot;&lt;/li&gt;
+&lt;li&gt;Having too many excuses at the beginning drives you away from doing the things you like to do.  &amp;quot;Most of the things you like to do don&#39;t have an obvious path to success.&amp;quot;&lt;/li&gt;
+&lt;li&gt;Better to do what&#39;s fun sometime.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Waste your ideas&amp;quot;. Put them out as much as you can&lt;/strong&gt;. Don&#39;t be afraid to waste them. You&#39;ll keep getting new ideas. Don&#39;t sit on your ideas. (Validating for me wanting to &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/misc/what-was-up/november-2026/&quot;&gt;currently&lt;/a&gt; put 4 things out).&lt;/li&gt;
+&lt;li&gt;Comparison to writing -- once you write, you&#39;ll get more ideas. (I&#39;ve found this true for my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/interests/creative/writing/creative-writing/&quot;&gt;creative writing&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Can be bad if too many users come on at once when you&#39;re just getting started. Slow growth can be better. (Makes me think of new things crashing their servers when they get a lot of traffic e.g. from a viral Reddit post)&lt;/li&gt;
+&lt;li&gt;What are your blind spots? -- programmers tend to think that their things aren&#39;t valuable because we can build everything ourselves.
+&lt;ul&gt;
+&lt;li&gt;(This point becomes more interesting in the new AI world where it&#39;s so much easier for someone to build something)&lt;/li&gt;
+&lt;li&gt;(Side note - something on my mind is how much I should absorb the &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/media-i-have-consumed/podcasts/indie-hackers-podcast/indie-hackers-podcast/&quot;&gt;Indie Hackers Podcast&lt;/a&gt; advice because a lot of the thoughts and approaches may be different now in the AI world. But I feel that a lot of the fundamental advise and experiences still applies, even if the industry is changing drastically.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;quot;Making a feature that we thought was really cool but no one has even used it once&amp;quot;. It happens sometimes, it&#39;s fine.&lt;/li&gt;
+&lt;li&gt;When you have the security of a full time job, it&#39;s a luxury. You can launch a side project with almost zero risk. (A benefit I shouldn&#39;t take for granted)&lt;/li&gt;
+&lt;li&gt;&amp;quot;If you force yourself to do it, it&#39;s probably the wrong thing&amp;quot;. &amp;quot;If it stops being fun, i usually kill it (or hire someone else to do it)&amp;quot;.
+&lt;ul&gt;
+&lt;li&gt;Reminds me of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/media-i-have-consumed/misc/hank-green-tells-me-to-fall-downhill/&quot;&gt;Hank Green Tells Me To Fall Downhill&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A form of motivation: ppl telling you they think your idea won&#39;t work / isn&#39;t good. (Can i apply this to any of my canceled projects? (e.g. &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/projects/software/grocery-receipt-tracker/&quot;&gt;Grocery Receipt Tracker&lt;/a&gt;) e.g. did I give up to easily rather than being motivated by challenges?)&lt;/li&gt;
+&lt;li&gt;If people are passionate about your idea, even if negative, it might mean there&#39;s something good to your idea&lt;/li&gt;
+&lt;li&gt;Don&#39;t be afraid to push the status quo, to push people&#39;s buttons with your idea&lt;/li&gt;
+&lt;li&gt;Be an oversharer. Put your projects out there, even just talk about them or share demos online.
+&lt;ul&gt;
+&lt;li&gt;(Digital garden. Though, maybe expand reach through Twitter. Similar thoughts in &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/media-i-have-consumed/podcasts/indie-hackers-podcast/pieter-levels-of-nomad-list-indie-hackers-ep-043/&quot;&gt;Pieter Levels of Nomad List - Indie Hackers Ep. 043&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;If you&#39;re quiet, it&#39;s hard to get noticed.&lt;/li&gt;
+&lt;li&gt;(On email newsletters/blogs)
+&lt;ul&gt;
+&lt;li&gt;Every email list has started with one subscriber&lt;/li&gt;
+&lt;li&gt;Consistency is important. Publishing once a week is better than doing it in bigger bursts less frequently.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <atom:link href="https://brianscorner.net/media-i-have-consumed/podcasts/indie-hackers-podcast/tobias-van-schneider-indie-hackers-ep-035/"></atom:link>
+        </entry>
+        <entry>
+            <title>
                 The Right Way to Talk to People About Your Business - Indie Hackers Podcast
                 
             </title>
@@ -3330,10 +3390,11 @@ But most of the last two seasons were disappointing, and unfortunately that&#39;
                 Pieter Levels of Nomad List - Indie Hackers Ep. 043
                 
             </title>
-            <updated>2026-11-24T04:25:36.000Z</updated>
+            <updated>2026-11-24T04:34:05.000Z</updated>
             <id>https://brianscorner.net/media-i-have-consumed/podcasts/indie-hackers-podcast/pieter-levels-of-nomad-list-indie-hackers-ep-043/</id>
             <content type="html">
-                &lt;p&gt;&lt;a href=&quot;https://indiehackers.transistor.fm/episodes/043-confronting-your-fears-and-taking-a-leap-with-pieter-levels-of-nomad-list&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://indiehackers.transistor.fm/episodes/043-confronting-your-fears-and-taking-a-leap-with-pieter-levels-of-nomad-list&lt;/a&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;a href=&quot;https://indiehackers.transistor.fm/episodes/043-confronting-your-fears-and-taking-a-leap-with-pieter-levels-of-nomad-list&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://indiehackers.transistor.fm/episodes/043-confronting-your-fears-and-taking-a-leap-with-pieter-levels-of-nomad-list&lt;/a&gt;&lt;br /&gt;
+Released January 17, 2018&lt;/p&gt;
 &lt;p&gt;Notes from listening to this episode:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Dont spend too much time on one startup idea&lt;/li&gt;
@@ -3360,7 +3421,7 @@ But most of the last two seasons were disappointing, and unfortunately that&#39;
                 Indie Hackers Podcast
                 
             </title>
-            <updated>2026-05-30T19:45:49.000Z</updated>
+            <updated>2026-11-24T04:34:05.000Z</updated>
             <id>https://brianscorner.net/media-i-have-consumed/podcasts/indie-hackers-podcast/indie-hackers-podcast/</id>
             <content type="html">
                 &lt;p&gt;A podcast with interviews giving advice on bootstrapping a product/app.&lt;/p&gt;
@@ -3369,6 +3430,8 @@ But most of the last two seasons were disappointing, and unfortunately that&#39;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/media-i-have-consumed/podcasts/indie-hackers-podcast/1-second-everyday-indie-hackers-podcast/&quot;&gt;1 Second Everyday - Indie Hackers Podcast&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/media-i-have-consumed/podcasts/indie-hackers-podcast/daniel-vassallo-indie-hackers-podcast/&quot;&gt;Daniel Vassallo - Indie Hackers Podcast&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/media-i-have-consumed/podcasts/indie-hackers-podcast/the-right-way-to-talk-to-people-about-your-business-indie-hackers-podcast/&quot;&gt;The Right Way to Talk to People About Your Business - Indie Hackers Podcast&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/media-i-have-consumed/podcasts/indie-hackers-podcast/pieter-levels-of-nomad-list-indie-hackers-ep-043/&quot;&gt;Pieter Levels of Nomad List - Indie Hackers Ep. 043&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/media-i-have-consumed/podcasts/indie-hackers-podcast/tobias-van-schneider-indie-hackers-ep-035/&quot;&gt;Tobias van Schneider - Indie Hackers Ep. 035&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
