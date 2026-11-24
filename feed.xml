@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://brianscorner.net/feed.xml" rel="self"></atom:link>
     <atom:link href="https://brianscorner.net"></atom:link>
-    <updated>2026-11-24T19:26:59Z</updated>
+    <updated>2026-11-24T21:45:33Z</updated>
     <id>https://brianscorner.net</id>
         <entry>
             <title>
@@ -9877,13 +9877,30 @@ I also started recently (2026) following raminnazer on Instagram which also fits
                 Creative Coding
                 
             </title>
-            <updated>2026-11-24T19:24:54.000Z</updated>
+            <updated>2026-11-24T21:45:33.000Z</updated>
             <id>https://brianscorner.net/interests/creative/coding/creative-coding/</id>
             <content type="html">
                 &lt;p&gt;Some videos about creative coding&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=eCtOUBIkyyw&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.youtube.com/watch?v=eCtOUBIkyyw&lt;/a&gt; talk by Dan Shiffman. I haven&#39;t thought about it in a long time, but I used to watch his Coding Train videos quite often. I never really acted on the ideas presented in those videos, so I&#39;m curious to see if I have a similar feeling of inspiration in my current life as(/if?) I venture into trying out creative coding.&lt;/li&gt;
 &lt;li&gt;10 years of daily sketching, Zach Lierberman &lt;a href=&quot;https://www.youtube.com/watch?v=CaF0t8QrQjE&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.youtube.com/watch?v=CaF0t8QrQjE&lt;/a&gt;. helping me understand more examples of creative coding. Inspiring.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I am still learning about the creative coding space. I think it is an untapped part of my interest in programmed which I have not devoted much time to.&lt;/p&gt;
+&lt;p&gt;I think a big area of interest for me in creative coding is in graphics and simulation.&lt;/p&gt;
+&lt;p&gt;Some past ideas that come to mind when I think about what might fit into creative coding:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Natural selection. I&#39;ve had an idea in mind for a long time to create some kind of natural selection (like, biological survival of the fittest) simulation. There would be competing organisms who would pressure biological change and ideally it would be demonstrated in some interesting animated way. I could see myself exploring other biological/ecological concepts as well in similar ways.&lt;/li&gt;
+&lt;li&gt;Juggling + computer vision + music. Something like a rhythm game where when the ball reaches its peak (or lands on your hand), it triggers a note, and the note changes depending on the throw height, and maybe you have to match it to a specified melody (or maybe non-gamified it would just be a way to make music).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Diving into my Google Keep notes to find other related ideas I&#39;ve had in the past&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;quot;bio simulation idea: Merodiploid genotypes for beta-galactosidase activity&amp;quot; (oct 26, 2021)
+&lt;ul&gt;
+&lt;li&gt;I... don&#39;t remember what this means, but I&#39;m guessing it is a result of the cell biology class I took in college.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;quot;butterfly effect simulation: change an initial condition about some environmental aspect, and see how that impacts characters walking around, interacting with each other, and making decisions.&amp;quot;&lt;/li&gt;
+&lt;li&gt;Simulating ocean/waves/water&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
