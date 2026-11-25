@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/interests/reading/book-highlights-color-code/","dgPassFrontmatter":true}
 ---
 
-I like to highlight passes that stand out to me in e-books^[I read 99% of books in e-book form]. Over the years I've developed a sort of loose color code for when I highlight something:
+I like to highlight passages that stand out to me in e-books^[I read 99% of books in e-book form]. Over the years I've developed a sort of loose color code for when I highlight something:
 
 - yellow for something in the writing that just generally stands out
 - blue for something that is funny according to some inside joke with myself or an allusion to other material
