@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://brianscorner.net/feed.xml" rel="self"></atom:link>
     <atom:link href="https://brianscorner.net"></atom:link>
-    <updated>2026-11-25T23:48:26Z</updated>
+    <updated>2026-11-25T23:56:55Z</updated>
     <id>https://brianscorner.net</id>
         <entry>
             <title>
@@ -10304,6 +10304,19 @@ Gen 3 images of my potential costume slifhtly diff styles each
                 
             </content>
             <atom:link href="https://brianscorner.net/creations/misc/halloween-costumes/2025-air-nomad-costume-unused/"></atom:link>
+        </entry>
+        <entry>
+            <title>
+                Creative Coding
+                
+            </title>
+            <updated>2026-11-25T23:56:55.000Z</updated>
+            <id>https://brianscorner.net/creations/creative-coding/</id>
+            <content type="html">
+                &lt;iframe src=&quot;https://brianscorner.net/scripts/creativecoding/sketch1_bubbles/&quot; title=&quot;Play1 — animated circles&quot; loading=&quot;lazy&quot; style=&quot;display:block; width:100%; max-width:800px; aspect-ratio:4/3; border:0;&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <atom:link href="https://brianscorner.net/creations/creative-coding/"></atom:link>
         </entry>
         <entry>
             <title>
