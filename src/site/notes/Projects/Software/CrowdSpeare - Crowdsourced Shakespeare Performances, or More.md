@@ -27,6 +27,8 @@ I found another (very) similar project: Sofa Shakespeare https://www.youtube.com
 
 My instinct, when finding something so similar to an idea I have, is to feel a slight blow. My idea wasn't as original as I thought. But I think that mindset should be smoothed over to something else. It provides validation to the idea -- it's something that people would be interested in. My take is also unique in its own way -- I'm proposing a platform, an interactive way for people to engage with this kind of project (whereas the Sofa Shakespeare was one person manually managing video allocation and submissions through Facebook). 
 
+Also, even if Sofa Shakesepare already compiled a version of a play, there are always new people and new interpretations that would make for an interesting performance -- that's kind of the beauty of Shakespeare and theater in general. There's always room for another take. CrowdSpeare could really be a living platform. A play that could be always changing.
+
 It's actually kind of funny that I approached this idea blindly -- I could imagine a scenario where I had been familiar with these prior examples and wanted to create a platform to automate the tedious organizational work. Instead, I had the crowdsourced production idea first, decided to build a platform to support it, and then realized there were more manual projects in the past.
 
 Other similar projects:
