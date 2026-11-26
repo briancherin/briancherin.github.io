@@ -11,3 +11,12 @@ body {
     min-height: 100vh;
     background: #f0f0f0;
 }
+
+/* p5 sets the canvas size and touch behavior inline. Fit its 4:3 drawing
+   into the iframe and let readers swipe the page over the animation. */
+canvas {
+    display: block;
+    width: min(100vw, calc(100vh * 4 / 3)) !important;
+    height: auto !important;
+    touch-action: auto !important;
+}

@@ -49,6 +49,6 @@ Open **Creations → Creative Coding** in your vault, or create a note under **P
 <iframe src="https://brianscorner.net/scripts/creativecoding/sketch2_ripples/" title="Sketch 2 — Ripples" loading="lazy" style="display:block; width:100%; max-width:800px; aspect-ratio:4/3; border:0;"></iframe>
 ```
 
-Use your sketch's folder name and title. The example dimensions suit an 800 × 600 canvas. Adjust the width and aspect ratio for other sizes, and check the embed at phone width.
+Use your sketch's folder name and title. The iframe sets the space on the page. For a fixed-size p5 canvas, copy the `canvas` rule from the [Bubbles stylesheet](src/site/scripts/creativecoding/sketch1_bubbles/css/style.css) into your sketch's CSS so the whole drawing fits that space on phones. Match the ratio in both places to the canvas dimensions (4:3 for Bubbles). For an animation, `touch-action: auto` lets readers scroll the page with a swipe over the canvas.
 
 For later updates, copy the changed sketch files into the same garden folder and repeat the preview and deploy step. The existing Obsidian embed will pick up the new version at the same URL.
