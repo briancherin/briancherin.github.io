@@ -3,7 +3,7 @@
     <title>Brian&#39;s Corner</title>
     <atom:link href="https://brianscorner.net/feed.xml" rel="self"></atom:link>
     <atom:link href="https://brianscorner.net"></atom:link>
-    <updated>2026-11-25T23:57:07Z</updated>
+    <updated>2026-11-26T00:08:57Z</updated>
     <id>https://brianscorner.net</id>
         <entry>
             <title>
@@ -10310,10 +10310,12 @@ Gen 3 images of my potential costume slifhtly diff styles each
                 Creative Coding
                 
             </title>
-            <updated>2026-11-25T23:57:07.000Z</updated>
+            <updated>2026-11-26T00:08:57.000Z</updated>
             <id>https://brianscorner.net/creations/creative-coding/</id>
             <content type="html">
-                &lt;iframe src=&quot;https://brianscorner.net/scripts/creativecoding/sketch1_bubbles/&quot; title=&quot;Sketch 1 - Bubbles&quot; loading=&quot;lazy&quot; style=&quot;display:block; width:100%; max-width:800px; aspect-ratio:4/3; border:0;&quot;&gt;&lt;/iframe&gt;
+                &lt;p&gt;Don&#39;t know if I&#39;ll keep up with this, but here&#39;s one &amp;quot;sketch&amp;quot; at least. This is done using the p5.js library. More general thoughts on creative coding &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://brianscorner.net/interests/creative/coding/creative-coding/&quot;&gt;here&lt;/a&gt;. The &amp;quot;sketches&amp;quot; idea mostly inspired by &lt;a href=&quot;https://www.youtube.com/watch?v=CaF0t8QrQjE&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Zach Lierberman&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;sketch-1-bubbles&quot; tabindex=&quot;-1&quot;&gt;Sketch 1 - Bubbles&lt;/h4&gt;
+&lt;iframe src=&quot;https://brianscorner.net/scripts/creativecoding/sketch1_bubbles/&quot; title=&quot;Sketch 1 - Bubbles&quot; loading=&quot;lazy&quot; style=&quot;display:block; width:100%; max-width:800px; aspect-ratio:4/3; border:0;&quot;&gt;&lt;/iframe&gt;
 
             </content>
             <atom:link href="https://brianscorner.net/creations/creative-coding/"></atom:link>
